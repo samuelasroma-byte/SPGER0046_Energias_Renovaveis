@@ -10,12 +10,23 @@ python scripts/baixar_dados_originais.py
 python tests/verificar_organizacao.py
 python tests/verificar_ciencia.py
 python tests/verificar_refinamento.py
+python tests/verificar_distribuicao_editorial.py
 ```
 
 As verificações usam os dados e resultados existentes. Para recalcular a cadeia física, execute `python scripts/executar_projeto.py`. Esse comando escreve saídas; use uma cópia de trabalho. Os quatro CSVs brutos e os metadados estão incluídos no repositório, com os SHA-256 registrados em `data/raw/fontes_pvdaq.json`. A rotina de download recupera as fontes oficiais quando necessário.
 
 O notebook principal está em [notebooks](../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb), e o bibliográfico em [bibliografia](../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb). Os originais executados do Drive foram preservados em [originais fotovoltaicos](../notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb) e [originais bibliográficos](../bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb), sem alterar suas células ou saídas. Suas rotinas opcionais de exportação ao Drive dependem de autenticação própria do usuário.
 
-O notebook e o script existente encontram a raiz pelos arquivos do projeto. Os caminhos computacionais `src`, `config`, `data`, `outputs` e `bibliografia` foram preservados. A nova navegação em `secoes` usa os arquivos originais com links relativos; não exige mudar as equações nem os caminhos do cálculo.
+O notebook e o script existente encontram a raiz pelos arquivos do projeto. Os dados e tabelas numéricas mantêm seus caminhos computacionais. Os gráficos finais ficam exclusivamente na seção atribuída pelo [mapa editorial](Distribuicao_Editorial.md); `src/editorial_fv.py` aplica essa regra à exportação, ao notebook e ao relatório. O pacote ZIP de resultados inclui `outputs`, `secoes` e a política editorial. A exportação pessoal opcional ao Drive inclui esse ZIP completo.
+
+Para atualizar os índices e os quatro Word tabulares, sem recalcular os dados:
+
+```bash
+python scripts/distribuir_materiais_editoriais.py
+python scripts/gerar_tabulares_por_secao.py
+python build_notebook_v1_2.py
+```
+
+Os originais executados e os [relatórios históricos](../outputs/relatorios/originais/README.md) preservam as associações temáticas anteriores. Para a redação atual, cada material tem uma única subseção responsável; referências em outros trechos devem citar seu ID sem repeti-lo.
 
 O parâmetro `--graficos` regenera ilustrações apenas quando solicitado. As 120 exportações finais publicadas foram recuperadas do Drive e não foram regeneradas nesta integração. O modelo principal permanece separado do ajuste empírico treinado em abril. POA, temperatura do ar, vento e potência AC observada são medições; temperatura de célula, curvas elétricas, perdas e cenários BIPV são calculados ou assumidos conforme o dossiê.

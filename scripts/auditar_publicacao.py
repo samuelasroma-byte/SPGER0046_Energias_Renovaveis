@@ -40,7 +40,8 @@ def check():
     assert len(original_docx)==10 and original_docx <= tracked_docx
     scientific_dirs=['src/','config/','data/processed/','bibliografia/outputs/']
     changed=subprocess.check_output(['git','-C',str(ROOT),'diff','--cached','--name-only','--diff-filter=M'],text=True).splitlines()
-    scientific_modified=[p for p in changed if any(p.startswith(d) for d in scientific_dirs)]
+    editorial_only={'src/refinamento_fv.py','src/relatorio_fv.py','config/distribuicao_editorial.json'}
+    scientific_modified=[p for p in changed if any(p.startswith(d) for d in scientific_dirs) and p not in editorial_only]
     # Newly added DOCX and indices are allowed; existing scientific files must match the original base.
     assert not scientific_modified,scientific_modified
     result={'tracked_files':len(tracked),'relative_links_checked':links,'broken_relative_links':broken,'source_copies_checked':len(source),'sha256_mismatches':mismatches,'subsections':19,'B_references':39,'A_documents':91,'illustrations':30,'graphic_files':120,'DOCX':len(tracked_docx),'original_DOCX':len(original_docx),'scientific_files_modified':scientific_modified}

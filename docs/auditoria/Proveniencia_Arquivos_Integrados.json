@@ -144,7 +144,7 @@
     "nome": "F04_geometrias_BIPV.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F04_geometrias_BIPV.png",
     "url_drive": "https://drive.google.com/file/d/1TES_Rsy4r5HHPFq0_6BT8Ts4AULQrY0u/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/figuras/escuro/F04_geometrias_BIPV.png",
     "bytes": 192866,
     "sha256": "aafb52def1563e77639cc8e91682913de0a405f19d2857128e9dcb04bd8d9086",
     "status": "publicado"
@@ -174,7 +174,7 @@
     "nome": "F01_plano_angulos.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F01_plano_angulos.png",
     "url_drive": "https://drive.google.com/file/d/1SHMzR4clSYfnvGLPs0U2mBYYgj1oq8FB/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F01_plano_angulos.png",
     "bytes": 317933,
     "sha256": "d9905bd0507b82ab9747c763f9d5bc4ada07e4f8f5af5fcb722709fdfc1c3f0c",
     "status": "publicado"
@@ -184,7 +184,7 @@
     "nome": "F04_geometrias_BIPV.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F04_geometrias_BIPV.pdf",
     "url_drive": "https://drive.google.com/file/d/1NtQDZ8MmaQrQxIHpD6_CQcruNVNL1X5-/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/figuras/escuro/F04_geometrias_BIPV.pdf",
     "bytes": 10585,
     "sha256": "11fa45d9da4afb8bcb43289c73875db52d538bb11f0abf63aa4e063132e6bb5b",
     "status": "publicado"
@@ -214,7 +214,7 @@
     "nome": "F01_plano_angulos.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F01_plano_angulos.pdf",
     "url_drive": "https://drive.google.com/file/d/16actMAzZLTG5k643AmY6xydmyGpDTucS/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F01_plano_angulos.pdf",
     "bytes": 12129,
     "sha256": "1c48b65a7a117220b529382afc0be2bf1a10db177b1829206912c5839e240183",
     "status": "publicado"
@@ -224,7 +224,7 @@
     "nome": "F04_geometrias_BIPV.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F04_geometrias_BIPV.png",
     "url_drive": "https://drive.google.com/file/d/1D9gbHO6um-855S4C0FvJs3sZ7x4GtiB-/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/figuras/claro/F04_geometrias_BIPV.png",
     "bytes": 191603,
     "sha256": "ff044ae217e6cae38e20ce52bd9219c65556bc34d61272bd4f7edd9cd58d5384",
     "status": "publicado"
@@ -254,7 +254,7 @@
     "nome": "F01_plano_angulos.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F01_plano_angulos.png",
     "url_drive": "https://drive.google.com/file/d/1NoKdXrsq-PnwCjbntjM9WyyO0__X1L3b/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.png",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F01_plano_angulos.png",
     "bytes": 316265,
     "sha256": "7d2dade3d8ca727f13efb2ef5fffce8bb93e9e2f9c6741113729175e7af82884",
     "status": "publicado"
@@ -264,7 +264,7 @@
     "nome": "F04_geometrias_BIPV.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F04_geometrias_BIPV.pdf",
     "url_drive": "https://drive.google.com/file/d/1cmqyJEfeub05fwPmTxaROd8qNgT21cB-/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/figuras/claro/F04_geometrias_BIPV.pdf",
     "bytes": 10553,
     "sha256": "19951e4706e07bfff0d924ce36680ee9d65cd531840cbcb3eda9bbe316f9a945",
     "status": "publicado"
@@ -294,7 +294,7 @@
     "nome": "F01_plano_angulos.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F01_plano_angulos.pdf",
     "url_drive": "https://drive.google.com/file/d/1KrZBPRo0zkWvJHv6YqTYC4zlUVuwNmnI/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F01_plano_angulos.pdf",
     "bytes": 12077,
     "sha256": "259a73ade108814f0c12a3609439f1d4c3c81532b9a080c5fe6289c36b666fe7",
     "status": "publicado"
@@ -354,7 +354,7 @@
     "nome": "G24_BIPV_orientacoes.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G24_BIPV_orientacoes.png",
     "url_drive": "https://drive.google.com/file/d/1B2Dri3B_vnTKyhblAAL6h3Y-pFApRtRV/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G24_BIPV_orientacoes.png",
     "bytes": 159625,
     "sha256": "13a882692a614ec738ae4027a6e438ab7444d2a731e59e653fa0f7b9cf124c27",
     "status": "publicado"
@@ -364,7 +364,7 @@
     "nome": "G23_componentes_estimadas.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G23_componentes_estimadas.png",
     "url_drive": "https://drive.google.com/file/d/1Nuxv0G09wEc6PQNMbYwdg6RqR5CnEXVM/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.png",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G23_componentes_estimadas.png",
     "bytes": 393168,
     "sha256": "cd231f8b21891876664d0e4eb7f1c0c0b1a90dc799ed534d89085f1b6c009425",
     "status": "publicado"
@@ -404,7 +404,7 @@
     "nome": "G19_consistencia_medicoes.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G19_consistencia_medicoes.png",
     "url_drive": "https://drive.google.com/file/d/10dc0rGzFp-VUwjzQ5gCfCPiUfW8mmnNL/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G19_consistencia_medicoes.png",
     "bytes": 1123190,
     "sha256": "1c23f2b2517d569f4ab825e0c98b85dfd6112bc8e3e677a2d94f1f532fa506d7",
     "status": "publicado"
@@ -554,7 +554,7 @@
     "nome": "G04_temperatura_estimada.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G04_temperatura_estimada.png",
     "url_drive": "https://drive.google.com/file/d/1BcO7w6qbnOisjiIZg5ktzGKQJeLH1eSv/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.png",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G04_temperatura_estimada.png",
     "bytes": 1718833,
     "sha256": "24f5a675e09570cbb11c35a950fc9bdd25ae55c6ff248fc098ed8ed1d3d2506e",
     "status": "publicado"
@@ -604,7 +604,7 @@
     "nome": "G24_BIPV_orientacoes.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G24_BIPV_orientacoes.pdf",
     "url_drive": "https://drive.google.com/file/d/1I6QHZ1izexaeZ81fUdoQeFROEv8uZFNd/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G24_BIPV_orientacoes.pdf",
     "bytes": 12228,
     "sha256": "4bf2b241053c9589aaa9a184fe9a8361ec27eb50ce84304167322b2347772adb",
     "status": "publicado"
@@ -614,7 +614,7 @@
     "nome": "G23_componentes_estimadas.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G23_componentes_estimadas.pdf",
     "url_drive": "https://drive.google.com/file/d/1pnrK3eZgok5auXChu8HgtpcJzyX4qdsj/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.pdf",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G23_componentes_estimadas.pdf",
     "bytes": 13002,
     "sha256": "70a1f19ced54b397bb940cc3719c07add495138f1138b573cb757b00613496de",
     "status": "publicado"
@@ -654,7 +654,7 @@
     "nome": "G19_consistencia_medicoes.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G19_consistencia_medicoes.pdf",
     "url_drive": "https://drive.google.com/file/d/1hSVCGylbzRk3p7T2BbHrsGTuyPch83k9/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G19_consistencia_medicoes.pdf",
     "bytes": 59032,
     "sha256": "14df0e95f6c4c15a2f9f615bb16bb8da570573acc6303c044576e4ab97fd2a7b",
     "status": "publicado"
@@ -804,7 +804,7 @@
     "nome": "G04_temperatura_estimada.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G04_temperatura_estimada.pdf",
     "url_drive": "https://drive.google.com/file/d/1HwuiS9-alLg2uilCUqKdmfKPBJHAc9xw/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.pdf",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G04_temperatura_estimada.pdf",
     "bytes": 99942,
     "sha256": "c6ec93086297b8e17aaf8741d2ef8c350f02fe4f24d2d1b7ebf7afd7c2deabb7",
     "status": "publicado"
@@ -854,7 +854,7 @@
     "nome": "G24_BIPV_orientacoes.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G24_BIPV_orientacoes.png",
     "url_drive": "https://drive.google.com/file/d/1FWaTLyL_JQKsVGIh28oiGlFG_-Nuh5sF/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G24_BIPV_orientacoes.png",
     "bytes": 156828,
     "sha256": "60d44ce4aeffe62f64da02eac7630b458e5bf5707a384d33cdd6d949c18ac9e2",
     "status": "publicado"
@@ -864,7 +864,7 @@
     "nome": "G23_componentes_estimadas.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G23_componentes_estimadas.png",
     "url_drive": "https://drive.google.com/file/d/1rgIQYJOGLOfp4bPU1w8vMqYunJKvFFfI/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.png",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G23_componentes_estimadas.png",
     "bytes": 389132,
     "sha256": "d03cfe0b1e78aeffa5bb11b2ebebc4dbdb0a753d17a15ffbfb1fb829e24dab69",
     "status": "publicado"
@@ -904,7 +904,7 @@
     "nome": "G19_consistencia_medicoes.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G19_consistencia_medicoes.png",
     "url_drive": "https://drive.google.com/file/d/1pzMGelTbR9gfdb4mkNHhtBdOArr-Amzp/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G19_consistencia_medicoes.png",
     "bytes": 1082038,
     "sha256": "7d01999cc15b5647917da103e93abe3a56d7e3f509e602b9830de3404fc3b619",
     "status": "publicado"
@@ -1054,7 +1054,7 @@
     "nome": "G04_temperatura_estimada.png",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G04_temperatura_estimada.png",
     "url_drive": "https://drive.google.com/file/d/1lgYLySnbdEVQz9DWuhzK2Js9eKlaCRjd/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.png",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G04_temperatura_estimada.png",
     "bytes": 2016284,
     "sha256": "5fa2cbd4b5ef3923d84044bdca94ea3108c4b082d9c88ad4ba1b63822abe92b6",
     "status": "publicado"
@@ -1104,7 +1104,7 @@
     "nome": "G24_BIPV_orientacoes.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G24_BIPV_orientacoes.pdf",
     "url_drive": "https://drive.google.com/file/d/1o8rpEio5YjYWeulKFb0IDsaI5PleOe2C/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G24_BIPV_orientacoes.pdf",
     "bytes": 12183,
     "sha256": "4fa5daf6cf188c3cb53fbafc74925b2d0d6da03eaeb661d7e4bacbbd1bc75309",
     "status": "publicado"
@@ -1114,7 +1114,7 @@
     "nome": "G23_componentes_estimadas.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G23_componentes_estimadas.pdf",
     "url_drive": "https://drive.google.com/file/d/1uy-stMv_dB4F5508s-wL2da4UFpkWjt-/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.pdf",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G23_componentes_estimadas.pdf",
     "bytes": 12936,
     "sha256": "51c5421567cfa26463b235379606d049e9faf89dde227219d213108f0f006802",
     "status": "publicado"
@@ -1154,7 +1154,7 @@
     "nome": "G19_consistencia_medicoes.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G19_consistencia_medicoes.pdf",
     "url_drive": "https://drive.google.com/file/d/164CYKfkWlv5DjAav1BMEtoHZVafbC5Nd/view?usp=drivesdk",
-    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G19_consistencia_medicoes.pdf",
     "bytes": 58972,
     "sha256": "a261e650b206bfeae46577718e0c1e84e2f305638f6e7ba4aa2d0cf143ab8796",
     "status": "publicado"
@@ -1304,7 +1304,7 @@
     "nome": "G04_temperatura_estimada.pdf",
     "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G04_temperatura_estimada.pdf",
     "url_drive": "https://drive.google.com/file/d/1bHEQWcaY3V194B20Wc6aO8k8P9noGQlG/view?usp=drivesdk",
-    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.pdf",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G04_temperatura_estimada.pdf",
     "bytes": 99855,
     "sha256": "efa3677b1a081f6546aadcad1e78b3a95fc52f119a6fbd006dfe6746d2571cf4",
     "status": "publicado"

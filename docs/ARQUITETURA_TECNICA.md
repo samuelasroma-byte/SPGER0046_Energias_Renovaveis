@@ -9,7 +9,7 @@ A proposta DOCX governa escopo, 19 subseções e cronograma. O notebook apresent
 3. Selecionar abril a junho de 2024 no horário local, converter os índices para UTC e as unidades para °C, m/s e W, mantendo lacunas e flags.
 4. Estimar temperatura operacional, MPP, potência CC e conversão CA. A medição CA é referência da validação; não entra como preditor.
 5. Exportar dados preparados, séries simuladas, métricas e tabelas a partir do mesmo contexto. Registrar os hashes, versões e critérios em outputs/logs.
-6. Selecionar figuras e tabelas para a redação das seções. A inversão e o BIPV são explorações identificadas.
+6. Inserir cada figura, gráfico, tabela e quadro apenas na subseção atribuída em [distribuicao_editorial.json](../config/distribuicao_editorial.json). Os índices, o notebook e o relatório HTML usam essa mesma atribuição. A inversão e o BIPV são explorações identificadas.
 
 ## Execução
 
@@ -26,6 +26,8 @@ python scripts/executar_projeto.py --graficos
 ```
 
 O notebook principal também preserva seu modo de execução original. A primeira célula contém um pacote de apoio para uso autônomo no Colab; sua atualização científica deve acompanhar src e config. Não executar cópias divergentes por seção.
+
+`scripts/distribuir_materiais_editoriais.py` atualiza a navegação e os caminhos sem alterar bytes gráficos ou valores numéricos. `scripts/gerar_tabulares_por_secao.py` extrai tabelas e quadros editáveis para quatro Word com atribuição exclusiva. Consulte o [mapa de inserção única](Distribuicao_Editorial.md).
 
 ## Publicação e tamanho
 

@@ -41,30 +41,27 @@ $$I=I_L-I_0[\exp((V+IR_s)/a)-1]-(V+IR_s)/R_{sh},\quad P=VI.$$
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
 | G05_curvas_irradiancia — Curvas elétricas para diferentes irradiâncias | 3.3 | [Claro](../../graficos/claro/G05_curvas_irradiancia.png) / [Escuro](../../graficos/escuro/G05_curvas_irradiancia.png) | [Claro](../../graficos/claro/G05_curvas_irradiancia.pdf) / [Escuro](../../graficos/escuro/G05_curvas_irradiancia.pdf) |
 | G06_curvas_temperatura — Curvas elétricas para diferentes temperaturas | 3.3 | [Claro](../../graficos/claro/G06_curvas_temperatura.png) / [Escuro](../../graficos/escuro/G06_curvas_temperatura.png) | [Claro](../../graficos/claro/G06_curvas_temperatura.pdf) / [Escuro](../../graficos/escuro/G06_curvas_temperatura.pdf) |
-| F03_arranjo_eletrico — Organização elétrica do sistema de referência | 3.3; 3.4; 3.5 | [Claro](../../figuras/claro/F03_arranjo_eletrico.png) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.png) | [Claro](../../figuras/claro/F03_arranjo_eletrico.pdf) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.pdf) |
 
 **G05_curvas_irradiancia:** Temperatura fixa de 25 °C; modelo de diodo único com parâmetros CEC do módulo. Círculos indicam MPP. Curvas calculadas, não ensaios I–V da instalação. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R08; R10.
 
 **G06_curvas_temperatura:** Irradiância fixa de 1.000 W/m²; modelo de diodo único com parâmetros CEC do módulo. Círculos indicam MPP. Curvas calculadas, não ensaios I–V da instalação. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R08; R10.
 
-**F03_arranjo_eletrico:** Número de módulos, inversores e módulos por grupo documentados. Associação 20 em série por 6 strings é um equivalente didático de 120 módulos, não confirmação da fiação/MPPT real. Tensões e correntes desse equivalente são calculadas em CSV. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R10; R13.
+## Tabelas e quadros de inserção exclusiva
 
-## Tabelas e quadros
+Não há tabela ou quadro Word atribuído a esta subseção.
 
-| Tabela CSV | Subseções |
-| --- | --- |
-| [arranjo_equivalente_diurno](../../../../outputs/tabelas/csv/arranjo_equivalente_diurno.csv) | 3.3; 3.4 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+Não há CSV de tabela atribuído a esta subseção.
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

@@ -1,7 +1,9 @@
-# Quadros — seção 2
+# Quadros da seção 2
 
-[Baixar Quadros_do_Projeto.docx](../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
 
-[Quadros de equipamentos e dados no dossiê técnico](../../../docs/metodos/Dossie_Tecnico_por_Secao.docx)
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| Q04 | Ambiente e instalação | 2.4 |
 
-[Situação dos dados em CSV](../../../outputs/tabelas/csv/situacao_dos_dados.csv)
+[Baixar o Word com os materiais tabulares desta seção](../tabelas/docx/Materiais_Tabulares_Secao_02.docx).

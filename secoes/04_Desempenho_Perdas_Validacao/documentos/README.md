@@ -1,17 +1,12 @@
-# Documentos — seção 4
+# Documentos para a seção 4
 
-Os documentos multisseção têm uma cópia principal preservada.
+[Materiais tabulares exclusivos desta seção](../tabelas/docx/Materiais_Tabulares_Secao_04.docx)
 
-| Word original | Abrir / baixar |
-| --- | --- |
-| Proposta_do_Capitulo_Recurso_Solar_FV.docx | [Proposta_do_Capitulo_Recurso_Solar_FV.docx](../../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) |
-| Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx | [Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx](../../../docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx) |
-| Plano_Equipe_SPGER0046.docx | [Plano_Equipe_SPGER0046.docx](../../../docs/planejamento/Plano_Equipe_SPGER0046.docx) |
-| Referencias_por_Subsecao.docx | [Referencias_por_Subsecao.docx](../../../bibliografia/outputs/Referencias_por_Subsecao.docx) |
-| Dossie_Tecnico_por_Secao.docx | [Dossie_Tecnico_por_Secao.docx](../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) |
-| Ilustracoes_FV.docx | [Ilustracoes_FV.docx](../../../outputs/figuras/docx/Ilustracoes_FV.docx) |
-| Fluxogramas_do_Projeto.docx | [Fluxogramas_do_Projeto.docx](../../../outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx) |
-| Quadros_do_Projeto.docx | [Quadros_do_Projeto.docx](../../../outputs/quadros/docx/Quadros_do_Projeto.docx) |
-| Tabelas_do_Projeto.docx | [Tabelas_do_Projeto.docx](../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) |
+## Documentos comuns de orientação
 
-[Graficos_do_Projeto.docx — original completo de 14,5 MB](../../../outputs/graficos/docx/Graficos_do_Projeto.docx). Os 25 gráficos também estão publicados individualmente nos dois temas e formatos.
+Estes documentos apoiam a leitura dos dados e a organização da equipe. A seleção de ilustrações e tabelas para inserir está exclusivamente nos índices da seção.
+
+- [Guia técnico resumido](../../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx)
+- [Dossiê técnico dos dados e equipamentos](../../../docs/metodos/Dossie_Tecnico_por_Secao.docx)
+- [Proposta oficial do capítulo](../../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)
+- [Referências por subseção](../../../bibliografia/outputs/Referencias_por_Subsecao.docx)

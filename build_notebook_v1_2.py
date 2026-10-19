@@ -4,9 +4,9 @@ import io,zipfile,base64,hashlib,json
 import nbformat as nbf
 ROOT=Path(__file__).resolve().parent
 SECTIONS=json.loads((ROOT/'docs/secoes_capitulo.json').read_text())
-files=['bibliografia/formatacao_abnt.py','src/projeto_fv.py','src/refinamento_fv.py','src/relatorio_fv.py',
-       'config/projeto.json','config/modulo_cec.json','config/inversor_cec.json',
-       'data/raw/fontes_pvdaq.json','docs/secoes_capitulo.json','scripts/gerar_documentos.py','scripts/gerar_dossie_tecnico.py',
+files=['bibliografia/formatacao_abnt.py','src/projeto_fv.py','src/refinamento_fv.py','src/relatorio_fv.py','src/editorial_fv.py',
+       'config/projeto.json','config/modulo_cec.json','config/inversor_cec.json','config/distribuicao_editorial.json',
+       'data/raw/fontes_pvdaq.json','docs/secoes_capitulo.json','scripts/gerar_documentos.py','scripts/gerar_dossie_tecnico.py','scripts/gerar_tabulares_por_secao.py',
        'references/referencias_projeto.json','references/Referencias_do_Projeto.md','references/referencias_projeto.bib']
 buf=io.BytesIO()
 with zipfile.ZipFile(buf,'w',zipfile.ZIP_DEFLATED) as z:
@@ -24,8 +24,9 @@ description('**Versão 1.2.2.** Farm Solar Array PVDAQ 2107, Califórnia, abril 
     'As descrições usam HTML details fechado por padrão; a renderização e o recolhimento por título variam entre JupyterLab e Colab. '
     'O relatório HTML exportado conserva os blocos recolhíveis. A execução local não simula a autenticação Google nem a interface Colab.')
 md('**Como usar:** execute as células na ordem. As saídas ficam em outputs, separadas em tabelas, quadros, graficos, fluxogramas e figuras. '
-   'Cada figura final possui PDF vetorial e PNG a 600 dpi nos temas claro e escuro. Seis DOCX claros reúnem as categorias e o dossiê técnico para redação. '
-   'A exportação pessoal ao Drive é opcional e exige autenticação no Colab.\n\n'
+   'Cada figura final possui PDF vetorial e PNG a 600 dpi nos temas claro e escuro em secoes. Quatro DOCX separados reúnem as tabelas e quadros de cada seção; as coleções consolidadas servem para consulta. '
+   'A exportação pessoal ao Drive é opcional e exige autenticação no Colab. '
+   '**Inserção editorial única:** cada figura, gráfico e tabela possui somente uma subseção responsável. Usar o mapa config/distribuicao_editorial.json e citar o ID em outras partes, sem reinserir o material. As quatro versões de uma ilustração são alternativas de formato e tema.\n\n'
    '**Sumário:** '+ ' · '.join('['+s['id']+'](#sec_'+s['id'].replace('.','_')+')' for s in SECTIONS))
 title('## 0 Preparação e sistema de referência')
 description('O modelo representa uma instalação real. Equipamentos: 2.880 módulos e 24 inversores. '
@@ -51,6 +52,7 @@ ROOT=next((p for p in [Path.cwd(),*Path.cwd().parents] if (p/"src/projeto_fv.py"
 if ROOT is None:ROOT=Path.cwd()/"Projeto_FV_PVDAQ_2107_2024"
 update=not (ROOT/"config/projeto.json").exists()
 if not update:update=json.loads((ROOT/"config/projeto.json").read_text()).get("version")!="1.2.2"
+if not (ROOT/"config/distribuicao_editorial.json").exists():update=True
 if update:
     with zipfile.ZipFile(io.BytesIO(support)) as archive:
         for item in archive.infolist():
@@ -63,9 +65,9 @@ if update:
             dest.parent.mkdir(parents=True,exist_ok=True)
             dest.write_bytes(archive.read(item.filename))
 sys.path.insert(0,str(ROOT/"src"))
-import projeto_fv as fv,refinamento_fv as rf,relatorio_fv as rel
+import projeto_fv as fv,refinamento_fv as rf,relatorio_fv as rel,editorial_fv as editorial
 import importlib
-for module in [fv,rf,rel]:importlib.reload(module)
+for module in [fv,rf,rel,editorial]:importlib.reload(module)
 import numpy as np,pandas as pd,pvlib
 from IPython.display import display,Markdown,HTML
 display(HTML("<style>.text_cell_render,.jp-RenderedHTMLCommon{font:20px/1.65 Arial,sans-serif}.dataframe{font-size:17px}td,th{padding:8px}summary{cursor:pointer}</style>"))
@@ -86,13 +88,12 @@ description('O filtro diurno usa NOAA ≥10° para preservar o denominador da au
     'As médias de 15 minutos dos canais de 5 minutos exigem três amostras. O fator empírico secundário usa somente abril.')
 code('''CTX=fv.complete_pipeline(ROOT,make_plots=False,include_nasa=False,reverse=EXECUTAR_INVERSAO_EXPLORATORIA)
 D,A=CTX["data"],CTX["model_a"]
-display(pd.DataFrame([CTX["audit"]]))
-display(fv.data_status())
 print("Cobertura conjunta diurna:",100*CTX["audit"]["available_daylight_15m"]/CTX["audit"]["expected_daylight_15m"],"%")
+print("O quadro de disponibilidade dos dados é exibido exclusivamente em 1.4.")
 ''')
 title('### 0.2 Exportações e diagnósticos')
 description('Dados e filtros idênticos geram os dois temas. Cada figura possui fonte, legenda, natureza da evidência e subseção no catálogo. '
-    'Os resultados são exibidos nas subseções que os utilizam.')
+    'Cada ilustração é exibida somente na sua subseção de inserção editorial. As demais subseções a citam sem repetir a exibição.')
 code('''rf.generate_all(CTX,reuse_checked=REUTILIZAR_FIGURAS_VERIFICADAS)
 rel.coverage(CTX)
 print("Figuras:",len(CTX["figures"]),"| arquivos finais PDF/PNG:",4*len(CTX["figures"]))
@@ -111,17 +112,17 @@ special={
 '1.4':'display(pd.DataFrame([CTX["audit"]])); display(fv.data_status())',
 '2.1':'display(CTX["analytics_tables"]["estatistica_descritiva"].iloc[:4])',
 '2.2':'display(CTX["environment_scenarios"]) if len(CTX["environment_scenarios"]) else print("Albedo: cenário omitido sem inversão.")',
-'2.3':'display(CTX["environment_sensitivity"]); display(CTX["operational_flags"].head())',
+'2.3':'display(CTX["environment_sensitivity"])',
 '2.4':'display(pd.DataFrame([CFG["site"]]))',
 '3.1':'display(pd.DataFrame([CTX.get("reverse_summary",{"executed":False})]))',
-'3.2':'display(A.loc[D.paired_daylight,["temp_cell_proxy_C"]].describe())',
+'3.2':'display(pd.DataFrame([{k:CFG["assumptions"][k] for k in ["faiman_u0","faiman_u1","faiman_temperature_used_as_cell_proxy"]}]))',
 '3.3':'print("Curvas CEC calculadas; não são varreduras experimentais.")',
 '3.4':'display(CTX["analytics_tables"]["arranjo_equivalente_diurno"].head().round(3))',
 '3.5':'display(CTX["capacity_sensitivity"].round(4))',
 '3.6':'display(CTX["analytics_tables"]["energia_e_indicadores_mensais"].round(3))',
-'4.1':'display(CTX["energy_stages"].round(3))',
-'4.2':'display(CTX["yields"].round(4))',
-'4.3':'display(CTX["yields"][["PR_model","PR_observed_paired","Lc_model_h","Ls_model_h"]].round(5))',
+'4.1':'display(CTX["energy_stages"].round(3)); display(CTX["operational_flags"].head())',
+'4.2':'display(CTX["analytics_tables"]["energia_e_HSP_diurna_pareada"][["day_local","PSH_POA_paired_h","paired_intervals"]].head().round(4))',
+'4.3':'display(CTX["yields"].round(5))',
 '4.4':'display(CTX["metrics"].round(5)); display(CTX["analytics_tables"]["metricas_por_mes"].round(4)); display(pd.DataFrame([CTX["meter_inverter_consistency"]]).round(4))',
 '4.5':'display(CTX["bipv_comparison"].round(4)) if "bipv_comparison" in CTX else print("BIPV omitido sem inversão.")'}
 for group in range(1,5):
@@ -142,20 +143,21 @@ for r in REFERENCIAS:
     display(Markdown("**"+r["id"]+"** — "+r["citation"]+"\\n\\n"+r["url"]+"\\n\\nUso: "+r["role"]))
 ''')
 title('# 6 Documentos e relatório')
-description('Seis DOCX: tabelas com três traços horizontais, quadros com grade, coleção completa de 30 gráficos e diagramas, arquivos separados de ilustrações e fluxograma e dossiê técnico por seção. Papel A4, margens superior/esquerda de 3 cm e inferior/direita de 2 cm; Times New Roman 12 em todo o texto nativo, com títulos de tabelas e figuras centralizados. '
+description('Quatro DOCX editoriais contêm apenas as tabelas e quadros atribuídos a cada seção. As seis coleções consolidadas e o dossiê servem como consulta da execução. Papel A4, margens superior/esquerda de 3 cm e inferior/direita de 2 cm; Times New Roman 12 no texto nativo, com títulos de tabelas e figuras centralizados. '
     'O relatório HTML possui tema alternável e descrições recolhíveis. Conferência visual de Word requer renderizador disponível.')
 code('''if GERAR_DOCX:
     python_documentos=os.environ.get("CODEX_PRIMARY_RUNTIME_PYTHON",sys.executable)
     subprocess.run([python_documentos,str(ROOT/"scripts/gerar_documentos.py")],check=True)
+    subprocess.run([python_documentos,str(ROOT/"scripts/gerar_tabulares_por_secao.py")],check=True)
     subprocess.run([python_documentos,str(ROOT/"scripts/gerar_dossie_tecnico.py")],check=True)
-    display(pd.DataFrame([{"arquivo":str(p.relative_to(ROOT/"outputs")),"bytes":p.stat().st_size} for p in sorted((ROOT/"outputs").rglob("*.docx"))]))
+    display(pd.DataFrame([{"arquivo":str(p.relative_to(ROOT)),"bytes":p.stat().st_size} for p in sorted((ROOT/"secoes").glob("*/tabelas/docx/*.docx"))]))
 print(rel.report(CTX))
 print("Matriz:",ROOT/"outputs/relatorios/Matriz_de_Cobertura_do_Capitulo.md")
 ''')
 title('# 7 Pacote de resultados e exportação opcional ao Drive')
 description('Ative SALVAR_RESULTADOS_NO_DRIVE para uma execução pessoal no Colab. A célula cria uma pasta datada com a hierarquia preservada; '
     'autenticação é pessoal, sem tokens no notebook. O pacote contém todas as saídas locais.')
-code('''ZIP_RESULTADOS=fv.zip_results(CTX)
+code('''ZIP_RESULTADOS=editorial.zip_results(CTX)
 print("Resultados compactados:",ZIP_RESULTADOS)
 try:
     IS_COLAB=importlib.util.find_spec("google.colab") is not None

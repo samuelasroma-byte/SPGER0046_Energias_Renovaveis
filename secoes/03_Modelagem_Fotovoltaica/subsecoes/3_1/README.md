@@ -40,37 +40,26 @@ $$G_{\mathrm{POA}}=DNI\max(\cos\theta_i,0)+G_{\mathrm{céu}}+G_{\mathrm{solo}}.$
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G22_albedo — Sensibilidade ao albedo assumido | 2.2; 3.1 | [Claro](../../../02_Condicoes_Ambientais/graficos/claro/G22_albedo.png) / [Escuro](../../../02_Condicoes_Ambientais/graficos/escuro/G22_albedo.png) | [Claro](../../../02_Condicoes_Ambientais/graficos/claro/G22_albedo.pdf) / [Escuro](../../../02_Condicoes_Ambientais/graficos/escuro/G22_albedo.pdf) |
-| G23_componentes_estimadas — Componentes reconstruídas da POA | 1.2; 3.1 | [Claro](../../../01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.png) / [Escuro](../../../01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.png) | [Claro](../../../01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.pdf) / [Escuro](../../../01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.pdf) |
-| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](../../../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../../../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../../../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
-| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](../../../01_Recurso_Solar/figuras/claro/F01_plano_angulos.png) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png) | [Claro](../../../01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf) |
-| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2; 2.2; 3.1 | [Claro](../../../01_Recurso_Solar/figuras/claro/F02_componentes_POA.png) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png) | [Claro](../../../01_Recurso_Solar/figuras/claro/F02_componentes_POA.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf) |
-
-**G22_albedo:** Transposição das mesmas componentes reconstruídas com albedo-base 0,20. A variação isola o parâmetro da transposição e não valida albedo. Apenas 1.037 horas elegíveis; não é trimestre integral. A POA medida da cadeia principal não recebe reflexão novamente. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R14; R15; R29.
+| G23_componentes_estimadas — Componentes reconstruídas da POA | 3.1 | [Claro](../../graficos/claro/G23_componentes_estimadas.png) / [Escuro](../../graficos/escuro/G23_componentes_estimadas.png) | [Claro](../../graficos/claro/G23_componentes_estimadas.pdf) / [Escuro](../../graficos/escuro/G23_componentes_estimadas.pdf) |
 
 **G23_componentes_estimadas:** Exemplo de 2024-05-17, em horas elegíveis. Driesse 2024 e Erbs–Driesse; não são três sensores independentes. O fechamento pelo modelo não prova exatidão das componentes. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R14; R15; R16; R18.
 
-**FL01_fluxo_projeto:** As observações AC são referência para comparação, não entrada da previsão física. Controle de qualidade e pareamento precedem a análise. Setas tracejadas identificam a extensão exploratória. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R09; R14.
+## Tabelas e quadros de inserção exclusiva
 
-**F01_plano_angulos:** Corte coplanar didático: β=25° documentado; θz=55° e θi=30° são valores ilustrativos coerentes nesse corte. Abaixo, azimute medido a partir do norte no sentido horário; arranjo orientado ao sul. Não é um levantamento tridimensional da usina. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R03; R09.
+Não há tabela ou quadro Word atribuído a esta subseção.
 
-**F02_componentes_POA:** Representação esquemática das contribuições à POA. Não atribui medições locais de GHI/DNI/DHI nem albedo. O sensor POA da cadeia principal já recebe a contribuição refletida do entorno. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R06; R29.
-
-## Tabelas e quadros
-
-| Tabela CSV | Subseções |
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [componentes_estimadas_da_POA_horario](../../../../outputs/tabelas/csv/componentes_estimadas_da_POA_horario.csv) | 1.2; 3.1 |
-| [environment_scenarios](../../../../outputs/tabelas/csv/environment_scenarios.csv) | 2.1; 2.2; 3.1 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+| [componentes_estimadas_da_POA_horario](../../../../outputs/tabelas/csv/componentes_estimadas_da_POA_horario.csv) | 3.1 |
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

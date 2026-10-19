@@ -14,8 +14,7 @@
       "R05"
     ],
     "figures": [
-      "G01_recurso_geometria",
-      "F01_plano_angulos"
+      "G01_recurso_geometria"
     ],
     "outputs": "Geometria solar e quadro de convenções."
   },
@@ -35,8 +34,7 @@
       "R29"
     ],
     "figures": [
-      "F02_componentes_POA",
-      "G23_componentes_estimadas"
+      "F02_componentes_POA"
     ],
     "outputs": "Quadro das grandezas e componentes estimadas."
   },
@@ -77,8 +75,7 @@
       "R26"
     ],
     "figures": [
-      "FL01_fluxo_projeto",
-      "G19_consistencia_medicoes"
+      "FL01_fluxo_projeto"
     ],
     "outputs": "Situação dos dados, proveniência e cobertura."
   },
@@ -95,8 +92,7 @@
       "R07"
     ],
     "figures": [
-      "G03_condicoes_ambientais",
-      "G04_temperatura_estimada"
+      "G03_condicoes_ambientais"
     ],
     "outputs": "Estatística ambiental e sensibilidade de ventilação."
   },
@@ -115,8 +111,7 @@
       "R29"
     ],
     "figures": [
-      "G22_albedo",
-      "F02_componentes_POA"
+      "G22_albedo"
     ],
     "outputs": "Sensibilidade de albedo e quadro de hipóteses."
   },
@@ -153,8 +148,7 @@
       "R29"
     ],
     "figures": [
-      "F01_plano_angulos",
-      "F04_geometrias_BIPV"
+      "F01_plano_angulos"
     ],
     "outputs": "Convenções geométricas e limite de dados de espaçamento."
   },
@@ -306,7 +300,6 @@
       "R30"
     ],
     "figures": [
-      "G12_produtividades_PR",
       "G21_HSP_POA_pareada"
     ],
     "outputs": "Yr, Ya, Yf e HSP na janela definida."

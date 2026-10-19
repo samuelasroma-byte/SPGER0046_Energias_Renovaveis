@@ -40,27 +40,24 @@ $$\cos\theta_z=\sin\varphi\sin\delta+\cos\varphi\cos\delta\cos\omega,\qquad G_{0
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G01_recurso_geometria — Recurso solar medido e geometria calculada | 1.1; 1.2 | [Claro](../../graficos/claro/G01_recurso_geometria.png) / [Escuro](../../graficos/escuro/G01_recurso_geometria.png) | [Claro](../../graficos/claro/G01_recurso_geometria.pdf) / [Escuro](../../graficos/escuro/G01_recurso_geometria.pdf) |
-| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](../../figuras/claro/F01_plano_angulos.png) / [Escuro](../../figuras/escuro/F01_plano_angulos.png) | [Claro](../../figuras/claro/F01_plano_angulos.pdf) / [Escuro](../../figuras/escuro/F01_plano_angulos.pdf) |
+| G01_recurso_geometria — Recurso solar medido e geometria calculada | 1.1 | [Claro](../../graficos/claro/G01_recurso_geometria.png) / [Escuro](../../graficos/escuro/G01_recurso_geometria.png) | [Claro](../../graficos/claro/G01_recurso_geometria.pdf) / [Escuro](../../graficos/escuro/G01_recurso_geometria.pdf) |
 
 **G01_recurso_geometria:** Dia 2024-05-17, selecionado pela menor variação relativa da POA entre dias com cobertura ≥99%. Ângulos calculados no meio dos intervalos; POA medida. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R03; R05.
 
-**F01_plano_angulos:** Corte coplanar didático: β=25° documentado; θz=55° e θi=30° são valores ilustrativos coerentes nesse corte. Abaixo, azimute medido a partir do norte no sentido horário; arranjo orientado ao sul. Não é um levantamento tridimensional da usina. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R03; R09.
+## Tabelas e quadros de inserção exclusiva
 
-## Tabelas e quadros
+Não há tabela ou quadro Word atribuído a esta subseção.
 
-| Tabela CSV | Subseções |
-| --- | --- |
-| [criterio_dias_ilustrativos](../../../../outputs/tabelas/csv/criterio_dias_ilustrativos.csv) | 1.1; 1.3 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+Não há CSV de tabela atribuído a esta subseção.
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

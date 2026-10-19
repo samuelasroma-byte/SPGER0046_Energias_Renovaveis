@@ -1,11 +1,14 @@
-# Tabelas — seção 1
+# Tabelas da seção 1
 
-| Tabela CSV | Subseções |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+Não há tabela ou quadro Word atribuído a esta subseção.
+
+## Arquivos numéricos desta seção
+
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [componentes_estimadas_da_POA_horario](../../../outputs/tabelas/csv/componentes_estimadas_da_POA_horario.csv) | 1.2; 3.1 |
-| [consistencia_medidor_inversores](../../../outputs/tabelas/csv/consistencia_medidor_inversores.csv) | 1.4; 4.4 |
-| [criterio_dias_ilustrativos](../../../outputs/tabelas/csv/criterio_dias_ilustrativos.csv) | 1.1; 1.3 |
-| [energia_e_HSP_diurna_pareada](../../../outputs/tabelas/csv/energia_e_HSP_diurna_pareada.csv) | 1.3; 4.2 |
+| [criterio_dias_ilustrativos](../../../outputs/tabelas/csv/criterio_dias_ilustrativos.csv) | 1.3 |
 | [situacao_dos_dados](../../../outputs/tabelas/csv/situacao_dos_dados.csv) | 1.4 |
 
-[Tabelas em Word — original compartilhado](../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx)
+Os CSVs conservam os caminhos usados no cálculo; cada arquivo tem uma única seção responsável para a redação.

@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 from PIL import Image as PILImage
 from matplotlib.patches import Arc, FancyArrowPatch, FancyBboxPatch, Polygon, Rectangle
 import projeto_fv as fv
+import editorial_fv as editorial
 
 THEMES = {
     'claro': dict(bg='#FFFFFF', fg='#161616', grid='#CDD3D8',
@@ -161,6 +162,7 @@ def axes_finish(ax, xlabel=None, ylabel=None, zero=False):
 def export_figure(ctx, ident, category, subsections, title, caption, refs, drawer, status, size=(6.3,4.1)):
     record=dict(id=ident,category=category,subsections=subsections,title=title,caption=caption,
                 refs=refs,status=status,files={},source=FIGURE_SOURCE)
+    editorial.assign_figure(ctx['root'],record)
     signatures=[]
     for theme in THEMES:
         with mpl.rc_context(style(theme)):
@@ -168,7 +170,8 @@ def export_figure(ctx, ident, category, subsections, title, caption, refs, drawe
             fig.set_size_inches(*size)
             paths={}
             for fmt in ['pdf','png']:
-                path=ctx['root']/'outputs'/category/theme/fmt/(ident+'.'+fmt)
+                path=editorial.figure_path(ctx['root'],ident,theme,fmt)
+                if path is None:path=ctx['root']/'outputs'/category/theme/fmt/(ident+'.'+fmt)
                 path.parent.mkdir(parents=True,exist_ok=True)
                 buffer=io.BytesIO()
                 fig.savefig(buffer,format=fmt,dpi=600,facecolor=THEMES[theme]['bg'])
@@ -593,7 +596,7 @@ def figure_cache_signature(ctx):
         physical_code_sha256=digest(root/'src/projeto_fv.py'),
         rendering_code_sha256=digest(root/'src/refinamento_fv.py'),
         numerical_tables={p.name:digest(p) for p in sorted((root/'outputs/tabelas/csv').glob('*.csv'))},
-        figures={str(p.relative_to(root)):digest(p) for p in sorted((root/'outputs').rglob('*'))
+        figures={str(p.relative_to(root)):digest(p) for folder in [root/'outputs',root/'secoes'] for p in sorted(folder.rglob('*'))
                  if p.suffix in ['.pdf','.png'] and '_previews' not in p.parts})
 
 
@@ -605,7 +608,9 @@ def generate_all(ctx,reuse_checked=False):
     signature=figure_cache_signature(ctx)
     if reuse_checked and cache.exists() and json.loads(cache.read_text())==signature:
         ctx['figures']=json.loads((ctx['root']/'outputs/relatorios/catalogo_figuras.json').read_text())
-        for r in ctx['figures']:r['source']=FIGURE_SOURCE
+        for r in ctx['figures']:
+            r['source']=FIGURE_SOURCE
+            editorial.assign_figure(root=ctx['root'],record=r)
         assert len(ctx['figures'])==30
         print('Reutilizadas 30 figuras: parâmetros, códigos, tabelas numéricas e bytes gráficos conferidos.',flush=True)
         ctx['figure_cache_reused']=True

@@ -41,24 +41,26 @@ $$V_a=N_sV_m,\quad I_a=N_pI_m,\quad P_a=N_sN_pP_m,\quad P_{\mathrm{DC}}=P_a\prod
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| F03_arranjo_eletrico — Organização elétrica do sistema de referência | 3.3; 3.4; 3.5 | [Claro](../../figuras/claro/F03_arranjo_eletrico.png) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.png) | [Claro](../../figuras/claro/F03_arranjo_eletrico.pdf) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.pdf) |
+| F03_arranjo_eletrico — Organização elétrica do sistema de referência | 3.4 | [Claro](../../figuras/claro/F03_arranjo_eletrico.png) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.png) | [Claro](../../figuras/claro/F03_arranjo_eletrico.pdf) / [Escuro](../../figuras/escuro/F03_arranjo_eletrico.pdf) |
 
 **F03_arranjo_eletrico:** Número de módulos, inversores e módulos por grupo documentados. Associação 20 em série por 6 strings é um equivalente didático de 120 módulos, não confirmação da fiação/MPPT real. Tensões e correntes desse equivalente são calculadas em CSV. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R10; R13.
 
-## Tabelas e quadros
+## Tabelas e quadros de inserção exclusiva
 
-| Tabela CSV | Subseções |
+Não há tabela ou quadro Word atribuído a esta subseção.
+
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [arranjo_equivalente_diurno](../../../../outputs/tabelas/csv/arranjo_equivalente_diurno.csv) | 3.3; 3.4 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+| [arranjo_equivalente_diurno](../../../../outputs/tabelas/csv/arranjo_equivalente_diurno.csv) | 3.4 |
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

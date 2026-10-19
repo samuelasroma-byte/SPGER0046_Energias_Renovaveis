@@ -35,24 +35,19 @@ $$MBE=\bar e,\quad MAE=\overline{|e|},\quad RMSE=\sqrt{\overline{e^2}},\quad R^2
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G08_series_potencia — Potência em dias de menor e maior variabilidade | 3.6; 4.4 | [Claro](../../../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.png) / [Escuro](../../../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.png) | [Claro](../../../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.pdf) / [Escuro](../../../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.pdf) |
-| G09_energia_diaria — Energia diária em intervalos pareados | 3.6; 4.4 | [Claro](../../../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.png) / [Escuro](../../../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.png) | [Claro](../../../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.pdf) / [Escuro](../../../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.pdf) |
 | G13_validacao — Comparação entre potência simulada e medida | 4.4 | [Claro](../../graficos/claro/G13_validacao.png) / [Escuro](../../graficos/escuro/G13_validacao.png) | [Claro](../../graficos/claro/G13_validacao.pdf) / [Escuro](../../graficos/escuro/G13_validacao.pdf) |
 | G14_residuos_temporais — Resíduos ao longo do trimestre | 4.4 | [Claro](../../graficos/claro/G14_residuos_temporais.png) / [Escuro](../../graficos/escuro/G14_residuos_temporais.png) | [Claro](../../graficos/claro/G14_residuos_temporais.pdf) / [Escuro](../../graficos/escuro/G14_residuos_temporais.pdf) |
 | G15_residuos_potencia — Resíduos em função da potência observada | 4.4 | [Claro](../../graficos/claro/G15_residuos_potencia.png) / [Escuro](../../graficos/escuro/G15_residuos_potencia.png) | [Claro](../../graficos/claro/G15_residuos_potencia.pdf) / [Escuro](../../graficos/escuro/G15_residuos_potencia.pdf) |
 | G16_distribuicao_residuos — Distribuição dos resíduos | 4.4 | [Claro](../../graficos/claro/G16_distribuicao_residuos.png) / [Escuro](../../graficos/escuro/G16_distribuicao_residuos.png) | [Claro](../../graficos/claro/G16_distribuicao_residuos.pdf) / [Escuro](../../graficos/escuro/G16_distribuicao_residuos.pdf) |
 | G17_metricas_mensais — Erros mensais do modelo físico | 4.4 | [Claro](../../graficos/claro/G17_metricas_mensais.png) / [Escuro](../../graficos/escuro/G17_metricas_mensais.png) | [Claro](../../graficos/claro/G17_metricas_mensais.pdf) / [Escuro](../../graficos/escuro/G17_metricas_mensais.pdf) |
 | G18_vies_horario — Viés por hora local e tamanho da amostra | 4.4 | [Claro](../../graficos/claro/G18_vies_horario.png) / [Escuro](../../graficos/escuro/G18_vies_horario.png) | [Claro](../../graficos/claro/G18_vies_horario.pdf) / [Escuro](../../graficos/escuro/G18_vies_horario.pdf) |
-| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](../../../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png) / [Escuro](../../../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png) | [Claro](../../../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](../../../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf) |
-| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](../../../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../../../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../../../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
-
-**G08_series_potencia:** Dias 2024-05-17 e 2024-05-04. Seleção pelo passo absoluto médio da POA dividido por sua média, com cobertura ≥99%; sem seleção pelo erro do modelo. Mesmos intervalos medidos/simulados. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R08; R11.
-
-**G09_energia_diaria:** Soma de potência média × 0,25 h sobre intervalos com os mesmos dados disponíveis. Não é a energia observada do dia inteiro. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R12.
+| G19_consistencia_medicoes — Consistência entre referências elétricas | 4.4 | [Claro](../../graficos/claro/G19_consistencia_medicoes.png) / [Escuro](../../graficos/escuro/G19_consistencia_medicoes.png) | [Claro](../../graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](../../graficos/escuro/G19_consistencia_medicoes.pdf) |
 
 **G13_validacao:** Modelo físico original, sem ajuste empírico; 4.401 pares diurnos. R²=1−SSE/SST e r calculado separadamente. nRMSE normalizado pela média observada dos pares. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R27.
 
@@ -68,23 +63,29 @@ $$MBE=\bar e,\quad MAE=\overline{|e|},\quad RMSE=\sqrt{\overline{e^2}},\quad R^2
 
 **G19_consistencia_medicoes:** Comparação entre dois registros observacionais locais; não é previsão do modelo. Divergências entre medidor e inversores integram os limites da referência. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R25.
 
-**FL01_fluxo_projeto:** As observações AC são referência para comparação, não entrada da previsão física. Controle de qualidade e pareamento precedem a análise. Setas tracejadas identificam a extensão exploratória. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R09; R14.
+## Tabelas e quadros de inserção exclusiva
 
-## Tabelas e quadros
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| T03 | Erros de potência nas comparações principais | 4.4 |
+| T04 | Erros normalizados correlação e determinação | 4.4 |
+| T05 | Erros mensais do modelo físico | 4.4 |
+| T06 | Erros relativos mensais do modelo físico | 4.4 |
+| T07 | Consistência entre soma dos inversores e medidor | 4.4 |
+| Q06 | Desempenho e validação | 4.4 |
 
-| Tabela CSV | Subseções |
+[Baixar o Word com os materiais tabulares desta seção](../../tabelas/docx/Materiais_Tabulares_Secao_04.docx).
+
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [consistencia_medidor_inversores](../../../../outputs/tabelas/csv/consistencia_medidor_inversores.csv) | 1.4; 4.4 |
-| [energia_diaria_pareada](../../../../outputs/tabelas/csv/energia_diaria_pareada.csv) | 3.6; 4.4 |
+| [consistencia_medidor_inversores](../../../../outputs/tabelas/csv/consistencia_medidor_inversores.csv) | 4.4 |
 | [metricas_por_faixa_POA](../../../../outputs/tabelas/csv/metricas_por_faixa_POA.csv) | 4.4 |
 | [metricas_por_hora](../../../../outputs/tabelas/csv/metricas_por_hora.csv) | 4.4 |
 | [metricas_por_mes](../../../../outputs/tabelas/csv/metricas_por_mes.csv) | 4.4 |
 | [metrics](../../../../outputs/tabelas/csv/metrics.csv) | 4.4 |
 
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
-
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

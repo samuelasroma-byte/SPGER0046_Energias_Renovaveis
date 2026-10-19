@@ -24,16 +24,17 @@ Como o recurso solar disponível para a conversão fotovoltaica é caracterizado
 | documentos | [Abrir documentos](documentos/README.md) |
 | referencias | [Abrir referencias](referencias/README.md) |
 
-## Ilustrações pertinentes
+## Materiais exclusivos desta seção
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G01_recurso_geometria — Recurso solar medido e geometria calculada | 1.1; 1.2 | [Claro](graficos/claro/G01_recurso_geometria.png) / [Escuro](graficos/escuro/G01_recurso_geometria.png) | [Claro](graficos/claro/G01_recurso_geometria.pdf) / [Escuro](graficos/escuro/G01_recurso_geometria.pdf) |
+| G01_recurso_geometria — Recurso solar medido e geometria calculada | 1.1 | [Claro](graficos/claro/G01_recurso_geometria.png) / [Escuro](graficos/escuro/G01_recurso_geometria.png) | [Claro](graficos/claro/G01_recurso_geometria.pdf) / [Escuro](graficos/escuro/G01_recurso_geometria.pdf) |
 | G02_variabilidade_recurso — Variabilidade diária do recurso solar | 1.3 | [Claro](graficos/claro/G02_variabilidade_recurso.png) / [Escuro](graficos/escuro/G02_variabilidade_recurso.png) | [Claro](graficos/claro/G02_variabilidade_recurso.pdf) / [Escuro](graficos/escuro/G02_variabilidade_recurso.pdf) |
-| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](graficos/claro/G19_consistencia_medicoes.png) / [Escuro](graficos/escuro/G19_consistencia_medicoes.png) | [Claro](graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](graficos/escuro/G19_consistencia_medicoes.pdf) |
-| G23_componentes_estimadas — Componentes reconstruídas da POA | 1.2; 3.1 | [Claro](graficos/claro/G23_componentes_estimadas.png) / [Escuro](graficos/escuro/G23_componentes_estimadas.png) | [Claro](graficos/claro/G23_componentes_estimadas.pdf) / [Escuro](graficos/escuro/G23_componentes_estimadas.pdf) |
-| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
-| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](figuras/claro/F01_plano_angulos.png) / [Escuro](figuras/escuro/F01_plano_angulos.png) | [Claro](figuras/claro/F01_plano_angulos.pdf) / [Escuro](figuras/escuro/F01_plano_angulos.pdf) |
-| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2; 2.2; 3.1 | [Claro](figuras/claro/F02_componentes_POA.png) / [Escuro](figuras/escuro/F02_componentes_POA.png) | [Claro](figuras/claro/F02_componentes_POA.pdf) / [Escuro](figuras/escuro/F02_componentes_POA.pdf) |
+| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4 | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
+| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2 | [Claro](figuras/claro/F02_componentes_POA.png) / [Escuro](figuras/escuro/F02_componentes_POA.png) | [Claro](figuras/claro/F02_componentes_POA.pdf) / [Escuro](figuras/escuro/F02_componentes_POA.pdf) |
 
-[Início](../../README.md) · [Proposta oficial em Word](../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)
+[Tabelas e séries da seção](tabelas/README.md) · [Quadros da seção](quadros/README.md) · [Word exclusivo desta seção](tabelas/docx/Materiais_Tabulares_Secao_01.docx)
+
+[Mapa geral e regra de inserção única](../../docs/Distribuicao_Editorial.md)

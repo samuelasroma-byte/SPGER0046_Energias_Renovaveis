@@ -16,7 +16,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Não há observação independente de ângulo solar; a geometria pode ser calculada.
 
-**Figuras disponíveis:** G01_recurso_geometria; F01_plano_angulos
+**Figuras de inserção exclusiva:** G01_recurso_geometria.
 
 **Situação de execução:** calculado e exportado
 
@@ -36,7 +36,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Sem GHI/DNI/DHI locais medidos; reconstrução não equivale a observação.
 
-**Figuras disponíveis:** F02_componentes_POA; G23_componentes_estimadas
+**Figuras de inserção exclusiva:** F02_componentes_POA.
 
 **Situação de execução:** calculado e exportado
 
@@ -56,7 +56,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Não se atribuem causas atmosféricas isoladas nem climatologia anual a um trimestre.
 
-**Figuras disponíveis:** G02_variabilidade_recurso
+**Figuras de inserção exclusiva:** G02_variabilidade_recurso.
 
 **Situação de execução:** calculado e exportado
 
@@ -76,7 +76,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Disponibilidade elevada não certifica sensores. Altura do anemômetro e alguns metadados permanecem incompletos.
 
-**Figuras disponíveis:** FL01_fluxo_projeto; G19_consistencia_medicoes
+**Figuras de inserção exclusiva:** FL01_fluxo_projeto.
 
 **Situação de execução:** calculado e exportado
 
@@ -96,7 +96,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** U₀ e U₁ genéricos; T operacional é aproximação de célula, sem validação térmica independente.
 
-**Figuras disponíveis:** G03_condicoes_ambientais; G04_temperatura_estimada
+**Figuras de inserção exclusiva:** G03_condicoes_ambientais.
 
 **Situação de execução:** calculado e exportado
 
@@ -116,7 +116,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Expressão isotrópica para reflexão do solo. Não há albedo medido; a leitura POA principal não recebe uma segunda contribuição refletida.
 
-**Figuras disponíveis:** G22_albedo; F02_componentes_POA
+**Figuras de inserção exclusiva:** G22_albedo.
 
 **Situação de execução:** calculado e exportado
 
@@ -136,7 +136,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Sem histórico de limpeza e mapa de sombras; o resíduo não identifica a perda real de sujidade ou sombra.
 
-**Figuras disponíveis:** G20_sujidade_ventilacao
+**Figuras de inserção exclusiva:** G20_sujidade_ventilacao.
 
 **Situação de execução:** calculado e exportado
 
@@ -156,7 +156,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** A expressão de projeção é um exemplo plano sem dimensão de fileira real; não calcula o sombreamento específico da usina.
 
-**Figuras disponíveis:** F01_plano_angulos; F04_geometrias_BIPV
+**Figuras de inserção exclusiva:** F01_plano_angulos.
 
 **Situação de execução:** calculado e exportado
 
@@ -176,7 +176,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Há possibilidade de soluções não únicas; o fechamento de POA é teste numérico, sem validação independente das componentes.
 
-**Figuras disponíveis:** G23_componentes_estimadas
+**Figuras de inserção exclusiva:** G23_componentes_estimadas.
 
 **Situação de execução:** calculado e exportado
 
@@ -196,7 +196,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Ausência de temperatura de módulo/célula e altura de vento suficientemente documentada.
 
-**Figuras disponíveis:** G04_temperatura_estimada
+**Figuras de inserção exclusiva:** G04_temperatura_estimada.
 
 **Situação de execução:** calculado e exportado
 
@@ -216,7 +216,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Sem varreduras I–V experimentais da instalação; as curvas não constituem validação do módulo.
 
-**Figuras disponíveis:** G05_curvas_irradiancia; G06_curvas_temperatura
+**Figuras de inserção exclusiva:** G05_curvas_irradiancia, G06_curvas_temperatura.
 
 **Situação de execução:** calculado e exportado
 
@@ -236,7 +236,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Strings/MPPTs reais incompletos; V×I disponível não foi adotado como potência DC observada certificada.
 
-**Figuras disponíveis:** F03_arranjo_eletrico
+**Figuras de inserção exclusiva:** F03_arranjo_eletrico.
 
 **Situação de execução:** calculado e exportado
 
@@ -256,7 +256,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** A simulação agregada não verifica todas as restrições reais de tensão/MPPT nem confirma o limite instalado.
 
-**Figuras disponíveis:** G07_inversor
+**Figuras de inserção exclusiva:** G07_inversor.
 
 **Situação de execução:** calculado e exportado
 
@@ -276,7 +276,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** O recorte é trimestral, não uma medição anual; energia pareada não equivale ao total integral do dia.
 
-**Figuras disponíveis:** G08_series_potencia; G09_energia_diaria; G10_energia_mensal
+**Figuras de inserção exclusiva:** G08_series_potencia, G09_energia_diaria, G10_energia_mensal.
 
 **Situação de execução:** calculado e exportado
 
@@ -296,7 +296,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Não se identificam perdas ópticas/operacionais reais isoladas sem medições adicionais; ganhos sob frio podem ocorrer.
 
-**Figuras disponíveis:** G11_cadeia_energetica
+**Figuras de inserção exclusiva:** G11_cadeia_energetica.
 
 **Situação de execução:** calculado e exportado
 
@@ -316,7 +316,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Ya é modelada; HSP da janela pareada não é duração de brilho solar nem total integral diário.
 
-**Figuras disponíveis:** G12_produtividades_PR; G21_HSP_POA_pareada
+**Figuras de inserção exclusiva:** G21_HSP_POA_pareada.
 
 **Situação de execução:** calculado e exportado
 
@@ -336,7 +336,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Não combinar energia integral do trimestre com POA parcial; perdas calculadas não são identificação experimental de cada causa.
 
-**Figuras disponíveis:** G12_produtividades_PR
+**Figuras de inserção exclusiva:** G12_produtividades_PR.
 
 **Situação de execução:** calculado e exportado
 
@@ -356,7 +356,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Junho é teste temporal separado, não instalação independente. Correlação elevada não prova exatidão; nenhum limiar universal de aceitação foi adotado.
 
-**Figuras disponíveis:** G13_validacao; G14_residuos_temporais; G15_residuos_potencia; G16_distribuicao_residuos; G17_metricas_mensais; G18_vies_horario; G19_consistencia_medicoes
+**Figuras de inserção exclusiva:** G13_validacao, G14_residuos_temporais, G15_residuos_potencia, G16_distribuicao_residuos, G17_metricas_mensais, G18_vies_horario, G19_consistencia_medicoes.
 
 **Situação de execução:** calculado e exportado
 
@@ -376,7 +376,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Limite:** Somente horas elegíveis da inversão; sem fachada medida, SHGC certificado, cálculo de lux ou balanço térmico completo do edifício.
 
-**Figuras disponíveis:** G24_BIPV_orientacoes; G25_BIPV_balanco; F04_geometrias_BIPV
+**Figuras de inserção exclusiva:** G24_BIPV_orientacoes, G25_BIPV_balanco, F04_geometrias_BIPV.
 
 **Situação de execução:** calculado e exportado
 
