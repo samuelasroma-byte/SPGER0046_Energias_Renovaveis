@@ -1,6 +1,15 @@
-# Documentos originais do projeto
+# Documentos do projeto
 
-O guia técnico resumido orienta o grupo sobre o estudo de caso comum às quatro seções. Os dez DOCX originais também estão disponíveis, preservados byte a byte em relação aos arquivos recuperados do Drive. As versões Markdown auxiliam a navegação.
+Para redigir, usar os quatro documentos tabulares abaixo e os índices de ilustrações de cada seção. Cada ID tem um único local de inserção conforme o [mapa editorial](Distribuicao_Editorial.md). O guia técnico resumido orienta o grupo sobre o estudo de caso comum. Os dez DOCX originais também estão disponíveis, preservados byte a byte.
+
+| Materiais editáveis para redação | Arquivo |
+| --- | --- |
+| Seção 1 — recurso solar | [Tabelas e quadros da seção 1](../secoes/01_Recurso_Solar/tabelas/docx/Materiais_Tabulares_Secao_01.docx) |
+| Seção 2 — condições ambientais | [Tabelas e quadros da seção 2](../secoes/02_Condicoes_Ambientais/tabelas/docx/Materiais_Tabulares_Secao_02.docx) |
+| Seção 3 — modelagem | [Tabelas e quadros da seção 3](../secoes/03_Modelagem_Fotovoltaica/tabelas/docx/Materiais_Tabulares_Secao_03.docx) |
+| Seção 4 — desempenho e validação | [Tabelas e quadros da seção 4](../secoes/04_Desempenho_Perdas_Validacao/tabelas/docx/Materiais_Tabulares_Secao_04.docx) |
+
+Os documentos consolidados originais de gráficos, ilustrações, tabelas e quadros são coleções de consulta e registro histórico. Suas antigas associações temáticas múltiplas não são instruções de inclusão na redação. A Tabela 16 é um único item, apresentado em quatro blocos de continuação.
 
 | Documento | Arquivo no GitHub | Download direto |
 | --- | --- | --- |

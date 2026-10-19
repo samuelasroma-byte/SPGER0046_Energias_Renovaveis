@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "illustrations": 30,
+  "final_graphic_files": 120,
+  "illustrations_per_section": [
+    4,
+    4,
+    9,
+    13
+  ],
+  "CSV_files": 24,
+  "logical_Word_tables": 16,
+  "frames": 6,
+  "section_Word_documents": 4,
+  "duplicate_placements": 0,
+  "subsections_checked": 19,
+  "notebook_subsection_cells_executed": 19,
+  "HTML_figure_placements": 30,
+  "original_numerical_cells_preserved": true,
+  "original_data_and_physics_unchanged": true,
+  "embedded_support_matches_sources": true
+}

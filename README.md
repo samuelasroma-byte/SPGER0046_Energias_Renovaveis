@@ -30,16 +30,17 @@ O levantamento encontrou 829 obras únicas, 295 associações temáticas, 102 as
 | Material | Acesso direto |
 | --- | --- |
 | Guia técnico comum às quatro seções | [Resumo de dados equipamentos período e hipóteses em Word](docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) |
-| Documentos Word autorais | [Dez originais e o guia técnico resumido](docs/README.md) |
+| Distribuição para redação | [Local único de inserção de cada figura tabela e quadro](docs/Distribuicao_Editorial.md) |
+| Documentos Word autorais | [Quatro documentos tabulares por seção guia resumido e dez originais](docs/README.md) |
 | Gráficos, figuras e fluxograma | [30 ilustrações: PNG 600 dpi e PDF, claro e escuro](figuras/README.md) |
-| Tabelas e quadros | [CSVs e tabelas Word](outputs/tabelas/README.md) · [Quadros Word](outputs/quadros/docx/Quadros_do_Projeto.docx) |
+| Tabelas e quadros | [CSVs e quatro Word exclusivos por seção](outputs/tabelas/README.md) |
 | Resultados e relatório completo | [Abrir resultados](outputs/README.md) |
 | Dados originais e preparados | [Quatro CSVs originais](data/raw/README.md) · [Dados preparados](data/processed/README.md) |
 | Equipamentos e parâmetros | [Dossiê técnico Word](docs/metodos/Dossie_Tecnico_por_Secao.docx) · [125 canais e inventários](data/equipamentos/README.md) |
 | Notebooks e reprodução | [Execução, originais e dependências](docs/REPRODUTIBILIDADE.md) |
 | Auditoria de publicação | [Relatório, inventários, hashes e verificações](docs/AUDITORIA_FINAL_PUBLICACAO.md) |
 
-O caso de estudo é PVDAQ 2107, Farm Solar Array, Arbuckle, Califórnia, abril–junho de 2024. Os resultados existentes foram preservados. Arquivos compartilhados têm uma cópia principal com links diretos nas seções e subseções.
+O caso de estudo é PVDAQ 2107, Farm Solar Array, Arbuckle, Califórnia, abril–junho de 2024. Cada figura, gráfico, tabela e quadro tem uma única seção e subseção de inserção. As 30 ilustrações estão distribuídas em 4, 4, 9 e 13 itens nas seções 1 a 4. As versões claro/escuro e PNG/PDF são alternativas do mesmo item. Em outras partes do texto, citar o ID existente sem reinserir o material. Os dados e resultados numéricos foram preservados.
 
 ## Acervo complementar — códigos A
 

@@ -39,25 +39,28 @@ $$T_{\mathrm{op}}=T_a+G_{\mathrm{ef}}/(U_0+U_1v).$$
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G04_temperatura_estimada — Resposta térmica estimada pelo modelo | 2.1; 3.2 | [Claro](../../../02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.png) / [Escuro](../../../02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.png) | [Claro](../../../02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.pdf) / [Escuro](../../../02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.pdf) |
+| G04_temperatura_estimada — Resposta térmica estimada pelo modelo | 3.2 | [Claro](../../graficos/claro/G04_temperatura_estimada.png) / [Escuro](../../graficos/escuro/G04_temperatura_estimada.png) | [Claro](../../graficos/claro/G04_temperatura_estimada.pdf) / [Escuro](../../graficos/escuro/G04_temperatura_estimada.pdf) |
 
 **G04_temperatura_estimada:** Elevação térmica por Faiman com U₀=25 W/(m² K) e U₁=6,84 W s/(m³ K). Temperatura operacional usada como aproximação da célula; sem medição térmica independente. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R07.
 
-## Tabelas e quadros
+## Tabelas e quadros de inserção exclusiva
 
-| Tabela CSV | Subseções |
-| --- | --- |
-| [environment_sensitivity](../../../../outputs/tabelas/csv/environment_sensitivity.csv) | 2.1; 2.3; 3.2 |
-| [estatistica_descritiva](../../../../outputs/tabelas/csv/estatistica_descritiva.csv) | 2.1; 3.2 |
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| Q02 | Parâmetros documentados e hipóteses do modelo | 3.2 |
 
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+[Baixar o Word com os materiais tabulares desta seção](../../tabelas/docx/Materiais_Tabulares_Secao_03.docx).
+
+Não há CSV de tabela atribuído a esta subseção.
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

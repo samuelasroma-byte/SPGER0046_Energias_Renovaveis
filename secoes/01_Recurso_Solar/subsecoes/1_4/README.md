@@ -38,28 +38,31 @@ $$C=100\,N_{\mathrm{pares}}/N_{\mathrm{esperados}}.$$
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](../../graficos/claro/G19_consistencia_medicoes.png) / [Escuro](../../graficos/escuro/G19_consistencia_medicoes.png) | [Claro](../../graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](../../graficos/escuro/G19_consistencia_medicoes.pdf) |
-| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](../../figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../../figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../../figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../../figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
-
-**G19_consistencia_medicoes:** Comparação entre dois registros observacionais locais; não é previsão do modelo. Divergências entre medidor e inversores integram os limites da referência. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R25.
+| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4 | [Claro](../../figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../../figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../../figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../../figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
 
 **FL01_fluxo_projeto:** As observações AC são referência para comparação, não entrada da previsão física. Controle de qualidade e pareamento precedem a análise. Setas tracejadas identificam a extensão exploratória. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R01; R09; R14.
 
-## Tabelas e quadros
+## Tabelas e quadros de inserção exclusiva
 
-| Tabela CSV | Subseções |
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| Q01 | Dados disponíveis e limites do estudo | 1.4 |
+| Q03 | Fundamentos e recurso solar | 1.4 |
+
+[Baixar o Word com os materiais tabulares desta seção](../../tabelas/docx/Materiais_Tabulares_Secao_01.docx).
+
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [consistencia_medidor_inversores](../../../../outputs/tabelas/csv/consistencia_medidor_inversores.csv) | 1.4; 4.4 |
 | [situacao_dos_dados](../../../../outputs/tabelas/csv/situacao_dos_dados.csv) | 1.4 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

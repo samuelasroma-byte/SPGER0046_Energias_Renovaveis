@@ -40,30 +40,28 @@ $$\cos\theta_i=\cos\theta_z\cos\beta+\sin\theta_z\sin\beta\cos(\gamma_s-\gamma_a
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G24_BIPV_orientacoes — Cenários de orientação e integração | 2.4; 4.5 | [Claro](../../graficos/claro/G24_BIPV_orientacoes.png) / [Escuro](../../graficos/escuro/G24_BIPV_orientacoes.png) | [Claro](../../graficos/claro/G24_BIPV_orientacoes.pdf) / [Escuro](../../graficos/escuro/G24_BIPV_orientacoes.pdf) |
-| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](../../../01_Recurso_Solar/figuras/claro/F01_plano_angulos.png) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png) | [Claro](../../../01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf) |
-| F04_geometrias_BIPV — Arranjo inclinado e extensão de fachada | 2.4; 4.5 | [Claro](../../figuras/claro/F04_geometrias_BIPV.png) / [Escuro](../../figuras/escuro/F04_geometrias_BIPV.png) | [Claro](../../figuras/claro/F04_geometrias_BIPV.pdf) / [Escuro](../../figuras/escuro/F04_geometrias_BIPV.pdf) |
-
-**G24_BIPV_orientacoes:** Mesmo recorte de componentes estimadas, meteorologia e capacidade de normalização. Cenários verticais incluem menor ventilação; portanto a comparação combina orientação e condição térmica. Sem medições de fachada. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R14; R19.
+| F01_plano_angulos — Plano do arranjo e convenções angulares | 2.4 | [Claro](../../figuras/claro/F01_plano_angulos.png) / [Escuro](../../figuras/escuro/F01_plano_angulos.png) | [Claro](../../figuras/claro/F01_plano_angulos.pdf) / [Escuro](../../figuras/escuro/F01_plano_angulos.pdf) |
 
 **F01_plano_angulos:** Corte coplanar didático: β=25° documentado; θz=55° e θi=30° são valores ilustrativos coerentes nesse corte. Abaixo, azimute medido a partir do norte no sentido horário; arranjo orientado ao sul. Não é um levantamento tridimensional da usina. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R03; R09.
 
-**F04_geometrias_BIPV:** Comparação geométrica didática. A fachada e suas propriedades semitransparentes são hipotéticas. O painel inclinado corresponde à referência geométrica; não existe fachada BIPV monitorada nos dados. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R19; R20.
+## Tabelas e quadros de inserção exclusiva
 
-## Tabelas e quadros
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| Q04 | Ambiente e instalação | 2.4 |
 
-| Tabela CSV | Subseções |
-| --- | --- |
-| [bipv_comparison](../../../../outputs/tabelas/csv/bipv_comparison.csv) | 2.4; 4.5 |
+[Baixar o Word com os materiais tabulares desta seção](../../tabelas/docx/Materiais_Tabulares_Secao_02.docx).
 
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+Não há CSV de tabela atribuído a esta subseção.
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

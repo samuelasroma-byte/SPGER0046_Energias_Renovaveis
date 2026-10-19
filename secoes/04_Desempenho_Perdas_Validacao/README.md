@@ -25,25 +25,26 @@ Como o desempenho de um sistema fotovoltaico é quantificado, como suas perdas s
 | documentos | [Abrir documentos](documentos/README.md) |
 | referencias | [Abrir referencias](referencias/README.md) |
 
-## Ilustrações pertinentes
+## Materiais exclusivos desta seção
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G08_series_potencia — Potência em dias de menor e maior variabilidade | 3.6; 4.4 | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.png) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.png) | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.pdf) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.pdf) |
-| G09_energia_diaria — Energia diária em intervalos pareados | 3.6; 4.4 | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.png) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.png) | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.pdf) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.pdf) |
 | G11_cadeia_energetica — Cadeia de energia calculada | 4.1 | [Claro](graficos/claro/G11_cadeia_energetica.png) / [Escuro](graficos/escuro/G11_cadeia_energetica.png) | [Claro](graficos/claro/G11_cadeia_energetica.pdf) / [Escuro](graficos/escuro/G11_cadeia_energetica.pdf) |
-| G12_produtividades_PR — Produtividades e razão de desempenho | 4.2; 4.3 | [Claro](graficos/claro/G12_produtividades_PR.png) / [Escuro](graficos/escuro/G12_produtividades_PR.png) | [Claro](graficos/claro/G12_produtividades_PR.pdf) / [Escuro](graficos/escuro/G12_produtividades_PR.pdf) |
+| G12_produtividades_PR — Produtividades e razão de desempenho | 4.3 | [Claro](graficos/claro/G12_produtividades_PR.png) / [Escuro](graficos/escuro/G12_produtividades_PR.png) | [Claro](graficos/claro/G12_produtividades_PR.pdf) / [Escuro](graficos/escuro/G12_produtividades_PR.pdf) |
 | G13_validacao — Comparação entre potência simulada e medida | 4.4 | [Claro](graficos/claro/G13_validacao.png) / [Escuro](graficos/escuro/G13_validacao.png) | [Claro](graficos/claro/G13_validacao.pdf) / [Escuro](graficos/escuro/G13_validacao.pdf) |
 | G14_residuos_temporais — Resíduos ao longo do trimestre | 4.4 | [Claro](graficos/claro/G14_residuos_temporais.png) / [Escuro](graficos/escuro/G14_residuos_temporais.png) | [Claro](graficos/claro/G14_residuos_temporais.pdf) / [Escuro](graficos/escuro/G14_residuos_temporais.pdf) |
 | G15_residuos_potencia — Resíduos em função da potência observada | 4.4 | [Claro](graficos/claro/G15_residuos_potencia.png) / [Escuro](graficos/escuro/G15_residuos_potencia.png) | [Claro](graficos/claro/G15_residuos_potencia.pdf) / [Escuro](graficos/escuro/G15_residuos_potencia.pdf) |
 | G16_distribuicao_residuos — Distribuição dos resíduos | 4.4 | [Claro](graficos/claro/G16_distribuicao_residuos.png) / [Escuro](graficos/escuro/G16_distribuicao_residuos.png) | [Claro](graficos/claro/G16_distribuicao_residuos.pdf) / [Escuro](graficos/escuro/G16_distribuicao_residuos.pdf) |
 | G17_metricas_mensais — Erros mensais do modelo físico | 4.4 | [Claro](graficos/claro/G17_metricas_mensais.png) / [Escuro](graficos/escuro/G17_metricas_mensais.png) | [Claro](graficos/claro/G17_metricas_mensais.pdf) / [Escuro](graficos/escuro/G17_metricas_mensais.pdf) |
 | G18_vies_horario — Viés por hora local e tamanho da amostra | 4.4 | [Claro](graficos/claro/G18_vies_horario.png) / [Escuro](graficos/escuro/G18_vies_horario.png) | [Claro](graficos/claro/G18_vies_horario.pdf) / [Escuro](graficos/escuro/G18_vies_horario.pdf) |
-| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png) / [Escuro](../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png) | [Claro](../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf) |
+| G19_consistencia_medicoes — Consistência entre referências elétricas | 4.4 | [Claro](graficos/claro/G19_consistencia_medicoes.png) / [Escuro](graficos/escuro/G19_consistencia_medicoes.png) | [Claro](graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](graficos/escuro/G19_consistencia_medicoes.pdf) |
 | G21_HSP_POA_pareada — Horas equivalentes de sol na janela pareada | 4.2 | [Claro](graficos/claro/G21_HSP_POA_pareada.png) / [Escuro](graficos/escuro/G21_HSP_POA_pareada.png) | [Claro](graficos/claro/G21_HSP_POA_pareada.pdf) / [Escuro](graficos/escuro/G21_HSP_POA_pareada.pdf) |
-| G24_BIPV_orientacoes — Cenários de orientação e integração | 2.4; 4.5 | [Claro](../02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.png) / [Escuro](../02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.png) | [Claro](../02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.pdf) / [Escuro](../02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.pdf) |
+| G24_BIPV_orientacoes — Cenários de orientação e integração | 4.5 | [Claro](graficos/claro/G24_BIPV_orientacoes.png) / [Escuro](graficos/escuro/G24_BIPV_orientacoes.png) | [Claro](graficos/claro/G24_BIPV_orientacoes.pdf) / [Escuro](graficos/escuro/G24_BIPV_orientacoes.pdf) |
 | G25_BIPV_balanco — Partição solar do exemplo semitransparente | 4.5 | [Claro](graficos/claro/G25_BIPV_balanco.png) / [Escuro](graficos/escuro/G25_BIPV_balanco.png) | [Claro](graficos/claro/G25_BIPV_balanco.pdf) / [Escuro](graficos/escuro/G25_BIPV_balanco.pdf) |
-| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
-| F04_geometrias_BIPV — Arranjo inclinado e extensão de fachada | 2.4; 4.5 | [Claro](../02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.png) / [Escuro](../02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png) | [Claro](../02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.pdf) / [Escuro](../02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf) |
+| F04_geometrias_BIPV — Arranjo inclinado e extensão de fachada | 4.5 | [Claro](figuras/claro/F04_geometrias_BIPV.png) / [Escuro](figuras/escuro/F04_geometrias_BIPV.png) | [Claro](figuras/claro/F04_geometrias_BIPV.pdf) / [Escuro](figuras/escuro/F04_geometrias_BIPV.pdf) |
 
-[Início](../../README.md) · [Proposta oficial em Word](../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)
+[Tabelas e séries da seção](tabelas/README.md) · [Quadros da seção](quadros/README.md) · [Word exclusivo desta seção](tabelas/docx/Materiais_Tabulares_Secao_04.docx)
+
+[Mapa geral e regra de inserção única](../../docs/Distribuicao_Editorial.md)

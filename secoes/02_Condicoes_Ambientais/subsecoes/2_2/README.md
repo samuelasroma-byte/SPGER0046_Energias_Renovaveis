@@ -40,27 +40,30 @@ $$G_{\mathrm{solo}}=\rho_g\,GHI\,\frac{1-\cos\beta}{2}.$$
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
-## Figuras, gráficos e fluxograma
+## Ilustrações de inserção exclusiva
 
-| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+
+| ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
-| G22_albedo — Sensibilidade ao albedo assumido | 2.2; 3.1 | [Claro](../../graficos/claro/G22_albedo.png) / [Escuro](../../graficos/escuro/G22_albedo.png) | [Claro](../../graficos/claro/G22_albedo.pdf) / [Escuro](../../graficos/escuro/G22_albedo.pdf) |
-| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2; 2.2; 3.1 | [Claro](../../../01_Recurso_Solar/figuras/claro/F02_componentes_POA.png) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png) | [Claro](../../../01_Recurso_Solar/figuras/claro/F02_componentes_POA.pdf) / [Escuro](../../../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf) |
+| G22_albedo — Sensibilidade ao albedo assumido | 2.2 | [Claro](../../graficos/claro/G22_albedo.png) / [Escuro](../../graficos/escuro/G22_albedo.png) | [Claro](../../graficos/claro/G22_albedo.pdf) / [Escuro](../../graficos/escuro/G22_albedo.pdf) |
 
 **G22_albedo:** Transposição das mesmas componentes reconstruídas com albedo-base 0,20. A variação isola o parâmetro da transposição e não valida albedo. Apenas 1.037 horas elegíveis; não é trimestre integral. A POA medida da cadeia principal não recebe reflexão novamente. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R14; R15; R29.
 
-**F02_componentes_POA:** Representação esquemática das contribuições à POA. Não atribui medições locais de GHI/DNI/DHI nem albedo. O sensor POA da cadeia principal já recebe a contribuição refletida do entorno. Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026). Métodos: R06; R29.
+## Tabelas e quadros de inserção exclusiva
 
-## Tabelas e quadros
+| ID | Tabela ou quadro | Inserir em |
+| --- | --- | --- |
+| T14 | Albedo e geometrias com componentes estimadas | 2.2 |
 
-| Tabela CSV | Subseções |
+[Baixar o Word com os materiais tabulares desta seção](../../tabelas/docx/Materiais_Tabulares_Secao_02.docx).
+
+| Dados e tabelas em CSV | Inserir em |
 | --- | --- |
-| [environment_scenarios](../../../../outputs/tabelas/csv/environment_scenarios.csv) | 2.1; 2.2; 3.1 |
-
-[Tabelas originais em Word](../../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx) · [Quadros originais em Word](../../../../outputs/quadros/docx/Quadros_do_Projeto.docx)
+| [environment_scenarios](../../../../outputs/tabelas/csv/environment_scenarios.csv) | 2.2 |
 
 ## Documentos, dados e execução
 
-[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Word completo dos gráficos](../../../../outputs/graficos/docx/Graficos_do_Projeto.docx) · [Todos os documentos Word](../../../../docs/README.md)
+[Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)

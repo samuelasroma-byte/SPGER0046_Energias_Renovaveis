@@ -1,0 +1,575 @@
+{
+  "version": "2026-10-19.1",
+  "base_commit": "8f6754231861604e9a15032074f4fe0c7f489c11",
+  "rule": "Cada material tem uma única subseção de inserção e uma única seção responsável. Em outras partes do texto, citar o item existente sem reproduzi-lo.",
+  "sources": [
+    "docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+    "notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb"
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "directory": "secoes/01_Recurso_Solar",
+      "title": "Fundamentos e caracterização do recurso solar",
+      "responsible": "Samuel"
+    },
+    {
+      "section": 2,
+      "directory": "secoes/02_Condicoes_Ambientais",
+      "title": "Condições ambientais e de entorno da conversão fotovoltaica",
+      "responsible": "Vannessa e Thais"
+    },
+    {
+      "section": 3,
+      "directory": "secoes/03_Modelagem_Fotovoltaica",
+      "title": "Modelagem da conversão fotovoltaica",
+      "responsible": "Gabriela e Giulia"
+    },
+    {
+      "section": 4,
+      "directory": "secoes/04_Desempenho_Perdas_Validacao",
+      "title": "Avaliação de desempenho, perdas e validação da modelagem",
+      "responsible": "Júlia Ribeiro e Lucas Simão"
+    }
+  ],
+  "figures": [
+    {
+      "id": "G01_recurso_geometria",
+      "owner_subsection": "1.1",
+      "title": "Recurso solar medido e geometria calculada",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 1.1 na proposta e no notebook."
+    },
+    {
+      "id": "G02_variabilidade_recurso",
+      "owner_subsection": "1.3",
+      "title": "Variabilidade diária do recurso solar",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 1.3 na proposta e no notebook."
+    },
+    {
+      "id": "G03_condicoes_ambientais",
+      "owner_subsection": "2.1",
+      "title": "Distribuições das condições ambientais",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 2.1 na proposta e no notebook."
+    },
+    {
+      "id": "G04_temperatura_estimada",
+      "owner_subsection": "3.2",
+      "title": "Resposta térmica estimada pelo modelo",
+      "category": "graficos",
+      "reason": "A resposta térmica é saída da modelagem de temperatura da subseção 3.2."
+    },
+    {
+      "id": "G05_curvas_irradiancia",
+      "owner_subsection": "3.3",
+      "title": "Curvas elétricas para diferentes irradiâncias",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.3 na proposta e no notebook."
+    },
+    {
+      "id": "G06_curvas_temperatura",
+      "owner_subsection": "3.3",
+      "title": "Curvas elétricas para diferentes temperaturas",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.3 na proposta e no notebook."
+    },
+    {
+      "id": "G07_inversor",
+      "owner_subsection": "3.5",
+      "title": "Eficiência e limitação de potência do inversor",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.5 na proposta e no notebook."
+    },
+    {
+      "id": "G08_series_potencia",
+      "owner_subsection": "3.6",
+      "title": "Potência em dias de menor e maior variabilidade",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.6 na proposta e no notebook."
+    },
+    {
+      "id": "G09_energia_diaria",
+      "owner_subsection": "3.6",
+      "title": "Energia diária em intervalos pareados",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.6 na proposta e no notebook."
+    },
+    {
+      "id": "G10_energia_mensal",
+      "owner_subsection": "3.6",
+      "title": "Energia mensal na janela de comparação",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 3.6 na proposta e no notebook."
+    },
+    {
+      "id": "G11_cadeia_energetica",
+      "owner_subsection": "4.1",
+      "title": "Cadeia de energia calculada",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.1 na proposta e no notebook."
+    },
+    {
+      "id": "G12_produtividades_PR",
+      "owner_subsection": "4.3",
+      "title": "Produtividades e razão de desempenho",
+      "category": "graficos",
+      "reason": "O gráfico combina produtividades e PR; fica inteiro em 4.3 para evitar repetição em 4.2."
+    },
+    {
+      "id": "G13_validacao",
+      "owner_subsection": "4.4",
+      "title": "Comparação entre potência simulada e medida",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G14_residuos_temporais",
+      "owner_subsection": "4.4",
+      "title": "Resíduos ao longo do trimestre",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G15_residuos_potencia",
+      "owner_subsection": "4.4",
+      "title": "Resíduos em função da potência observada",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G16_distribuicao_residuos",
+      "owner_subsection": "4.4",
+      "title": "Distribuição dos resíduos",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G17_metricas_mensais",
+      "owner_subsection": "4.4",
+      "title": "Erros mensais do modelo físico",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G18_vies_horario",
+      "owner_subsection": "4.4",
+      "title": "Viés por hora local e tamanho da amostra",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.4 na proposta e no notebook."
+    },
+    {
+      "id": "G19_consistencia_medicoes",
+      "owner_subsection": "4.4",
+      "title": "Consistência entre referências elétricas",
+      "category": "graficos",
+      "reason": "A comparação entre referências elétricas integra a validação em 4.4."
+    },
+    {
+      "id": "G20_sujidade_ventilacao",
+      "owner_subsection": "2.3",
+      "title": "Sensibilidade à sujidade e à ventilação",
+      "category": "graficos",
+      "reason": "O gráfico de cenários de atenuação e ventilação fica em 2.3."
+    },
+    {
+      "id": "G21_HSP_POA_pareada",
+      "owner_subsection": "4.2",
+      "title": "Horas equivalentes de sol na janela pareada",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.2 na proposta e no notebook."
+    },
+    {
+      "id": "G22_albedo",
+      "owner_subsection": "2.2",
+      "title": "Sensibilidade ao albedo assumido",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 2.2 na proposta e no notebook."
+    },
+    {
+      "id": "G23_componentes_estimadas",
+      "owner_subsection": "3.1",
+      "title": "Componentes reconstruídas da POA",
+      "category": "graficos",
+      "reason": "A reconstrução das componentes é um resultado da transposição inversa tratada em 3.1."
+    },
+    {
+      "id": "G24_BIPV_orientacoes",
+      "owner_subsection": "4.5",
+      "title": "Cenários de orientação e integração",
+      "category": "graficos",
+      "reason": "A comparação de cenários BIPV pertence à avaliação específica de 4.5."
+    },
+    {
+      "id": "G25_BIPV_balanco",
+      "owner_subsection": "4.5",
+      "title": "Partição solar do exemplo semitransparente",
+      "category": "graficos",
+      "reason": "Conteúdo específico da subseção 4.5 na proposta e no notebook."
+    },
+    {
+      "id": "FL01_fluxo_projeto",
+      "owner_subsection": "1.4",
+      "title": "Fluxo do estudo com medições locais",
+      "category": "fluxogramas",
+      "reason": "Conteúdo específico da subseção 1.4 na proposta e no notebook."
+    },
+    {
+      "id": "F01_plano_angulos",
+      "owner_subsection": "2.4",
+      "title": "Plano do arranjo e convenções angulares",
+      "category": "figuras",
+      "reason": "O desenho do plano e dos ângulos de instalação pertence à geometria do arranjo em 2.4."
+    },
+    {
+      "id": "F02_componentes_POA",
+      "owner_subsection": "1.2",
+      "title": "Componentes incidentes no plano do módulo",
+      "category": "figuras",
+      "reason": "Conteúdo específico da subseção 1.2 na proposta e no notebook."
+    },
+    {
+      "id": "F03_arranjo_eletrico",
+      "owner_subsection": "3.4",
+      "title": "Organização elétrica do sistema de referência",
+      "category": "figuras",
+      "reason": "A associação elétrica ilustrada pertence à modelagem do arranjo em 3.4."
+    },
+    {
+      "id": "F04_geometrias_BIPV",
+      "owner_subsection": "4.5",
+      "title": "Arranjo inclinado e extensão de fachada",
+      "category": "figuras",
+      "reason": "O esquema da extensão de fachada introduz os cenários avaliados em 4.5."
+    }
+  ],
+  "csv_tables": [
+    {
+      "id": "arranjo_equivalente_diurno",
+      "path": "outputs/tabelas/csv/arranjo_equivalente_diurno.csv",
+      "owner_subsection": "3.4",
+      "role": "serie_auxiliar",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "bipv_balanco_solar_horario",
+      "path": "outputs/tabelas/csv/bipv_balanco_solar_horario.csv",
+      "owner_subsection": "4.5",
+      "role": "serie_auxiliar",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "bipv_comparison",
+      "path": "outputs/tabelas/csv/bipv_comparison.csv",
+      "owner_subsection": "4.5",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "bipv_energy_summary",
+      "path": "outputs/tabelas/csv/bipv_energy_summary.csv",
+      "owner_subsection": "4.5",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "capacity_sensitivity",
+      "path": "outputs/tabelas/csv/capacity_sensitivity.csv",
+      "owner_subsection": "3.5",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "componentes_estimadas_da_POA_horario",
+      "path": "outputs/tabelas/csv/componentes_estimadas_da_POA_horario.csv",
+      "owner_subsection": "3.1",
+      "role": "serie_auxiliar",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "consistencia_medidor_inversores",
+      "path": "outputs/tabelas/csv/consistencia_medidor_inversores.csv",
+      "owner_subsection": "4.4",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "criterio_dias_ilustrativos",
+      "path": "outputs/tabelas/csv/criterio_dias_ilustrativos.csv",
+      "owner_subsection": "1.3",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "curva_inversor_modelada",
+      "path": "outputs/tabelas/csv/curva_inversor_modelada.csv",
+      "owner_subsection": "3.5",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "energia_diaria_pareada",
+      "path": "outputs/tabelas/csv/energia_diaria_pareada.csv",
+      "owner_subsection": "3.6",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "energia_e_HSP_diurna_pareada",
+      "path": "outputs/tabelas/csv/energia_e_HSP_diurna_pareada.csv",
+      "owner_subsection": "4.2",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "energia_e_indicadores_mensais",
+      "path": "outputs/tabelas/csv/energia_e_indicadores_mensais.csv",
+      "owner_subsection": "3.6",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "energy_stages",
+      "path": "outputs/tabelas/csv/energy_stages.csv",
+      "owner_subsection": "4.1",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "environment_scenarios",
+      "path": "outputs/tabelas/csv/environment_scenarios.csv",
+      "owner_subsection": "2.2",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "environment_sensitivity",
+      "path": "outputs/tabelas/csv/environment_sensitivity.csv",
+      "owner_subsection": "2.3",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "estatistica_descritiva",
+      "path": "outputs/tabelas/csv/estatistica_descritiva.csv",
+      "owner_subsection": "2.1",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "metricas_por_faixa_POA",
+      "path": "outputs/tabelas/csv/metricas_por_faixa_POA.csv",
+      "owner_subsection": "4.4",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "metricas_por_hora",
+      "path": "outputs/tabelas/csv/metricas_por_hora.csv",
+      "owner_subsection": "4.4",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "metricas_por_mes",
+      "path": "outputs/tabelas/csv/metricas_por_mes.csv",
+      "owner_subsection": "4.4",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "metrics",
+      "path": "outputs/tabelas/csv/metrics.csv",
+      "owner_subsection": "4.4",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "operational_flags",
+      "path": "outputs/tabelas/csv/operational_flags.csv",
+      "owner_subsection": "4.1",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "series_15min_local_e_modelo",
+      "path": "outputs/tabelas/csv/series_15min_local_e_modelo.csv",
+      "owner_subsection": "3.6",
+      "role": "serie_auxiliar",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "situacao_dos_dados",
+      "path": "outputs/tabelas/csv/situacao_dos_dados.csv",
+      "owner_subsection": "1.4",
+      "role": "quadro",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    },
+    {
+      "id": "yields",
+      "path": "outputs/tabelas/csv/yields.csv",
+      "owner_subsection": "4.3",
+      "role": "tabela_dados",
+      "reason": "Atribuição única pelo conteúdo das variáveis e pelo método da subseção."
+    }
+  ],
+  "word_tables": [
+    {
+      "id": "T01",
+      "number": 1,
+      "title": "Estatística descritiva de posição e dispersão",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "2.1"
+    },
+    {
+      "id": "T02",
+      "number": 2,
+      "title": "Extremos e quartis dos mesmos pares",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "2.1"
+    },
+    {
+      "id": "T03",
+      "number": 3,
+      "title": "Erros de potência nas comparações principais",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    },
+    {
+      "id": "T04",
+      "number": 4,
+      "title": "Erros normalizados correlação e determinação",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    },
+    {
+      "id": "T05",
+      "number": 5,
+      "title": "Erros mensais do modelo físico",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    },
+    {
+      "id": "T06",
+      "number": 6,
+      "title": "Erros relativos mensais do modelo físico",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    },
+    {
+      "id": "T07",
+      "number": 7,
+      "title": "Consistência entre soma dos inversores e medidor",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    },
+    {
+      "id": "T08",
+      "number": 8,
+      "title": "Energia e cobertura dos intervalos pareados",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "3.6"
+    },
+    {
+      "id": "T09",
+      "number": 9,
+      "title": "Energia observada integral por mês",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "3.6"
+    },
+    {
+      "id": "T10",
+      "number": 10,
+      "title": "Produtividades e desempenho na janela pareada",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.3"
+    },
+    {
+      "id": "T11",
+      "number": 11,
+      "title": "Energia por estágio do modelo",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.1"
+    },
+    {
+      "id": "T12",
+      "number": 12,
+      "title": "Sensibilidade de sujidade e ventilação",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "2.3"
+    },
+    {
+      "id": "T13",
+      "number": 13,
+      "title": "Sensibilidade do limite AC por inversor",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "3.5"
+    },
+    {
+      "id": "T14",
+      "number": 14,
+      "title": "Albedo e geometrias com componentes estimadas",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "2.2"
+    },
+    {
+      "id": "T15",
+      "number": 15,
+      "title": "Produtividade e PR dos cenários BIPV",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.5"
+    },
+    {
+      "id": "T16",
+      "number": 16,
+      "title": "Energia diária e horas equivalentes na janela pareada",
+      "source_docx": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "owner_subsection": "4.2"
+    }
+  ],
+  "frames": [
+    {
+      "id": "Q01",
+      "number": 1,
+      "title": "Dados disponíveis e limites do estudo",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "1.4"
+    },
+    {
+      "id": "Q02",
+      "number": 2,
+      "title": "Parâmetros documentados e hipóteses do modelo",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "3.2"
+    },
+    {
+      "id": "Q03",
+      "number": 3,
+      "title": "Fundamentos e recurso solar",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "1.4"
+    },
+    {
+      "id": "Q04",
+      "number": 4,
+      "title": "Ambiente e instalação",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "2.4"
+    },
+    {
+      "id": "Q05",
+      "number": 5,
+      "title": "Modelagem da conversão",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "3.5"
+    },
+    {
+      "id": "Q06",
+      "number": 6,
+      "title": "Desempenho e validação",
+      "source_docx": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "owner_subsection": "4.4"
+    }
+  ]
+}

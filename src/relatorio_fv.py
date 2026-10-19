@@ -4,10 +4,11 @@ import json
 import base64
 import html
 import pandas as pd
+import editorial_fv as editorial
 
 
 def coverage(ctx):
-    root=ctx['root'];sections=json.loads((root/'docs/secoes_capitulo.json').read_text())
+    root=ctx['root'];sections=editorial.assign_sections(root,json.loads((root/'docs/secoes_capitulo.json').read_text()))
     ids={r['id'] for r in ctx['figures']}
     records=[]
     for s in sections:
@@ -44,7 +45,14 @@ def report(ctx):
     body+='<button id="theme" type="button" aria-pressed="false">Alternar fundo claro ou escuro</button>'
     body+='<nav aria-label="Sumário"><h2>Sumário das subseções</h2><ol>'
     for r in rows:body+='<li><a href="#sec'+r['id'].replace('.','_')+'">'+escaped(r['id']+' '+r['title'])+'</a></li>'
-    body+='</ol></nav><h2>Onde estão as entregas</h2><ul>'
+    body+='</ol></nav><p>Cada ID tem uma única subseção de inserção. Citar o item em outras partes sem repetir sua inclusão.</p><h2>Materiais para redação por seção</h2><ul>'
+    rules=editorial.policy(root)
+    if rules:
+        for section in rules['sections']:
+            path=section['directory']+'/tabelas/docx/Materiais_Tabulares_Secao_'+str(section['section']).zfill(2)+'.docx'
+            body+='<li><a href="../../'+path+'">Tabelas e quadros exclusivos da seção '+str(section['section'])+'</a></li>'
+        body+='<li><a href="../../docs/Distribuicao_Editorial.md">Mapa de inserção única</a></li>'
+    body+='</ul><details><summary>Coleções consolidadas de consulta</summary><ul>'
     outputs=[('Tabelas editáveis','tabelas/docx/Tabelas_do_Projeto.docx'),
         ('Quadros editáveis','quadros/docx/Quadros_do_Projeto.docx'),
         ('Gráficos em Word','graficos/docx/Graficos_do_Projeto.docx'),
@@ -52,23 +60,26 @@ def report(ctx):
         ('Ilustrações FV em Word','figuras/docx/Ilustracoes_FV.docx'),
         ('Dossiê técnico por seção','dossie_tecnico/Dossie_Tecnico_por_Secao.docx')]
     for title,path in outputs:body+='<li><a href="../'+path+'">'+title+'</a></li>'
-    body+='<li><a href="Matriz_de_Cobertura_do_Capitulo.md">Matriz completa das 19 subseções</a></li></ul>'
+    body+='</ul></details><p><a href="Matriz_de_Cobertura_do_Capitulo.md">Matriz completa das 19 subseções</a></p>'
     for r in rows:
         body+='<section id="sec'+r['id'].replace('.','_')+'"><h2>'+escaped(r['id']+' '+r['title'])+'</h2>'
         body+='<details><summary>Descrição e método</summary><p>'+escaped(r['method'])+'</p><p><strong>Entradas:</strong> '+escaped(r['inputs'])+'</p><p><strong>Limite:</strong> '+escaped(r['limitation'])+'</p></details>'
         body+='<p><strong>Evidência:</strong> '+escaped(r['evidence'])+'. <strong>Responsável:</strong> '+escaped(r['owner'])+'.</p>'
         for fig in ctx['figures']:
+            editorial.assign_figure(root,fig)
             if r['id'] not in fig['subsections']:continue
             images={}
             for theme in ['claro','escuro']:
                 images[theme]=base64.b64encode((root/fig['files'][theme]['preview']).read_bytes()).decode()
-            body+='<figure><h3>'+escaped(fig['title'])+'</h3>'
+            body+='<figure data-editorial-id="'+escaped(fig['id'])+'"><h3>'+escaped(fig['title'])+'</h3>'
             for theme in ['claro','escuro']:
                 body+='<img class="fig-'+theme+'" src="data:image/png;base64,'+images[theme]+'" alt="'+escaped(fig['caption'])+'">'
             body+='<figcaption>'+escaped(fig['caption'])+'<p>Fonte: '+escaped(fig['source'])+'</p>Referências metodológicas: '+escaped(', '.join(fig['refs']))+'.</figcaption></figure>'
+        if r['id']=='2.1':
+            body+='<h3>Estatística descritiva</h3><div class="scroll">'+ctx['analytics_tables']['estatistica_descritiva'].drop(columns=['window','std_convention']).to_html(index=False,border=0,float_format=lambda x:f'{x:.3f}')+'</div>'
+        if r['id']=='4.4':
+            body+='<h3>Métricas gerais</h3><div class="scroll">'+ctx['metrics'].to_html(index=False,border=0,float_format=lambda x:f'{x:.4f}')+'</div>'
         body+='</section>'
-    body+='<h2>Estatística descritiva</h2><div class="scroll">'+ctx['analytics_tables']['estatistica_descritiva'].drop(columns=['window','std_convention']).to_html(index=False,border=0,float_format=lambda x:f'{x:.3f}')+'</div>'
-    body+='<h2>Métricas gerais</h2><div class="scroll">'+ctx['metrics'].to_html(index=False,border=0,float_format=lambda x:f'{x:.4f}')+'</div>'
     body+='<h2>Referências</h2>'
     for ref in refs:
         body+='<p id="'+ref['id']+'"><strong>'+ref['id']+'</strong> '+escaped(ref['citation'])+' <a href="'+escaped(ref['url'])+'">Fonte original</a>. '+escaped(ref['role'])+'.</p>'

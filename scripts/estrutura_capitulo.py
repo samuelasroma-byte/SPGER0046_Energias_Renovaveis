@@ -123,6 +123,11 @@ ROWS = [
 def write(root):
     keys=['id','title','owner','inputs','method','equation','evidence','limitation','refs','figures','outputs']
     rows=[dict(zip(keys,row)) for row in ROWS]
+    policy=Path(root)/'config/distribuicao_editorial.json'
+    if policy.exists():
+        figures=json.loads(policy.read_text())['figures']
+        for row in rows:
+            row['figures']=[f['id'] for f in figures if f['owner_subsection']==row['id']]
     path=Path(root)/'docs/secoes_capitulo.json'
     path.write_text(json.dumps(rows,ensure_ascii=False,indent=2))
     return rows

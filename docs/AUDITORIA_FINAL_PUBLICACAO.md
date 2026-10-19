@@ -72,3 +72,23 @@ O [índice de documentos](README.md) oferece download direto dos dez Word. O pro
 ## Guia técnico de orientação da equipe
 
 Em 19/10/2026 foi acrescentado o [guia técnico resumido do PVDAQ 2107 em Word](metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx), com três páginas e links para os dados, equipamentos, configuração e dossiê completo. É uma síntese nova para as quatro seções; as dez cópias DOCX originais e os 156 arquivos de origem permanecem intactos. A revisão conferiu a distribuição real dos grupos no JSON original: 19×120, 1×160, 1×200 e 3×80, totalizando 2.880 módulos. A orientação e o esclarecimento sobre a simplificação do dossiê original estão no [índice de métodos](metodos/README.md). O [registro de verificação do guia](auditoria/Guia_Tecnico_Resumido_Verificacao.json) contém tamanho, SHA-256, fontes e revisão visual das três páginas.
+
+## Correção de repetições na distribuição editorial
+
+Em 19/10/2026, a revisão comparou a proposta oficial, o notebook e os índices. As 30 ilustrações tinham 44 indicações nos índices das quatro seções; 11 itens apareciam em mais de uma seção. A pertinência temática múltipla foi substituída por uma única subseção de inserção para cada figura, gráfico, tabela e quadro. O [mapa editorial](Distribuicao_Editorial.md) e a [política em JSON](../config/distribuicao_editorial.json) registram as atribuições.
+
+| Seção | Ilustrações | Tabelas lógicas Word | Quadros |
+| --- | --- | --- | --- |
+| 1 — recurso solar | 4 | 0 | 2 |
+| 2 — ambiente | 4 | 4 | 1 |
+| 3 — modelagem | 9 | 3 | 2 |
+| 4 — desempenho e validação | 13 | 9 | 1 |
+| Total | 30 | 16 | 6 |
+
+Seis ilustrações foram movidas para suas seções responsáveis, totalizando 24 arquivos PNG/PDF realocados sem mudar seus bytes. As 120 exportações finais, os 24 CSVs, as 156 cópias de origem e os dez Word originais permanecem íntegros. A Tabela 16 é um único item com quatro blocos de continuação; os 19 blocos XML do Word original não representam 19 tabelas distintas.
+
+Foram acrescentados quatro Word editáveis, cada um contendo somente as tabelas e quadros da respectiva seção. Os valores das células numéricas coincidem integralmente com os originais. Nos quadros de planejamento derivados, apenas as listas de figuras foram alinhadas à atribuição exclusiva. As 21 páginas dos quatro documentos foram renderizadas e inspecionadas; os documentos consolidados originais permanecem como consulta histórica.
+
+Os 19 índices de subseção, os quatro índices de seção, o catálogo, a matriz, o notebook de trabalho, seu pacote de apoio e o gerador HTML usam a mesma atribuição. O teste executou as 19 células de apresentação sobre o cálculo físico em diretório temporário e conferiu 30 inclusões únicas no HTML, ausência de vínculos a ilustrações de outras seções e ausência de repetição nos documentos tabulares por seção. Os testes de organização, ciência e refinamento também passaram. Hipóteses físicas, equações, dados brutos, dados preparados e saídas numéricas não foram alterados.
+
+[Verificação da distribuição editorial](auditoria/Verificacao_Distribuicao_Editorial.json) · [Teste reproduzível](../tests/verificar_distribuicao_editorial.py). Em outras partes do capítulo, citar o ID já inserido; os temas claro/escuro e os formatos PNG/PDF são alternativas de um mesmo item.
