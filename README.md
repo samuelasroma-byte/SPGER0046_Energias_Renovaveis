@@ -29,7 +29,8 @@ O levantamento encontrou 829 obras únicas, 295 associações temáticas, 102 as
 
 | Material | Acesso direto |
 | --- | --- |
-| Documentos Word autorais | [Dez DOCX originais no GitHub](docs/README.md) |
+| Guia técnico comum às quatro seções | [Resumo de dados equipamentos período e hipóteses em Word](docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) |
+| Documentos Word autorais | [Dez originais e o guia técnico resumido](docs/README.md) |
 | Gráficos, figuras e fluxograma | [30 ilustrações: PNG 600 dpi e PDF, claro e escuro](figuras/README.md) |
 | Tabelas e quadros | [CSVs e tabelas Word](outputs/tabelas/README.md) · [Quadros Word](outputs/quadros/docx/Quadros_do_Projeto.docx) |
 | Resultados e relatório completo | [Abrir resultados](outputs/README.md) |

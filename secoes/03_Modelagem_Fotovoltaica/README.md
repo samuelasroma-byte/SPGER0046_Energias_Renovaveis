@@ -1,5 +1,7 @@
 # 3 Modelagem da conversão fotovoltaica
 
+[Guia técnico comum do estudo de caso em Word](../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx): origem dos dados, período, equipamentos, entradas e hipóteses para as quatro seções.
+
 Responsáveis: **Gabriela e Giulia**.
 
 Como essas entradas são incorporadas aos modelos para estimar a potência e a energia produzidas pelo sistema fotovoltaico?

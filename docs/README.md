@@ -1,9 +1,10 @@
 # Documentos originais do projeto
 
-Dez DOCX estão disponíveis diretamente no GitHub, preservados byte a byte em relação aos arquivos recuperados do Drive. As versões Markdown auxiliam a navegação e não substituem os documentos Word.
+O guia técnico resumido orienta o grupo sobre o estudo de caso comum às quatro seções. Os dez DOCX originais também estão disponíveis, preservados byte a byte em relação aos arquivos recuperados do Drive. As versões Markdown auxiliam a navegação.
 
 | Documento | Arquivo no GitHub | Download direto |
 | --- | --- | --- |
+| Guia_Tecnico_Resumido_PVDAQ_2107.docx | [Guia técnico resumido](metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) |
 | Proposta_do_Capitulo_Recurso_Solar_FV.docx | [Proposta_do_Capitulo_Recurso_Solar_FV.docx](planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) |
 | Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx | [Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx](planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx) |
 | Plano_Equipe_SPGER0046.docx | [Plano_Equipe_SPGER0046.docx](planejamento/Plano_Equipe_SPGER0046.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Plano_Equipe_SPGER0046.docx) |

@@ -1,5 +1,7 @@
 # 4 Avaliação de desempenho, perdas e validação da modelagem
 
+[Guia técnico comum do estudo de caso em Word](../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx): origem dos dados, período, equipamentos, entradas e hipóteses para as quatro seções.
+
 Responsáveis: **Júlia Ribeiro e Lucas Simão**.
 
 Como o desempenho de um sistema fotovoltaico é quantificado, como suas perdas são decompostas e quão bem o modelo reproduz o comportamento observado?
