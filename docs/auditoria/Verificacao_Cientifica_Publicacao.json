@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "base_commit": "5c1ba24c334ae65c05da29ef7d30c9efd53fc2ca",
+  "checks": {
+    "verificar_organizacao.py": "passed",
+    "verificar_ciencia.py": "passed",
+    "verificar_refinamento.py": "passed"
+  },
+  "protected_scientific_directories": [
+    "src",
+    "config",
+    "data/processed",
+    "outputs/series",
+    "outputs/avaliacao"
+  ],
+  "scientific_files_changed": [],
+  "python": "3.12.14",
+  "versions": {
+    "pvlib": "0.16.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "Pillow": "12.3.0",
+    "PyMuPDF": "1.26.6"
+  }
+}

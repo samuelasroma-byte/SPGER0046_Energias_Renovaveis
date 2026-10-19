@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "date_UTC": "2026-10-19T11:35:54Z",
+  "commit": "d24eb3791fc08d4250e711f308742f7a20b7767d",
+  "authentication": "none",
+  "downloads_checked": 24,
+  "bytes_downloaded": 90889009,
+  "files": [
+    {
+      "path": "docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+      "HTTP": 200,
+      "bytes": 1984208,
+      "sha256": "1adff9d360ea021899eb050eaa7d6daabc36e68d3d30ae48fcf4d5076616bc35",
+      "matches": true
+    },
+    {
+      "path": "docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+      "HTTP": 200,
+      "bytes": 27309,
+      "sha256": "ed8237bcd3f5b6b9c462dbbdc99bb5f4f51124ac6916e79feb015c4f9e2e19f3",
+      "matches": true
+    },
+    {
+      "path": "docs/planejamento/Plano_Equipe_SPGER0046.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/docs/planejamento/Plano_Equipe_SPGER0046.docx",
+      "HTTP": 200,
+      "bytes": 42126,
+      "sha256": "87d647f7d4b7801566154e8982b0bb810de9380dfd31611b9c87474196b6b57d",
+      "matches": true
+    },
+    {
+      "path": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "HTTP": 200,
+      "bytes": 48018,
+      "sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+      "matches": true
+    },
+    {
+      "path": "notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb",
+      "HTTP": 200,
+      "bytes": 4549657,
+      "sha256": "bd312fcca2583fc6ab0f9586c44cb99c9131e675a27bf6cea7f47547c7c5a8c1",
+      "matches": true
+    },
+    {
+      "path": "data/raw/2107_meter_15m_data_2024.csv",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/data/raw/2107_meter_15m_data_2024.csv",
+      "HTTP": 200,
+      "bytes": 849109,
+      "sha256": "bdef5026a5715f5a2b114580dd767a02bf35c4986bbffe496c4b89e85789eb98",
+      "matches": true
+    },
+    {
+      "path": "data/raw/2107_irradiance_data_2024.csv",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/data/raw/2107_irradiance_data_2024.csv",
+      "HTTP": 200,
+      "bytes": 1933523,
+      "sha256": "fd5acea27608b348b98d0e57d6e8a16f75031cfd6813f7a23caf15211caaec29",
+      "matches": true
+    },
+    {
+      "path": "data/raw/2107_environment_data_2024.csv",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/data/raw/2107_environment_data_2024.csv",
+      "HTTP": 200,
+      "bytes": 1179362,
+      "sha256": "6e66f9a75ad879d7f0444ba108b352920a7e6458c6a6b9dcb74e6828c47977bd",
+      "matches": true
+    },
+    {
+      "path": "bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+      "HTTP": 200,
+      "bytes": 179827,
+      "sha256": "a3c4fa61029a6e06f1d406dc46c7039748b3f8663bf1f144cf6765c6589ae5bc",
+      "matches": true
+    },
+    {
+      "path": "docs/metodos/Dossie_Tecnico_por_Secao.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/docs/metodos/Dossie_Tecnico_por_Secao.docx",
+      "HTTP": 200,
+      "bytes": 63896,
+      "sha256": "498f5a73526843ecd76cdbf2a8a20ad802b9ade9f73163b02b2d9ed0d4bc7699",
+      "matches": true
+    },
+    {
+      "path": "outputs/figuras/docx/Ilustracoes_FV.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/outputs/figuras/docx/Ilustracoes_FV.docx",
+      "HTTP": 200,
+      "bytes": 789912,
+      "sha256": "08280c666232a49851e6a87816cbe3cf11d90099263ab01af09772751e4baa29",
+      "matches": true
+    },
+    {
+      "path": "outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "HTTP": 200,
+      "bytes": 408311,
+      "sha256": "a9a07548e98138651b73c174547e592496668c7baa418c031d4cc2f0db5a8dc0",
+      "matches": true
+    },
+    {
+      "path": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "HTTP": 200,
+      "bytes": 44379,
+      "sha256": "035771e5452bf91b5d6807f47372eddc292f3f36954b45ab92569ff914da256e",
+      "matches": true
+    },
+    {
+      "path": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "HTTP": 200,
+      "bytes": 53503,
+      "sha256": "174e4d08a02582683efac70c8b0a0abb7c0b20075b00b824b8b4413811204f84",
+      "matches": true
+    },
+    {
+      "path": "data/raw/2107_electrical_data_2024.csv",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/data/raw/2107_electrical_data_2024.csv",
+      "HTTP": 200,
+      "bytes": 63287121,
+      "sha256": "bb2e9f7495e471503daa2c4b4ae9aa053ca4c779d63665afb1c2270daaa243a5",
+      "matches": true
+    },
+    {
+      "path": "outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "HTTP": 200,
+      "bytes": 14465317,
+      "sha256": "be1bd732aa185515b0829f97c673db846bf1ccdad39c952790f68b61af75dccc",
+      "matches": true
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png",
+      "HTTP": 200,
+      "bytes": 273291,
+      "sha256": "f2cc8eb6faf3e6aca7f535db08035925c07b14aec57e50f1943b7cb1322dc444",
+      "matches": true
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf",
+      "HTTP": 200,
+      "bytes": 10048,
+      "sha256": "5dd8b5c61fb5dcac89e7c361ffaf12b7a8ad62d025311577576c24110140c474",
+      "matches": true
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png",
+      "HTTP": 200,
+      "bytes": 192866,
+      "sha256": "aafb52def1563e77639cc8e91682913de0a405f19d2857128e9dcb04bd8d9086",
+      "matches": true
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf",
+      "HTTP": 200,
+      "bytes": 10585,
+      "sha256": "11fa45d9da4afb8bcb43289c73875db52d538bb11f0abf63aa4e063132e6bb5b",
+      "matches": true
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.png",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.png",
+      "HTTP": 200,
+      "bytes": 301890,
+      "sha256": "7121d38d7f81e7e102a8a95859fd4317520edf546515d4997cadbd06759aacc3",
+      "matches": true
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.pdf",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.pdf",
+      "HTTP": 200,
+      "bytes": 12735,
+      "sha256": "bf5b130fb8d468a6994d0a7908259fd8ce2260b77b381f3dbe51a283bbd516d5",
+      "matches": true
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.png",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.png",
+      "HTTP": 200,
+      "bytes": 169671,
+      "sha256": "a1fb4e4a45a5485ab7e4891f9165584d5aea84a7a644560ba90f94dcfce323a1",
+      "matches": true
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.pdf",
+      "url": "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/d24eb3791fc08d4250e711f308742f7a20b7767d/secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.pdf",
+      "HTTP": 200,
+      "bytes": 12345,
+      "sha256": "e0fa44b5a48539bf0e06cf344b13ea027619a89c64e06537c32cdc5212acad20",
+      "matches": true
+    }
+  ]
+}

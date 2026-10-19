@@ -1,5 +1,7 @@
 # SPGER0046 — Energias Renováveis | PPGER/UFPB
 
+[Baixar o projeto completo em ZIP](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip) · [Consultar a auditoria da entrega](docs/AUDITORIA_FINAL_PUBLICACAO.md)
+
 ## Proposta oficial do capítulo
 
 **Recurso solar e modelagem da conversão fotovoltaica.** [Abrir / baixar a proposta original em Word](docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) · [Matriz das 19 subseções](docs/Matriz_19_Subsecoes.md) · [Planejamento da equipe em Word](docs/planejamento/Plano_Equipe_SPGER0046.docx)

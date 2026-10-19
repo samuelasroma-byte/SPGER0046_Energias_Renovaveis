@@ -50,6 +50,21 @@ A conexão GitHub confirmou leitura e escrita para o proprietário. Os nomes Git
 - [Arquivos mantidos externamente e motivos](auditoria/Arquivos_Mantidos_Externamente.csv).
 - [Permissões individuais dos 605 arquivos](auditoria/Permissoes_Drive_Verificadas.csv).
 
-## Verificação remota
+## Verificação remota e entrega
 
-A integração está preparada na branch `integracao/reorganizacao-cientifica-20261019`, a partir de `5c1ba24c334ae65c05da29ef7d30c9efd53fc2ca`. A publicação, os downloads de amostras, a comparação da árvore remota e a incorporação à `main` estão em execução. Este trecho será atualizado com os resultados efetivamente observados antes da entrega final.
+A recuperação dos originais terminou com sucesso no [GitHub Actions, execução 39245482869](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/actions/runs/39245482869). O commit [d24eb3791fc08d4250e711f308742f7a20b7767d](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/commit/d24eb3791fc08d4250e711f308742f7a20b7767d) contém as 156 cópias originais conferidas: 95 já estavam presentes e 61 foram recuperadas e incluídas. O envio pelo GitHub Actions resolveu a limitação de tamanho do transporte anterior e manteve os originais completos.
+
+A cópia obtida novamente do GitHub passou pela auditoria de estrutura, navegação e integridade. Foram conferidos 19 diretórios de subseções, as referências B01–B39, os 91 documentos A catalogados, 120 PNG/PDF finais, dez DOCX e todos os tamanhos e SHA-256 das 156 cópias. Não houve divergência de bytes nem link relativo quebrado. Os diretórios científicos `src`, `config`, `data/processed`, `outputs/series` e `outputs/avaliacao` são idênticos à base anterior `5c1ba24c334ae65c05da29ef7d30c9efd53fc2ca`.
+
+Foram realizados 24 downloads públicos sem autenticação, totalizando 90.889.009 bytes: os dez documentos Word, os dois notebooks executados, os quatro CSVs completos e oito amostras PNG/PDF distribuídas pelas quatro seções. Todos retornaram HTTP 200 e coincidiram com o tamanho e SHA-256 esperados, incluindo o Word de 14,5 MB e o CSV elétrico de 63,3 MB. Esses testes usam URLs permanentes do commit, preservando a evidência mesmo após novas revisões.
+
+Os testes `verificar_organizacao.py`, `verificar_ciencia.py` e `verificar_refinamento.py` passaram. A verificação científica incluiu separação entre entradas e observações, grade temporal comum, métricas recalculadas, conservação de energia e execução física com e sem o caminho exploratório de inversão. Os arquivos finais mantêm 600 dpi nos PNG, elementos vetoriais nos PDF e tabelas editáveis nos Word.
+
+- [Resultado da recuperação, arquivo por arquivo](auditoria/Materializacao_Remota.json).
+- [Auditoria executada no GitHub](auditoria/Verificacao_Remota_Arquivos.json).
+- [Evidência dos 24 downloads públicos](auditoria/Verificacao_Downloads_Publicos.json).
+- [Testes científicos e versões do ambiente](auditoria/Verificacao_Cientifica_Publicacao.json).
+- [Verificação dos documentos, tabelas e 120 gráficos](auditoria/Verificacao_Refinamento_Integracao.json).
+- [PR de integração da entrega à main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/pull/1).
+
+O [índice de documentos](README.md) oferece download direto dos dez Word. O projeto completo pode ser obtido em [ZIP da main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip). Leitura e download dos arquivos publicados são públicos. As pendências de edições bibliográficas, da norma N01 e dos convites de edição estão identificadas acima e não são apresentadas como resolvidas.
