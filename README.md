@@ -31,6 +31,7 @@ O levantamento encontrou 829 obras únicas, 295 associações temáticas, 102 as
 | --- | --- |
 | Guia técnico comum às quatro seções | [Resumo de dados equipamentos período e hipóteses em Word](docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) |
 | Distribuição para redação | [Local único de inserção de cada figura tabela e quadro](docs/Distribuicao_Editorial.md) |
+| Inventário de equações | [Word geral e quatro quadros por seção com função origem e contagem](docs/equacoes/README.md) |
 | Documentos Word autorais | [Quatro documentos tabulares por seção guia resumido e dez originais](docs/README.md) |
 | Gráficos, figuras e fluxograma | [30 ilustrações: PNG 600 dpi e PDF, claro e escuro](figuras/README.md) |
 | Tabelas e quadros | [CSVs e quatro Word exclusivos por seção](outputs/tabelas/README.md) |

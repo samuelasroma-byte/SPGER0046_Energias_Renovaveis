@@ -143,6 +143,8 @@ def main():
         text += ' · ' + link(page, section['directory']+'/quadros/README.md', 'Quadros da seção')
         text += ' · ' + link(page, word_path, 'Word exclusivo desta seção') + '\n\n'
         text += link(page, 'docs/Distribuicao_Editorial.md', 'Mapa geral e regra de inserção única') + '\n'
+        if (folder/'equacoes/README.md').exists():
+            text += '\n## Equações da seção\n\n[Quadro de equações com função origem e subseção de inserção](equacoes/README.md).\n'
         page.write_text(text)
 
         for category in ['figuras', 'graficos']:
@@ -168,6 +170,10 @@ def main():
                             ('Dossiê técnico dos dados e equipamentos', 'docs/metodos/Dossie_Tecnico_por_Secao.docx'),
                             ('Proposta oficial do capítulo', 'docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx'),
                             ('Referências por subseção', 'bibliografia/outputs/Referencias_por_Subsecao.docx')]) + '\n')
+
+        equation_word=folder/f'equacoes/Quadro_Equacoes_Secao_{int(number):02d}.docx'
+        if equation_word.exists():
+            page.write_text(page.read_text()+'\n[Quadro de equações exclusivo desta seção](../equacoes/'+equation_word.name+').\n')
 
         for page in folder.glob('subsecoes/*/README.md'):
             subsection = page.parent.name.replace('_','.')

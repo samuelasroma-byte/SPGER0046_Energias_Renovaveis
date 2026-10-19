@@ -27,6 +27,7 @@ md('**Como usar:** execute as células na ordem. As saídas ficam em outputs, se
    'Cada figura final possui PDF vetorial e PNG a 600 dpi nos temas claro e escuro em secoes. Quatro DOCX separados reúnem as tabelas e quadros de cada seção; as coleções consolidadas servem para consulta. '
    'A exportação pessoal ao Drive é opcional e exige autenticação no Colab. '
    '**Inserção editorial única:** cada figura, gráfico e tabela possui somente uma subseção responsável. Usar o mapa config/distribuicao_editorial.json e citar o ID em outras partes, sem reinserir o material. As quatro versões de uma ilustração são alternativas de formato e tema.\n\n'
+   '**Inventário para redação:** [Word geral e quadros de equações por seção](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/docs/equacoes/README.md). Cada relação possui ID, função e local de inserção; o inventário distingue o núcleo já escrito dos complementos do código.\n\n'
    '**Sumário:** '+ ' · '.join('['+s['id']+'](#sec_'+s['id'].replace('.','_')+')' for s in SECTIONS))
 title('## 0 Preparação e sistema de referência')
 description('O modelo representa uma instalação real. Equipamentos: 2.880 módulos e 24 inversores. '
