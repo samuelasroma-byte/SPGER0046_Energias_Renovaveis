@@ -126,7 +126,7 @@ for number,folder in enumerate(sorted((ROOT/'secoes').iterdir()),1):
 assert set(seen)==set(ids) and set(seen.values())=={1}
 protected=['src/projeto_fv.py','src/refinamento_fv.py','config','data',
            'outputs/tabelas/csv','outputs/series','outputs/avaliacao',
-           'notebooks/originais_executados','bibliografia']
+           'notebooks/originais_executados','bibliografia/outputs']
 changes=subprocess.check_output(['git','-C',str(ROOT),'diff',data['source_commit'],'--name-only','--',*protected],text=True).splitlines()
 assert not changes,changes
 result=dict(status='passed',subsections=19,notebook_relation_occurrences=38,

@@ -1,6 +1,8 @@
 # SPGER0046 — Energias Renováveis | PPGER/UFPB
 
-[Baixar o projeto completo em ZIP](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip) · [Consultar a auditoria da entrega](docs/AUDITORIA_FINAL_PUBLICACAO.md)
+**[Baixar o ZIP completo da entrega mais recente](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest/download/SPGER0046_Projeto_Completo.zip)** · [Versões e verificação](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest) · [ZIP automático da main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip)
+
+Material atualizado em **19/10/2026**: bibliografia de 39 referências com a fonte PVDAQ/OEDI identificada; inventário geral e quatro quadros de equações em Word e PDF, com símbolos, unidades e aplicação no notebook. O pacote contém todos os arquivos versionados e um manifesto de integridade. [Como identificar a versão e conferir o ZIP](docs/ENTREGA_ZIP.md).
 
 ## Proposta oficial do capítulo
 
@@ -21,7 +23,7 @@ Como o recurso solar e as condições ambientais e de instalação são caracter
 
 **[B01–B39: referências prioritárias, ABNT, PDFs e distribuição pelas subseções](bibliografia/principal/README.md)**
 
-[Baixar Referencias_por_Subsecao.docx](bibliografia/outputs/Referencias_por_Subsecao.docx) · [Correspondência B → A em CSV](bibliografia/principal/Correspondencia_B_A.csv) · [BibTeX](bibliografia/outputs/referencias_fundamentacao.bib) · [RIS](bibliografia/outputs/referencias_fundamentacao.ris)
+[Ler referências em PDF](https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Arquivos revisados e histórico](bibliografia/atualizada/README.md) · [Correspondência B → A em CSV](bibliografia/principal/Correspondencia_B_A.csv) · [BibTeX](bibliografia/atualizada/referencias_fundamentacao.bib) · [RIS](bibliografia/atualizada/referencias_fundamentacao.ris)
 
 O levantamento encontrou 829 obras únicas, 295 associações temáticas, 102 associações prioritárias e 39 obras prioritárias distintas. A leitura integral está pendente; a seleção não constitui revisão sistemática concluída. B19, a edição específica de B20 e a norma N01 permanecem com pendências explicitadas no índice.
 

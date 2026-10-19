@@ -2,7 +2,9 @@
 
 As 39 obras abaixo constituem a fundamentação prioritária das 19 subseções. Foram selecionadas entre 829 obras únicas, com 295 associações temáticas e 102 associações prioritárias registradas no levantamento. A seleção bibliográfica e a disponibilidade de PDF não equivalem a leitura integral ou revisão sistemática concluída.
 
-[Baixar o guia original em Word](../outputs/Referencias_por_Subsecao.docx) · [Baixar correspondência B → A em CSV](Correspondencia_B_A.csv) · [BibTeX](../outputs/referencias_fundamentacao.bib) · [RIS](../outputs/referencias_fundamentacao.ris)
+[Ler PDF revisado no Drive](https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk) · [Abrir Word revisado no Drive](https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Arquivos revisados e histórico](../atualizada/README.md) · [Correspondência B → A em CSV](Correspondencia_B_A.csv) · [BibTeX](../atualizada/referencias_fundamentacao.bib) · [RIS](../atualizada/referencias_fundamentacao.ris)
+
+**Origem dos dados:** B24 é o conjunto **PVDAQ/OEDI de Deline e colaboradores (2021)**, DOI [10.25984/1846021](https://doi.org/10.25984/1846021); B27 é a documentação de acesso. A revisão de 19/10/2026 completa a B24 e mantém os 39 códigos. O caso usa o sistema 2107, com observações entre abril e junho de 2024. URLs dos cinco arquivos, tamanhos e hashes constam em [fontes_pvdaq.json](../../data/raw/fontes_pvdaq.json).
 
 ## Pendências de edição e de acesso
 
@@ -203,7 +205,7 @@ Acesso: [A082 — PDF](https://drive.google.com/file/d/1L8p-uBexCRZ1N9b-JCVqyiay
 
 ## B24
 
-**Documento técnico.** OEDI / PVDAQ. PVDAQ public photovoltaic performance data — OEDI. [S. l.], [s.d.]. DOI: https://doi.org/10.25984/1846021. Disponível em: https://doi.org/10.25984/1846021. Acesso em: 16 out. 2026.
+**Conjunto de dados.** DELINE, Chris; PERRY, Kirsten; DECEGLIE, Michael; MULLER, Matthew; SEKULIC, William; JORDAN, Dirk. Photovoltaic Data Acquisition (PVDAQ) Public Datasets. [S. l.]: NREL, 2021. Conjunto de dados. Open Energy Data Initiative (OEDI). DOI: https://doi.org/10.25984/1846021. Disponível em: https://data.openei.org/submissions/4568. Acesso em: 19 out. 2026.
 
 Subseções: [1.2](../../secoes/01_Recurso_Solar/subsecoes/1_2/README.md), [1.3](../../secoes/01_Recurso_Solar/subsecoes/1_3/README.md), [1.4](../../secoes/01_Recurso_Solar/subsecoes/1_4/README.md).
 

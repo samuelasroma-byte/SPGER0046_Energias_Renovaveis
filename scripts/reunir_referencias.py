@@ -2,8 +2,9 @@
 from pathlib import Path
 import json
 ROOT=Path(__file__).resolve().parents[1]
+dataset=json.loads((ROOT/'references/pvdaq_dataset_citacao.json').read_text())
 rows=[
-('R01','PVDAQ public photovoltaic performance data — OEDI','OEDI / PVDAQ',None,'0; 1.4; 4.4','Dados medidos e documentação da instalação; licença CC BY 4.0','https://data.openei.org/submissions/4568','data/raw/pvdaq_2107_2024_originais.zip','10.25984/1846021'),
+('R01',dataset['title'],' and '.join(dataset['authors']),dataset['year'],'0; 1.4; 4.4','Dados medidos e documentação da instalação; licença CC BY 4.0','https://data.openei.org/submissions/4568',dataset['subset']['raw_manifest'],'10.25984/1846021'),
 ('R02','PVDAQ access tools and openEDI documentation','PVDAQ / openEDI',None,'0; 1.4','Documentação de acesso, formatos e proveniência','https://github.com/NatLabRockies/pvdaq_access','',None),
 ('R03','Solar Position Algorithm for Solar Radiation Applications — NREL/TP-560-34302','Reda, I. and Andreas, A.',2008,'1.1; 3.1','Posição solar e cálculo do ângulo zenital; revisão do relatório','https://docs.nlr.gov/docs/fy08osti/34302.pdf','methods/SPA_Reda_Andreas_2008.pdf',None),
 ('R04','General Solar Position Calculations','NOAA Global Monitoring Laboratory',None,'0; 1.1','Aproximação usada somente para reproduzir o critério de disponibilidade diurna','https://gml.noaa.gov/grad/solcalc/solareqns.PDF','',None),
@@ -37,13 +38,14 @@ rows=[
 refs=[]
 for rid,title,authors,year,sections,role,url,local,doi in rows:
     refs.append({'id':rid,'title':title,'authors':authors,'year':year,'sections':sections,'role':role,'url':url,'doi':doi,'local_copy':local or 'Consulta por URL/DOI; PDF não incluído','accessed':'2026-10-16','citation':f'{authors}. {title}. {year or "s.d."}.'})
+    if rid=='R01':refs[-1].update(citation=dataset['citation_abnt'],accessed=dataset['accessed'])
 p=ROOT/'references';p.mkdir(exist_ok=True)
 (p/'referencias_projeto.json').write_text(json.dumps(refs,indent=2,ensure_ascii=False))
 md='# Referências e fontes do projeto — v1.2\n\nInventário das fontes científicas, técnicas, de dados e de planejamento usadas neste projeto. Não constitui uma revisão bibliográfica concluída nem uma seleção por número de citações. Fontes NASA da versão anterior são preservadas como histórico e não são entradas da validação elétrica atual. Os identificadores permanecem estáveis; R27–R30 foram acrescentadas para os diagnósticos e as hipóteses ambientais.\n\n'
 bib=[]
 for x in refs:
     md+=f'## {x["id"]} — {x["title"]}\n\n{x["citation"]}\n\nSeções: {x["sections"]}. Uso: {x["role"]}.\n\nFonte: {x["url"]}\n\nDOI: {x["doi"] or "não informado"}. Cópia local: {x["local_copy"]}. Consulta: {x["accessed"]}.\n\n'
-    fields={'author':x['authors'],'title':x['title'],'url':x['url'],'note':x['role']+'; acesso em 2026-10-16'}
+    fields={'author':x['authors'],'title':x['title'],'url':x['url'],'note':x['role']+'; acesso em '+x['accessed']}
     if x['year']:fields['year']=str(x['year'])
     if x['doi']:fields['doi']=x['doi']
     bib.append('@misc{'+x['id']+',\n'+',\n'.join('  '+k+' = {'+str(v).replace('{','').replace('}','')+'}' for k,v in fields.items())+'\n}')
