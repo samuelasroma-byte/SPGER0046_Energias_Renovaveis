@@ -70,6 +70,6 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 
 ## Inventário de equações
 
-[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_02.docx): 0 relações do núcleo e 3 de apoio nesta subseção. IDs: E2.01, E2.02, E2.03.
+[Quadro de equações da seção em PDF e Word](../../equacoes/README.md): 0 relações do núcleo e 3 de apoio nesta subseção. IDs: E2.01, E2.02, E2.03.
 
 Para o modelo térmico de Faiman, citar E3.03 em 3.2 sem repetir sua inserção.

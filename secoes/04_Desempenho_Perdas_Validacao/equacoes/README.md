@@ -1,6 +1,10 @@
 # Equações da seção 4
 
-[Baixar quadro editável em Word](Quadro_Equacoes_Secao_04.docx) · [Inventário geral](../../../docs/equacoes/README.md)
+[Ler PDF no Drive](https://drive.google.com/file/d/1LqDZkvaXOAXYsaDk7_IbFW7WD1AqyD-s/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1rqUk5XrYMZaWp0AX_r74SsxVPXyum423/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf)
+
+[Inventário geral](../../../docs/equacoes/README.md)
+
+Para ler o documento com as equações diagramadas no celular, escolha **Ler PDF no Drive**. Para editar, escolha **Abrir Word no Drive**. O download deve ser aberto em um editor compatível com Word.
 
 Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.
 

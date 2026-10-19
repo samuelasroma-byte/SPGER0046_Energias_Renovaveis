@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "PDF_documents": 5,
+  "total_pages": 51,
+  "numbered_equations_preserved": 61,
+  "Word_files_preserved": true,
+  "subsection_access_routes": 19,
+  "direct_DOCX_blob_links_in_equation_navigation": 0,
+  "scientific_sources_and_results_unchanged": true,
+  "files": [
+    {
+      "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf",
+      "pages": 23,
+      "equations": 61,
+      "sha256": "ffe718b735de13d0a778655f57fdbb990990dcd3c4897ac31e883e7af28ca1f7"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.pdf",
+      "pages": 4,
+      "equations": 6,
+      "sha256": "4cb3b28d78a6ecbc9f1914dc51f578643d555e17d8c8cd6ab17238add25a8ff5"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.pdf",
+      "pages": 4,
+      "equations": 7,
+      "sha256": "79c542bb0d00bb66324f7b84ea21402a74077ef5ba19c51b5d00b7a3e59112ba"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf",
+      "pages": 8,
+      "equations": 18,
+      "sha256": "51652f17b95fd6755071ba1b80ba8905affcba4a5791478a0ad232a83f94a6d9"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf",
+      "pages": 12,
+      "equations": 30,
+      "sha256": "44de60665099cb071cc4a8cb22e6c282710550a5083b71f7d31f63fe0649a6c3"
+    }
+  ]
+}

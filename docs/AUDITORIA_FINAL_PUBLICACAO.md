@@ -112,3 +112,11 @@ N indica fórmula escrita nas células de método e C indica relação complemen
 As convenções esclarecem as unidades de U0 e U1, a conversão entre W e kW na integração, a referência de irradiância, as duas acepções de ηref e γ, o uso de Pa no exemplo de 120 módulos e no sistema de 2880 módulos, e os termos Q do BIPV como potências em W. O código científico, os dados, os notebooks e os resultados numéricos não foram alterados nesta revisão.
 
 Foram renderizadas e inspecionadas as 51 páginas atualizadas: 23 no geral e 4, 4, 8 e 12 nos Word das seções 1 a 4. As equações permanecem nativas e editáveis; a normalização dos delimitadores preserva colchetes e valores absolutos no renderizador. [Verificação visual e hashes](auditoria/Revisao_Unidades_Equacoes.json) · [Verificação do inventário](auditoria/Verificacao_Inventario_Equacoes.json). As cópias do Drive são atualizadas nos mesmos IDs para manter os links da equipe.
+
+## Acesso aos documentos de equações pelo celular
+
+Uma captura do aplicativo GitHub mostrou o conteúdo binário de um DOCX como texto, iniciado por PK e nomes de arquivos XML. A conferência dos cinco Word confirmou seus hashes e as 61 equações nativas intactas. Os atalhos de abertura foram corrigidos para levar a visualizadores de documentos.
+
+Foram acrescentados cinco PDF de leitura, exportados dos Word já revisados, no GitHub e na mesma pasta de equações do Drive. Os índices oferecem leitura do PDF no Drive, abertura do Word no Drive, download direto do Word e uma cópia PDF no GitHub. Os 19 atalhos de subseções e os quatro índices de documentos passaram a abrir o índice da respectiva seção, evitando a visualização do DOCX como código.
+
+Os Word, as fórmulas, as atribuições editoriais, os dados e os resultados científicos permanecem inalterados. O [teste de acesso](../tests/verificar_acesso_equacoes.py) confere os hashes vinculados, as 51 páginas e a distribuição dos IDs nos PDF, além das rotas de leitura e edição.

@@ -4,16 +4,27 @@ O levantamento contém **61 relações numeradas**: **37 escritas nas células d
 
 Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; os itens C documentam o método e sua inclusão depende do espaço e da discussão. O documento geral serve ao controle da equipe e os quatro documentos individuais à redação da respectiva seção.
 
-[Baixar inventário geral em Word](Inventario_Geral_Equacoes_SPGER0046.docx) · [Dados do inventário em CSV](Inventario_Equacoes.csv) · [Fonte estruturada em JSON](Inventario_Equacoes.json)
+## Abrir os documentos
 
-[Abrir a pasta dos cinco Word no Google Drive](https://drive.google.com/drive/folders/1yfwwArqBTVwPt7EYer9DlHL1vmeO5V7B). Os arquivos DOCX foram preservados no formato Word.
+Para consultar as equações já diagramadas no celular, escolha **Ler PDF no Drive**. Para editar as equações nativas, escolha **Abrir Word no Drive**. **Baixar Word** entrega o arquivo para abrir no Word ou em outro editor compatível.
+
+**Inventário geral**: [Ler PDF no Drive](https://drive.google.com/file/d/10_mxbrTeThUKIu6tGuFrE2-Q3cem3QYl/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1-bVvipVMSC2k52emNXU9kxv7DSXMtuYM/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf)
+
+- **Seção 1**: [Ler PDF no Drive](https://drive.google.com/file/d/1LLnzhAK6WWR-yiFJVukkwPla5xpForUE/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1bIZ8ZOMqBQhrTb6CRDVrnrUUz7UZ2VRR/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.pdf)
+- **Seção 2**: [Ler PDF no Drive](https://drive.google.com/file/d/17Iho-8XW1aSY0Ub5jmAs_Zjo4vj1qbLQ/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1Hn2jR4PKiHPeHNW9FITxfUgh0-NXv2Bn/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.pdf)
+- **Seção 3**: [Ler PDF no Drive](https://drive.google.com/file/d/12N6ckqVwaB-DJ2DeRB6CEJnVV2MH0LSd/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1FE88o9jvBFHI-djYGl7JE6SseTRtw6qG/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf)
+- **Seção 4**: [Ler PDF no Drive](https://drive.google.com/file/d/1LqDZkvaXOAXYsaDk7_IbFW7WD1AqyD-s/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1rqUk5XrYMZaWp0AX_r74SsxVPXyum423/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf)
+
+[Dados do inventário em CSV](Inventario_Equacoes.csv) · [Fonte estruturada em JSON](Inventario_Equacoes.json)
+
+[Pasta com os cinco Word editáveis e os cinco PDF de leitura](https://drive.google.com/drive/folders/1yfwwArqBTVwPt7EYer9DlHL1vmeO5V7B).
 
 | Seção | Notebook N | Código C | Total | Documento exclusivo |
 | --- | --- | --- | --- | --- |
-| 1 Fundamentos e caracterização do recurso solar | 6 | 0 | 6 | [Word da seção 1](../../secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx) |
-| 2 Condições ambientais e de entorno da conversão fotovoltaica | 4 | 3 | 7 | [Word da seção 2](../../secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx) |
-| 3 Modelagem da conversão fotovoltaica | 11 | 7 | 18 | [Word da seção 3](../../secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx) |
-| 4 Avaliação de desempenho perdas e validação da modelagem | 16 | 14 | 30 | [Word da seção 4](../../secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx) |
+| 1 Fundamentos e caracterização do recurso solar | 6 | 0 | 6 | [PDF e Word da seção 1](../../secoes/01_Recurso_Solar/equacoes/README.md) |
+| 2 Condições ambientais e de entorno da conversão fotovoltaica | 4 | 3 | 7 | [PDF e Word da seção 2](../../secoes/02_Condicoes_Ambientais/equacoes/README.md) |
+| 3 Modelagem da conversão fotovoltaica | 11 | 7 | 18 | [PDF e Word da seção 3](../../secoes/03_Modelagem_Fotovoltaica/equacoes/README.md) |
+| 4 Avaliação de desempenho perdas e validação da modelagem | 16 | 14 | 30 | [PDF e Word da seção 4](../../secoes/04_Desempenho_Perdas_Validacao/equacoes/README.md) |
 | Total | 37 | 24 | 61 | |
 
 ## Correspondência com o cálculo do PVDAQ

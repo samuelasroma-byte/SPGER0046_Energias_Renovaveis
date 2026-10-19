@@ -51,4 +51,4 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 
 ## Equações da seção
 
-[Quadro de equações com função origem e subseção de inserção](equacoes/README.md).
+[Ler as equações em PDF ou abrir o Word editável](equacoes/README.md).
