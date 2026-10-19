@@ -503,6 +503,21 @@ def make_doc(data,maths,path,section=None):
     path.parent.mkdir(parents=True,exist_ok=True);doc.save(path)
 
 
+def access_links(section=None):
+    """Offer document viewers before downloads; never open a DOCX blob as text."""
+    name='Inventario_Geral_Equacoes_SPGER0046.docx' if section is None else f'Quadro_Equacoes_Secao_{section:02d}.docx'
+    publication=json.loads((ROOT/'docs/auditoria/Publicacao_Drive_Equacoes.json').read_text())
+    record=next(r for r in publication['files'] if Path(r['path']).name==name)
+    links=[]
+    if record.get('pdf_drive_url'):
+        links.append('[Ler PDF no Drive]('+record['pdf_drive_url']+')')
+    links.append('[Abrir Word no Drive]('+record['drive_url']+')')
+    links.append('[Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/'+record['path']+')')
+    if record.get('pdf_path'):
+        links.append('[PDF no GitHub]('+REPOSITORY+'/blob/main/'+record['pdf_path']+')')
+    return ' · '.join(links)
+
+
 def write_catalogue(data):
     folder=ROOT/'docs/equacoes';folder.mkdir(parents=True,exist_ok=True)
     (folder/'Inventario_Equacoes.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
@@ -515,13 +530,18 @@ def write_catalogue(data):
            'Cada ID tem uma única subseção de inserção. A equação de Faiman aparece uma vez em 3.2; em 2.1 há remissão a E3.03.','',
            'Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; '
            'os itens C documentam o método e sua inclusão depende do espaço e da discussão. O documento geral serve ao controle da equipe e os quatro documentos individuais à redação da respectiva seção.','',
-           '[Baixar inventário geral em Word](Inventario_Geral_Equacoes_SPGER0046.docx) · [Dados do inventário em CSV](Inventario_Equacoes.csv) · [Fonte estruturada em JSON](Inventario_Equacoes.json)','',
-           '[Abrir a pasta dos cinco Word no Google Drive](https://drive.google.com/drive/folders/1yfwwArqBTVwPt7EYer9DlHL1vmeO5V7B). Os arquivos DOCX foram preservados no formato Word.','',
+           '## Abrir os documentos','',
+           'Para consultar as equações já diagramadas no celular, escolha **Ler PDF no Drive**. Para editar as equações nativas, escolha **Abrir Word no Drive**. '
+           '**Baixar Word** entrega o arquivo para abrir no Word ou em outro editor compatível.','',
+           '**Inventário geral**: '+access_links(),'',
+           *['- **Seção '+str(number)+'**: '+access_links(number) for number in range(1,5)],'',
+           '[Dados do inventário em CSV](Inventario_Equacoes.csv) · [Fonte estruturada em JSON](Inventario_Equacoes.json)','',
+           '[Pasta com os cinco Word editáveis e os cinco PDF de leitura](https://drive.google.com/drive/folders/1yfwwArqBTVwPt7EYer9DlHL1vmeO5V7B).','',
            '| Seção | Notebook N | Código C | Total | Documento exclusivo |','| --- | --- | --- | --- | --- |']
     for number in range(1,5):
         rows=[r for r in data['equations'] if r['section']==number];cc=counts(rows)
-        relative=f'../../secoes/{FOLDERS[number-1]}/equacoes/Quadro_Equacoes_Secao_{number:02d}.docx'
-        lines.append(f'| {number} {TITLES[number-1]} | {cc["N"]} | {cc["C"]} | {len(rows)} | [Word da seção {number}]({relative}) |')
+        relative=f'../../secoes/{FOLDERS[number-1]}/equacoes/README.md'
+        lines.append(f'| {number} {TITLES[number-1]} | {cc["N"]} | {cc["C"]} | {len(rows)} | [PDF e Word da seção {number}]({relative}) |')
     lines+=['| Total | 37 | 24 | 61 | |','',
             '## Correspondência com o cálculo do PVDAQ','',data['application_scope'],'',
             '**N/C identifica o registro da fórmula; a aplicação identifica sua função no estudo.** Uma expressão nas células de método pode ser fundamentação ou cenário. '
@@ -559,22 +579,25 @@ def write_section_navigation(data):
         folder=ROOT/'secoes'/name
         rows=[r for r in data['equations'] if r['section']==number]
         word=f'Quadro_Equacoes_Secao_{number:02d}.docx'
-        text=f'# Equações da seção {number}\n\n[Baixar quadro editável em Word]({word}) · [Inventário geral](../../../docs/equacoes/README.md)\n\n'
+        text=f'# Equações da seção {number}\n\n'+access_links(number)+'\n\n[Inventário geral](../../../docs/equacoes/README.md)\n\n'
+        text+='Para ler o documento com as equações diagramadas no celular, escolha **Ler PDF no Drive**. Para editar, escolha **Abrir Word no Drive**. O download deve ser aberto em um editor compatível com Word.\n\n'
         text+='Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.\n\n'
         text+='| ID | Inserir em | Função | Registro | Aplicação |\n| --- | --- | --- | --- | --- |\n'
         for row in rows:text+=f'| {row["id"]} | {row["subsection"]} | {row["title"]} | {row["origin"]} | {row["application"]} |\n'
         if number==2:text+='\nA equação de Faiman é inserida em 3.2 como E3.03. Em 2.1 fazer remissão a esse ID.\n'
         (folder/'equacoes/README.md').write_text(text)
         path=folder/'README.md';text=path.read_text().split('## Equações da seção')[0].rstrip()
-        path.write_text(text+'\n\n## Equações da seção\n\n[Quadro de equações com função origem e subseção de inserção](equacoes/README.md).\n')
+        path.write_text(text+'\n\n## Equações da seção\n\n[Ler as equações em PDF ou abrir o Word editável](equacoes/README.md).\n')
         path=folder/'documentos/README.md';text=path.read_text()
-        link='[Quadro de equações exclusivo desta seção](../equacoes/'+word+').'
+        old_link='[Quadro de equações exclusivo desta seção](../equacoes/'+word+').'
+        text=text.replace(old_link,'').rstrip()
+        link='[Quadro de equações exclusivo desta seção em PDF e Word](../equacoes/README.md).'
         if link not in text:path.write_text(text.rstrip()+'\n\n'+link+'\n')
         for path in folder.glob('subsecoes/*/README.md'):
             sub=path.parent.name.replace('_','.')
             selected=[r for r in rows if r['subsection']==sub];cc=counts(selected)
             text=path.read_text().split('## Inventário de equações')[0].rstrip()
-            text+='\n\n## Inventário de equações\n\n[Quadro de equações da seção](../../equacoes/'+word+'): '+str(cc['N'])+' relações do núcleo e '+str(cc['C'])+' de apoio nesta subseção. IDs: '+', '.join(r['id'] for r in selected)+'.\n'
+            text+='\n\n## Inventário de equações\n\n[Quadro de equações da seção em PDF e Word](../../equacoes/README.md): '+str(cc['N'])+' relações do núcleo e '+str(cc['C'])+' de apoio nesta subseção. IDs: '+', '.join(r['id'] for r in selected)+'.\n'
             if sub=='2.1':text+='\nPara o modelo térmico de Faiman, citar E3.03 em 3.2 sem repetir sua inserção.\n'
             path.write_text(text)
 

@@ -66,4 +66,4 @@ Não há tabela ou quadro Word atribuído a esta subseção.
 
 ## Inventário de equações
 
-[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_03.docx): 1 relações do núcleo e 1 de apoio nesta subseção. IDs: E3.01, E3.02.
+[Quadro de equações da seção em PDF e Word](../../equacoes/README.md): 1 relações do núcleo e 1 de apoio nesta subseção. IDs: E3.01, E3.02.

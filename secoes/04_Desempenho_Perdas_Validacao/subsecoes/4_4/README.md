@@ -92,4 +92,4 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 
 ## Inventário de equações
 
-[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_04.docx): 4 relações do núcleo e 6 de apoio nesta subseção. IDs: E4.10, E4.11, E4.12, E4.13, E4.14, E4.15, E4.16, E4.17, E4.18, E4.19.
+[Quadro de equações da seção em PDF e Word](../../equacoes/README.md): 4 relações do núcleo e 6 de apoio nesta subseção. IDs: E4.10, E4.11, E4.12, E4.13, E4.14, E4.15, E4.16, E4.17, E4.18, E4.19.

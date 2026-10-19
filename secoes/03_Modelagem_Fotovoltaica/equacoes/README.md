@@ -1,6 +1,10 @@
 # Equações da seção 3
 
-[Baixar quadro editável em Word](Quadro_Equacoes_Secao_03.docx) · [Inventário geral](../../../docs/equacoes/README.md)
+[Ler PDF no Drive](https://drive.google.com/file/d/12N6ckqVwaB-DJ2DeRB6CEJnVV2MH0LSd/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1FE88o9jvBFHI-djYGl7JE6SseTRtw6qG/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf)
+
+[Inventário geral](../../../docs/equacoes/README.md)
+
+Para ler o documento com as equações diagramadas no celular, escolha **Ler PDF no Drive**. Para editar, escolha **Abrir Word no Drive**. O download deve ser aberto em um editor compatível com Word.
 
 Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.
 

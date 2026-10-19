@@ -68,4 +68,4 @@ Não há CSV de tabela atribuído a esta subseção.
 
 ## Inventário de equações
 
-[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_02.docx): 2 relações do núcleo e 0 de apoio nesta subseção. IDs: E2.06, E2.07.
+[Quadro de equações da seção em PDF e Word](../../equacoes/README.md): 2 relações do núcleo e 0 de apoio nesta subseção. IDs: E2.06, E2.07.

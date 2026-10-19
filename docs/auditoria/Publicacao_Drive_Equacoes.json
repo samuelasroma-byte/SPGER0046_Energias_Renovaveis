@@ -9,7 +9,15 @@
       "bytes": 54136,
       "sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
       "download_verified": true,
-      "modified_time": "2026-10-19T15:55:03.586Z"
+      "modified_time": "2026-10-19T15:55:03.586Z",
+      "pdf_path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf",
+      "pdf_drive_id": "10_mxbrTeThUKIu6tGuFrE2-Q3cem3QYl",
+      "pdf_drive_url": "https://drive.google.com/file/d/10_mxbrTeThUKIu6tGuFrE2-Q3cem3QYl/view?usp=drivesdk",
+      "pdf_sha256": "ffe718b735de13d0a778655f57fdbb990990dcd3c4897ac31e883e7af28ca1f7",
+      "pdf_source_docx_sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
+      "pdf_pages": 23,
+      "pdf_bytes": 321683,
+      "pdf_download_verified": true
     },
     {
       "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx",
@@ -18,7 +26,15 @@
       "bytes": 41622,
       "sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
       "download_verified": true,
-      "modified_time": "2026-10-19T15:55:07.710Z"
+      "modified_time": "2026-10-19T15:55:07.710Z",
+      "pdf_path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.pdf",
+      "pdf_drive_id": "1LLnzhAK6WWR-yiFJVukkwPla5xpForUE",
+      "pdf_drive_url": "https://drive.google.com/file/d/1LLnzhAK6WWR-yiFJVukkwPla5xpForUE/view?usp=drivesdk",
+      "pdf_sha256": "4cb3b28d78a6ecbc9f1914dc51f578643d555e17d8c8cd6ab17238add25a8ff5",
+      "pdf_source_docx_sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
+      "pdf_pages": 4,
+      "pdf_bytes": 104876,
+      "pdf_download_verified": true
     },
     {
       "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx",
@@ -27,7 +43,15 @@
       "bytes": 42047,
       "sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
       "download_verified": true,
-      "modified_time": "2026-10-19T15:55:10.933Z"
+      "modified_time": "2026-10-19T15:55:10.933Z",
+      "pdf_path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.pdf",
+      "pdf_drive_id": "17Iho-8XW1aSY0Ub5jmAs_Zjo4vj1qbLQ",
+      "pdf_drive_url": "https://drive.google.com/file/d/17Iho-8XW1aSY0Ub5jmAs_Zjo4vj1qbLQ/view?usp=drivesdk",
+      "pdf_sha256": "79c542bb0d00bb66324f7b84ea21402a74077ef5ba19c51b5d00b7a3e59112ba",
+      "pdf_source_docx_sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
+      "pdf_pages": 4,
+      "pdf_bytes": 108732,
+      "pdf_download_verified": true
     },
     {
       "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx",
@@ -36,7 +60,15 @@
       "bytes": 44491,
       "sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
       "download_verified": true,
-      "modified_time": "2026-10-19T15:55:14.406Z"
+      "modified_time": "2026-10-19T15:55:14.406Z",
+      "pdf_path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf",
+      "pdf_drive_id": "12N6ckqVwaB-DJ2DeRB6CEJnVV2MH0LSd",
+      "pdf_drive_url": "https://drive.google.com/file/d/12N6ckqVwaB-DJ2DeRB6CEJnVV2MH0LSd/view?usp=drivesdk",
+      "pdf_sha256": "51652f17b95fd6755071ba1b80ba8905affcba4a5791478a0ad232a83f94a6d9",
+      "pdf_source_docx_sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
+      "pdf_pages": 8,
+      "pdf_bytes": 154893,
+      "pdf_download_verified": true
     },
     {
       "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx",
@@ -45,9 +77,18 @@
       "bytes": 45606,
       "sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
       "download_verified": true,
-      "modified_time": "2026-10-19T15:55:18.325Z"
+      "modified_time": "2026-10-19T15:55:18.325Z",
+      "pdf_path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf",
+      "pdf_drive_id": "1LqDZkvaXOAXYsaDk7_IbFW7WD1AqyD-s",
+      "pdf_drive_url": "https://drive.google.com/file/d/1LqDZkvaXOAXYsaDk7_IbFW7WD1AqyD-s/view?usp=drivesdk",
+      "pdf_sha256": "44de60665099cb071cc4a8cb22e6c282710550a5083b71f7d31f63fe0649a6c3",
+      "pdf_source_docx_sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
+      "pdf_pages": 12,
+      "pdf_bytes": 193009,
+      "pdf_download_verified": true
     }
   ],
   "inventory_version": "2026-10-19.2",
-  "updated_in_place": true
+  "updated_in_place": true,
+  "reading_copies_added": "2026-10-19"
 }
