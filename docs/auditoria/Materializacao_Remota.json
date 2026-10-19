@@ -1,0 +1,942 @@
+{
+  "status": "passed",
+  "source_copies": 156,
+  "files": [
+    {
+      "path": "bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+      "bytes": 179827,
+      "sha256": "a3c4fa61029a6e06f1d406dc46c7039748b3f8663bf1f144cf6765c6589ae5bc",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "bytes": 48018,
+      "sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "data/raw/2107_electrical_data_2024.csv",
+      "bytes": 63287121,
+      "sha256": "bb2e9f7495e471503daa2c4b4ae9aa053ca4c779d63665afb1c2270daaa243a5",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "data/raw/2107_environment_data_2024.csv",
+      "bytes": 1179362,
+      "sha256": "6e66f9a75ad879d7f0444ba108b352920a7e6458c6a6b9dcb74e6828c47977bd",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "data/raw/2107_irradiance_data_2024.csv",
+      "bytes": 1933523,
+      "sha256": "fd5acea27608b348b98d0e57d6e8a16f75031cfd6813f7a23caf15211caaec29",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "data/raw/2107_meter_15m_data_2024.csv",
+      "bytes": 849109,
+      "sha256": "bdef5026a5715f5a2b114580dd767a02bf35c4986bbffe496c4b89e85789eb98",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "docs/metodos/Dossie_Tecnico_por_Secao.docx",
+      "bytes": 63896,
+      "sha256": "498f5a73526843ecd76cdbf2a8a20ad802b9ade9f73163b02b2d9ed0d4bc7699",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+      "bytes": 27309,
+      "sha256": "ed8237bcd3f5b6b9c462dbbdc99bb5f4f51124ac6916e79feb015c4f9e2e19f3",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "docs/planejamento/Plano_Equipe_SPGER0046.docx",
+      "bytes": 42126,
+      "sha256": "87d647f7d4b7801566154e8982b0bb810de9380dfd31611b9c87474196b6b57d",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+      "bytes": 1984208,
+      "sha256": "1adff9d360ea021899eb050eaa7d6daabc36e68d3d30ae48fcf4d5076616bc35",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb",
+      "bytes": 4549657,
+      "sha256": "bd312fcca2583fc6ab0f9586c44cb99c9131e675a27bf6cea7f47547c7c5a8c1",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/figuras/docx/Ilustracoes_FV.docx",
+      "bytes": 789912,
+      "sha256": "08280c666232a49851e6a87816cbe3cf11d90099263ab01af09772751e4baa29",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "bytes": 408311,
+      "sha256": "a9a07548e98138651b73c174547e592496668c7baa418c031d4cc2f0db5a8dc0",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "bytes": 14465317,
+      "sha256": "be1bd732aa185515b0829f97c673db846bf1ccdad39c952790f68b61af75dccc",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "bytes": 44379,
+      "sha256": "035771e5452bf91b5d6807f47372eddc292f3f36954b45ab92569ff914da256e",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Conferencia_Visual.json",
+      "bytes": 8879,
+      "sha256": "2858972c21848c890f8b30e124fa9c02b0d539a758904a91ea826dc997ecf58b",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Matriz_de_Cobertura_do_Capitulo.csv",
+      "bytes": 14810,
+      "sha256": "479be91bb1913b8aecdd18d99bb6c365c76dc77469cb2bc754f6e4ed9d2a9588",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Matriz_de_Cobertura_do_Capitulo.md",
+      "bytes": 15568,
+      "sha256": "33c873785dfeff90e142afe8f9c68ddeb275ad4b823868ffa686bfa04d64ba8c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Metodos_e_Fontes.md",
+      "bytes": 11196,
+      "sha256": "445141835b273674e2aa3340563a1beff32be0e3b3a74283602c67e49af6346e",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Registro_de_Decisoes_v1_2.md",
+      "bytes": 1858,
+      "sha256": "12fcf2fd6a10098e37a97e460f84921ccb44c006b5ecfe796d504eeb930273d5",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Relatorio_do_Projeto.html",
+      "bytes": 11166917,
+      "sha256": "9d8de8348fb52e0e4d81c735cadc4795173b7321aefd1c4422f464ddd28377c4",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Verificacao_Documentos_ABNT.json",
+      "bytes": 2006,
+      "sha256": "4e285bc9d925cbed6612bc849367814a18c990d1f8987146f04faf226d3c25af",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Verificacao_Dossie_e_Fundamentacao.json",
+      "bytes": 468,
+      "sha256": "36816ac215539a38944eed6882c83dc3b20c1c26da8faefe47d84e057f112e00",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/Verificacao_de_Salvamento.json",
+      "bytes": 90741,
+      "sha256": "7801b7cfcf5ccd594ceaf71f962b61060523b159b17fd8bb1008722a67e59277",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/catalogo_figuras.csv",
+      "bytes": 11532,
+      "sha256": "33f2359cdbbcc76406fd04266c45262a7ab56daedcc99d7284d2d948969f71bd",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/catalogo_figuras.json",
+      "bytes": 33144,
+      "sha256": "5e50e6c8f7f149b3d093523e92c087723a3939ce8f381a2009234e30160a9a03",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/resumo_execucao.json",
+      "bytes": 1928,
+      "sha256": "214ac261169225ede6e0476de3f9123cc456bf9d048ba6ee5ce252755dd3a217",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/relatorios/originais/verificacao_refinamento.json",
+      "bytes": 363,
+      "sha256": "61658082cc88f19e4ca70db3b4d3ea6bbc4f5ba4267d684fe195abe5e9983a16",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/tabelas/csv/arranjo_equivalente_diurno.csv",
+      "bytes": 927591,
+      "sha256": "0e446b0f65b233fad2cd7e49bdc406f28abfbf82c23170cace0b30d7d39a16a9",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/tabelas/csv/series_15min_local_e_modelo.csv",
+      "bytes": 4415331,
+      "sha256": "ec6794c286abc54417a339dcd5f340c7aa854ab58e4980b5eee87cf66df04474",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "bytes": 53503,
+      "sha256": "174e4d08a02582683efac70c8b0a0abb7c0b20075b00b824b8b4413811204f84",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "references/Alternativas_e_Acesso.md",
+      "bytes": 5714,
+      "sha256": "39580efc6fbd99c4c3cfcace7bac34a71d3981ed9074eb102fe21a170067ef19",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "references/Catalogo_Bibliografico_SPGER0046.xlsx",
+      "bytes": 42030,
+      "sha256": "83ca6a76c0a9c5661bc601af2335fb5fafaf44094c1829176f2d842944ab7ae8",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "references/Correcoes_e_Duplicatas.md",
+      "bytes": 5919,
+      "sha256": "9cead488b2e04967d7a26fd84a5074f2dba49f8c1a2de6ae51f8d706f94190c3",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "references/Manifesto_Acervo_SPGER0046.json",
+      "bytes": 302305,
+      "sha256": "024f25c00daff64188373273316eb5423181aa873ee4d2ec1de47ffb2fdc76d3",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "references/Referencias_Pendentes_ABNT.md",
+      "bytes": 2669,
+      "sha256": "fecb2f7060009eb33b6e0c3a4aee900cc2c7ca853b9edac4e662e391d2314ab9",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf",
+      "bytes": 12077,
+      "sha256": "259a73ade108814f0c12a3609439f1d4c3c81532b9a080c5fe6289c36b666fe7",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.png",
+      "bytes": 316265,
+      "sha256": "7d2dade3d8ca727f13efb2ef5fffce8bb93e9e2f9c6741113729175e7af82884",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/claro/F02_componentes_POA.pdf",
+      "bytes": 10016,
+      "sha256": "164def7675f79a645295e0cdbaa5fe566120a4593e736547a9b4b1cb5a74cb8e",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/claro/F02_componentes_POA.png",
+      "bytes": 271621,
+      "sha256": "89c21a9edb01dc05bfbe41bd590aedbc0d5b2962d98dfd0d70ada61df7f56fc9",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf",
+      "bytes": 12129,
+      "sha256": "1c48b65a7a117220b529382afc0be2bf1a10db177b1829206912c5839e240183",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png",
+      "bytes": 317933,
+      "sha256": "d9905bd0507b82ab9747c763f9d5bc4ada07e4f8f5af5fcb722709fdfc1c3f0c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf",
+      "bytes": 10048,
+      "sha256": "5dd8b5c61fb5dcac89e7c361ffaf12b7a8ad62d025311577576c24110140c474",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png",
+      "bytes": 273291,
+      "sha256": "f2cc8eb6faf3e6aca7f535db08035925c07b14aec57e50f1943b7cb1322dc444",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf",
+      "bytes": 14883,
+      "sha256": "fe09bf98b6897e55547c627d2fffb00f2ed1415e1359e93b84b6865e6172c2a5",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png",
+      "bytes": 460598,
+      "sha256": "277d3cff427fa9352a3f4cf135d407a9811ea0341a46963831fb9e9824ceba31",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf",
+      "bytes": 14928,
+      "sha256": "1a2c0dede7f49485bd0b174ece5faf1a44b5d707f0a5c4124ccb9ba1ad998868",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png",
+      "bytes": 471668,
+      "sha256": "2f07d25c7bb43e1f65891d8da8ef4eff8cb44030432a47500ac41d1ddbf94b48",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G01_recurso_geometria.pdf",
+      "bytes": 15299,
+      "sha256": "ba20271b0121e9b237aed23f9443727c674076981c7a99e1d3cf385b3726955a",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G01_recurso_geometria.png",
+      "bytes": 465797,
+      "sha256": "b230bbec770422b34fa1af511a0244643ec5aa74fcb9260f7780ba99808ae89c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G02_variabilidade_recurso.pdf",
+      "bytes": 12462,
+      "sha256": "defe49cdc179bfbc7863e85524d3837096862b8013811b9af20650011f754bbf",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G02_variabilidade_recurso.png",
+      "bytes": 339823,
+      "sha256": "fa4648732f28f59fd3f8110b8d37a4c2e8c02a4d14c4c331f1d1f4a225b4d153",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf",
+      "bytes": 58972,
+      "sha256": "a261e650b206bfeae46577718e0c1e84e2f305638f6e7ba4aa2d0cf143ab8796",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png",
+      "bytes": 1082038,
+      "sha256": "7d01999cc15b5647917da103e93abe3a56d7e3f509e602b9830de3404fc3b619",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.pdf",
+      "bytes": 12936,
+      "sha256": "51c5421567cfa26463b235379606d049e9faf89dde227219d213108f0f006802",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.png",
+      "bytes": 389132,
+      "sha256": "d03cfe0b1e78aeffa5bb11b2ebebc4dbdb0a753d17a15ffbfb1fb829e24dab69",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G01_recurso_geometria.pdf",
+      "bytes": 15364,
+      "sha256": "b3ab00f4dc49465de672827c99787e953eaa3544384d54e55dae3078a998e794",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G01_recurso_geometria.png",
+      "bytes": 468440,
+      "sha256": "cac5d7877f06782a208188a9d796192fb88dbc680fa366f51457f197d0b5682c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G02_variabilidade_recurso.pdf",
+      "bytes": 12512,
+      "sha256": "5e2aae9bfa4d73046261b3891f359ef2da4fd87fd4e4f94a34b8a9c227e481e2",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G02_variabilidade_recurso.png",
+      "bytes": 351888,
+      "sha256": "c0cf93a5440c1c2a14c5b61210e46f705c33079285f2f6458355d142d023c5f4",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf",
+      "bytes": 59032,
+      "sha256": "14df0e95f6c4c15a2f9f615bb16bb8da570573acc6303c044576e4ab97fd2a7b",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png",
+      "bytes": 1123190,
+      "sha256": "1c23f2b2517d569f4ab825e0c98b85dfd6112bc8e3e677a2d94f1f532fa506d7",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.pdf",
+      "bytes": 13002,
+      "sha256": "70a1f19ced54b397bb940cc3719c07add495138f1138b573cb757b00613496de",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.png",
+      "bytes": 393168,
+      "sha256": "cd231f8b21891876664d0e4eb7f1c0c0b1a90dc799ed534d89085f1b6c009425",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.pdf",
+      "bytes": 10553,
+      "sha256": "19951e4706e07bfff0d924ce36680ee9d65cd531840cbcb3eda9bbe316f9a945",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.png",
+      "bytes": 191603,
+      "sha256": "ff044ae217e6cae38e20ce52bd9219c65556bc34d61272bd4f7edd9cd58d5384",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf",
+      "bytes": 10585,
+      "sha256": "11fa45d9da4afb8bcb43289c73875db52d538bb11f0abf63aa4e063132e6bb5b",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png",
+      "bytes": 192866,
+      "sha256": "aafb52def1563e77639cc8e91682913de0a405f19d2857128e9dcb04bd8d9086",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G03_condicoes_ambientais.pdf",
+      "bytes": 12506,
+      "sha256": "89427ad8cdbde104bb1b31be8d560d2eac2f8fffeed6f8cb15baee172a2a0751",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G03_condicoes_ambientais.png",
+      "bytes": 252518,
+      "sha256": "66210d12faa55b1110cfa4647043211943f5b0cc76212c002c6e22c2a5d443e0",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.pdf",
+      "bytes": 99855,
+      "sha256": "efa3677b1a081f6546aadcad1e78b3a95fc52f119a6fbd006dfe6746d2571cf4",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.png",
+      "bytes": 2016284,
+      "sha256": "5fa2cbd4b5ef3923d84044bdca94ea3108c4b082d9c88ad4ba1b63822abe92b6",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G20_sujidade_ventilacao.pdf",
+      "bytes": 13463,
+      "sha256": "10b8d19f91539d0dcafe42ec79cd33f5d7317c58875f6c6a84d2bdbe70a7009a",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G20_sujidade_ventilacao.png",
+      "bytes": 222538,
+      "sha256": "f0ac9a5ca92316cc49f365f7d51c8aa0e29315c431f000032d24199de88a1b0c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G22_albedo.pdf",
+      "bytes": 11552,
+      "sha256": "6107920914b590b4831df757cdf3ec93c4941925e3316064d0458e38441da243",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G22_albedo.png",
+      "bytes": 186860,
+      "sha256": "302ef0526c5938848879863de66caa1b0cc54e793c95850f0fb9cdd3c787adc6",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.pdf",
+      "bytes": 12183,
+      "sha256": "4fa5daf6cf188c3cb53fbafc74925b2d0d6da03eaeb661d7e4bacbbd1bc75309",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.png",
+      "bytes": 156828,
+      "sha256": "60d44ce4aeffe62f64da02eac7630b458e5bf5707a384d33cdd6d949c18ac9e2",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G03_condicoes_ambientais.pdf",
+      "bytes": 12551,
+      "sha256": "bc9177b9dcca3357ba4bdeae07382d2ad7c2122afe16e4f6d571ec7a4ec4b328",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G03_condicoes_ambientais.png",
+      "bytes": 256868,
+      "sha256": "ee4d0dcd91ccbbe6295f08916aaf1db1e3151a15b4c50ada4fa63cda8d8b0930",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.pdf",
+      "bytes": 99942,
+      "sha256": "c6ec93086297b8e17aaf8741d2ef8c350f02fe4f24d2d1b7ebf7afd7c2deabb7",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.png",
+      "bytes": 1718833,
+      "sha256": "24f5a675e09570cbb11c35a950fc9bdd25ae55c6ff248fc098ed8ed1d3d2506e",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G20_sujidade_ventilacao.pdf",
+      "bytes": 13513,
+      "sha256": "c7abc57a7e18dbd855f6b54142048f139097f78e206ec1df9a7f189557989e0b",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G20_sujidade_ventilacao.png",
+      "bytes": 225238,
+      "sha256": "cdec7e9d4634cbd55595162ad864716ab2e9c951f80d4360b342ebc55d71a63d",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G22_albedo.pdf",
+      "bytes": 11603,
+      "sha256": "6d040c1a0cead17311d7611cba72b6eaa70d7d310f106d1a437cd0c814fc762d",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G22_albedo.png",
+      "bytes": 190002,
+      "sha256": "7eeeee29f526c0848f9f0caa819c82db72616b4828aa2e62481c879e0168d6b7",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.pdf",
+      "bytes": 12228,
+      "sha256": "4bf2b241053c9589aaa9a184fe9a8361ec27eb50ce84304167322b2347772adb",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.png",
+      "bytes": 159625,
+      "sha256": "13a882692a614ec738ae4027a6e438ab7444d2a731e59e653fa0f7b9cf124c27",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/claro/F03_arranjo_eletrico.pdf",
+      "bytes": 12697,
+      "sha256": "acf94fa4b42aae025e6b662194ac1d79b60944b66b2bc5de1373f4a204066c9c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/claro/F03_arranjo_eletrico.png",
+      "bytes": 295443,
+      "sha256": "74e61bc8c132aa7e2bac6162fcf5faa48bd877c7662e7657279b088a4a848a1a",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.pdf",
+      "bytes": 12735,
+      "sha256": "bf5b130fb8d468a6994d0a7908259fd8ce2260b77b381f3dbe51a283bbd516d5",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.png",
+      "bytes": 301890,
+      "sha256": "7121d38d7f81e7e102a8a95859fd4317520edf546515d4997cadbd06759aacc3",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G05_curvas_irradiancia.pdf",
+      "bytes": 15445,
+      "sha256": "11e886880a4ba7604498402d60cdf0247a1ea71b4c144e9e930d748d7c69159f",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G05_curvas_irradiancia.png",
+      "bytes": 460123,
+      "sha256": "453ca9ed5d020712cc5e2b576a9a0b4bc15a08beba1016a6ea322edf0f4ff15a",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G06_curvas_temperatura.pdf",
+      "bytes": 15419,
+      "sha256": "2e8e94d3d5c8fa6026f99aeb1b9b7f74e7ea9047af7eab4b9678c559d51dc87c",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G06_curvas_temperatura.png",
+      "bytes": 472003,
+      "sha256": "27d43893a44096e993ce743b753137762a1379c27522998a9bd1e126e77c04dc",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G07_inversor.pdf",
+      "bytes": 13609,
+      "sha256": "6244fa4291d6ced3a6ca645da985acf571790161353872641c1914a725e110a5",
+      "status": "ja_presente_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G07_inversor.png",
+      "bytes": 405687,
+      "sha256": "2f42b119868bf5c49e9675929b33f3c95d404ee10d1404be167dc62bdfd8601a",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.pdf",
+      "bytes": 13676,
+      "sha256": "d47902450136c2c5bcc1bdc0df0d79d4b4881bf19d47875a7639a11071181ce7",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.png",
+      "bytes": 581883,
+      "sha256": "87ea7ee188e303c945a6e814114060b3712ea0c8ac98376f5304ef49751cb7f6",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.pdf",
+      "bytes": 12680,
+      "sha256": "a6c6a942dd878b82b775d4bb6dfc30a3869c9c75f89a5a86a3ed4d12198838bd",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.png",
+      "bytes": 483489,
+      "sha256": "12a92179a08c47fc2302eee14cfebc8a50b53bdeac4d0b293c41a3c604ccee13",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G10_energia_mensal.pdf",
+      "bytes": 10792,
+      "sha256": "2d040d3888a51ffc4781e4c29448fc9b0467fdbe8a79d875b294af9c6889ab46",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G10_energia_mensal.png",
+      "bytes": 167716,
+      "sha256": "a40669120a7a2c541223b848cfd66de4871f05c8e20b75b675e448ee3993cd9d",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G05_curvas_irradiancia.pdf",
+      "bytes": 15524,
+      "sha256": "9b1dd4aadc5acaa3bb45883ac1a4d490dbf854fbbe3e960c1cb833d58a79fdb8",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G05_curvas_irradiancia.png",
+      "bytes": 464715,
+      "sha256": "4a3741731e9b5814eec42c90859576a1a2fc90cced55db21a8dc1f4f6f786fb3",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G06_curvas_temperatura.pdf",
+      "bytes": 15504,
+      "sha256": "6bdfe7a8f00956938d88fce8390459921bbf7ff6e702cff0ae50afe1db220a56",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G06_curvas_temperatura.png",
+      "bytes": 472122,
+      "sha256": "f4000e834b547a962a1b53121f76530a1703ae08c1786b7ced833d902c905707",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G07_inversor.pdf",
+      "bytes": 13679,
+      "sha256": "b0defd7bf7f243cb8f5817d4375b00348bb19738815906c489f7ef7f7837f5c5",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G07_inversor.png",
+      "bytes": 413445,
+      "sha256": "f35f46907a93932b12e2277bb7f7d078df7d4d1e5c8315e80554867d7c2fbbc1",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.pdf",
+      "bytes": 13751,
+      "sha256": "053f08e95d3fe9604ba6e3b6654ab678f94ebf9a69c216964d04d7c18292ade3",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.png",
+      "bytes": 587731,
+      "sha256": "4afae394ce057ab111a72a3a9d46d11ff51f7f6b4f68a90d90d507bf5da2ded1",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.pdf",
+      "bytes": 12747,
+      "sha256": "4aedc5ba28dfb71b98635008d7308b2ca4cdd0db4f6ad4db2980dde59e7b1037",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.png",
+      "bytes": 486667,
+      "sha256": "b2f5a8da21d1659df7a731eda9dc6a55bff0b1bf253da176ae98fe6dd2949a52",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G10_energia_mensal.pdf",
+      "bytes": 10840,
+      "sha256": "187ee2011791c7294b570d3c7287e855b01079b8b907a0c3926aaec7963586a1",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G10_energia_mensal.png",
+      "bytes": 169551,
+      "sha256": "95ab91f4039a880c98a1695a90c7b155ab168b3cc7e65ddddce379f6b6bb23a1",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G11_cadeia_energetica.pdf",
+      "bytes": 14043,
+      "sha256": "e5554549169e39d8690e0d3071f3bfaf11c2266052fc8830bd50d44dd97dd286",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G11_cadeia_energetica.png",
+      "bytes": 277014,
+      "sha256": "e8d3c6257d29c422bb7e7f424d0db59203d6e8eb10d8c9a0f176ea81fe6cf297",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G12_produtividades_PR.pdf",
+      "bytes": 12191,
+      "sha256": "7dbc47c965def97d05f1d038c8802f993ca47282d4e4c1d25437d7ab232c25fb",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G12_produtividades_PR.png",
+      "bytes": 274880,
+      "sha256": "c36045fb13450238f8ee6045b0be6da33489d5b309e9d0aeba85f06e05eb7157",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G13_validacao.pdf",
+      "bytes": 58097,
+      "sha256": "73810b66c2fae12ae749e6723907a69b88acff20523e0bc25ed43d4056d56f62",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G13_validacao.png",
+      "bytes": 2268615,
+      "sha256": "0772a72a40d46923e47e1280682255a290306788893852e7aa578e3fc30a710c",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G14_residuos_temporais.pdf",
+      "bytes": 43731,
+      "sha256": "b8b22934450980990a8f95459e80e167a05d4f8f883d68b9fbf736e437e967a9",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G14_residuos_temporais.png",
+      "bytes": 1504090,
+      "sha256": "671967833af0fbe043a38911aef89f872240ecc641f955a19a05d379ceec9cc8",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G15_residuos_potencia.pdf",
+      "bytes": 56488,
+      "sha256": "e62d2daab4361e0b698b8c5a215e8bc85ec207133311869a00e37002fa728088",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G15_residuos_potencia.png",
+      "bytes": 1703504,
+      "sha256": "e3aeeaf0edc19c21cf150701f193236ff2075469cbdc2d273a353199c6dfccd3",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G16_distribuicao_residuos.pdf",
+      "bytes": 12659,
+      "sha256": "2e8a3de1521411dad0513c1b01031917335c6fc70a3002544f1da017a61a33b9",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G16_distribuicao_residuos.png",
+      "bytes": 168355,
+      "sha256": "5359f31331594c24e007635b9ab9b54d4795f2c3622279aaf43c34a893883bee",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G17_metricas_mensais.pdf",
+      "bytes": 12794,
+      "sha256": "c9a62dbeb2c8288de2f51258840c064270ddf0b7c9c9321e5b67265ff0e56d64",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G17_metricas_mensais.png",
+      "bytes": 245203,
+      "sha256": "c67fbdcf181c806a6aa35c5bbcbc4078bd0c5e42ddaa9f789ce7453e765bec61",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G18_vies_horario.pdf",
+      "bytes": 12820,
+      "sha256": "5475bbb2f199cb87a83dc79d2efda4c8b64b57f0620d9920412b24826a3c99b1",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G18_vies_horario.png",
+      "bytes": 299373,
+      "sha256": "fa94e945ee243400fad76afb4e16201bf8fc4b2bd62b5706efbb5463c0b2825d",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G21_HSP_POA_pareada.pdf",
+      "bytes": 11359,
+      "sha256": "f029ee00f996d3e5307bdc069c2d55c12de7698df19764e97f67eab9e5fd2de5",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G21_HSP_POA_pareada.png",
+      "bytes": 326427,
+      "sha256": "8bba4cd8477c61d7fa56a69fa67e8d030e6bbbe5e742d9ab63f0d4039f4f3b54",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G25_BIPV_balanco.pdf",
+      "bytes": 12302,
+      "sha256": "759cbfd82b3bc982de017e2c2e859b0c8fd20cbffaef7d3956441ac66bf41973",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G25_BIPV_balanco.png",
+      "bytes": 166616,
+      "sha256": "74e9c4465021851b4cfabfd1fe4465747cce7964fb11e22a1c2e94952ebf5bcd",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G11_cadeia_energetica.pdf",
+      "bytes": 14090,
+      "sha256": "c1905e8cdbbdec72fe3912db936201da5d155fcb9a45e27df338c4afcdf26e8c",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G11_cadeia_energetica.png",
+      "bytes": 283596,
+      "sha256": "46c1dee1e36df1ec1e118496b7d15c3c6334ba393c1e6a950e4bbc0a7c665fd4",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G12_produtividades_PR.pdf",
+      "bytes": 12242,
+      "sha256": "b4715c0deca96dd83d634034913695e85f1e80a623b31fced76b7cb14ee7e414",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G12_produtividades_PR.png",
+      "bytes": 279193,
+      "sha256": "ae72aa81be684d84229d8d1bf2a3e4acca1e605db5e4ef01acd9f260f53d3f1f",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G13_validacao.pdf",
+      "bytes": 58179,
+      "sha256": "eb123c7fbf25fc7e84db1f32830bb442b988f030e1c4e07ec9f0739be7d07d76",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G13_validacao.png",
+      "bytes": 2325633,
+      "sha256": "7b8380e671a260251caedbdca4b0e7dda67ca4cb247af273401b4cb252a4a1dc",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G14_residuos_temporais.pdf",
+      "bytes": 43791,
+      "sha256": "7ff1f5e4723377f9c724ebee7446f5f8d1284b9e526692b65fe26e6e0e6a3340",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G14_residuos_temporais.png",
+      "bytes": 1513696,
+      "sha256": "8f11f3f04797ddad8f6acea26469e6439ce9817c12ca5c6b56224be990074881",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G15_residuos_potencia.pdf",
+      "bytes": 56548,
+      "sha256": "5bd22112479d84c612d78226d9233bb01330c17cb91af83c5c45246046a18df9",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G15_residuos_potencia.png",
+      "bytes": 1750549,
+      "sha256": "dccd872c8e48b021f69d3467ddc38acecdad4acab1a9c84b45c0de4ab499146a",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G16_distribuicao_residuos.pdf",
+      "bytes": 12724,
+      "sha256": "691f4e2f4ceb13010ce6ee57c55e4ac4b32c1fe012b7bf2e09c3b3f85235ffa8",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G16_distribuicao_residuos.png",
+      "bytes": 171400,
+      "sha256": "d8167af14a411a9c10b1f5148867a14a93e22ab05c297aabf6dff95957afb52f",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G17_metricas_mensais.pdf",
+      "bytes": 12867,
+      "sha256": "5d039ba8632a81d23aaf335bf6e8d35c0f5054d785f1b36aa48eb409a2b75c5c",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G17_metricas_mensais.png",
+      "bytes": 248120,
+      "sha256": "421b5f4350738580d55f41b64b641bcb7e399a2cd2c026198225014a3159a351",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G18_vies_horario.pdf",
+      "bytes": 12856,
+      "sha256": "648d390badfdd9d254bf43067d9bef2fdfe651c1b558e8daa371506e199ce305",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G18_vies_horario.png",
+      "bytes": 301730,
+      "sha256": "e89b16550ae0a8266bc86864948807ec6ae516067a98896ff5f3ec995553d9f5",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G21_HSP_POA_pareada.pdf",
+      "bytes": 11408,
+      "sha256": "fc02e9ea536fbd278efd3a2d3dfac380b14f20f94ca5f8c6a515310cb0d76dbc",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G21_HSP_POA_pareada.png",
+      "bytes": 338111,
+      "sha256": "3fda66d78a9dea642b857f36429cd28d822147dcf08c6c810a51fbe0b9b8eba2",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.pdf",
+      "bytes": 12345,
+      "sha256": "e0fa44b5a48539bf0e06cf344b13ea027619a89c64e06537c32cdc5212acad20",
+      "status": "recuperado_e_conferido"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.png",
+      "bytes": 169671,
+      "sha256": "a1fb4e4a45a5485ab7e4891f9165584d5aea84a7a644560ba90f94dcfce323a1",
+      "status": "recuperado_e_conferido"
+    }
+  ]
+}
