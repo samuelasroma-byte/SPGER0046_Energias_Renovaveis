@@ -1,0 +1,53 @@
+name: Publicar ZIP completo da entrega
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: entrega-main
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    if: github.repository == 'samuelasroma-byte/SPGER0046_Energias_Renovaveis' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Obter a revisão completa
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+      - name: Preparar verificações documentais
+        run: python -m pip install python-docx==1.2.0 lxml==6.1.1 PyMuPDF==1.26.6
+      - name: Conferir arquivos, referências e equações
+        run: |
+          python scripts/auditar_publicacao.py
+          python tests/verificar_inventario_equacoes.py
+          python tests/verificar_acesso_equacoes.py
+          python tests/verificar_referencias_pvdaq.py
+          python tests/verificar_empacotamento.py
+      - name: Gerar e reabrir o ZIP com manifesto SHA-256
+        run: python scripts/empacotar_entrega.py --ref "$GITHUB_SHA" --output "$RUNNER_TEMP/entrega"
+      - name: Publicar a entrega por revisão
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="entrega-${GITHUB_SHA:0:12}"
+          if gh release view "$tag" --json isDraft > "$RUNNER_TEMP/release-existente.json" 2>/dev/null; then
+            if python -c 'import json,sys; sys.exit(not json.load(open(sys.argv[1]))["isDraft"])' "$RUNNER_TEMP/release-existente.json"; then
+              gh release upload "$tag" "$RUNNER_TEMP/entrega/SPGER0046_Projeto_Completo.zip" "$RUNNER_TEMP/entrega/SPGER0046_Projeto_Completo.zip.sha256" "$RUNNER_TEMP/entrega/Verificacao_Pacote.json" --clobber
+              gh release edit "$tag" --draft=false --latest --notes-file "$RUNNER_TEMP/entrega/Notas_Entrega.md"
+            else
+              echo "Entrega deste commit já publicada; arquivos preservados."
+            fi
+          else
+            gh release create "$tag" "$RUNNER_TEMP/entrega/SPGER0046_Projeto_Completo.zip" "$RUNNER_TEMP/entrega/SPGER0046_Projeto_Completo.zip.sha256" "$RUNNER_TEMP/entrega/Verificacao_Pacote.json" --target "$GITHUB_SHA" --title "Entrega completa ${GITHUB_SHA:0:12}" --notes-file "$RUNNER_TEMP/entrega/Notas_Entrega.md" --latest
+          fi

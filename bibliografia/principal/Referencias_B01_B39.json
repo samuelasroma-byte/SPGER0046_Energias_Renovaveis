@@ -550,8 +550,8 @@
   },
   {
     "code": "B24",
-    "type": "Documento técnico",
-    "reference": "OEDI / PVDAQ. PVDAQ public photovoltaic performance data — OEDI. [S. l.], [s.d.]. DOI: https://doi.org/10.25984/1846021. Disponível em: https://doi.org/10.25984/1846021. Acesso em: 16 out. 2026.",
+    "type": "Conjunto de dados",
+    "reference": "DELINE, Chris; PERRY, Kirsten; DECEGLIE, Michael; MULLER, Matthew; SEKULIC, William; JORDAN, Dirk. Photovoltaic Data Acquisition (PVDAQ) Public Datasets. [S. l.]: NREL, 2021. Conjunto de dados. Open Energy Data Initiative (OEDI). DOI: https://doi.org/10.25984/1846021. Disponível em: https://data.openei.org/submissions/4568. Acesso em: 19 out. 2026.",
     "topics": [
       "1.2",
       "1.3",
@@ -563,7 +563,7 @@
     "situacao": "DADOS_NO_PROJETO",
     "id_disponivel": "",
     "alternativas": "",
-    "observacao": "Dados originais já no projeto; consultar DOI e documentação",
+    "observacao": "Fonte primária OEDI; sistema 2107 e arquivos de 2024 identificados em data/raw/fontes_pvdaq.json",
     "doi": "10.25984/1846021",
     "topics_catalogo": [
       "1.2",
@@ -571,7 +571,8 @@
       "1.4"
     ],
     "pdf_drive": "",
-    "pdf_exact": false
+    "pdf_exact": false,
+    "source_metadata": "references/pvdaq_dataset_citacao.json"
   },
   {
     "code": "B25",

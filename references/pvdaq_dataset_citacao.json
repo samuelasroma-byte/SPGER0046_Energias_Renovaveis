@@ -1,0 +1,27 @@
+{
+  "bibliography_code": "B24",
+  "method_code": "R01",
+  "title": "Photovoltaic Data Acquisition (PVDAQ) Public Datasets",
+  "authors": ["Deline, Chris", "Perry, Kirsten", "Deceglie, Michael", "Muller, Matthew", "Sekulic, William", "Jordan, Dirk"],
+  "year": 2021,
+  "publication_date": "2021-12-21",
+  "publisher": "NREL",
+  "repository": "Open Energy Data Initiative (OEDI)",
+  "doi": "10.25984/1846021",
+  "url": "https://data.openei.org/submissions/4568",
+  "documentation_url": "https://github.com/openEDI/documentation/blob/main/pvdaq.md",
+  "access_tools_url": "https://github.com/NatLabRockies/pvdaq_access",
+  "accessed": "2026-10-19",
+  "subset": {
+    "system_id": 2107,
+    "name": "Farm Solar Array",
+    "location": "Arbuckle, California, USA",
+    "source_prefix": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/",
+    "raw_manifest": "data/raw/fontes_pvdaq.json",
+    "file_year": 2024,
+    "analysis_start_local": "2024-04-01",
+    "analysis_end_exclusive_local": "2024-07-01",
+    "timezone": "America/Los_Angeles"
+  },
+  "citation_abnt": "DELINE, Chris; PERRY, Kirsten; DECEGLIE, Michael; MULLER, Matthew; SEKULIC, William; JORDAN, Dirk. Photovoltaic Data Acquisition (PVDAQ) Public Datasets. [S. l.]: NREL, 2021. Conjunto de dados. Open Energy Data Initiative (OEDI). DOI: https://doi.org/10.25984/1846021. Disponível em: https://data.openei.org/submissions/4568. Acesso em: 19 out. 2026."
+}

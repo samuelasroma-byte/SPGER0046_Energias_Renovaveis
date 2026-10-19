@@ -169,7 +169,7 @@ def main():
                             ('Guia técnico resumido', 'docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx'),
                             ('Dossiê técnico dos dados e equipamentos', 'docs/metodos/Dossie_Tecnico_por_Secao.docx'),
                             ('Proposta oficial do capítulo', 'docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx'),
-                            ('Referências por subseção', 'bibliografia/outputs/Referencias_por_Subsecao.docx')]) + '\n')
+                            ('Referências por subseção', 'bibliografia/principal/README.md')]) + '\n')
 
         equation_word=folder/f'equacoes/Quadro_Equacoes_Secao_{int(number):02d}.docx'
         if equation_word.exists():

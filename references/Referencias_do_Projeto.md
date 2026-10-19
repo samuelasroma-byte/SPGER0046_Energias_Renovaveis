@@ -2,15 +2,15 @@
 
 Inventário das fontes científicas, técnicas, de dados e de planejamento usadas neste projeto. Não constitui uma revisão bibliográfica concluída nem uma seleção por número de citações. Fontes NASA da versão anterior são preservadas como histórico e não são entradas da validação elétrica atual. Os identificadores permanecem estáveis; R27–R30 foram acrescentadas para os diagnósticos e as hipóteses ambientais.
 
-## R01 — PVDAQ public photovoltaic performance data — OEDI
+## R01 — Photovoltaic Data Acquisition (PVDAQ) Public Datasets
 
-OEDI / PVDAQ. PVDAQ public photovoltaic performance data — OEDI. s.d..
+DELINE, Chris; PERRY, Kirsten; DECEGLIE, Michael; MULLER, Matthew; SEKULIC, William; JORDAN, Dirk. Photovoltaic Data Acquisition (PVDAQ) Public Datasets. [S. l.]: NREL, 2021. Conjunto de dados. Open Energy Data Initiative (OEDI). DOI: https://doi.org/10.25984/1846021. Disponível em: https://data.openei.org/submissions/4568. Acesso em: 19 out. 2026.
 
 Seções: 0; 1.4; 4.4. Uso: Dados medidos e documentação da instalação; licença CC BY 4.0.
 
 Fonte: https://data.openei.org/submissions/4568
 
-DOI: 10.25984/1846021. Cópia local: data/raw/pvdaq_2107_2024_originais.zip. Consulta: 2026-10-16.
+DOI: 10.25984/1846021. Cópia local: data/raw/fontes_pvdaq.json. Consulta: 2026-10-19.
 
 ## R02 — PVDAQ access tools and openEDI documentation
 
@@ -238,7 +238,7 @@ Equipe SPGER0046 / UFPB. Proposta de estrutura do capítulo: Recurso solar e mod
 
 Seções: Planejamento. Uso: Documento interno que define as quatro seções; não é referência científica de um modelo.
 
-Fonte: https://drive.google.com/file/d/1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI/view
+Fonte: ACERVO_RESTRITO_DA_EQUIPE
 
 DOI: não informado. Cópia local: docs/Plano_do_Capitulo_Fonte_Drive_20261016.txt. Consulta: 2026-10-16.
 

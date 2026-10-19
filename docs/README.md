@@ -1,5 +1,7 @@
 # Documentos do projeto
 
+As **[39 referências revisadas](../bibliografia/atualizada/README.md)** estão disponíveis em Word e PDF. B24 identifica a fonte dos dados PVDAQ/OEDI; B27 identifica o acesso. [Baixar a entrega completa atualizada](ENTREGA_ZIP.md).
+
 O [inventário de equações](equacoes/README.md) reúne um Word geral e quatro Word por seção. São 37 relações do núcleo do notebook e 24 de apoio verificadas no código, com equações nativas editáveis, função, símbolos e local de inserção. A fórmula de Faiman tem um único ID de inserção em 3.2 e remissão em 2.1.
 
 Para ler as equações diagramadas no celular, use **Ler PDF no Drive** no [índice de equações](equacoes/README.md#abrir-os-documentos). Para editar, use **Abrir Word no Drive**. O download do Word deve ser aberto em um editor compatível.
@@ -21,7 +23,7 @@ Os documentos consolidados originais de gráficos, ilustrações, tabelas e quad
 | Proposta_do_Capitulo_Recurso_Solar_FV.docx | [Proposta_do_Capitulo_Recurso_Solar_FV.docx](planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) |
 | Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx | [Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx](planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx) |
 | Plano_Equipe_SPGER0046.docx | [Plano_Equipe_SPGER0046.docx](planejamento/Plano_Equipe_SPGER0046.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/planejamento/Plano_Equipe_SPGER0046.docx) |
-| Referencias_por_Subsecao.docx | [Referencias_por_Subsecao.docx](../bibliografia/outputs/Referencias_por_Subsecao.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/bibliografia/outputs/Referencias_por_Subsecao.docx) |
+| Referencias_por_Subsecao.docx (original histórico; usar a revisão acima) | [Referencias_por_Subsecao.docx](../bibliografia/outputs/Referencias_por_Subsecao.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/bibliografia/outputs/Referencias_por_Subsecao.docx) |
 | Dossie_Tecnico_por_Secao.docx | [Dossie_Tecnico_por_Secao.docx](metodos/Dossie_Tecnico_por_Secao.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/metodos/Dossie_Tecnico_por_Secao.docx) |
 | Ilustracoes_FV.docx | [Ilustracoes_FV.docx](../outputs/figuras/docx/Ilustracoes_FV.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/outputs/figuras/docx/Ilustracoes_FV.docx) |
 | Fluxogramas_do_Projeto.docx | [Fluxogramas_do_Projeto.docx](../outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx) |

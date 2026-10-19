@@ -9,6 +9,6 @@ Estes documentos apoiam a leitura dos dados e a organização da equipe. A sele�
 - [Guia técnico resumido](../../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx)
 - [Dossiê técnico dos dados e equipamentos](../../../docs/metodos/Dossie_Tecnico_por_Secao.docx)
 - [Proposta oficial do capítulo](../../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)
-- [Referências por subseção](../../../bibliografia/outputs/Referencias_por_Subsecao.docx)
+- [Referências por subseção](../../../bibliografia/principal/README.md)
 
 [Quadro de equações exclusivo desta seção em PDF e Word](../equacoes/README.md).

@@ -1,0 +1,28 @@
+{
+  "revision_date": "2026-10-19",
+  "references": 39,
+  "updated_code": "B24",
+  "preserved_access_code": "B27",
+  "original_word_sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+  "word_drive_url": "https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+  "pdf_drive_url": "https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk",
+  "pdf_pages": 11,
+  "files": [
+    {
+      "format": "pdf",
+      "path": "bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.pdf",
+      "drive_id": "sediment://file_000000007ba0820e9f7e0e799d379655",
+      "sha256": "f792dac1e3ff074d6aed0eda4374554600d0084a83f8355abca3818843c41731",
+      "bytes": 161899,
+      "verified_download": true
+    },
+    {
+      "format": "docx",
+      "path": "bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.docx",
+      "drive_id": "sediment://file_00000000e05c820ebdf5d47d7d9fd051",
+      "sha256": "ecfd9128ca36878eea8a77362642b99743abaf1af5a753c6e7c81a9d27ba4b2d",
+      "bytes": 48421,
+      "verified_download": true
+    }
+  ]
+}
