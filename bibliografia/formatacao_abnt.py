@@ -1,4 +1,4 @@
-"""Apresentação acadêmica e referências com o recuo francês solicitado pela equipe."""
+"""Apresentação acadêmica e referências com recuo francês."""
 from pathlib import Path
 import re
 import unicodedata

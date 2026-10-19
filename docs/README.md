@@ -1,12 +1,12 @@
 # Documentos do projeto
 
-As **[39 referências revisadas](../bibliografia/atualizada/README.md)** estão disponíveis em Word e PDF. B24 identifica a fonte dos dados PVDAQ/OEDI; B27 identifica o acesso. [Baixar a entrega completa atualizada](ENTREGA_ZIP.md).
+As **[39 referências](../bibliografia/atualizada/README.md)** estão disponíveis em Word e PDF. B24 identifica a fonte dos dados PVDAQ/OEDI; B27 identifica o acesso. [Baixar o projeto completo](ENTREGA_ZIP.md).
 
-O [inventário de equações](equacoes/README.md) reúne um Word geral e quatro Word por seção. São 37 relações do núcleo do notebook e 24 de apoio verificadas no código, com equações nativas editáveis, função, símbolos e local de inserção. A fórmula de Faiman tem um único ID de inserção em 3.2 e remissão em 2.1.
+O [inventário de equações](equacoes/README.md) apresenta função, símbolos, unidades e aplicação das relações do notebook e do código. Os documentos estão organizados por seção e subseção.
 
 Para ler as equações diagramadas no celular, use **Ler PDF no Drive** no [índice de equações](equacoes/README.md#abrir-os-documentos). Para editar, use **Abrir Word no Drive**. O download do Word deve ser aberto em um editor compatível.
 
-Para redigir, usar os quatro documentos tabulares abaixo e os índices de ilustrações de cada seção. Cada ID tem um único local de inserção conforme o [mapa editorial](Distribuicao_Editorial.md). O guia técnico resumido orienta o grupo sobre o estudo de caso comum. Os dez DOCX originais também estão disponíveis, preservados byte a byte.
+Para redigir, usar os quatro documentos tabulares abaixo e os índices de ilustrações de cada seção. Cada ID tem um único local de inserção conforme o [mapa editorial](Distribuicao_Editorial.md). O guia técnico resumido orienta o grupo sobre o estudo de caso comum. As coleções e os documentos de planejamento estão listados abaixo.
 
 | Materiais editáveis para redação | Arquivo |
 | --- | --- |
@@ -31,8 +31,8 @@ Os documentos consolidados originais de gráficos, ilustrações, tabelas e quad
 | Tabelas_do_Projeto.docx | [Tabelas_do_Projeto.docx](../outputs/tabelas/docx/Tabelas_do_Projeto.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/outputs/tabelas/docx/Tabelas_do_Projeto.docx) |
 | Graficos_do_Projeto.docx | [Graficos_do_Projeto.docx](../outputs/graficos/docx/Graficos_do_Projeto.docx) | [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/outputs/graficos/docx/Graficos_do_Projeto.docx) |
 
-O Word completo dos gráficos tem 14.465.317 bytes e está incluído no repositório. [Os gráficos também estão publicados separadamente em PNG/PDF](../figuras/README.md).
+A coleção Word dos gráficos contém 30 ilustrações. [Os gráficos também estão publicados separadamente em PNG/PDF](../figuras/README.md).
 
-A proposta atual contém 19 subseções e prevalece sobre o documento anterior de arquitetura, que tem 17. O plano de equipe em Word é um registro de 18/10/2026: suas recomendações antigas sobre armazenamento e status da integração foram superadas por esta publicação; o original não foi reescrito.
+A [proposta oficial](planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) define as 19 subseções do capítulo. O documento de arquitetura, com 17 subseções, é uma fonte de planejamento complementar.
 
 [Auditoria final](AUDITORIA_FINAL_PUBLICACAO.md) · [Execução e versões](REPRODUTIBILIDADE.md)

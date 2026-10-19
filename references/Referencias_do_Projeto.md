@@ -1,6 +1,6 @@
 # Referências e fontes do projeto — v1.2
 
-Inventário das fontes científicas, técnicas, de dados e de planejamento usadas neste projeto. Não constitui uma revisão bibliográfica concluída nem uma seleção por número de citações. Fontes NASA da versão anterior são preservadas como histórico e não são entradas da validação elétrica atual. Os identificadores permanecem estáveis; R27–R30 foram acrescentadas para os diagnósticos e as hipóteses ambientais.
+Fontes científicas e técnicas dos dados, modelos e planejamento do capítulo. Os códigos R identificam os métodos e as hipóteses usados nos resultados. A seleção orienta a leitura e não constitui revisão sistemática. As fontes NASA documentam consultas complementares e não alimentam a validação elétrica do PVDAQ.
 
 ## R01 — Photovoltaic Data Acquisition (PVDAQ) Public Datasets
 

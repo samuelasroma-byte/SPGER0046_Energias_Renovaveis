@@ -234,7 +234,7 @@ class Survey:
         availability=[]
         for source in SOURCES:
             available=source not in ['Scopus','WOS','IEEE Xplore'] or bool(self.keys.get(source))
-            availability.append(dict(base=source,status='habilitada' if available else 'não executada aqui; Secret disponível apenas no ambiente do usuário',
+            availability.append(dict(base=source,status='habilitada' if available else 'não consultada; credenciais não disponíveis na coleta registrada',
                 credencial_presente=bool(self.keys.get(source)) if source!='Crossref' else 'não exigida'))
         self.availability=pd.DataFrame(availability);self.availability.to_csv(self.out/'logs/estado_bases.csv',index=False)
         tasks=[(t,s,m) for t in self.topics for s in SOURCES for m in (['citados','recentes'] if s=='OpenAlex' else ['relevancia'])
@@ -411,7 +411,7 @@ class Survey:
           'sources_with_actual_records':sorted(set(r['source'] for r in self.records)),
           'source_status':self.availability.to_dict('records'),'full_text_review_completed':False,
           'ranking_scope':self.cfg['interpretation'],'generated_at':datetime.now(timezone.utc).isoformat(),
-          'reference_presentation':'ABNT NBR 6023:2025; Times New Roman 12; recuo francês solicitado de 1,25 cm; catálogo alfabético e mapa dos 19 tópicos'}
+          'reference_presentation':'ABNT NBR 6023:2025; Times New Roman 12; recuo francês de 1,25 cm; catálogo alfabético e mapa dos 19 tópicos'}
         (self.out/'resumo_levantamento.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
         self.summary=summary
         write_docx(self)

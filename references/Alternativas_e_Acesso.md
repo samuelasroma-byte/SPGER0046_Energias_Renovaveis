@@ -1,6 +1,6 @@
 # Alternativas de trabalho e acesso às obras originais
 
-Atualização: 18/10/2026. As obras originais são prioritárias. As alternativas abaixo permitem avançar na redação usando os materiais efetivamente disponíveis. B19, B20 e N01 continuam pendentes nas edições integrais indicadas; nenhum relatório foi classificado como norma.
+As edições originais indicadas na bibliografia são prioritárias. As alternativas abaixo permitem avançar na redação usando os materiais efetivamente disponíveis. B19, B20 e N01 continuam pendentes nas edições integrais indicadas; nenhum relatório foi classificado como norma.
 
 ## B19 — Alternativa de trabalho para o conteúdo do capítulo
 
@@ -16,7 +16,7 @@ Usar Jäger et al. (2014) para fundamentos, células, módulos e sistemas; Stein
 - **A003** — Jäger et al. (2014). Solar Energy: Fundamentals, Technology, and Systems. [Abrir PDF disponível](https://drive.google.com/file/d/1uCa2WhHXDCJfTzBei05GnK9T_iloGIcW/view?usp=drivesdk). Seções 1, 2, 3, 4.
 - **A092** — Stein, Joshua S. (2017). PV Performance Modeling Methods and Practices: Results from the 4th PV Performance Modeling Collaborative Workshop. [Abrir PDF disponível](https://drive.google.com/file/d/1vFNchntBELashk8zz4Mx_xFA_l4nPOwY/view?usp=drivesdk). Seções 3, 4.
 
-## N01 — Apoio técnico, com pendência normativa preservada
+## N01 — Apoio técnico e disponibilidade da norma
 
 Usar Jahn et al. (2022) como apoio sobre monitoramento, indicadores e clima nas seções 2 e 4. O relatório não é uma norma e não substitui a IEC 61724-1:2021. Não declarar atendimento à norma com base somente neste apoio.
 
@@ -42,12 +42,12 @@ JAHN, Ulrike et al. Guidelines for operation and maintenance of photovoltaic pow
 - A003: 420 páginas digitais; folha de rosto, sumário, capítulos, referências e final na página impressa 408 conferidos. É o livro da TU Delft de 2014, diferente da edição publicada por Smets et al. em 2016.
 - A092: relatório oficial de 2017, 98 páginas; cópias nas seções 3 e 4, em Referencias/Relatorios_e_Manuais.
 - A093: relatório oficial de 2022, 152 páginas; cópias nas seções 2 e 4, em Referencias/Relatorios_e_Manuais.
-- Os destinos e tamanhos das quatro novas cópias foram confirmados por metadados. Não foram criadas cópias extras dos livros que já estavam nas seções.
+- As cópias A092 e A093 estão nos índices das seções indicadas.
 
-## Continuação das buscas originais
+## Acesso às edições prioritárias
 
-- B19: https://www.sciencedirect.com/book/9780123972705/solar-energy-engineering — DOI 10.1016/C2011-0-07038-2. A sessão institucional anterior mostrou apenas resumos dos capítulos.
+- B19: https://www.sciencedirect.com/book/9780123972705/solar-energy-engineering — DOI 10.1016/C2011-0-07038-2. Na consulta registrada, a instituição teve acesso aos resumos dos capítulos.
 - B20: https://onlinelibrary.wiley.com/doi/book/10.1002/9780470974704 — DOI 10.1002/9780470974704. A base Wiley consta como disponível à UFPB; a licença deste livro não foi confirmada.
 - N01: https://sigaa.ufpb.br/sigaa/logon.jsf — Biblioteca > Pesquisar Livros e Bases Digitais > Target - Normas Técnicas. Pesquisar IEC 61724-1:2021. Não foi confirmada a inclusão dessa norma na assinatura da instituição.
 
-Os impedimentos de observação do navegador na Wiley e na Target não foram contornados. A etapa autenticada permanece para continuação manual. Orientações institucionais: https://www.ccs.ufpb.br/bsccs/como-acessar-as-bases-de-dados/.
+A confirmação das licenças específicas na Wiley e na Target depende de consulta autenticada pela instituição. Orientações institucionais: https://www.ccs.ufpb.br/bsccs/como-acessar-as-bases-de-dados/.

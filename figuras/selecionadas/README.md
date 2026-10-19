@@ -1,3 +1,3 @@
 # Seleção final
 
-A equipe ainda deve escolher as figuras finais do capítulo. Nenhuma seleção foi apresentada como decisão já aprovada.
+Seleção das figuras para o capítulo pela equipe, a partir do catálogo e da distribuição por subseção.

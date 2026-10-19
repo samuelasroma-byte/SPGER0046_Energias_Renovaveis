@@ -4,7 +4,7 @@
 
 [Inventário geral](../../../docs/equacoes/README.md)
 
-Para ler o documento com as equações diagramadas no celular, escolha **Ler PDF no Drive**. Para editar, escolha **Abrir Word no Drive**. O download deve ser aberto em um editor compatível com Word.
+O PDF permite leitura; o Word contém as equações editáveis.
 
 Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.
 

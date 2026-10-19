@@ -1,10 +1,10 @@
 # Fundamentação teórica por seção e subseção
 
-Este levantamento apoia a redação das quatro seções do capítulo fotovoltaico SPGER0046 UFPB. O notebook adapta o modelo multibase do WCNPS em Artigo/Bibliometria para indicar livros, artigos, relatórios e fontes de método por tópico. Não procura uma lacuna e não se apresenta como revisão sistemática ou leitura integral automática.
+O levantamento bibliográfico apoia as quatro seções e 19 subseções do capítulo SPGER0046, com livros, artigos, relatórios e fontes metodológicas. A seleção utiliza metadados e resumos; não constitui revisão sistemática nem substitui a leitura integral das obras citadas.
 
 ## Comece pelas leituras selecionadas
 
-Abra outputs/Referencias_por_Subsecao.docx: quatro quadros mapeiam os 19 tópicos aos códigos B01 a B39, que levam às referências completas em ordem alfabética. Cada referência ocupa seu próprio bloco e informa as subseções de aplicação. O texto nativo usa Times New Roman 12; as referências têm entrelinhas simples, separação de 12 pontos e o recuo francês de 1,25 cm solicitado pela equipe. Consulte também os quatro arquivos Markdown em outputs/por_secao. Eles relacionam cada obra à subseção, à finalidade de leitura e ao responsável do plano. O arquivo outputs/obras_prioritarias.csv permite filtrar, e os arquivos BibTeX e RIS apoiam a organização das citações.
+O [guia bibliográfico](atualizada/README.md) relaciona as 19 subseções às 39 referências B01–B39, com responsáveis e aplicação. Os quatro arquivos Markdown em outputs/por_secao detalham finalidade de leitura e distribuição. O arquivo outputs/obras_prioritarias.csv permite filtrar as obras; BibTeX e RIS apoiam a organização das citações.
 
 O catálogo consolidado contém todos os resultados recuperados. Ele inclui candidatos fora da seleção final para preservar a rastreabilidade. A seleção de leitura é menor e usa critérios específicos de título, assunto, fonte de método e complemento recente. O grupo deve ler os textos antes de citar uma conclusão, equação ou página.
 
@@ -23,9 +23,9 @@ O Handbook of Photovoltaic Science and Engineering é referenciado pela edição
 
 ## Bases e credenciais
 
-Os cinco clientes estão implementados. Nesta execução, Crossref e OpenAlex forneceram registros. As chaves Scopus, WOS e IEEE ficam nos Secrets do Colab do usuário e não estavam disponíveis neste ambiente. O estado de cada base aparece em outputs/logs/estado_bases.csv; não se afirma que as três bases institucionais foram consultadas nesta execução.
+Crossref e OpenAlex forneceram os registros da coleta. Os clientes Scopus, Web of Science e IEEE Xplore requerem credenciais e não foram utilizados na coleta registrada. O estado de cada base está em outputs/logs/estado_bases.csv.
 
-No Colab, use os nomes já adotados pelo notebook WCNPS: OPENALEX_API_KEY, SCOPUS_API_KEY, WOS_API_KEY e IEEE_API_KEY. Também são aceitas variáveis de ambiente com esses nomes. Nenhuma chave é exibida, incluída nas respostas em cache ou exportada. Ter uma chave não garante a mesma cobertura ou licença de uma base institucional.
+No Colab, configurar as credenciais OPENALEX_API_KEY, SCOPUS_API_KEY, WOS_API_KEY e IEEE_API_KEY nos Secrets ou nas variáveis de ambiente. As credenciais não integram os resultados exportados; o acesso depende da licença de cada base.
 
 ## Executar novamente
 
@@ -54,4 +54,4 @@ Pela linha de comando, na raiz do projeto:
 
 Documentação dos serviços: https://help.openalex.org/api/ ; https://www.crossref.org/documentation/retrieve-metadata/rest-api/ ; https://dev.elsevier.com/documentation/SCOPUSSearchAPI.wadl ; https://developer.clarivate.com/apis/wos-starter ; https://developer.ieee.org/docs/ .
 
-O notebook WCNPS original permanece preservado. Este código e as referências podem ser incorporados ao repositório do grupo na etapa de integração com GitHub.
+O protocolo registra a estrutura multibase usada como referência. Os resultados do levantamento e os índices por seção estão disponíveis neste repositório.

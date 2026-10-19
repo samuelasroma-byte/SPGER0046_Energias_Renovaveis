@@ -37,13 +37,13 @@ $$I=I_L-I_0[\exp((V+IR_s)/a)-1]-(V+IR_s)/R_{sh},\quad P=VI.$$
 | A018 | [Abrir pvlib python: a python package for modeling solar energy systems](https://drive.google.com/file/d/1FBMDvA4xpAW7-8zq2Tre5AGUt_kr56TL/view?usp=drivesdk) |  |
 | A034 | [Abrir Handbook of Photovoltaic Science and Engineering](https://drive.google.com/file/d/1gHLYXkymfLiRuyNfYDDRuJ0KsKJByVdh/view?usp=drivesdk) | 1ª edição. Apoio alternativo a B20; não satisfaz a edição de 2011 indicada. |
 | A076 | [Abrir Improvement and validation of a model for photovoltaic array performance](https://drive.google.com/file/d/14zVR8JRkL9ixP6pmdyhsCWg58ymL3M6v/view?usp=drivesdk) | Versão publicada; páginas 78–88. |
-| A085 | [Abrir Comprehensive approach to modeling and simulation of photovoltaic arrays](https://drive.google.com/file/d/1Ct3ezT5aQQ0gVbWTB2zBDGn2VEg0hZ4b/view?usp=drivesdk) | Versão publicada; páginas 1198–1208. Sobrenome do terceiro autor corrigido para RUPPERT FILHO. |
+| A085 | [Abrir Comprehensive approach to modeling and simulation of photovoltaic arrays](https://drive.google.com/file/d/1Ct3ezT5aQQ0gVbWTB2zBDGn2VEg0hZ4b/view?usp=drivesdk) | Versão publicada, páginas 1198–1208. Autores: Villalva, Gazoli e Ruppert Filho. |
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
 ## Ilustrações de inserção exclusiva
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |

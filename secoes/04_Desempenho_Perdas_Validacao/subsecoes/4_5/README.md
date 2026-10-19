@@ -38,13 +38,13 @@ $$P_e=\eta GA,\quad Q_{\mathrm{abs}}=(\alpha-\eta)GA,\quad Q_{\mathrm{in}}=\tau_
 | A074 | [Abrir A key review of building integrated photovoltaic (BIPV) systems](https://drive.google.com/file/d/19_7zGwhQGzAqGoasrKZx4YHQ9tTYIlP3/view?usp=drivesdk) | Versão completa em article in press; 21 páginas, DOI idêntico ao da versão final. A paginação final da referência é 833–858. |
 | A078 | [Abrir Building integrated photovoltaic products: A state-of-the-art review and future research opportunities](https://drive.google.com/file/d/1RCCSrKPfRIHu4k2PqKeiEe9AtkJPY0gK/view?usp=drivesdk) | Versão publicada; páginas 69–96. |
 | A080 | [Abrir Semi-transparent building integrated photovoltaic solar glazing: Investigations of electrical and optical performances for window applications in tropical region](https://drive.google.com/file/d/1F6au87oPtnyrllsdkI676tiGFqmNTvL3/view?usp=drivesdk) | Artigo completo de 10 páginas mais página promocional da editora (11 páginas no PDF). |
-| A089 | [Abrir A continuous form of the Perez diffuse sky model for forward and reverse transposition](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk) | Versão final da editora, completa, com 12 páginas e licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online antecipada em 2/12/2023. Original recebido preservado. Cópias de consulta nas quatro seções. |
+| A089 | [Abrir A continuous form of the Perez diffuse sky model for forward and reverse transposition](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk) | Versão final da editora, 12 páginas, licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online em 2/12/2023. Cópias nas quatro seções. |
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
 ## Ilustrações de inserção exclusiva
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |

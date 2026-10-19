@@ -1,6 +1,6 @@
 # Roteiro da seção 3
 
-Responsáveis: Gabriela e Giulia. Texto a desenvolver pela equipe no documento oficial escolhido.
+Responsáveis: Gabriela e Giulia. Redação da seção neste arquivo, com revisão pela equipe.
 
 ## 3.1 Transposição para o plano do arranjo
 

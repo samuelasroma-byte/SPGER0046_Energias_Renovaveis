@@ -41,7 +41,7 @@ Os manuais SPA, PVWatts, parâmetros de desempenho e ABB foram baixados de fonte
 
 O trimestre começa em 01/04/2024 00:00 e termina, de forma exclusiva, em 01/07/2024 00:00 no fuso `America/Los_Angeles`. Os índices internos e os CSVs de saída usam UTC. Seleciona-se o trimestre antes de localizar os carimbos locais do PVDAQ, evitando os horários ambíguos das transições anuais de verão.
 
-Adota-se o rótulo como início do intervalo; a SPA é calculada em seu ponto médio. NASA POWER não é consultado na versão atual; a consulta UTC da versão 1.0 permanece preservada como histórico. Essa interpretação de intervalo é uma hipótese documentada, sem otimizar a defasagem contra a geração. A cobertura reproduz o critério anterior: elevação NOAA de pelo menos 10°. A seleção diurna não usa a própria potência elétrica.
+Adota-se o rótulo como início do intervalo; a SPA é calculada em seu ponto médio. A cadeia PVDAQ usa meteorologia local. A consulta NASA POWER em UTC consta como fonte complementar. Essa interpretação de intervalo é uma hipótese documentada, sem otimizar a defasagem contra a geração. O critério de disponibilidade diurna é elevação NOAA de pelo menos 10°. A seleção diurna não usa a própria potência elétrica.
 
 Para POA e inversores com frequência original de 5 minutos, só se usa a média de 15 minutos se as três observações existirem. Temperatura, vento e medidor têm cadência de 15 minutos. Não se preenchem lacunas. Os limites físicos amplos e as máscaras ficam na série de saída. A disponibilidade conjunta inclui os 24 inversores; a referência principal continua sendo o medidor.
 
@@ -64,7 +64,7 @@ Para POA e inversores com frequência original de 5 minutos, só se usa a média
 | Eficiência | ηnom=0,98; ηref=0,9637 | Hipótese nominal + referência da curva PVWatts |
 | Vento principal | Medição local convertida de mph | Altura do anemômetro não suficientemente documentada |
 
-O JSON PVDAQ classifica o módulo como mono-Si, enquanto o banco CEC o classifica como multicristalino. Mantém-se o arquivo original e usam-se os parâmetros do modelo CEC identificado. A corrente de curto-circuito do ajuste CEC não coincide exatamente com a corrente tabulada. Nenhum desses campos foi corrigido para melhorar a comparação com o medidor.
+O JSON PVDAQ classifica o módulo como mono-Si, enquanto o banco CEC o classifica como multicristalino. Mantém-se o arquivo original e usam-se os parâmetros do modelo CEC identificado. A corrente de curto-circuito do ajuste CEC não coincide exatamente com a corrente tabulada. Os parâmetros do ajuste CEC e as especificações do cadastro são registrados separadamente.
 
 Os campos de topologia e associação módulo–inversor não permitem reconstruir comprovadamente as strings. A potência principal é agregada a partir do MPP do módulo. O exemplo 20×6 demonstra regras de série/paralelo, sem validar tensões e MPPTs da instalação real.
 
@@ -78,24 +78,24 @@ O PR com POA local é restrito aos 4.401 intervalos pareados. A energia observad
 
 ## Extensão BIPV e conservação de energia
 
-O caso de fachada reutiliza o local e a meteorologia medida, com componentes estimadas da POA por inversão. São usadas somente as horas diurnas elegíveis; a energia não é o total integral do trimestre. A comparação por 1 kWp mantém o modelo CEC, perdas e relação CC/CA do caso de referência; a energia é normalizada pela potência declarada de 893 kW. Assim se examina geometria/ventilação sem substituir silenciosamente o módulo ou o inversor. O cenário semitransparente é um produto hipotético distinto de 100 m²: eficiência de referência 10%, refletância solar 0,12, transmitância solar 0,25, transmitância visível 0,35 e fração de calor para dentro 0,50. A transmitância visível não é inferida da transmitância solar.
+O caso de fachada reutiliza o local e a meteorologia medida, com componentes estimadas da POA por inversão. São usadas somente as horas diurnas elegíveis; a energia não é o total integral do trimestre. A comparação por 1 kWp mantém o modelo CEC, perdas e relação CC/CA do caso de referência; a energia é normalizada pela potência declarada de 893 kW. A comparação mantém os mesmos modelos de módulo e inversor para avaliar geometria e ventilação. O cenário semitransparente é um produto hipotético distinto de 100 m²: eficiência de referência 10%, refletância solar 0,12, transmitância solar 0,25, transmitância visível 0,35 e fração de calor para dentro 0,50. A transmitância visível não é inferida da transmitância solar.
 
 Com α=1−ρ−τs, a radiação incidente GA é dividida em reflexão ρGA, transmissão τsGA, eletricidade ηGA e calor (α−η)GA. O calor se divide entre interior e exterior. A soma dessas parcelas é conferida em cada hora. O ganho solar interno é τsGA+fin(α−η)GA e o SHGC equivalente simplificado é essa parcela dividida por GA.
 
 Esse balanço não é certificação de SHGC, não produz iluminância em lux e não substitui um modelo térmico completo da edificação. Nenhuma observação de fachada foi inventada. Uma aplicação futura precisa de propriedades ópticas/térmicas do produto e, para validação, medições da envoltória real.
 
 
-## Atualização v1.1 — inversão e referências
+## Inversão da irradiância e referências
 
 A inversão usa médias horárias completas, zenital e incidência de até 80°, albedo 0,20 e tolerância numérica de 0,01 W/m². A convergência e o fechamento verificam a solução do modelo adotado; não demonstram precisão física nem unicidade e não validam GHI, DNI ou DHI sem observações independentes. A POA original medida continua na comparação elétrica principal.
 
-Inventário completo de 30 fontes: `references/Referencias_do_Projeto.md`, `referencias_projeto.json` e `referencias_projeto.bib`; seção 5 do notebook. NASA é preservado apenas como histórico.
+Inventário completo de 30 fontes: `references/Referencias_do_Projeto.md`, `referencias_projeto.json` e `referencias_projeto.bib`; seção 5 do notebook. As fontes NASA são complementares e não alimentam o modelo principal.
 
 
 ## Refinamento v1.2
 
 Os métodos físicos foram mantidos; acrescentaram-se estatística descritiva com DP amostral e quartis, erros por estrato, resíduos, gráficos de validação e PSH da janela pareada. nMBE e nRMSE normalizam pela média observada dos respectivos pares; estratos mensais/horários/faixas de POA identificam sua amostra e cobertura. R27 complementa os indicadores de erro, R28 a sujidade, R29 a POA e R30 as produtividades/PR.
 
-Saídas: outputs/tabelas, quadros, graficos, fluxogramas, figuras e relatorios. Há cinco DOCX, 30 figuras em 120 arquivos PDF/PNG e matriz das 19 subseções. Os PNG têm 600 dpi; os PDF são gerados diretamente com elementos vetoriais. Os temas conservam dados, textos e limites dos eixos. As tabelas têm três traços horizontais e os quadros têm grade completa, conforme preferência do usuário. Fonte 12 e espessura dos traços são especificações do projeto, sem alegação de universalidade normativa.
+Saídas: outputs/tabelas, quadros, graficos, fluxogramas, figuras e relatorios. Há cinco DOCX, 30 figuras em 120 arquivos PDF/PNG e matriz das 19 subseções. Os PNG têm 600 dpi; os PDF são gerados diretamente com elementos vetoriais. Os temas conservam dados, textos e limites dos eixos. As tabelas têm três traços horizontais e os quadros têm grade completa, como convenção gráfica do projeto. Fonte 12 e espessura dos traços são especificações do projeto, sem alegação de universalidade normativa.
 
 O notebook usa descrições separadas em details HTML. O relatório HTML tem recolhimento nativo e botão de tema; não se presume renderização idêntica entre interfaces Jupyter/Colab. A autenticação Google é pessoal e a exportação do Colab é opcional.

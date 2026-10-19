@@ -2,11 +2,11 @@
 
 O levantamento contém **61 relações numeradas**: **37 escritas nas células de método do notebook** e **24 complementares explicitadas no código**. Cada ID tem uma única subseção de inserção. A equação de Faiman aparece uma vez em 3.2; em 2.1 há remissão a E3.03.
 
-Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; os itens C documentam o método e sua inclusão depende do espaço e da discussão. O documento geral serve ao controle da equipe e os quatro documentos individuais à redação da respectiva seção.
+Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; os itens C documentam o método e sua inclusão depende do espaço e da discussão. Os documentos estão organizados por seção e subseção.
 
 ## Abrir os documentos
 
-Para consultar as equações já diagramadas no celular, escolha **Ler PDF no Drive**. Para editar as equações nativas, escolha **Abrir Word no Drive**. **Baixar Word** entrega o arquivo para abrir no Word ou em outro editor compatível.
+**Ler PDF no Drive** abre o documento para leitura; **Abrir Word no Drive** permite edição. O Word também pode ser baixado e aberto em um editor compatível.
 
 **Inventário geral**: [Ler PDF no Drive](https://drive.google.com/file/d/10_mxbrTeThUKIu6tGuFrE2-Q3cem3QYl/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1-bVvipVMSC2k52emNXU9kxv7DSXMtuYM/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Baixar Word](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx) · [PDF no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf)
 
@@ -63,9 +63,9 @@ Cada uma das 61 relações tem lista estruturada de símbolos, descrição e uni
 
 ## Fontes e convenções
 
-O núcleo foi conferido no notebook e na matriz da revisão `17ffe0eeb7d70876eabf222ec30fb828ee28d3c8`. As fórmulas são nativas e editáveis nos Word. As potências devem usar unidades coerentes; para integrar W em kWh, multiplicar pela duração em horas e dividir por 1000. A análise usa intervalos de 15 minutos e o período abril a junho de 2024 do PVDAQ 2107.
+As relações correspondem às células de método e às funções indicadas no código. As fórmulas são editáveis nos Word. As potências devem usar unidades coerentes; para integrar W em kWh, multiplicar pela duração em horas e dividir por 1000. A análise usa intervalos de 15 minutos e o período abril a junho de 2024 do PVDAQ 2107.
 
-N corresponde a relações já escritas nas células de método. C expõe relações utilizadas pelo código, inclusive métricas normalizadas, correlação, curva do inversor, ajuste empírico e balanço BIPV. As expressões internas de bibliotecas e os critérios computacionais não são expandidos como equações de redação.
+N corresponde às relações das células de método. C expõe relações utilizadas pelo código, inclusive métricas normalizadas, correlação, curva do inversor, ajuste empírico e balanço BIPV. As expressões internas de bibliotecas e os critérios computacionais não são expandidos como equações de redação.
 
 ## Subseção 1.1
 

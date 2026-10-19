@@ -441,7 +441,7 @@ def equation_table(doc,selected,maths):
         p=cells[2].paragraphs[0];p.add_run(r['title']+'. ').bold=True
         p.add_run(r['function'])
         cells[2].add_paragraph(r['symbols'])
-        cells[3].text=('N Fórmula no notebook' if r['origin']=='N' else 'C Relação do código')+'\n'+r['application']
+        cells[3].text=('N Fórmula do notebook' if r['origin']=='N' else 'C Relação do código')+'\n'+r['application']
         if r['refs']:cells[3].add_paragraph(', '.join(r['refs']))
     border_table(table)
     for row in table.rows[1:]:
@@ -464,8 +464,8 @@ def make_doc(data,maths,path,section=None):
     doc.add_paragraph('O modelo A converte POA medida e meteorologia local por atenuação assumida, Faiman, CEC de diodo único, perdas CC, inversor PVWatts e perdas CA. '
                       'A transposição exploratória, a aproximação CC PVWatts, o ajuste empírico e o balanço BIPV são identificados em suas respectivas aplicações.')
     summary_table(doc,rows,selected_sections)
-    doc.add_paragraph('A equação de Faiman possui um único ID E3.03 e local de inserção em 3.2. Em 2.1 fazer remissão a esse ID. '
-                      'No inventário geral os quatro quadros são reunidos para controle; cada Word de seção contém somente os itens que lhe pertencem.')
+    doc.add_paragraph('O modelo de Faiman corresponde a E3.03, na subseção 3.2; a subseção 2.1 utiliza essa referência. '
+                      '')
     for number in selected_sections:
         heading=doc.add_heading('Seção '+str(number)+' '+TITLES[number-1],level=1)
         heading.paragraph_format.page_break_before=False
@@ -488,7 +488,7 @@ def make_doc(data,maths,path,section=None):
     selected_conventions={1:[1,2],2:[1,4],3:[2,3,4,5,6,7],4:[2,3,5,6,8,9]}
     indices=range(1,len(conventions)) if section is None else selected_conventions[section]
     for index in indices:doc.add_paragraph(conventions[index])
-    doc.add_paragraph('Cada linha conta uma relação. Constantes e parâmetros não entram na contagem. Os itens N são o núcleo editorial já escrito e os C detalham o método; '
+    doc.add_paragraph('Cada linha conta uma relação. Constantes e parâmetros não entram na contagem. N identifica relações do notebook e C, relações complementares do código; '
                       'selecionar a inclusão conforme a discussão e o espaço. A numeração final do capítulo será definida na consolidação.')
     doc.add_paragraph('O caso comum é PVDAQ 2107, abril a junho de 2024. As 4401 observações diurnas pareadas não representam todos os intervalos do trimestre. '
                       'A potência nominal declarada é 893 kWp. O exemplo de associação elétrica e o balanço BIPV são hipóteses identificadas.')
@@ -496,7 +496,7 @@ def make_doc(data,maths,path,section=None):
     groups={}
     for row in rows:groups.setdefault(row['source_locator'],[]).append(row['id'])
     for locator,ids in groups.items():doc.add_paragraph(locator+'  '+', '.join(ids))
-    doc.add_paragraph('As fórmulas N foram conferidas nas 19 subseções do notebook e na matriz da revisão '+BASE[:12]+'. '
+    doc.add_paragraph('As fórmulas N correspondem às células de método das 19 subseções do notebook. '
                       'Os algoritmos de SPA, CEC e Perez–Driesse, as conversões e os filtros estão no código. Citar as fontes R e explicitar as hipóteses na redação.')
     doc.add_paragraph('Fontes e referências metodológicas R: '+REPOSITORY+'/blob/main/references/Referencias_do_Projeto.md')
     doc.add_paragraph('Inventário legível com localização e links: '+REPOSITORY+'/blob/main/docs/equacoes/README.md')
@@ -529,7 +529,7 @@ def write_catalogue(data):
            'O levantamento contém **61 relações numeradas**: **37 escritas nas células de método do notebook** e **24 complementares explicitadas no código**. '
            'Cada ID tem uma única subseção de inserção. A equação de Faiman aparece uma vez em 3.2; em 2.1 há remissão a E3.03.','',
            'Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; '
-           'os itens C documentam o método e sua inclusão depende do espaço e da discussão. O documento geral serve ao controle da equipe e os quatro documentos individuais à redação da respectiva seção.','',
+           'os itens C documentam o método e sua inclusão depende do espaço e da discussão. Os documentos estão organizados por seção e subseção.','',
            '## Abrir os documentos','',
            'Para consultar as equações já diagramadas no celular, escolha **Ler PDF no Drive**. Para editar as equações nativas, escolha **Abrir Word no Drive**. '
            '**Baixar Word** entrega o arquivo para abrir no Word ou em outro editor compatível.','',
@@ -554,10 +554,10 @@ def write_catalogue(data):
     for convention in data['notation_conventions']:lines+=['- '+convention]
     lines+=['',
             '## Fontes e convenções','',
-            'O núcleo foi conferido no notebook e na matriz da revisão `'+BASE+'`. As fórmulas são nativas e editáveis nos Word. '
+            'As relações correspondem às células de método e às funções indicadas no código. As fórmulas são editáveis nos Word. '
             'As potências devem usar unidades coerentes; para integrar W em kWh, multiplicar pela duração em horas e dividir por 1000. '
             'A análise usa intervalos de 15 minutos e o período abril a junho de 2024 do PVDAQ 2107.','',
-            'N corresponde a relações já escritas nas células de método. C expõe relações utilizadas pelo código, inclusive métricas normalizadas, correlação, curva do inversor, ajuste empírico e balanço BIPV. '
+            'N corresponde às relações das células de método. C expõe relações utilizadas pelo código, inclusive métricas normalizadas, correlação, curva do inversor, ajuste empírico e balanço BIPV. '
             'As expressões internas de bibliotecas e os critérios computacionais não são expandidos como equações de redação.','']
     for sub in sorted({r['subsection'] for r in data['equations']}):
         rows=[r for r in data['equations'] if r['subsection']==sub]
@@ -580,7 +580,7 @@ def write_section_navigation(data):
         rows=[r for r in data['equations'] if r['section']==number]
         word=f'Quadro_Equacoes_Secao_{number:02d}.docx'
         text=f'# Equações da seção {number}\n\n'+access_links(number)+'\n\n[Inventário geral](../../../docs/equacoes/README.md)\n\n'
-        text+='Para ler o documento com as equações diagramadas no celular, escolha **Ler PDF no Drive**. Para editar, escolha **Abrir Word no Drive**. O download deve ser aberto em um editor compatível com Word.\n\n'
+        text+='O PDF permite leitura; o Word contém as equações editáveis.\n\n'
         text+='Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.\n\n'
         text+='| ID | Inserir em | Função | Registro | Aplicação |\n| --- | --- | --- | --- | --- |\n'
         for row in rows:text+=f'| {row["id"]} | {row["subsection"]} | {row["title"]} | {row["origin"]} | {row["application"]} |\n'

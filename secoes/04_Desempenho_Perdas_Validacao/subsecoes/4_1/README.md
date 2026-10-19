@@ -43,7 +43,7 @@ $$\Delta E_j=E_j-E_{j+1},\qquad \sum_j\Delta E_j=E_1-E_{\mathrm{final}}.$$
 
 ## Ilustrações de inserção exclusiva
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |

@@ -124,6 +124,10 @@ protected=['src/projeto_fv.py','config/projeto.json','config/modulo_cec.json',
            'outputs/avaliacao','bibliografia/outputs',
            'notebooks/originais_executados','bibliografia/originais_executados']
 changed=subprocess.check_output(['git','-C',str(ROOT),'diff',rules['base_commit'],'--name-only','--',*protected],text=True).splitlines()
+import sys
+sys.path.insert(0,str(ROOT/'scripts'))
+from integridade_documental import unregistered_changes
+changed=unregistered_changes(changed)
 assert not changed,changed
 
 nb=nbformat.read(ROOT/'notebooks/01_Projeto_FV_Quatro_Secoes.ipynb',as_version=4)

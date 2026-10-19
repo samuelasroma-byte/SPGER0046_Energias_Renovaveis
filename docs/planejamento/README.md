@@ -19,4 +19,4 @@ As transcrições são registros de consulta em 18/10/2026. A proposta DOCX é a
 | 26/11 a 01/12 | Revisão cruzada e correções. |
 | 01/12 | Capítulo e slides finais. |
 
-A presença desta tabela não atesta envio ou cumprimento das entregas.
+O acompanhamento das entregas é feito pela equipe.

@@ -33,6 +33,7 @@ jobs:
           python tests/verificar_acesso_equacoes.py
           python tests/verificar_referencias_pvdaq.py
           python tests/verificar_empacotamento.py
+          python tests/verificar_redacao_documental.py
       - name: Gerar e reabrir o ZIP com manifesto SHA-256
         run: python scripts/empacotar_entrega.py --ref "$GITHUB_SHA" --output "$RUNNER_TEMP/entrega"
       - name: Publicar a entrega por revisão

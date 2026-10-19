@@ -36,13 +36,13 @@ $$P_{\mathrm{AC}}=\min[\eta(P_{\mathrm{DC}})P_{\mathrm{DC}},P_{\mathrm{AC,max}}]
 | A034 | [Abrir Handbook of Photovoltaic Science and Engineering](https://drive.google.com/file/d/1gHLYXkymfLiRuyNfYDDRuJ0KsKJByVdh/view?usp=drivesdk) | 1ª edição. Apoio alternativo a B20; não satisfaz a edição de 2011 indicada. |
 | A067 | [Abrir PVWatts Version 5 Manual — NREL/TP-6A20-62641](https://drive.google.com/file/d/1ATm6277jw9kBI7Tl6FOruDMQvbzBCXTY/view?usp=drivesdk) |  |
 | A068 | [Abrir TRIO-20.0/27.6-TL-US — Product Manual](https://drive.google.com/file/d/1wZ672wUUn4pjxEQO_L4469NZvf4RO2Eq/view?usp=drivesdk) |  |
-| A086 | [Abrir Performance model for grid-connected photovoltaic inverters](https://drive.google.com/file/d/1jB5u6-hVizTlQj0xKA0PKYAP1Oll6eOf/view?usp=drivesdk) | Relatório oficial completo, 47 páginas. Autoria corrigida conforme a capa: King, Gonzalez, Galbraith e Boyson. |
+| A086 | [Abrir Performance model for grid-connected photovoltaic inverters](https://drive.google.com/file/d/1jB5u6-hVizTlQj0xKA0PKYAP1Oll6eOf/view?usp=drivesdk) | Relatório oficial completo, 47 páginas. Autores: King, Gonzalez, Galbraith e Boyson. |
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
 ## Ilustrações de inserção exclusiva
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |

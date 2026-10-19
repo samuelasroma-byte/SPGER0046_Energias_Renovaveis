@@ -1,6 +1,6 @@
 # Roteiro da seção 4
 
-Responsáveis: Júlia Ribeiro e Lucas Simão. Texto a desenvolver pela equipe no documento oficial escolhido.
+Responsáveis: Júlia Ribeiro e Lucas Simão. Redação da seção neste arquivo, com revisão pela equipe.
 
 ## 4.1 Balanço energético e cadeia de perdas
 
