@@ -5,7 +5,7 @@
       "path": "README.md",
       "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
       "source_sha256": "d8a2c159ce64c0e17888aa3fbaaa1ba22667ed5090a04ceba609600220df43a6",
-      "sha256": "7d73ba4454c03124257750c726f87853f518e82d8cfe52bb599eec2bcc35fe9e"
+      "sha256": "b16660ac428debb5968c47c278a3c69d928416e2f3e6a38bed30076f75f197cc"
     },
     {
       "path": "bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
@@ -83,7 +83,7 @@
       "path": "docs/ACESSO_E_COLABORACAO.md",
       "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
       "source_sha256": "631952c1f8d7b9590a94a8a0e21cf92a92317fb6416fc8af5d640a17b0dea432",
-      "sha256": "f251c68049c7304886d7b6a4ef2581bf58c2782ce1454f1776b45d3a0d3541f0"
+      "sha256": "2ef399b0eb6aa369ecec77ccbe5782ce520e5be8f31a85519a9ce65530f77472"
     },
     {
       "path": "docs/ARQUITETURA_TECNICA.md",
@@ -119,7 +119,7 @@
       "path": "docs/ENTREGA_ZIP.md",
       "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
       "source_sha256": "c1650d8d0a0bcfdbdf91047978c9e1166013e4f5f867b08351580aacad24361a",
-      "sha256": "ed26ceb8755c7b57fb6ac4a5342ffe2da2281174abb73b2a62e86615e4a09393"
+      "sha256": "22cf6958d6ce54b7fc33956520a41e4f614a5ade06f3ed4e8c65881980945844"
     },
     {
       "path": "docs/Metodos_e_Fontes_Conferidos.md",
@@ -137,7 +137,7 @@
       "path": "docs/README.md",
       "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
       "source_sha256": "76771113a12f425a9383bddc6815c861bc3a4cc3752e7ac236f7f7e8c255dba3",
-      "sha256": "1c3a3f670e1191b6c6db4fbb54554451db009d0415b5159a38a7e3bb77104e69"
+      "sha256": "11b9f28167e81820d51d639ba552069afd8599de4cade0a8ff88b01039ce7c00"
     },
     {
       "path": "docs/REPRODUTIBILIDADE.md",
@@ -156,6 +156,12 @@
       "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
       "source_sha256": "12fcf2fd6a10098e37a97e460f84921ccb44c006b5ecfe796d504eeb930273d5",
       "sha256": "cb898daddfde2d9449eb481f3d7ba22d27ffd7741c86992fd558524672f724e1"
+    },
+    {
+      "path": "docs/Rotina_da_Equipe.md",
+      "source_commit": "777c4778fd57ee6a2833faac9fc0d934630570f1",
+      "source_sha256": "0b6638d43672d751ca3202e90f4b15c332965be45c5fa0500735c094f22ab35d",
+      "sha256": "b136800f0d5c3f12c813f66b4dd2322d1bcee715b9dbdbf486e8a99b214e4543"
     },
     {
       "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx",
