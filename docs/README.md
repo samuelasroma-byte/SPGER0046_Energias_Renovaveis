@@ -1,5 +1,7 @@
 # Documentos do projeto
 
+O [inventário de equações](equacoes/README.md) reúne um Word geral e quatro Word por seção. São 37 relações do núcleo do notebook e 24 de apoio verificadas no código, com equações nativas editáveis, função, símbolos e local de inserção. A fórmula de Faiman tem um único ID de inserção em 3.2 e remissão em 2.1.
+
 Para redigir, usar os quatro documentos tabulares abaixo e os índices de ilustrações de cada seção. Cada ID tem um único local de inserção conforme o [mapa editorial](Distribuicao_Editorial.md). O guia técnico resumido orienta o grupo sobre o estudo de caso comum. Os dez DOCX originais também estão disponíveis, preservados byte a byte.
 
 | Materiais editáveis para redação | Arquivo |

@@ -45,3 +45,7 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 [Tabelas e séries da seção](tabelas/README.md) · [Quadros da seção](quadros/README.md) · [Word exclusivo desta seção](tabelas/docx/Materiais_Tabulares_Secao_03.docx)
 
 [Mapa geral e regra de inserção única](../../docs/Distribuicao_Editorial.md)
+
+## Equações da seção
+
+[Quadro de equações com função origem e subseção de inserção](equacoes/README.md).

@@ -67,3 +67,9 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 [Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)
+
+## Inventário de equações
+
+[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_02.docx): 0 relações do núcleo e 3 de apoio nesta subseção. IDs: E2.01, E2.02, E2.03.
+
+Para o modelo térmico de Faiman, citar E3.03 em 3.2 sem repetir sua inserção.

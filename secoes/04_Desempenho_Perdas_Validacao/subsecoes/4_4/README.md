@@ -89,3 +89,7 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 [Dossiê técnico original — dados e equipamentos](../../../../docs/metodos/Dossie_Tecnico_por_Secao.docx) · [Métodos e fontes](../../../../docs/Metodos_e_Fontes_Conferidos.md) · [Notebook fotovoltaico](../../../../notebooks/01_Projeto_FV_Quatro_Secoes.ipynb) · [Notebook bibliográfico](../../../../bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb) · [Todos os documentos Word](../../../../docs/README.md)
 
 [Dados preparados e máscaras](../../../../data/processed/README.md) · [Quatro CSVs originais completos](../../../../data/raw/README.md) · [Módulos, inversores e 125 canais](../../../../data/equipamentos/README.md)
+
+## Inventário de equações
+
+[Quadro de equações da seção](../../equacoes/Quadro_Equacoes_Secao_04.docx): 4 relações do núcleo e 6 de apoio nesta subseção. IDs: E4.10, E4.11, E4.12, E4.13, E4.14, E4.15, E4.16, E4.17, E4.18, E4.19.
