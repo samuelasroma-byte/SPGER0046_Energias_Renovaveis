@@ -1,8 +1,8 @@
 # SPGER0046 — Energias Renováveis | PPGER/UFPB
 
-**[Baixar o ZIP completo da entrega mais recente](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest/download/SPGER0046_Projeto_Completo.zip)** · [Versões e verificação](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest) · [ZIP automático da main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip)
+**[Baixar o projeto em ZIP](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest/download/SPGER0046_Projeto_Completo.zip)** · [Arquivos da entrega](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/releases/latest) · [Download alternativo](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip)
 
-Estudo de caso PVDAQ 2107, com dados, modelos, resultados, bibliografia e materiais das quatro seções. O ZIP reúne os arquivos do projeto e o manifesto de integridade. [Como identificar a versão e conferir o ZIP](docs/ENTREGA_ZIP.md).
+Estudo de caso PVDAQ 2107, com dados, modelos, resultados, bibliografia e materiais das quatro seções. O ZIP reúne os arquivos do projeto e o manifesto de integridade. [Conteúdo e verificação do ZIP](docs/ENTREGA_ZIP.md).
 
 ## Proposta oficial do capítulo
 
