@@ -1,11 +1,12 @@
-# Resultados do projeto
+# Resultados científicos
 
-As saídas numéricas de referência foram recalculadas a partir dos dados originais, sem consulta externa no teste científico. Uma nova execução atualiza os produtos locais; mudanças de resultados precisam ser revisadas antes de entrar no GitHub.
+| Coleção | Acesso |
+| --- | --- |
+| Gráficos, esquemas e fluxograma | [30 ilustrações e 120 arquivos finais](../figuras/README.md) |
+| Tabelas CSV e Word | [Abrir tabelas](tabelas/README.md) |
+| Quadros Word | [Baixar quadros](quadros/docx/Quadros_do_Projeto.docx) |
+| Relatórios originais | [Baixar relatório HTML completo](relatorios/originais/Relatorio_do_Projeto.html) |
+| Dossiê técnico | [Baixar dossiê](../docs/metodos/Dossie_Tecnico_por_Secao.docx) |
+| Série modelada | [Potências de 15 minutos](series/potencias_modeladas_15min.csv) |
 
-- [Séries modeladas](series/README.md).
-- [Validação e indicadores](avaliacao/README.md).
-- [Tabelas numéricas](tabelas/README.md).
-- [Figuras e prévias](figuras/README.md).
-- [Registro da execução](logs/ultima_execucao.json).
-
-Os resultados do capítulo se referem a abril a junho de 2024. As versões completas em alta resolução e DOCX permanecem no [Drive](https://drive.google.com/drive/folders/1lm7fnyTPh0xs9odRuef1_hUK8Q4N_h2v).
+Resultados físicos, ajustes empíricos, medições e cenários permanecem identificados nos documentos originais.

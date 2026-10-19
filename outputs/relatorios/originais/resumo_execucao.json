@@ -1,0 +1,56 @@
+{
+  "project_version": "1.2.2",
+  "primary_workflow": "measured POA + local air temperature/wind -> physical model -> measured AC comparison",
+  "NASA_used": false,
+  "audit": {
+    "expected_daylight_15m": 4421,
+    "available_daylight_15m": 4401,
+    "paired_daylight_after_bounds": 4401,
+    "quarter_days": 91,
+    "meter_records": 8736,
+    "NASA_used": false
+  },
+  "full_quarter": {
+    "E_AC_meter_full_quarter_kWh": 454284.959928,
+    "meter_expected_15min": 8736,
+    "meter_available_15min": 8736,
+    "Yf_meter_full_quarter_kWh_kWp": 508.71776027771557
+  },
+  "primary_validation": {
+    "comparison": "A: POA e meteorologia locais → medidor AC [kW]",
+    "n": 4401,
+    "MBE": 31.7680037445102,
+    "MAE": 50.30085312432071,
+    "RMSE": 61.586226719199935,
+    "nMBE_percent": 7.732870112649224,
+    "nRMSE_percent": 14.991130565767405,
+    "r": 0.9774168043098248,
+    "R2": 0.919979751178081,
+    "normalization": "mean of paired observations"
+  },
+  "empirical_scale_fitted_only_april": 0.9266727368247426,
+  "reverse_POA": {
+    "candidate_hours": 1037,
+    "converged_hours": 1037,
+    "excluded_or_failed_hours": 1147,
+    "total_quarter_hours": 2184,
+    "method": "Driesse 2024 + Erbs-Driesse + Perez-Driesse",
+    "independent_component_validation": false,
+    "max_numerical_closure_residual_Wm2": 0.011799389028396945
+  },
+  "validation_scope": "Preliminary electrical model–observation evaluation; no independent validation of GHI/DNI/DHI, cell temperature or facade",
+  "meter_vs_inverters": {
+    "comparison": "Soma dos inversores → medidor [kW]",
+    "n": 4401,
+    "MBE": 8.831495255926686,
+    "MAE": 13.88523180731652,
+    "RMSE": 23.805003516360845,
+    "nMBE_percent": 2.149735509470295,
+    "nRMSE_percent": 5.7945410011791285,
+    "r": 0.9951726256509469,
+    "R2": 0.9880444597879993,
+    "normalization": "mean of paired observations"
+  },
+  "python": "3.12.14",
+  "pvlib": "0.16.1"
+}

@@ -1,0 +1,126 @@
+{
+  "fonte": "docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+  "secoes": [
+    {
+      "id": 1,
+      "title": "Fundamentos e caracterização do recurso solar",
+      "owners": "Samuel",
+      "question": "Como o recurso solar disponível para a conversão fotovoltaica é caracterizado, quantificado e representado?"
+    },
+    {
+      "id": 2,
+      "title": "Condições ambientais e de entorno da conversão fotovoltaica",
+      "owners": "Vannessa e Thais",
+      "question": "Quais condições ambientais e de instalação modificam a irradiância incidente no arranjo fotovoltaico e a temperatura de operação dos módulos?"
+    },
+    {
+      "id": 3,
+      "title": "Modelagem da conversão fotovoltaica",
+      "owners": "Gabriela e Giulia",
+      "question": "Como essas entradas são incorporadas aos modelos para estimar a potência e a energia produzidas pelo sistema fotovoltaico?"
+    },
+    {
+      "id": 4,
+      "title": "Avaliação de desempenho, perdas e validação da modelagem",
+      "owners": "Júlia Ribeiro e Lucas Simão",
+      "question": "Como o desempenho de um sistema fotovoltaico é quantificado, como suas perdas são decompostas e quão bem o modelo reproduz o comportamento observado?"
+    }
+  ],
+  "subsecoes": [
+    {
+      "id": "1.1",
+      "title": "Geometria solar e irradiância extraterrestre",
+      "objective": "Posição Sol–Terra, ângulos solares e referência física da radiação."
+    },
+    {
+      "id": "1.2",
+      "title": "Grandezas radiométricas e componentes da radiação",
+      "objective": "Irradiância, irradiação, irradiância global horizontal (GHI), irradiância direta normal (DNI) e irradiância difusa horizontal (DHI)."
+    },
+    {
+      "id": "1.3",
+      "title": "Modulação atmosférica e variabilidade espaço-temporal",
+      "objective": "Nuvens, aerossóis, vapor d’água e variações horárias, sazonais e espaciais."
+    },
+    {
+      "id": "1.4",
+      "title": "Medição e estimativa do recurso solar",
+      "objective": "Medições de superfície, estimativas por satélite, reanálises e atlas solarimétricos; resolução, representatividade e incerteza."
+    },
+    {
+      "id": "2.1",
+      "title": "Condições térmicas",
+      "objective": "Temperatura ambiente, vento, trocas de calor e temperatura operacional do módulo."
+    },
+    {
+      "id": "2.2",
+      "title": "Albedo e ambiente radiativo da superfície",
+      "objective": "Refletância do solo e contribuição da irradiância refletida, inclusive em aplicações bifaciais."
+    },
+    {
+      "id": "2.3",
+      "title": "Sombreamento, sujidade e obstruções locais",
+      "objective": "Fatores que reduzem a irradiância efetivamente recebida."
+    },
+    {
+      "id": "2.4",
+      "title": "Geometria de instalação e exposição do arranjo fotovoltaico",
+      "objective": "Inclinação, azimute, espaçamento entre fileiras e exposição frontal e, quando aplicável, traseira dos módulos."
+    },
+    {
+      "id": "3.1",
+      "title": "Transposição para o plano do arranjo",
+      "objective": "Conversão de GHI, DNI e DHI em irradiância no plano do arranjo (plane of array — POA)."
+    },
+    {
+      "id": "3.2",
+      "title": "Modelagem da temperatura operacional",
+      "objective": "Estimativa da temperatura da célula ou do módulo a partir da irradiância, temperatura ambiente e vento."
+    },
+    {
+      "id": "3.3",
+      "title": "Modelagem elétrica do módulo fotovoltaico",
+      "objective": "Curvas corrente–tensão (I–V) e potência–tensão (P–V), ponto de máxima potência (maximum power point — MPP) e resposta do módulo à irradiância e à temperatura."
+    },
+    {
+      "id": "3.4",
+      "title": "Modelagem do arranjo fotovoltaico em corrente contínua (CC)",
+      "objective": "Associação dos módulos em série e em paralelo e determinação da tensão, da corrente e da potência do arranjo."
+    },
+    {
+      "id": "3.5",
+      "title": "Conversão de CC para corrente alternada (CA) e modelagem do inversor",
+      "objective": "Eficiência, faixa de operação, relação de potência CC/CA, limitação de potência e clipping."
+    },
+    {
+      "id": "3.6",
+      "title": "Integração temporal e estimativa de energia",
+      "objective": "Integração da potência ao longo do tempo para estimar energia horária, diária, mensal ou anual."
+    },
+    {
+      "id": "4.1",
+      "title": "Balanço energético e cadeia de perdas",
+      "objective": "Perdas ópticas, térmicas e elétricas em CC, no inversor e em CA; indisponibilidade operacional em sistemas monitorados. (Julia)"
+    },
+    {
+      "id": "4.2",
+      "title": "Produtividades de referência, do arranjo e final",
+      "objective": "Produtividade de referência (Yr), produtividade do arranjo (Ya) e produtividade final (Yf); produtividade específica em quilowatt-hora por quilowatt-pico (kWh/kWp). (Lucas)"
+    },
+    {
+      "id": "4.3",
+      "title": "Razão de desempenho (Performance Ratio",
+      "objective": "PR) e decomposição normalizada das perdas — Perdas de captura (Lc) e perdas de sistema (Ls). (Lucas)"
+    },
+    {
+      "id": "4.4",
+      "title": "Validação de modelos de geração fotovoltaica",
+      "objective": "Comparação modelo–observação por erro médio de viés (MBE), erro absoluto médio (MAE), raiz do erro quadrático médio (RMSE), raiz do erro quadrático médio normalizada (nRMSE), coeficiente de correlação de Pearson (r) e coeficiente de determinação (R²). (Lucas)"
+    },
+    {
+      "id": "4.5",
+      "title": "Avaliação de desempenho de sistemas fotovoltaicos integrados à edificação (BIPV)",
+      "objective": "Efeito da orientação vertical e da integração arquitetônica sobre produtividade e PR; comparação com sistemas convencionais; módulos semitransparentes como elementos de envoltória; partição da energia solar absorvida entre geração elétrica e ganho de calor; coeficiente de ganho de calor solar (SHGC) e transmissão luminosa como indicadores complementares de desempenho. (Julia)"
+    }
+  ]
+}

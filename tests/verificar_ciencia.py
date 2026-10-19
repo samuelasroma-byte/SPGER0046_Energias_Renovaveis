@@ -1,6 +1,6 @@
 """Focused physical and numerical verification, without network access."""
 from pathlib import Path
-import sys,json
+import sys,json,tempfile,shutil
 import numpy as np
 import pandas as pd
 import pvlib
@@ -27,8 +27,13 @@ q=f.metrics(pd.Series([1.,2.,3.]),pd.Series([3.,2.,1.]),'known counterexample')
 assert np.isclose(q['r'],-1) and np.isclose(q['R2'],-3)
 
 from unittest.mock import patch
-with patch.object(f.urllib.request,'urlopen',side_effect=AssertionError('Network forbidden in local workflow')):
-    c=f.complete_pipeline(ROOT,make_plots=False,include_nasa=False)
+with tempfile.TemporaryDirectory(prefix='fv_ciencia_') as tmp:
+    disposable=Path(tmp)
+    shutil.copytree(ROOT/'config',disposable/'config')
+    (disposable/'data').mkdir()
+    (disposable/'data/raw').symlink_to(ROOT/'data/raw',target_is_directory=True)
+    with patch.object(f.urllib.request,'urlopen',side_effect=AssertionError('Network forbidden in local workflow')):
+        c=f.complete_pipeline(disposable,make_plots=False,include_nasa=False)
 assert c['audit']['available_daylight_15m']==4401
 assert c['audit']['NASA_used'] is False and 'nasa' not in c
 assert len(c['reverse_diagnostics'])==2184

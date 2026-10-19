@@ -1,26 +1,7 @@
-# Raw downloads and large locally generated products
+# Pacotes e produtos temporários
 data/raw/*.zip
-data/raw/*.csv
 data/raw/*.download
-data/raw/NASA_POWER*.json
-/outputs/*
-!/outputs/README.md
-!/outputs/avaliacao/
-!/outputs/series/
-!/outputs/tabelas/
-!/outputs/logs/
-!/outputs/figuras/
-/outputs/tabelas/csv/series_15min_local_e_modelo.csv
-/outputs/tabelas/csv/arranjo_equivalente_diurno.csv
-/outputs/figuras/claro/
-/outputs/figuras/escuro/
-/outputs/figuras/docx/
-bibliografia/outputs/*.docx
-*.pdf
-!outputs/figuras/selecionadas/*.pdf
-*.docx
-*.pptx
-*.zip
+data/raw/.*
 .ipynb_checkpoints/
 __pycache__/
 *.pyc

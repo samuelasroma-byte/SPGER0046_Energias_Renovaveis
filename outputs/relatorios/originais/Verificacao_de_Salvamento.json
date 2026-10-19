@@ -1,0 +1,1950 @@
+{
+  "receipts": [
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/verificacao_refinamento.json",
+      "folder_key": "relatorios",
+      "name": "verificacao_refinamento.json",
+      "bytes": 363,
+      "id": "1ShyJYXbl0AKDQ5IIyzyE0E7iM8uiBegI",
+      "url": "https://drive.google.com/file/d/1ShyJYXbl0AKDQ5IIyzyE0E7iM8uiBegI/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/LEIA_ME_RESULTADOS.txt",
+      "folder_key": "",
+      "name": "LEIA_ME_RESULTADOS.txt",
+      "bytes": 443,
+      "id": "1eXRLD0LJUqb7S06K7ihoLq1fgQ6c9oJW",
+      "url": "https://drive.google.com/file/d/1eXRLD0LJUqb7S06K7ihoLq1fgQ6c9oJW/view?usp=drivesdk",
+      "parent_id": "1lm7fnyTPh0xs9odRuef1_hUK8Q4N_h2v",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/pdf/F01_plano_angulos.pdf",
+      "folder_key": "figuras/claro/pdf",
+      "name": "F01_plano_angulos.pdf",
+      "bytes": 12077,
+      "id": "1KrZBPRo0zkWvJHv6YqTYC4zlUVuwNmnI",
+      "url": "https://drive.google.com/file/d/1KrZBPRo0zkWvJHv6YqTYC4zlUVuwNmnI/view?usp=drivesdk",
+      "parent_id": "1fOL5ZfgajQwxIo4o0R61MtGo9btBLpP4",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/pdf/F02_componentes_POA.pdf",
+      "folder_key": "figuras/claro/pdf",
+      "name": "F02_componentes_POA.pdf",
+      "bytes": 10016,
+      "id": "1DcLwcy25sIedQ0h3bh2nd-elIpB61cbe",
+      "url": "https://drive.google.com/file/d/1DcLwcy25sIedQ0h3bh2nd-elIpB61cbe/view?usp=drivesdk",
+      "parent_id": "1fOL5ZfgajQwxIo4o0R61MtGo9btBLpP4",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/pdf/F03_arranjo_eletrico.pdf",
+      "folder_key": "figuras/claro/pdf",
+      "name": "F03_arranjo_eletrico.pdf",
+      "bytes": 12697,
+      "id": "1d1cLiLFqE3JTYTOVITSoBDM_7PT9m1l6",
+      "url": "https://drive.google.com/file/d/1d1cLiLFqE3JTYTOVITSoBDM_7PT9m1l6/view?usp=drivesdk",
+      "parent_id": "1fOL5ZfgajQwxIo4o0R61MtGo9btBLpP4",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/pdf/F04_geometrias_BIPV.pdf",
+      "folder_key": "figuras/claro/pdf",
+      "name": "F04_geometrias_BIPV.pdf",
+      "bytes": 10553,
+      "id": "1cmqyJEfeub05fwPmTxaROd8qNgT21cB-",
+      "url": "https://drive.google.com/file/d/1cmqyJEfeub05fwPmTxaROd8qNgT21cB-/view?usp=drivesdk",
+      "parent_id": "1fOL5ZfgajQwxIo4o0R61MtGo9btBLpP4",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/png/F01_plano_angulos.png",
+      "folder_key": "figuras/claro/png",
+      "name": "F01_plano_angulos.png",
+      "bytes": 316265,
+      "id": "1NoKdXrsq-PnwCjbntjM9WyyO0__X1L3b",
+      "url": "https://drive.google.com/file/d/1NoKdXrsq-PnwCjbntjM9WyyO0__X1L3b/view?usp=drivesdk",
+      "parent_id": "1M2ZbAUMKsKT58WQtRddGs5M01XchBvW3",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/png/F02_componentes_POA.png",
+      "folder_key": "figuras/claro/png",
+      "name": "F02_componentes_POA.png",
+      "bytes": 271621,
+      "id": "15zphw30Ka9N1rRcerL9U1xswV8tQwTps",
+      "url": "https://drive.google.com/file/d/15zphw30Ka9N1rRcerL9U1xswV8tQwTps/view?usp=drivesdk",
+      "parent_id": "1M2ZbAUMKsKT58WQtRddGs5M01XchBvW3",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/png/F03_arranjo_eletrico.png",
+      "folder_key": "figuras/claro/png",
+      "name": "F03_arranjo_eletrico.png",
+      "bytes": 295443,
+      "id": "1sj5lPjtodU31yZFlK24FuxughCfTS6p7",
+      "url": "https://drive.google.com/file/d/1sj5lPjtodU31yZFlK24FuxughCfTS6p7/view?usp=drivesdk",
+      "parent_id": "1M2ZbAUMKsKT58WQtRddGs5M01XchBvW3",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/claro/png/F04_geometrias_BIPV.png",
+      "folder_key": "figuras/claro/png",
+      "name": "F04_geometrias_BIPV.png",
+      "bytes": 191603,
+      "id": "1D9gbHO6um-855S4C0FvJs3sZ7x4GtiB-",
+      "url": "https://drive.google.com/file/d/1D9gbHO6um-855S4C0FvJs3sZ7x4GtiB-/view?usp=drivesdk",
+      "parent_id": "1M2ZbAUMKsKT58WQtRddGs5M01XchBvW3",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/pdf/F01_plano_angulos.pdf",
+      "folder_key": "figuras/escuro/pdf",
+      "name": "F01_plano_angulos.pdf",
+      "bytes": 12129,
+      "id": "16actMAzZLTG5k643AmY6xydmyGpDTucS",
+      "url": "https://drive.google.com/file/d/16actMAzZLTG5k643AmY6xydmyGpDTucS/view?usp=drivesdk",
+      "parent_id": "1MueGTRKP3L8rKHmxu2588BwQgzYBAEeR",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/pdf/F02_componentes_POA.pdf",
+      "folder_key": "figuras/escuro/pdf",
+      "name": "F02_componentes_POA.pdf",
+      "bytes": 10048,
+      "id": "1LPN181nSqmRV7f6r8mvct-g4c8bOzay-",
+      "url": "https://drive.google.com/file/d/1LPN181nSqmRV7f6r8mvct-g4c8bOzay-/view?usp=drivesdk",
+      "parent_id": "1MueGTRKP3L8rKHmxu2588BwQgzYBAEeR",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/pdf/F03_arranjo_eletrico.pdf",
+      "folder_key": "figuras/escuro/pdf",
+      "name": "F03_arranjo_eletrico.pdf",
+      "bytes": 12735,
+      "id": "1v_a2HFyzgxRilvvZGmyg9g1a7jGzInpN",
+      "url": "https://drive.google.com/file/d/1v_a2HFyzgxRilvvZGmyg9g1a7jGzInpN/view?usp=drivesdk",
+      "parent_id": "1MueGTRKP3L8rKHmxu2588BwQgzYBAEeR",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/pdf/F04_geometrias_BIPV.pdf",
+      "folder_key": "figuras/escuro/pdf",
+      "name": "F04_geometrias_BIPV.pdf",
+      "bytes": 10585,
+      "id": "1NtQDZ8MmaQrQxIHpD6_CQcruNVNL1X5-",
+      "url": "https://drive.google.com/file/d/1NtQDZ8MmaQrQxIHpD6_CQcruNVNL1X5-/view?usp=drivesdk",
+      "parent_id": "1MueGTRKP3L8rKHmxu2588BwQgzYBAEeR",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/png/F01_plano_angulos.png",
+      "folder_key": "figuras/escuro/png",
+      "name": "F01_plano_angulos.png",
+      "bytes": 317933,
+      "id": "1SHMzR4clSYfnvGLPs0U2mBYYgj1oq8FB",
+      "url": "https://drive.google.com/file/d/1SHMzR4clSYfnvGLPs0U2mBYYgj1oq8FB/view?usp=drivesdk",
+      "parent_id": "1nq2gfFDBUUqIO9mnNy-AmwXHLmBia3JG",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/png/F02_componentes_POA.png",
+      "folder_key": "figuras/escuro/png",
+      "name": "F02_componentes_POA.png",
+      "bytes": 273291,
+      "id": "1DgxilFhumX85jQNPx4FA2A17DUMc5ord",
+      "url": "https://drive.google.com/file/d/1DgxilFhumX85jQNPx4FA2A17DUMc5ord/view?usp=drivesdk",
+      "parent_id": "1nq2gfFDBUUqIO9mnNy-AmwXHLmBia3JG",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/png/F03_arranjo_eletrico.png",
+      "folder_key": "figuras/escuro/png",
+      "name": "F03_arranjo_eletrico.png",
+      "bytes": 301890,
+      "id": "1sjzEa-CCRQDlr22XcmYJaf45zlbx3IQm",
+      "url": "https://drive.google.com/file/d/1sjzEa-CCRQDlr22XcmYJaf45zlbx3IQm/view?usp=drivesdk",
+      "parent_id": "1nq2gfFDBUUqIO9mnNy-AmwXHLmBia3JG",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/escuro/png/F04_geometrias_BIPV.png",
+      "folder_key": "figuras/escuro/png",
+      "name": "F04_geometrias_BIPV.png",
+      "bytes": 192866,
+      "id": "1TES_Rsy4r5HHPFq0_6BT8Ts4AULQrY0u",
+      "url": "https://drive.google.com/file/d/1TES_Rsy4r5HHPFq0_6BT8Ts4AULQrY0u/view?usp=drivesdk",
+      "parent_id": "1nq2gfFDBUUqIO9mnNy-AmwXHLmBia3JG",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/fluxogramas/claro/pdf/FL01_fluxo_projeto.pdf",
+      "folder_key": "fluxogramas/claro/pdf",
+      "name": "FL01_fluxo_projeto.pdf",
+      "bytes": 14883,
+      "id": "1tCRuEFLFgeOZ6EH_yOLoVGL-iAWsukW-",
+      "url": "https://drive.google.com/file/d/1tCRuEFLFgeOZ6EH_yOLoVGL-iAWsukW-/view?usp=drivesdk",
+      "parent_id": "1OjtzJVuHyRPesOg9uVZ2g_pTeuP78icU",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/fluxogramas/claro/png/FL01_fluxo_projeto.png",
+      "folder_key": "fluxogramas/claro/png",
+      "name": "FL01_fluxo_projeto.png",
+      "bytes": 460598,
+      "id": "1CTCbz-VtzYjdzyxqHMccyKhQaRynqNTf",
+      "url": "https://drive.google.com/file/d/1CTCbz-VtzYjdzyxqHMccyKhQaRynqNTf/view?usp=drivesdk",
+      "parent_id": "19tat2opq9UDNixnYaZZ12z4ozNhz7qSB",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/fluxogramas/escuro/pdf/FL01_fluxo_projeto.pdf",
+      "folder_key": "fluxogramas/escuro/pdf",
+      "name": "FL01_fluxo_projeto.pdf",
+      "bytes": 14928,
+      "id": "1yvjLdk34KL3qMV7Iy_vP-GC8yXHLvPNz",
+      "url": "https://drive.google.com/file/d/1yvjLdk34KL3qMV7Iy_vP-GC8yXHLvPNz/view?usp=drivesdk",
+      "parent_id": "1_Fk_b9qt9NEqBQ3NxfA5xXY0FtWbcSn0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/fluxogramas/escuro/png/FL01_fluxo_projeto.png",
+      "folder_key": "fluxogramas/escuro/png",
+      "name": "FL01_fluxo_projeto.png",
+      "bytes": 471668,
+      "id": "1nt7Bc7JWGDw_284Sliw7CPFswGNIdac1",
+      "url": "https://drive.google.com/file/d/1nt7Bc7JWGDw_284Sliw7CPFswGNIdac1/view?usp=drivesdk",
+      "parent_id": "1btm8V2yLJDYEMpP7T53B6fNYCoa9whmE",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G01_recurso_geometria.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G01_recurso_geometria.pdf",
+      "bytes": 15299,
+      "id": "1LBNoluUheonNqLH8yMOIEwjaryu6y3O-",
+      "url": "https://drive.google.com/file/d/1LBNoluUheonNqLH8yMOIEwjaryu6y3O-/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G02_variabilidade_recurso.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G02_variabilidade_recurso.pdf",
+      "bytes": 12462,
+      "id": "1sICvJ-NJ6kTIHMMR1ALBBunkIeH2QoNk",
+      "url": "https://drive.google.com/file/d/1sICvJ-NJ6kTIHMMR1ALBBunkIeH2QoNk/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G03_condicoes_ambientais.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G03_condicoes_ambientais.pdf",
+      "bytes": 12506,
+      "id": "1wnKwdvA_QO2DaATWmWQzcJBBQWlJAsXZ",
+      "url": "https://drive.google.com/file/d/1wnKwdvA_QO2DaATWmWQzcJBBQWlJAsXZ/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G04_temperatura_estimada.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G04_temperatura_estimada.pdf",
+      "bytes": 99855,
+      "id": "1bHEQWcaY3V194B20Wc6aO8k8P9noGQlG",
+      "url": "https://drive.google.com/file/d/1bHEQWcaY3V194B20Wc6aO8k8P9noGQlG/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G05_curvas_irradiancia.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G05_curvas_irradiancia.pdf",
+      "bytes": 15445,
+      "id": "1YFMnAt6cO-hQmuVcqJPqbnO1ryurHgtL",
+      "url": "https://drive.google.com/file/d/1YFMnAt6cO-hQmuVcqJPqbnO1ryurHgtL/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G06_curvas_temperatura.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G06_curvas_temperatura.pdf",
+      "bytes": 15419,
+      "id": "1N7InNKDxp9FY4U_n8IRGFmDNz2EL0EWY",
+      "url": "https://drive.google.com/file/d/1N7InNKDxp9FY4U_n8IRGFmDNz2EL0EWY/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G07_inversor.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G07_inversor.pdf",
+      "bytes": 13609,
+      "id": "1HeLDXxSlgNK6cxRHduNHDVwBs0287San",
+      "url": "https://drive.google.com/file/d/1HeLDXxSlgNK6cxRHduNHDVwBs0287San/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G08_series_potencia.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G08_series_potencia.pdf",
+      "bytes": 13676,
+      "id": "1Jm1eVAXxZC5bYfFNOUR44Hhpa0n0tqtV",
+      "url": "https://drive.google.com/file/d/1Jm1eVAXxZC5bYfFNOUR44Hhpa0n0tqtV/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G09_energia_diaria.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G09_energia_diaria.pdf",
+      "bytes": 12680,
+      "id": "1kkzi9BiBq5TOe63BuzR3yBBCAJ_RAmGI",
+      "url": "https://drive.google.com/file/d/1kkzi9BiBq5TOe63BuzR3yBBCAJ_RAmGI/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G10_energia_mensal.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G10_energia_mensal.pdf",
+      "bytes": 10792,
+      "id": "1sgKcv0C8nhvTRtv85HLrfH0c8CqaS7wQ",
+      "url": "https://drive.google.com/file/d/1sgKcv0C8nhvTRtv85HLrfH0c8CqaS7wQ/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G11_cadeia_energetica.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G11_cadeia_energetica.pdf",
+      "bytes": 14043,
+      "id": "1YRpZ_yR3YpUEUF6sGFCOZQmC2ErZanTe",
+      "url": "https://drive.google.com/file/d/1YRpZ_yR3YpUEUF6sGFCOZQmC2ErZanTe/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G12_produtividades_PR.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G12_produtividades_PR.pdf",
+      "bytes": 12191,
+      "id": "1pbl5iPIQI5RYdzinbKhNPzKPRmuff9aT",
+      "url": "https://drive.google.com/file/d/1pbl5iPIQI5RYdzinbKhNPzKPRmuff9aT/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G13_validacao.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G13_validacao.pdf",
+      "bytes": 58097,
+      "id": "1-G1dNIdveWSmhtNblfMshKl3Owwxv9l-",
+      "url": "https://drive.google.com/file/d/1-G1dNIdveWSmhtNblfMshKl3Owwxv9l-/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G14_residuos_temporais.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G14_residuos_temporais.pdf",
+      "bytes": 43731,
+      "id": "1svoMEjv7IO-GXcszJMqNFUTfLpFX5KFZ",
+      "url": "https://drive.google.com/file/d/1svoMEjv7IO-GXcszJMqNFUTfLpFX5KFZ/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G15_residuos_potencia.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G15_residuos_potencia.pdf",
+      "bytes": 56488,
+      "id": "1mbbrufPAZBGq722SsTj7lXkDMLD32zH6",
+      "url": "https://drive.google.com/file/d/1mbbrufPAZBGq722SsTj7lXkDMLD32zH6/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G16_distribuicao_residuos.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G16_distribuicao_residuos.pdf",
+      "bytes": 12659,
+      "id": "1r9RC0QCToOocW3P2YmG3A9fL1yrhPPMt",
+      "url": "https://drive.google.com/file/d/1r9RC0QCToOocW3P2YmG3A9fL1yrhPPMt/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G17_metricas_mensais.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G17_metricas_mensais.pdf",
+      "bytes": 12794,
+      "id": "1Uh_c6D-QjBMnj8vVPyI6n51f2X_lQbjD",
+      "url": "https://drive.google.com/file/d/1Uh_c6D-QjBMnj8vVPyI6n51f2X_lQbjD/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G18_vies_horario.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G18_vies_horario.pdf",
+      "bytes": 12820,
+      "id": "17L8wKwAQKHTDFaGe-2-R8VdXa6EvBTL9",
+      "url": "https://drive.google.com/file/d/17L8wKwAQKHTDFaGe-2-R8VdXa6EvBTL9/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G19_consistencia_medicoes.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G19_consistencia_medicoes.pdf",
+      "bytes": 58972,
+      "id": "164CYKfkWlv5DjAav1BMEtoHZVafbC5Nd",
+      "url": "https://drive.google.com/file/d/164CYKfkWlv5DjAav1BMEtoHZVafbC5Nd/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G20_sujidade_ventilacao.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G20_sujidade_ventilacao.pdf",
+      "bytes": 13463,
+      "id": "1ffmMsAYAQi7lLen0wvNEaFtwrewmxATL",
+      "url": "https://drive.google.com/file/d/1ffmMsAYAQi7lLen0wvNEaFtwrewmxATL/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G21_HSP_POA_pareada.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G21_HSP_POA_pareada.pdf",
+      "bytes": 11359,
+      "id": "1eSIiGWQi3M_WzgvO9QXfUBzeDfuY9YK_",
+      "url": "https://drive.google.com/file/d/1eSIiGWQi3M_WzgvO9QXfUBzeDfuY9YK_/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G22_albedo.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G22_albedo.pdf",
+      "bytes": 11552,
+      "id": "1RzK8iyOS9P2GumYcTcyUO0P9JJ73aJbQ",
+      "url": "https://drive.google.com/file/d/1RzK8iyOS9P2GumYcTcyUO0P9JJ73aJbQ/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G23_componentes_estimadas.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G23_componentes_estimadas.pdf",
+      "bytes": 12936,
+      "id": "1uy-stMv_dB4F5508s-wL2da4UFpkWjt-",
+      "url": "https://drive.google.com/file/d/1uy-stMv_dB4F5508s-wL2da4UFpkWjt-/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G24_BIPV_orientacoes.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G24_BIPV_orientacoes.pdf",
+      "bytes": 12183,
+      "id": "1o8rpEio5YjYWeulKFb0IDsaI5PleOe2C",
+      "url": "https://drive.google.com/file/d/1o8rpEio5YjYWeulKFb0IDsaI5PleOe2C/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/pdf/G25_BIPV_balanco.pdf",
+      "folder_key": "graficos/claro/pdf",
+      "name": "G25_BIPV_balanco.pdf",
+      "bytes": 12302,
+      "id": "1RXA6tzSq3mePPCrUOVGGQyLzOEKoceKI",
+      "url": "https://drive.google.com/file/d/1RXA6tzSq3mePPCrUOVGGQyLzOEKoceKI/view?usp=drivesdk",
+      "parent_id": "1ItVshQZyk5W15sjeP3ytGCkSsyGg8dNw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G01_recurso_geometria.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G01_recurso_geometria.png",
+      "bytes": 465797,
+      "id": "1tvNgSiXtZZL3-HZ3M_BM5Ube3Vzt0ihq",
+      "url": "https://drive.google.com/file/d/1tvNgSiXtZZL3-HZ3M_BM5Ube3Vzt0ihq/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G02_variabilidade_recurso.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G02_variabilidade_recurso.png",
+      "bytes": 339823,
+      "id": "1ljF2_CSrdBOF8sXG7H82xsEC_Iv9EzFx",
+      "url": "https://drive.google.com/file/d/1ljF2_CSrdBOF8sXG7H82xsEC_Iv9EzFx/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G03_condicoes_ambientais.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G03_condicoes_ambientais.png",
+      "bytes": 252518,
+      "id": "1QRGYxTK2r3Ywg1vc6kJ8IKLuAqdeEwXA",
+      "url": "https://drive.google.com/file/d/1QRGYxTK2r3Ywg1vc6kJ8IKLuAqdeEwXA/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G04_temperatura_estimada.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G04_temperatura_estimada.png",
+      "bytes": 2016284,
+      "id": "1lgYLySnbdEVQz9DWuhzK2Js9eKlaCRjd",
+      "url": "https://drive.google.com/file/d/1lgYLySnbdEVQz9DWuhzK2Js9eKlaCRjd/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G05_curvas_irradiancia.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G05_curvas_irradiancia.png",
+      "bytes": 460123,
+      "id": "1ompgG2xPRsluDDqqVhaiwuSDEnmpJVgd",
+      "url": "https://drive.google.com/file/d/1ompgG2xPRsluDDqqVhaiwuSDEnmpJVgd/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G06_curvas_temperatura.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G06_curvas_temperatura.png",
+      "bytes": 472003,
+      "id": "1y2bSUQ-eyCVrr9wdzpLHtke1qy6Py6uK",
+      "url": "https://drive.google.com/file/d/1y2bSUQ-eyCVrr9wdzpLHtke1qy6Py6uK/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G07_inversor.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G07_inversor.png",
+      "bytes": 405687,
+      "id": "1wUQxyw5fqfthsB_dD1bSYEiIiyVLiZ3X",
+      "url": "https://drive.google.com/file/d/1wUQxyw5fqfthsB_dD1bSYEiIiyVLiZ3X/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G08_series_potencia.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G08_series_potencia.png",
+      "bytes": 581883,
+      "id": "1jw96tvQGUSBkJt_6mrJHScl1sNCQjFmv",
+      "url": "https://drive.google.com/file/d/1jw96tvQGUSBkJt_6mrJHScl1sNCQjFmv/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G09_energia_diaria.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G09_energia_diaria.png",
+      "bytes": 483489,
+      "id": "1Uzi48ZBPPb0gsIEI0-9VEOsBi1IwU4QZ",
+      "url": "https://drive.google.com/file/d/1Uzi48ZBPPb0gsIEI0-9VEOsBi1IwU4QZ/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G10_energia_mensal.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G10_energia_mensal.png",
+      "bytes": 167716,
+      "id": "1TV3Mo67CTPICgXlHOUL2w0vfnOvMQavi",
+      "url": "https://drive.google.com/file/d/1TV3Mo67CTPICgXlHOUL2w0vfnOvMQavi/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G11_cadeia_energetica.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G11_cadeia_energetica.png",
+      "bytes": 277014,
+      "id": "1iSCGVes6M_QcB7XJ6rLk_Nif_FB0iqDw",
+      "url": "https://drive.google.com/file/d/1iSCGVes6M_QcB7XJ6rLk_Nif_FB0iqDw/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G12_produtividades_PR.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G12_produtividades_PR.png",
+      "bytes": 274880,
+      "id": "1dNIRQKHvXuxdsN1OPDJiZYcuMOhkOQ71",
+      "url": "https://drive.google.com/file/d/1dNIRQKHvXuxdsN1OPDJiZYcuMOhkOQ71/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G13_validacao.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G13_validacao.png",
+      "bytes": 2268615,
+      "id": "1athiJOONrESlvB2U2ZU1D2EgBGxmNkCa",
+      "url": "https://drive.google.com/file/d/1athiJOONrESlvB2U2ZU1D2EgBGxmNkCa/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G14_residuos_temporais.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G14_residuos_temporais.png",
+      "bytes": 1504090,
+      "id": "11qqSGb8tfEJZaRZDf6sY8xGFaztvo5I_",
+      "url": "https://drive.google.com/file/d/11qqSGb8tfEJZaRZDf6sY8xGFaztvo5I_/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G15_residuos_potencia.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G15_residuos_potencia.png",
+      "bytes": 1703504,
+      "id": "1yOoRUomQSomG7W2E3djddY4N_xSqUSyR",
+      "url": "https://drive.google.com/file/d/1yOoRUomQSomG7W2E3djddY4N_xSqUSyR/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G16_distribuicao_residuos.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G16_distribuicao_residuos.png",
+      "bytes": 168355,
+      "id": "1I8DEwUnF2g86FGxk4SdtdyL1GFC_0KlF",
+      "url": "https://drive.google.com/file/d/1I8DEwUnF2g86FGxk4SdtdyL1GFC_0KlF/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G17_metricas_mensais.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G17_metricas_mensais.png",
+      "bytes": 245203,
+      "id": "1cMMPf_0IoOG3VU8dTVKGgl7aqgOvW1lO",
+      "url": "https://drive.google.com/file/d/1cMMPf_0IoOG3VU8dTVKGgl7aqgOvW1lO/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G18_vies_horario.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G18_vies_horario.png",
+      "bytes": 299373,
+      "id": "1c4Qv-pOSXa65qb4N0_N4FW7B9GZr1zmY",
+      "url": "https://drive.google.com/file/d/1c4Qv-pOSXa65qb4N0_N4FW7B9GZr1zmY/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G19_consistencia_medicoes.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G19_consistencia_medicoes.png",
+      "bytes": 1082038,
+      "id": "1pzMGelTbR9gfdb4mkNHhtBdOArr-Amzp",
+      "url": "https://drive.google.com/file/d/1pzMGelTbR9gfdb4mkNHhtBdOArr-Amzp/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G20_sujidade_ventilacao.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G20_sujidade_ventilacao.png",
+      "bytes": 222538,
+      "id": "1y-NborIF8GwQy_smPLbTz4z9_s0v4LEU",
+      "url": "https://drive.google.com/file/d/1y-NborIF8GwQy_smPLbTz4z9_s0v4LEU/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G21_HSP_POA_pareada.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G21_HSP_POA_pareada.png",
+      "bytes": 326427,
+      "id": "1olmRLvnV8oVGQ6-cTt1-ABXbkvDzj8mA",
+      "url": "https://drive.google.com/file/d/1olmRLvnV8oVGQ6-cTt1-ABXbkvDzj8mA/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G22_albedo.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G22_albedo.png",
+      "bytes": 186860,
+      "id": "1RMAq5GQ_Ux0Y3tkJaKDNjJlo98zqT_iE",
+      "url": "https://drive.google.com/file/d/1RMAq5GQ_Ux0Y3tkJaKDNjJlo98zqT_iE/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G23_componentes_estimadas.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G23_componentes_estimadas.png",
+      "bytes": 389132,
+      "id": "1rgIQYJOGLOfp4bPU1w8vMqYunJKvFFfI",
+      "url": "https://drive.google.com/file/d/1rgIQYJOGLOfp4bPU1w8vMqYunJKvFFfI/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G24_BIPV_orientacoes.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G24_BIPV_orientacoes.png",
+      "bytes": 156828,
+      "id": "1FWaTLyL_JQKsVGIh28oiGlFG_-Nuh5sF",
+      "url": "https://drive.google.com/file/d/1FWaTLyL_JQKsVGIh28oiGlFG_-Nuh5sF/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/claro/png/G25_BIPV_balanco.png",
+      "folder_key": "graficos/claro/png",
+      "name": "G25_BIPV_balanco.png",
+      "bytes": 166616,
+      "id": "1EhuXztmxXAmPysetTsEUhHa4OhFr8n9V",
+      "url": "https://drive.google.com/file/d/1EhuXztmxXAmPysetTsEUhHa4OhFr8n9V/view?usp=drivesdk",
+      "parent_id": "1D3duO2ZG7EsSxzvgVSIs1JN8fvOHUYqo",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G01_recurso_geometria.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G01_recurso_geometria.pdf",
+      "bytes": 15364,
+      "id": "1BOnMTAetdoIWNhFPOLFaFQ4LTdJEoyXp",
+      "url": "https://drive.google.com/file/d/1BOnMTAetdoIWNhFPOLFaFQ4LTdJEoyXp/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G02_variabilidade_recurso.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G02_variabilidade_recurso.pdf",
+      "bytes": 12512,
+      "id": "1Mh7Ag449Sjn15_0XOuSF9qaJjHPtop6Q",
+      "url": "https://drive.google.com/file/d/1Mh7Ag449Sjn15_0XOuSF9qaJjHPtop6Q/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G03_condicoes_ambientais.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G03_condicoes_ambientais.pdf",
+      "bytes": 12551,
+      "id": "1qGjJis7GBFAJNQBbqpu3stAsmekRyJ2s",
+      "url": "https://drive.google.com/file/d/1qGjJis7GBFAJNQBbqpu3stAsmekRyJ2s/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G04_temperatura_estimada.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G04_temperatura_estimada.pdf",
+      "bytes": 99942,
+      "id": "1HwuiS9-alLg2uilCUqKdmfKPBJHAc9xw",
+      "url": "https://drive.google.com/file/d/1HwuiS9-alLg2uilCUqKdmfKPBJHAc9xw/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G05_curvas_irradiancia.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G05_curvas_irradiancia.pdf",
+      "bytes": 15524,
+      "id": "1xrMIv0U_94T7jftlWy0EIG9BMSW_nDuT",
+      "url": "https://drive.google.com/file/d/1xrMIv0U_94T7jftlWy0EIG9BMSW_nDuT/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G06_curvas_temperatura.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G06_curvas_temperatura.pdf",
+      "bytes": 15504,
+      "id": "1FqGmgnt88H8g_zu75gyoPgJ_5GMZ6953",
+      "url": "https://drive.google.com/file/d/1FqGmgnt88H8g_zu75gyoPgJ_5GMZ6953/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G07_inversor.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G07_inversor.pdf",
+      "bytes": 13679,
+      "id": "1t5t1VhVexBQqo3gYoea5z9KpApSOMJXS",
+      "url": "https://drive.google.com/file/d/1t5t1VhVexBQqo3gYoea5z9KpApSOMJXS/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G08_series_potencia.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G08_series_potencia.pdf",
+      "bytes": 13751,
+      "id": "1ufq0h3Qy84h3DB0rbSVT7soS5q0g2nKL",
+      "url": "https://drive.google.com/file/d/1ufq0h3Qy84h3DB0rbSVT7soS5q0g2nKL/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G09_energia_diaria.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G09_energia_diaria.pdf",
+      "bytes": 12747,
+      "id": "1sHQDD9FEkTOVjd4PcN5MuNLXaNB-BFgc",
+      "url": "https://drive.google.com/file/d/1sHQDD9FEkTOVjd4PcN5MuNLXaNB-BFgc/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G10_energia_mensal.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G10_energia_mensal.pdf",
+      "bytes": 10840,
+      "id": "1eFBf978kIeNI9lcaJWKxAQAe1Izynl02",
+      "url": "https://drive.google.com/file/d/1eFBf978kIeNI9lcaJWKxAQAe1Izynl02/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G11_cadeia_energetica.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G11_cadeia_energetica.pdf",
+      "bytes": 14090,
+      "id": "1yZ4K5tdtZaXHmhsR56kA6X_iJ0mS6UVa",
+      "url": "https://drive.google.com/file/d/1yZ4K5tdtZaXHmhsR56kA6X_iJ0mS6UVa/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G12_produtividades_PR.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G12_produtividades_PR.pdf",
+      "bytes": 12242,
+      "id": "1pep4KXAdV8yhr7uMZ7Qv99jOlbJij5Ta",
+      "url": "https://drive.google.com/file/d/1pep4KXAdV8yhr7uMZ7Qv99jOlbJij5Ta/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G13_validacao.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G13_validacao.pdf",
+      "bytes": 58179,
+      "id": "1mOzk_mIng2SxJLTg30qBYLOsssh4c1Tk",
+      "url": "https://drive.google.com/file/d/1mOzk_mIng2SxJLTg30qBYLOsssh4c1Tk/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G14_residuos_temporais.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G14_residuos_temporais.pdf",
+      "bytes": 43791,
+      "id": "1A4js5p1SES78rqW7xnzdIRCKRHYq_2o7",
+      "url": "https://drive.google.com/file/d/1A4js5p1SES78rqW7xnzdIRCKRHYq_2o7/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G15_residuos_potencia.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G15_residuos_potencia.pdf",
+      "bytes": 56548,
+      "id": "1Mq6E_eKKR1sRbn4Rs3cHhQv74XTZihYi",
+      "url": "https://drive.google.com/file/d/1Mq6E_eKKR1sRbn4Rs3cHhQv74XTZihYi/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G16_distribuicao_residuos.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G16_distribuicao_residuos.pdf",
+      "bytes": 12724,
+      "id": "19rZ2yexh_fAWl_yMTVfOjmYUy6Mk0Zse",
+      "url": "https://drive.google.com/file/d/19rZ2yexh_fAWl_yMTVfOjmYUy6Mk0Zse/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G17_metricas_mensais.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G17_metricas_mensais.pdf",
+      "bytes": 12867,
+      "id": "14QQE2DGfhoyx2Db8NgRYZntQyMjjNoHV",
+      "url": "https://drive.google.com/file/d/14QQE2DGfhoyx2Db8NgRYZntQyMjjNoHV/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G18_vies_horario.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G18_vies_horario.pdf",
+      "bytes": 12856,
+      "id": "1jDcR8ngeTKlux3NNnLk8Ni-Uprukzhd8",
+      "url": "https://drive.google.com/file/d/1jDcR8ngeTKlux3NNnLk8Ni-Uprukzhd8/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G19_consistencia_medicoes.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G19_consistencia_medicoes.pdf",
+      "bytes": 59032,
+      "id": "1hSVCGylbzRk3p7T2BbHrsGTuyPch83k9",
+      "url": "https://drive.google.com/file/d/1hSVCGylbzRk3p7T2BbHrsGTuyPch83k9/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G20_sujidade_ventilacao.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G20_sujidade_ventilacao.pdf",
+      "bytes": 13513,
+      "id": "1DHK6yB-xMJvfVY8QsQfew_41Yvgs9V7x",
+      "url": "https://drive.google.com/file/d/1DHK6yB-xMJvfVY8QsQfew_41Yvgs9V7x/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G21_HSP_POA_pareada.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G21_HSP_POA_pareada.pdf",
+      "bytes": 11408,
+      "id": "1GhcJZRXhhdeVsTuYNqXTrsGGOS7RPBE4",
+      "url": "https://drive.google.com/file/d/1GhcJZRXhhdeVsTuYNqXTrsGGOS7RPBE4/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G22_albedo.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G22_albedo.pdf",
+      "bytes": 11603,
+      "id": "1L6SMzdePlzbzBmOJIymNER4hrlHjYVHr",
+      "url": "https://drive.google.com/file/d/1L6SMzdePlzbzBmOJIymNER4hrlHjYVHr/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G23_componentes_estimadas.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G23_componentes_estimadas.pdf",
+      "bytes": 13002,
+      "id": "1pnrK3eZgok5auXChu8HgtpcJzyX4qdsj",
+      "url": "https://drive.google.com/file/d/1pnrK3eZgok5auXChu8HgtpcJzyX4qdsj/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G24_BIPV_orientacoes.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G24_BIPV_orientacoes.pdf",
+      "bytes": 12228,
+      "id": "1I6QHZ1izexaeZ81fUdoQeFROEv8uZFNd",
+      "url": "https://drive.google.com/file/d/1I6QHZ1izexaeZ81fUdoQeFROEv8uZFNd/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/pdf/G25_BIPV_balanco.pdf",
+      "folder_key": "graficos/escuro/pdf",
+      "name": "G25_BIPV_balanco.pdf",
+      "bytes": 12345,
+      "id": "1h3oHJwcuGsNMD-dbECTGmAozpg11dkjz",
+      "url": "https://drive.google.com/file/d/1h3oHJwcuGsNMD-dbECTGmAozpg11dkjz/view?usp=drivesdk",
+      "parent_id": "1alpZERhUZKAth0SKnSfFZ_fDWtT0HEV0",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G01_recurso_geometria.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G01_recurso_geometria.png",
+      "bytes": 468440,
+      "id": "1EeASEtLCa1BJHN5XEm3JNAT6Mc4dbylZ",
+      "url": "https://drive.google.com/file/d/1EeASEtLCa1BJHN5XEm3JNAT6Mc4dbylZ/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G02_variabilidade_recurso.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G02_variabilidade_recurso.png",
+      "bytes": 351888,
+      "id": "10c3crB13IzHO3DE-Cy4-yl0GvmV5Mvdj",
+      "url": "https://drive.google.com/file/d/10c3crB13IzHO3DE-Cy4-yl0GvmV5Mvdj/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G03_condicoes_ambientais.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G03_condicoes_ambientais.png",
+      "bytes": 256868,
+      "id": "1YNjhOE_-yUyKgp_uBYBm3gO1B1L9RvRj",
+      "url": "https://drive.google.com/file/d/1YNjhOE_-yUyKgp_uBYBm3gO1B1L9RvRj/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G04_temperatura_estimada.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G04_temperatura_estimada.png",
+      "bytes": 1718833,
+      "id": "1BcO7w6qbnOisjiIZg5ktzGKQJeLH1eSv",
+      "url": "https://drive.google.com/file/d/1BcO7w6qbnOisjiIZg5ktzGKQJeLH1eSv/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G05_curvas_irradiancia.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G05_curvas_irradiancia.png",
+      "bytes": 464715,
+      "id": "1VvH_2kfImVik_3PGxq7JAAkOVIxVW_2U",
+      "url": "https://drive.google.com/file/d/1VvH_2kfImVik_3PGxq7JAAkOVIxVW_2U/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G06_curvas_temperatura.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G06_curvas_temperatura.png",
+      "bytes": 472122,
+      "id": "1XGrIY8TyAOkmA2V8NqUqhjECaa9cUjD5",
+      "url": "https://drive.google.com/file/d/1XGrIY8TyAOkmA2V8NqUqhjECaa9cUjD5/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G07_inversor.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G07_inversor.png",
+      "bytes": 413445,
+      "id": "1-AXviQUdntVhmowJIAuEDrcf9bZYcdEI",
+      "url": "https://drive.google.com/file/d/1-AXviQUdntVhmowJIAuEDrcf9bZYcdEI/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G08_series_potencia.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G08_series_potencia.png",
+      "bytes": 587731,
+      "id": "14IxkiHFZh9MYI-13FiWaMDMxp_ed65bR",
+      "url": "https://drive.google.com/file/d/14IxkiHFZh9MYI-13FiWaMDMxp_ed65bR/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G09_energia_diaria.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G09_energia_diaria.png",
+      "bytes": 486667,
+      "id": "1GjZ7SXPhu1HzlfBni1JlaZ2l95E7sFVZ",
+      "url": "https://drive.google.com/file/d/1GjZ7SXPhu1HzlfBni1JlaZ2l95E7sFVZ/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G10_energia_mensal.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G10_energia_mensal.png",
+      "bytes": 169551,
+      "id": "1Ks9NCLcedp_kpuO0hjQnT7flQqpe9-52",
+      "url": "https://drive.google.com/file/d/1Ks9NCLcedp_kpuO0hjQnT7flQqpe9-52/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G11_cadeia_energetica.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G11_cadeia_energetica.png",
+      "bytes": 283596,
+      "id": "1lhH6vlEB8dNthuS0L4bSJ4dmsmfbib-l",
+      "url": "https://drive.google.com/file/d/1lhH6vlEB8dNthuS0L4bSJ4dmsmfbib-l/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G12_produtividades_PR.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G12_produtividades_PR.png",
+      "bytes": 279193,
+      "id": "1SpIyoFwtiZ6kzBzLiRtkRAZN94dzNcs7",
+      "url": "https://drive.google.com/file/d/1SpIyoFwtiZ6kzBzLiRtkRAZN94dzNcs7/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G13_validacao.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G13_validacao.png",
+      "bytes": 2325633,
+      "id": "1KfC_pGNNi0r8S-L21eUpkoMWJkr9txrR",
+      "url": "https://drive.google.com/file/d/1KfC_pGNNi0r8S-L21eUpkoMWJkr9txrR/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G14_residuos_temporais.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G14_residuos_temporais.png",
+      "bytes": 1513696,
+      "id": "1ZIu20AGW3DePYfIPiI3N0gUbRkLACBXe",
+      "url": "https://drive.google.com/file/d/1ZIu20AGW3DePYfIPiI3N0gUbRkLACBXe/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G15_residuos_potencia.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G15_residuos_potencia.png",
+      "bytes": 1750549,
+      "id": "1dBSlYX8cEBl2DtOsN5H7GUUB_x4fn4Wu",
+      "url": "https://drive.google.com/file/d/1dBSlYX8cEBl2DtOsN5H7GUUB_x4fn4Wu/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G16_distribuicao_residuos.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G16_distribuicao_residuos.png",
+      "bytes": 171400,
+      "id": "1lGoQaKJbyBJh72x4FpM8yLy2tyU7oOOD",
+      "url": "https://drive.google.com/file/d/1lGoQaKJbyBJh72x4FpM8yLy2tyU7oOOD/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G17_metricas_mensais.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G17_metricas_mensais.png",
+      "bytes": 248120,
+      "id": "1CacDFSfDZEqiBG69CmlJuxlmUiSbaLcf",
+      "url": "https://drive.google.com/file/d/1CacDFSfDZEqiBG69CmlJuxlmUiSbaLcf/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G18_vies_horario.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G18_vies_horario.png",
+      "bytes": 301730,
+      "id": "1fwVNBtnn_qV38zatBo0PMkkL5bK_z4v6",
+      "url": "https://drive.google.com/file/d/1fwVNBtnn_qV38zatBo0PMkkL5bK_z4v6/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G19_consistencia_medicoes.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G19_consistencia_medicoes.png",
+      "bytes": 1123190,
+      "id": "10dc0rGzFp-VUwjzQ5gCfCPiUfW8mmnNL",
+      "url": "https://drive.google.com/file/d/10dc0rGzFp-VUwjzQ5gCfCPiUfW8mmnNL/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G20_sujidade_ventilacao.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G20_sujidade_ventilacao.png",
+      "bytes": 225238,
+      "id": "19AHxigADu9QdtVEfVBvEPZ1LznGTHq0X",
+      "url": "https://drive.google.com/file/d/19AHxigADu9QdtVEfVBvEPZ1LznGTHq0X/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G21_HSP_POA_pareada.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G21_HSP_POA_pareada.png",
+      "bytes": 338111,
+      "id": "1YOO8DGMe4NbhTItKeOomDduaUdLoJx1z",
+      "url": "https://drive.google.com/file/d/1YOO8DGMe4NbhTItKeOomDduaUdLoJx1z/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G22_albedo.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G22_albedo.png",
+      "bytes": 190002,
+      "id": "10C3Cu5UN-1y3rwmSIxObXK723N5C0Xzn",
+      "url": "https://drive.google.com/file/d/10C3Cu5UN-1y3rwmSIxObXK723N5C0Xzn/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G23_componentes_estimadas.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G23_componentes_estimadas.png",
+      "bytes": 393168,
+      "id": "1Nuxv0G09wEc6PQNMbYwdg6RqR5CnEXVM",
+      "url": "https://drive.google.com/file/d/1Nuxv0G09wEc6PQNMbYwdg6RqR5CnEXVM/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G24_BIPV_orientacoes.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G24_BIPV_orientacoes.png",
+      "bytes": 159625,
+      "id": "1B2Dri3B_vnTKyhblAAL6h3Y-pFApRtRV",
+      "url": "https://drive.google.com/file/d/1B2Dri3B_vnTKyhblAAL6h3Y-pFApRtRV/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/escuro/png/G25_BIPV_balanco.png",
+      "folder_key": "graficos/escuro/png",
+      "name": "G25_BIPV_balanco.png",
+      "bytes": 169671,
+      "id": "1TRc3iG5twZ9mRRUQiPVMYhZdDMuOzjFn",
+      "url": "https://drive.google.com/file/d/1TRc3iG5twZ9mRRUQiPVMYhZdDMuOzjFn/view?usp=drivesdk",
+      "parent_id": "1cj_JR8FCVaDIQjQs0Lfm62x1aJS6eTSX",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/quadros/situacao_dos_dados.csv",
+      "folder_key": "quadros",
+      "name": "situacao_dos_dados.csv",
+      "bytes": 1021,
+      "id": "1T8cotk0FmGdVC51W4U-1uIfuR652gHGB",
+      "url": "https://drive.google.com/file/d/1T8cotk0FmGdVC51W4U-1uIfuR652gHGB/view?usp=drivesdk",
+      "parent_id": "1MnGuj7rduH8Mz_WuYDgerK3Kkay1GdDA",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/Matriz_de_Cobertura_do_Capitulo.csv",
+      "folder_key": "relatorios",
+      "name": "Matriz_de_Cobertura_do_Capitulo.csv",
+      "bytes": 14810,
+      "id": "1Uu48gRn48Hy_AKfyCbfyWQX_Q1rcA2U1",
+      "url": "https://drive.google.com/file/d/1Uu48gRn48Hy_AKfyCbfyWQX_Q1rcA2U1/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/Matriz_de_Cobertura_do_Capitulo.md",
+      "folder_key": "relatorios",
+      "name": "Matriz_de_Cobertura_do_Capitulo.md",
+      "bytes": 15568,
+      "id": "1O_RwTvCEL3beb0cu-Gd6M2zsX1sw4p5u",
+      "url": "https://drive.google.com/file/d/1O_RwTvCEL3beb0cu-Gd6M2zsX1sw4p5u/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/Relatorio_do_Projeto.html",
+      "folder_key": "relatorios",
+      "name": "Relatorio_do_Projeto.html",
+      "bytes": 11161568,
+      "id": "15_93uXxagXgjMW97QxnveRtY1Zj_oKZU",
+      "url": "https://drive.google.com/file/d/15_93uXxagXgjMW97QxnveRtY1Zj_oKZU/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/catalogo_figuras.csv",
+      "folder_key": "relatorios",
+      "name": "catalogo_figuras.csv",
+      "bytes": 11202,
+      "id": "1yWoU49d-e9Qlc9XWjwf6eXnGUIHyU1Cz",
+      "url": "https://drive.google.com/file/d/1yWoU49d-e9Qlc9XWjwf6eXnGUIHyU1Cz/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/catalogo_figuras.json",
+      "folder_key": "relatorios",
+      "name": "catalogo_figuras.json",
+      "bytes": 32874,
+      "id": "1PLcPlWaaleFg2fmZ70ONfsLjDlQsbvf9",
+      "url": "https://drive.google.com/file/d/1PLcPlWaaleFg2fmZ70ONfsLjDlQsbvf9/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/resumo_execucao.json",
+      "folder_key": "relatorios",
+      "name": "resumo_execucao.json",
+      "bytes": 1928,
+      "id": "1z9AYO9StbMAyrq4EyN0yf6xLZm4hxebl",
+      "url": "https://drive.google.com/file/d/1z9AYO9StbMAyrq4EyN0yf6xLZm4hxebl/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/arranjo_equivalente_diurno.csv",
+      "folder_key": "tabelas/csv",
+      "name": "arranjo_equivalente_diurno.csv",
+      "bytes": 927591,
+      "id": "1PVmFlepu_kVHdpJcNAbpJOWGpmFE2Y7t",
+      "url": "https://drive.google.com/file/d/1PVmFlepu_kVHdpJcNAbpJOWGpmFE2Y7t/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/bipv_balanco_solar_horario.csv",
+      "folder_key": "tabelas/csv",
+      "name": "bipv_balanco_solar_horario.csv",
+      "bytes": 194250,
+      "id": "1OtZ_DQtkiG1kb7Wvd7FbqJx6XEUzhCRF",
+      "url": "https://drive.google.com/file/d/1OtZ_DQtkiG1kb7Wvd7FbqJx6XEUzhCRF/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/bipv_comparison.csv",
+      "folder_key": "tabelas/csv",
+      "name": "bipv_comparison.csv",
+      "bytes": 835,
+      "id": "1uRIl6MLSuuGn1ZEYUOlzJVtxH9TGOokF",
+      "url": "https://drive.google.com/file/d/1uRIl6MLSuuGn1ZEYUOlzJVtxH9TGOokF/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/bipv_energy_summary.csv",
+      "folder_key": "tabelas/csv",
+      "name": "bipv_energy_summary.csv",
+      "bytes": 498,
+      "id": "1DjAWbImRsy9-_0xKL0j4oQowP1fctyC7",
+      "url": "https://drive.google.com/file/d/1DjAWbImRsy9-_0xKL0j4oQowP1fctyC7/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/capacity_sensitivity.csv",
+      "folder_key": "tabelas/csv",
+      "name": "capacity_sensitivity.csv",
+      "bytes": 442,
+      "id": "1fj5EdEChWTsoLS0R5O87nKh7bdoQhj7Z",
+      "url": "https://drive.google.com/file/d/1fj5EdEChWTsoLS0R5O87nKh7bdoQhj7Z/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/componentes_estimadas_da_POA_horario.csv",
+      "folder_key": "tabelas/csv",
+      "name": "componentes_estimadas_da_POA_horario.csv",
+      "bytes": 660750,
+      "id": "1l9e8D_7kHYysHkx-BaS39r99ynvqmRbg",
+      "url": "https://drive.google.com/file/d/1l9e8D_7kHYysHkx-BaS39r99ynvqmRbg/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/consistencia_medidor_inversores.csv",
+      "folder_key": "tabelas/csv",
+      "name": "consistencia_medidor_inversores.csv",
+      "bytes": 272,
+      "id": "1ACJS7QU4zYgdMBpeDqNS4K4RxsNpS05S",
+      "url": "https://drive.google.com/file/d/1ACJS7QU4zYgdMBpeDqNS4K4RxsNpS05S/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/criterio_dias_ilustrativos.csv",
+      "folder_key": "tabelas/csv",
+      "name": "criterio_dias_ilustrativos.csv",
+      "bytes": 3597,
+      "id": "1tg_EcWEurpbS9NTiAPeIC1NQCwXIHQjC",
+      "url": "https://drive.google.com/file/d/1tg_EcWEurpbS9NTiAPeIC1NQCwXIHQjC/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/curva_inversor_modelada.csv",
+      "folder_key": "tabelas/csv",
+      "name": "curva_inversor_modelada.csv",
+      "bytes": 12657,
+      "id": "1UlnB6duJYaLagPPxlBOaVt2KoVXsULcW",
+      "url": "https://drive.google.com/file/d/1UlnB6duJYaLagPPxlBOaVt2KoVXsULcW/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/energia_diaria_pareada.csv",
+      "folder_key": "tabelas/csv",
+      "name": "energia_diaria_pareada.csv",
+      "bytes": 11429,
+      "id": "1JhAg6H6uC5f9oNYAIGtp0hySkSycWNft",
+      "url": "https://drive.google.com/file/d/1JhAg6H6uC5f9oNYAIGtp0hySkSycWNft/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/energia_e_HSP_diurna_pareada.csv",
+      "folder_key": "tabelas/csv",
+      "name": "energia_e_HSP_diurna_pareada.csv",
+      "bytes": 19819,
+      "id": "1PZTPPNYDEa_hK5EpxSV0KygXb0RsaK9W",
+      "url": "https://drive.google.com/file/d/1PZTPPNYDEa_hK5EpxSV0KygXb0RsaK9W/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/energia_e_indicadores_mensais.csv",
+      "folder_key": "tabelas/csv",
+      "name": "energia_e_indicadores_mensais.csv",
+      "bytes": 739,
+      "id": "1K-PUWEm3hw9JgTq-wqNXVI73BYc67z56",
+      "url": "https://drive.google.com/file/d/1K-PUWEm3hw9JgTq-wqNXVI73BYc67z56/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/energy_stages.csv",
+      "folder_key": "tabelas/csv",
+      "name": "energy_stages.csv",
+      "bytes": 484,
+      "id": "14znIgYJqYLojzIkz7FPqO4jQMZF30mt2",
+      "url": "https://drive.google.com/file/d/14znIgYJqYLojzIkz7FPqO4jQMZF30mt2/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/environment_scenarios.csv",
+      "folder_key": "tabelas/csv",
+      "name": "environment_scenarios.csv",
+      "bytes": 313,
+      "id": "1GVlenHwBxr6pbN5L1kdnzy5ukvst-4Dp",
+      "url": "https://drive.google.com/file/d/1GVlenHwBxr6pbN5L1kdnzy5ukvst-4Dp/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/environment_sensitivity.csv",
+      "folder_key": "tabelas/csv",
+      "name": "environment_sensitivity.csv",
+      "bytes": 363,
+      "id": "1-EksKyvUWx3bE3pebOA6kbkrvrelbXCe",
+      "url": "https://drive.google.com/file/d/1-EksKyvUWx3bE3pebOA6kbkrvrelbXCe/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/estatistica_descritiva.csv",
+      "folder_key": "tabelas/csv",
+      "name": "estatistica_descritiva.csv",
+      "bytes": 1941,
+      "id": "1G0RKZY7KZpKngS8OHHpHYoFUUAB5oeYI",
+      "url": "https://drive.google.com/file/d/1G0RKZY7KZpKngS8OHHpHYoFUUAB5oeYI/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/metricas_por_faixa_POA.csv",
+      "folder_key": "tabelas/csv",
+      "name": "metricas_por_faixa_POA.csv",
+      "bytes": 1512,
+      "id": "13NMMl8XiYAI89EeompL-cqTfXIqqeYIv",
+      "url": "https://drive.google.com/file/d/13NMMl8XiYAI89EeompL-cqTfXIqqeYIv/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/metricas_por_hora.csv",
+      "folder_key": "tabelas/csv",
+      "name": "metricas_por_hora.csv",
+      "bytes": 2825,
+      "id": "178Dn0-Y-z0w2atrBNMcuQSlDaVKL38rJ",
+      "url": "https://drive.google.com/file/d/178Dn0-Y-z0w2atrBNMcuQSlDaVKL38rJ/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/metricas_por_mes.csv",
+      "folder_key": "tabelas/csv",
+      "name": "metricas_por_mes.csv",
+      "bytes": 795,
+      "id": "1U-EunMDAdG4ryGUsjv8E0JBsOU0c5eWC",
+      "url": "https://drive.google.com/file/d/1U-EunMDAdG4ryGUsjv8E0JBsOU0c5eWC/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/metrics.csv",
+      "folder_key": "tabelas/csv",
+      "name": "metrics.csv",
+      "bytes": 1131,
+      "id": "1KqYlDTv-rnSmzUn0rSA1mRtnn6KwFQ1t",
+      "url": "https://drive.google.com/file/d/1KqYlDTv-rnSmzUn0rSA1mRtnn6KwFQ1t/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/operational_flags.csv",
+      "folder_key": "tabelas/csv",
+      "name": "operational_flags.csv",
+      "bytes": 2434,
+      "id": "19qd6MbaDilDp8LiRqkwRjBdpkM8PgG6B",
+      "url": "https://drive.google.com/file/d/19qd6MbaDilDp8LiRqkwRjBdpkM8PgG6B/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/series_15min_local_e_modelo.csv",
+      "folder_key": "tabelas/csv",
+      "name": "series_15min_local_e_modelo.csv",
+      "bytes": 4415331,
+      "id": "15oItSizRvEu-mJ8yNW34FK0YojE6WTay",
+      "url": "https://drive.google.com/file/d/15oItSizRvEu-mJ8yNW34FK0YojE6WTay/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/situacao_dos_dados.csv",
+      "folder_key": "tabelas/csv",
+      "name": "situacao_dos_dados.csv",
+      "bytes": 1021,
+      "id": "12BpXrCeJQeI7WC8w8txl2vnlLCYVJ3p7",
+      "url": "https://drive.google.com/file/d/12BpXrCeJQeI7WC8w8txl2vnlLCYVJ3p7/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/csv/yields.csv",
+      "folder_key": "tabelas/csv",
+      "name": "yields.csv",
+      "bytes": 463,
+      "id": "19lcsebqAYbaFy7UBM0Wy0dvM2XbfvR1b",
+      "url": "https://drive.google.com/file/d/19lcsebqAYbaFy7UBM0Wy0dvM2XbfvR1b/view?usp=drivesdk",
+      "parent_id": "1Qu0G_gKS-bBUPJDss9ZhP7q4vNTnkGrJ",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/references/Referencias_do_Projeto.md",
+      "folder_key": "referencias",
+      "name": "Referencias_do_Projeto.md",
+      "bytes": 13704,
+      "id": "1aZ-mg7qnhcTMeGJ3fZk2T0UqC0fOiSDu",
+      "url": "https://drive.google.com/file/d/1aZ-mg7qnhcTMeGJ3fZk2T0UqC0fOiSDu/view?usp=drivesdk",
+      "parent_id": "1VfP4EGXGUzEP3IJf8N3KbSIXpa-9Akwz",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/references/referencias_projeto.bib",
+      "folder_key": "referencias",
+      "name": "referencias_projeto.bib",
+      "bytes": 9916,
+      "id": "1XpeDJmvqfrOK9bo7AXIEL52sy1iHzPap",
+      "url": "https://drive.google.com/file/d/1XpeDJmvqfrOK9bo7AXIEL52sy1iHzPap/view?usp=drivesdk",
+      "parent_id": "1VfP4EGXGUzEP3IJf8N3KbSIXpa-9Akwz",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/references/referencias_projeto.json",
+      "folder_key": "referencias",
+      "name": "referencias_projeto.json",
+      "bytes": 17476,
+      "id": "1hCKrqJes-YpPUAaMg7V111ksIRWoPUiY",
+      "url": "https://drive.google.com/file/d/1hCKrqJes-YpPUAaMg7V111ksIRWoPUiY/view?usp=drivesdk",
+      "parent_id": "1VfP4EGXGUzEP3IJf8N3KbSIXpa-9Akwz",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/docs/Registro_de_Decisoes_v1_2.md",
+      "folder_key": "relatorios",
+      "name": "Registro_de_Decisoes_v1_2.md",
+      "bytes": 1858,
+      "id": "1C_tUcx2R2vZIhCy_DRZ1xMZcZ9yiJYKi",
+      "url": "https://drive.google.com/file/d/1C_tUcx2R2vZIhCy_DRZ1xMZcZ9yiJYKi/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/methods/Metodos_e_Fontes.md",
+      "folder_key": "relatorios",
+      "name": "Metodos_e_Fontes.md",
+      "bytes": 11196,
+      "id": "1LgM16N_nU5zVaR5GpPCZ3AOAb6iVFLL1",
+      "url": "https://drive.google.com/file/d/1LgM16N_nU5zVaR5GpPCZ3AOAb6iVFLL1/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/figuras/docx/Ilustracoes_FV.docx",
+      "folder_key": "figuras/docx",
+      "name": "Ilustracoes_FV.docx",
+      "bytes": 789001,
+      "id": "1SICoo0moXOxkEheZpk2lRfnYjKnggubg",
+      "url": "https://docs.google.com/document/d/1SICoo0moXOxkEheZpk2lRfnYjKnggubg/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+      "parent_id": "1wktMv6QYc0gvNxgrtx88M2EcHrQtRsFY",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "folder_key": "fluxogramas/docx",
+      "name": "Fluxogramas_do_Projeto.docx",
+      "bytes": 407457,
+      "id": "10LSYGsEeHxf8THmwoDDubIKDO71BOnn6",
+      "url": "https://docs.google.com/document/d/10LSYGsEeHxf8THmwoDDubIKDO71BOnn6/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+      "parent_id": "1-q85abeW1mOPpYa1AycLezS1OsBn5hqB",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "folder_key": "graficos/docx",
+      "name": "Graficos_do_Projeto.docx",
+      "bytes": 13343190,
+      "id": "1TRupR5D1SUC-xsoF-IemJGUEzOdv2vuC",
+      "url": "https://docs.google.com/document/d/1TRupR5D1SUC-xsoF-IemJGUEzOdv2vuC/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+      "parent_id": "1ZDQCjvDiwo1HOLjZHWS1EC5LSzD5DBT_",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "folder_key": "quadros/docx",
+      "name": "Quadros_do_Projeto.docx",
+      "bytes": 43324,
+      "id": "1htj4x-MiFAf2fli4VJB9RrP3TcocjoXD",
+      "url": "https://docs.google.com/document/d/1htj4x-MiFAf2fli4VJB9RrP3TcocjoXD/edit?usp=drivesdk&rtpof=true&sd=true",
+      "parent_id": "1KDhF4O-s9afmL4mrdqIJ_xIKUBzpyc2M",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "folder_key": "tabelas/docx",
+      "name": "Tabelas_do_Projeto.docx",
+      "bytes": 50329,
+      "id": "10K1fZorHA5EtmaMFTD8D6ABp6_cnc93T",
+      "url": "https://docs.google.com/document/d/10K1fZorHA5EtmaMFTD8D6ABp6_cnc93T/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+      "parent_id": "1jZPJTBD5Wu5L0N4psa82wSQALO31sqf2",
+      "status": "uploaded"
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/relatorios/Conferencia_Visual.json",
+      "folder_key": "relatorios",
+      "name": "Conferencia_Visual.json",
+      "id": "1-5veRXw4lwMCG8GvKZfVN6WR0jXntVYp",
+      "url": "https://drive.google.com/file/d/1-5veRXw4lwMCG8GvKZfVN6WR0jXntVYp/view?usp=drivesdk",
+      "parent_id": "1NEnncIeQh1TmaRzJRJ4fYSXUJ1k4muIw",
+      "status": "uploaded",
+      "bytes": 2589
+    },
+    {
+      "local_path": "/workspace/scratch/58e6fb37cf9c/Projeto_FV_PVDAQ_2107_2024/outputs/COMECE_AQUI_v1_2.md",
+      "folder_key": "",
+      "name": "COMECE_AQUI_v1_2.md",
+      "bytes": 5146,
+      "id": "10a2gb44CyTenPn6HvMMERYH41va0iwYz",
+      "url": "https://drive.google.com/file/d/10a2gb44CyTenPn6HvMMERYH41va0iwYz/view?usp=drivesdk",
+      "parent_id": "1lm7fnyTPh0xs9odRuef1_hUK8Q4N_h2v",
+      "status": "uploaded"
+    }
+  ],
+  "canonical": [
+    {
+      "id": "1EYHPdkAeotZTRryg73DTotHkOZH691Zk",
+      "expected": 4523566,
+      "metadata": {
+        "id": "1EYHPdkAeotZTRryg73DTotHkOZH691Zk",
+        "title": "01_Projeto_FV_Quatro_Secoes.ipynb",
+        "mime_type": "application/x-ipynb+json",
+        "size": "4523566",
+        "url": "https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T19:59:25.615Z",
+        "parent_ids": [
+          "1MFnagHeg86K4sutk47SiMoOoGTXiU_7M"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1tNbqSEWvw3Nk_ugvHdboPjmq_g7t-aWj",
+      "expected": 92509096,
+      "metadata": {
+        "id": "1tNbqSEWvw3Nk_ugvHdboPjmq_g7t-aWj",
+        "title": "Projeto_FV_PVDAQ_2107_2024_Completo.zip",
+        "mime_type": "application/zip",
+        "size": "92509096",
+        "url": "https://drive.google.com/file/d/1tNbqSEWvw3Nk_ugvHdboPjmq_g7t-aWj/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1tNbqSEWvw3Nk_ugvHdboPjmq_g7t-aWj/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:00:51.553Z",
+        "parent_ids": [
+          "1RyyZri_sGsB2MZ6Hygwwrkv8eqPWymJ3"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1OAphNwTVQ0CjkQTOwQXhGFzgLG0YYZnV",
+      "expected": 59900837,
+      "metadata": {
+        "id": "1OAphNwTVQ0CjkQTOwQXhGFzgLG0YYZnV",
+        "title": "Resultados_Projeto_FV_2024.zip",
+        "mime_type": "application/zip",
+        "size": "59900837",
+        "url": "https://drive.google.com/file/d/1OAphNwTVQ0CjkQTOwQXhGFzgLG0YYZnV/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1OAphNwTVQ0CjkQTOwQXhGFzgLG0YYZnV/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:16.755Z",
+        "parent_ids": [
+          "1_0t57OnAT7hOMJNbnTWnDabQFq_R4FLl"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1FKunGigHIKF_Z6OJaF2jhc12EeUkOinw",
+      "expected": 283673,
+      "metadata": {
+        "id": "1FKunGigHIKF_Z6OJaF2jhc12EeUkOinw",
+        "title": "SPGER0046_Projeto_Pronto_para_GitHub.zip",
+        "mime_type": "application/zip",
+        "size": "283673",
+        "url": "https://drive.google.com/file/d/1FKunGigHIKF_Z6OJaF2jhc12EeUkOinw/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1FKunGigHIKF_Z6OJaF2jhc12EeUkOinw/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:21.107Z",
+        "parent_ids": [
+          "1MFnagHeg86K4sutk47SiMoOoGTXiU_7M"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1j_eEWHi4C4KVPljEGrkH4ejhJKGbrvS1",
+      "expected": 5146,
+      "metadata": {
+        "id": "1j_eEWHi4C4KVPljEGrkH4ejhJKGbrvS1",
+        "title": "COMECE_AQUI.md",
+        "mime_type": "text/markdown",
+        "size": "5146",
+        "url": "https://drive.google.com/file/d/1j_eEWHi4C4KVPljEGrkH4ejhJKGbrvS1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1j_eEWHi4C4KVPljEGrkH4ejhJKGbrvS1/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:25.710Z",
+        "parent_ids": [
+          "1RyyZri_sGsB2MZ6Hygwwrkv8eqPWymJ3"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1dKhKl94rMgt1kK4SKO-XOkiudvk_q4FI",
+      "expected": 11196,
+      "metadata": {
+        "id": "1dKhKl94rMgt1kK4SKO-XOkiudvk_q4FI",
+        "title": "Metodos_e_Fontes.md",
+        "mime_type": "text/markdown",
+        "size": "11196",
+        "url": "https://drive.google.com/file/d/1dKhKl94rMgt1kK4SKO-XOkiudvk_q4FI/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1dKhKl94rMgt1kK4SKO-XOkiudvk_q4FI/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:29.230Z",
+        "parent_ids": [
+          "1C3OThjpfEs449TtTqdYSnRjaEF87FAtg"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1rDzkL6sjoMOceB_w17Q_wCe9q4m3w2Ku",
+      "expected": 15568,
+      "metadata": {
+        "id": "1rDzkL6sjoMOceB_w17Q_wCe9q4m3w2Ku",
+        "title": "Mapa_do_Capitulo.md",
+        "mime_type": "text/markdown",
+        "size": "15568",
+        "url": "https://drive.google.com/file/d/1rDzkL6sjoMOceB_w17Q_wCe9q4m3w2Ku/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1rDzkL6sjoMOceB_w17Q_wCe9q4m3w2Ku/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:32.529Z",
+        "parent_ids": [
+          "1C3OThjpfEs449TtTqdYSnRjaEF87FAtg"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1TweAPljWvk3Dy8UlbBR0FSS_AEebtORc",
+      "expected": 13704,
+      "metadata": {
+        "id": "1TweAPljWvk3Dy8UlbBR0FSS_AEebtORc",
+        "title": "Referencias_do_Projeto.md",
+        "mime_type": "text/markdown",
+        "size": "13704",
+        "url": "https://drive.google.com/file/d/1TweAPljWvk3Dy8UlbBR0FSS_AEebtORc/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1TweAPljWvk3Dy8UlbBR0FSS_AEebtORc/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:36.586Z",
+        "parent_ids": [
+          "1C3OThjpfEs449TtTqdYSnRjaEF87FAtg"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1nIO7OJGeVz9-0LC7QfJy31xCa3_tkDRZ",
+      "expected": 9916,
+      "metadata": {
+        "id": "1nIO7OJGeVz9-0LC7QfJy31xCa3_tkDRZ",
+        "title": "referencias_projeto.bib",
+        "mime_type": "text/plain",
+        "size": "9916",
+        "url": "https://drive.google.com/file/d/1nIO7OJGeVz9-0LC7QfJy31xCa3_tkDRZ/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1nIO7OJGeVz9-0LC7QfJy31xCa3_tkDRZ/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:39.859Z",
+        "parent_ids": [
+          "1C3OThjpfEs449TtTqdYSnRjaEF87FAtg"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1HW_D2V5iYz2ewebeDLiJ9aSt92zc5Mma",
+      "expected": 17476,
+      "metadata": {
+        "id": "1HW_D2V5iYz2ewebeDLiJ9aSt92zc5Mma",
+        "title": "referencias_projeto.json",
+        "mime_type": "application/json",
+        "size": "17476",
+        "url": "https://drive.google.com/file/d/1HW_D2V5iYz2ewebeDLiJ9aSt92zc5Mma/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1HW_D2V5iYz2ewebeDLiJ9aSt92zc5Mma/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:43.065Z",
+        "parent_ids": [
+          "1C3OThjpfEs449TtTqdYSnRjaEF87FAtg"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1Fa4WkFDHQ5TUwwcNkcrrYzq0RqiVFVye",
+      "expected": 11161568,
+      "metadata": {
+        "id": "1Fa4WkFDHQ5TUwwcNkcrrYzq0RqiVFVye",
+        "title": "Relatorio_do_Projeto.html",
+        "mime_type": "text/html",
+        "size": "11161568",
+        "url": "https://drive.google.com/file/d/1Fa4WkFDHQ5TUwwcNkcrrYzq0RqiVFVye/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1Fa4WkFDHQ5TUwwcNkcrrYzq0RqiVFVye/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:50.796Z",
+        "parent_ids": [
+          "1_0t57OnAT7hOMJNbnTWnDabQFq_R4FLl"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "id": "1hJTfaUhMBcSFA7YYzBBp4AP1z2xDwyQ_",
+      "expected": 1928,
+      "metadata": {
+        "id": "1hJTfaUhMBcSFA7YYzBBp4AP1z2xDwyQ_",
+        "title": "resumo_execucao.json",
+        "mime_type": "application/json",
+        "size": "1928",
+        "url": "https://drive.google.com/file/d/1hJTfaUhMBcSFA7YYzBBp4AP1z2xDwyQ_/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1hJTfaUhMBcSFA7YYzBBp4AP1z2xDwyQ_/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": "2026-10-16T20:01:55.519Z",
+        "parent_ids": [
+          "1_0t57OnAT7hOMJNbnTWnDabQFq_R4FLl"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "result_files": 165,
+    "canonical_files": 12,
+    "errors": []
+  }
+}

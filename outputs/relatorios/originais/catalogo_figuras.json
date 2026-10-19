@@ -1,0 +1,861 @@
+[
+  {
+    "id": "G01_recurso_geometria",
+    "category": "graficos",
+    "subsections": [
+      "1.1",
+      "1.2"
+    ],
+    "title": "Recurso solar medido e geometria calculada",
+    "caption": "Dia 2024-05-17, selecionado pela menor variação relativa da POA entre dias com cobertura ≥99%. Ângulos calculados no meio dos intervalos; POA medida.",
+    "refs": [
+      "R01",
+      "R03",
+      "R05"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G01_recurso_geometria.pdf",
+        "png": "outputs/graficos/claro/png/G01_recurso_geometria.png",
+        "preview": "outputs/_previews/claro/G01_recurso_geometria.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G01_recurso_geometria.pdf",
+        "png": "outputs/graficos/escuro/png/G01_recurso_geometria.png",
+        "preview": "outputs/_previews/escuro/G01_recurso_geometria.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G02_variabilidade_recurso",
+    "category": "graficos",
+    "subsections": [
+      "1.3"
+    ],
+    "title": "Variabilidade diária do recurso solar",
+    "caption": "Integração somente nos intervalos diurnos pareados. Oscilações não identificam isoladamente nuvens, aerossóis ou vapor d’água.",
+    "refs": [
+      "R01",
+      "R12"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G02_variabilidade_recurso.pdf",
+        "png": "outputs/graficos/claro/png/G02_variabilidade_recurso.png",
+        "preview": "outputs/_previews/claro/G02_variabilidade_recurso.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G02_variabilidade_recurso.pdf",
+        "png": "outputs/graficos/escuro/png/G02_variabilidade_recurso.png",
+        "preview": "outputs/_previews/escuro/G02_variabilidade_recurso.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G03_condicoes_ambientais",
+    "category": "graficos",
+    "subsections": [
+      "2.1"
+    ],
+    "title": "Distribuições das condições ambientais",
+    "caption": "Temperatura do ar e vento medidos; mesma janela diurna pareada da avaliação elétrica. Sem interpolação.",
+    "refs": [
+      "R01",
+      "R07"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G03_condicoes_ambientais.pdf",
+        "png": "outputs/graficos/claro/png/G03_condicoes_ambientais.png",
+        "preview": "outputs/_previews/claro/G03_condicoes_ambientais.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G03_condicoes_ambientais.pdf",
+        "png": "outputs/graficos/escuro/png/G03_condicoes_ambientais.png",
+        "preview": "outputs/_previews/escuro/G03_condicoes_ambientais.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G04_temperatura_estimada",
+    "category": "graficos",
+    "subsections": [
+      "2.1",
+      "3.2"
+    ],
+    "title": "Resposta térmica estimada pelo modelo",
+    "caption": "Elevação térmica por Faiman com U₀=25 W/(m² K) e U₁=6,84 W s/(m³ K). Temperatura operacional usada como aproximação da célula; sem medição térmica independente.",
+    "refs": [
+      "R07"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G04_temperatura_estimada.pdf",
+        "png": "outputs/graficos/claro/png/G04_temperatura_estimada.png",
+        "preview": "outputs/_previews/claro/G04_temperatura_estimada.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G04_temperatura_estimada.pdf",
+        "png": "outputs/graficos/escuro/png/G04_temperatura_estimada.png",
+        "preview": "outputs/_previews/escuro/G04_temperatura_estimada.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G05_curvas_irradiancia",
+    "category": "graficos",
+    "subsections": [
+      "3.3"
+    ],
+    "title": "Curvas elétricas para diferentes irradiâncias",
+    "caption": "Temperatura fixa de 25 °C; modelo de diodo único com parâmetros CEC do módulo. Círculos indicam MPP. Curvas calculadas, não ensaios I–V da instalação.",
+    "refs": [
+      "R08",
+      "R10"
+    ],
+    "status": "curvas calculadas",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G05_curvas_irradiancia.pdf",
+        "png": "outputs/graficos/claro/png/G05_curvas_irradiancia.png",
+        "preview": "outputs/_previews/claro/G05_curvas_irradiancia.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G05_curvas_irradiancia.pdf",
+        "png": "outputs/graficos/escuro/png/G05_curvas_irradiancia.png",
+        "preview": "outputs/_previews/escuro/G05_curvas_irradiancia.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G06_curvas_temperatura",
+    "category": "graficos",
+    "subsections": [
+      "3.3"
+    ],
+    "title": "Curvas elétricas para diferentes temperaturas",
+    "caption": "Irradiância fixa de 1.000 W/m²; modelo de diodo único com parâmetros CEC do módulo. Círculos indicam MPP. Curvas calculadas, não ensaios I–V da instalação.",
+    "refs": [
+      "R08",
+      "R10"
+    ],
+    "status": "curvas calculadas",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G06_curvas_temperatura.pdf",
+        "png": "outputs/graficos/claro/png/G06_curvas_temperatura.png",
+        "preview": "outputs/_previews/claro/G06_curvas_temperatura.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G06_curvas_temperatura.pdf",
+        "png": "outputs/graficos/escuro/png/G06_curvas_temperatura.png",
+        "preview": "outputs/_previews/escuro/G06_curvas_temperatura.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G07_inversor",
+    "category": "graficos",
+    "subsections": [
+      "3.5"
+    ],
+    "title": "Eficiência e limitação de potência do inversor",
+    "caption": "Curva PVWatts com limite assumido de 30 kW por inversor e η nominal de 98%. O valor de pdc0 do inversor é Paco/ηnom; não é a potência STC do arranjo. Configuração real do limite AC ainda não comprovada.",
+    "refs": [
+      "R11",
+      "R13"
+    ],
+    "status": "modelo de inversor e limite assumido",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G07_inversor.pdf",
+        "png": "outputs/graficos/claro/png/G07_inversor.png",
+        "preview": "outputs/_previews/claro/G07_inversor.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G07_inversor.pdf",
+        "png": "outputs/graficos/escuro/png/G07_inversor.png",
+        "preview": "outputs/_previews/escuro/G07_inversor.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G08_series_potencia",
+    "category": "graficos",
+    "subsections": [
+      "3.6",
+      "4.4"
+    ],
+    "title": "Potência em dias de menor e maior variabilidade",
+    "caption": "Dias 2024-05-17 e 2024-05-04. Seleção pelo passo absoluto médio da POA dividido por sua média, com cobertura ≥99%; sem seleção pelo erro do modelo. Mesmos intervalos medidos/simulados.",
+    "refs": [
+      "R01",
+      "R08",
+      "R11"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G08_series_potencia.pdf",
+        "png": "outputs/graficos/claro/png/G08_series_potencia.png",
+        "preview": "outputs/_previews/claro/G08_series_potencia.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G08_series_potencia.pdf",
+        "png": "outputs/graficos/escuro/png/G08_series_potencia.png",
+        "preview": "outputs/_previews/escuro/G08_series_potencia.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G09_energia_diaria",
+    "category": "graficos",
+    "subsections": [
+      "3.6",
+      "4.4"
+    ],
+    "title": "Energia diária em intervalos pareados",
+    "caption": "Soma de potência média × 0,25 h sobre intervalos com os mesmos dados disponíveis. Não é a energia observada do dia inteiro.",
+    "refs": [
+      "R12"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G09_energia_diaria.pdf",
+        "png": "outputs/graficos/claro/png/G09_energia_diaria.png",
+        "preview": "outputs/_previews/claro/G09_energia_diaria.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G09_energia_diaria.pdf",
+        "png": "outputs/graficos/escuro/png/G09_energia_diaria.png",
+        "preview": "outputs/_previews/escuro/G09_energia_diaria.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G10_energia_mensal",
+    "category": "graficos",
+    "subsections": [
+      "3.6"
+    ],
+    "title": "Energia mensal na janela de comparação",
+    "caption": "Energia simulada e observada calculadas sobre a mesma máscara diurna pareada. Totais integrais medidos do mês são fornecidos separadamente nas tabelas.",
+    "refs": [
+      "R12"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G10_energia_mensal.pdf",
+        "png": "outputs/graficos/claro/png/G10_energia_mensal.png",
+        "preview": "outputs/_previews/claro/G10_energia_mensal.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G10_energia_mensal.pdf",
+        "png": "outputs/graficos/escuro/png/G10_energia_mensal.png",
+        "preview": "outputs/_previews/escuro/G10_energia_mensal.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G11_cadeia_energetica",
+    "category": "graficos",
+    "subsections": [
+      "4.1"
+    ],
+    "title": "Cadeia de energia calculada",
+    "caption": "Estágios integrados na mesma janela. Diferenças são decomposição do modelo, não identificação independente das perdas reais. Ganhos relativos sob frio não são forçados a perdas positivas.",
+    "refs": [
+      "R08",
+      "R11",
+      "R12"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G11_cadeia_energetica.pdf",
+        "png": "outputs/graficos/claro/png/G11_cadeia_energetica.png",
+        "preview": "outputs/_previews/claro/G11_cadeia_energetica.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G11_cadeia_energetica.pdf",
+        "png": "outputs/graficos/escuro/png/G11_cadeia_energetica.png",
+        "preview": "outputs/_previews/escuro/G11_cadeia_energetica.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G12_produtividades_PR",
+    "category": "graficos",
+    "subsections": [
+      "4.2",
+      "4.3"
+    ],
+    "title": "Produtividades e razão de desempenho",
+    "caption": "Normalização por 893 kWp declarados. Yr, Ya e Yf estão na mesma janela pareada; Ya é modelada. Numericamente, kWh/kWp corresponde a horas equivalentes. PR observado não representa automaticamente todo o trimestre.",
+    "refs": [
+      "R12",
+      "R30"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G12_produtividades_PR.pdf",
+        "png": "outputs/graficos/claro/png/G12_produtividades_PR.png",
+        "preview": "outputs/_previews/claro/G12_produtividades_PR.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G12_produtividades_PR.pdf",
+        "png": "outputs/graficos/escuro/png/G12_produtividades_PR.png",
+        "preview": "outputs/_previews/escuro/G12_produtividades_PR.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G13_validacao",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Comparação entre potência simulada e medida",
+    "caption": "Modelo físico original, sem ajuste empírico; 4.401 pares diurnos. R²=1−SSE/SST e r calculado separadamente. nRMSE normalizado pela média observada dos pares.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G13_validacao.pdf",
+        "png": "outputs/graficos/claro/png/G13_validacao.png",
+        "preview": "outputs/_previews/claro/G13_validacao.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G13_validacao.pdf",
+        "png": "outputs/graficos/escuro/png/G13_validacao.png",
+        "preview": "outputs/_previews/escuro/G13_validacao.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G14_residuos_temporais",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Resíduos ao longo do trimestre",
+    "caption": "Resíduo = potência simulada − medida, sobre os pares diurnos. Valores positivos representam superestimação. Nenhum ponto foi removido pelo tamanho do erro.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G14_residuos_temporais.pdf",
+        "png": "outputs/graficos/claro/png/G14_residuos_temporais.png",
+        "preview": "outputs/_previews/claro/G14_residuos_temporais.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G14_residuos_temporais.pdf",
+        "png": "outputs/graficos/escuro/png/G14_residuos_temporais.png",
+        "preview": "outputs/_previews/escuro/G14_residuos_temporais.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G15_residuos_potencia",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Resíduos em função da potência observada",
+    "caption": "Diagnóstico de dependência do erro com o nível de potência; não identifica isoladamente causas operacionais, ópticas ou térmicas.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G15_residuos_potencia.pdf",
+        "png": "outputs/graficos/claro/png/G15_residuos_potencia.png",
+        "preview": "outputs/_previews/claro/G15_residuos_potencia.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G15_residuos_potencia.pdf",
+        "png": "outputs/graficos/escuro/png/G15_residuos_potencia.png",
+        "preview": "outputs/_previews/escuro/G15_residuos_potencia.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G16_distribuicao_residuos",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Distribuição dos resíduos",
+    "caption": "Histograma dos mesmos 4.401 resíduos. MBE mantém o sinal; MAE e RMSE resumem magnitudes diferentes do erro e são apresentados em tabela.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G16_distribuicao_residuos.pdf",
+        "png": "outputs/graficos/claro/png/G16_distribuicao_residuos.png",
+        "preview": "outputs/_previews/claro/G16_distribuicao_residuos.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G16_distribuicao_residuos.pdf",
+        "png": "outputs/graficos/escuro/png/G16_distribuicao_residuos.png",
+        "preview": "outputs/_previews/escuro/G16_distribuicao_residuos.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G17_metricas_mensais",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Erros mensais do modelo físico",
+    "caption": "Mesma definição de erro; normalização pela média observada de cada mês. n e cobertura estão nas tabelas. Modelos com ajuste empírico são relatados separadamente.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G17_metricas_mensais.pdf",
+        "png": "outputs/graficos/claro/png/G17_metricas_mensais.png",
+        "preview": "outputs/_previews/claro/G17_metricas_mensais.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G17_metricas_mensais.pdf",
+        "png": "outputs/graficos/escuro/png/G17_metricas_mensais.png",
+        "preview": "outputs/_previews/escuro/G17_metricas_mensais.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G18_vies_horario",
+    "category": "graficos",
+    "subsections": [
+      "4.4"
+    ],
+    "title": "Viés por hora local e tamanho da amostra",
+    "caption": "Médias condicionadas à janela diurna selecionada; cada faixa tem n e cobertura próprios. O padrão horário não prova uma causa única.",
+    "refs": [
+      "R27"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G18_vies_horario.pdf",
+        "png": "outputs/graficos/claro/png/G18_vies_horario.png",
+        "preview": "outputs/_previews/claro/G18_vies_horario.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G18_vies_horario.pdf",
+        "png": "outputs/graficos/escuro/png/G18_vies_horario.png",
+        "preview": "outputs/_previews/escuro/G18_vies_horario.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G19_consistencia_medicoes",
+    "category": "graficos",
+    "subsections": [
+      "1.4",
+      "4.4"
+    ],
+    "title": "Consistência entre referências elétricas",
+    "caption": "Comparação entre dois registros observacionais locais; não é previsão do modelo. Divergências entre medidor e inversores integram os limites da referência.",
+    "refs": [
+      "R01",
+      "R25"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G19_consistencia_medicoes.pdf",
+        "png": "outputs/graficos/claro/png/G19_consistencia_medicoes.png",
+        "preview": "outputs/_previews/claro/G19_consistencia_medicoes.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G19_consistencia_medicoes.pdf",
+        "png": "outputs/graficos/escuro/png/G19_consistencia_medicoes.png",
+        "preview": "outputs/_previews/escuro/G19_consistencia_medicoes.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G20_sujidade_ventilacao",
+    "category": "graficos",
+    "subsections": [
+      "2.1",
+      "2.3"
+    ],
+    "title": "Sensibilidade à sujidade e à ventilação",
+    "caption": "Cenários, não perdas medidas. Sujidade representa atenuação adicional do módulo em relação à leitura POA; considerar a condição do sensor evita dupla contagem. Ventilação reduzida usa U₀=15 e U₁=3.",
+    "refs": [
+      "R07",
+      "R28"
+    ],
+    "status": "cenários hipotéticos",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G20_sujidade_ventilacao.pdf",
+        "png": "outputs/graficos/claro/png/G20_sujidade_ventilacao.png",
+        "preview": "outputs/_previews/claro/G20_sujidade_ventilacao.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G20_sujidade_ventilacao.pdf",
+        "png": "outputs/graficos/escuro/png/G20_sujidade_ventilacao.png",
+        "preview": "outputs/_previews/escuro/G20_sujidade_ventilacao.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G21_HSP_POA_pareada",
+    "category": "graficos",
+    "subsections": [
+      "4.2"
+    ],
+    "title": "Horas equivalentes de sol na janela pareada",
+    "caption": "HSP/PSH=H_POA/(1 kW/m²), correspondente a Yr na janela. Não é duração medida de brilho solar nem HSP integral do dia. A cobertura diária está no CSV.",
+    "refs": [
+      "R12",
+      "R30"
+    ],
+    "status": "medição e modelo identificados",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G21_HSP_POA_pareada.pdf",
+        "png": "outputs/graficos/claro/png/G21_HSP_POA_pareada.png",
+        "preview": "outputs/_previews/claro/G21_HSP_POA_pareada.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G21_HSP_POA_pareada.pdf",
+        "png": "outputs/graficos/escuro/png/G21_HSP_POA_pareada.png",
+        "preview": "outputs/_previews/escuro/G21_HSP_POA_pareada.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G22_albedo",
+    "category": "graficos",
+    "subsections": [
+      "2.2",
+      "3.1"
+    ],
+    "title": "Sensibilidade ao albedo assumido",
+    "caption": "Transposição das mesmas componentes reconstruídas com albedo-base 0,20. A variação isola o parâmetro da transposição e não valida albedo. Apenas 1.037 horas elegíveis; não é trimestre integral. A POA medida da cadeia principal não recebe reflexão novamente.",
+    "refs": [
+      "R14",
+      "R15",
+      "R29"
+    ],
+    "status": "componentes estimadas e hipótese de albedo",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G22_albedo.pdf",
+        "png": "outputs/graficos/claro/png/G22_albedo.png",
+        "preview": "outputs/_previews/claro/G22_albedo.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G22_albedo.pdf",
+        "png": "outputs/graficos/escuro/png/G22_albedo.png",
+        "preview": "outputs/_previews/escuro/G22_albedo.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G23_componentes_estimadas",
+    "category": "graficos",
+    "subsections": [
+      "1.2",
+      "3.1"
+    ],
+    "title": "Componentes reconstruídas da POA",
+    "caption": "Exemplo de 2024-05-17, em horas elegíveis. Driesse 2024 e Erbs–Driesse; não são três sensores independentes. O fechamento pelo modelo não prova exatidão das componentes.",
+    "refs": [
+      "R14",
+      "R15",
+      "R16",
+      "R18"
+    ],
+    "status": "estimativa exploratória",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G23_componentes_estimadas.pdf",
+        "png": "outputs/graficos/claro/png/G23_componentes_estimadas.png",
+        "preview": "outputs/_previews/claro/G23_componentes_estimadas.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G23_componentes_estimadas.pdf",
+        "png": "outputs/graficos/escuro/png/G23_componentes_estimadas.png",
+        "preview": "outputs/_previews/escuro/G23_componentes_estimadas.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G24_BIPV_orientacoes",
+    "category": "graficos",
+    "subsections": [
+      "2.4",
+      "4.5"
+    ],
+    "title": "Cenários de orientação e integração",
+    "caption": "Mesmo recorte de componentes estimadas, meteorologia e capacidade de normalização. Cenários verticais incluem menor ventilação; portanto a comparação combina orientação e condição térmica. Sem medições de fachada.",
+    "refs": [
+      "R14",
+      "R19"
+    ],
+    "status": "cenários BIPV, 1.037 horas elegíveis",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G24_BIPV_orientacoes.pdf",
+        "png": "outputs/graficos/claro/png/G24_BIPV_orientacoes.png",
+        "preview": "outputs/_previews/claro/G24_BIPV_orientacoes.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G24_BIPV_orientacoes.pdf",
+        "png": "outputs/graficos/escuro/png/G24_BIPV_orientacoes.png",
+        "preview": "outputs/_previews/escuro/G24_BIPV_orientacoes.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "G25_BIPV_balanco",
+    "category": "graficos",
+    "subsections": [
+      "4.5"
+    ],
+    "title": "Partição solar do exemplo semitransparente",
+    "caption": "Área hipotética de 100 m²; ρsolar=0,12, τsolar=0,25, α=0,63, eficiência de referência=0,10. Soma das cinco parcelas igual à energia incidente. SHGC equivalente simplificado, sem certificação.",
+    "refs": [
+      "R19",
+      "R20"
+    ],
+    "status": "balanço solar hipotético",
+    "files": {
+      "claro": {
+        "pdf": "outputs/graficos/claro/pdf/G25_BIPV_balanco.pdf",
+        "png": "outputs/graficos/claro/png/G25_BIPV_balanco.png",
+        "preview": "outputs/_previews/claro/G25_BIPV_balanco.png"
+      },
+      "escuro": {
+        "pdf": "outputs/graficos/escuro/pdf/G25_BIPV_balanco.pdf",
+        "png": "outputs/graficos/escuro/png/G25_BIPV_balanco.png",
+        "preview": "outputs/_previews/escuro/G25_BIPV_balanco.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "FL01_fluxo_projeto",
+    "category": "fluxogramas",
+    "subsections": [
+      "1.4",
+      "3.1",
+      "4.4",
+      "4.5"
+    ],
+    "title": "Fluxo do estudo com medições locais",
+    "caption": "As observações AC são referência para comparação, não entrada da previsão física. Controle de qualidade e pareamento precedem a análise. Setas tracejadas identificam a extensão exploratória.",
+    "refs": [
+      "R01",
+      "R09",
+      "R14"
+    ],
+    "status": "esquema do método",
+    "files": {
+      "claro": {
+        "pdf": "outputs/fluxogramas/claro/pdf/FL01_fluxo_projeto.pdf",
+        "png": "outputs/fluxogramas/claro/png/FL01_fluxo_projeto.png",
+        "preview": "outputs/_previews/claro/FL01_fluxo_projeto.png"
+      },
+      "escuro": {
+        "pdf": "outputs/fluxogramas/escuro/pdf/FL01_fluxo_projeto.pdf",
+        "png": "outputs/fluxogramas/escuro/png/FL01_fluxo_projeto.png",
+        "preview": "outputs/_previews/escuro/FL01_fluxo_projeto.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "F01_plano_angulos",
+    "category": "figuras",
+    "subsections": [
+      "1.1",
+      "2.4",
+      "3.1"
+    ],
+    "title": "Plano do arranjo e convenções angulares",
+    "caption": "Corte coplanar didático: β=25° documentado; θz=55° e θi=30° são valores ilustrativos coerentes nesse corte. Abaixo, azimute medido a partir do norte no sentido horário; arranjo orientado ao sul. Não é um levantamento tridimensional da usina.",
+    "refs": [
+      "R03",
+      "R09"
+    ],
+    "status": "geometria documentada e exemplo solar hipotético",
+    "files": {
+      "claro": {
+        "pdf": "outputs/figuras/claro/pdf/F01_plano_angulos.pdf",
+        "png": "outputs/figuras/claro/png/F01_plano_angulos.png",
+        "preview": "outputs/_previews/claro/F01_plano_angulos.png"
+      },
+      "escuro": {
+        "pdf": "outputs/figuras/escuro/pdf/F01_plano_angulos.pdf",
+        "png": "outputs/figuras/escuro/png/F01_plano_angulos.png",
+        "preview": "outputs/_previews/escuro/F01_plano_angulos.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "F02_componentes_POA",
+    "category": "figuras",
+    "subsections": [
+      "1.2",
+      "2.2",
+      "3.1"
+    ],
+    "title": "Componentes incidentes no plano do módulo",
+    "caption": "Representação esquemática das contribuições à POA. Não atribui medições locais de GHI/DNI/DHI nem albedo. O sensor POA da cadeia principal já recebe a contribuição refletida do entorno.",
+    "refs": [
+      "R06",
+      "R29"
+    ],
+    "status": "esquema radiativo",
+    "files": {
+      "claro": {
+        "pdf": "outputs/figuras/claro/pdf/F02_componentes_POA.pdf",
+        "png": "outputs/figuras/claro/png/F02_componentes_POA.png",
+        "preview": "outputs/_previews/claro/F02_componentes_POA.png"
+      },
+      "escuro": {
+        "pdf": "outputs/figuras/escuro/pdf/F02_componentes_POA.pdf",
+        "png": "outputs/figuras/escuro/png/F02_componentes_POA.png",
+        "preview": "outputs/_previews/escuro/F02_componentes_POA.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "F03_arranjo_eletrico",
+    "category": "figuras",
+    "subsections": [
+      "3.3",
+      "3.4",
+      "3.5"
+    ],
+    "title": "Organização elétrica do sistema de referência",
+    "caption": "Número de módulos, inversores e módulos por grupo documentados. Associação 20 em série por 6 strings é um equivalente didático de 120 módulos, não confirmação da fiação/MPPT real. Tensões e correntes desse equivalente são calculadas em CSV.",
+    "refs": [
+      "R01",
+      "R10",
+      "R13"
+    ],
+    "status": "metadados e associação equivalente hipotética",
+    "files": {
+      "claro": {
+        "pdf": "outputs/figuras/claro/pdf/F03_arranjo_eletrico.pdf",
+        "png": "outputs/figuras/claro/png/F03_arranjo_eletrico.png",
+        "preview": "outputs/_previews/claro/F03_arranjo_eletrico.png"
+      },
+      "escuro": {
+        "pdf": "outputs/figuras/escuro/pdf/F03_arranjo_eletrico.pdf",
+        "png": "outputs/figuras/escuro/png/F03_arranjo_eletrico.png",
+        "preview": "outputs/_previews/escuro/F03_arranjo_eletrico.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  },
+  {
+    "id": "F04_geometrias_BIPV",
+    "category": "figuras",
+    "subsections": [
+      "2.4",
+      "4.5"
+    ],
+    "title": "Arranjo inclinado e extensão de fachada",
+    "caption": "Comparação geométrica didática. A fachada e suas propriedades semitransparentes são hipotéticas. O painel inclinado corresponde à referência geométrica; não existe fachada BIPV monitorada nos dados.",
+    "refs": [
+      "R19",
+      "R20"
+    ],
+    "status": "esquema BIPV hipotético",
+    "files": {
+      "claro": {
+        "pdf": "outputs/figuras/claro/pdf/F04_geometrias_BIPV.pdf",
+        "png": "outputs/figuras/claro/png/F04_geometrias_BIPV.png",
+        "preview": "outputs/_previews/claro/F04_geometrias_BIPV.png"
+      },
+      "escuro": {
+        "pdf": "outputs/figuras/escuro/pdf/F04_geometrias_BIPV.pdf",
+        "png": "outputs/figuras/escuro/png/F04_geometrias_BIPV.png",
+        "preview": "outputs/_previews/escuro/F04_geometrias_BIPV.png"
+      }
+    },
+    "source": "elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).",
+    "same_numeric_geometry_between_themes": true
+  }
+]

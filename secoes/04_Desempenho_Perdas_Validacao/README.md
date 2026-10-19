@@ -1,30 +1,47 @@
-# Seção 4 Desempenho, perdas e validação
+# 4 Avaliação de desempenho, perdas e validação da modelagem
 
-Responsáveis: Júlia Ribeiro e Lucas Simão.
+Responsáveis: **Júlia Ribeiro e Lucas Simão**.
 
-Estudo comum: PVDAQ 2107, abril a junho de 2024, configuração v1.2.2.
+Como o desempenho de um sistema fotovoltaico é quantificado, como suas perdas são decompostas e quão bem o modelo reproduz o comportamento observado?
 
-Esta seção tem 41 documentos disponíveis. A leitura começa pelas fontes abaixo; a escolha é uma recomendação para o grupo.
-
-| ID | Referência de partida | PDF no Drive |
+| Subseção oficial | Responsável | Referências prioritárias |
 | --- | --- | --- |
-| A066 | Performance Parameters for Grid-Connected PV Systems — NREL/CP-520-37358 | [Abrir](https://drive.google.com/file/d/15ZaaNMcrWZfLthGDZ0_Sxrq3xOFRI6iw/view?usp=drivesdk) |
-| A087 | Weather-corrected performance ratio | [Abrir](https://drive.google.com/file/d/1k9dUnVE863CbNtEv7AZMnPnnh8Sk-9Wk/view?usp=drivesdk) |
-| A075 | Root mean square error (RMSE) or mean absolute error (MAE)? Arguments against avoiding RMSE in the literature | [Abrir](https://drive.google.com/file/d/1sa701Mfu5c9f0dEdcvRChFAhaUbMA0YC/view?usp=drivesdk) |
-| A074 | A key review of building integrated photovoltaic (BIPV) systems | [Abrir](https://drive.google.com/file/d/19_7zGwhQGzAqGoasrKZx4YHQ9tTYIlP3/view?usp=drivesdk) |
-| A080 | Semi-transparent building integrated photovoltaic solar glazing: Investigations of electrical and optical performances for window applications in tropical region | [Abrir](https://drive.google.com/file/d/1F6au87oPtnyrllsdkI676tiGFqmNTvL3/view?usp=drivesdk) |
-| A093 | Guidelines for Operation and Maintenance of Photovoltaic Power Plants in Different Climates | [Abrir](https://drive.google.com/file/d/1JkV1fvnGZ0aySPwWkC8aCKx1ECzP4qGN/view?usp=drivesdk) |
+| [4.1 Balanço energético e cadeia de perdas](subsecoes/4_1/README.md) | Júlia Ribeiro | [B08](../../bibliografia/principal/README.md#b08), [B17](../../bibliografia/principal/README.md#b17), [B20](../../bibliografia/principal/README.md#b20), [B21](../../bibliografia/principal/README.md#b21), [B22](../../bibliografia/principal/README.md#b22), [B26](../../bibliografia/principal/README.md#b26) |
+| [4.2 Produtividades de referência, do arranjo e final](subsecoes/4_2/README.md) | Lucas Simão | [B12](../../bibliografia/principal/README.md#b12), [B20](../../bibliografia/principal/README.md#b20), [B22](../../bibliografia/principal/README.md#b22), [B33](../../bibliografia/principal/README.md#b33) |
+| [4.3 Razão de desempenho (Performance Ratio](subsecoes/4_3/README.md) | Lucas Simão | [B09](../../bibliografia/principal/README.md#b09), [B12](../../bibliografia/principal/README.md#b12), [B20](../../bibliografia/principal/README.md#b20), [B22](../../bibliografia/principal/README.md#b22), [B33](../../bibliografia/principal/README.md#b33) |
+| [4.4 Validação de modelos de geração fotovoltaica](subsecoes/4_4/README.md) | Lucas Simão | [B07](../../bibliografia/principal/README.md#b07), [B26](../../bibliografia/principal/README.md#b26), [B39](../../bibliografia/principal/README.md#b39) |
+| [4.5 Avaliação de desempenho de sistemas fotovoltaicos integrados à edificação (BIPV)](subsecoes/4_5/README.md) | Júlia Ribeiro | [B02](../../bibliografia/principal/README.md#b02), [B05](../../bibliografia/principal/README.md#b05), [B11](../../bibliografia/principal/README.md#b11), [B16](../../bibliografia/principal/README.md#b16), [B18](../../bibliografia/principal/README.md#b18), [B20](../../bibliografia/principal/README.md#b20) |
 
-Abra [referências por tipo](referencias/LEIA_ME.md), [figuras e legendas](figuras/README.md), [tabelas](tabelas/README.md) e [roteiro de texto](texto.md). Consulte a [matriz das 19 subseções](../../docs/Matriz_19_Subsecoes.md) para entradas, métodos e limites.
+## Materiais da seção
 
-Não é necessário executar o pipeline para ler PDFs ou consultar os resultados salvos no Drive. Mudanças no cálculo usam o código comum na raiz. A redação e a revisão da seção acontecem neste repositório. Use texto.md como ponto de partida para desenvolver o texto; proponha as alterações por uma branch e uma proposta de alteração (pull request).
+| Coleção | Acesso |
+| --- | --- |
+| figuras | [Abrir figuras](figuras/README.md) |
+| graficos | [Abrir graficos](graficos/README.md) |
+| tabelas | [Abrir tabelas](tabelas/README.md) |
+| quadros | [Abrir quadros](quadros/README.md) |
+| documentos | [Abrir documentos](documentos/README.md) |
+| referencias | [Abrir referencias](referencias/README.md) |
 
-## Base técnica compartilhada
+## Ilustrações pertinentes
 
-- [Dados preparados](../../data/processed/README.md).
-- [Equipamentos e canais](../../data/equipamentos/README.md).
-- [Resultados e validação](../../outputs/README.md).
-- [Configuração executável](../../config/projeto.json).
-- [Proposta e cronograma](../../docs/planejamento/README.md).
+| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+| --- | --- | --- | --- |
+| G08_series_potencia — Potência em dias de menor e maior variabilidade | 3.6; 4.4 | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.png) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.png) | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.pdf) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.pdf) |
+| G09_energia_diaria — Energia diária em intervalos pareados | 3.6; 4.4 | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.png) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.png) | [Claro](../03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.pdf) / [Escuro](../03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.pdf) |
+| G11_cadeia_energetica — Cadeia de energia calculada | 4.1 | [Claro](graficos/claro/G11_cadeia_energetica.png) / [Escuro](graficos/escuro/G11_cadeia_energetica.png) | [Claro](graficos/claro/G11_cadeia_energetica.pdf) / [Escuro](graficos/escuro/G11_cadeia_energetica.pdf) |
+| G12_produtividades_PR — Produtividades e razão de desempenho | 4.2; 4.3 | [Claro](graficos/claro/G12_produtividades_PR.png) / [Escuro](graficos/escuro/G12_produtividades_PR.png) | [Claro](graficos/claro/G12_produtividades_PR.pdf) / [Escuro](graficos/escuro/G12_produtividades_PR.pdf) |
+| G13_validacao — Comparação entre potência simulada e medida | 4.4 | [Claro](graficos/claro/G13_validacao.png) / [Escuro](graficos/escuro/G13_validacao.png) | [Claro](graficos/claro/G13_validacao.pdf) / [Escuro](graficos/escuro/G13_validacao.pdf) |
+| G14_residuos_temporais — Resíduos ao longo do trimestre | 4.4 | [Claro](graficos/claro/G14_residuos_temporais.png) / [Escuro](graficos/escuro/G14_residuos_temporais.png) | [Claro](graficos/claro/G14_residuos_temporais.pdf) / [Escuro](graficos/escuro/G14_residuos_temporais.pdf) |
+| G15_residuos_potencia — Resíduos em função da potência observada | 4.4 | [Claro](graficos/claro/G15_residuos_potencia.png) / [Escuro](graficos/escuro/G15_residuos_potencia.png) | [Claro](graficos/claro/G15_residuos_potencia.pdf) / [Escuro](graficos/escuro/G15_residuos_potencia.pdf) |
+| G16_distribuicao_residuos — Distribuição dos resíduos | 4.4 | [Claro](graficos/claro/G16_distribuicao_residuos.png) / [Escuro](graficos/escuro/G16_distribuicao_residuos.png) | [Claro](graficos/claro/G16_distribuicao_residuos.pdf) / [Escuro](graficos/escuro/G16_distribuicao_residuos.pdf) |
+| G17_metricas_mensais — Erros mensais do modelo físico | 4.4 | [Claro](graficos/claro/G17_metricas_mensais.png) / [Escuro](graficos/escuro/G17_metricas_mensais.png) | [Claro](graficos/claro/G17_metricas_mensais.pdf) / [Escuro](graficos/escuro/G17_metricas_mensais.pdf) |
+| G18_vies_horario — Viés por hora local e tamanho da amostra | 4.4 | [Claro](graficos/claro/G18_vies_horario.png) / [Escuro](graficos/escuro/G18_vies_horario.png) | [Claro](graficos/claro/G18_vies_horario.pdf) / [Escuro](graficos/escuro/G18_vies_horario.pdf) |
+| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png) / [Escuro](../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png) | [Claro](../01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](../01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf) |
+| G21_HSP_POA_pareada — Horas equivalentes de sol na janela pareada | 4.2 | [Claro](graficos/claro/G21_HSP_POA_pareada.png) / [Escuro](graficos/escuro/G21_HSP_POA_pareada.png) | [Claro](graficos/claro/G21_HSP_POA_pareada.pdf) / [Escuro](graficos/escuro/G21_HSP_POA_pareada.pdf) |
+| G24_BIPV_orientacoes — Cenários de orientação e integração | 2.4; 4.5 | [Claro](../02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.png) / [Escuro](../02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.png) | [Claro](../02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.pdf) / [Escuro](../02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.pdf) |
+| G25_BIPV_balanco — Partição solar do exemplo semitransparente | 4.5 | [Claro](graficos/claro/G25_BIPV_balanco.png) / [Escuro](graficos/escuro/G25_BIPV_balanco.png) | [Claro](graficos/claro/G25_BIPV_balanco.pdf) / [Escuro](graficos/escuro/G25_BIPV_balanco.pdf) |
+| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](../01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](../01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
+| F04_geometrias_BIPV — Arranjo inclinado e extensão de fachada | 2.4; 4.5 | [Claro](../02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.png) / [Escuro](../02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png) | [Claro](../02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.pdf) / [Escuro](../02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf) |
 
-A matriz identifica as entradas, métodos, saídas e limites de cada uma das 19 subseções. O período e o modelo são comuns às quatro seções.
+[Início](../../README.md) · [Proposta oficial em Word](../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)

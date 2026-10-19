@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "measured_channels": 125,
+  "matched_metric_ids": 125,
+  "metadata_leaf_fields": 2224,
+  "metadata_name_aliases": 1,
+  "priority_unique_works": 39,
+  "covered_topics": 19,
+  "books": 3,
+  "main_notebook_executed_cells": 25,
+  "bibliography_notebook_executed_cells": 24,
+  "graph_document_figures": 30,
+  "small_electrical_parameters_preserved_in_scientific_notation": true,
+  "sources_actually_queried": [
+    "Crossref",
+    "OpenAlex"
+  ]
+}

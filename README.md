@@ -1,70 +1,49 @@
-# Recurso solar e modelagem da conversão fotovoltaica
+# SPGER0046 — Energias Renováveis | PPGER/UFPB
 
-Projeto da disciplina SPGER0046 Energias Renováveis, PPGER UFPB. Estrutura técnica organizada em 18/10/2026 com base no projeto computacional v1.2.2, na proposta oficial e no acervo disponível.
+[Baixar o projeto completo em ZIP](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip) · [Consultar a auditoria da entrega](docs/AUDITORIA_FINAL_PUBLICACAO.md)
 
-## Acesso aos arquivos e trabalho da equipe
+## Proposta oficial do capítulo
 
-O GitHub é o ambiente central de redação, revisão, código e organização deste projeto.
+**Recurso solar e modelagem da conversão fotovoltaica.** [Abrir / baixar a proposta original em Word](docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx) · [Matriz das 19 subseções](docs/Matriz_19_Subsecoes.md) · [Planejamento da equipe em Word](docs/planejamento/Plano_Equipe_SPGER0046.docx)
 
-- [Abrir os 91 documentos bibliográficos](references/Indice_Documentos.md).
-- [Abrir qualquer um dos 605 arquivos da pasta do projeto no Drive](docs/Acervo_Completo_Drive.md).
-- [Baixar os quatro CSVs originais completos](data/raw/README.md).
-- [Entender as contas, permissões e colaboração](docs/ACESSO_E_COLABORACAO.md).
+Como o recurso solar e as condições ambientais e de instalação são caracterizados e incorporados à modelagem para estimar a geração de energia elétrica e avaliar o desempenho de sistemas fotovoltaicos?
 
-Os links do Drive abrem as cópias dentro da pasta do projeto. A conferência individual de 19/10/2026 confirmou acesso por link nos 605 arquivos; a leitura dispensa login. Os CSVs originais possuem também links públicos oficiais. Para editar os arquivos do repositório, cada integrante precisa aceitar um convite na própria conta GitHub.
+## Quatro seções e responsáveis
 
-## Comece por sua seção
-
-| Seção | Responsáveis | Conteúdo |
+| Seção oficial | Responsáveis | Subseções |
 | --- | --- | --- |
-| [1 Recurso solar](secoes/01_Recurso_Solar/README.md) | Samuel | 1.1 a 1.4 |
-| [2 Condições ambientais](secoes/02_Condicoes_Ambientais/README.md) | Vannessa e Thais | 2.1 a 2.4 |
-| [3 Modelagem fotovoltaica](secoes/03_Modelagem_Fotovoltaica/README.md) | Gabriela e Giulia | 3.1 a 3.6 |
-| [4 Desempenho perdas e validação](secoes/04_Desempenho_Perdas_Validacao/README.md) | Júlia Ribeiro e Lucas Simão | 4.1 a 4.5 |
+| [1 — Fundamentos e caracterização do recurso solar](secoes/01_Recurso_Solar/README.md) | Samuel | [1.1](secoes/01_Recurso_Solar/subsecoes/1_1/README.md), [1.2](secoes/01_Recurso_Solar/subsecoes/1_2/README.md), [1.3](secoes/01_Recurso_Solar/subsecoes/1_3/README.md), [1.4](secoes/01_Recurso_Solar/subsecoes/1_4/README.md) |
+| [2 — Condições ambientais e de entorno da conversão fotovoltaica](secoes/02_Condicoes_Ambientais/README.md) | Vannessa e Thais | [2.1](secoes/02_Condicoes_Ambientais/subsecoes/2_1/README.md), [2.2](secoes/02_Condicoes_Ambientais/subsecoes/2_2/README.md), [2.3](secoes/02_Condicoes_Ambientais/subsecoes/2_3/README.md), [2.4](secoes/02_Condicoes_Ambientais/subsecoes/2_4/README.md) |
+| [3 — Modelagem da conversão fotovoltaica](secoes/03_Modelagem_Fotovoltaica/README.md) | Gabriela e Giulia | [3.1](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_1/README.md), [3.2](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_2/README.md), [3.3](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_3/README.md), [3.4](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md), [3.5](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_5/README.md), [3.6](secoes/03_Modelagem_Fotovoltaica/subsecoes/3_6/README.md) |
+| [4 — Avaliação de desempenho, perdas e validação da modelagem](secoes/04_Desempenho_Perdas_Validacao/README.md) | Júlia Ribeiro e Lucas Simão | [4.1](secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md), [4.2](secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_2/README.md), [4.3](secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_3/README.md), [4.4](secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_4/README.md), [4.5](secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md) |
 
-Cada seção contém roteiro, referências por tipo, índice de figuras e acesso às tabelas. Código, parâmetros e dados são comuns às quatro frentes.
+## Bibliografia principal — 39 referências B
 
-## Documentos que orientam o trabalho
+**[B01–B39: referências prioritárias, ABNT, PDFs e distribuição pelas subseções](bibliografia/principal/README.md)**
 
-- [Proposta oficial e cronograma](docs/planejamento/README.md).
-- [Matriz das 19 subseções](docs/Matriz_19_Subsecoes.md).
-- [Arquitetura técnica e execução](docs/ARQUITETURA_TECNICA.md).
-- [Dossiê técnico dos equipamentos e dados](docs/metodos/README.md).
-- [Plano da equipe](docs/Plano_Equipe_SPGER0046.md).
-- [Rotina de revisão](docs/Rotina_da_Equipe.md).
+[Baixar Referencias_por_Subsecao.docx](bibliografia/outputs/Referencias_por_Subsecao.docx) · [Correspondência B → A em CSV](bibliografia/principal/Correspondencia_B_A.csv) · [BibTeX](bibliografia/outputs/referencias_fundamentacao.bib) · [RIS](bibliografia/outputs/referencias_fundamentacao.ris)
 
-## Dados e resultados
+O levantamento encontrou 829 obras únicas, 295 associações temáticas, 102 associações prioritárias e 39 obras prioritárias distintas. A leitura integral está pendente; a seleção não constitui revisão sistemática concluída. B19, a edição específica de B20 e a norma N01 permanecem com pendências explicitadas no índice.
 
-O caso comum é Farm Solar Array, PVDAQ 2107, Arbuckle, Califórnia, de abril a junho de 2024. As entradas principais são POA, temperatura do ar e vento medidos junto à instalação. O modelo estima geração CA e a compara com o medidor local. NASA POWER fica fora da cadeia principal.
+## Materiais científicos disponíveis
 
-| Parte | Acesso |
+| Material | Acesso direto |
 | --- | --- |
-| Originais e fontes | [data/raw](data/raw/README.md) |
-| Equipamentos e 125 canais | [data/equipamentos](data/equipamentos/README.md) |
-| Meteorologia irradiância e medições preparadas | [data/processed](data/processed/README.md) |
-| Período e parâmetros | [config](config/README.md) |
-| Séries métricas tabelas e gráficos | [outputs](outputs/README.md) |
+| Documentos Word autorais | [Dez DOCX originais no GitHub](docs/README.md) |
+| Gráficos, figuras e fluxograma | [30 ilustrações: PNG 600 dpi e PDF, claro e escuro](figuras/README.md) |
+| Tabelas e quadros | [CSVs e tabelas Word](outputs/tabelas/README.md) · [Quadros Word](outputs/quadros/docx/Quadros_do_Projeto.docx) |
+| Resultados e relatório completo | [Abrir resultados](outputs/README.md) |
+| Dados originais e preparados | [Quatro CSVs originais](data/raw/README.md) · [Dados preparados](data/processed/README.md) |
+| Equipamentos e parâmetros | [Dossiê técnico Word](docs/metodos/Dossie_Tecnico_por_Secao.docx) · [125 canais e inventários](data/equipamentos/README.md) |
+| Notebooks e reprodução | [Execução, originais e dependências](docs/REPRODUTIBILIDADE.md) |
+| Auditoria de publicação | [Relatório, inventários, hashes e verificações](docs/AUDITORIA_FINAL_PUBLICACAO.md) |
 
-Há 91 documentos bibliográficos distintos e 160 cópias nas pastas do Drive: 63 artigos, 9 livros, 3 dissertações, 3 teses, 12 relatórios/manuais e 1 TCC. Nenhuma norma técnica disponível. [Inventário](references/acervo_disponivel.csv) e [catálogo por seção](references/distribuicao_por_secao.csv). Os PDFs ficam no Drive; o acesso depende das permissões das pastas.
+O caso de estudo é PVDAQ 2107, Farm Solar Array, Arbuckle, Califórnia, abril–junho de 2024. Os resultados existentes foram preservados. Arquivos compartilhados têm uma cópia principal com links diretos nas seções e subseções.
 
-## Usar o projeto
+## Acervo complementar — códigos A
 
-Para consultar resultados e referências, abra os índices acima; não é necessário executar o código. Para calcular, instale requirements.txt em ambiente Python próprio. O leitor recupera os bytes oficiais descritos em data/raw/README.md e confere os hashes; os quatro CSVs também podem ser baixados individualmente pelos links daquela página.
+[91 documentos catalogados A001–A093, com links individuais](references/README.md). As obras B constituem a fundamentação prioritária. Os PDFs de terceiros permanecem externos enquanto a autorização de redistribuição pública não estiver comprovada.
 
-```bash
-python -m pip install -r requirements.txt
-python scripts/executar_projeto.py
-```
+## Trabalho colaborativo
 
-Para regenerar todas as figuras, acrescentar --graficos. O notebook principal fica em [notebooks/01_Projeto_FV_Quatro_Secoes.ipynb](notebooks/01_Projeto_FV_Quatro_Secoes.ipynb); o de literatura fica em [bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb](bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb). Os notebooks versionados estão sem saídas, enquanto os resultados numéricos pequenos já estão organizados em outputs. O [notebook executado no Drive](https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view) preserva a consulta anterior.
-
-## Conferências e limites
-
-O teste científico verifica integridade dos originais, STC, resposta térmica, conversão no inversor, definição de R², pareamento e conservação energética. A validação disponível é da saída CA da mesma instalação no trimestre. As componentes reconstruídas, temperatura operacional, strings equivalentes e fachada BIPV têm limitações documentadas.
-
-```bash
-python tests/verificar_ciencia.py
-python tests/verificar_organizacao.py
-```
-
-O grupo redige nos arquivos texto.md de cada seção e revisa as alterações no GitHub. A proposta original no Drive continua sendo o registro de escopo e cronograma. Mudanças de cálculo devem passar por uma branch curta e revisão por outro integrante. Os PDFs bibliográficos e demais documentos do Drive estão ligados pelos índices de acesso deste repositório. Credenciais não devem ser incluídas nos arquivos. A norma IEC pendente não foi tratada como obtida nem substituída por um relatório.
+[Como ler, baixar, editar e revisar](docs/ACESSO_E_COLABORACAO.md). O acesso público permite leitura e download; edição exige conta autorizada e convite aceito. Use branches e pull requests para preservar o histórico e a revisão da equipe.
