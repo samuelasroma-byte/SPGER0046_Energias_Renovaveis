@@ -1,8 +1,22 @@
 {
-  "version": "2026-10-19.1",
+  "version": "2026-10-19.2",
   "source_commit": "17ffe0eeb7d70876eabf222ec30fb828ee28d3c8",
+  "annotation_base_commit": "1c1c38375ae106b7c6317958ebebbd6ad0e94e9a",
   "title": "Inventário de equações do capítulo de recurso solar e conversão fotovoltaica",
-  "count_rule": "Uma relação numerada por linha. N transcreve o núcleo do notebook; C documenta relações complementares do código. Constantes parâmetros conversões de unidade máscaras e algoritmos internos das bibliotecas não recebem numeração editorial.",
+  "count_rule": "Uma relação numerada por linha. N indica fórmula escrita nas células de método; C explicita relação complementar do código. A classe de aplicação informa o uso efetivo e é independente de N/C. Constantes, parâmetros, conversões, máscaras e algoritmos internos das bibliotecas não recebem numeração editorial.",
+  "application_scope": "A previsão principal do modelo A usa POA medida, atenuação assumida, Faiman, CEC/diodo único, perdas CC, inversor PVWatts e perdas CA. Integração, estatísticas e indicadores avaliam os dados e as previsões. Geometria, transposição inversa, curvas ilustrativas, comparação CC PVWatts, ajuste empírico e balanço BIPV têm funções próprias identificadas por equação.",
+  "notation_conventions": [
+    "Símbolos e unidades são definidos por equação, incluindo o resultado e os índices. A unidade 1 indica grandeza adimensional; % indica apresentação percentual.",
+    "Ângulos são declarados em graus. Rotinas trigonométricas que recebem radianos exigem conversão. Azimutes partem do norte no sentido horário.",
+    "Em E1.04, G em W/m² e Δt em h produzem H em Wh/m²; o código divide por 1000 para kWh/m². Em E3.18, P em kW produz E em kWh; o código converte suas séries W por /1000.",
+    "Em E3.06, 1000 representa Gref=1000 W/m² e 25 representa 25 °C. Em E4.24, 25 também representa 25 °C. Os coeficientes da curva E3.14 são adimensionais.",
+    "U0 tem unidade W/(m²·K) e U1 tem W·s/(m³·K), de modo que Gef/(U0+U1v) é diferença de temperatura em K, numericamente igual a °C.",
+    "P0 é 893000 W em E4.03 e 893 kWp nos indicadores. Gref é 1000 W/m² na potência e 1 kW/m² na produtividade de referência.",
+    "ηref=0,9637 é referência da curva do inversor em E3.14; ηref=0,10 é hipótese de eficiência BIPV em E4.24. γ vem do módulo CEC em E3.06 e é assumido −0,0044 °C⁻¹ em E4.24.",
+    "Pa em E3.09 refere-se ao exemplo de 120 módulos; Pa em E3.10 é a potência bruta dos 2880 módulos do sistema. A associação 20×6 não comprova o cabeamento real.",
+    "Qabs, Qin e Qout no balanço BIPV designam potências em W. A integração dessas séries fornece energia; Q não representa joules nessas equações.",
+    "Nas métricas locais de potência, p, y e e estão em kW; metrics é genérica e conserva a unidade das séries recebidas. O ajuste k é calculado em W no código e é invariável sob conversão comum para kW."
+  ],
   "equations": [
     {
       "id": "E1.01",
@@ -11,7 +25,7 @@
       "title": "Ângulo zenital",
       "latex": "\\cos\\theta_z=\\sin\\varphi\\sin\\delta+\\cos\\varphi\\cos\\delta\\cos\\omega",
       "function": "Relacionar a posição do Sol à latitude e ao tempo solar.",
-      "symbols": "φ latitude; δ declinação; ω ângulo horário; θz zênite.",
+      "symbols": "θz: ângulo zenital solar [°]; φ: latitude do local [°]; δ: declinação solar [°]; ω: ângulo horário solar [°].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::geometry",
       "refs": [
@@ -23,7 +37,40 @@
       "notebook_fragment": "\\cos\\theta_z=\\sin\\varphi\\sin\\delta+\\cos\\varphi\\cos\\delta\\cos\\omega",
       "notebook_subsections": [
         "1.1"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "zenith",
+          "latex": "\\theta_z",
+          "symbol": "θz",
+          "description": "ângulo zenital solar",
+          "unit": "°"
+        },
+        {
+          "key": "latitude",
+          "latex": "\\varphi",
+          "symbol": "φ",
+          "description": "latitude do local",
+          "unit": "°"
+        },
+        {
+          "key": "declination",
+          "latex": "\\delta",
+          "symbol": "δ",
+          "description": "declinação solar",
+          "unit": "°"
+        },
+        {
+          "key": "hour_angle",
+          "latex": "\\omega",
+          "symbol": "ω",
+          "description": "ângulo horário solar",
+          "unit": "°"
+        }
+      ],
+      "application_class": "fundamento",
+      "application": "Fundamentação ou exemplo geométrico",
+      "code_correspondence": "geometry chama Location.get_solarposition (SPA); a identidade trigonométrica é a fundamentação, não uma segunda implementação de SPA."
     },
     {
       "id": "E1.02",
@@ -32,7 +79,7 @@
       "title": "Irradiância extraterrestre horizontal",
       "latex": "G_{0h}=G_{0n}\\max(\\cos\\theta_z,0)",
       "function": "Projetar a irradiância extraterrestre normal na horizontal.",
-      "symbols": "G0n e G0h em W/m².",
+      "symbols": "G0h: irradiância extraterrestre horizontal [W/m²]; G0n: irradiância extraterrestre normal [W/m²]; θz: ângulo zenital solar [°].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::geometry",
       "refs": [
@@ -44,7 +91,33 @@
       "notebook_fragment": "G_{0h}=G_{0n}\\max(\\cos\\theta_z,0)",
       "notebook_subsections": [
         "1.1"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "extra_h",
+          "latex": "G_{0h}",
+          "symbol": "G0h",
+          "description": "irradiância extraterrestre horizontal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "extra_n",
+          "latex": "G_{0n}",
+          "symbol": "G0n",
+          "description": "irradiância extraterrestre normal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "zenith",
+          "latex": "\\theta_z",
+          "symbol": "θz",
+          "description": "ângulo zenital solar",
+          "unit": "°"
+        }
+      ],
+      "application_class": "geometria",
+      "application": "Geometria calculada e seleção de intervalos",
+      "code_correspondence": "geometry: dni_extra_Wm2 → extraterrestrial_horizontal_Wm2; Spencer e projeção horizontal."
     },
     {
       "id": "E1.03",
@@ -53,7 +126,7 @@
       "title": "Componentes na horizontal",
       "latex": "GHI=DNI\\max(\\cos\\theta_z,0)+DHI",
       "function": "Distinguir irradiâncias global horizontal direta normal e difusa horizontal.",
-      "symbols": "GHI DNI e DHI em W/m².",
+      "symbols": "GHI: irradiância global horizontal [W/m²]; DNI: irradiância direta normal aos raios [W/m²]; θz: ângulo zenital solar [°]; DHI: irradiância difusa horizontal [W/m²].",
       "origin": "N",
       "source_locator": "docs/secoes_capitulo.json::1.2",
       "refs": [
@@ -66,7 +139,40 @@
       "notebook_fragment": "GHI=DNI\\max(\\cos\\theta_z,0)+DHI",
       "notebook_subsections": [
         "1.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "ghi",
+          "latex": "GHI",
+          "symbol": "GHI",
+          "description": "irradiância global horizontal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "dni",
+          "latex": "DNI",
+          "symbol": "DNI",
+          "description": "irradiância direta normal aos raios",
+          "unit": "W/m²"
+        },
+        {
+          "key": "zenith",
+          "latex": "\\theta_z",
+          "symbol": "θz",
+          "description": "ângulo zenital solar",
+          "unit": "°"
+        },
+        {
+          "key": "dhi",
+          "latex": "DHI",
+          "symbol": "DHI",
+          "description": "irradiância difusa horizontal",
+          "unit": "W/m²"
+        }
+      ],
+      "application_class": "fundamento",
+      "application": "Fundamentação ou exemplo geométrico",
+      "code_correspondence": "Identidade radiométrica da matriz 1.2; reverse_components estima GHI/DNI/DHI com Erbs–Driesse, sem sensores locais independentes dessas componentes."
     },
     {
       "id": "E1.04",
@@ -75,7 +181,7 @@
       "title": "Irradiação acumulada",
       "latex": "H=\\sum_i G_i\\Delta t_i",
       "function": "Integrar irradiância média no plano e período definidos.",
-      "symbols": "G em W/m²; Δt em h; H em Wh/m²; dividir por 1000 para kWh/m².",
+      "symbols": "H: irradiação acumulada no plano e período [Wh/m²; /1000 → kWh/m²]; Gi: irradiância no intervalo i [W/m²]; Δti: duração do intervalo i; 0,25 h na série local [h]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -88,7 +194,40 @@
       "notebook_fragment": "H=\\sum_i G_i\\Delta t_i",
       "notebook_subsections": [
         "1.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "H",
+          "latex": "H",
+          "symbol": "H",
+          "description": "irradiação acumulada no plano e período",
+          "unit": "Wh/m²; /1000 → kWh/m²"
+        },
+        {
+          "key": "Gi",
+          "latex": "G_i",
+          "symbol": "Gi",
+          "description": "irradiância no intervalo i",
+          "unit": "W/m²"
+        },
+        {
+          "key": "dt",
+          "latex": "\\Delta t_i",
+          "symbol": "Δti",
+          "description": "duração do intervalo i; 0,25 h na série local",
+          "unit": "h"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: H_POA_paired_kWh_m2 e H_POA_paired_kWh_m2 mensal; POA × 0,25/1000."
     },
     {
       "id": "E1.05",
@@ -97,7 +236,7 @@
       "title": "Variabilidade relativa da irradiância",
       "latex": "V_{\\Delta G}=\\frac{\\operatorname{média}(|G_i-G_{i-1}|)}{\\operatorname{média}(G_i)}",
       "function": "Ordenar os dias pelo passo absoluto médio da POA relativo à sua média.",
-      "symbols": "Gi POA dos pares válidos ordenados do dia; resultado adimensional.",
+      "symbols": "VΔG: passo absoluto médio relativo da irradiância [1 (adimensional)]; Gi: irradiância no intervalo i [W/m²]; Gi−1: irradiância do par disponível anterior [W/m²]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -108,7 +247,40 @@
       "notebook_fragment": "V_{\\Delta G}=\\frac{\\operatorname{média}(|G_i-G_{i-1}|)}{\\operatorname{média}(G_i)}",
       "notebook_subsections": [
         "1.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "variation",
+          "latex": "V_{\\Delta G}",
+          "symbol": "VΔG",
+          "description": "passo absoluto médio relativo da irradiância",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "Gi",
+          "latex": "G_i",
+          "symbol": "Gi",
+          "description": "irradiância no intervalo i",
+          "unit": "W/m²"
+        },
+        {
+          "key": "Gprevious",
+          "latex": "G_{i-1}",
+          "symbol": "Gi−1",
+          "description": "irradiância do par disponível anterior",
+          "unit": "W/m²"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: relative_mean_absolute_step = mean(abs(diff(POA_Wm2)))/mean(POA_Wm2), nos pares disponíveis do dia."
     },
     {
       "id": "E1.06",
@@ -117,7 +289,7 @@
       "title": "Cobertura dos dados",
       "latex": "C=100\\,N_{\\mathrm{pares}}/N_{\\mathrm{esperados}}",
       "function": "Informar a proporção de intervalos válidos frente aos esperados.",
-      "symbols": "Npares e Nesperados na mesma janela; C em %.",
+      "symbols": "C: cobertura dos dados na janela [%]; Npares: intervalos com dados válidos pareados [1 (contagem)]; Nesperados: intervalos esperados na mesma janela [1 (contagem)].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -133,7 +305,33 @@
       "notebook_fragment": "C=100\\,N_{\\mathrm{pares}}/N_{\\mathrm{esperados}}",
       "notebook_subsections": [
         "1.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "coverage",
+          "latex": "C",
+          "symbol": "C",
+          "description": "cobertura dos dados na janela",
+          "unit": "%"
+        },
+        {
+          "key": "pairs",
+          "latex": "N_{\\mathrm{pares}}",
+          "symbol": "Npares",
+          "description": "intervalos com dados válidos pareados",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "expected",
+          "latex": "N_{\\mathrm{esperados}}",
+          "symbol": "Nesperados",
+          "description": "intervalos esperados na mesma janela",
+          "unit": "1 (contagem)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: coverage_percent = 100 × valid/expected, na mesma janela; daily_paired_energy usa a mesma convenção."
     },
     {
       "id": "E2.01",
@@ -142,11 +340,44 @@
       "title": "Média amostral",
       "latex": "\\bar{x}=\\frac{1}{n}\\sum_{i=1}^{n}x_i",
       "function": "Resumir a posição das distribuições ambientais e das variáveis tabuladas.",
-      "symbols": "xi variável analisada; n pares; média na unidade de x.",
+      "symbols": "x̄: média amostral da variável [unidade de x: °C, m/s, W/m² ou kW]; n: número de observações válidas da variável [1 (contagem)]; xi: observação da variável tabulada [unidade de x: °C, m/s, W/m² ou kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "xbar",
+          "latex": "\\bar{x}",
+          "symbol": "x̄",
+          "description": "média amostral da variável",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "nx",
+          "latex": "n",
+          "symbol": "n",
+          "description": "número de observações válidas da variável",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "xi",
+          "latex": "x_i",
+          "symbol": "xi",
+          "description": "observação da variável tabulada",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: estatistica_descritiva.mean = Series.mean() dos pares válidos."
     },
     {
       "id": "E2.02",
@@ -155,11 +386,51 @@
       "title": "Desvio padrão amostral",
       "latex": "s_x=\\sqrt{\\frac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}}",
       "function": "Quantificar a dispersão com a convenção amostral usada no projeto.",
-      "symbols": "n maior que 1; sx na unidade de x.",
+      "symbols": "sx: desvio padrão amostral de x [unidade de x: °C, m/s, W/m² ou kW]; n: número de observações válidas da variável [1 (contagem)]; xi: observação da variável tabulada [unidade de x: °C, m/s, W/m² ou kW]; x̄: média amostral da variável [unidade de x: °C, m/s, W/m² ou kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [],
-      "notes": "O código usa std com ddof igual a 1. A equação de Faiman fica em E3.03 e deve ser apenas citada em 2.1."
+      "notes": "O código usa std com ddof igual a 1. A equação de Faiman fica em E3.03 e deve ser apenas citada em 2.1.",
+      "symbol_details": [
+        {
+          "key": "std",
+          "latex": "s_x",
+          "symbol": "sx",
+          "description": "desvio padrão amostral de x",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "nx",
+          "latex": "n",
+          "symbol": "n",
+          "description": "número de observações válidas da variável",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "xi",
+          "latex": "x_i",
+          "symbol": "xi",
+          "description": "observação da variável tabulada",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "xbar",
+          "latex": "\\bar{x}",
+          "symbol": "x̄",
+          "description": "média amostral da variável",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: estatistica_descritiva.std_sample = Series.std(ddof=1)."
     },
     {
       "id": "E2.03",
@@ -168,11 +439,37 @@
       "title": "Amplitude interquartil",
       "latex": "IQR=Q_3-Q_1",
       "function": "Resumir a dispersão central entre os percentis 25 e 75.",
-      "symbols": "Q1 e Q3 quartis da mesma variável e janela.",
+      "symbols": "IQR: amplitude interquartil de x [unidade de x: °C, m/s, W/m² ou kW]; Q3: terceiro quartil de x; percentil 75 [unidade de x: °C, m/s, W/m² ou kW]; Q1: primeiro quartil de x; percentil 25 [unidade de x: °C, m/s, W/m² ou kW].",
       "origin": "C",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "iqr",
+          "latex": "IQR",
+          "symbol": "IQR",
+          "description": "amplitude interquartil de x",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "q3",
+          "latex": "Q_3",
+          "symbol": "Q3",
+          "description": "terceiro quartil de x; percentil 75",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        },
+        {
+          "key": "q1",
+          "latex": "Q_1",
+          "symbol": "Q1",
+          "description": "primeiro quartil de x; percentil 25",
+          "unit": "unidade de x: °C, m/s, W/m² ou kW"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "analytics: estatistica_descritiva.IQR = quantile(0.75) − quantile(0.25)."
     },
     {
       "id": "E2.04",
@@ -181,7 +478,7 @@
       "title": "Reflexão isotrópica do solo",
       "latex": "G_{\\mathrm{solo}}=\\rho_g\\,GHI\\,\\frac{1-\\cos\\beta}{2}",
       "function": "Estimar a parcela refletida pelo solo que incide no plano inclinado.",
-      "symbols": "ρg albedo; β inclinação; irradiâncias em W/m².",
+      "symbols": "Gsolo: irradiância refletida pelo solo no plano [W/m²]; ρg: albedo assumido para o solo [1 (adimensional)]; GHI: irradiância global horizontal [W/m²]; β: inclinação do plano em relação à horizontal [°].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::transpose",
       "refs": [
@@ -193,7 +490,40 @@
       "notebook_fragment": "G_{\\mathrm{solo}}=\\rho_g\\,GHI\\,\\frac{1-\\cos\\beta}{2}",
       "notebook_subsections": [
         "2.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "ground",
+          "latex": "G_{\\mathrm{solo}}",
+          "symbol": "Gsolo",
+          "description": "irradiância refletida pelo solo no plano",
+          "unit": "W/m²"
+        },
+        {
+          "key": "albedo",
+          "latex": "\\rho_g",
+          "symbol": "ρg",
+          "description": "albedo assumido para o solo",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "ghi",
+          "latex": "GHI",
+          "symbol": "GHI",
+          "description": "irradiância global horizontal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "tilt",
+          "latex": "\\beta",
+          "symbol": "β",
+          "description": "inclinação do plano em relação à horizontal",
+          "unit": "°"
+        }
+      ],
+      "application_class": "transposicao",
+      "application": "Transposição exploratória e cenários",
+      "code_correspondence": "transpose: get_total_irradiance(..., albedo=...) → poa_ground_diffuse; não é somada à POA medida do modelo A."
     },
     {
       "id": "E2.05",
@@ -202,7 +532,7 @@
       "title": "Irradiância efetiva",
       "latex": "G_{\\mathrm{ef}}=(1-s)G_{\\mathrm{POA}}",
       "function": "Aplicar a hipótese de atenuação adicional à leitura POA.",
-      "symbols": "s fração assumida entre 0 e 1; Gef e GPOA em W/m².",
+      "symbols": "Gef: irradiância efetiva após atenuação assumida [W/m²]; s: fração de atenuação uniforme assumida [1 (adimensional)]; GPOA: irradiância no plano; medida no modelo principal [W/m²].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
@@ -213,7 +543,33 @@
       "notebook_fragment": "G_{\\mathrm{ef}}=(1-s)G_{\\mathrm{POA}}",
       "notebook_subsections": [
         "2.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "effective",
+          "latex": "G_{\\mathrm{ef}}",
+          "symbol": "Gef",
+          "description": "irradiância efetiva após atenuação assumida",
+          "unit": "W/m²"
+        },
+        {
+          "key": "soiling",
+          "latex": "s",
+          "symbol": "s",
+          "description": "fração de atenuação uniforme assumida",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "poa",
+          "latex": "G_{\\mathrm{POA}}",
+          "symbol": "GPOA",
+          "description": "irradiância no plano; medida no modelo principal",
+          "unit": "W/m²"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "simulate: effective = poa × (1 − soiling_fraction); hipótese de sujidade nula na referência."
     },
     {
       "id": "E2.06",
@@ -222,7 +578,7 @@
       "title": "Ângulo de incidência",
       "latex": "\\cos\\theta_i=\\cos\\theta_z\\cos\\beta+\\sin\\theta_z\\sin\\beta\\cos(\\gamma_s-\\gamma_a)",
       "function": "Relacionar a geometria do Sol à orientação do plano.",
-      "symbols": "β inclinação; γs e γa azimutes solar e do arranjo; θi incidência.",
+      "symbols": "θi: ângulo entre os raios e a normal ao plano [°]; θz: ângulo zenital solar [°]; β: inclinação do plano em relação à horizontal [°]; γs: azimute solar a partir do norte no sentido horário [°]; γa: azimute do plano na mesma convenção [°].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::geometry",
       "refs": [
@@ -234,7 +590,47 @@
       "notebook_fragment": "\\cos\\theta_i=\\cos\\theta_z\\cos\\beta+\\sin\\theta_z\\sin\\beta\\cos(\\gamma_s-\\gamma_a)",
       "notebook_subsections": [
         "2.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "aoi",
+          "latex": "\\theta_i",
+          "symbol": "θi",
+          "description": "ângulo entre os raios e a normal ao plano",
+          "unit": "°"
+        },
+        {
+          "key": "zenith",
+          "latex": "\\theta_z",
+          "symbol": "θz",
+          "description": "ângulo zenital solar",
+          "unit": "°"
+        },
+        {
+          "key": "tilt",
+          "latex": "\\beta",
+          "symbol": "β",
+          "description": "inclinação do plano em relação à horizontal",
+          "unit": "°"
+        },
+        {
+          "key": "sun_azimuth",
+          "latex": "\\gamma_s",
+          "symbol": "γs",
+          "description": "azimute solar a partir do norte no sentido horário",
+          "unit": "°"
+        },
+        {
+          "key": "array_azimuth",
+          "latex": "\\gamma_a",
+          "symbol": "γa",
+          "description": "azimute do plano na mesma convenção",
+          "unit": "°"
+        }
+      ],
+      "application_class": "geometria",
+      "application": "Geometria calculada e seleção de intervalos",
+      "code_correspondence": "geometry: pvlib.irradiance.aoi → aoi_deg; reverse_components recalcula aoi_true_deg com zenith para seleção da inversão."
     },
     {
       "id": "E2.07",
@@ -243,7 +639,7 @@
       "title": "Projeção geométrica de sombra",
       "latex": "\\ell=h/\\tan\\alpha_s",
       "function": "Ilustrar a projeção horizontal de uma altura sob o Sol.",
-      "symbols": "h altura; αs altura solar positiva; ℓ comprimento na unidade de h.",
+      "symbols": "ℓ: comprimento horizontal da sombra do exemplo [m]; h: altura do obstáculo do exemplo [m]; αs: altura solar positiva acima do horizonte [°].",
       "origin": "N",
       "source_locator": "docs/secoes_capitulo.json::2.4",
       "refs": [
@@ -255,7 +651,33 @@
       "notebook_fragment": "\\ell=h/\\tan\\alpha_s",
       "notebook_subsections": [
         "2.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "shadow",
+          "latex": "\\ell",
+          "symbol": "ℓ",
+          "description": "comprimento horizontal da sombra do exemplo",
+          "unit": "m"
+        },
+        {
+          "key": "height",
+          "latex": "h",
+          "symbol": "h",
+          "description": "altura do obstáculo do exemplo",
+          "unit": "m"
+        },
+        {
+          "key": "elevation",
+          "latex": "\\alpha_s",
+          "symbol": "αs",
+          "description": "altura solar positiva acima do horizonte",
+          "unit": "°"
+        }
+      ],
+      "application_class": "fundamento",
+      "application": "Fundamentação ou exemplo geométrico",
+      "code_correspondence": "Exemplo da matriz 2.4; nenhuma rotina calcula a sombra real das fileiras com esta expressão."
     },
     {
       "id": "E3.01",
@@ -264,7 +686,7 @@
       "title": "Transposição para o plano do arranjo",
       "latex": "G_{\\mathrm{POA}}=DNI\\max(\\cos\\theta_i,0)+G_{\\mathrm{céu}}+G_{\\mathrm{solo}}",
       "function": "Combinar radiação direta difusa do céu e refletida pelo solo.",
-      "symbols": "Gcéu e Gsolo no plano; todos os termos em W/m².",
+      "symbols": "GPOA: irradiância no plano; medida no modelo principal [W/m²]; DNI: irradiância direta normal aos raios [W/m²]; θi: ângulo entre os raios e a normal ao plano [°]; Gcéu: irradiância difusa do céu no plano [W/m²]; Gsolo: irradiância refletida pelo solo no plano [W/m²].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::transpose",
       "refs": [
@@ -278,7 +700,47 @@
       "notebook_fragment": "G_{\\mathrm{POA}}=DNI\\max(\\cos\\theta_i,0)+G_{\\mathrm{céu}}+G_{\\mathrm{solo}}",
       "notebook_subsections": [
         "3.1"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "poa",
+          "latex": "G_{\\mathrm{POA}}",
+          "symbol": "GPOA",
+          "description": "irradiância no plano; medida no modelo principal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "dni",
+          "latex": "DNI",
+          "symbol": "DNI",
+          "description": "irradiância direta normal aos raios",
+          "unit": "W/m²"
+        },
+        {
+          "key": "aoi",
+          "latex": "\\theta_i",
+          "symbol": "θi",
+          "description": "ângulo entre os raios e a normal ao plano",
+          "unit": "°"
+        },
+        {
+          "key": "sky",
+          "latex": "G_{\\mathrm{céu}}",
+          "symbol": "Gcéu",
+          "description": "irradiância difusa do céu no plano",
+          "unit": "W/m²"
+        },
+        {
+          "key": "ground",
+          "latex": "G_{\\mathrm{solo}}",
+          "symbol": "Gsolo",
+          "description": "irradiância refletida pelo solo no plano",
+          "unit": "W/m²"
+        }
+      ],
+      "application_class": "transposicao",
+      "application": "Transposição exploratória e cenários",
+      "code_correspondence": "transpose: get_total_irradiance → poa_global; Perez–Driesse na exploração inversa. O modelo A recebe POA medida."
     },
     {
       "id": "E3.02",
@@ -287,7 +749,7 @@
       "title": "Resíduo de fechamento da POA",
       "latex": "\\varepsilon_{\\mathrm{POA}}=G_{\\mathrm{POA,recon}}-G_{\\mathrm{POA,med}}",
       "function": "Verificar o fechamento numérico da transposição inversa.",
-      "symbols": "POA reconstruída e medida no mesmo intervalo; resíduo em W/m².",
+      "symbols": "εPOA: resíduo de fechamento da reconstrução POA [W/m²]; GPOA,recon: POA reconstruída pela transposição [W/m²]; GPOA,med: POA medida no mesmo intervalo [W/m²].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::reverse_components",
       "refs": [
@@ -297,7 +759,33 @@
         "R16",
         "R18"
       ],
-      "notes": "O fechamento não constitui validação independente das componentes reconstruídas."
+      "notes": "O fechamento não constitui validação independente das componentes reconstruídas.",
+      "symbol_details": [
+        {
+          "key": "poa_error",
+          "latex": "\\varepsilon_{\\mathrm{POA}}",
+          "symbol": "εPOA",
+          "description": "resíduo de fechamento da reconstrução POA",
+          "unit": "W/m²"
+        },
+        {
+          "key": "poa_recon",
+          "latex": "G_{\\mathrm{POA,recon}}",
+          "symbol": "GPOA,recon",
+          "description": "POA reconstruída pela transposição",
+          "unit": "W/m²"
+        },
+        {
+          "key": "poa_measured",
+          "latex": "G_{\\mathrm{POA,med}}",
+          "symbol": "GPOA,med",
+          "description": "POA medida no mesmo intervalo",
+          "unit": "W/m²"
+        }
+      ],
+      "application_class": "transposicao",
+      "application": "Transposição exploratória e cenários",
+      "code_correspondence": "reverse_components: numerical_closure_residual_Wm2 = poa_reconstructed_Wm2 − poa_measured_Wm2."
     },
     {
       "id": "E3.03",
@@ -306,7 +794,7 @@
       "title": "Temperatura operacional de Faiman",
       "latex": "T_{\\mathrm{op}}=T_a+\\frac{G_{\\mathrm{ef}}}{U_0+U_1v}",
       "function": "Estimar a temperatura operacional a partir da irradiância e da meteorologia.",
-      "symbols": "Ta em °C; v em m/s; U0 e U1 coeficientes térmicos.",
+      "symbols": "Top: temperatura operacional usada como aproximação da célula [°C]; Ta: temperatura do ar local [°C]; Gef: irradiância efetiva após atenuação assumida [W/m²]; U0: coeficiente térmico de Faiman independente do vento [W/(m²·K)]; U1: coeficiente térmico de Faiman associado ao vento [W·s/(m³·K)]; v: velocidade do vento medida [m/s].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
@@ -317,7 +805,54 @@
       "notebook_subsections": [
         "2.1",
         "3.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "operating",
+          "latex": "T_{\\mathrm{op}}",
+          "symbol": "Top",
+          "description": "temperatura operacional usada como aproximação da célula",
+          "unit": "°C"
+        },
+        {
+          "key": "ambient",
+          "latex": "T_a",
+          "symbol": "Ta",
+          "description": "temperatura do ar local",
+          "unit": "°C"
+        },
+        {
+          "key": "effective",
+          "latex": "G_{\\mathrm{ef}}",
+          "symbol": "Gef",
+          "description": "irradiância efetiva após atenuação assumida",
+          "unit": "W/m²"
+        },
+        {
+          "key": "u0",
+          "latex": "U_0",
+          "symbol": "U0",
+          "description": "coeficiente térmico de Faiman independente do vento",
+          "unit": "W/(m²·K)"
+        },
+        {
+          "key": "u1",
+          "latex": "U_1",
+          "symbol": "U1",
+          "description": "coeficiente térmico de Faiman associado ao vento",
+          "unit": "W·s/(m³·K)"
+        },
+        {
+          "key": "wind",
+          "latex": "v",
+          "symbol": "v",
+          "description": "velocidade do vento medida",
+          "unit": "m/s"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "simulate: pvlib.temperature.faiman(effective, temp, wind, u0, u1) → temp_cell_proxy_C."
     },
     {
       "id": "E3.04",
@@ -326,7 +861,7 @@
       "title": "Modelo de diodo único",
       "latex": "I=I_L-I_0\\left[\\exp\\left(\\frac{V+IR_s}{a}\\right)-1\\right]-\\frac{V+IR_s}{R_{sh}}",
       "function": "Relacionar corrente e tensão do módulo nas condições operacionais.",
-      "symbols": "IL e I0 correntes; Rs e Rsh resistências; a fator em volts.",
+      "symbols": "I: corrente elétrica do módulo [A]; IL: corrente fotogerada do modelo CEC [A]; I0: corrente de saturação do diodo [A]; V: tensão elétrica nos terminais do módulo [V]; Rs: resistência série do modelo [Ω]; a: fator de tensão térmica modificada do diodo [V]; Rsh: resistência paralela do modelo [Ω].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::module_mpp",
       "refs": [
@@ -338,7 +873,61 @@
       "notebook_fragment": "I=I_L-I_0[\\exp((V+IR_s)/a)-1]-(V+IR_s)/R_{sh}",
       "notebook_subsections": [
         "3.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "I",
+          "latex": "I",
+          "symbol": "I",
+          "description": "corrente elétrica do módulo",
+          "unit": "A"
+        },
+        {
+          "key": "IL",
+          "latex": "I_L",
+          "symbol": "IL",
+          "description": "corrente fotogerada do modelo CEC",
+          "unit": "A"
+        },
+        {
+          "key": "I0",
+          "latex": "I_0",
+          "symbol": "I0",
+          "description": "corrente de saturação do diodo",
+          "unit": "A"
+        },
+        {
+          "key": "V",
+          "latex": "V",
+          "symbol": "V",
+          "description": "tensão elétrica nos terminais do módulo",
+          "unit": "V"
+        },
+        {
+          "key": "Rs",
+          "latex": "R_s",
+          "symbol": "Rs",
+          "description": "resistência série do modelo",
+          "unit": "Ω"
+        },
+        {
+          "key": "diode_a",
+          "latex": "a",
+          "symbol": "a",
+          "description": "fator de tensão térmica modificada do diodo",
+          "unit": "V"
+        },
+        {
+          "key": "Rsh",
+          "latex": "R_{sh}",
+          "symbol": "Rsh",
+          "description": "resistência paralela do modelo",
+          "unit": "Ω"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "module_mpp: calcparams_cec → singlediode(method=\"lambertw\") → p_mp, v_mp e i_mp do módulo."
     },
     {
       "id": "E3.05",
@@ -347,7 +936,7 @@
       "title": "Potência elétrica",
       "latex": "P=VI",
       "function": "Obter potência e construir curvas P–V e o ponto de máxima potência.",
-      "symbols": "V em V; I em A; P em W.",
+      "symbols": "P: potência elétrica do módulo [W]; V: tensão elétrica nos terminais do módulo [V]; I: corrente elétrica do módulo [A].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::module_curves",
       "refs": [
@@ -359,7 +948,33 @@
       "notebook_fragment": "P=VI",
       "notebook_subsections": [
         "3.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "P",
+          "latex": "P",
+          "symbol": "P",
+          "description": "potência elétrica do módulo",
+          "unit": "W"
+        },
+        {
+          "key": "V",
+          "latex": "V",
+          "symbol": "V",
+          "description": "tensão elétrica nos terminais do módulo",
+          "unit": "V"
+        },
+        {
+          "key": "I",
+          "latex": "I",
+          "symbol": "I",
+          "description": "corrente elétrica do módulo",
+          "unit": "A"
+        }
+      ],
+      "application_class": "ilustracao",
+      "application": "Curvas ou associação elétrica ilustrativa",
+      "code_correspondence": "module_curves: power_W = voltage_V × current_A; o MPP principal é obtido por singlediode em module_mpp."
     },
     {
       "id": "E3.06",
@@ -368,14 +983,68 @@
       "title": "Comparação CC com PVWatts",
       "latex": "P_{\\mathrm{DC,PVW}}=P_{\\mathrm{STC}}\\frac{G_{\\mathrm{ef}}}{1000}\\left[1+\\gamma(T_{\\mathrm{op}}-25)\\right]\\prod_j(1-\\ell_j)",
       "function": "Registrar a aproximação linear CC exportada como comparação auxiliar.",
-      "symbols": "Gef em W/m²; γ em °C⁻¹; PSTC potência total dos módulos em W.",
+      "symbols": "PDC,PVW: potência CC da comparação PVWatts após perdas [W]; PSTC: potência STC CEC do módulo multiplicada por 2880 [W]; Gef: irradiância efetiva após atenuação assumida [W/m²]; γ: coeficiente relativo de potência CEC; gamma_r/100 [°C⁻¹]; Top: temperatura operacional usada como aproximação da célula [°C]; ℓj: fração de perda CC de cabos, mismatch ou conexões [1 (adimensional)]; j: índice da hipótese de perda CC [1 (índice)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
         "R11",
         "R09"
       ],
-      "notes": "Comparação auxiliar; a previsão principal usa o modelo CEC de diodo único."
+      "notes": "Comparação auxiliar; a previsão principal usa o modelo CEC de diodo único.",
+      "symbol_details": [
+        {
+          "key": "pvw_dc",
+          "latex": "P_{\\mathrm{DC,PVW}}",
+          "symbol": "PDC,PVW",
+          "description": "potência CC da comparação PVWatts após perdas",
+          "unit": "W"
+        },
+        {
+          "key": "stc",
+          "latex": "P_{\\mathrm{STC}}",
+          "symbol": "PSTC",
+          "description": "potência STC CEC do módulo multiplicada por 2880",
+          "unit": "W"
+        },
+        {
+          "key": "effective",
+          "latex": "G_{\\mathrm{ef}}",
+          "symbol": "Gef",
+          "description": "irradiância efetiva após atenuação assumida",
+          "unit": "W/m²"
+        },
+        {
+          "key": "gamma_cec",
+          "latex": "\\gamma",
+          "symbol": "γ",
+          "description": "coeficiente relativo de potência CEC; gamma_r/100",
+          "unit": "°C⁻¹"
+        },
+        {
+          "key": "operating",
+          "latex": "T_{\\mathrm{op}}",
+          "symbol": "Top",
+          "description": "temperatura operacional usada como aproximação da célula",
+          "unit": "°C"
+        },
+        {
+          "key": "loss_j",
+          "latex": "\\ell_j",
+          "symbol": "ℓj",
+          "description": "fração de perda CC de cabos, mismatch ou conexões",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "loss_index",
+          "latex": "j",
+          "symbol": "j",
+          "description": "índice da hipótese de perda CC",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "comparacao",
+      "application": "Comparação CC auxiliar",
+      "code_correspondence": "simulate: pvlib.pvsystem.pvwatts_dc(...) × fator de perdas → pvwatts_dc_comparison_W; não alimenta ac_final_W."
     },
     {
       "id": "E3.07",
@@ -384,7 +1053,7 @@
       "title": "Tensão em série",
       "latex": "V_a=N_sV_m",
       "function": "Calcular a tensão do equivalente de módulos em série.",
-      "symbols": "Ns número em série; Vm tensão do módulo.",
+      "symbols": "Va: tensão da associação equivalente [V]; Ns: módulos em série no exemplo; 20 [1 (contagem)]; Vm: tensão do módulo no ponto de máxima potência [V].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -396,7 +1065,33 @@
       "notebook_fragment": "V_a=N_sV_m",
       "notebook_subsections": [
         "3.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "array_V",
+          "latex": "V_a",
+          "symbol": "Va",
+          "description": "tensão da associação equivalente",
+          "unit": "V"
+        },
+        {
+          "key": "series",
+          "latex": "N_s",
+          "symbol": "Ns",
+          "description": "módulos em série no exemplo; 20",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "module_V",
+          "latex": "V_m",
+          "symbol": "Vm",
+          "description": "tensão do módulo no ponto de máxima potência",
+          "unit": "V"
+        }
+      ],
+      "application_class": "ilustracao",
+      "application": "Curvas ou associação elétrica ilustrativa",
+      "code_correspondence": "analytics: V_mp_equivalent_string_V = v_mp_module_V × 20."
     },
     {
       "id": "E3.08",
@@ -405,7 +1100,7 @@
       "title": "Corrente em paralelo",
       "latex": "I_a=N_pI_m",
       "function": "Calcular a corrente do equivalente de strings em paralelo.",
-      "symbols": "Np strings em paralelo; Im corrente do módulo.",
+      "symbols": "Ia: corrente da associação equivalente [A]; Np: strings em paralelo no exemplo; 6 [1 (contagem)]; Im: corrente do módulo no ponto de máxima potência [A].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -417,7 +1112,33 @@
       "notebook_fragment": "I_a=N_pI_m",
       "notebook_subsections": [
         "3.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "array_I",
+          "latex": "I_a",
+          "symbol": "Ia",
+          "description": "corrente da associação equivalente",
+          "unit": "A"
+        },
+        {
+          "key": "parallel",
+          "latex": "N_p",
+          "symbol": "Np",
+          "description": "strings em paralelo no exemplo; 6",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "module_I",
+          "latex": "I_m",
+          "symbol": "Im",
+          "description": "corrente do módulo no ponto de máxima potência",
+          "unit": "A"
+        }
+      ],
+      "application_class": "ilustracao",
+      "application": "Curvas ou associação elétrica ilustrativa",
+      "code_correspondence": "analytics: I_mp_equivalent_group_A = i_mp_module_A × 6."
     },
     {
       "id": "E3.09",
@@ -426,7 +1147,7 @@
       "title": "Potência do arranjo ideal",
       "latex": "P_a=N_sN_pP_m",
       "function": "Escalar a potência do módulo para a associação ideal.",
-      "symbols": "Pm potência do módulo; Pa em W.",
+      "symbols": "Pa: potência da associação ilustrativa de 120 módulos [W]; Ns: módulos em série no exemplo; 20 [1 (contagem)]; Np: strings em paralelo no exemplo; 6 [1 (contagem)]; Pm: potência do módulo no ponto de máxima potência [W].",
       "origin": "N",
       "source_locator": "src/refinamento_fv.py::analytics",
       "refs": [
@@ -438,7 +1159,40 @@
       "notebook_fragment": "P_a=N_sN_pP_m",
       "notebook_subsections": [
         "3.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "array_P_example",
+          "latex": "P_a",
+          "symbol": "Pa",
+          "description": "potência da associação ilustrativa de 120 módulos",
+          "unit": "W"
+        },
+        {
+          "key": "series",
+          "latex": "N_s",
+          "symbol": "Ns",
+          "description": "módulos em série no exemplo; 20",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "parallel",
+          "latex": "N_p",
+          "symbol": "Np",
+          "description": "strings em paralelo no exemplo; 6",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "module_P",
+          "latex": "P_m",
+          "symbol": "Pm",
+          "description": "potência do módulo no ponto de máxima potência",
+          "unit": "W"
+        }
+      ],
+      "application_class": "ilustracao",
+      "application": "Curvas ou associação elétrica ilustrativa",
+      "code_correspondence": "analytics: P_mp_equivalent_group_W = p_mp_module_W × modules_per_group (120); não determina a topologia real."
     },
     {
       "id": "E3.10",
@@ -447,7 +1201,7 @@
       "title": "Perdas CC multiplicativas",
       "latex": "P_{\\mathrm{DC}}=P_a\\prod_j(1-\\ell_j)",
       "function": "Aplicar perdas assumidas de cabos mismatch e conexões.",
-      "symbols": "ℓj frações de perda; Pa potência bruta; PDC potência líquida.",
+      "symbols": "PDC: potência CC líquida na entrada do inversor [W]; Pa: potência CC bruta do sistema; 2880 módulos [W]; ℓj: fração de perda CC de cabos, mismatch ou conexões [1 (adimensional)]; j: índice da hipótese de perda CC [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
@@ -459,7 +1213,40 @@
       "notebook_fragment": "P_{\\mathrm{DC}}=P_a\\prod_j(1-\\ell_j)",
       "notebook_subsections": [
         "3.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "dc",
+          "latex": "P_{\\mathrm{DC}}",
+          "symbol": "PDC",
+          "description": "potência CC líquida na entrada do inversor",
+          "unit": "W"
+        },
+        {
+          "key": "array_P_total",
+          "latex": "P_a",
+          "symbol": "Pa",
+          "description": "potência CC bruta do sistema; 2880 módulos",
+          "unit": "W"
+        },
+        {
+          "key": "loss_j",
+          "latex": "\\ell_j",
+          "symbol": "ℓj",
+          "description": "fração de perda CC de cabos, mismatch ou conexões",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "loss_index",
+          "latex": "j",
+          "symbol": "j",
+          "description": "índice da hipótese de perda CC",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "simulate: dc_net_W = hot.p_mp × 2880 × produto dos fatores CC; Pa corresponde a dc_gross_W."
     },
     {
       "id": "E3.11",
@@ -468,7 +1255,7 @@
       "title": "Potência CA limitada",
       "latex": "P_{\\mathrm{AC}}=\\min[\\eta(P_{\\mathrm{DC}})P_{\\mathrm{DC}},P_{\\mathrm{AC,max}}]",
       "function": "Limitar a conversão pela capacidade CA assumida.",
-      "symbols": "η eficiência; PACmax limite; potências em W.",
+      "symbols": "PAC: potência CA após clipping e antes da perda CA [W]; η: eficiência da conversão CC para CA, função de PDC [1 (adimensional)]; PDC: potência CC líquida na entrada do inversor [W]; PAC,max: capacidade CA adotada para o inversor ou sistema [W].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
@@ -479,7 +1266,40 @@
       "notebook_fragment": "P_{\\mathrm{AC}}=\\min[\\eta(P_{\\mathrm{DC}})P_{\\mathrm{DC}},P_{\\mathrm{AC,max}}]",
       "notebook_subsections": [
         "3.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "ac",
+          "latex": "P_{\\mathrm{AC}}",
+          "symbol": "PAC",
+          "description": "potência CA após clipping e antes da perda CA",
+          "unit": "W"
+        },
+        {
+          "key": "inverter_eta",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência da conversão CC para CA, função de PDC",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "dc",
+          "latex": "P_{\\mathrm{DC}}",
+          "symbol": "PDC",
+          "description": "potência CC líquida na entrada do inversor",
+          "unit": "W"
+        },
+        {
+          "key": "ac_max",
+          "latex": "P_{\\mathrm{AC,max}}",
+          "symbol": "PAC,max",
+          "description": "capacidade CA adotada para o inversor ou sistema",
+          "unit": "W"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: ac_modeled_W limita ac_before_clip_W à capacity; o piso zero de E3.15 precede esse limite."
     },
     {
       "id": "E3.12",
@@ -488,7 +1308,7 @@
       "title": "Referência CC do inversor",
       "latex": "P_{\\mathrm{dc0,inv}}=P_{\\mathrm{AC,max}}/\\eta_{\\mathrm{nom}}",
       "function": "Converter a capacidade CA em potência CC de referência da curva.",
-      "symbols": "ηnom eficiência nominal; Pdc0 não é a potência STC dos módulos.",
+      "symbols": "Pdc0,inv: potência CC de referência da curva do inversor [W]; PAC,max: capacidade CA adotada para o inversor ou sistema [W]; ηnom: eficiência nominal do inversor; 0,98 [1 (adimensional)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
@@ -499,7 +1319,33 @@
       "notebook_fragment": "P_{\\mathrm{dc0,inv}}=P_{\\mathrm{AC,max}}/\\eta_{\\mathrm{nom}}",
       "notebook_subsections": [
         "3.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "dc0",
+          "latex": "P_{\\mathrm{dc0,inv}}",
+          "symbol": "Pdc0,inv",
+          "description": "potência CC de referência da curva do inversor",
+          "unit": "W"
+        },
+        {
+          "key": "ac_max",
+          "latex": "P_{\\mathrm{AC,max}}",
+          "symbol": "PAC,max",
+          "description": "capacidade CA adotada para o inversor ou sistema",
+          "unit": "W"
+        },
+        {
+          "key": "eta_nom",
+          "latex": "\\eta_{\\mathrm{nom}}",
+          "symbol": "ηnom",
+          "description": "eficiência nominal do inversor; 0,98",
+          "unit": "1 (adimensional)"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: pdc0 = capacity/eta_nom."
     },
     {
       "id": "E3.13",
@@ -508,14 +1354,40 @@
       "title": "Carregamento relativo",
       "latex": "\\zeta=\\frac{P_{\\mathrm{DC}}}{P_{\\mathrm{dc0,inv}}}",
       "function": "Definir a variável independente da curva de eficiência.",
-      "symbols": "ζ adimensional; mesma unidade nas duas potências.",
+      "symbols": "ζ: carregamento relativo CC do inversor [1 (adimensional)]; PDC: potência CC líquida na entrada do inversor [W]; Pdc0,inv: potência CC de referência da curva do inversor [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
         "R11",
         "R13"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "zeta",
+          "latex": "\\zeta",
+          "symbol": "ζ",
+          "description": "carregamento relativo CC do inversor",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "dc",
+          "latex": "P_{\\mathrm{DC}}",
+          "symbol": "PDC",
+          "description": "potência CC líquida na entrada do inversor",
+          "unit": "W"
+        },
+        {
+          "key": "dc0",
+          "latex": "P_{\\mathrm{dc0,inv}}",
+          "symbol": "Pdc0,inv",
+          "description": "potência CC de referência da curva do inversor",
+          "unit": "W"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: zeta = pdc/pdc0."
     },
     {
       "id": "E3.14",
@@ -524,14 +1396,47 @@
       "title": "Eficiência PVWatts",
       "latex": "\\eta=\\frac{\\eta_{\\mathrm{nom}}}{\\eta_{\\mathrm{ref}}}\\left(-0.0162\\zeta-\\frac{0.0059}{\\zeta}+0.9858\\right)",
       "function": "Calcular a eficiência em função do carregamento do inversor.",
-      "symbols": "ζ positivo; ηnom igual a 0,98; ηref igual a 0,9637.",
+      "symbols": "η: eficiência da conversão CC para CA, função de PDC [1 (adimensional)]; ηnom: eficiência nominal do inversor; 0,98 [1 (adimensional)]; ηref: eficiência de referência da curva do inversor; 0,9637 [1 (adimensional)]; ζ: carregamento relativo CC do inversor [1 (adimensional)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
         "R11",
         "R13"
       ],
-      "notes": "Em potência CC nula o código define saída CA nula sem avaliar a divisão por ζ."
+      "notes": "Em potência CC nula o código define saída CA nula sem avaliar a divisão por ζ.",
+      "symbol_details": [
+        {
+          "key": "inverter_eta",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência da conversão CC para CA, função de PDC",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "eta_nom",
+          "latex": "\\eta_{\\mathrm{nom}}",
+          "symbol": "ηnom",
+          "description": "eficiência nominal do inversor; 0,98",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "eta_inv_ref",
+          "latex": "\\eta_{\\mathrm{ref}}",
+          "symbol": "ηref",
+          "description": "eficiência de referência da curva do inversor; 0,9637",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "zeta",
+          "latex": "\\zeta",
+          "symbol": "ζ",
+          "description": "carregamento relativo CC do inversor",
+          "unit": "1 (adimensional)"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: eta = (eta_nom/eta_ref) × (−0.0162×zeta − 0.0059/zeta + 0.9858); saída nula se pdc=0."
     },
     {
       "id": "E3.15",
@@ -540,14 +1445,40 @@
       "title": "Potência antes do clipping",
       "latex": "P_{\\mathrm{pre}}=\\max(\\eta P_{\\mathrm{DC}},0)",
       "function": "Impor o piso físico não negativo antes da limitação superior.",
-      "symbols": "Ppre em W; PDC igual a zero produz Ppre igual a zero.",
+      "symbols": "Ppre: potência CA após piso zero e antes do clipping [W]; η: eficiência da conversão CC para CA, função de PDC [1 (adimensional)]; PDC: potência CC líquida na entrada do inversor [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
         "R11",
         "R13"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "pre",
+          "latex": "P_{\\mathrm{pre}}",
+          "symbol": "Ppre",
+          "description": "potência CA após piso zero e antes do clipping",
+          "unit": "W"
+        },
+        {
+          "key": "inverter_eta",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência da conversão CC para CA, função de PDC",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "dc",
+          "latex": "P_{\\mathrm{DC}}",
+          "symbol": "PDC",
+          "description": "potência CC líquida na entrada do inversor",
+          "unit": "W"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: ac_before_clip_W = (eta×pdc).clip(lower=0); atribui zero quando pdc=0."
     },
     {
       "id": "E3.16",
@@ -556,14 +1487,40 @@
       "title": "Potência suprimida pelo clipping",
       "latex": "P_{\\mathrm{clip}}=P_{\\mathrm{pre}}-P_{\\mathrm{AC}}",
       "function": "Quantificar a parcela limitada pela capacidade do inversor.",
-      "symbols": "Pclip em W; não confundir com energia perdida.",
+      "symbols": "Pclip: potência suprimida pelo clipping [W]; Ppre: potência CA após piso zero e antes do clipping [W]; PAC: potência CA após clipping e antes da perda CA [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::inverter_pvwatts_stages",
       "refs": [
         "R11",
         "R13"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "clip",
+          "latex": "P_{\\mathrm{clip}}",
+          "symbol": "Pclip",
+          "description": "potência suprimida pelo clipping",
+          "unit": "W"
+        },
+        {
+          "key": "pre",
+          "latex": "P_{\\mathrm{pre}}",
+          "symbol": "Ppre",
+          "description": "potência CA após piso zero e antes do clipping",
+          "unit": "W"
+        },
+        {
+          "key": "ac",
+          "latex": "P_{\\mathrm{AC}}",
+          "symbol": "PAC",
+          "description": "potência CA após clipping e antes da perda CA",
+          "unit": "W"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "inverter_pvwatts_stages: clipping_W = ac_before_clip_W − ac_modeled_W."
     },
     {
       "id": "E3.17",
@@ -572,14 +1529,40 @@
       "title": "Potência CA final",
       "latex": "P_{\\mathrm{AC,final}}=(1-\\ell_{\\mathrm{AC}})P_{\\mathrm{AC}}",
       "function": "Aplicar a perda CA assumida após a conversão e o clipping.",
-      "symbols": "ℓAC fração de perda; PACfinal em W.",
+      "symbols": "PAC,final: potência CA após todas as perdas assumidas [W]; ℓAC: fração de perda CA após o inversor [1 (adimensional)]; PAC: potência CA após clipping e antes da perda CA [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
         "R11",
         "R13"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "final_ac",
+          "latex": "P_{\\mathrm{AC,final}}",
+          "symbol": "PAC,final",
+          "description": "potência CA após todas as perdas assumidas",
+          "unit": "W"
+        },
+        {
+          "key": "loss_ac",
+          "latex": "\\ell_{\\mathrm{AC}}",
+          "symbol": "ℓAC",
+          "description": "fração de perda CA após o inversor",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "ac",
+          "latex": "P_{\\mathrm{AC}}",
+          "symbol": "PAC",
+          "description": "potência CA após clipping e antes da perda CA",
+          "unit": "W"
+        }
+      ],
+      "application_class": "principal",
+      "application": "Conversão física principal",
+      "code_correspondence": "simulate: ac_final_W = ac_modeled_W × (1 − ac_wiring_fraction)."
     },
     {
       "id": "E3.18",
@@ -588,7 +1571,7 @@
       "title": "Energia elétrica",
       "latex": "E=\\sum_i P_i\\Delta t_i",
       "function": "Integrar a potência média nos intervalos selecionados.",
-      "symbols": "P em kW; Δt igual a 0,25 h; E em kWh. Se P estiver em W dividir por 1000.",
+      "symbols": "E: energia elétrica acumulada na janela [kWh]; Pi: potência média no intervalo i; converter W para kW [kW]; Δti: duração do intervalo i; 0,25 h na série local [h]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::daily_paired_energy",
       "refs": [
@@ -598,7 +1581,40 @@
       "notebook_fragment": "E=\\sum_i P_i\\Delta t_i",
       "notebook_subsections": [
         "3.6"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "E",
+          "latex": "E",
+          "symbol": "E",
+          "description": "energia elétrica acumulada na janela",
+          "unit": "kWh"
+        },
+        {
+          "key": "Pi",
+          "latex": "P_i",
+          "symbol": "Pi",
+          "description": "potência média no intervalo i; converter W para kW",
+          "unit": "kW"
+        },
+        {
+          "key": "dt",
+          "latex": "\\Delta t_i",
+          "symbol": "Δti",
+          "description": "duração do intervalo i; 0,25 h na série local",
+          "unit": "h"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "tratamento",
+      "application": "Integração ou estatística dos dados",
+      "code_correspondence": "daily_paired_energy: E_measured_kWh e E_modeled_kWh = potência em W × 0,25/1000, nos intervalos pareados."
     },
     {
       "id": "E4.01",
@@ -607,7 +1623,7 @@
       "title": "Variação de energia entre estágios",
       "latex": "\\Delta E_j=E_j-E_{j+1}",
       "function": "Quantificar a diferença calculada entre dois estágios consecutivos.",
-      "symbols": "Ej energias na mesma máscara temporal em kWh.",
+      "symbols": "ΔEj: variação de energia entre estágios consecutivos [kWh]; Ej: energia do estágio j na máscara pareada [kWh]; Ej+1: energia do estágio seguinte na mesma máscara [kWh]; j: índice do estágio da cadeia de energia [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -620,7 +1636,40 @@
       "notebook_fragment": "\\Delta E_j=E_j-E_{j+1}",
       "notebook_subsections": [
         "4.1"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "delta_E",
+          "latex": "\\Delta E_j",
+          "symbol": "ΔEj",
+          "description": "variação de energia entre estágios consecutivos",
+          "unit": "kWh"
+        },
+        {
+          "key": "Ej",
+          "latex": "E_j",
+          "symbol": "Ej",
+          "description": "energia do estágio j na máscara pareada",
+          "unit": "kWh"
+        },
+        {
+          "key": "Enext",
+          "latex": "E_{j+1}",
+          "symbol": "Ej+1",
+          "description": "energia do estágio seguinte na mesma máscara",
+          "unit": "kWh"
+        },
+        {
+          "key": "stage_index",
+          "latex": "j",
+          "symbol": "j",
+          "description": "índice do estágio da cadeia de energia",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: change_to_next_kWh = energy_kWh − energy_kWh.shift(−1), na cadeia de estágios modelados."
     },
     {
       "id": "E4.02",
@@ -629,7 +1678,7 @@
       "title": "Fechamento da cadeia de energia",
       "latex": "\\sum_j\\Delta E_j=E_1-E_{\\mathrm{final}}",
       "function": "Conferir que a soma das variações recupera a diferença total.",
-      "symbols": "Mesmos estágios e intervalos; podem ocorrer ganhos sob frio.",
+      "symbols": "ΔEj: variação de energia entre estágios consecutivos [kWh]; E1: energia do primeiro estágio; referência linear STC [kWh]; Efinal: energia CA final do último estágio [kWh]; j: índice do estágio da cadeia de energia [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -642,7 +1691,40 @@
       "notebook_fragment": "\\sum_j\\Delta E_j=E_1-E_{\\mathrm{final}}",
       "notebook_subsections": [
         "4.1"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "delta_E",
+          "latex": "\\Delta E_j",
+          "symbol": "ΔEj",
+          "description": "variação de energia entre estágios consecutivos",
+          "unit": "kWh"
+        },
+        {
+          "key": "E1",
+          "latex": "E_1",
+          "symbol": "E1",
+          "description": "energia do primeiro estágio; referência linear STC",
+          "unit": "kWh"
+        },
+        {
+          "key": "Efinal",
+          "latex": "E_{\\mathrm{final}}",
+          "symbol": "Efinal",
+          "description": "energia CA final do último estágio",
+          "unit": "kWh"
+        },
+        {
+          "key": "stage_index",
+          "latex": "j",
+          "symbol": "j",
+          "description": "índice do estágio da cadeia de energia",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "Identidade de fechamento das diferenças de performance.energy_stages; não constitui medição independente de perdas."
     },
     {
       "id": "E4.03",
@@ -651,7 +1733,7 @@
       "title": "Potência linear de referência",
       "latex": "P_{\\mathrm{lin}}=P_0\\frac{G_{\\mathrm{POA}}}{G_{\\mathrm{ref}}}",
       "function": "Definir a referência linear STC que inicia a cadeia energética.",
-      "symbols": "P0 capacidade declarada; Gref igual a 1000 W/m²; potências na mesma unidade.",
+      "symbols": "Plin: potência linear de referência STC do sistema [W]; P0: capacidade declarada; 893000 W na expressão de potência [W]; GPOA: irradiância no plano; medida no modelo principal [W/m²]; Gref: irradiância STC de referência; 1000 [W/m²].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::simulate",
       "refs": [
@@ -660,7 +1742,40 @@
         "R12",
         "R25"
       ],
-      "notes": "Na cadeia principal P0 declarada é 893 kWp; não substituir pela soma CEC sem identificar a mudança."
+      "notes": "Na cadeia principal P0 declarada é 893 kWp; não substituir pela soma CEC sem identificar a mudança.",
+      "symbol_details": [
+        {
+          "key": "linear",
+          "latex": "P_{\\mathrm{lin}}",
+          "symbol": "Plin",
+          "description": "potência linear de referência STC do sistema",
+          "unit": "W"
+        },
+        {
+          "key": "p0_W",
+          "latex": "P_0",
+          "symbol": "P0",
+          "description": "capacidade declarada; 893000 W na expressão de potência",
+          "unit": "W"
+        },
+        {
+          "key": "poa",
+          "latex": "G_{\\mathrm{POA}}",
+          "symbol": "GPOA",
+          "description": "irradiância no plano; medida no modelo principal",
+          "unit": "W/m²"
+        },
+        {
+          "key": "gref_W",
+          "latex": "G_{\\mathrm{ref}}",
+          "symbol": "Gref",
+          "description": "irradiância STC de referência; 1000",
+          "unit": "W/m²"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "simulate: ideal_linear_W = metadata_p0_kw × 1000 × poa/1000; início da cadeia de energia, sem alimentar o CEC."
     },
     {
       "id": "E4.04",
@@ -669,7 +1784,7 @@
       "title": "Produtividade de referência",
       "latex": "Y_r=H_{\\mathrm{POA}}/G_{\\mathrm{ref}}",
       "function": "Expressar o recurso como horas equivalentes no plano e período definidos.",
-      "symbols": "HPOA em kWh/m²; Gref igual a 1 kW/m²; Yr em h.",
+      "symbols": "Yr: produtividade de referência ou HSP da janela [h]; HPOA: irradiação POA integrada na mesma janela [kWh/m²]; Gref: irradiância STC de referência; 1 [kW/m²].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -680,7 +1795,33 @@
       "notebook_fragment": "Y_r=H_{\\mathrm{POA}}/G_{\\mathrm{ref}}",
       "notebook_subsections": [
         "4.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "Yr",
+          "latex": "Y_r",
+          "symbol": "Yr",
+          "description": "produtividade de referência ou HSP da janela",
+          "unit": "h"
+        },
+        {
+          "key": "Hpoa",
+          "latex": "H_{\\mathrm{POA}}",
+          "symbol": "HPOA",
+          "description": "irradiação POA integrada na mesma janela",
+          "unit": "kWh/m²"
+        },
+        {
+          "key": "gref_kW",
+          "latex": "G_{\\mathrm{ref}}",
+          "symbol": "Gref",
+          "description": "irradiância STC de referência; 1",
+          "unit": "kW/m²"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: Yr_h = H_POA_kWh_m2, pois Gref=1 kW/m²."
     },
     {
       "id": "E4.05",
@@ -689,7 +1830,7 @@
       "title": "Produtividade do arranjo",
       "latex": "Y_a=E_{\\mathrm{DC}}/P_0",
       "function": "Normalizar a energia CC pela capacidade declarada.",
-      "symbols": "EDC em kWh; P0 em kWp; Ya em kWh/kWp ou horas equivalentes.",
+      "symbols": "Ya: produtividade CC modelada do arranjo [kWh/kWp (h equivalentes)]; EDC: energia CC líquida modelada na janela [kWh]; P0: capacidade nominal declarada do sistema; 893 [kWp].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -700,7 +1841,33 @@
       "notebook_fragment": "Y_a=E_{\\mathrm{DC}}/P_0",
       "notebook_subsections": [
         "4.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "Ya",
+          "latex": "Y_a",
+          "symbol": "Ya",
+          "description": "produtividade CC modelada do arranjo",
+          "unit": "kWh/kWp (h equivalentes)"
+        },
+        {
+          "key": "EDC",
+          "latex": "E_{\\mathrm{DC}}",
+          "symbol": "EDC",
+          "description": "energia CC líquida modelada na janela",
+          "unit": "kWh"
+        },
+        {
+          "key": "p0_kWp",
+          "latex": "P_0",
+          "symbol": "P0",
+          "description": "capacidade nominal declarada do sistema; 893",
+          "unit": "kWp"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: Ya_model_h = E_DC_model_kWh/metadata_p0_kw."
     },
     {
       "id": "E4.06",
@@ -709,7 +1876,7 @@
       "title": "Produtividade final",
       "latex": "Y_f=E_{\\mathrm{AC}}/P_0",
       "function": "Normalizar a energia CA observada ou modelada pela capacidade.",
-      "symbols": "EAC em kWh; P0 em kWp; Yf em kWh/kWp.",
+      "symbols": "Yf: produtividade CA observada ou modelada, identificada [kWh/kWp (h equivalentes)]; EAC: energia CA observada ou modelada, identificada [kWh]; P0: capacidade nominal declarada do sistema; 893 [kWp].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -720,7 +1887,33 @@
       "notebook_fragment": "Y_f=E_{\\mathrm{AC}}/P_0",
       "notebook_subsections": [
         "4.2"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "Yf",
+          "latex": "Y_f",
+          "symbol": "Yf",
+          "description": "produtividade CA observada ou modelada, identificada",
+          "unit": "kWh/kWp (h equivalentes)"
+        },
+        {
+          "key": "EAC",
+          "latex": "E_{\\mathrm{AC}}",
+          "symbol": "EAC",
+          "description": "energia CA observada ou modelada, identificada",
+          "unit": "kWh"
+        },
+        {
+          "key": "p0_kWp",
+          "latex": "P_0",
+          "symbol": "P0",
+          "description": "capacidade nominal declarada do sistema; 893",
+          "unit": "kWp"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: Yf_model_kWh_kWp ou Yf_observed_kWh_kWp = energia CA correspondente/metadata_p0_kw."
     },
     {
       "id": "E4.07",
@@ -729,7 +1922,7 @@
       "title": "Razão de desempenho",
       "latex": "PR=Y_f/Y_r",
       "function": "Relacionar a produtividade final ao recurso da mesma janela.",
-      "symbols": "PR adimensional; multiplicar por 100 quando apresentado em %.",
+      "symbols": "PR: razão de desempenho na mesma janela [1 (adimensional)]; Yf: produtividade CA observada ou modelada, identificada [kWh/kWp (h equivalentes)]; Yr: produtividade de referência ou HSP da janela [h].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -740,7 +1933,33 @@
       "notebook_fragment": "PR=Y_f/Y_r",
       "notebook_subsections": [
         "4.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "PR",
+          "latex": "PR",
+          "symbol": "PR",
+          "description": "razão de desempenho na mesma janela",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "Yf",
+          "latex": "Y_f",
+          "symbol": "Yf",
+          "description": "produtividade CA observada ou modelada, identificada",
+          "unit": "kWh/kWp (h equivalentes)"
+        },
+        {
+          "key": "Yr",
+          "latex": "Y_r",
+          "symbol": "Yr",
+          "description": "produtividade de referência ou HSP da janela",
+          "unit": "h"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: PR_model e PR_observed_paired = Yf correspondente/Yr, na máscara pareada."
     },
     {
       "id": "E4.08",
@@ -749,7 +1968,7 @@
       "title": "Perda de captura normalizada",
       "latex": "L_c=Y_r-Y_a",
       "function": "Comparar o recurso e a produtividade CC do modelo.",
-      "symbols": "Lc em horas equivalentes.",
+      "symbols": "Lc: perda de captura normalizada do modelo [h equivalentes]; Yr: produtividade de referência ou HSP da janela [h]; Ya: produtividade CC modelada do arranjo [kWh/kWp (h equivalentes)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -760,7 +1979,33 @@
       "notebook_fragment": "L_c=Y_r-Y_a",
       "notebook_subsections": [
         "4.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "Lc",
+          "latex": "L_c",
+          "symbol": "Lc",
+          "description": "perda de captura normalizada do modelo",
+          "unit": "h equivalentes"
+        },
+        {
+          "key": "Yr",
+          "latex": "Y_r",
+          "symbol": "Yr",
+          "description": "produtividade de referência ou HSP da janela",
+          "unit": "h"
+        },
+        {
+          "key": "Ya",
+          "latex": "Y_a",
+          "symbol": "Ya",
+          "description": "produtividade CC modelada do arranjo",
+          "unit": "kWh/kWp (h equivalentes)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: Lc_model_h = yr − ya."
     },
     {
       "id": "E4.09",
@@ -769,7 +2014,7 @@
       "title": "Perda de sistema normalizada",
       "latex": "L_s=Y_a-Y_f",
       "function": "Comparar as produtividades CC e CA do modelo.",
-      "symbols": "Ls em horas equivalentes.",
+      "symbols": "Ls: perda de sistema normalizada do modelo [h equivalentes]; Ya: produtividade CC modelada do arranjo [kWh/kWp (h equivalentes)]; Yf: produtividade CA observada ou modelada, identificada [kWh/kWp (h equivalentes)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::performance",
       "refs": [
@@ -780,7 +2025,33 @@
       "notebook_fragment": "L_s=Y_a-Y_f",
       "notebook_subsections": [
         "4.3"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "Ls",
+          "latex": "L_s",
+          "symbol": "Ls",
+          "description": "perda de sistema normalizada do modelo",
+          "unit": "h equivalentes"
+        },
+        {
+          "key": "Ya",
+          "latex": "Y_a",
+          "symbol": "Ya",
+          "description": "produtividade CC modelada do arranjo",
+          "unit": "kWh/kWp (h equivalentes)"
+        },
+        {
+          "key": "Yf",
+          "latex": "Y_f",
+          "symbol": "Yf",
+          "description": "produtividade CA observada ou modelada, identificada",
+          "unit": "kWh/kWp (h equivalentes)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "performance: Ls_model_h = ya − yf, com yf modelado."
     },
     {
       "id": "E4.10",
@@ -789,14 +2060,47 @@
       "title": "Resíduo de potência",
       "latex": "e_i=p_i-y_i",
       "function": "Fixar o sinal do erro usado nas tabelas e gráficos.",
-      "symbols": "pi potência simulada; yi observada; ambas em kW.",
+      "symbols": "ei: resíduo simulado menos observado no intervalo [kW]; pi: potência CA final simulada no intervalo [kW]; yi: potência CA observada no medidor no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
         "R27",
         "R25"
       ],
-      "notes": "Valores positivos indicam superestimação."
+      "notes": "Valores positivos indicam superestimação.",
+      "symbol_details": [
+        {
+          "key": "error",
+          "latex": "e_i",
+          "symbol": "ei",
+          "description": "resíduo simulado menos observado no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "pred",
+          "latex": "p_i",
+          "symbol": "pi",
+          "description": "potência CA final simulada no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "obs",
+          "latex": "y_i",
+          "symbol": "yi",
+          "description": "potência CA observada no medidor no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: error = p − y, após dropna dos pares. run_models converte as potências locais para kW."
     },
     {
       "id": "E4.11",
@@ -805,7 +2109,7 @@
       "title": "Erro médio de viés",
       "latex": "MBE=\\frac{1}{n}\\sum_{i=1}^{n}e_i",
       "function": "Quantificar a tendência média de superestimação ou subestimação.",
-      "symbols": "n pares válidos; MBE em kW.",
+      "symbols": "MBE: erro médio de viés [kW]; n: número de pares válidos usados na métrica [1 (contagem)]; ei: resíduo simulado menos observado no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
@@ -816,7 +2120,40 @@
       "notebook_fragment": "MBE=\\bar e",
       "notebook_subsections": [
         "4.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "mbe",
+          "latex": "MBE",
+          "symbol": "MBE",
+          "description": "erro médio de viés",
+          "unit": "kW"
+        },
+        {
+          "key": "n_pairs",
+          "latex": "n",
+          "symbol": "n",
+          "description": "número de pares válidos usados na métrica",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "error",
+          "latex": "e_i",
+          "symbol": "ei",
+          "description": "resíduo simulado menos observado no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: MBE = error.mean()."
     },
     {
       "id": "E4.12",
@@ -825,7 +2162,7 @@
       "title": "Erro absoluto médio",
       "latex": "MAE=\\frac{1}{n}\\sum_{i=1}^{n}|e_i|",
       "function": "Quantificar a magnitude média do erro sem cancelamento de sinais.",
-      "symbols": "MAE em kW.",
+      "symbols": "MAE: erro absoluto médio [kW]; n: número de pares válidos usados na métrica [1 (contagem)]; ei: resíduo simulado menos observado no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
@@ -836,7 +2173,40 @@
       "notebook_fragment": "MAE=\\overline{|e|}",
       "notebook_subsections": [
         "4.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "mae",
+          "latex": "MAE",
+          "symbol": "MAE",
+          "description": "erro absoluto médio",
+          "unit": "kW"
+        },
+        {
+          "key": "n_pairs",
+          "latex": "n",
+          "symbol": "n",
+          "description": "número de pares válidos usados na métrica",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "error",
+          "latex": "e_i",
+          "symbol": "ei",
+          "description": "resíduo simulado menos observado no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: MAE = abs(error).mean()."
     },
     {
       "id": "E4.13",
@@ -845,7 +2215,7 @@
       "title": "Raiz do erro quadrático médio",
       "latex": "RMSE=\\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}e_i^2}",
       "function": "Resumir a magnitude quadrática dos mesmos resíduos.",
-      "symbols": "RMSE em kW.",
+      "symbols": "RMSE: raiz do erro quadrático médio [kW]; n: número de pares válidos usados na métrica [1 (contagem)]; ei: resíduo simulado menos observado no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
@@ -856,7 +2226,40 @@
       "notebook_fragment": "RMSE=\\sqrt{\\overline{e^2}}",
       "notebook_subsections": [
         "4.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "rmse",
+          "latex": "RMSE",
+          "symbol": "RMSE",
+          "description": "raiz do erro quadrático médio",
+          "unit": "kW"
+        },
+        {
+          "key": "n_pairs",
+          "latex": "n",
+          "symbol": "n",
+          "description": "número de pares válidos usados na métrica",
+          "unit": "1 (contagem)"
+        },
+        {
+          "key": "error",
+          "latex": "e_i",
+          "symbol": "ei",
+          "description": "resíduo simulado menos observado no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: RMSE = mean(error**2)**0.5."
     },
     {
       "id": "E4.14",
@@ -865,14 +2268,40 @@
       "title": "Viés normalizado",
       "latex": "nMBE=100\\frac{MBE}{\\bar y}",
       "function": "Expressar o viés em relação à média observada dos pares.",
-      "symbols": "nMBE em %; média observada não nula.",
+      "symbols": "nMBE: viés normalizado pela média observada [%]; MBE: erro médio de viés [kW]; ȳ: média das potências CA observadas pareadas [kW].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
         "R27",
         "R25"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "nmbe",
+          "latex": "nMBE",
+          "symbol": "nMBE",
+          "description": "viés normalizado pela média observada",
+          "unit": "%"
+        },
+        {
+          "key": "mbe",
+          "latex": "MBE",
+          "symbol": "MBE",
+          "description": "erro médio de viés",
+          "unit": "kW"
+        },
+        {
+          "key": "ybar",
+          "latex": "\\bar y",
+          "symbol": "ȳ",
+          "description": "média das potências CA observadas pareadas",
+          "unit": "kW"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: nMBE_percent = 100×error.mean()/mean(y), se a média observada for não nula."
     },
     {
       "id": "E4.15",
@@ -881,14 +2310,40 @@
       "title": "Erro quadrático normalizado",
       "latex": "nRMSE=100\\frac{RMSE}{\\bar y}",
       "function": "Expressar o RMSE em relação à média observada dos pares.",
-      "symbols": "nRMSE em %; não usar potência nominal como denominador neste projeto.",
+      "symbols": "nRMSE: RMSE normalizado pela média observada [%]; RMSE: raiz do erro quadrático médio [kW]; ȳ: média das potências CA observadas pareadas [kW].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
         "R27",
         "R25"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "nrmse",
+          "latex": "nRMSE",
+          "symbol": "nRMSE",
+          "description": "RMSE normalizado pela média observada",
+          "unit": "%"
+        },
+        {
+          "key": "rmse",
+          "latex": "RMSE",
+          "symbol": "RMSE",
+          "description": "raiz do erro quadrático médio",
+          "unit": "kW"
+        },
+        {
+          "key": "ybar",
+          "latex": "\\bar y",
+          "symbol": "ȳ",
+          "description": "média das potências CA observadas pareadas",
+          "unit": "kW"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: nRMSE_percent = 100×RMSE/mean(y), se a média observada for não nula."
     },
     {
       "id": "E4.16",
@@ -897,14 +2352,61 @@
       "title": "Correlação de Pearson",
       "latex": "r=\\frac{\\sum_i(y_i-\\bar y)(p_i-\\bar p)}{\\sqrt{\\sum_i(y_i-\\bar y)^2\\sum_i(p_i-\\bar p)^2}}",
       "function": "Quantificar a associação linear entre observações e simulações.",
-      "symbols": "r adimensional; requer variância positiva nas duas séries.",
+      "symbols": "r: coeficiente de correlação de Pearson [1 (adimensional)]; yi: potência CA observada no medidor no intervalo [kW]; ȳ: média das potências CA observadas pareadas [kW]; pi: potência CA final simulada no intervalo [kW]; p̄: média das potências CA simuladas pareadas [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
         "R27",
         "R25"
       ],
-      "notes": "Correlação elevada não prova exatidão."
+      "notes": "Correlação elevada não prova exatidão.",
+      "symbol_details": [
+        {
+          "key": "pearson",
+          "latex": "r",
+          "symbol": "r",
+          "description": "coeficiente de correlação de Pearson",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "obs",
+          "latex": "y_i",
+          "symbol": "yi",
+          "description": "potência CA observada no medidor no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "ybar",
+          "latex": "\\bar y",
+          "symbol": "ȳ",
+          "description": "média das potências CA observadas pareadas",
+          "unit": "kW"
+        },
+        {
+          "key": "pred",
+          "latex": "p_i",
+          "symbol": "pi",
+          "description": "potência CA final simulada no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "pbar",
+          "latex": "\\bar p",
+          "symbol": "p̄",
+          "description": "média das potências CA simuladas pareadas",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: r = np.corrcoef(y,p)[0,1], com variância positiva das duas séries."
     },
     {
       "id": "E4.17",
@@ -913,7 +2415,7 @@
       "title": "Coeficiente de determinação",
       "latex": "R^2=1-\\frac{\\sum e_i^2}{\\sum(y_i-\\bar y)^2}",
       "function": "Comparar o erro quadrático à dispersão das observações.",
-      "symbols": "R² adimensional; denominador positivo.",
+      "symbols": "R²: coeficiente de determinação definido por 1−SSE/SST [1 (adimensional)]; ei: resíduo simulado menos observado no intervalo [kW]; yi: potência CA observada no medidor no intervalo [kW]; ȳ: média das potências CA observadas pareadas [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::metrics",
       "refs": [
@@ -924,7 +2426,47 @@
       "notebook_fragment": "R^2=1-\\frac{\\sum e_i^2}{\\sum(y_i-\\bar y)^2}",
       "notebook_subsections": [
         "4.4"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "r2",
+          "latex": "R^2",
+          "symbol": "R²",
+          "description": "coeficiente de determinação definido por 1−SSE/SST",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "error",
+          "latex": "e_i",
+          "symbol": "ei",
+          "description": "resíduo simulado menos observado no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "obs",
+          "latex": "y_i",
+          "symbol": "yi",
+          "description": "potência CA observada no medidor no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "ybar",
+          "latex": "\\bar y",
+          "symbol": "ȳ",
+          "description": "média das potências CA observadas pareadas",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "desempenho",
+      "application": "Indicadores e avaliação do modelo",
+      "code_correspondence": "metrics: R2 = 1 − sum(error**2)/sum((y−mean(y))**2), se o denominador for positivo."
     },
     {
       "id": "E4.18",
@@ -933,11 +2475,44 @@
       "title": "Fator empírico de abril",
       "latex": "k=\\frac{\\sum_{i\\in\\mathrm{abril}}p_i y_i}{\\sum_{i\\in\\mathrm{abril}}p_i^2}",
       "function": "Ajustar um fator multiplicativo secundário apenas com os pares de abril.",
-      "symbols": "k adimensional; pi e yi na mesma unidade.",
+      "symbols": "k: fator empírico ajustado somente com abril [1 (adimensional)]; pi: potência CA final simulada no intervalo [kW]; yi: potência CA observada no medidor no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::run_models",
       "refs": [],
-      "notes": "Ajuste sem intercepto; maio é verificação e junho avaliação temporal separada."
+      "notes": "Ajuste sem intercepto; maio é verificação e junho avaliação temporal separada.",
+      "symbol_details": [
+        {
+          "key": "k",
+          "latex": "k",
+          "symbol": "k",
+          "description": "fator empírico ajustado somente com abril",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "pred",
+          "latex": "p_i",
+          "symbol": "pi",
+          "description": "potência CA final simulada no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "obs",
+          "latex": "y_i",
+          "symbol": "yi",
+          "description": "potência CA observada no medidor no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "empirico",
+      "application": "Ajuste empírico separado",
+      "code_correspondence": "run_models: empirical_scale_april = dot(ac_final_W, ac_meter_W)/dot(ac_final_W, ac_final_W), somente nos pares locais de abril; a razão independe de W ou kW."
     },
     {
       "id": "E4.19",
@@ -946,11 +2521,44 @@
       "title": "Potência com ajuste empírico",
       "latex": "p_i^{\\mathrm{emp}}=k p_i",
       "function": "Aplicar o fator de abril e reportar os resultados separadamente do modelo físico.",
-      "symbols": "Potências na mesma unidade; k fixado no mês de ajuste.",
+      "symbols": "pi,emp: potência simulada após fator empírico de abril [kW]; k: fator empírico ajustado somente com abril [1 (adimensional)]; pi: potência CA final simulada no intervalo [kW]; i: índice do intervalo ou da observação na janela [1 (índice)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::run_models",
       "refs": [],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "empirical",
+          "latex": "p_i^{\\mathrm{emp}}",
+          "symbol": "pi,emp",
+          "description": "potência simulada após fator empírico de abril",
+          "unit": "kW"
+        },
+        {
+          "key": "k",
+          "latex": "k",
+          "symbol": "k",
+          "description": "fator empírico ajustado somente com abril",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "pred",
+          "latex": "p_i",
+          "symbol": "pi",
+          "description": "potência CA final simulada no intervalo",
+          "unit": "kW"
+        },
+        {
+          "key": "i",
+          "latex": "i",
+          "symbol": "i",
+          "description": "índice do intervalo ou da observação na janela",
+          "unit": "1 (índice)"
+        }
+      ],
+      "application_class": "empirico",
+      "application": "Ajuste empírico separado",
+      "code_correspondence": "run_models: ac_final_W × empirical_scale_april é avaliado separadamente em abril, maio e junho; analytics exporta empirical_kW."
     },
     {
       "id": "E4.20",
@@ -959,7 +2567,7 @@
       "title": "Absortância solar",
       "latex": "\\alpha=1-\\rho_s-\\tau_s",
       "function": "Fechar a partição óptica do exemplo semitransparente.",
-      "symbols": "α absortância; ρs refletância; τs transmitância solar; frações.",
+      "symbols": "α: absortância solar assumida do elemento BIPV [1 (adimensional)]; ρs: refletância solar assumida do elemento BIPV [1 (adimensional)]; τs: transmitância solar assumida, distinta da visível [1 (adimensional)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -967,7 +2575,33 @@
         "R19",
         "R20"
       ],
-      "notes": "As propriedades são hipóteses do exemplo de 100 m² e não do módulo real."
+      "notes": "As propriedades são hipóteses do exemplo de 100 m² e não do módulo real.",
+      "symbol_details": [
+        {
+          "key": "alpha",
+          "latex": "\\alpha",
+          "symbol": "α",
+          "description": "absortância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "rho",
+          "latex": "\\rho_s",
+          "symbol": "ρs",
+          "description": "refletância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "tau",
+          "latex": "\\tau_s",
+          "symbol": "τs",
+          "description": "transmitância solar assumida, distinta da visível",
+          "unit": "1 (adimensional)"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: alpha = 1 − rho_solar − tau_solar; propriedades assumidas, não medidas no PVDAQ."
     },
     {
       "id": "E4.21",
@@ -976,7 +2610,7 @@
       "title": "Potência solar incidente",
       "latex": "P_{\\mathrm{inc}}=GA",
       "function": "Converter a irradiância do plano em potência incidente na área.",
-      "symbols": "G em W/m²; A em m²; Pinc em W.",
+      "symbols": "Pinc: potência solar incidente no elemento BIPV [W]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -984,7 +2618,33 @@
         "R19",
         "R20"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "incident",
+          "latex": "P_{\\mathrm{inc}}",
+          "symbol": "Pinc",
+          "description": "potência solar incidente no elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: incident_W = poa × area_m2."
     },
     {
       "id": "E4.22",
@@ -993,7 +2653,7 @@
       "title": "Potência solar refletida",
       "latex": "P_{\\mathrm{ref}}=\\rho_s GA",
       "function": "Quantificar a fração refletida da potência incidente.",
-      "symbols": "Pref em W.",
+      "symbols": "Pref: potência solar refletida pelo elemento BIPV [W]; ρs: refletância solar assumida do elemento BIPV [1 (adimensional)]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1001,7 +2661,40 @@
         "R19",
         "R20"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "reflected",
+          "latex": "P_{\\mathrm{ref}}",
+          "symbol": "Pref",
+          "description": "potência solar refletida pelo elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "rho",
+          "latex": "\\rho_s",
+          "symbol": "ρs",
+          "description": "refletância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: reflected_W = rho_solar × incident."
     },
     {
       "id": "E4.23",
@@ -1010,7 +2703,7 @@
       "title": "Potência solar transmitida",
       "latex": "P_{\\mathrm{trans}}=\\tau_s GA",
       "function": "Quantificar a parcela solar que atravessa o elemento.",
-      "symbols": "Ptrans em W; τs solar difere da transmitância visível.",
+      "symbols": "Ptrans: potência solar transmitida pelo elemento BIPV [W]; τs: transmitância solar assumida, distinta da visível [1 (adimensional)]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1018,7 +2711,40 @@
         "R19",
         "R20"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "transmitted",
+          "latex": "P_{\\mathrm{trans}}",
+          "symbol": "Ptrans",
+          "description": "potência solar transmitida pelo elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "tau",
+          "latex": "\\tau_s",
+          "symbol": "τs",
+          "description": "transmitância solar assumida, distinta da visível",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: transmitted_W = tau_solar × incident."
     },
     {
       "id": "E4.24",
@@ -1027,7 +2753,7 @@
       "title": "Eficiência elétrica do exemplo BIPV",
       "latex": "\\eta=\\min\\{\\max[\\eta_{\\mathrm{ref}}(1+\\gamma(T_{\\mathrm{op}}-25)),0],\\alpha\\}",
       "function": "Corrigir a eficiência assumida pela temperatura e limitar a conversão à absorção.",
-      "symbols": "ηref eficiência a 25 °C; γ em °C⁻¹.",
+      "symbols": "η: eficiência elétrica instantânea do balanço BIPV [1 (adimensional)]; ηref: eficiência BIPV assumida a 25 °C; 0,10 [1 (adimensional)]; γ: coeficiente térmico BIPV assumido; −0,0044 [°C⁻¹]; Top: temperatura de Faiman do cenário BIPV [°C]; α: absortância solar assumida do elemento BIPV [1 (adimensional)].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1035,7 +2761,47 @@
         "R19",
         "R20"
       ],
-      "notes": "Esta aproximação pertence ao balanço semitransparente; os cenários de produtividade usam a cadeia CEC."
+      "notes": "Esta aproximação pertence ao balanço semitransparente; os cenários de produtividade usam a cadeia CEC.",
+      "symbol_details": [
+        {
+          "key": "eta_bipv",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência elétrica instantânea do balanço BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "eta_bipv_ref",
+          "latex": "\\eta_{\\mathrm{ref}}",
+          "symbol": "ηref",
+          "description": "eficiência BIPV assumida a 25 °C; 0,10",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "gamma_bipv",
+          "latex": "\\gamma",
+          "symbol": "γ",
+          "description": "coeficiente térmico BIPV assumido; −0,0044",
+          "unit": "°C⁻¹"
+        },
+        {
+          "key": "operating_bipv",
+          "latex": "T_{\\mathrm{op}}",
+          "symbol": "Top",
+          "description": "temperatura de Faiman do cenário BIPV",
+          "unit": "°C"
+        },
+        {
+          "key": "alpha",
+          "latex": "\\alpha",
+          "symbol": "α",
+          "description": "absortância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: eta = (reference_efficiency×(1+gamma_pdc_per_C×(temp−25))).clip(0,alpha)."
     },
     {
       "id": "E4.25",
@@ -1044,7 +2810,7 @@
       "title": "Potência elétrica do elemento BIPV",
       "latex": "P_e=\\eta GA",
       "function": "Separar a parcela convertida em eletricidade no balanço solar.",
-      "symbols": "η eficiência instantânea; Pe em W.",
+      "symbols": "Pe: potência elétrica CC do elemento BIPV [W]; η: eficiência elétrica instantânea do balanço BIPV [1 (adimensional)]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1056,7 +2822,40 @@
       "notebook_fragment": "P_e=\\eta GA",
       "notebook_subsections": [
         "4.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "electric",
+          "latex": "P_e",
+          "symbol": "Pe",
+          "description": "potência elétrica CC do elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "eta_bipv",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência elétrica instantânea do balanço BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: electrical_DC_W = eta × incident."
     },
     {
       "id": "E4.26",
@@ -1065,7 +2864,7 @@
       "title": "Calor absorvido após conversão elétrica",
       "latex": "Q_{\\mathrm{abs}}=(\\alpha-\\eta)GA",
       "function": "Calcular a parcela absorvida que permanece térmica.",
-      "symbols": "Qabs representa potência térmica em W apesar do símbolo Q.",
+      "symbols": "Qabs: potência térmica absorvida após conversão elétrica [W]; α: absortância solar assumida do elemento BIPV [1 (adimensional)]; η: eficiência elétrica instantânea do balanço BIPV [1 (adimensional)]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1077,7 +2876,47 @@
       "notebook_fragment": "Q_{\\mathrm{abs}}=(\\alpha-\\eta)GA",
       "notebook_subsections": [
         "4.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "heat_abs",
+          "latex": "Q_{\\mathrm{abs}}",
+          "symbol": "Qabs",
+          "description": "potência térmica absorvida após conversão elétrica",
+          "unit": "W"
+        },
+        {
+          "key": "alpha",
+          "latex": "\\alpha",
+          "symbol": "α",
+          "description": "absortância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "eta_bipv",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência elétrica instantânea do balanço BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: heat_abs = (alpha − eta) × incident; variável de potência em W."
     },
     {
       "id": "E4.27",
@@ -1086,7 +2925,7 @@
       "title": "Calor absorvido dirigido ao exterior",
       "latex": "Q_{\\mathrm{out}}=(1-f_{\\mathrm{in}})Q_{\\mathrm{abs}}",
       "function": "Separar a fração do calor absorvido dirigida ao exterior.",
-      "symbols": "fin fração dirigida ao interior entre 0 e 1; Qout em W.",
+      "symbols": "Qout: potência térmica absorvida dirigida ao exterior [W]; fin: fração do calor absorvido dirigida ao interior [1 (adimensional)]; Qabs: potência térmica absorvida após conversão elétrica [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1094,7 +2933,33 @@
         "R19",
         "R20"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "heat_out",
+          "latex": "Q_{\\mathrm{out}}",
+          "symbol": "Qout",
+          "description": "potência térmica absorvida dirigida ao exterior",
+          "unit": "W"
+        },
+        {
+          "key": "inward",
+          "latex": "f_{\\mathrm{in}}",
+          "symbol": "fin",
+          "description": "fração do calor absorvido dirigida ao interior",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "heat_abs",
+          "latex": "Q_{\\mathrm{abs}}",
+          "symbol": "Qabs",
+          "description": "potência térmica absorvida após conversão elétrica",
+          "unit": "W"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: absorbed_heat_outward_W = (1 − inward_heat_fraction) × heat_abs."
     },
     {
       "id": "E4.28",
@@ -1103,7 +2968,7 @@
       "title": "Ganho solar para o interior",
       "latex": "Q_{\\mathrm{in}}=\\tau_sGA+f_{\\mathrm{in}}Q_{\\mathrm{abs}}",
       "function": "Somar transmissão solar e fração térmica dirigida ao interior.",
-      "symbols": "Qin é potência em W; fin fração térmica interior.",
+      "symbols": "Qin: ganho solar interior; transmissão mais calor absorvido [W]; τs: transmitância solar assumida, distinta da visível [1 (adimensional)]; G: irradiância transposta no plano BIPV hipotético [W/m²]; A: área do elemento BIPV assumido; 100 [m²]; fin: fração do calor absorvido dirigida ao interior [1 (adimensional)]; Qabs: potência térmica absorvida após conversão elétrica [W].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1115,7 +2980,54 @@
       "notebook_fragment": "Q_{\\mathrm{in}}=\\tau_sGA+f_{\\mathrm{in}}Q_{\\mathrm{abs}}",
       "notebook_subsections": [
         "4.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "heat_in",
+          "latex": "Q_{\\mathrm{in}}",
+          "symbol": "Qin",
+          "description": "ganho solar interior; transmissão mais calor absorvido",
+          "unit": "W"
+        },
+        {
+          "key": "tau",
+          "latex": "\\tau_s",
+          "symbol": "τs",
+          "description": "transmitância solar assumida, distinta da visível",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "G_bipv",
+          "latex": "G",
+          "symbol": "G",
+          "description": "irradiância transposta no plano BIPV hipotético",
+          "unit": "W/m²"
+        },
+        {
+          "key": "area",
+          "latex": "A",
+          "symbol": "A",
+          "description": "área do elemento BIPV assumido; 100",
+          "unit": "m²"
+        },
+        {
+          "key": "inward",
+          "latex": "f_{\\mathrm{in}}",
+          "symbol": "fin",
+          "description": "fração do calor absorvido dirigida ao interior",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "heat_abs",
+          "latex": "Q_{\\mathrm{abs}}",
+          "symbol": "Qabs",
+          "description": "potência térmica absorvida após conversão elétrica",
+          "unit": "W"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: solar_heat_gain_W = tau_solar × incident + inward_heat_fraction × heat_abs."
     },
     {
       "id": "E4.29",
@@ -1124,7 +3036,7 @@
       "title": "SHGC equivalente simplificado",
       "latex": "SHGC_{\\mathrm{eq}}=\\tau_s+f_{\\mathrm{in}}(\\alpha-\\eta)",
       "function": "Normalizar o ganho solar interior pela potência incidente.",
-      "symbols": "SHGCeq adimensional; não equivale a certificação de produto.",
+      "symbols": "SHGCeq: coeficiente equivalente do ganho solar simplificado [1 (adimensional)]; τs: transmitância solar assumida, distinta da visível [1 (adimensional)]; fin: fração do calor absorvido dirigida ao interior [1 (adimensional)]; α: absortância solar assumida do elemento BIPV [1 (adimensional)]; η: eficiência elétrica instantânea do balanço BIPV [1 (adimensional)].",
       "origin": "N",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1136,7 +3048,47 @@
       "notebook_fragment": "SHGC_{\\mathrm{eq}}=\\tau_s+f_{\\mathrm{in}}(\\alpha-\\eta)",
       "notebook_subsections": [
         "4.5"
-      ]
+      ],
+      "symbol_details": [
+        {
+          "key": "shgc",
+          "latex": "SHGC_{\\mathrm{eq}}",
+          "symbol": "SHGCeq",
+          "description": "coeficiente equivalente do ganho solar simplificado",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "tau",
+          "latex": "\\tau_s",
+          "symbol": "τs",
+          "description": "transmitância solar assumida, distinta da visível",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "inward",
+          "latex": "f_{\\mathrm{in}}",
+          "symbol": "fin",
+          "description": "fração do calor absorvido dirigida ao interior",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "alpha",
+          "latex": "\\alpha",
+          "symbol": "α",
+          "description": "absortância solar assumida do elemento BIPV",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "eta_bipv",
+          "latex": "\\eta",
+          "symbol": "η",
+          "description": "eficiência elétrica instantânea do balanço BIPV",
+          "unit": "1 (adimensional)"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: SHGC_equivalent_simplified = tau_solar + inward_heat_fraction × (alpha − eta)."
     },
     {
       "id": "E4.30",
@@ -1145,7 +3097,7 @@
       "title": "Conservação do balanço solar",
       "latex": "P_{\\mathrm{inc}}=P_{\\mathrm{ref}}+P_{\\mathrm{trans}}+P_e+f_{\\mathrm{in}}Q_{\\mathrm{abs}}+Q_{\\mathrm{out}}",
       "function": "Conferir a conservação das parcelas ópticas elétricas e térmicas.",
-      "symbols": "Todos os termos em W; o código testa o resíduo de fechamento.",
+      "symbols": "Pinc: potência solar incidente no elemento BIPV [W]; Pref: potência solar refletida pelo elemento BIPV [W]; Ptrans: potência solar transmitida pelo elemento BIPV [W]; Pe: potência elétrica CC do elemento BIPV [W]; fin: fração do calor absorvido dirigida ao interior [1 (adimensional)]; Qabs: potência térmica absorvida após conversão elétrica [W]; Qout: potência térmica absorvida dirigida ao exterior [W].",
       "origin": "C",
       "source_locator": "src/projeto_fv.py::bipv_scenario",
       "refs": [
@@ -1153,7 +3105,61 @@
         "R19",
         "R20"
       ],
-      "notes": ""
+      "notes": "",
+      "symbol_details": [
+        {
+          "key": "incident",
+          "latex": "P_{\\mathrm{inc}}",
+          "symbol": "Pinc",
+          "description": "potência solar incidente no elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "reflected",
+          "latex": "P_{\\mathrm{ref}}",
+          "symbol": "Pref",
+          "description": "potência solar refletida pelo elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "transmitted",
+          "latex": "P_{\\mathrm{trans}}",
+          "symbol": "Ptrans",
+          "description": "potência solar transmitida pelo elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "electric",
+          "latex": "P_e",
+          "symbol": "Pe",
+          "description": "potência elétrica CC do elemento BIPV",
+          "unit": "W"
+        },
+        {
+          "key": "inward",
+          "latex": "f_{\\mathrm{in}}",
+          "symbol": "fin",
+          "description": "fração do calor absorvido dirigida ao interior",
+          "unit": "1 (adimensional)"
+        },
+        {
+          "key": "heat_abs",
+          "latex": "Q_{\\mathrm{abs}}",
+          "symbol": "Qabs",
+          "description": "potência térmica absorvida após conversão elétrica",
+          "unit": "W"
+        },
+        {
+          "key": "heat_out",
+          "latex": "Q_{\\mathrm{out}}",
+          "symbol": "Qout",
+          "description": "potência térmica absorvida dirigida ao exterior",
+          "unit": "W"
+        }
+      ],
+      "application_class": "bipv",
+      "application": "Balanço BIPV hipotético",
+      "code_correspondence": "bipv_scenario: balance_residual_W compara incident_W à soma das cinco parcelas e exige resíduo absoluto menor que 1e−7 W."
     }
   ],
   "cross_references": [
@@ -1168,6 +3174,8 @@
     "interval_hours": 0.25,
     "declared_capacity_kWp": 893,
     "eta_nom": 0.98,
-    "eta_ref": 0.9637
+    "eta_ref_inverter": 0.9637,
+    "eta_ref_bipv": 0.1,
+    "bipv_gamma_per_C": -0.0044
   }
 }

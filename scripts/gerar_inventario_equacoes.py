@@ -23,6 +23,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 from lxml import etree
+from metadados_equacoes import enrich
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='17ffe0eeb7d70876eabf222ec30fb828ee28d3c8'
@@ -276,13 +277,29 @@ def inventory():
     floor=next(r['id'] for r in rows if r['title']=='Potência antes do clipping')
     for r in rows:
         if r['title']=='Potência CA limitada':r['notes']=r['notes'].replace('E3.15',floor)
-    return dict(version='2026-10-19.1',source_commit=BASE,
+    enrich(rows)
+    return dict(version='2026-10-19.2',source_commit=BASE,
+                annotation_base_commit='1c1c38375ae106b7c6317958ebebbd6ad0e94e9a',
                 title='Inventário de equações do capítulo de recurso solar e conversão fotovoltaica',
-                count_rule='Uma relação numerada por linha. N transcreve o núcleo do notebook; C documenta relações complementares do código. Constantes parâmetros conversões de unidade máscaras e algoritmos internos das bibliotecas não recebem numeração editorial.',
+                count_rule='Uma relação numerada por linha. N indica fórmula escrita nas células de método; C explicita relação complementar do código. A classe de aplicação informa o uso efetivo e é independente de N/C. Constantes, parâmetros, conversões, máscaras e algoritmos internos das bibliotecas não recebem numeração editorial.',
+                application_scope='A previsão principal do modelo A usa POA medida, atenuação assumida, Faiman, CEC/diodo único, perdas CC, inversor PVWatts e perdas CA. Integração, estatísticas e indicadores avaliam os dados e as previsões. Geometria, transposição inversa, curvas ilustrativas, comparação CC PVWatts, ajuste empírico e balanço BIPV têm funções próprias identificadas por equação.',
+                notation_conventions=[
+                    'Símbolos e unidades são definidos por equação, incluindo o resultado e os índices. A unidade 1 indica grandeza adimensional; % indica apresentação percentual.',
+                    'Ângulos são declarados em graus. Rotinas trigonométricas que recebem radianos exigem conversão. Azimutes partem do norte no sentido horário.',
+                    'Em E1.04, G em W/m² e Δt em h produzem H em Wh/m²; o código divide por 1000 para kWh/m². Em E3.18, P em kW produz E em kWh; o código converte suas séries W por /1000.',
+                    'Em E3.06, 1000 representa Gref=1000 W/m² e 25 representa 25 °C. Em E4.24, 25 também representa 25 °C. Os coeficientes da curva E3.14 são adimensionais.',
+                    'U0 tem unidade W/(m²·K) e U1 tem W·s/(m³·K), de modo que Gef/(U0+U1v) é diferença de temperatura em K, numericamente igual a °C.',
+                    'P0 é 893000 W em E4.03 e 893 kWp nos indicadores. Gref é 1000 W/m² na potência e 1 kW/m² na produtividade de referência.',
+                    'ηref=0,9637 é referência da curva do inversor em E3.14; ηref=0,10 é hipótese de eficiência BIPV em E4.24. γ vem do módulo CEC em E3.06 e é assumido −0,0044 °C⁻¹ em E4.24.',
+                    'Pa em E3.09 refere-se ao exemplo de 120 módulos; Pa em E3.10 é a potência bruta dos 2880 módulos do sistema. A associação 20×6 não comprova o cabeamento real.',
+                    'Qabs, Qin e Qout no balanço BIPV designam potências em W. A integração dessas séries fornece energia; Q não representa joules nessas equações.',
+                    'Nas métricas locais de potência, p, y e e estão em kW; metrics é genérica e conserva a unidade das séries recebidas. O ajuste k é calculado em W no código e é invariável sob conversão comum para kW.',
+                ],
                 equations=rows,
                 cross_references=[dict(subsection='2.1',equation_id='E3.03',reason='A relação de Faiman é inserida em 3.2 e apenas citada em 2.1.')],
                 parameters=dict(reference_irradiance_W_m2=1000,interval_hours=0.25,
-                                declared_capacity_kWp=893,eta_nom=0.98,eta_ref=0.9637))
+                                declared_capacity_kWp=893,eta_nom=0.98,eta_ref_inverter=0.9637,
+                                eta_ref_bipv=0.10,bipv_gamma_per_C=-0.0044))
 
 
 def counts(rows):
@@ -308,6 +325,25 @@ def math_elements(rows,folder):
                 position=OxmlElement('m:pos');position.set(qn('m:val'),'top');properties.append(position)
                 bar.append(properties);bar.append(deepcopy(accent.find('{'+MNS+'}e')))
                 accent.getparent().replace(accent,bar)
+        # LibreOffice can replace the closing delimiter of nested OMML groups
+        # by a parenthesis. Explicit native math runs preserve square brackets,
+        # braces and absolute-value bars in both the DOCX and its QA render.
+        for delimiter in reversed(equation.findall('.//{'+MNS+'}d')):
+            properties=delimiter.find('{'+MNS+'}dPr')
+            begin=properties.find('{'+MNS+'}begChr') if properties is not None else None
+            end=properties.find('{'+MNS+'}endChr') if properties is not None else None
+            if begin is None or end is None:continue
+            left,right=begin.get(qn('m:val')),end.get(qn('m:val'))
+            if (left,right) not in [('[',']'),('{','}'),('|','|')]:continue
+            expressions=delimiter.findall('{'+MNS+'}e');assert len(expressions)==1
+            parent=delimiter.getparent();position=parent.index(delimiter)
+            def literal(character):
+                run=OxmlElement('m:r');props=OxmlElement('m:rPr')
+                style=OxmlElement('m:sty');style.set(qn('m:val'),'p');props.append(style);run.append(props)
+                text=OxmlElement('m:t');text.text=character;run.append(text);return run
+            replacement=[literal(left),*[deepcopy(e) for e in expressions[0]],literal(right)]
+            for offset,element in enumerate(replacement):parent.insert(position+offset,element)
+            parent.remove(delimiter)
     return {r['id']:deepcopy(e) for r,e in zip(rows,equations)}
 
 
@@ -332,6 +368,7 @@ def border_table(table):
             for p in cell.paragraphs:
                 p.paragraph_format.space_after=Pt(2);p.paragraph_format.space_before=Pt(0)
                 p.paragraph_format.first_line_indent=Cm(0);p.paragraph_format.line_spacing=1
+                if row_index==0:p.paragraph_format.keep_with_next=True
                 for run in p.runs:
                     run.font.name='Times New Roman';run.font.size=Pt(12);run.font.color.rgb=RGBColor(0,0,0)
                     if row_index==0:run.bold=True
@@ -368,7 +405,7 @@ def document_base(title):
 
 def summary_table(doc,rows,sections):
     table=doc.add_table(rows=1,cols=4)
-    for cell,label in zip(table.rows[0].cells,['Seção','Núcleo N','Apoio C','Total de relações']):cell.text=label
+    for cell,label in zip(table.rows[0].cells,['Seção','Notebook N','Código C','Total de relações']):cell.text=label
     for section in sections:
         selected=[r for r in rows if r['section']==section];cc=counts(selected)
         cells=table.add_row().cells
@@ -385,7 +422,7 @@ def summary_table(doc,rows,sections):
 
 def equation_table(doc,selected,maths):
     table=doc.add_table(rows=1,cols=4)
-    for cell,label in zip(table.rows[0].cells,['ID e inserção','Equação','Função e símbolos','Origem e uso']):cell.text=label
+    for cell,label in zip(table.rows[0].cells,['ID e inserção','Equação','Função e símbolos com unidades','Registro e aplicação']):cell.text=label
     widths=[2.1,10.5,8.8,4.3]
     for column,width in zip(table.columns,widths):column.width=Cm(width)
     for r in selected:
@@ -404,7 +441,8 @@ def equation_table(doc,selected,maths):
         p=cells[2].paragraphs[0];p.add_run(r['title']+'. ').bold=True
         p.add_run(r['function'])
         cells[2].add_paragraph(r['symbols'])
-        cells[3].text=('N Núcleo do notebook' if r['origin']=='N' else 'C Apoio do código')+'\n'+', '.join(r['refs'])
+        cells[3].text=('N Fórmula no notebook' if r['origin']=='N' else 'C Relação do código')+'\n'+r['application']
+        if r['refs']:cells[3].add_paragraph(', '.join(r['refs']))
     border_table(table)
     for row in table.rows[1:]:
         for p in row.cells[0].paragraphs:p.alignment=WD_ALIGN_PARAGRAPH.CENTER
@@ -419,10 +457,12 @@ def make_doc(data,maths,path,section=None):
     doc.add_paragraph('Recurso solar e modelagem da conversão fotovoltaica   PPGER UFPB   19 de outubro de 2026')
     if section:doc.add_paragraph(TITLES[section-1]+'. Responsáveis: '+OWNERS[section-1]+'.')
     cc=counts(rows)
-    doc.add_paragraph(f'Este inventário organiza {len(rows)} relações numeradas: {cc["N"]} do núcleo já escrito no notebook e {cc["C"]} de apoio, verificadas no código. '
+    doc.add_paragraph(f'Este inventário organiza {len(rows)} relações numeradas: {cc["N"]} escritas nas células de método do notebook e {cc["C"]} complementares explicitadas a partir do código. '
                       'Usar a coluna de inserção para distribuir a redação e manter os IDs nas referências cruzadas.')
-    doc.add_paragraph('Cada linha conta uma relação. Constantes e parâmetros não entram nessa contagem. Os itens N constituem o núcleo de inserção; '
-                      'os itens C detalham o método e podem ser incluídos conforme o espaço e a discussão da subseção. A numeração final do capítulo será definida na consolidação.')
+    doc.add_paragraph('A coluna de aplicação distingue conversão principal, tratamento, avaliação, fundamentação, ilustrações e cenários. '
+                      'N e C indicam onde a relação foi registrada e não separam modelos físicos de cenários. Cada símbolo recebe descrição e unidade na própria linha; 1 indica adimensional.')
+    doc.add_paragraph('O modelo A converte POA medida e meteorologia local por atenuação assumida, Faiman, CEC de diodo único, perdas CC, inversor PVWatts e perdas CA. '
+                      'A transposição exploratória, a aproximação CC PVWatts, o ajuste empírico e o balanço BIPV são identificados em suas respectivas aplicações.')
     summary_table(doc,rows,selected_sections)
     doc.add_paragraph('A equação de Faiman possui um único ID E3.03 e local de inserção em 3.2. Em 2.1 fazer remissão a esse ID. '
                       'No inventário geral os quatro quadros são reunidos para controle; cada Word de seção contém somente os itens que lhe pertencem.')
@@ -431,7 +471,8 @@ def make_doc(data,maths,path,section=None):
         heading.paragraph_format.page_break_before=False
         selected=[r for r in rows if r['section']==number]
         sub_counts=Counter(r['subsection'] for r in selected)
-        doc.add_paragraph('Distribuição por subseção: '+'; '.join(f'{sub} com {sub_counts[sub]} '+('relação' if sub_counts[sub]==1 else 'relações') for sub in sorted(sub_counts))+'.')
+        distribution=doc.add_paragraph('Distribuição por subseção: '+'; '.join(f'{sub} com {sub_counts[sub]} '+('relação' if sub_counts[sub]==1 else 'relações') for sub in sorted(sub_counts))+'.')
+        distribution.paragraph_format.keep_with_next=True
         if number==2:doc.add_paragraph('Em 2.1 as relações de apoio descrevem as estatísticas tabuladas. O modelo térmico deve ser citado em E3.03 sem repetir sua inserção.')
         equation_table(doc,selected,maths)
         notes={1:'Os ângulos são calculados por SPA no meio dos intervalos. As componentes locais GHI DNI e DHI são reconstruídas na exploração inversa. A variabilidade usa os pares disponíveis de cada dia.',
@@ -441,42 +482,57 @@ def make_doc(data,maths,path,section=None):
         doc.add_paragraph(notes[number])
     doc.add_heading('Convenções para a redação',level=1)
     doc.add_paragraph('Usar o mesmo plano, intervalo e máscara temporal nas comparações. G designa irradiância; H irradiação; P potência e E energia. '
-                      'As temperaturas são expressas em °C; diferenças de temperatura também podem ser expressas em K. Os ângulos devem seguir uma convenção única de azimute.')
+                      'Cada linha define todas as variáveis da relação. i indexa intervalos ou observações; j indexa perdas ou estágios conforme a linha. '
+                      'As operações soma, produto, média, valor absoluto, mínimo e máximo não são novas variáveis.')
+    conventions=data['notation_conventions']
+    selected_conventions={1:[1,2],2:[1,4],3:[2,3,4,5,6,7],4:[2,3,5,6,8,9]}
+    indices=range(1,len(conventions)) if section is None else selected_conventions[section]
+    for index in indices:doc.add_paragraph(conventions[index])
+    doc.add_paragraph('Cada linha conta uma relação. Constantes e parâmetros não entram na contagem. Os itens N são o núcleo editorial já escrito e os C detalham o método; '
+                      'selecionar a inclusão conforme a discussão e o espaço. A numeração final do capítulo será definida na consolidação.')
     doc.add_paragraph('O caso comum é PVDAQ 2107, abril a junho de 2024. As 4401 observações diurnas pareadas não representam todos os intervalos do trimestre. '
                       'A potência nominal declarada é 893 kWp. O exemplo de associação elétrica e o balanço BIPV são hipóteses identificadas.')
     doc.add_heading('Origem identificável das equações',level=1)
     groups={}
     for row in rows:groups.setdefault(row['source_locator'],[]).append(row['id'])
     for locator,ids in groups.items():doc.add_paragraph(locator+'  '+', '.join(ids))
-    doc.add_paragraph('O núcleo N foi conferido nas 19 subseções do notebook e na matriz do capítulo da revisão '+BASE[:12]+'. '
-                      'A fórmula repetida em 2.1 e 3.2 recebeu um só ID. Conversões de unidade, máscaras de qualidade e algoritmos internos de SPA, CEC e Perez–Driesse permanecem descritos no código e nas referências, sem numeração editorial adicional.')
+    doc.add_paragraph('As fórmulas N foram conferidas nas 19 subseções do notebook e na matriz da revisão '+BASE[:12]+'. '
+                      'Os algoritmos de SPA, CEC e Perez–Driesse, as conversões e os filtros estão no código. Citar as fontes R e explicitar as hipóteses na redação.')
     doc.add_paragraph('Fontes e referências metodológicas R: '+REPOSITORY+'/blob/main/references/Referencias_do_Projeto.md')
     doc.add_paragraph('Inventário legível com localização e links: '+REPOSITORY+'/blob/main/docs/equacoes/README.md')
-    doc.add_paragraph('Os códigos R identificam as fontes já catalogadas no projeto. As equações de apoio foram transcritas do código; '
-                      'para a redação científica, citar a fonte metodológica correspondente e explicitar as hipóteses do estudo.')
     path.parent.mkdir(parents=True,exist_ok=True);doc.save(path)
 
 
 def write_catalogue(data):
     folder=ROOT/'docs/equacoes';folder.mkdir(parents=True,exist_ok=True)
     (folder/'Inventario_Equacoes.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-    fields=['id','section','subsection','origin','title','latex','function','symbols','source_locator','refs','notes']
+    fields=['id','section','subsection','origin','application_class','application','title','latex','function','symbols','source_locator','code_correspondence','refs','notes']
     with (folder/'Inventario_Equacoes.csv').open('w',encoding='utf-8-sig',newline='') as handle:
         writer=csv.DictWriter(handle,fields,extrasaction='ignore',lineterminator='\n');writer.writeheader()
         for row in data['equations']:writer.writerow(dict(row,refs='; '.join(row['refs'])))
     lines=['# Inventário de equações por seção e subseção','',
-           'O levantamento contém **61 relações numeradas**: **37 do núcleo do notebook** e **24 de apoio verificadas no código**. '
+           'O levantamento contém **61 relações numeradas**: **37 escritas nas células de método do notebook** e **24 complementares explicitadas no código**. '
            'Cada ID tem uma única subseção de inserção. A equação de Faiman aparece uma vez em 3.2; em 2.1 há remissão a E3.03.','',
            'Uma linha representa uma relação numerada. Constantes e parâmetros não são novas equações. Os itens N formam o núcleo de inserção; '
            'os itens C documentam o método e sua inclusão depende do espaço e da discussão. O documento geral serve ao controle da equipe e os quatro documentos individuais à redação da respectiva seção.','',
            '[Baixar inventário geral em Word](Inventario_Geral_Equacoes_SPGER0046.docx) · [Dados do inventário em CSV](Inventario_Equacoes.csv) · [Fonte estruturada em JSON](Inventario_Equacoes.json)','',
            '[Abrir a pasta dos cinco Word no Google Drive](https://drive.google.com/drive/folders/1yfwwArqBTVwPt7EYer9DlHL1vmeO5V7B). Os arquivos DOCX foram preservados no formato Word.','',
-           '| Seção | Núcleo N | Apoio C | Total | Documento exclusivo |','| --- | --- | --- | --- | --- |']
+           '| Seção | Notebook N | Código C | Total | Documento exclusivo |','| --- | --- | --- | --- | --- |']
     for number in range(1,5):
         rows=[r for r in data['equations'] if r['section']==number];cc=counts(rows)
         relative=f'../../secoes/{FOLDERS[number-1]}/equacoes/Quadro_Equacoes_Secao_{number:02d}.docx'
         lines.append(f'| {number} {TITLES[number-1]} | {cc["N"]} | {cc["C"]} | {len(rows)} | [Word da seção {number}]({relative}) |')
     lines+=['| Total | 37 | 24 | 61 | |','',
+            '## Correspondência com o cálculo do PVDAQ','',data['application_scope'],'',
+            '**N/C identifica o registro da fórmula; a aplicação identifica sua função no estudo.** Uma expressão nas células de método pode ser fundamentação ou cenário. '
+            'SPA, CEC e Perez–Driesse são calculados pelas bibliotecas; o inventário apresenta suas relações de redação, sem expandir todos os algoritmos internos.','',
+            '| Aplicação verificada | Relações |','| --- | --- |']
+    for label,count in Counter(r['application'] for r in data['equations']).items():lines.append(f'| {label} | {count} |')
+    lines+=['','## Símbolos e unidades','',
+            'Cada uma das 61 relações tem lista estruturada de símbolos, descrição e unidade no JSON e a mesma lista legível no Word e neste catálogo. '
+            'Os índices também são identificados. O campo `code_correspondence` registra a operação, chamada ou coluna correspondente no código.','']
+    for convention in data['notation_conventions']:lines+=['- '+convention]
+    lines+=['',
             '## Fontes e convenções','',
             'O núcleo foi conferido no notebook e na matriz da revisão `'+BASE+'`. As fórmulas são nativas e editáveis nos Word. '
             'As potências devem usar unidades coerentes; para integrar W em kWh, multiplicar pela duração em horas e dividir por 1000. '
@@ -485,12 +541,13 @@ def write_catalogue(data):
             'As expressões internas de bibliotecas e os critérios computacionais não são expandidos como equações de redação.','']
     for sub in sorted({r['subsection'] for r in data['equations']}):
         rows=[r for r in data['equations'] if r['subsection']==sub]
-        lines+=['## Subseção '+sub,'','| ID | Equação e função | Origem | Local verificável |','| --- | --- | --- | --- |']
+        lines+=['## Subseção '+sub,'','| ID | Equação e função | Registro | Aplicação | Local verificável |','| --- | --- | --- | --- | --- |']
         for r in rows:
             path,locator=r['source_locator'].split('::')
-            lines.append('| '+r['id']+' | **'+r['title']+'**. '+r['function']+' | '+r['origin']+' | ['+locator+'](../../'+path+') |')
+            lines.append('| '+r['id']+' | **'+r['title']+'**. '+r['function']+' | '+r['origin']+' | '+r['application']+' | ['+locator+'](../../'+path+') |')
         lines.append('')
-        for r in rows:lines+=['**'+r['id']+'**','', '$$'+r['latex']+'$$','',r['symbols']+' '+r['notes'],'']
+        for r in rows:lines+=['**'+r['id']+'**','', '$$'+r['latex']+'$$','',r['symbols'],'',
+                            '**Correspondência no cálculo:** '+r['code_correspondence'],'',r['notes'],'']
     lines+=['## Referências metodológicas','',
             '[Fontes R do projeto](../../references/Referencias_do_Projeto.md). O código e o notebook permitem localizar cada relação; as fontes metodológicas devem ser citadas na redação final.','']
     (folder/'README.md').write_text('\n'.join(line.rstrip() for line in lines).rstrip()+'\n')
@@ -503,9 +560,9 @@ def write_section_navigation(data):
         rows=[r for r in data['equations'] if r['section']==number]
         word=f'Quadro_Equacoes_Secao_{number:02d}.docx'
         text=f'# Equações da seção {number}\n\n[Baixar quadro editável em Word]({word}) · [Inventário geral](../../../docs/equacoes/README.md)\n\n'
-        text+='Cada ID tem um único local de inserção. N identifica o núcleo do notebook e C as relações de apoio verificadas no código. Os itens de apoio podem detalhar o método conforme a discussão e o espaço disponível.\n\n'
-        text+='| ID | Inserir em | Função | Origem |\n| --- | --- | --- | --- |\n'
-        for row in rows:text+=f'| {row["id"]} | {row["subsection"]} | {row["title"]} | {row["origin"]} |\n'
+        text+='Cada ID tem um único local de inserção. O Word inclui descrição e unidade de todos os símbolos de cada equação. N identifica fórmula escrita no notebook e C relação complementar do código; a aplicação distingue o cálculo principal das análises e cenários.\n\n'
+        text+='| ID | Inserir em | Função | Registro | Aplicação |\n| --- | --- | --- | --- | --- |\n'
+        for row in rows:text+=f'| {row["id"]} | {row["subsection"]} | {row["title"]} | {row["origin"]} | {row["application"]} |\n'
         if number==2:text+='\nA equação de Faiman é inserida em 3.2 como E3.03. Em 2.1 fazer remissão a esse ID.\n'
         (folder/'equacoes/README.md').write_text(text)
         path=folder/'README.md';text=path.read_text().split('## Equações da seção')[0].rstrip()

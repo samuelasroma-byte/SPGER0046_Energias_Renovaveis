@@ -34,6 +34,42 @@ assert set(occurrences)=={r['id'] for r in rows if r['origin']=='N'}
 assert [key for key,n in Counter(occurrences).items() if n>1]==['E3.03']
 thermal=next(r for r in rows if r['id']=='E3.03')
 assert thermal['subsection']=='3.2' and thermal['notebook_subsections']==['2.1','3.2']
+# This revision annotates the delivered equations; it must not silently replace
+# any formula, move an insertion ID or turn a scenario into the physical model.
+previous=json.loads(subprocess.check_output(['git','-C',str(ROOT),'show',data['annotation_base_commit']+':docs/equacoes/Inventario_Equacoes.json'],text=True))
+assert [(r['id'],r['subsection'],r['latex']) for r in rows]==[(r['id'],r['subsection'],r['latex']) for r in previous['equations']]
+
+def normalized_math(value):
+    value=re.sub(r'\\operatorname\{[^}]+\}', '', value)
+    value=value.replace(r'\mathrm{abril}','')
+    value=re.sub(r'\\(?:left|right|cos|sin|tan|max|min|sum|prod|exp|frac|sqrt|in)(?![A-Za-z])', '', value)
+    value=value.replace(r'\,','').replace(r'\{','').replace(r'\}','')
+    return re.sub(r'[{}\s]','',value)
+
+for row in rows:
+    assert row['application_class'] and row['application'] and row['code_correspondence']
+    details=row['symbol_details']
+    assert details and len({s['latex'] for s in details})==len(details),row['id']
+    formula=normalized_math(row['latex'])
+    for s in sorted(details,key=lambda s:len(normalized_math(s['latex'])),reverse=True):
+        assert all(s[key].strip() for key in ['symbol','latex','description','unit'])
+        formula=formula.replace(normalized_math(s['latex']),'')
+    # A forgotten variable (including a dependent variable or index) remains
+    # alphabetic/LaTeX after removing operators, constants and declared symbols.
+    assert not re.search(r'[A-Za-zÀ-ÿ\\]',formula),(row['id'],formula)
+
+by_id={r['id']:r for r in rows}
+cfg=json.loads((ROOT/'config/projeto.json').read_text())
+assert data['parameters']['eta_ref_inverter']==cfg['assumptions']['inverter_eta_ref']
+assert data['parameters']['eta_ref_bipv']==cfg['bipv']['reference_efficiency']
+assert data['parameters']['bipv_gamma_per_C']==cfg['bipv']['gamma_pdc_per_C']
+assert by_id['E3.06']['application_class']=='comparacao'
+assert by_id['E2.07']['application_class']=='fundamento'
+assert by_id['E3.03']['application_class']==by_id['E3.04']['application_class']=='principal'
+assert all(by_id[f'E4.{n:02d}']['application_class']=='bipv' for n in range(20,31))
+assert {s['key']:s['unit'] for s in by_id['E3.03']['symbol_details']}['u0']=='W/(m²·K)'
+assert {s['key']:s['unit'] for s in by_id['E3.03']['symbol_details']}['u1']=='W·s/(m³·K)'
+assert all(s['unit']=='W' for n in range(26,31) for s in by_id[f'E4.{n:02d}']['symbol_details'] if s['key'].startswith('heat_'))
 
 references={r['id'] for r in json.loads((ROOT/'references/referencias_projeto.json').read_text())}
 for row in rows:
@@ -63,7 +99,15 @@ def word_records(path):
         ident,sub=match.groups();assert ident not in result
         equations=cells[1].xpath('.//m:oMath',namespaces=ns)
         assert len(equations)==1,(path,ident)
-        result[ident]=(sub,''.join(equations[0].xpath('.//m:t/text()',namespaces=ns)))
+        tokens=''.join(equations[0].xpath('.//m:t/text()',namespaces=ns))
+        if ident=='E4.12':assert tokens.count('|')==2,(path,ident,tokens)
+        if ident=='E3.04':assert '[' in tokens and ']' in tokens,(path,ident,tokens)
+        symbols=''.join(cells[2].xpath('.//w:t/text()',namespaces=ns))
+        application=''.join(cells[3].xpath('.//w:t/text()',namespaces=ns))
+        for s in by_id[ident]['symbol_details']:
+            assert f'{s["symbol"]}: {s["description"]} [{s["unit"]}]' in symbols,(path,ident,s)
+        assert by_id[ident]['application'] in application,(path,ident)
+        result[ident]=(sub,tokens,symbols,application)
     assert len(xml.xpath('//m:oMath',namespaces=ns))==len(result)
     return result
 
@@ -89,6 +133,10 @@ result=dict(status='passed',subsections=19,notebook_relation_occurrences=38,
             unique_notebook_relations=37,code_support_relations=24,total_relations=61,
             parameter_definitions_excluded=2,relations_per_section=[6,7,18,30],
             duplicate_insertion_IDs=0,native_editable_Word_math=True,
+            original_inventory_formulas_and_locations_preserved=True,
+            equations_with_complete_symbol_descriptions_and_units=len(rows),
+            symbol_definitions_across_equations=sum(len(r['symbol_details']) for r in rows),
+            application_counts=dict(Counter(r['application'] for r in rows)),
             Word_documents=5,source_commit=data['source_commit'],
             physical_sources_data_and_results_unchanged=True,
             files=[dict(path=str(p.relative_to(ROOT)),bytes=p.stat().st_size,
