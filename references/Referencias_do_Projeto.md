@@ -238,7 +238,7 @@ Equipe SPGER0046 / UFPB. Proposta de estrutura do capítulo: Recurso solar e mod
 
 Seções: Planejamento. Uso: Documento interno que define as quatro seções; não é referência científica de um modelo.
 
-Fonte: ACERVO_RESTRITO_DA_EQUIPE
+Fonte: https://drive.google.com/file/d/1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI/view
 
 DOI: não informado. Cópia local: docs/Plano_do_Capitulo_Fonte_Drive_20261016.txt. Consulta: 2026-10-16.
 

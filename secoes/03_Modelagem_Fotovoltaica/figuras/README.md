@@ -1,6 +1,6 @@
 # Figuras para a seção 3
 
-As figuras abaixo são candidatas, não obrigação de incluir todas. A mesma figura pode ser referenciada por duas seções sem duplicar seus bytes. Alta resolução e temas: coleção no Drive (consulta no acervo da equipe).
+As figuras abaixo são candidatas, não obrigação de incluir todas. A mesma figura pode ser referenciada por duas seções sem duplicar seus bytes. Alta resolução e temas: [coleção no Drive](https://drive.google.com/drive/folders/1w7Wts9tLFwKnPfqrMiZg_-yZdfqHAy3I).
 
 | ID | O que mostra | Subseções | Consulta |
 | --- | --- | --- | --- |

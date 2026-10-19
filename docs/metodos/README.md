@@ -2,7 +2,7 @@
 
 O estudo principal usa PVDAQ 2107, Farm Solar Array, Arbuckle, Califórnia, de abril a junho de 2024. Há 2.880 módulos, 24 inversores e 125 canais observacionais no conjunto original.
 
-- Dossiê técnico DOCX no Drive (consulta no acervo da equipe).
+- [Dossiê técnico DOCX no Drive](https://docs.google.com/document/d/1kC4e0Uh-9LSTEQnDmm05nSriQo4B_lZR/edit).
 - [Transcrição integral para consulta](Dossie_Tecnico_Leitura.txt).
 - [Inventários e dicionário de canais](../../data/equipamentos/README.md).
 - [Procedência dos parâmetros](../../config/proveniencia_parametros.csv).

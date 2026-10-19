@@ -1,6 +1,6 @@
 # Figuras e esquemas
 
-Há 30 figuras catalogadas: 25 gráficos, um fluxograma e quatro esquemas. Seis prévias, extraídas do notebook executado, estão nesta pasta. As versões completas, claras/escuras e em PNG/PDF, permanecem no Drive (consulta no acervo da equipe). O pipeline pode regenerá-las com --graficos.
+Há 30 figuras catalogadas: 25 gráficos, um fluxograma e quatro esquemas. Seis prévias, extraídas do notebook executado, estão nesta pasta. As versões completas, claras/escuras e em PNG/PDF, permanecem no [Drive](https://drive.google.com/drive/folders/1w7Wts9tLFwKnPfqrMiZg_-yZdfqHAy3I). O pipeline pode regenerá-las com --graficos.
 
 - [G01 Recurso e geometria](previas/G01_recurso_geometria.png).
 - [G03 Condições ambientais](previas/G03_condicoes_ambientais.png).

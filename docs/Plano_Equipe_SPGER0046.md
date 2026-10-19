@@ -6,11 +6,11 @@ Recurso solar e modelagem da conversão fotovoltaica. Levantamento e proposta de
 
 Podemos iniciar a leitura e a redação com o acervo já disponível. Há fontes de base, artigos, trabalhos acadêmicos, dados observacionais e uma cadeia computacional executada que cobre as 19 subseções. Isso permite começar; a seleção das afirmações, a leitura crítica e a conferência das páginas citadas ainda cabem à equipe. A obtenção das edições exatas de B19 e B20 e da norma N01 deixa de ser condição para iniciar a escrita. Não se declarará conformidade normativa sem examinar os requisitos da norma.
 
-Recomendo Drive e GitHub em conjunto. O Drive conserva a biblioteca de PDFs, os dados brutos, as versões gráficas e a redação compartilhada. O GitHub organiza o código, a configuração, os catálogos, os resultados selecionados e o histórico de revisões. Cada integrante terá uma entrada própria, mas as quatro seções usarão a mesma instalação, janela temporal e cadeia de dados.
+O GitHub é o ambiente central de redação, revisão e organização da equipe. O Drive conserva os PDFs, os dados brutos e as versões gráficas, acessíveis pelos índices do repositório. Código, configuração, catálogos, resultados e histórico de revisões ficam organizados no GitHub. Cada integrante terá uma entrada própria, mas as quatro seções usarão a mesma instalação, janela temporal e cadeia de dados.
 
 ## Onde ficaram os dois PDFs retirados
 
-Eles não foram enviados à lixeira. Permanecem na pasta de materiais retirados (consulta no acervo da equipe), na raiz do Drive. Os dois originais são Solar_Energy_Engineering-Processes_and_Systems.pdf e pdf68.pdf. O primeiro é Kalogirou 2009, outra edição, sem folhas iniciais; o segundo contém apenas parte de Luque e Hegedus 2011. Sete cópias derivadas estão nas quatro subpastas Secao_01 a Secao_04. São duas obras, dois originais e sete cópias, totalizando nove arquivos PDF preservados. A090 e A091 ficam fora do acervo ativo.
+Eles não foram enviados à lixeira. Permanecem na pasta de materiais retirados, fora da pasta ativa do projeto, na raiz do Drive. Os dois originais são Solar_Energy_Engineering-Processes_and_Systems.pdf e pdf68.pdf. O primeiro é Kalogirou 2009, outra edição, sem folhas iniciais; o segundo contém apenas parte de Luque e Hegedus 2011. Sete cópias derivadas estão nas quatro subpastas Secao_01 a Secao_04. São duas obras, dois originais e sete cópias, totalizando nove arquivos PDF preservados. A090 e A091 ficam fora do acervo ativo.
 
 ## Acervo ativo conferido
 
@@ -36,7 +36,7 @@ As 160 cópias nas 28 pastas de referências conferem, por identificador, com o 
 | 4 | Júlia Ribeiro e Lucas Simão | 25 | 6 | 3 | 2 | 5 | 0 | 41 |
 
 
-As cópias ocupam aproximadamente 1,12 GB; os documentos distintos somam aproximadamente 520,5 MB. Isso justifica usar links no GitHub. Os dois PDFs retirados estão excluídos desses totais. A contagem se refere ao acervo ativo do capítulo (consulta no acervo da equipe), e não a todos os arquivos de todo o Drive. A norma IEC 61724-1:2021 permanece ausente. O relatório A093 é apoio técnico e não é norma.
+As cópias ocupam aproximadamente 1,12 GB; os documentos distintos somam aproximadamente 520,5 MB. Isso justifica usar links no GitHub. Os dois PDFs retirados estão excluídos desses totais. A contagem se refere ao [acervo ativo do capítulo](https://drive.google.com/drive/folders/1Ko7bngE2QGAChdqNUVib-Ls7j7d25kTe), e não a todos os arquivos de todo o Drive. A norma IEC 61724-1:2021 permanece ausente. O relatório A093 é apoio técnico e não é norma.
 
 ## Qual é o estudo que já existe
 
@@ -105,10 +105,10 @@ G01 e G23 ilustram 17/05/2024; G08 compara 17/05 e 04/05/2024. Curvas elétricas
 | Tabelas numéricas pequenas | GitHub após selecionar | CSV com período, unidades e máscara temporal |
 | Figuras para o capítulo | GitHub após selecionar | Um arquivo por figura; listas por seção apontam para ele |
 | 120 versões gráficas e DOCX completos | Drive | Guardar versões clara/escura e alta resolução |
-| Texto em elaboração | Documento compartilhado no Drive | GitHub guarda versões consolidadas; escolher uma única fonte de edição |
+| Texto em elaboração | GitHub, em texto.md de cada seção | Uma fonte de edição e revisão por propostas de alteração |
 
 
-O GitHub é apropriado para versionar o trabalho computacional e revisar mudanças. Para a escrita simultânea do capítulo por integrantes sem prática de Git, o documento compartilhado do Drive oferece um caminho mais simples. Não manter duas versões editáveis concorrentes do mesmo texto. Na reunião, escolher: documento compartilhado como texto oficial com cópias consolidadas no GitHub, ou Markdown/LaTeX no GitHub como texto oficial. Recomendo a primeira opção nesta etapa.
+O GitHub concentra o trabalho computacional e a redação. Cada seção desenvolve seu arquivo texto.md e abre propostas de alteração para revisão do grupo. Os documentos originais no Drive são fontes de consulta; a edição corrente do capítulo acontece no repositório.
 
 Os PDFs permanecem nas pastas atuais de Artigos, Livros, Dissertacoes, Teses e Relatorios_e_Manuais. No pacote preparado, cada seção tem listas desses materiais, com IDs e links para sua cópia no Drive. Isso atende à divisão por seção sem colocar as 160 cópias no histórico Git. As figuras selecionadas ficam em figuras/previas ou, depois da seleção final, em figuras/selecionadas; os índices por seção apontam para os mesmos arquivos. Dados brutos são recuperáveis pelas URLs oficiais e conferidos por hashes.
 
@@ -134,7 +134,7 @@ O repositório público foi identificado em 18/10/2026 como samuelasroma-byte/SP
 
 ## Rotina de trabalho
 
-1. A equipe confirma o estudo PVDAQ 2107 e o período de abril a junho de 2024 como caso comum. Registra as hipóteses que serão discutidas e o texto oficial escolhido.
+1. A equipe usa PVDAQ 2107 e o período de abril a junho de 2024 como caso comum, registra as hipóteses e desenvolve a redação nos arquivos texto.md do GitHub.
 2. Cada integrante abre a pasta de sua seção, seleciona referências prioritárias, lê os trechos necessários e registra página, equação e aplicação. Não usa apenas o resumo ou a indicação automática do catálogo.
 3. A redação passa por subseções; cada tabela e figura selecionada recebe identificação, período, unidades, origem e vínculo com a versão do cálculo. Gráficos de cenários são identificados como cenários.
 4. Mudanças em código, configuração ou cálculo são propostas em uma branch curta, com uma tarefa e revisão por outro integrante. Branch é uma versão de trabalho; pull request é um pedido de revisão para incorporar a mudança. A versão principal permanece comum às quatro seções.
@@ -163,14 +163,19 @@ A validação observacional disponível é da saída CA nessa instalação e nes
 
 ## Fontes para consulta
 
-- Proposta atual de estrutura e cronograma (consulta no acervo da equipe).
-- Projeto PVDAQ e dados preservados (consulta no acervo da equipe).
-- Notebook principal executado (consulta no acervo da equipe).
-- Biblioteca de PDFs por seção (consulta no acervo da equipe).
-- Catálogo de figuras (consulta no acervo da equipe).
+- [Proposta atual de estrutura e cronograma](https://docs.google.com/document/d/1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI/edit).
+- [Projeto PVDAQ e dados preservados](https://drive.google.com/drive/folders/1RyyZri_sGsB2MZ6Hygwwrkv8eqPWymJ3).
+- [Notebook principal executado](https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view?usp=drivesdk).
+- [Biblioteca de PDFs por seção](https://drive.google.com/drive/folders/1Ko7bngE2QGAChdqNUVib-Ls7j7d25kTe).
+- [Catálogo de figuras](https://drive.google.com/file/d/1yWoU49d-e9Qlc9XWjwf6eXnGUIHyU1Cz/view?usp=drivesdk).
 - [GitHub sobre tamanho dos arquivos](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 - [GitHub sobre branches e revisão](https://docs.github.com/en/pull-requests/concepts/writing-code-for-a-project).
 
 ## Códigos do projeto
 
 A identifica documentos disponíveis no acervo, B identifica as 39 referências sugeridas do levantamento inicial, N identifica norma complementar e R identifica referências metodológicas do pipeline. Os números são identificadores de catálogo, não ranking de qualidade. A090 e A091 continuam reservados aos materiais retirados e não foram reutilizados. A092 e A093 são os dois relatórios completos acrescentados como apoio.
+
+
+## Ambiente de trabalho definido em 19/10/2026
+
+O GitHub é o ambiente central escolhido para a equipe. Desenvolver a redação em texto.md de cada seção e revisar por propostas de alteração. A proposta original no Drive continua como registro de escopo, responsáveis e cronograma. Os arquivos do Drive são abertos pelos [índices de acesso](ACESSO_E_COLABORACAO.md).

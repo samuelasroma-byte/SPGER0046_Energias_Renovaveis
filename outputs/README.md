@@ -8,4 +8,4 @@ As saídas numéricas de referência foram recalculadas a partir dos dados origi
 - [Figuras e prévias](figuras/README.md).
 - [Registro da execução](logs/ultima_execucao.json).
 
-Os resultados do capítulo se referem a abril a junho de 2024. As versões completas em alta resolução e DOCX permanecem no Drive (consulta no acervo da equipe).
+Os resultados do capítulo se referem a abril a junho de 2024. As versões completas em alta resolução e DOCX permanecem no [Drive](https://drive.google.com/drive/folders/1lm7fnyTPh0xs9odRuef1_hUK8Q4N_h2v).

@@ -2,7 +2,7 @@
 
 A proposta oficial define quatro seções, 19 subseções, integrantes e cronograma. O código e os exemplos devem atender a essa estrutura.
 
-- Proposta oficial DOCX no Drive (consulta no acervo da equipe).
+- [Proposta oficial DOCX no Drive](https://docs.google.com/document/d/1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI/edit).
 - [Transcrição para consulta](Proposta_Oficial_Leitura.txt).
 - [Matriz das 19 subseções](../Matriz_19_Subsecoes.md).
 - [Plano operacional da equipe](../Plano_Equipe_SPGER0046.md).
