@@ -1,0 +1,1562 @@
+[
+  {
+    "drive_id": "1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI",
+    "nome": "Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+    "origem": "Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+    "url_drive": "https://docs.google.com/document/d/1v5h8IW7XLGd7LeXHOevwoKLSvLLsY9kI/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx",
+    "bytes": 1984208,
+    "sha256": "1adff9d360ea021899eb050eaa7d6daabc36e68d3d30ae48fcf4d5076616bc35",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1INKFaXnv5dmZqqFtJySautkMF9Stoj5p",
+    "nome": "Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+    "origem": "Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+    "url_drive": "https://docs.google.com/document/d/1INKFaXnv5dmZqqFtJySautkMF9Stoj5p/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "docs/planejamento/Arquitetura_Capitulo_Recurso_Solar_Conversao_FV.docx",
+    "bytes": 27309,
+    "sha256": "ed8237bcd3f5b6b9c462dbbdc99bb5f4f51124ac6916e79feb015c4f9e2e19f3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1609Nrf8LXpU1rCHh7HGxQpxBxfU4_SxV",
+    "nome": "Plano_Equipe_SPGER0046.docx",
+    "origem": "00_Planejamento_da_Equipe/Plano_Equipe_SPGER0046.docx",
+    "url_drive": "https://docs.google.com/document/d/1609Nrf8LXpU1rCHh7HGxQpxBxfU4_SxV/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "docs/planejamento/Plano_Equipe_SPGER0046.docx",
+    "bytes": 42126,
+    "sha256": "87d647f7d4b7801566154e8982b0bb810de9380dfd31611b9c87474196b6b57d",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY",
+    "nome": "Referencias_por_Subsecao.docx",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Referencias_por_Subsecao.docx",
+    "url_drive": "https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+    "bytes": 48018,
+    "sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1EYHPdkAeotZTRryg73DTotHkOZH691Zk",
+    "nome": "01_Projeto_FV_Quatro_Secoes.ipynb",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/02_Notebooks_e_Codigo/01_Projeto_FV_Quatro_Secoes.ipynb",
+    "url_drive": "https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view?usp=drivesdk",
+    "caminho_github": "notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb",
+    "bytes": 4549657,
+    "sha256": "bd312fcca2583fc6ab0f9586c44cb99c9131e675a27bf6cea7f47547c7c5a8c1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Eut35Zci56dAvcmVvl7wq_0GnMpkxZV-",
+    "nome": "2107_meter_15m_data_2024.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/01_Dados_Originais/2107_meter_15m_data_2024.csv",
+    "url_drive": "https://drive.google.com/file/d/1Eut35Zci56dAvcmVvl7wq_0GnMpkxZV-/view?usp=drivesdk",
+    "caminho_github": "data/raw/2107_meter_15m_data_2024.csv",
+    "bytes": 849109,
+    "sha256": "bdef5026a5715f5a2b114580dd767a02bf35c4986bbffe496c4b89e85789eb98",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1905okZsOhvmqaiRXWUlSDM2h3TUlTsBZ",
+    "nome": "2107_irradiance_data_2024.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/01_Dados_Originais/2107_irradiance_data_2024.csv",
+    "url_drive": "https://drive.google.com/file/d/1905okZsOhvmqaiRXWUlSDM2h3TUlTsBZ/view?usp=drivesdk",
+    "caminho_github": "data/raw/2107_irradiance_data_2024.csv",
+    "bytes": 1933523,
+    "sha256": "fd5acea27608b348b98d0e57d6e8a16f75031cfd6813f7a23caf15211caaec29",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ZK-ktg1OepO39B1Xi0Qd2igeuGo3EW43",
+    "nome": "2107_environment_data_2024.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/01_Dados_Originais/2107_environment_data_2024.csv",
+    "url_drive": "https://drive.google.com/file/d/1ZK-ktg1OepO39B1Xi0Qd2igeuGo3EW43/view?usp=drivesdk",
+    "caminho_github": "data/raw/2107_environment_data_2024.csv",
+    "bytes": 1179362,
+    "sha256": "6e66f9a75ad879d7f0444ba108b352920a7e6458c6a6b9dcb74e6828c47977bd",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "148kpMKDb8S_dE7ql3HTVV0n9XdCSX6Ax",
+    "nome": "02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/05_Fundamentacao_Teorica/01_Notebook_e_Codigo/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+    "url_drive": "https://drive.google.com/file/d/148kpMKDb8S_dE7ql3HTVV0n9XdCSX6Ax/view?usp=drivesdk",
+    "caminho_github": "bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+    "bytes": 179827,
+    "sha256": "a3c4fa61029a6e06f1d406dc46c7039748b3f8663bf1f144cf6765c6589ae5bc",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1kC4e0Uh-9LSTEQnDmm05nSriQo4B_lZR",
+    "nome": "Dossie_Tecnico_por_Secao.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/dossie_tecnico/Dossie_Tecnico_por_Secao.docx",
+    "url_drive": "https://docs.google.com/document/d/1kC4e0Uh-9LSTEQnDmm05nSriQo4B_lZR/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "docs/metodos/Dossie_Tecnico_por_Secao.docx",
+    "bytes": 63896,
+    "sha256": "498f5a73526843ecd76cdbf2a8a20ad802b9ade9f73163b02b2d9ed0d4bc7699",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1SICoo0moXOxkEheZpk2lRfnYjKnggubg",
+    "nome": "Ilustracoes_FV.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/docx/Ilustracoes_FV.docx",
+    "url_drive": "https://docs.google.com/document/d/1SICoo0moXOxkEheZpk2lRfnYjKnggubg/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "outputs/figuras/docx/Ilustracoes_FV.docx",
+    "bytes": 789912,
+    "sha256": "08280c666232a49851e6a87816cbe3cf11d90099263ab01af09772751e4baa29",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "10LSYGsEeHxf8THmwoDDubIKDO71BOnn6",
+    "nome": "Fluxogramas_do_Projeto.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+    "url_drive": "https://docs.google.com/document/d/10LSYGsEeHxf8THmwoDDubIKDO71BOnn6/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+    "bytes": 408311,
+    "sha256": "a9a07548e98138651b73c174547e592496668c7baa418c031d4cc2f0db5a8dc0",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1htj4x-MiFAf2fli4VJB9RrP3TcocjoXD",
+    "nome": "Quadros_do_Projeto.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/quadros/docx/Quadros_do_Projeto.docx",
+    "url_drive": "https://docs.google.com/document/d/1htj4x-MiFAf2fli4VJB9RrP3TcocjoXD/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+    "bytes": 44379,
+    "sha256": "035771e5452bf91b5d6807f47372eddc292f3f36954b45ab92569ff914da256e",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "10K1fZorHA5EtmaMFTD8D6ABp6_cnc93T",
+    "nome": "Tabelas_do_Projeto.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/tabelas/docx/Tabelas_do_Projeto.docx",
+    "url_drive": "https://docs.google.com/document/d/10K1fZorHA5EtmaMFTD8D6ABp6_cnc93T/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+    "bytes": 53503,
+    "sha256": "174e4d08a02582683efac70c8b0a0abb7c0b20075b00b824b8b4413811204f84",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1TES_Rsy4r5HHPFq0_6BT8Ts4AULQrY0u",
+    "nome": "F04_geometrias_BIPV.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F04_geometrias_BIPV.png",
+    "url_drive": "https://drive.google.com/file/d/1TES_Rsy4r5HHPFq0_6BT8Ts4AULQrY0u/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.png",
+    "bytes": 192866,
+    "sha256": "aafb52def1563e77639cc8e91682913de0a405f19d2857128e9dcb04bd8d9086",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1sjzEa-CCRQDlr22XcmYJaf45zlbx3IQm",
+    "nome": "F03_arranjo_eletrico.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F03_arranjo_eletrico.png",
+    "url_drive": "https://drive.google.com/file/d/1sjzEa-CCRQDlr22XcmYJaf45zlbx3IQm/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.png",
+    "bytes": 301890,
+    "sha256": "7121d38d7f81e7e102a8a95859fd4317520edf546515d4997cadbd06759aacc3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1DgxilFhumX85jQNPx4FA2A17DUMc5ord",
+    "nome": "F02_componentes_POA.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F02_componentes_POA.png",
+    "url_drive": "https://drive.google.com/file/d/1DgxilFhumX85jQNPx4FA2A17DUMc5ord/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png",
+    "bytes": 273291,
+    "sha256": "f2cc8eb6faf3e6aca7f535db08035925c07b14aec57e50f1943b7cb1322dc444",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1SHMzR4clSYfnvGLPs0U2mBYYgj1oq8FB",
+    "nome": "F01_plano_angulos.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/png/F01_plano_angulos.png",
+    "url_drive": "https://drive.google.com/file/d/1SHMzR4clSYfnvGLPs0U2mBYYgj1oq8FB/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png",
+    "bytes": 317933,
+    "sha256": "d9905bd0507b82ab9747c763f9d5bc4ada07e4f8f5af5fcb722709fdfc1c3f0c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1NtQDZ8MmaQrQxIHpD6_CQcruNVNL1X5-",
+    "nome": "F04_geometrias_BIPV.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F04_geometrias_BIPV.pdf",
+    "url_drive": "https://drive.google.com/file/d/1NtQDZ8MmaQrQxIHpD6_CQcruNVNL1X5-/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/escuro/F04_geometrias_BIPV.pdf",
+    "bytes": 10585,
+    "sha256": "11fa45d9da4afb8bcb43289c73875db52d538bb11f0abf63aa4e063132e6bb5b",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1v_a2HFyzgxRilvvZGmyg9g1a7jGzInpN",
+    "nome": "F03_arranjo_eletrico.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F03_arranjo_eletrico.pdf",
+    "url_drive": "https://drive.google.com/file/d/1v_a2HFyzgxRilvvZGmyg9g1a7jGzInpN/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/figuras/escuro/F03_arranjo_eletrico.pdf",
+    "bytes": 12735,
+    "sha256": "bf5b130fb8d468a6994d0a7908259fd8ce2260b77b381f3dbe51a283bbd516d5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1LPN181nSqmRV7f6r8mvct-g4c8bOzay-",
+    "nome": "F02_componentes_POA.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F02_componentes_POA.pdf",
+    "url_drive": "https://drive.google.com/file/d/1LPN181nSqmRV7f6r8mvct-g4c8bOzay-/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf",
+    "bytes": 10048,
+    "sha256": "5dd8b5c61fb5dcac89e7c361ffaf12b7a8ad62d025311577576c24110140c474",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "16actMAzZLTG5k643AmY6xydmyGpDTucS",
+    "nome": "F01_plano_angulos.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/escuro/pdf/F01_plano_angulos.pdf",
+    "url_drive": "https://drive.google.com/file/d/16actMAzZLTG5k643AmY6xydmyGpDTucS/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf",
+    "bytes": 12129,
+    "sha256": "1c48b65a7a117220b529382afc0be2bf1a10db177b1829206912c5839e240183",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1D9gbHO6um-855S4C0FvJs3sZ7x4GtiB-",
+    "nome": "F04_geometrias_BIPV.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F04_geometrias_BIPV.png",
+    "url_drive": "https://drive.google.com/file/d/1D9gbHO6um-855S4C0FvJs3sZ7x4GtiB-/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.png",
+    "bytes": 191603,
+    "sha256": "ff044ae217e6cae38e20ce52bd9219c65556bc34d61272bd4f7edd9cd58d5384",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1sj5lPjtodU31yZFlK24FuxughCfTS6p7",
+    "nome": "F03_arranjo_eletrico.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F03_arranjo_eletrico.png",
+    "url_drive": "https://drive.google.com/file/d/1sj5lPjtodU31yZFlK24FuxughCfTS6p7/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/figuras/claro/F03_arranjo_eletrico.png",
+    "bytes": 295443,
+    "sha256": "74e61bc8c132aa7e2bac6162fcf5faa48bd877c7662e7657279b088a4a848a1a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "15zphw30Ka9N1rRcerL9U1xswV8tQwTps",
+    "nome": "F02_componentes_POA.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F02_componentes_POA.png",
+    "url_drive": "https://drive.google.com/file/d/15zphw30Ka9N1rRcerL9U1xswV8tQwTps/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F02_componentes_POA.png",
+    "bytes": 271621,
+    "sha256": "89c21a9edb01dc05bfbe41bd590aedbc0d5b2962d98dfd0d70ada61df7f56fc9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1NoKdXrsq-PnwCjbntjM9WyyO0__X1L3b",
+    "nome": "F01_plano_angulos.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/png/F01_plano_angulos.png",
+    "url_drive": "https://drive.google.com/file/d/1NoKdXrsq-PnwCjbntjM9WyyO0__X1L3b/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.png",
+    "bytes": 316265,
+    "sha256": "7d2dade3d8ca727f13efb2ef5fffce8bb93e9e2f9c6741113729175e7af82884",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1cmqyJEfeub05fwPmTxaROd8qNgT21cB-",
+    "nome": "F04_geometrias_BIPV.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F04_geometrias_BIPV.pdf",
+    "url_drive": "https://drive.google.com/file/d/1cmqyJEfeub05fwPmTxaROd8qNgT21cB-/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/figuras/claro/F04_geometrias_BIPV.pdf",
+    "bytes": 10553,
+    "sha256": "19951e4706e07bfff0d924ce36680ee9d65cd531840cbcb3eda9bbe316f9a945",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1d1cLiLFqE3JTYTOVITSoBDM_7PT9m1l6",
+    "nome": "F03_arranjo_eletrico.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F03_arranjo_eletrico.pdf",
+    "url_drive": "https://drive.google.com/file/d/1d1cLiLFqE3JTYTOVITSoBDM_7PT9m1l6/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/figuras/claro/F03_arranjo_eletrico.pdf",
+    "bytes": 12697,
+    "sha256": "acf94fa4b42aae025e6b662194ac1d79b60944b66b2bc5de1373f4a204066c9c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1DcLwcy25sIedQ0h3bh2nd-elIpB61cbe",
+    "nome": "F02_componentes_POA.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F02_componentes_POA.pdf",
+    "url_drive": "https://drive.google.com/file/d/1DcLwcy25sIedQ0h3bh2nd-elIpB61cbe/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F02_componentes_POA.pdf",
+    "bytes": 10016,
+    "sha256": "164def7675f79a645295e0cdbaa5fe566120a4593e736547a9b4b1cb5a74cb8e",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1KrZBPRo0zkWvJHv6YqTYC4zlUVuwNmnI",
+    "nome": "F01_plano_angulos.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/figuras/claro/pdf/F01_plano_angulos.pdf",
+    "url_drive": "https://drive.google.com/file/d/1KrZBPRo0zkWvJHv6YqTYC4zlUVuwNmnI/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf",
+    "bytes": 12077,
+    "sha256": "259a73ade108814f0c12a3609439f1d4c3c81532b9a080c5fe6289c36b666fe7",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1nt7Bc7JWGDw_284Sliw7CPFswGNIdac1",
+    "nome": "FL01_fluxo_projeto.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/fluxogramas/escuro/png/FL01_fluxo_projeto.png",
+    "url_drive": "https://drive.google.com/file/d/1nt7Bc7JWGDw_284Sliw7CPFswGNIdac1/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.png",
+    "bytes": 471668,
+    "sha256": "2f07d25c7bb43e1f65891d8da8ef4eff8cb44030432a47500ac41d1ddbf94b48",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1yvjLdk34KL3qMV7Iy_vP-GC8yXHLvPNz",
+    "nome": "FL01_fluxo_projeto.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/fluxogramas/escuro/pdf/FL01_fluxo_projeto.pdf",
+    "url_drive": "https://drive.google.com/file/d/1yvjLdk34KL3qMV7Iy_vP-GC8yXHLvPNz/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf",
+    "bytes": 14928,
+    "sha256": "1a2c0dede7f49485bd0b174ece5faf1a44b5d707f0a5c4124ccb9ba1ad998868",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1CTCbz-VtzYjdzyxqHMccyKhQaRynqNTf",
+    "nome": "FL01_fluxo_projeto.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/fluxogramas/claro/png/FL01_fluxo_projeto.png",
+    "url_drive": "https://drive.google.com/file/d/1CTCbz-VtzYjdzyxqHMccyKhQaRynqNTf/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.png",
+    "bytes": 460598,
+    "sha256": "277d3cff427fa9352a3f4cf135d407a9811ea0341a46963831fb9e9824ceba31",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1tCRuEFLFgeOZ6EH_yOLoVGL-iAWsukW-",
+    "nome": "FL01_fluxo_projeto.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/fluxogramas/claro/pdf/FL01_fluxo_projeto.pdf",
+    "url_drive": "https://drive.google.com/file/d/1tCRuEFLFgeOZ6EH_yOLoVGL-iAWsukW-/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf",
+    "bytes": 14883,
+    "sha256": "fe09bf98b6897e55547c627d2fffb00f2ed1415e1359e93b84b6865e6172c2a5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1TRc3iG5twZ9mRRUQiPVMYhZdDMuOzjFn",
+    "nome": "G25_BIPV_balanco.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G25_BIPV_balanco.png",
+    "url_drive": "https://drive.google.com/file/d/1TRc3iG5twZ9mRRUQiPVMYhZdDMuOzjFn/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.png",
+    "bytes": 169671,
+    "sha256": "a1fb4e4a45a5485ab7e4891f9165584d5aea84a7a644560ba90f94dcfce323a1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1B2Dri3B_vnTKyhblAAL6h3Y-pFApRtRV",
+    "nome": "G24_BIPV_orientacoes.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G24_BIPV_orientacoes.png",
+    "url_drive": "https://drive.google.com/file/d/1B2Dri3B_vnTKyhblAAL6h3Y-pFApRtRV/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.png",
+    "bytes": 159625,
+    "sha256": "13a882692a614ec738ae4027a6e438ab7444d2a731e59e653fa0f7b9cf124c27",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Nuxv0G09wEc6PQNMbYwdg6RqR5CnEXVM",
+    "nome": "G23_componentes_estimadas.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G23_componentes_estimadas.png",
+    "url_drive": "https://drive.google.com/file/d/1Nuxv0G09wEc6PQNMbYwdg6RqR5CnEXVM/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.png",
+    "bytes": 393168,
+    "sha256": "cd231f8b21891876664d0e4eb7f1c0c0b1a90dc799ed534d89085f1b6c009425",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "10C3Cu5UN-1y3rwmSIxObXK723N5C0Xzn",
+    "nome": "G22_albedo.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G22_albedo.png",
+    "url_drive": "https://drive.google.com/file/d/10C3Cu5UN-1y3rwmSIxObXK723N5C0Xzn/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G22_albedo.png",
+    "bytes": 190002,
+    "sha256": "7eeeee29f526c0848f9f0caa819c82db72616b4828aa2e62481c879e0168d6b7",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1YOO8DGMe4NbhTItKeOomDduaUdLoJx1z",
+    "nome": "G21_HSP_POA_pareada.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G21_HSP_POA_pareada.png",
+    "url_drive": "https://drive.google.com/file/d/1YOO8DGMe4NbhTItKeOomDduaUdLoJx1z/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G21_HSP_POA_pareada.png",
+    "bytes": 338111,
+    "sha256": "3fda66d78a9dea642b857f36429cd28d822147dcf08c6c810a51fbe0b9b8eba2",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "19AHxigADu9QdtVEfVBvEPZ1LznGTHq0X",
+    "nome": "G20_sujidade_ventilacao.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G20_sujidade_ventilacao.png",
+    "url_drive": "https://drive.google.com/file/d/19AHxigADu9QdtVEfVBvEPZ1LznGTHq0X/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G20_sujidade_ventilacao.png",
+    "bytes": 225238,
+    "sha256": "cdec7e9d4634cbd55595162ad864716ab2e9c951f80d4360b342ebc55d71a63d",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "10dc0rGzFp-VUwjzQ5gCfCPiUfW8mmnNL",
+    "nome": "G19_consistencia_medicoes.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G19_consistencia_medicoes.png",
+    "url_drive": "https://drive.google.com/file/d/10dc0rGzFp-VUwjzQ5gCfCPiUfW8mmnNL/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.png",
+    "bytes": 1123190,
+    "sha256": "1c23f2b2517d569f4ab825e0c98b85dfd6112bc8e3e677a2d94f1f532fa506d7",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1fwVNBtnn_qV38zatBo0PMkkL5bK_z4v6",
+    "nome": "G18_vies_horario.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G18_vies_horario.png",
+    "url_drive": "https://drive.google.com/file/d/1fwVNBtnn_qV38zatBo0PMkkL5bK_z4v6/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G18_vies_horario.png",
+    "bytes": 301730,
+    "sha256": "e89b16550ae0a8266bc86864948807ec6ae516067a98896ff5f3ec995553d9f5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1CacDFSfDZEqiBG69CmlJuxlmUiSbaLcf",
+    "nome": "G17_metricas_mensais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G17_metricas_mensais.png",
+    "url_drive": "https://drive.google.com/file/d/1CacDFSfDZEqiBG69CmlJuxlmUiSbaLcf/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G17_metricas_mensais.png",
+    "bytes": 248120,
+    "sha256": "421b5f4350738580d55f41b64b641bcb7e399a2cd2c026198225014a3159a351",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1lGoQaKJbyBJh72x4FpM8yLy2tyU7oOOD",
+    "nome": "G16_distribuicao_residuos.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G16_distribuicao_residuos.png",
+    "url_drive": "https://drive.google.com/file/d/1lGoQaKJbyBJh72x4FpM8yLy2tyU7oOOD/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G16_distribuicao_residuos.png",
+    "bytes": 171400,
+    "sha256": "d8167af14a411a9c10b1f5148867a14a93e22ab05c297aabf6dff95957afb52f",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1dBSlYX8cEBl2DtOsN5H7GUUB_x4fn4Wu",
+    "nome": "G15_residuos_potencia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G15_residuos_potencia.png",
+    "url_drive": "https://drive.google.com/file/d/1dBSlYX8cEBl2DtOsN5H7GUUB_x4fn4Wu/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G15_residuos_potencia.png",
+    "bytes": 1750549,
+    "sha256": "dccd872c8e48b021f69d3467ddc38acecdad4acab1a9c84b45c0de4ab499146a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ZIu20AGW3DePYfIPiI3N0gUbRkLACBXe",
+    "nome": "G14_residuos_temporais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G14_residuos_temporais.png",
+    "url_drive": "https://drive.google.com/file/d/1ZIu20AGW3DePYfIPiI3N0gUbRkLACBXe/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G14_residuos_temporais.png",
+    "bytes": 1513696,
+    "sha256": "8f11f3f04797ddad8f6acea26469e6439ce9817c12ca5c6b56224be990074881",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1KfC_pGNNi0r8S-L21eUpkoMWJkr9txrR",
+    "nome": "G13_validacao.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G13_validacao.png",
+    "url_drive": "https://drive.google.com/file/d/1KfC_pGNNi0r8S-L21eUpkoMWJkr9txrR/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G13_validacao.png",
+    "bytes": 2325633,
+    "sha256": "7b8380e671a260251caedbdca4b0e7dda67ca4cb247af273401b4cb252a4a1dc",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1SpIyoFwtiZ6kzBzLiRtkRAZN94dzNcs7",
+    "nome": "G12_produtividades_PR.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G12_produtividades_PR.png",
+    "url_drive": "https://drive.google.com/file/d/1SpIyoFwtiZ6kzBzLiRtkRAZN94dzNcs7/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G12_produtividades_PR.png",
+    "bytes": 279193,
+    "sha256": "ae72aa81be684d84229d8d1bf2a3e4acca1e605db5e4ef01acd9f260f53d3f1f",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1lhH6vlEB8dNthuS0L4bSJ4dmsmfbib-l",
+    "nome": "G11_cadeia_energetica.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G11_cadeia_energetica.png",
+    "url_drive": "https://drive.google.com/file/d/1lhH6vlEB8dNthuS0L4bSJ4dmsmfbib-l/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G11_cadeia_energetica.png",
+    "bytes": 283596,
+    "sha256": "46c1dee1e36df1ec1e118496b7d15c3c6334ba393c1e6a950e4bbc0a7c665fd4",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Ks9NCLcedp_kpuO0hjQnT7flQqpe9-52",
+    "nome": "G10_energia_mensal.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G10_energia_mensal.png",
+    "url_drive": "https://drive.google.com/file/d/1Ks9NCLcedp_kpuO0hjQnT7flQqpe9-52/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G10_energia_mensal.png",
+    "bytes": 169551,
+    "sha256": "95ab91f4039a880c98a1695a90c7b155ab168b3cc7e65ddddce379f6b6bb23a1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1GjZ7SXPhu1HzlfBni1JlaZ2l95E7sFVZ",
+    "nome": "G09_energia_diaria.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G09_energia_diaria.png",
+    "url_drive": "https://drive.google.com/file/d/1GjZ7SXPhu1HzlfBni1JlaZ2l95E7sFVZ/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.png",
+    "bytes": 486667,
+    "sha256": "b2f5a8da21d1659df7a731eda9dc6a55bff0b1bf253da176ae98fe6dd2949a52",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "14IxkiHFZh9MYI-13FiWaMDMxp_ed65bR",
+    "nome": "G08_series_potencia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G08_series_potencia.png",
+    "url_drive": "https://drive.google.com/file/d/14IxkiHFZh9MYI-13FiWaMDMxp_ed65bR/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.png",
+    "bytes": 587731,
+    "sha256": "4afae394ce057ab111a72a3a9d46d11ff51f7f6b4f68a90d90d507bf5da2ded1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1-AXviQUdntVhmowJIAuEDrcf9bZYcdEI",
+    "nome": "G07_inversor.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G07_inversor.png",
+    "url_drive": "https://drive.google.com/file/d/1-AXviQUdntVhmowJIAuEDrcf9bZYcdEI/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G07_inversor.png",
+    "bytes": 413445,
+    "sha256": "f35f46907a93932b12e2277bb7f7d078df7d4d1e5c8315e80554867d7c2fbbc1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1XGrIY8TyAOkmA2V8NqUqhjECaa9cUjD5",
+    "nome": "G06_curvas_temperatura.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G06_curvas_temperatura.png",
+    "url_drive": "https://drive.google.com/file/d/1XGrIY8TyAOkmA2V8NqUqhjECaa9cUjD5/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G06_curvas_temperatura.png",
+    "bytes": 472122,
+    "sha256": "f4000e834b547a962a1b53121f76530a1703ae08c1786b7ced833d902c905707",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1VvH_2kfImVik_3PGxq7JAAkOVIxVW_2U",
+    "nome": "G05_curvas_irradiancia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G05_curvas_irradiancia.png",
+    "url_drive": "https://drive.google.com/file/d/1VvH_2kfImVik_3PGxq7JAAkOVIxVW_2U/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G05_curvas_irradiancia.png",
+    "bytes": 464715,
+    "sha256": "4a3741731e9b5814eec42c90859576a1a2fc90cced55db21a8dc1f4f6f786fb3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1BcO7w6qbnOisjiIZg5ktzGKQJeLH1eSv",
+    "nome": "G04_temperatura_estimada.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G04_temperatura_estimada.png",
+    "url_drive": "https://drive.google.com/file/d/1BcO7w6qbnOisjiIZg5ktzGKQJeLH1eSv/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.png",
+    "bytes": 1718833,
+    "sha256": "24f5a675e09570cbb11c35a950fc9bdd25ae55c6ff248fc098ed8ed1d3d2506e",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1YNjhOE_-yUyKgp_uBYBm3gO1B1L9RvRj",
+    "nome": "G03_condicoes_ambientais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G03_condicoes_ambientais.png",
+    "url_drive": "https://drive.google.com/file/d/1YNjhOE_-yUyKgp_uBYBm3gO1B1L9RvRj/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G03_condicoes_ambientais.png",
+    "bytes": 256868,
+    "sha256": "ee4d0dcd91ccbbe6295f08916aaf1db1e3151a15b4c50ada4fa63cda8d8b0930",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "10c3crB13IzHO3DE-Cy4-yl0GvmV5Mvdj",
+    "nome": "G02_variabilidade_recurso.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G02_variabilidade_recurso.png",
+    "url_drive": "https://drive.google.com/file/d/10c3crB13IzHO3DE-Cy4-yl0GvmV5Mvdj/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G02_variabilidade_recurso.png",
+    "bytes": 351888,
+    "sha256": "c0cf93a5440c1c2a14c5b61210e46f705c33079285f2f6458355d142d023c5f4",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1EeASEtLCa1BJHN5XEm3JNAT6Mc4dbylZ",
+    "nome": "G01_recurso_geometria.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/png/G01_recurso_geometria.png",
+    "url_drive": "https://drive.google.com/file/d/1EeASEtLCa1BJHN5XEm3JNAT6Mc4dbylZ/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G01_recurso_geometria.png",
+    "bytes": 468440,
+    "sha256": "cac5d7877f06782a208188a9d796192fb88dbc680fa366f51457f197d0b5682c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1h3oHJwcuGsNMD-dbECTGmAozpg11dkjz",
+    "nome": "G25_BIPV_balanco.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G25_BIPV_balanco.pdf",
+    "url_drive": "https://drive.google.com/file/d/1h3oHJwcuGsNMD-dbECTGmAozpg11dkjz/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G25_BIPV_balanco.pdf",
+    "bytes": 12345,
+    "sha256": "e0fa44b5a48539bf0e06cf344b13ea027619a89c64e06537c32cdc5212acad20",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1I6QHZ1izexaeZ81fUdoQeFROEv8uZFNd",
+    "nome": "G24_BIPV_orientacoes.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G24_BIPV_orientacoes.pdf",
+    "url_drive": "https://drive.google.com/file/d/1I6QHZ1izexaeZ81fUdoQeFROEv8uZFNd/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G24_BIPV_orientacoes.pdf",
+    "bytes": 12228,
+    "sha256": "4bf2b241053c9589aaa9a184fe9a8361ec27eb50ce84304167322b2347772adb",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1pnrK3eZgok5auXChu8HgtpcJzyX4qdsj",
+    "nome": "G23_componentes_estimadas.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G23_componentes_estimadas.pdf",
+    "url_drive": "https://drive.google.com/file/d/1pnrK3eZgok5auXChu8HgtpcJzyX4qdsj/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G23_componentes_estimadas.pdf",
+    "bytes": 13002,
+    "sha256": "70a1f19ced54b397bb940cc3719c07add495138f1138b573cb757b00613496de",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1L6SMzdePlzbzBmOJIymNER4hrlHjYVHr",
+    "nome": "G22_albedo.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G22_albedo.pdf",
+    "url_drive": "https://drive.google.com/file/d/1L6SMzdePlzbzBmOJIymNER4hrlHjYVHr/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G22_albedo.pdf",
+    "bytes": 11603,
+    "sha256": "6d040c1a0cead17311d7611cba72b6eaa70d7d310f106d1a437cd0c814fc762d",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1GhcJZRXhhdeVsTuYNqXTrsGGOS7RPBE4",
+    "nome": "G21_HSP_POA_pareada.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G21_HSP_POA_pareada.pdf",
+    "url_drive": "https://drive.google.com/file/d/1GhcJZRXhhdeVsTuYNqXTrsGGOS7RPBE4/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G21_HSP_POA_pareada.pdf",
+    "bytes": 11408,
+    "sha256": "fc02e9ea536fbd278efd3a2d3dfac380b14f20f94ca5f8c6a515310cb0d76dbc",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1DHK6yB-xMJvfVY8QsQfew_41Yvgs9V7x",
+    "nome": "G20_sujidade_ventilacao.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G20_sujidade_ventilacao.pdf",
+    "url_drive": "https://drive.google.com/file/d/1DHK6yB-xMJvfVY8QsQfew_41Yvgs9V7x/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G20_sujidade_ventilacao.pdf",
+    "bytes": 13513,
+    "sha256": "c7abc57a7e18dbd855f6b54142048f139097f78e206ec1df9a7f189557989e0b",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1hSVCGylbzRk3p7T2BbHrsGTuyPch83k9",
+    "nome": "G19_consistencia_medicoes.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G19_consistencia_medicoes.pdf",
+    "url_drive": "https://drive.google.com/file/d/1hSVCGylbzRk3p7T2BbHrsGTuyPch83k9/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G19_consistencia_medicoes.pdf",
+    "bytes": 59032,
+    "sha256": "14df0e95f6c4c15a2f9f615bb16bb8da570573acc6303c044576e4ab97fd2a7b",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1jDcR8ngeTKlux3NNnLk8Ni-Uprukzhd8",
+    "nome": "G18_vies_horario.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G18_vies_horario.pdf",
+    "url_drive": "https://drive.google.com/file/d/1jDcR8ngeTKlux3NNnLk8Ni-Uprukzhd8/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G18_vies_horario.pdf",
+    "bytes": 12856,
+    "sha256": "648d390badfdd9d254bf43067d9bef2fdfe651c1b558e8daa371506e199ce305",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "14QQE2DGfhoyx2Db8NgRYZntQyMjjNoHV",
+    "nome": "G17_metricas_mensais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G17_metricas_mensais.pdf",
+    "url_drive": "https://drive.google.com/file/d/14QQE2DGfhoyx2Db8NgRYZntQyMjjNoHV/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G17_metricas_mensais.pdf",
+    "bytes": 12867,
+    "sha256": "5d039ba8632a81d23aaf335bf6e8d35c0f5054d785f1b36aa48eb409a2b75c5c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "19rZ2yexh_fAWl_yMTVfOjmYUy6Mk0Zse",
+    "nome": "G16_distribuicao_residuos.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G16_distribuicao_residuos.pdf",
+    "url_drive": "https://drive.google.com/file/d/19rZ2yexh_fAWl_yMTVfOjmYUy6Mk0Zse/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G16_distribuicao_residuos.pdf",
+    "bytes": 12724,
+    "sha256": "691f4e2f4ceb13010ce6ee57c55e4ac4b32c1fe012b7bf2e09c3b3f85235ffa8",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Mq6E_eKKR1sRbn4Rs3cHhQv74XTZihYi",
+    "nome": "G15_residuos_potencia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G15_residuos_potencia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1Mq6E_eKKR1sRbn4Rs3cHhQv74XTZihYi/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G15_residuos_potencia.pdf",
+    "bytes": 56548,
+    "sha256": "5bd22112479d84c612d78226d9233bb01330c17cb91af83c5c45246046a18df9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1A4js5p1SES78rqW7xnzdIRCKRHYq_2o7",
+    "nome": "G14_residuos_temporais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G14_residuos_temporais.pdf",
+    "url_drive": "https://drive.google.com/file/d/1A4js5p1SES78rqW7xnzdIRCKRHYq_2o7/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G14_residuos_temporais.pdf",
+    "bytes": 43791,
+    "sha256": "7ff1f5e4723377f9c724ebee7446f5f8d1284b9e526692b65fe26e6e0e6a3340",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1mOzk_mIng2SxJLTg30qBYLOsssh4c1Tk",
+    "nome": "G13_validacao.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G13_validacao.pdf",
+    "url_drive": "https://drive.google.com/file/d/1mOzk_mIng2SxJLTg30qBYLOsssh4c1Tk/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G13_validacao.pdf",
+    "bytes": 58179,
+    "sha256": "eb123c7fbf25fc7e84db1f32830bb442b988f030e1c4e07ec9f0739be7d07d76",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1pep4KXAdV8yhr7uMZ7Qv99jOlbJij5Ta",
+    "nome": "G12_produtividades_PR.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G12_produtividades_PR.pdf",
+    "url_drive": "https://drive.google.com/file/d/1pep4KXAdV8yhr7uMZ7Qv99jOlbJij5Ta/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G12_produtividades_PR.pdf",
+    "bytes": 12242,
+    "sha256": "b4715c0deca96dd83d634034913695e85f1e80a623b31fced76b7cb14ee7e414",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1yZ4K5tdtZaXHmhsR56kA6X_iJ0mS6UVa",
+    "nome": "G11_cadeia_energetica.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G11_cadeia_energetica.pdf",
+    "url_drive": "https://drive.google.com/file/d/1yZ4K5tdtZaXHmhsR56kA6X_iJ0mS6UVa/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/escuro/G11_cadeia_energetica.pdf",
+    "bytes": 14090,
+    "sha256": "c1905e8cdbbdec72fe3912db936201da5d155fcb9a45e27df338c4afcdf26e8c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1eFBf978kIeNI9lcaJWKxAQAe1Izynl02",
+    "nome": "G10_energia_mensal.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G10_energia_mensal.pdf",
+    "url_drive": "https://drive.google.com/file/d/1eFBf978kIeNI9lcaJWKxAQAe1Izynl02/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G10_energia_mensal.pdf",
+    "bytes": 10840,
+    "sha256": "187ee2011791c7294b570d3c7287e855b01079b8b907a0c3926aaec7963586a1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1sHQDD9FEkTOVjd4PcN5MuNLXaNB-BFgc",
+    "nome": "G09_energia_diaria.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G09_energia_diaria.pdf",
+    "url_drive": "https://drive.google.com/file/d/1sHQDD9FEkTOVjd4PcN5MuNLXaNB-BFgc/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G09_energia_diaria.pdf",
+    "bytes": 12747,
+    "sha256": "4aedc5ba28dfb71b98635008d7308b2ca4cdd0db4f6ad4db2980dde59e7b1037",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ufq0h3Qy84h3DB0rbSVT7soS5q0g2nKL",
+    "nome": "G08_series_potencia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G08_series_potencia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1ufq0h3Qy84h3DB0rbSVT7soS5q0g2nKL/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G08_series_potencia.pdf",
+    "bytes": 13751,
+    "sha256": "053f08e95d3fe9604ba6e3b6654ab678f94ebf9a69c216964d04d7c18292ade3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1t5t1VhVexBQqo3gYoea5z9KpApSOMJXS",
+    "nome": "G07_inversor.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G07_inversor.pdf",
+    "url_drive": "https://drive.google.com/file/d/1t5t1VhVexBQqo3gYoea5z9KpApSOMJXS/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G07_inversor.pdf",
+    "bytes": 13679,
+    "sha256": "b0defd7bf7f243cb8f5817d4375b00348bb19738815906c489f7ef7f7837f5c5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1FqGmgnt88H8g_zu75gyoPgJ_5GMZ6953",
+    "nome": "G06_curvas_temperatura.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G06_curvas_temperatura.pdf",
+    "url_drive": "https://drive.google.com/file/d/1FqGmgnt88H8g_zu75gyoPgJ_5GMZ6953/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G06_curvas_temperatura.pdf",
+    "bytes": 15504,
+    "sha256": "6bdfe7a8f00956938d88fce8390459921bbf7ff6e702cff0ae50afe1db220a56",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1xrMIv0U_94T7jftlWy0EIG9BMSW_nDuT",
+    "nome": "G05_curvas_irradiancia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G05_curvas_irradiancia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1xrMIv0U_94T7jftlWy0EIG9BMSW_nDuT/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/escuro/G05_curvas_irradiancia.pdf",
+    "bytes": 15524,
+    "sha256": "9b1dd4aadc5acaa3bb45883ac1a4d490dbf854fbbe3e960c1cb833d58a79fdb8",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1HwuiS9-alLg2uilCUqKdmfKPBJHAc9xw",
+    "nome": "G04_temperatura_estimada.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G04_temperatura_estimada.pdf",
+    "url_drive": "https://drive.google.com/file/d/1HwuiS9-alLg2uilCUqKdmfKPBJHAc9xw/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G04_temperatura_estimada.pdf",
+    "bytes": 99942,
+    "sha256": "c6ec93086297b8e17aaf8741d2ef8c350f02fe4f24d2d1b7ebf7afd7c2deabb7",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1qGjJis7GBFAJNQBbqpu3stAsmekRyJ2s",
+    "nome": "G03_condicoes_ambientais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G03_condicoes_ambientais.pdf",
+    "url_drive": "https://drive.google.com/file/d/1qGjJis7GBFAJNQBbqpu3stAsmekRyJ2s/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/escuro/G03_condicoes_ambientais.pdf",
+    "bytes": 12551,
+    "sha256": "bc9177b9dcca3357ba4bdeae07382d2ad7c2122afe16e4f6d571ec7a4ec4b328",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Mh7Ag449Sjn15_0XOuSF9qaJjHPtop6Q",
+    "nome": "G02_variabilidade_recurso.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G02_variabilidade_recurso.pdf",
+    "url_drive": "https://drive.google.com/file/d/1Mh7Ag449Sjn15_0XOuSF9qaJjHPtop6Q/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G02_variabilidade_recurso.pdf",
+    "bytes": 12512,
+    "sha256": "5e2aae9bfa4d73046261b3891f359ef2da4fd87fd4e4f94a34b8a9c227e481e2",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1BOnMTAetdoIWNhFPOLFaFQ4LTdJEoyXp",
+    "nome": "G01_recurso_geometria.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/escuro/pdf/G01_recurso_geometria.pdf",
+    "url_drive": "https://drive.google.com/file/d/1BOnMTAetdoIWNhFPOLFaFQ4LTdJEoyXp/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/escuro/G01_recurso_geometria.pdf",
+    "bytes": 15364,
+    "sha256": "b3ab00f4dc49465de672827c99787e953eaa3544384d54e55dae3078a998e794",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1EhuXztmxXAmPysetTsEUhHa4OhFr8n9V",
+    "nome": "G25_BIPV_balanco.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G25_BIPV_balanco.png",
+    "url_drive": "https://drive.google.com/file/d/1EhuXztmxXAmPysetTsEUhHa4OhFr8n9V/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G25_BIPV_balanco.png",
+    "bytes": 166616,
+    "sha256": "74e9c4465021851b4cfabfd1fe4465747cce7964fb11e22a1c2e94952ebf5bcd",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1FWaTLyL_JQKsVGIh28oiGlFG_-Nuh5sF",
+    "nome": "G24_BIPV_orientacoes.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G24_BIPV_orientacoes.png",
+    "url_drive": "https://drive.google.com/file/d/1FWaTLyL_JQKsVGIh28oiGlFG_-Nuh5sF/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.png",
+    "bytes": 156828,
+    "sha256": "60d44ce4aeffe62f64da02eac7630b458e5bf5707a384d33cdd6d949c18ac9e2",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1rgIQYJOGLOfp4bPU1w8vMqYunJKvFFfI",
+    "nome": "G23_componentes_estimadas.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G23_componentes_estimadas.png",
+    "url_drive": "https://drive.google.com/file/d/1rgIQYJOGLOfp4bPU1w8vMqYunJKvFFfI/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.png",
+    "bytes": 389132,
+    "sha256": "d03cfe0b1e78aeffa5bb11b2ebebc4dbdb0a753d17a15ffbfb1fb829e24dab69",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1RMAq5GQ_Ux0Y3tkJaKDNjJlo98zqT_iE",
+    "nome": "G22_albedo.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G22_albedo.png",
+    "url_drive": "https://drive.google.com/file/d/1RMAq5GQ_Ux0Y3tkJaKDNjJlo98zqT_iE/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G22_albedo.png",
+    "bytes": 186860,
+    "sha256": "302ef0526c5938848879863de66caa1b0cc54e793c95850f0fb9cdd3c787adc6",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1olmRLvnV8oVGQ6-cTt1-ABXbkvDzj8mA",
+    "nome": "G21_HSP_POA_pareada.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G21_HSP_POA_pareada.png",
+    "url_drive": "https://drive.google.com/file/d/1olmRLvnV8oVGQ6-cTt1-ABXbkvDzj8mA/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G21_HSP_POA_pareada.png",
+    "bytes": 326427,
+    "sha256": "8bba4cd8477c61d7fa56a69fa67e8d030e6bbbe5e742d9ab63f0d4039f4f3b54",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1y-NborIF8GwQy_smPLbTz4z9_s0v4LEU",
+    "nome": "G20_sujidade_ventilacao.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G20_sujidade_ventilacao.png",
+    "url_drive": "https://drive.google.com/file/d/1y-NborIF8GwQy_smPLbTz4z9_s0v4LEU/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G20_sujidade_ventilacao.png",
+    "bytes": 222538,
+    "sha256": "f0ac9a5ca92316cc49f365f7d51c8aa0e29315c431f000032d24199de88a1b0c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1pzMGelTbR9gfdb4mkNHhtBdOArr-Amzp",
+    "nome": "G19_consistencia_medicoes.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G19_consistencia_medicoes.png",
+    "url_drive": "https://drive.google.com/file/d/1pzMGelTbR9gfdb4mkNHhtBdOArr-Amzp/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.png",
+    "bytes": 1082038,
+    "sha256": "7d01999cc15b5647917da103e93abe3a56d7e3f509e602b9830de3404fc3b619",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1c4Qv-pOSXa65qb4N0_N4FW7B9GZr1zmY",
+    "nome": "G18_vies_horario.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G18_vies_horario.png",
+    "url_drive": "https://drive.google.com/file/d/1c4Qv-pOSXa65qb4N0_N4FW7B9GZr1zmY/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G18_vies_horario.png",
+    "bytes": 299373,
+    "sha256": "fa94e945ee243400fad76afb4e16201bf8fc4b2bd62b5706efbb5463c0b2825d",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1cMMPf_0IoOG3VU8dTVKGgl7aqgOvW1lO",
+    "nome": "G17_metricas_mensais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G17_metricas_mensais.png",
+    "url_drive": "https://drive.google.com/file/d/1cMMPf_0IoOG3VU8dTVKGgl7aqgOvW1lO/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G17_metricas_mensais.png",
+    "bytes": 245203,
+    "sha256": "c67fbdcf181c806a6aa35c5bbcbc4078bd0c5e42ddaa9f789ce7453e765bec61",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1I8DEwUnF2g86FGxk4SdtdyL1GFC_0KlF",
+    "nome": "G16_distribuicao_residuos.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G16_distribuicao_residuos.png",
+    "url_drive": "https://drive.google.com/file/d/1I8DEwUnF2g86FGxk4SdtdyL1GFC_0KlF/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G16_distribuicao_residuos.png",
+    "bytes": 168355,
+    "sha256": "5359f31331594c24e007635b9ab9b54d4795f2c3622279aaf43c34a893883bee",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1yOoRUomQSomG7W2E3djddY4N_xSqUSyR",
+    "nome": "G15_residuos_potencia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G15_residuos_potencia.png",
+    "url_drive": "https://drive.google.com/file/d/1yOoRUomQSomG7W2E3djddY4N_xSqUSyR/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G15_residuos_potencia.png",
+    "bytes": 1703504,
+    "sha256": "e3aeeaf0edc19c21cf150701f193236ff2075469cbdc2d273a353199c6dfccd3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "11qqSGb8tfEJZaRZDf6sY8xGFaztvo5I_",
+    "nome": "G14_residuos_temporais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G14_residuos_temporais.png",
+    "url_drive": "https://drive.google.com/file/d/11qqSGb8tfEJZaRZDf6sY8xGFaztvo5I_/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G14_residuos_temporais.png",
+    "bytes": 1504090,
+    "sha256": "671967833af0fbe043a38911aef89f872240ecc641f955a19a05d379ceec9cc8",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1athiJOONrESlvB2U2ZU1D2EgBGxmNkCa",
+    "nome": "G13_validacao.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G13_validacao.png",
+    "url_drive": "https://drive.google.com/file/d/1athiJOONrESlvB2U2ZU1D2EgBGxmNkCa/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G13_validacao.png",
+    "bytes": 2268615,
+    "sha256": "0772a72a40d46923e47e1280682255a290306788893852e7aa578e3fc30a710c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1dNIRQKHvXuxdsN1OPDJiZYcuMOhkOQ71",
+    "nome": "G12_produtividades_PR.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G12_produtividades_PR.png",
+    "url_drive": "https://drive.google.com/file/d/1dNIRQKHvXuxdsN1OPDJiZYcuMOhkOQ71/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G12_produtividades_PR.png",
+    "bytes": 274880,
+    "sha256": "c36045fb13450238f8ee6045b0be6da33489d5b309e9d0aeba85f06e05eb7157",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1iSCGVes6M_QcB7XJ6rLk_Nif_FB0iqDw",
+    "nome": "G11_cadeia_energetica.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G11_cadeia_energetica.png",
+    "url_drive": "https://drive.google.com/file/d/1iSCGVes6M_QcB7XJ6rLk_Nif_FB0iqDw/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G11_cadeia_energetica.png",
+    "bytes": 277014,
+    "sha256": "e8d3c6257d29c422bb7e7f424d0db59203d6e8eb10d8c9a0f176ea81fe6cf297",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1TV3Mo67CTPICgXlHOUL2w0vfnOvMQavi",
+    "nome": "G10_energia_mensal.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G10_energia_mensal.png",
+    "url_drive": "https://drive.google.com/file/d/1TV3Mo67CTPICgXlHOUL2w0vfnOvMQavi/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G10_energia_mensal.png",
+    "bytes": 167716,
+    "sha256": "a40669120a7a2c541223b848cfd66de4871f05c8e20b75b675e448ee3993cd9d",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Uzi48ZBPPb0gsIEI0-9VEOsBi1IwU4QZ",
+    "nome": "G09_energia_diaria.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G09_energia_diaria.png",
+    "url_drive": "https://drive.google.com/file/d/1Uzi48ZBPPb0gsIEI0-9VEOsBi1IwU4QZ/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.png",
+    "bytes": 483489,
+    "sha256": "12a92179a08c47fc2302eee14cfebc8a50b53bdeac4d0b293c41a3c604ccee13",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1jw96tvQGUSBkJt_6mrJHScl1sNCQjFmv",
+    "nome": "G08_series_potencia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G08_series_potencia.png",
+    "url_drive": "https://drive.google.com/file/d/1jw96tvQGUSBkJt_6mrJHScl1sNCQjFmv/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.png",
+    "bytes": 581883,
+    "sha256": "87ea7ee188e303c945a6e814114060b3712ea0c8ac98376f5304ef49751cb7f6",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1wUQxyw5fqfthsB_dD1bSYEiIiyVLiZ3X",
+    "nome": "G07_inversor.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G07_inversor.png",
+    "url_drive": "https://drive.google.com/file/d/1wUQxyw5fqfthsB_dD1bSYEiIiyVLiZ3X/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G07_inversor.png",
+    "bytes": 405687,
+    "sha256": "2f42b119868bf5c49e9675929b33f3c95d404ee10d1404be167dc62bdfd8601a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1y2bSUQ-eyCVrr9wdzpLHtke1qy6Py6uK",
+    "nome": "G06_curvas_temperatura.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G06_curvas_temperatura.png",
+    "url_drive": "https://drive.google.com/file/d/1y2bSUQ-eyCVrr9wdzpLHtke1qy6Py6uK/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G06_curvas_temperatura.png",
+    "bytes": 472003,
+    "sha256": "27d43893a44096e993ce743b753137762a1379c27522998a9bd1e126e77c04dc",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ompgG2xPRsluDDqqVhaiwuSDEnmpJVgd",
+    "nome": "G05_curvas_irradiancia.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G05_curvas_irradiancia.png",
+    "url_drive": "https://drive.google.com/file/d/1ompgG2xPRsluDDqqVhaiwuSDEnmpJVgd/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G05_curvas_irradiancia.png",
+    "bytes": 460123,
+    "sha256": "453ca9ed5d020712cc5e2b576a9a0b4bc15a08beba1016a6ea322edf0f4ff15a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1lgYLySnbdEVQz9DWuhzK2Js9eKlaCRjd",
+    "nome": "G04_temperatura_estimada.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G04_temperatura_estimada.png",
+    "url_drive": "https://drive.google.com/file/d/1lgYLySnbdEVQz9DWuhzK2Js9eKlaCRjd/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.png",
+    "bytes": 2016284,
+    "sha256": "5fa2cbd4b5ef3923d84044bdca94ea3108c4b082d9c88ad4ba1b63822abe92b6",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1QRGYxTK2r3Ywg1vc6kJ8IKLuAqdeEwXA",
+    "nome": "G03_condicoes_ambientais.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G03_condicoes_ambientais.png",
+    "url_drive": "https://drive.google.com/file/d/1QRGYxTK2r3Ywg1vc6kJ8IKLuAqdeEwXA/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G03_condicoes_ambientais.png",
+    "bytes": 252518,
+    "sha256": "66210d12faa55b1110cfa4647043211943f5b0cc76212c002c6e22c2a5d443e0",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ljF2_CSrdBOF8sXG7H82xsEC_Iv9EzFx",
+    "nome": "G02_variabilidade_recurso.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G02_variabilidade_recurso.png",
+    "url_drive": "https://drive.google.com/file/d/1ljF2_CSrdBOF8sXG7H82xsEC_Iv9EzFx/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G02_variabilidade_recurso.png",
+    "bytes": 339823,
+    "sha256": "fa4648732f28f59fd3f8110b8d37a4c2e8c02a4d14c4c331f1d1f4a225b4d153",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1tvNgSiXtZZL3-HZ3M_BM5Ube3Vzt0ihq",
+    "nome": "G01_recurso_geometria.png",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/png/G01_recurso_geometria.png",
+    "url_drive": "https://drive.google.com/file/d/1tvNgSiXtZZL3-HZ3M_BM5Ube3Vzt0ihq/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G01_recurso_geometria.png",
+    "bytes": 465797,
+    "sha256": "b230bbec770422b34fa1af511a0244643ec5aa74fcb9260f7780ba99808ae89c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1RXA6tzSq3mePPCrUOVGGQyLzOEKoceKI",
+    "nome": "G25_BIPV_balanco.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G25_BIPV_balanco.pdf",
+    "url_drive": "https://drive.google.com/file/d/1RXA6tzSq3mePPCrUOVGGQyLzOEKoceKI/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G25_BIPV_balanco.pdf",
+    "bytes": 12302,
+    "sha256": "759cbfd82b3bc982de017e2c2e859b0c8fd20cbffaef7d3956441ac66bf41973",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1o8rpEio5YjYWeulKFb0IDsaI5PleOe2C",
+    "nome": "G24_BIPV_orientacoes.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G24_BIPV_orientacoes.pdf",
+    "url_drive": "https://drive.google.com/file/d/1o8rpEio5YjYWeulKFb0IDsaI5PleOe2C/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G24_BIPV_orientacoes.pdf",
+    "bytes": 12183,
+    "sha256": "4fa5daf6cf188c3cb53fbafc74925b2d0d6da03eaeb661d7e4bacbbd1bc75309",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1uy-stMv_dB4F5508s-wL2da4UFpkWjt-",
+    "nome": "G23_componentes_estimadas.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G23_componentes_estimadas.pdf",
+    "url_drive": "https://drive.google.com/file/d/1uy-stMv_dB4F5508s-wL2da4UFpkWjt-/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G23_componentes_estimadas.pdf",
+    "bytes": 12936,
+    "sha256": "51c5421567cfa26463b235379606d049e9faf89dde227219d213108f0f006802",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1RzK8iyOS9P2GumYcTcyUO0P9JJ73aJbQ",
+    "nome": "G22_albedo.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G22_albedo.pdf",
+    "url_drive": "https://drive.google.com/file/d/1RzK8iyOS9P2GumYcTcyUO0P9JJ73aJbQ/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G22_albedo.pdf",
+    "bytes": 11552,
+    "sha256": "6107920914b590b4831df757cdf3ec93c4941925e3316064d0458e38441da243",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1eSIiGWQi3M_WzgvO9QXfUBzeDfuY9YK_",
+    "nome": "G21_HSP_POA_pareada.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G21_HSP_POA_pareada.pdf",
+    "url_drive": "https://drive.google.com/file/d/1eSIiGWQi3M_WzgvO9QXfUBzeDfuY9YK_/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G21_HSP_POA_pareada.pdf",
+    "bytes": 11359,
+    "sha256": "f029ee00f996d3e5307bdc069c2d55c12de7698df19764e97f67eab9e5fd2de5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ffmMsAYAQi7lLen0wvNEaFtwrewmxATL",
+    "nome": "G20_sujidade_ventilacao.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G20_sujidade_ventilacao.pdf",
+    "url_drive": "https://drive.google.com/file/d/1ffmMsAYAQi7lLen0wvNEaFtwrewmxATL/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G20_sujidade_ventilacao.pdf",
+    "bytes": 13463,
+    "sha256": "10b8d19f91539d0dcafe42ec79cd33f5d7317c58875f6c6a84d2bdbe70a7009a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "164CYKfkWlv5DjAav1BMEtoHZVafbC5Nd",
+    "nome": "G19_consistencia_medicoes.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G19_consistencia_medicoes.pdf",
+    "url_drive": "https://drive.google.com/file/d/164CYKfkWlv5DjAav1BMEtoHZVafbC5Nd/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G19_consistencia_medicoes.pdf",
+    "bytes": 58972,
+    "sha256": "a261e650b206bfeae46577718e0c1e84e2f305638f6e7ba4aa2d0cf143ab8796",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "17L8wKwAQKHTDFaGe-2-R8VdXa6EvBTL9",
+    "nome": "G18_vies_horario.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G18_vies_horario.pdf",
+    "url_drive": "https://drive.google.com/file/d/17L8wKwAQKHTDFaGe-2-R8VdXa6EvBTL9/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G18_vies_horario.pdf",
+    "bytes": 12820,
+    "sha256": "5475bbb2f199cb87a83dc79d2efda4c8b64b57f0620d9920412b24826a3c99b1",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Uh_c6D-QjBMnj8vVPyI6n51f2X_lQbjD",
+    "nome": "G17_metricas_mensais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G17_metricas_mensais.pdf",
+    "url_drive": "https://drive.google.com/file/d/1Uh_c6D-QjBMnj8vVPyI6n51f2X_lQbjD/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G17_metricas_mensais.pdf",
+    "bytes": 12794,
+    "sha256": "c9a62dbeb2c8288de2f51258840c064270ddf0b7c9c9321e5b67265ff0e56d64",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1r9RC0QCToOocW3P2YmG3A9fL1yrhPPMt",
+    "nome": "G16_distribuicao_residuos.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G16_distribuicao_residuos.pdf",
+    "url_drive": "https://drive.google.com/file/d/1r9RC0QCToOocW3P2YmG3A9fL1yrhPPMt/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G16_distribuicao_residuos.pdf",
+    "bytes": 12659,
+    "sha256": "2e8a3de1521411dad0513c1b01031917335c6fc70a3002544f1da017a61a33b9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1mbbrufPAZBGq722SsTj7lXkDMLD32zH6",
+    "nome": "G15_residuos_potencia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G15_residuos_potencia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1mbbrufPAZBGq722SsTj7lXkDMLD32zH6/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G15_residuos_potencia.pdf",
+    "bytes": 56488,
+    "sha256": "e62d2daab4361e0b698b8c5a215e8bc85ec207133311869a00e37002fa728088",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1svoMEjv7IO-GXcszJMqNFUTfLpFX5KFZ",
+    "nome": "G14_residuos_temporais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G14_residuos_temporais.pdf",
+    "url_drive": "https://drive.google.com/file/d/1svoMEjv7IO-GXcszJMqNFUTfLpFX5KFZ/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G14_residuos_temporais.pdf",
+    "bytes": 43731,
+    "sha256": "b8b22934450980990a8f95459e80e167a05d4f8f883d68b9fbf736e437e967a9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1-G1dNIdveWSmhtNblfMshKl3Owwxv9l-",
+    "nome": "G13_validacao.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G13_validacao.pdf",
+    "url_drive": "https://drive.google.com/file/d/1-G1dNIdveWSmhtNblfMshKl3Owwxv9l-/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G13_validacao.pdf",
+    "bytes": 58097,
+    "sha256": "73810b66c2fae12ae749e6723907a69b88acff20523e0bc25ed43d4056d56f62",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1pbl5iPIQI5RYdzinbKhNPzKPRmuff9aT",
+    "nome": "G12_produtividades_PR.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G12_produtividades_PR.pdf",
+    "url_drive": "https://drive.google.com/file/d/1pbl5iPIQI5RYdzinbKhNPzKPRmuff9aT/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G12_produtividades_PR.pdf",
+    "bytes": 12191,
+    "sha256": "7dbc47c965def97d05f1d038c8802f993ca47282d4e4c1d25437d7ab232c25fb",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1YRpZ_yR3YpUEUF6sGFCOZQmC2ErZanTe",
+    "nome": "G11_cadeia_energetica.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G11_cadeia_energetica.pdf",
+    "url_drive": "https://drive.google.com/file/d/1YRpZ_yR3YpUEUF6sGFCOZQmC2ErZanTe/view?usp=drivesdk",
+    "caminho_github": "secoes/04_Desempenho_Perdas_Validacao/graficos/claro/G11_cadeia_energetica.pdf",
+    "bytes": 14043,
+    "sha256": "e5554549169e39d8690e0d3071f3bfaf11c2266052fc8830bd50d44dd97dd286",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1sgKcv0C8nhvTRtv85HLrfH0c8CqaS7wQ",
+    "nome": "G10_energia_mensal.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G10_energia_mensal.pdf",
+    "url_drive": "https://drive.google.com/file/d/1sgKcv0C8nhvTRtv85HLrfH0c8CqaS7wQ/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G10_energia_mensal.pdf",
+    "bytes": 10792,
+    "sha256": "2d040d3888a51ffc4781e4c29448fc9b0467fdbe8a79d875b294af9c6889ab46",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1kkzi9BiBq5TOe63BuzR3yBBCAJ_RAmGI",
+    "nome": "G09_energia_diaria.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G09_energia_diaria.pdf",
+    "url_drive": "https://drive.google.com/file/d/1kkzi9BiBq5TOe63BuzR3yBBCAJ_RAmGI/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G09_energia_diaria.pdf",
+    "bytes": 12680,
+    "sha256": "a6c6a942dd878b82b775d4bb6dfc30a3869c9c75f89a5a86a3ed4d12198838bd",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Jm1eVAXxZC5bYfFNOUR44Hhpa0n0tqtV",
+    "nome": "G08_series_potencia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G08_series_potencia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1Jm1eVAXxZC5bYfFNOUR44Hhpa0n0tqtV/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G08_series_potencia.pdf",
+    "bytes": 13676,
+    "sha256": "d47902450136c2c5bcc1bdc0df0d79d4b4881bf19d47875a7639a11071181ce7",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1HeLDXxSlgNK6cxRHduNHDVwBs0287San",
+    "nome": "G07_inversor.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G07_inversor.pdf",
+    "url_drive": "https://drive.google.com/file/d/1HeLDXxSlgNK6cxRHduNHDVwBs0287San/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G07_inversor.pdf",
+    "bytes": 13609,
+    "sha256": "6244fa4291d6ced3a6ca645da985acf571790161353872641c1914a725e110a5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1N7InNKDxp9FY4U_n8IRGFmDNz2EL0EWY",
+    "nome": "G06_curvas_temperatura.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G06_curvas_temperatura.pdf",
+    "url_drive": "https://drive.google.com/file/d/1N7InNKDxp9FY4U_n8IRGFmDNz2EL0EWY/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G06_curvas_temperatura.pdf",
+    "bytes": 15419,
+    "sha256": "2e8e94d3d5c8fa6026f99aeb1b9b7f74e7ea9047af7eab4b9678c559d51dc87c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1YFMnAt6cO-hQmuVcqJPqbnO1ryurHgtL",
+    "nome": "G05_curvas_irradiancia.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G05_curvas_irradiancia.pdf",
+    "url_drive": "https://drive.google.com/file/d/1YFMnAt6cO-hQmuVcqJPqbnO1ryurHgtL/view?usp=drivesdk",
+    "caminho_github": "secoes/03_Modelagem_Fotovoltaica/graficos/claro/G05_curvas_irradiancia.pdf",
+    "bytes": 15445,
+    "sha256": "11e886880a4ba7604498402d60cdf0247a1ea71b4c144e9e930d748d7c69159f",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1bHEQWcaY3V194B20Wc6aO8k8P9noGQlG",
+    "nome": "G04_temperatura_estimada.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G04_temperatura_estimada.pdf",
+    "url_drive": "https://drive.google.com/file/d/1bHEQWcaY3V194B20Wc6aO8k8P9noGQlG/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G04_temperatura_estimada.pdf",
+    "bytes": 99855,
+    "sha256": "efa3677b1a081f6546aadcad1e78b3a95fc52f119a6fbd006dfe6746d2571cf4",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1wnKwdvA_QO2DaATWmWQzcJBBQWlJAsXZ",
+    "nome": "G03_condicoes_ambientais.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G03_condicoes_ambientais.pdf",
+    "url_drive": "https://drive.google.com/file/d/1wnKwdvA_QO2DaATWmWQzcJBBQWlJAsXZ/view?usp=drivesdk",
+    "caminho_github": "secoes/02_Condicoes_Ambientais/graficos/claro/G03_condicoes_ambientais.pdf",
+    "bytes": 12506,
+    "sha256": "89427ad8cdbde104bb1b31be8d560d2eac2f8fffeed6f8cb15baee172a2a0751",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1sICvJ-NJ6kTIHMMR1ALBBunkIeH2QoNk",
+    "nome": "G02_variabilidade_recurso.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G02_variabilidade_recurso.pdf",
+    "url_drive": "https://drive.google.com/file/d/1sICvJ-NJ6kTIHMMR1ALBBunkIeH2QoNk/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G02_variabilidade_recurso.pdf",
+    "bytes": 12462,
+    "sha256": "defe49cdc179bfbc7863e85524d3837096862b8013811b9af20650011f754bbf",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1LBNoluUheonNqLH8yMOIEwjaryu6y3O-",
+    "nome": "G01_recurso_geometria.pdf",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/claro/pdf/G01_recurso_geometria.pdf",
+    "url_drive": "https://drive.google.com/file/d/1LBNoluUheonNqLH8yMOIEwjaryu6y3O-/view?usp=drivesdk",
+    "caminho_github": "secoes/01_Recurso_Solar/graficos/claro/G01_recurso_geometria.pdf",
+    "bytes": 15299,
+    "sha256": "ba20271b0121e9b237aed23f9443727c674076981c7a99e1d3cf385b3726955a",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1-oFuwaauvDO5CK0wnEjpx1wD69Rzqpg6",
+    "nome": "Referencias_Pendentes_ABNT.md",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Referencias_Pendentes_ABNT.md",
+    "url_drive": "https://drive.google.com/file/d/1-oFuwaauvDO5CK0wnEjpx1wD69Rzqpg6/view?usp=drivesdk",
+    "caminho_github": "references/Referencias_Pendentes_ABNT.md",
+    "bytes": 2669,
+    "sha256": "fecb2f7060009eb33b6e0c3a4aee900cc2c7ca853b9edac4e662e391d2314ab9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "136dDh1R9GtWONni0gGQNiNtUYE7BtpK1",
+    "nome": "Correcoes_e_Duplicatas.md",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Correcoes_e_Duplicatas.md",
+    "url_drive": "https://drive.google.com/file/d/136dDh1R9GtWONni0gGQNiNtUYE7BtpK1/view?usp=drivesdk",
+    "caminho_github": "references/Correcoes_e_Duplicatas.md",
+    "bytes": 5919,
+    "sha256": "9cead488b2e04967d7a26fd84a5074f2dba49f8c1a2de6ae51f8d706f94190c3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1z-22_F9b9TSnWRM04kiQJvYkq6Zb1St0",
+    "nome": "Manifesto_Acervo_SPGER0046.json",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Manifesto_Acervo_SPGER0046.json",
+    "url_drive": "https://drive.google.com/file/d/1z-22_F9b9TSnWRM04kiQJvYkq6Zb1St0/view?usp=drivesdk",
+    "caminho_github": "references/Manifesto_Acervo_SPGER0046.json",
+    "bytes": 302305,
+    "sha256": "024f25c00daff64188373273316eb5423181aa873ee4d2ec1de47ffb2fdc76d3",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Q-SLatAtbybruFg9mjYtW0lZQqDCzoA2",
+    "nome": "Catalogo_Bibliografico_SPGER0046.xlsx",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Catalogo_Bibliografico_SPGER0046.xlsx",
+    "url_drive": "https://docs.google.com/spreadsheets/d/1Q-SLatAtbybruFg9mjYtW0lZQqDCzoA2/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "references/Catalogo_Bibliografico_SPGER0046.xlsx",
+    "bytes": 42030,
+    "sha256": "83ca6a76c0a9c5661bc601af2335fb5fafaf44094c1829176f2d842944ab7ae8",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1gcd87o-KHS_2u8y50Ix8R4KChxL40RJM",
+    "nome": "Alternativas_e_Acesso.md",
+    "origem": "Levantamento_Bibliografico/00_Catalogo_Geral/Alternativas_e_Acesso.md",
+    "url_drive": "https://drive.google.com/file/d/1gcd87o-KHS_2u8y50Ix8R4KChxL40RJM/view?usp=drivesdk",
+    "caminho_github": "references/Alternativas_e_Acesso.md",
+    "bytes": 5714,
+    "sha256": "39580efc6fbd99c4c3cfcace7bac34a71d3981ed9074eb102fe21a170067ef19",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1bKTzwPWMihIoTFgJOoasqAG0LcWO_d8m",
+    "nome": "Verificacao_Documentos_ABNT.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Verificacao_Documentos_ABNT.json",
+    "url_drive": "https://drive.google.com/file/d/1bKTzwPWMihIoTFgJOoasqAG0LcWO_d8m/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Verificacao_Documentos_ABNT.json",
+    "bytes": 2006,
+    "sha256": "4e285bc9d925cbed6612bc849367814a18c990d1f8987146f04faf226d3c25af",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1-5veRXw4lwMCG8GvKZfVN6WR0jXntVYp",
+    "nome": "Conferencia_Visual.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Conferencia_Visual.json",
+    "url_drive": "https://drive.google.com/file/d/1-5veRXw4lwMCG8GvKZfVN6WR0jXntVYp/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Conferencia_Visual.json",
+    "bytes": 8879,
+    "sha256": "2858972c21848c890f8b30e124fa9c02b0d539a758904a91ea826dc997ecf58b",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1ShyJYXbl0AKDQ5IIyzyE0E7iM8uiBegI",
+    "nome": "verificacao_refinamento.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/verificacao_refinamento.json",
+    "url_drive": "https://drive.google.com/file/d/1ShyJYXbl0AKDQ5IIyzyE0E7iM8uiBegI/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/verificacao_refinamento.json",
+    "bytes": 363,
+    "sha256": "61658082cc88f19e4ca70db3b4d3ea6bbc4f5ba4267d684fe195abe5e9983a16",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1O_RwTvCEL3beb0cu-Gd6M2zsX1sw4p5u",
+    "nome": "Matriz_de_Cobertura_do_Capitulo.md",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Matriz_de_Cobertura_do_Capitulo.md",
+    "url_drive": "https://drive.google.com/file/d/1O_RwTvCEL3beb0cu-Gd6M2zsX1sw4p5u/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Matriz_de_Cobertura_do_Capitulo.md",
+    "bytes": 15568,
+    "sha256": "33c873785dfeff90e142afe8f9c68ddeb275ad4b823868ffa686bfa04d64ba8c",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1z9AYO9StbMAyrq4EyN0yf6xLZm4hxebl",
+    "nome": "resumo_execucao.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/resumo_execucao.json",
+    "url_drive": "https://drive.google.com/file/d/1z9AYO9StbMAyrq4EyN0yf6xLZm4hxebl/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/resumo_execucao.json",
+    "bytes": 1928,
+    "sha256": "214ac261169225ede6e0476de3f9123cc456bf9d048ba6ee5ce252755dd3a217",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1OBNvLbbP7__zS11xLJPgBUM5RlyJv6BY",
+    "nome": "Verificacao_Dossie_e_Fundamentacao.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Verificacao_Dossie_e_Fundamentacao.json",
+    "url_drive": "https://drive.google.com/file/d/1OBNvLbbP7__zS11xLJPgBUM5RlyJv6BY/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Verificacao_Dossie_e_Fundamentacao.json",
+    "bytes": 468,
+    "sha256": "36816ac215539a38944eed6882c83dc3b20c1c26da8faefe47d84e057f112e00",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1Uu48gRn48Hy_AKfyCbfyWQX_Q1rcA2U1",
+    "nome": "Matriz_de_Cobertura_do_Capitulo.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Matriz_de_Cobertura_do_Capitulo.csv",
+    "url_drive": "https://drive.google.com/file/d/1Uu48gRn48Hy_AKfyCbfyWQX_Q1rcA2U1/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Matriz_de_Cobertura_do_Capitulo.csv",
+    "bytes": 14810,
+    "sha256": "479be91bb1913b8aecdd18d99bb6c365c76dc77469cb2bc754f6e4ed9d2a9588",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1yWoU49d-e9Qlc9XWjwf6eXnGUIHyU1Cz",
+    "nome": "catalogo_figuras.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/catalogo_figuras.csv",
+    "url_drive": "https://drive.google.com/file/d/1yWoU49d-e9Qlc9XWjwf6eXnGUIHyU1Cz/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/catalogo_figuras.csv",
+    "bytes": 11532,
+    "sha256": "33f2359cdbbcc76406fd04266c45262a7ab56daedcc99d7284d2d948969f71bd",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1PLcPlWaaleFg2fmZ70ONfsLjDlQsbvf9",
+    "nome": "catalogo_figuras.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/catalogo_figuras.json",
+    "url_drive": "https://drive.google.com/file/d/1PLcPlWaaleFg2fmZ70ONfsLjDlQsbvf9/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/catalogo_figuras.json",
+    "bytes": 33144,
+    "sha256": "5e50e6c8f7f149b3d093523e92c087723a3939ce8f381a2009234e30160a9a03",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "15_93uXxagXgjMW97QxnveRtY1Zj_oKZU",
+    "nome": "Relatorio_do_Projeto.html",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Relatorio_do_Projeto.html",
+    "url_drive": "https://drive.google.com/file/d/15_93uXxagXgjMW97QxnveRtY1Zj_oKZU/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Relatorio_do_Projeto.html",
+    "bytes": 11166917,
+    "sha256": "9d8de8348fb52e0e4d81c735cadc4795173b7321aefd1c4422f464ddd28377c4",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1UUl-o458Tytlh3ZFb7ZN01cAkyxexXAV",
+    "nome": "Verificacao_de_Salvamento.json",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Verificacao_de_Salvamento.json",
+    "url_drive": "https://drive.google.com/file/d/1UUl-o458Tytlh3ZFb7ZN01cAkyxexXAV/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Verificacao_de_Salvamento.json",
+    "bytes": 90741,
+    "sha256": "7801b7cfcf5ccd594ceaf71f962b61060523b159b17fd8bb1008722a67e59277",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1LgM16N_nU5zVaR5GpPCZ3AOAb6iVFLL1",
+    "nome": "Metodos_e_Fontes.md",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Metodos_e_Fontes.md",
+    "url_drive": "https://drive.google.com/file/d/1LgM16N_nU5zVaR5GpPCZ3AOAb6iVFLL1/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Metodos_e_Fontes.md",
+    "bytes": 11196,
+    "sha256": "445141835b273674e2aa3340563a1beff32be0e3b3a74283602c67e49af6346e",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1C_tUcx2R2vZIhCy_DRZ1xMZcZ9yiJYKi",
+    "nome": "Registro_de_Decisoes_v1_2.md",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/relatorios/Registro_de_Decisoes_v1_2.md",
+    "url_drive": "https://drive.google.com/file/d/1C_tUcx2R2vZIhCy_DRZ1xMZcZ9yiJYKi/view?usp=drivesdk",
+    "caminho_github": "outputs/relatorios/originais/Registro_de_Decisoes_v1_2.md",
+    "bytes": 1858,
+    "sha256": "12fcf2fd6a10098e37a97e460f84921ccb44c006b5ecfe796d504eeb930273d5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "15oItSizRvEu-mJ8yNW34FK0YojE6WTay",
+    "nome": "series_15min_local_e_modelo.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/tabelas/csv/series_15min_local_e_modelo.csv",
+    "url_drive": "https://drive.google.com/file/d/15oItSizRvEu-mJ8yNW34FK0YojE6WTay/view?usp=drivesdk",
+    "caminho_github": "outputs/tabelas/csv/series_15min_local_e_modelo.csv",
+    "bytes": 4415331,
+    "sha256": "ec6794c286abc54417a339dcd5f340c7aa854ab58e4980b5eee87cf66df04474",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1PVmFlepu_kVHdpJcNAbpJOWGpmFE2Y7t",
+    "nome": "arranjo_equivalente_diurno.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/tabelas/csv/arranjo_equivalente_diurno.csv",
+    "url_drive": "https://drive.google.com/file/d/1PVmFlepu_kVHdpJcNAbpJOWGpmFE2Y7t/view?usp=drivesdk",
+    "caminho_github": "outputs/tabelas/csv/arranjo_equivalente_diurno.csv",
+    "bytes": 927591,
+    "sha256": "0e446b0f65b233fad2cd7e49bdc406f28abfbf82c23170cace0b30d7d39a16a9",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "13O36LA_0VErwSRtb-4Yf8LT8_uHUQz8N",
+    "nome": "2107_electrical_data_2024.csv",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/01_Dados_Originais/2107_electrical_data_2024.csv",
+    "url_drive": "https://drive.google.com/file/d/13O36LA_0VErwSRtb-4Yf8LT8_uHUQz8N/view?usp=drivesdk",
+    "caminho_github": "data/raw/2107_electrical_data_2024.csv",
+    "bytes": 63287121,
+    "sha256": "bb2e9f7495e471503daa2c4b4ae9aa053ca4c779d63665afb1c2270daaa243a5",
+    "status": "publicado"
+  },
+  {
+    "drive_id": "1TRupR5D1SUC-xsoF-IemJGUEzOdv2vuC",
+    "nome": "Graficos_do_Projeto.docx",
+    "origem": "Projeto_FV_PVDAQ_2107_California_2024/03_Resultados/Refinamento_v1_2/graficos/docx/Graficos_do_Projeto.docx",
+    "url_drive": "https://docs.google.com/document/d/1TRupR5D1SUC-xsoF-IemJGUEzOdv2vuC/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
+    "caminho_github": "outputs/graficos/docx/Graficos_do_Projeto.docx",
+    "bytes": 14465317,
+    "sha256": "be1bd732aa185515b0829f97c673db846bf1ccdad39c952790f68b61af75dccc",
+    "status": "publicado"
+  }
+]

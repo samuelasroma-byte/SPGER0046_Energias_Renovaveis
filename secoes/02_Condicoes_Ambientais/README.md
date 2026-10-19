@@ -1,29 +1,38 @@
-# Seção 2 Condições ambientais e de entorno
+# 2 Condições ambientais e de entorno da conversão fotovoltaica
 
-Responsáveis: Vannessa e Thais.
+Responsáveis: **Vannessa e Thais**.
 
-Estudo comum: PVDAQ 2107, abril a junho de 2024, configuração v1.2.2.
+Quais condições ambientais e de instalação modificam a irradiância incidente no arranjo fotovoltaico e a temperatura de operação dos módulos?
 
-Esta seção tem 40 documentos disponíveis. A leitura começa pelas fontes abaixo; a escolha é uma recomendação para o grupo.
-
-| ID | Referência de partida | PDF no Drive |
+| Subseção oficial | Responsável | Referências prioritárias |
 | --- | --- | --- |
-| A024 | On the temperature dependence of photovoltaic module electrical performance: A review of efficiency/power correlations | [Abrir](https://drive.google.com/file/d/1F1kNAs41Buzt_p_R7WcxxQ_2iq6HxDvu/view?usp=drivesdk) |
-| A030 | Assessing the outdoor operating temperature of photovoltaic modules | [Abrir](https://drive.google.com/file/d/1a5bAatpefvDnnLc4ffZoFQJizKzCsnHV/view?usp=drivesdk) |
-| A072 | The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance | [Abrir](https://drive.google.com/file/d/1NkS35bxY9Yolo1t7sIg9dYe3CXvtTieM/view?usp=drivesdk) |
-| A081 | Impact of dust on solar photovoltaic (PV) performance: research status, challenges and recommendations | [Abrir](https://drive.google.com/file/d/1DDy6MPhAxwJqT25dWSO_LaSSCIM9Hbrc/view?usp=drivesdk) |
-| A093 | Guidelines for Operation and Maintenance of Photovoltaic Power Plants in Different Climates | [Abrir](https://drive.google.com/file/d/16AHJZPt_QOc3soTmGzBwvPnKqeO9jQ5d/view?usp=drivesdk) |
+| [2.1 Condições térmicas](subsecoes/2_1/README.md) | Vannessa e Thais | [B12](../../bibliografia/principal/README.md#b12), [B13](../../bibliografia/principal/README.md#b13), [B19](../../bibliografia/principal/README.md#b19), [B20](../../bibliografia/principal/README.md#b20), [B37](../../bibliografia/principal/README.md#b37) |
+| [2.2 Albedo e ambiente radiativo da superfície](subsecoes/2_2/README.md) | Vannessa e Thais | [B03](../../bibliografia/principal/README.md#b03), [B11](../../bibliografia/principal/README.md#b11), [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B25](../../bibliografia/principal/README.md#b25), [B34](../../bibliografia/principal/README.md#b34) |
+| [2.3 Sombreamento, sujidade e obstruções locais](subsecoes/2_3/README.md) | Vannessa e Thais | [B04](../../bibliografia/principal/README.md#b04), [B12](../../bibliografia/principal/README.md#b12), [B20](../../bibliografia/principal/README.md#b20), [B21](../../bibliografia/principal/README.md#b21), [B26](../../bibliografia/principal/README.md#b26), [B35](../../bibliografia/principal/README.md#b35) |
+| [2.4 Geometria de instalação e exposição do arranjo fotovoltaico](subsecoes/2_4/README.md) | Vannessa e Thais | [B12](../../bibliografia/principal/README.md#b12), [B14](../../bibliografia/principal/README.md#b14), [B15](../../bibliografia/principal/README.md#b15), [B19](../../bibliografia/principal/README.md#b19), [B32](../../bibliografia/principal/README.md#b32), [B34](../../bibliografia/principal/README.md#b34) |
 
-Abra [referências por tipo](referencias/LEIA_ME.md), [figuras e legendas](figuras/README.md), [tabelas](tabelas/README.md) e [roteiro de texto](texto.md). Consulte a [matriz das 19 subseções](../../docs/Matriz_19_Subsecoes.md) para entradas, métodos e limites.
+## Materiais da seção
 
-Não é necessário executar o pipeline para ler PDFs ou consultar os resultados salvos no Drive. Mudanças no cálculo usam o código comum na raiz. A redação e a revisão da seção acontecem neste repositório. Use texto.md como ponto de partida para desenvolver o texto; proponha as alterações por uma branch e uma proposta de alteração (pull request).
+| Coleção | Acesso |
+| --- | --- |
+| figuras | [Abrir figuras](figuras/README.md) |
+| graficos | [Abrir graficos](graficos/README.md) |
+| tabelas | [Abrir tabelas](tabelas/README.md) |
+| quadros | [Abrir quadros](quadros/README.md) |
+| documentos | [Abrir documentos](documentos/README.md) |
+| referencias | [Abrir referencias](referencias/README.md) |
 
-## Base técnica compartilhada
+## Ilustrações pertinentes
 
-- [Dados preparados](../../data/processed/README.md).
-- [Equipamentos e canais](../../data/equipamentos/README.md).
-- [Resultados e validação](../../outputs/README.md).
-- [Configuração executável](../../config/projeto.json).
-- [Proposta e cronograma](../../docs/planejamento/README.md).
+| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+| --- | --- | --- | --- |
+| G03_condicoes_ambientais — Distribuições das condições ambientais | 2.1 | [Claro](graficos/claro/G03_condicoes_ambientais.png) / [Escuro](graficos/escuro/G03_condicoes_ambientais.png) | [Claro](graficos/claro/G03_condicoes_ambientais.pdf) / [Escuro](graficos/escuro/G03_condicoes_ambientais.pdf) |
+| G04_temperatura_estimada — Resposta térmica estimada pelo modelo | 2.1; 3.2 | [Claro](graficos/claro/G04_temperatura_estimada.png) / [Escuro](graficos/escuro/G04_temperatura_estimada.png) | [Claro](graficos/claro/G04_temperatura_estimada.pdf) / [Escuro](graficos/escuro/G04_temperatura_estimada.pdf) |
+| G20_sujidade_ventilacao — Sensibilidade à sujidade e à ventilação | 2.1; 2.3 | [Claro](graficos/claro/G20_sujidade_ventilacao.png) / [Escuro](graficos/escuro/G20_sujidade_ventilacao.png) | [Claro](graficos/claro/G20_sujidade_ventilacao.pdf) / [Escuro](graficos/escuro/G20_sujidade_ventilacao.pdf) |
+| G22_albedo — Sensibilidade ao albedo assumido | 2.2; 3.1 | [Claro](graficos/claro/G22_albedo.png) / [Escuro](graficos/escuro/G22_albedo.png) | [Claro](graficos/claro/G22_albedo.pdf) / [Escuro](graficos/escuro/G22_albedo.pdf) |
+| G24_BIPV_orientacoes — Cenários de orientação e integração | 2.4; 4.5 | [Claro](graficos/claro/G24_BIPV_orientacoes.png) / [Escuro](graficos/escuro/G24_BIPV_orientacoes.png) | [Claro](graficos/claro/G24_BIPV_orientacoes.pdf) / [Escuro](graficos/escuro/G24_BIPV_orientacoes.pdf) |
+| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](../01_Recurso_Solar/figuras/claro/F01_plano_angulos.png) / [Escuro](../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.png) | [Claro](../01_Recurso_Solar/figuras/claro/F01_plano_angulos.pdf) / [Escuro](../01_Recurso_Solar/figuras/escuro/F01_plano_angulos.pdf) |
+| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2; 2.2; 3.1 | [Claro](../01_Recurso_Solar/figuras/claro/F02_componentes_POA.png) / [Escuro](../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.png) | [Claro](../01_Recurso_Solar/figuras/claro/F02_componentes_POA.pdf) / [Escuro](../01_Recurso_Solar/figuras/escuro/F02_componentes_POA.pdf) |
+| F04_geometrias_BIPV — Arranjo inclinado e extensão de fachada | 2.4; 4.5 | [Claro](figuras/claro/F04_geometrias_BIPV.png) / [Escuro](figuras/escuro/F04_geometrias_BIPV.png) | [Claro](figuras/claro/F04_geometrias_BIPV.pdf) / [Escuro](figuras/escuro/F04_geometrias_BIPV.pdf) |
 
-A matriz identifica as entradas, métodos, saídas e limites de cada uma das 19 subseções. O período e o modelo são comuns às quatro seções.
+[Início](../../README.md) · [Proposta oficial em Word](../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)

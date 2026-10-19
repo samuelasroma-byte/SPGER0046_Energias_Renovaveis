@@ -1,3 +1,11 @@
-# Tabelas da seção 2
+# Tabelas — seção 2
 
-Consulte as [tabelas numéricas compartilhadas](../../../outputs/tabelas/README.md) e a [matriz das subseções](../../../docs/Matriz_19_Subsecoes.md). Selecione as tabelas pertinentes e referencie os mesmos arquivos; registre período, máscara, unidades e versão do cálculo.
+| Tabela CSV | Subseções |
+| --- | --- |
+| [bipv_comparison](../../../outputs/tabelas/csv/bipv_comparison.csv) | 2.4; 4.5 |
+| [environment_scenarios](../../../outputs/tabelas/csv/environment_scenarios.csv) | 2.1; 2.2; 3.1 |
+| [environment_sensitivity](../../../outputs/tabelas/csv/environment_sensitivity.csv) | 2.1; 2.3; 3.2 |
+| [estatistica_descritiva](../../../outputs/tabelas/csv/estatistica_descritiva.csv) | 2.1; 3.2 |
+| [operational_flags](../../../outputs/tabelas/csv/operational_flags.csv) | 2.3; 4.1 |
+
+[Tabelas em Word — original compartilhado](../../../outputs/tabelas/docx/Tabelas_do_Projeto.docx)

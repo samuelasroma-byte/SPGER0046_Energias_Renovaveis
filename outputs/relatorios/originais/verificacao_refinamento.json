@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "figures": 30,
+  "final_PDF_PNG_files": 120,
+  "DOCX": 6,
+  "numerical_tables": 19,
+  "chapter_subsections": 19,
+  "executed_code_cells": 25,
+  "reverse_disabled_electrical_path": "passed",
+  "tables_style": "three horizontal rules; 12pt; editable",
+  "frames_style": "full grid; 12pt; editable",
+  "same_pdf_text_between_themes": true
+}

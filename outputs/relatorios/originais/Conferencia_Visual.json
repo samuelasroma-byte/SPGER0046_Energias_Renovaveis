@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "project_version": "1.2.2",
+  "documents": 7,
+  "total_pages": 86,
+  "method": "render_docx.py; inspection of every page image at original resolution; pixel-identical pages reused after final render",
+  "checks": [
+    "Times New Roman 12 in native Word text",
+    "readable separate references with hanging indent",
+    "no clipped tables or diagrams",
+    "captions and sources paired with content",
+    "long tables identified with continuation"
+  ],
+  "results": [
+    {
+      "document": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "sha256": "174e4d08a02582683efac70c8b0a0abb7c0b20075b00b824b8b4413811204f84",
+      "pages": 12,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "5989ab3ce49a77db850d7e259c5ed7a4dc8f5810eb45de0683a920d50e4ad9ad",
+        "c02d4ad86ee49caf3928be09fae7878b145fad48c0067b1e260dbc79e1a59d46",
+        "ae906fa9d25187f77954f891af27b30012400174fcaecdb65db9fc6e8180ad3b",
+        "85722296ffe6ba4922faded4960ad1707694e6b5f86d09ce96f86da1d35a4245",
+        "61c8592f47a09ef50ede56c13e70607f0265c5d67dbea5102c3e6aba47bcefc3",
+        "2b3df7517a912e30137fbf0ca41c925fdc9b250d53b91fc4e64185184034de37",
+        "73add8aba180c6f71280b9c4e1feff2039a3db259da4487724ed591e27efd09e",
+        "ee3e5d710bbe75619bfb08e1d5f952eb07af5b6bc85fad9ab572548f29970479",
+        "1cf7bcec86cf9c661e298b4915834afddec995041a37b3fd1731c69c57404027",
+        "e3e0d6f02c716f25d8c08c48b986b6338cec6438975f4db27cacd92fcce5158c",
+        "d6398b87d356aac896031628d968593a3d815fd388f0c879e49bd8f6aa29d54a",
+        "cb6769d5f42f04ffaec47136ca3807422979d6be251d3776d2262cb250745aa3"
+      ]
+    },
+    {
+      "document": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "sha256": "035771e5452bf91b5d6807f47372eddc292f3f36954b45ab92569ff914da256e",
+      "pages": 6,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "9e3511f825a8aaa970573f9617c9c738e4cbedb8fb1e16684a5dd7b483b25fec",
+        "8d1edbc39e914993b23a60c48644dc349158e4df186465d9b66209208a0cae33",
+        "1713176cf040e2a454b313408ecd2e8f5522a6183c1c69f84691539748693188",
+        "a9cb2520cd9bd835a60c5302bd4132a8966c7bcf4f09d9b295e811edb8248ef0",
+        "4d00ed3d6cee77590baf6e574a9009f48db877050a7000be4a9532481a169015",
+        "6cecf748a9baae51575102ceaae81a3e694fa8fec45edaaa1d6a772716c2e7fd"
+      ]
+    },
+    {
+      "document": "outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "sha256": "be1bd732aa185515b0829f97c673db846bf1ccdad39c952790f68b61af75dccc",
+      "pages": 30,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "135b2e153cf056c7984855caffd4b1770e6615f03be9461097363e298fb294cc",
+        "adb1f4e335c0e672c1cb1383e58fb52ec7d7cf7d379e3babea9831be081f3099",
+        "5690668bb74ec60c8734a45deee18fc59247464d0f0920fcbaf1afa0038240f7",
+        "23b8ca14f26222ea5beff7da7b551f0a428f872de57dfceee8b654fb24c2a77d",
+        "c363d77f486a50b2882e58b8f40bdcfdc83a18b32854b54ee9efdc9e67bff080",
+        "e403232d5be0eeb4514666df86d8d19687dd20f2db80827f3cb0d68abf2de03a",
+        "17e33fb5c2778b36d1b3d4801601d8b9c174510efdf54667f27eea1942f69822",
+        "f61353e7d3bf4d6d2d2e0dbeda070bc6667c180a5c1f7d793f86dba5cc7cd0d5",
+        "51be60ace7a067ebbba954f9465e7ed3b11bdefa6589162658f84b00187db659",
+        "daad2acaddbbcf629539dfb4ab2abefd8243d3fca397917560328c836234258a",
+        "9e57a572633055e5685d4bea415d5ca8b61ce6b03ec5c46c9aee65f315c2bec0",
+        "359fe171e9154903b10e135f883d38b0f0b839ce7a5b66e12a450c41d5a2e77b",
+        "e353d2ba35fdeecfcbb59bd6bfe213bc2e35c37d9e08e3063a67d70f241bad0c",
+        "1470b7637af0298a2178ea7345f954f89be00de8ee6d873780e649ebac47caae",
+        "64e75ce005258e71f6f20d68578fbab3c220956c6a7e4ec8d77706f39ec5318d",
+        "2d6ba2aa0e8350b3c9f106504c9f52d4d946709e49c70502d39600c5b9b1c50c",
+        "9e3c96d85a18e682932f9c55c6dcb15e4665e8f35305fd1f1e0294c4d93f8714",
+        "5ed93729e00a9e7ede80d1db5ae6b4aaa0ee2a16cdfd2c289555df9c1b421a43",
+        "d7ae75a0cdfe7741a1623ace0ca12990d0d6316a551339202787b9c4be2271e4",
+        "0d76d245ca4b2c7661dfc1d61bd4610e887fb5ef5acabb68860165fa361f4816",
+        "8dc8ff665b93f1afbc3816f0d79a032a7ca869a0545901fee0f609df36159f85",
+        "26e4a69d05637ea8be27363e3ca9dcb4be9fb445fe8a05fe938dad1cbdfd943d",
+        "91ebb23a11a86aeeed3c8b6c970048759a7d667f982ec14d0809744f7e7b7a01",
+        "941fcf1854c9f156aeafb1923c7bc200355b1a2feb50125d76096ea242d9a4e0",
+        "a2edb566250bbb28c1ff5008e61e06d3501969fb802ca01ebcee9f149475fc42",
+        "953bdc53b0f03cbd57ea0721fe9ca240c218a15243d6397af07d03b10bd6dd5c",
+        "11e189eca3febe513b722119972cc35b1f2afd83731b51769761f3a692f1f725",
+        "c694cc9d8b815a409aad586f0fdf035d7849e31cbcc3dbf77c903907347ab566",
+        "08523c7c16e89f7bbd955292d0e5aaa0f201795e2fcf48a548b77bd0b9ec011e",
+        "669c4877083e181c27d239549b85681441bfe99d96dcccc1681e6d9e88ff24f0"
+      ]
+    },
+    {
+      "document": "outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "sha256": "a9a07548e98138651b73c174547e592496668c7baa418c031d4cc2f0db5a8dc0",
+      "pages": 1,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "cc59e8021d510379acfbee5d89ea07ac0df9a4de2a277b05351d4ab6212ebd62"
+      ]
+    },
+    {
+      "document": "outputs/figuras/docx/Ilustracoes_FV.docx",
+      "sha256": "08280c666232a49851e6a87816cbe3cf11d90099263ab01af09772751e4baa29",
+      "pages": 4,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "6b412ac0553ed9e1c8f84a41672230a82d1a04b822307d10f54ea2f1db310bea",
+        "c9c0856f8d3b5f0744da4b753b275954eee1e047005d679624816a725d6acf0f",
+        "d387743414c2b3aa7e018c99aff37ebbc41e22b4485fea44597b92356042c7e7",
+        "5de6e5878af4efb11f24a33dba12789b68a7ca432da413a67c4ba9f5bc534969"
+      ]
+    },
+    {
+      "document": "outputs/dossie_tecnico/Dossie_Tecnico_por_Secao.docx",
+      "sha256": "498f5a73526843ecd76cdbf2a8a20ad802b9ade9f73163b02b2d9ed0d4bc7699",
+      "pages": 22,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "2ec9e1862e651d7e10796f2659da4cb3c00a97f4a4e8b3f693e0afe47123cacd",
+        "c38dcf2d7c7103ff659860133ba31834a7d08374a0f90f6ad743b64a58c9b438",
+        "6b556cbf6491a2204a0c04dad4c9db5d68d426b8a0b57ae8f88335f59ef6ae40",
+        "84596f83f23482121b1cab6071493579440ff5cea144ff1e492a761af24b0f6c",
+        "8e64b31385ea3481694163a93d037c304ad8daec0259e8d9959dc9d31cbca3f8",
+        "9a74740f16af1fb8e28b5de0d09eddcb7567f43ca55f1d49c5b22c9db3d0ea54",
+        "535c1185631a228c7b81b8c3abd3321e715ac0bd80e61dce3f848b5a898f44e4",
+        "0c4d544950e7e5fdee745dbac01d1fcff280a0022481c5490a0f02223888335a",
+        "99f3d9d5a5027a6bb630e29d03a13c20e50307bb7b1240b341b948ca512405fc",
+        "b032490e97debdbc5d5023e87110e2109ec2b8c0ab87643fb47f8986a2f08931",
+        "d25786b6951c372685a6735ed82dfb932680df8d76c7ebcc28419f62f00d589c",
+        "c0dcfc156e30234c1e85cdf3898cab927dc7c428c4c242b197ad7d6f5a76e483",
+        "1a579761ce547299b66d66e9c622db6cb09d251bc79894862f677bcfbfa16a66",
+        "a82d403cbf2078edc2ab79926d9e2c9cd8ace22fb7c0e3325705b29f54d2eb50",
+        "a732d1090b8f1a107bed4795923a9e579535701a3071a0cfeeeb75dbf09afb35",
+        "ffbd05afc83c321ba030f6f59fee86a9a974ca59629a9f16fbcc066ad8967825",
+        "75ecd6b50b1055a11b28797599beca18d2a9aa6482d67f8a6e263c5cf997b3d4",
+        "ccea201169d5d6b3830bdfeb00042ee6fbebfc59ccc70fafe87836f7b70298ca",
+        "e1eff9ce1b9304d4fb7be1c82acafd47e29e972c4538c3a914546d6c90acd9dc",
+        "c88c2accfcf337d2edbb366bcd807dce58f9d1201d494a8fbdea468abf8b29c7",
+        "e1b38d7ec17a7e26d53796496c9b2d7a5d1d000c45d784cedd2bf31b05c27250",
+        "2a85d1df692463244604d2fbfa41e3a524dafb78c100ed68978a3455eff4c4ae"
+      ]
+    },
+    {
+      "document": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+      "pages": 11,
+      "all_pages_visually_checked": true,
+      "page_images_sha256": [
+        "789c0b5412c2fe2824860bcbf3ad34bf45f209862a15f1ee8427635a1c99b348",
+        "1fb016ef9d5a7881d0cd9b0d3dccd50d520829470564b2bdbf4367f556ec08c7",
+        "281abd06dffa2df59b598e14b3723f100baef180781117c6a509dcab14548a9c",
+        "103de392ef6d73cf5ff76c4cbb36d6f0914f61d9ceae3b2b2f97d838fd57d423",
+        "e37bce92fe6e008301fee8af47ffb761c228f74da75ccd166366eaae7ce8eae9",
+        "08ed00bf89c50f5301350fe9a1d202150dc2694edddbe8bb55e87058b4d962f7",
+        "ad4a85eafb2983c6e492d07294a1be47700b922692e39768673b11aaaca18f33",
+        "1c37655528443dbe2de83df31560ec9dea11573a2bf64c5ed0e0d1f8bf535989",
+        "c28988aa28134e832b76ddfcca15454fa1c254513aa255a91341fd8988a0247b",
+        "32f336f5d8b973ab1957dc11bfb8a8a9fe28fbfa04a287daef5d2317826d406f",
+        "2a503751e4ffd1b990a44b53dc8667730c7820b8f16a8df8f860bf430a60b7cb"
+      ]
+    }
+  ]
+}

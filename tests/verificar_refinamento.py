@@ -12,14 +12,14 @@ OUT=ROOT/'outputs';CSV=OUT/'tabelas/csv'
 sys.path.insert(0,str(ROOT/'src'))
 import projeto_fv as fv
 
-catalog=json.loads((OUT/'relatorios/catalogo_figuras.json').read_text())
+catalog=json.loads((ROOT/'docs/auditoria/Inventario_Figuras.json').read_text())
 assert len({r['id'] for r in catalog})==len(catalog)
 checked=[]
 for r in catalog:
     pdf_text=[]
     for theme,bg in [('claro',(255,255,255)),('escuro',(16,24,32))]:
         for fmt in ['pdf','png']:
-            p=ROOT/r['files'][theme][fmt];assert p.exists() and p.stat().st_size>1000
+            p=ROOT/r['files'][theme+'_'+fmt];assert p.exists() and p.stat().st_size>1000
             if fmt=='png':
                 with Image.open(p) as im:
                     im.verify()
@@ -41,7 +41,10 @@ for r in catalog:
 
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 def attr(node,name):return node.get('{'+ns['w']+'}'+name)
-docxs=list(OUT.rglob('*.docx'));assert len(docxs)==6
+# All six generated ABNT documents retain their original bytes;
+# the planning and reference guides are separate.
+docxs=list(OUT.rglob('*.docx'))+[ROOT/'docs/metodos/Dossie_Tecnico_por_Secao.docx']
+assert len(docxs)==6
 tables_count=0
 for p in docxs:
     with zipfile.ZipFile(p) as z:
@@ -83,7 +86,7 @@ assert np.isclose(monthly.E_observed_paired_kWh.sum(),y.E_AC_observed_kWh)
 assert np.isclose(y.PR_observed_paired,y.Yf_observed_kWh_kWp/y.Yr_h)
 assert np.isclose(y.Lc_model_h+y.Ls_model_h,y.Yr_h-y.Yf_model_kWh_kWp)
 
-nb=nbformat.read(ROOT/'notebooks/01_Projeto_FV_Quatro_Secoes.ipynb',as_version=4)
+nb=nbformat.read(ROOT/'notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb',as_version=4)
 nbformat.validate(nb)
 codes=[c for c in nb.cells if c.cell_type=='code']
 assert [c.execution_count for c in codes]==list(range(1,len(codes)+1))
@@ -96,7 +99,7 @@ for i,c in enumerate(nb.cells):
         assert nb.cells[i+1].cell_type=='markdown' and nb.cells[i+1].source.startswith('<details>')
         assert nb.cells[i+2].cell_type=='code'
 assert sections==[f'{s}.{i}' for s,n in [(1,4),(2,4),(3,6),(4,5)] for i in range(1,n+1)]
-matrix=pd.read_csv(OUT/'relatorios/Matriz_de_Cobertura_do_Capitulo.csv')
+matrix=pd.read_csv(OUT/'relatorios/originais/Matriz_de_Cobertura_do_Capitulo.csv')
 assert len(matrix)==19 and matrix.figures_not_generated.isna().all()
 
 # Run the non-inverse path in a separate disposable root, preserving delivered outputs.
@@ -113,5 +116,5 @@ result={'status':'passed','figures':len(catalog),'final_PDF_PNG_files':len(check
         'executed_code_cells':len(codes),'reverse_disabled_electrical_path':'passed',
         'tables_style':'three horizontal rules; 12pt; editable',
         'frames_style':'full grid; 12pt; editable','same_pdf_text_between_themes':True}
-(OUT/'relatorios/verificacao_refinamento.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+(ROOT/'docs/auditoria/Verificacao_Refinamento_Integracao.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
 print(json.dumps(result,ensure_ascii=False,indent=2))

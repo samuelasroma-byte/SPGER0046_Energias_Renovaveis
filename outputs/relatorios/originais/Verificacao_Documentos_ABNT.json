@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "project_version": "1.2.2",
+  "documents": [
+    {
+      "document": "outputs/dossie_tecnico/Dossie_Tecnico_por_Secao.docx",
+      "native_runs_checked": 1231,
+      "sha256": "498f5a73526843ecd76cdbf2a8a20ad802b9ade9f73163b02b2d9ed0d4bc7699"
+    },
+    {
+      "document": "outputs/figuras/docx/Ilustracoes_FV.docx",
+      "native_runs_checked": 23,
+      "sha256": "08280c666232a49851e6a87816cbe3cf11d90099263ab01af09772751e4baa29"
+    },
+    {
+      "document": "outputs/fluxogramas/docx/Fluxogramas_do_Projeto.docx",
+      "native_runs_checked": 8,
+      "sha256": "a9a07548e98138651b73c174547e592496668c7baa418c031d4cc2f0db5a8dc0"
+    },
+    {
+      "document": "outputs/graficos/docx/Graficos_do_Projeto.docx",
+      "native_runs_checked": 153,
+      "sha256": "be1bd732aa185515b0829f97c673db846bf1ccdad39c952790f68b61af75dccc"
+    },
+    {
+      "document": "outputs/quadros/docx/Quadros_do_Projeto.docx",
+      "native_runs_checked": 149,
+      "sha256": "035771e5452bf91b5d6807f47372eddc292f3f36954b45ab92569ff914da256e"
+    },
+    {
+      "document": "outputs/tabelas/docx/Tabelas_do_Projeto.docx",
+      "native_runs_checked": 997,
+      "sha256": "174e4d08a02582683efac70c8b0a0abb7c0b20075b00b824b8b4413811204f84"
+    },
+    {
+      "document": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "native_runs_checked": 774,
+      "sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61"
+    }
+  ],
+  "format": {
+    "font": "Times New Roman",
+    "font_size_pt": 12,
+    "paper": "A4",
+    "margins_cm": {
+      "top": 3,
+      "left": 3,
+      "bottom": 2,
+      "right": 2
+    },
+    "body_line_spacing": 1.5,
+    "reference_line_spacing": 1,
+    "reference_space_after_pt": 12,
+    "requested_hanging_indent_cm": 1.25
+  },
+  "bibliography": {
+    "unique_references": 39,
+    "subsections": 19,
+    "working_internal_links": 102
+  },
+  "visual_review": "see Conferencia_Visual.json; structural checks do not replace visual inspection"
+}

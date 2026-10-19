@@ -42,7 +42,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R01, R14, R18, R29.
 
-## 1.3 Modulação atmosférica e variabilidade espaço temporal
+## 1.3 Modulação atmosférica e variabilidade espaço-temporal
 
 **Responsável:** Samuel
 
@@ -122,7 +122,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R06, R14, R29.
 
-## 2.3 Sombreamento sujidade e obstruções locais
+## 2.3 Sombreamento, sujidade e obstruções locais
 
 **Responsável:** Vannessa e Thais
 
@@ -222,7 +222,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R08, R09, R10.
 
-## 3.4 Modelagem do arranjo fotovoltaico em corrente contínua
+## 3.4 Modelagem do arranjo fotovoltaico em corrente contínua (CC)
 
 **Responsável:** Gabriela e Giulia
 
@@ -242,7 +242,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R08, R10, R13.
 
-## 3.5 Conversão de CC para CA e modelagem do inversor
+## 3.5 Conversão de CC para corrente alternada (CA) e modelagem do inversor
 
 **Responsável:** Gabriela e Giulia
 
@@ -302,7 +302,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R08, R11, R12, R25.
 
-## 4.2 Produtividades de referência do arranjo e final
+## 4.2 Produtividades de referência, do arranjo e final
 
 **Responsável:** Lucas Simão
 
@@ -322,7 +322,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R12, R30.
 
-## 4.3 Razão de desempenho e decomposição normalizada das perdas
+## 4.3 Razão de desempenho (Performance Ratio
 
 **Responsável:** Lucas Simão
 
@@ -362,7 +362,7 @@ Versão 1.2.2. As 19 subseções estão mapeadas. Cobertura teórica ou execuç�
 
 **Referências:** R27, R25.
 
-## 4.5 Avaliação de desempenho de sistemas integrados à edificação
+## 4.5 Avaliação de desempenho de sistemas fotovoltaicos integrados à edificação (BIPV)
 
 **Responsável:** Júlia Ribeiro
 

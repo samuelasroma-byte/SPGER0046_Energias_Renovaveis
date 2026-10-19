@@ -1,0 +1,46 @@
+name: Conferir e materializar originais do capítulo
+
+on:
+  push:
+    branches:
+      - integracao/reorganizacao-cientifica-20261019
+    paths:
+      - .github/workflows/materializar-originais.yml
+      - scripts/materializar_originais.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: materializar-originais-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  materializar:
+    if: github.repository == 'samuelasroma-byte/SPGER0046_Energias_Renovaveis' && github.ref == 'refs/heads/integracao/reorganizacao-cientifica-20261019'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Obter a branch de integração
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: integracao/reorganizacao-cientifica-20261019
+      - name: Recuperar somente originais com tamanho e SHA-256 conferidos
+        run: python scripts/materializar_originais.py --workers 4
+      - name: Conferir e registrar os arquivos recuperados
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          records = json.loads(Path('docs/auditoria/Proveniencia_Arquivos_Integrados.json').read_text())
+          subprocess.run(['git', 'add', '--', *[r['caminho_github'] for r in records], 'docs/auditoria/Materializacao_Remota.json'], check=True)
+          PY
+          python scripts/auditar_publicacao.py > docs/auditoria/Verificacao_Remota_Arquivos.json
+          git add docs/auditoria/Verificacao_Remota_Arquivos.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Recupera originais completos e confere integridade no GitHub'
+            git push origin HEAD:refs/heads/integracao/reorganizacao-cientifica-20261019
+          fi

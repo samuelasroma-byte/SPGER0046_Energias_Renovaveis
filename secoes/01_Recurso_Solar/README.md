@@ -1,29 +1,37 @@
-# Seção 1 Fundamentos e caracterização do recurso solar
+# 1 Fundamentos e caracterização do recurso solar
 
-Responsáveis: Samuel.
+Responsáveis: **Samuel**.
 
-Estudo comum: PVDAQ 2107, abril a junho de 2024, configuração v1.2.2.
+Como o recurso solar disponível para a conversão fotovoltaica é caracterizado, quantificado e representado?
 
-Esta seção tem 42 documentos disponíveis. A leitura começa pelas fontes abaixo; a escolha é uma recomendação para o grupo.
-
-| ID | Referência de partida | PDF no Drive |
+| Subseção oficial | Responsável | Referências prioritárias |
 | --- | --- | --- |
-| A001 | Solar Engineering of Thermal Processes, Photovoltaics and Wind | [Abrir](https://drive.google.com/file/d/1FRN89M_tXpON-3OFe5K06p9xt3nqfl7u/view?usp=drivesdk) |
-| A003 | Solar Energy: Fundamentals, Technology, and Systems | [Abrir](https://drive.google.com/file/d/1uCa2WhHXDCJfTzBei05GnK9T_iloGIcW/view?usp=drivesdk) |
-| A045 | Best Practices Handbook for the Collection and Use of Solar Resource Data for Solar Energy Applications: Fourth Edition | [Abrir](https://drive.google.com/file/d/1aVnqVmkS-Zv5Dmt1yieBmonVTazTzJCX/view?usp=drivesdk) |
-| A065 | Solar Position Algorithm for Solar Radiation Applications — NREL/TP-560-34302 | [Abrir](https://drive.google.com/file/d/1uUE7A-W7yY-HZRcw0FFs3g0nF_Yh5i4F/view?usp=drivesdk) |
-| A089 | A continuous form of the Perez diffuse sky model for forward and reverse transposition | [Abrir](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk) |
+| [1.1 Geometria solar e irradiância extraterrestre](subsecoes/1_1/README.md) | Samuel | [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B23](../../bibliografia/principal/README.md#b23), [B29](../../bibliografia/principal/README.md#b29), [B31](../../bibliografia/principal/README.md#b31), [B32](../../bibliografia/principal/README.md#b32) |
+| [1.2 Grandezas radiométricas e componentes da radiação](subsecoes/1_2/README.md) | Samuel | [B11](../../bibliografia/principal/README.md#b11), [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B20](../../bibliografia/principal/README.md#b20), [B24](../../bibliografia/principal/README.md#b24), [B36](../../bibliografia/principal/README.md#b36) |
+| [1.3 Modulação atmosférica e variabilidade espaço-temporal](subsecoes/1_3/README.md) | Samuel | [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B24](../../bibliografia/principal/README.md#b24), [B26](../../bibliografia/principal/README.md#b26), [B36](../../bibliografia/principal/README.md#b36) |
+| [1.4 Medição e estimativa do recurso solar](subsecoes/1_4/README.md) | Samuel | [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B24](../../bibliografia/principal/README.md#b24), [B26](../../bibliografia/principal/README.md#b26), [B27](../../bibliografia/principal/README.md#b27), [B36](../../bibliografia/principal/README.md#b36) |
 
-Abra [referências por tipo](referencias/LEIA_ME.md), [figuras e legendas](figuras/README.md), [tabelas](tabelas/README.md) e [roteiro de texto](texto.md). Consulte a [matriz das 19 subseções](../../docs/Matriz_19_Subsecoes.md) para entradas, métodos e limites.
+## Materiais da seção
 
-Não é necessário executar o pipeline para ler PDFs ou consultar os resultados salvos no Drive. Mudanças no cálculo usam o código comum na raiz. A redação e a revisão da seção acontecem neste repositório. Use texto.md como ponto de partida para desenvolver o texto; proponha as alterações por uma branch e uma proposta de alteração (pull request).
+| Coleção | Acesso |
+| --- | --- |
+| figuras | [Abrir figuras](figuras/README.md) |
+| graficos | [Abrir graficos](graficos/README.md) |
+| tabelas | [Abrir tabelas](tabelas/README.md) |
+| quadros | [Abrir quadros](quadros/README.md) |
+| documentos | [Abrir documentos](documentos/README.md) |
+| referencias | [Abrir referencias](referencias/README.md) |
 
-## Base técnica compartilhada
+## Ilustrações pertinentes
 
-- [Dados preparados](../../data/processed/README.md).
-- [Equipamentos e canais](../../data/equipamentos/README.md).
-- [Resultados e validação](../../outputs/README.md).
-- [Configuração executável](../../config/projeto.json).
-- [Proposta e cronograma](../../docs/planejamento/README.md).
+| Identificador e título | Subseções | PNG claro / escuro | PDF claro / escuro |
+| --- | --- | --- | --- |
+| G01_recurso_geometria — Recurso solar medido e geometria calculada | 1.1; 1.2 | [Claro](graficos/claro/G01_recurso_geometria.png) / [Escuro](graficos/escuro/G01_recurso_geometria.png) | [Claro](graficos/claro/G01_recurso_geometria.pdf) / [Escuro](graficos/escuro/G01_recurso_geometria.pdf) |
+| G02_variabilidade_recurso — Variabilidade diária do recurso solar | 1.3 | [Claro](graficos/claro/G02_variabilidade_recurso.png) / [Escuro](graficos/escuro/G02_variabilidade_recurso.png) | [Claro](graficos/claro/G02_variabilidade_recurso.pdf) / [Escuro](graficos/escuro/G02_variabilidade_recurso.pdf) |
+| G19_consistencia_medicoes — Consistência entre referências elétricas | 1.4; 4.4 | [Claro](graficos/claro/G19_consistencia_medicoes.png) / [Escuro](graficos/escuro/G19_consistencia_medicoes.png) | [Claro](graficos/claro/G19_consistencia_medicoes.pdf) / [Escuro](graficos/escuro/G19_consistencia_medicoes.pdf) |
+| G23_componentes_estimadas — Componentes reconstruídas da POA | 1.2; 3.1 | [Claro](graficos/claro/G23_componentes_estimadas.png) / [Escuro](graficos/escuro/G23_componentes_estimadas.png) | [Claro](graficos/claro/G23_componentes_estimadas.pdf) / [Escuro](graficos/escuro/G23_componentes_estimadas.pdf) |
+| FL01_fluxo_projeto — Fluxo do estudo com medições locais | 1.4; 3.1; 4.4; 4.5 | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.png) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.png) | [Claro](figuras/fluxogramas/claro/FL01_fluxo_projeto.pdf) / [Escuro](figuras/fluxogramas/escuro/FL01_fluxo_projeto.pdf) |
+| F01_plano_angulos — Plano do arranjo e convenções angulares | 1.1; 2.4; 3.1 | [Claro](figuras/claro/F01_plano_angulos.png) / [Escuro](figuras/escuro/F01_plano_angulos.png) | [Claro](figuras/claro/F01_plano_angulos.pdf) / [Escuro](figuras/escuro/F01_plano_angulos.pdf) |
+| F02_componentes_POA — Componentes incidentes no plano do módulo | 1.2; 2.2; 3.1 | [Claro](figuras/claro/F02_componentes_POA.png) / [Escuro](figuras/escuro/F02_componentes_POA.png) | [Claro](figuras/claro/F02_componentes_POA.pdf) / [Escuro](figuras/escuro/F02_componentes_POA.pdf) |
 
-A matriz identifica as entradas, métodos, saídas e limites de cada uma das 19 subseções. O período e o modelo são comuns às quatro seções.
+[Início](../../README.md) · [Proposta oficial em Word](../../docs/planejamento/Proposta_do_Capitulo_Recurso_Solar_FV.docx)
