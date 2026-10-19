@@ -35,33 +35,33 @@
   "files": [
     {
       "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx",
-      "bytes": 54136,
-      "sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
-      "md5": "c8124a4b44233e501915c14dd56587eb"
+      "bytes": 54022,
+      "sha256": "538b102901db19e00adf1c9ff2f99a96c4178585e4e746eae371d661f1c8dc8d",
+      "md5": "eab19e31528c8ced3cacd434b8094b93"
     },
     {
       "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx",
-      "bytes": 41622,
-      "sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
-      "md5": "aa6f4961011c70a4a630f3532e066285"
+      "bytes": 41512,
+      "sha256": "61fa497aea8f16d8177133c1b8d8dec10635f70cbdce6fcc318e78021285ebb3",
+      "md5": "a71e57fd8eb3074c23efdac2d648456e"
     },
     {
       "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx",
-      "bytes": 42047,
-      "sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
-      "md5": "f01348a05a0fa968150d2056a9fe2e1b"
+      "bytes": 41932,
+      "sha256": "aea46f73156977b51d262351eda26fe249f81771ddf6d0acdd760096eeb5f8a7",
+      "md5": "d7a4804f20174ac4e9c512d71a11b15c"
     },
     {
       "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx",
-      "bytes": 44491,
-      "sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
-      "md5": "8a0e7aeffe743ad6eaf3dbd3bca0ef40"
+      "bytes": 44368,
+      "sha256": "88317fbc66a8bbbd2abff9ebd1289359755fcf6736f96be879a6be193435de63",
+      "md5": "ebe1964f16842998539c00838b28bd5c"
     },
     {
       "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx",
-      "bytes": 45606,
-      "sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
-      "md5": "606c5a9622b7d9ace26a8797d8e8ee6b"
+      "bytes": 45494,
+      "sha256": "33acdb973e7af019923de8d71e5ca45f11091fd2e728339caadfb9b7d666789c",
+      "md5": "050e06400e4b4408564bb5a7fff38877"
     }
   ]
 }

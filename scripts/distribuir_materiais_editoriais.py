@@ -219,7 +219,7 @@ def main():
     p = ROOT/'outputs/tabelas/README.md'
     p.write_text('# Catálogo de tabelas com inserção única\n\n' + rule + '\n' + csv_table(p, policy['csv_tables'])
                  + '\n## Documentos por seção\n\n' + '\n'.join('- '+link(p, s['directory']+f"/tabelas/docx/Materiais_Tabulares_Secao_{s['section']:02d}.docx", 'Word da seção '+str(s['section'])) for s in policy['sections'])
-                 + '\n\nO arquivo consolidado original em Word é um registro da execução anterior. Para redigir, usar os documentos por seção e os IDs do mapa editorial. A Tabela 16 possui quatro blocos de continuação e conta como uma única tabela.\n')
+                 + '\n\nA coleção consolidada reúne as tabelas do projeto. Os documentos por seção identificam os itens usados na redação. A Tabela 16 possui quatro blocos de continuação e conta como uma única tabela.\n')
     p = ROOT/'docs/Distribuicao_Editorial.md'
     text = '# Distribuição editorial sem repetição\n\n' + rule
     text += '\nUsar os IDs estáveis na redação, por exemplo «Figura G04» ou «Tabela T10». A numeração sequencial final será aplicada na consolidação do capítulo. Um mesmo CSV pode alimentar cálculos diversos, mas sua inclusão editorial pertence apenas à subseção indicada.\n\n'
@@ -234,8 +234,8 @@ def main():
             if item['owner_subsection'][0] == number:
                 text += '| '+item['id']+' — '+item['title']+' | '+item['owner_subsection']+' |\n'
         text += '\n' + link(p, section['directory']+'/README.md', 'Abrir apenas os materiais desta seção') + '\n\n'
-    text += '## Fontes e preservação\n\nA atribuição segue a proposta oficial de quatro seções e 19 subseções, as células do notebook e a natureza de cada resultado. As 30 ilustrações conservam seus 120 arquivos originais. Os 24 CSVs conservam valores e bytes. Há 16 tabelas lógicas no Word original, distribuídas em 19 blocos porque a T16 continua em quatro partes, e seis quadros. Os documentos por seção preservam as tabelas editáveis e identificam seu único local de inserção.\n\n'
-    text += 'Os notebooks executados e as coleções originais preservam o histórico. Suas pertinências múltiplas anteriores não autorizam inserir o mesmo item em duas seções. A referência atual para redação é [distribuicao_editorial.json](../config/distribuicao_editorial.json).\n'
+    text += '## Fontes e preservação\n\nA atribuição segue a proposta oficial de quatro seções e 19 subseções, as células do notebook e a natureza de cada resultado. Há 30 ilustrações em 120 arquivos PNG/PDF e 24 CSVs de resultados tabulares. Há 16 tabelas lógicas no Word original, distribuídas em 19 blocos porque a T16 continua em quatro partes, e seis quadros. Os documentos por seção preservam as tabelas editáveis e identificam seu único local de inserção.\n\n'
+    text += 'Os índices e os documentos por seção seguem a distribuição definida em [distribuicao_editorial.json](../config/distribuicao_editorial.json).\n'
     p.write_text(text)
     print(json.dumps({'figures':len(figures),'CSV_files':len(policy['csv_tables']),
                       'logical_Word_tables':len(policy['word_tables']),'frames':len(policy['frames']),

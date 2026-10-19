@@ -1,6 +1,6 @@
 # Referências da seção 4
 
-[Pasta de PDFs no Drive](https://drive.google.com/drive/folders/1VdIo3Lbc220ZaXbyWH9uiSTAJHbDvzYd). As listas abaixo apontam para as cópias já organizadas.
+[Pasta de PDFs no Drive](https://drive.google.com/drive/folders/1VdIo3Lbc220ZaXbyWH9uiSTAJHbDvzYd). As listas identificam as cópias por obra e tipo de documento.
 
 - [Artigos](Artigos/README.md): 25.
 - [Livros](Livros/README.md): 6.

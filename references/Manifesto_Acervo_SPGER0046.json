@@ -2417,7 +2417,7 @@
       "suggested_codes": [
         "B38"
       ],
-      "note": "Versão publicada; páginas 1198–1208. Sobrenome do terceiro autor corrigido para RUPPERT FILHO.",
+      "note": "Versão publicada, páginas 1198–1208. Autores: Villalva, Gazoli e Ruppert Filho.",
       "verification": "PDF recebido em 18/10/2026: título, autoria, DOI quando presente, início e final conferidos; 11 páginas.",
       "filename": "Villalva_2009_Modeling_Simulation_PV_Arrays.pdf",
       "pages": 11
@@ -2443,7 +2443,7 @@
       "suggested_codes": [
         "B06"
       ],
-      "note": "Relatório oficial completo, 47 páginas. Autoria corrigida conforme a capa: King, Gonzalez, Galbraith e Boyson.",
+      "note": "Relatório oficial completo, 47 páginas. Autores: King, Gonzalez, Galbraith e Boyson.",
       "verification": "Obtido em repositório oficial OSTI em 18/10/2026; capa, número do relatório, extensão de 47 páginas e final conferidos.",
       "filename": "King_2007_Grid_Connected_PV_Inverters_SAND2007_5036.pdf",
       "pages": 47,
@@ -2543,7 +2543,7 @@
       "suggested_codes": [
         "B11"
       ],
-      "note": "Versão final da editora, completa, com 12 páginas e licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online antecipada em 2/12/2023. Original recebido preservado. Cópias de consulta nas quatro seções.",
+      "note": "Versão final da editora, 12 páginas, licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online em 2/12/2023. Cópias nas quatro seções.",
       "verification": "Em 18/10/2026: título, autores, DOI e volume conferidos na página inicial; 12 páginas sequenciais com texto extraível; referências até o item 44 e final do artigo na página 12. Primeira e última páginas também renderizadas e inspecionadas.",
       "filename": "Driesse_Jensen_Perez_2024_Continuous_Perez_Model.pdf",
       "pages": 12,
@@ -2664,7 +2664,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A071",
       "available_source_id": "1WgMILi-7lR1OSrlZJKNkAtahiCsA4AYB",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B03",
@@ -2682,7 +2682,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A072",
       "available_source_id": "1rRLaZP4X0TCGIyRYO8cwLyLVrF1w2acA",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B04",
@@ -2702,7 +2702,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A073",
       "available_source_id": "1zlOZGfwbFXATb3kGodS3GZOX3NZcaQVp",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B05",
@@ -2720,7 +2720,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A074",
       "available_source_id": "1YSb8zUm7byXcOeN3irYZ3BRxomz05MwD",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B06",
@@ -2756,7 +2756,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A075",
       "available_source_id": "1nnFqb--1gb38l0Cphyib3-Hm7smjQk51",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B08",
@@ -2777,7 +2777,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A076",
       "available_source_id": "1p-X5uvK15exFuF4fg8T8HQgHatIhctad",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B09",
@@ -2837,7 +2837,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A089",
       "available_source_id": "1sQFNU5Q58YRMcaReu38rQKfi9LzSO1Cl",
-      "action": "PDF completo recebido e conferido em 18/10/2026: versão final da editora, 12 páginas, licença CC BY 4.0. Disponível como A089 nas quatro seções; original preservado.",
+      "action": "A089: versão final da editora, 12 páginas, licença CC BY 4.0. Disponível nas quatro seções.",
       "acquisition_url": "https://orbit.dtu.dk/en/publications/a-continuous-form-of-the-perez-diffuse-sky-model-for-forward-and-/",
       "download_url": "https://orbit.dtu.dk/files/346015606/1-s2.0-S0038092X23007272-main.pdf"
     },
@@ -2933,7 +2933,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A077",
       "available_source_id": "1NeQuH3p5G8rwgS-Sw-6d5YeFRV4igamc",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B16",
@@ -2951,7 +2951,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A078",
       "available_source_id": "15dq7T0441OAVG2jN4iSdw8yB--6yESix",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B17",
@@ -2969,7 +2969,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A079",
       "available_source_id": "1IwLVGfYj88JzXqbvHipqd7YA2BqSc12Z",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B18",
@@ -2987,7 +2987,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A080",
       "available_source_id": "1sRUuDSYsVSsAAgf0kT0D_jf80Zgc3yOW",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B19",
@@ -3039,7 +3039,7 @@
       "acquisition_history": [
         {
           "date": "2026-10-18",
-          "action": "A090 (1ª edição de 2009, sem folhas iniciais) foi retirado do acervo ativo a pedido do usuário. Continua faltando a 2ª edição de 2014. Consulta autenticada CAPES/UFPB: ISBN 9780123972705 sem registro. A ScienceDirect reconheceu a UFPB, mas exibiu os capítulos principais como Abstract only, sem acesso ao livro integral nesta sessão."
+          "action": "A090 (1ª edição de 2009, sem folhas iniciais) foi retirado do acervo ativo por edição ou conteúdo incompatível com a referência prioritária. Continua faltando a 2ª edição de 2014. Consulta autenticada CAPES/UFPB: ISBN 9780123972705 sem registro. A ScienceDirect reconheceu a UFPB, mas exibiu os capítulos principais como Abstract only, sem acesso integral confirmado."
         }
       ]
     },
@@ -3073,7 +3073,7 @@
       "status": "OUTRA_EDICAO",
       "available_id": "A034",
       "available_source_id": "1vOjaRvwXtvjh8UGmKFzbHRNh4-NvlleG",
-      "action": "A 2ª edição de 2011 continua pendente; a consulta específica à Wiley exige continuação manual. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.",
+      "action": "A 2ª edição de 2011 está pendente; a disponibilidade depende de consulta à Wiley. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.",
       "acquisition_url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9780470974704",
       "isbn": "9780470721698",
       "access_check": {
@@ -3085,7 +3085,7 @@
         "full_book_obtained": false,
         "license_confirmed": false,
         "publisher_base_listed_as_available": true,
-        "publisher_navigation_outcome": "O comando falhou sob proteção de credenciais; continuação manual necessária. A causa subjacente foi ocultada pelo navegador, portanto não há prova de recusa de licença ou bloqueio do site."
+        "publisher_navigation_outcome": "Acesso integral não verificado. A consulta requer autenticação institucional; a licença específica permanece sem confirmação."
       },
       "alternative_available_ids": [
         "A003",
@@ -3096,7 +3096,7 @@
       "acquisition_history": [
         {
           "date": "2026-10-18",
-          "action": "A091 (trecho parcial da 2ª edição de 2011) foi retirado do acervo ativo a pedido do usuário. A 1ª edição de 2003, A034, permanece disponível. Falta a 2ª edição completa de 2011. O catálogo CAPES/UFPB não retornou registro para o ISBN digital 9780470974667. A Wiley Online Library consta como base disponível para a instituição, mas a proteção de credenciais do navegador impediu abrir a plataforma; a licença específica do livro não foi confirmada."
+          "action": "A091 (trecho parcial da 2ª edição de 2011) foi retirado do acervo ativo por edição ou conteúdo incompatível com a referência prioritária. A 1ª edição de 2003, A034, permanece disponível. Falta a 2ª edição completa de 2011. O catálogo CAPES/UFPB não retornou registro para o ISBN digital 9780470974667. A Wiley Online Library consta como base disponível para a instituição, mas a licença específica do livro não foi confirmada."
         }
       ]
     },
@@ -3118,7 +3118,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A081",
       "available_source_id": "1wWS-19ok6vfukBYps7YPPaJwmPAiZrvH",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B22",
@@ -3158,7 +3158,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A082",
       "available_source_id": "1Q3jX3bGUIdplbnBcprCFGcuPH9xGX8Ok",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B24",
@@ -3198,7 +3198,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A083",
       "available_source_id": "17tWinB8GQ2RcCGxQLCC4eDlLwI3XpVQ2",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B26",
@@ -3313,7 +3313,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A084",
       "available_source_id": "1bj9Te_rW91bZmJEuVLHN1YCjr3-Di3Va",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B32",
@@ -3452,7 +3452,7 @@
       "status": "PDF_ENCONTRADO",
       "available_id": "A085",
       "available_source_id": "11hd1Zx5xYWiNsDI-g2R2jfHdrwvw2D9r",
-      "action": "Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026"
+      "action": "PDF disponível no índice da seção"
     },
     {
       "code": "B39",
@@ -6841,7 +6841,7 @@
       "status": "PDF_NAO_LOCALIZADO",
       "available_id": "",
       "available_source_id": "",
-      "action": "IEC 61724-1:2021 continua pendente. Login SIGAA confirmado; a página da Target e a licença da norma não foram confirmadas. A093 apoia monitoramento e indicadores, mas não substitui a norma. Ver Alternativas_e_Acesso.md.",
+      "action": "IEC 61724-1:2021 continua pendente. A licença da norma na Target não está confirmada. A093 apoia monitoramento e indicadores, mas não substitui a norma. Ver Alternativas_e_Acesso.md.",
       "isbn": "9782832250884",
       "acquisition_url": "https://webstore.iec.ch/en/publication/65561",
       "access_check": {
@@ -6860,17 +6860,17 @@
         "institutional_guidance": "https://www.ccs.ufpb.br/bsccs/como-acessar-as-bases-de-dados/",
         "sigaa_login_verified": true,
         "target_menu_located": true,
-        "target_access_outcome": "A opção Target - Normas Técnicas foi acionada no SIGAA, mas a observação da nova página foi bloqueada pela proteção de credenciais do navegador. Licença da norma ainda não confirmada."
+        "target_access_outcome": "Target - Normas Técnicas consta no SIGAA. A disponibilidade da IEC 61724-1:2021 na assinatura institucional não foi confirmada."
       },
       "alternative_available_ids": [
         "A093"
       ],
-      "alternative_role": "Apoio técnico, com pendência normativa preservada",
+      "alternative_role": "Apoio técnico; norma integral não disponível",
       "alternative_note": "Usar Jahn et al. (2022) como apoio sobre monitoramento, indicadores e clima nas seções 2 e 4. O relatório não é uma norma e não substitui a IEC 61724-1:2021. Não declarar atendimento à norma com base somente neste apoio.",
       "acquisition_history": [
         {
           "date": "2026-10-18",
-          "action": "Consulta CAPES/UFPB: a busca IEC na lista de bases não retornou registros; a busca 61724-1 no acervo geral retornou 11 artigos, sem a norma integral. Login no SIGAA confirmado e opção Target - Normas Técnicas localizada e acionada. A proteção de credenciais do navegador impediu confirmar a página da Target; a licença da IEC 61724-1:2021 continua sem confirmação."
+          "action": "Consulta CAPES/UFPB: a busca IEC na lista de bases não retornou registros; a busca 61724-1 no acervo geral retornou 11 artigos, sem a norma integral. Login no SIGAA confirmado e opção Target - Normas Técnicas localizada e acionada. A licença da IEC 61724-1:2021 não foi confirmada."
         }
       ]
     }
@@ -6964,7 +6964,7 @@
   "withdrawals": [
     {
       "date": "2026-10-18",
-      "reason": "Retirada solicitada pelo usuário por edição inadequada e conteúdo incompleto",
+      "reason": "Edição divergente da referência prioritária e conteúdo incompleto",
       "catalog_ids": [
         "A090",
         "A091"
@@ -7330,7 +7330,7 @@
   "catalog_id_next": 94,
   "alternatives": {
     "date": "2026-10-18",
-    "authorization": "Usuário prioriza as obras originais e autoriza alternativas quando não disponíveis.",
+    "authorization": "As edições prioritárias orientam a bibliografia; as alternativas disponíveis estão identificadas por código.",
     "items": [
       {
         "original_code": "B19",
@@ -7352,7 +7352,7 @@
       },
       {
         "original_code": "N01",
-        "role": "Apoio técnico, com pendência normativa preservada",
+        "role": "Apoio técnico; norma integral não disponível",
         "available_ids": [
           "A093"
         ],

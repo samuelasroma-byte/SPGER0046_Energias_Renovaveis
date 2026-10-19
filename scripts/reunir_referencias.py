@@ -41,7 +41,7 @@ for rid,title,authors,year,sections,role,url,local,doi in rows:
     if rid=='R01':refs[-1].update(citation=dataset['citation_abnt'],accessed=dataset['accessed'])
 p=ROOT/'references';p.mkdir(exist_ok=True)
 (p/'referencias_projeto.json').write_text(json.dumps(refs,indent=2,ensure_ascii=False))
-md='# Referências e fontes do projeto — v1.2\n\nInventário das fontes científicas, técnicas, de dados e de planejamento usadas neste projeto. Não constitui uma revisão bibliográfica concluída nem uma seleção por número de citações. Fontes NASA da versão anterior são preservadas como histórico e não são entradas da validação elétrica atual. Os identificadores permanecem estáveis; R27–R30 foram acrescentadas para os diagnósticos e as hipóteses ambientais.\n\n'
+md='# Referências e fontes do projeto — v1.2\n\nFontes científicas e técnicas dos dados, modelos e planejamento do capítulo. Os códigos R identificam os métodos e as hipóteses usados nos resultados. A seleção orienta a leitura e não constitui revisão sistemática. As fontes NASA documentam consultas complementares e não alimentam a validação elétrica do PVDAQ.\n\n'
 bib=[]
 for x in refs:
     md+=f'## {x["id"]} — {x["title"]}\n\n{x["citation"]}\n\nSeções: {x["sections"]}. Uso: {x["role"]}.\n\nFonte: {x["url"]}\n\nDOI: {x["doi"] or "não informado"}. Cópia local: {x["local_copy"]}. Consulta: {x["accessed"]}.\n\n'

@@ -25,22 +25,22 @@
     },
     {
       "base": "Scopus",
-      "status": "não executada aqui; Secret disponível apenas no ambiente do usuário",
+      "status": "não consultada; credenciais não disponíveis na coleta registrada",
       "credencial_presente": false
     },
     {
       "base": "WOS",
-      "status": "não executada aqui; Secret disponível apenas no ambiente do usuário",
+      "status": "não consultada; credenciais não disponíveis na coleta registrada",
       "credencial_presente": false
     },
     {
       "base": "IEEE Xplore",
-      "status": "não executada aqui; Secret disponível apenas no ambiente do usuário",
+      "status": "não consultada; credenciais não disponíveis na coleta registrada",
       "credencial_presente": false
     }
   ],
   "full_text_review_completed": false,
   "ranking_scope": "Mais citados significa entre resultados recuperados e filtrados, na base e data indicadas; não ranking mundial exaustivo.",
   "generated_at": "2026-10-17T02:30:36.490293+00:00",
-  "reference_presentation": "ABNT NBR 6023:2025; Times New Roman 12; recuo francês solicitado de 1,25 cm; catálogo alfabético e mapa dos 19 tópicos"
+  "reference_presentation": "ABNT NBR 6023:2025; Times New Roman 12; recuo francês de 1,25 cm; catálogo alfabético e mapa dos 19 tópicos"
 }

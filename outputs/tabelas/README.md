@@ -1,6 +1,6 @@
 # Catálogo de tabelas com inserção única
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | Dados e tabelas em CSV | Inserir em |
 | --- | --- |
@@ -36,4 +36,4 @@ Cada ID tem um único local de inserção no capítulo. As versões claro/escuro
 - [Word da seção 3](../../secoes/03_Modelagem_Fotovoltaica/tabelas/docx/Materiais_Tabulares_Secao_03.docx)
 - [Word da seção 4](../../secoes/04_Desempenho_Perdas_Validacao/tabelas/docx/Materiais_Tabulares_Secao_04.docx)
 
-O arquivo consolidado original em Word é um registro da execução anterior. Para redigir, usar os documentos por seção e os IDs do mapa editorial. A Tabela 16 possui quatro blocos de continuação e conta como uma única tabela.
+A coleção consolidada reúne as tabelas do projeto. Os documentos por seção identificam os itens usados na redação. A Tabela 16 possui quatro blocos de continuação e conta como uma única tabela.

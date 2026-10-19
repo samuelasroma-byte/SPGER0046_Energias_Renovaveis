@@ -1,6 +1,6 @@
 base,status,credencial_presente
 OpenAlex,habilitada,False
 Crossref,habilitada,não exigida
-Scopus,não executada aqui; Secret disponível apenas no ambiente do usuário,False
-WOS,não executada aqui; Secret disponível apenas no ambiente do usuário,False
-IEEE Xplore,não executada aqui; Secret disponível apenas no ambiente do usuário,False
+Scopus,não consultada; credenciais não disponíveis na coleta registrada,False
+WOS,não consultada; credenciais não disponíveis na coleta registrada,False
+IEEE Xplore,não consultada; credenciais não disponíveis na coleta registrada,False

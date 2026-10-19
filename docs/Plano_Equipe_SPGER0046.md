@@ -1,18 +1,18 @@
-# Plano da equipe para construir o capítulo SPGER0046
+# Plano de trabalho da equipe
 
-Recurso solar e modelagem da conversão fotovoltaica. Levantamento e proposta de trabalho em 18 de outubro de 2026. A divisão de seções e as datas abaixo vêm da proposta atual do grupo. A organização operacional é uma recomendação para discussão da equipe.
+Recurso solar e modelagem da conversão fotovoltaica, SPGER0046, PPGER/UFPB. Planejamento das quatro seções e 19 subseções, com responsáveis, materiais, critérios de redação e cronograma.
 
 ## Decisão de trabalho
 
-Podemos iniciar a leitura e a redação com o acervo já disponível. Há fontes de base, artigos, trabalhos acadêmicos, dados observacionais e uma cadeia computacional executada que cobre as 19 subseções. Isso permite começar; a seleção das afirmações, a leitura crítica e a conferência das páginas citadas ainda cabem à equipe. A obtenção das edições exatas de B19 e B20 e da norma N01 deixa de ser condição para iniciar a escrita. Não se declarará conformidade normativa sem examinar os requisitos da norma.
+A redação utiliza o acervo de livros, artigos e trabalhos acadêmicos, os dados observacionais e a cadeia computacional comum às 19 subseções. Cada afirmação técnica requer leitura da fonte e conferência da página citada. B19, B20 e N01 estão pendentes nas edições integrais indicadas; a conformidade normativa depende do exame dos requisitos da norma.
 
 O GitHub é o ambiente central de redação, revisão e organização da equipe. O Drive conserva os PDFs, os dados brutos e as versões gráficas, acessíveis pelos índices do repositório. Código, configuração, catálogos, resultados e histórico de revisões ficam organizados no GitHub. Cada integrante terá uma entrada própria, mas as quatro seções usarão a mesma instalação, janela temporal e cadeia de dados.
 
-## Onde ficaram os dois PDFs retirados
+## Materiais parciais e outras edições
 
-Eles não foram enviados à lixeira. Permanecem na pasta de materiais retirados, fora da pasta ativa do projeto, na raiz do Drive. Os dois originais são Solar_Energy_Engineering-Processes_and_Systems.pdf e pdf68.pdf. O primeiro é Kalogirou 2009, outra edição, sem folhas iniciais; o segundo contém apenas parte de Luque e Hegedus 2011. Sete cópias derivadas estão nas quatro subpastas Secao_01 a Secao_04. São duas obras, dois originais e sete cópias, totalizando nove arquivos PDF preservados. A090 e A091 ficam fora do acervo ativo.
+A090 corresponde a Solar_Energy_Engineering-Processes_and_Systems.pdf, de Kalogirou (2009), sem folhas iniciais; A091 corresponde a pdf68.pdf, trecho da segunda edição de Luque e Hegedus (2011). Os dois originais e sete cópias ficam na pasta de materiais retirados, fora do acervo ativo, na raiz do Drive. Os códigos A090 e A091 identificam esses documentos e não são reutilizados.
 
-## Acervo ativo conferido
+## Acervo bibliográfico
 
 | Material | Documentos distintos |
 | --- | --- |
@@ -26,7 +26,7 @@ Eles não foram enviados à lixeira. Permanecem na pasta de materiais retirados,
 | Total | 91 |
 
 
-As 160 cópias nas 28 pastas de referências conferem, por identificador, com o catálogo atual: nenhum arquivo esperado ausente e nenhum extra nessas pastas. Uma obra útil a duas seções aparece em ambas, mas só conta uma vez entre os 91 documentos. Os nove livros incluem edições diferentes de uma mesma obra; a unidade desta contagem é o documento catalogado. O TCC é de Filipe Tawã Gomes, sobre microclima e placas fotovoltaicas. Não contamos o levantamento de 829 registros bibliográficos como PDFs disponíveis, nem incluímos dados, notebooks ou relatórios gerados nessa contagem.
+O catálogo contém 91 documentos, distribuídos em 160 cópias nas 28 pastas de referências. Uma obra pode atender a mais de uma seção. Os nove livros incluem edições diferentes; a unidade de contagem é o documento catalogado. O TCC é de Filipe Tawã Gomes, sobre microclima e placas fotovoltaicas. Os 829 registros bibliográficos do levantamento, os dados, notebooks e relatórios do projeto não integram essa contagem de PDFs.
 
 | Seção | Responsáveis | Artigos | Livros | Diss. | Teses | Rel./manuais | TCC | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,7 +38,7 @@ As 160 cópias nas 28 pastas de referências conferem, por identificador, com o 
 
 As cópias ocupam aproximadamente 1,12 GB; os documentos distintos somam aproximadamente 520,5 MB. Isso justifica usar links no GitHub. Os dois PDFs retirados estão excluídos desses totais. A contagem se refere ao [acervo ativo do capítulo](https://drive.google.com/drive/folders/1Ko7bngE2QGAChdqNUVib-Ls7j7d25kTe), e não a todos os arquivos de todo o Drive. A norma IEC 61724-1:2021 permanece ausente. O relatório A093 é apoio técnico e não é norma.
 
-## Qual é o estudo que já existe
+## Estudo de caso
 
 O projeto principal é Farm Solar Array, PVDAQ 2107, em Arbuckle, Califórnia, Estados Unidos. A configuração v1.2.2 seleciona de 1º de abril a 30 de junho de 2024, com fim exclusivo em 1º de julho, no fuso America/Los_Angeles. São 91 dias. Os índices exportados usam UTC; datas e horas locais devem ser identificadas nas legendas. O ano 2026 na fonte das figuras indica elaboração, não observação.
 
@@ -46,7 +46,7 @@ Os arquivos originais contêm observações além desse trimestre. Os limites do
 
 Entradas observacionais principais: irradiância no plano dos módulos, chamada POA, temperatura do ar e vento, medidos junto à instalação. O modelo estima temperatura operacional, potência do módulo, potência CC do arranjo, conversão no inversor, potência CA e energia. A potência CA medida pelo medidor local é a referência de comparação, não entrada da previsão física. NASA POWER não entra na cadeia principal atual; seus arquivos foram preservados como histórico.
 
-Há 8.736 intervalos de 15 minutos no trimestre e 8.736 registros do medidor. A avaliação diurna usa 4.401 pares de 4.421 intervalos elegíveis, disponibilidade conjunta de 99,55%. POA e inversores são agregados de 5 para 15 minutos com exigência de três amostras por intervalo. O código não preenche lacunas. As 25 células de código do notebook consultado têm execução registrada e não apresentam saídas de erro. Nesta conferência foram lidos código, configuração, arquivos originais e resultados salvos; não se executou novamente a simulação.
+O trimestre contém 8.736 intervalos de 15 minutos e 8.736 registros do medidor. A avaliação diurna usa 4.401 pares de 4.421 intervalos elegíveis, com disponibilidade conjunta de 99,55%. POA e inversores são agregados de 5 para 15 minutos, com três amostras por intervalo e sem preenchimento de lacunas. O notebook possui 25 células de código com execução registrada. A reprodução está descrita em [Executar e reproduzir o projeto](REPRODUTIBILIDADE.md).
 
 O notebook registra RMSE de 61,59 kW, MAE de 50,30 kW, MBE de +31,77 kW, nRMSE de 14,99%, r de 0,9774 e R² de 0,9200 para o modelo físico sem escala empírica. O nRMSE usa a média observada dos mesmos pares. A alta correlação não elimina o viés. Um fator empírico é ajustado somente em abril; maio e junho são avaliações posteriores da mesma instalação. O texto deve manter esses resultados separados.
 
@@ -62,7 +62,7 @@ O notebook registra RMSE de 61,59 kW, MAE de 50,30 kW, MBE de +31,77 kW, nRMSE d
 
 A energia integral observada do trimestre é 454,285 MWh no resultado salvo. Ela não deve ser combinada com irradiância restrita aos pares diurnos para calcular PR. Cada tabela e figura precisa dizer qual máscara foi usada.
 
-A pasta Projeto_Energia_FV contém uma alternativa brasileira do IFES: CSVs tratados de dezembro de 2024 a julho de 2025 e um XLS de uma semana de janeiro de 2024. Seu LEIA_ME registra pendências temporais, de configuração e de representatividade da estação INMET. Essa base não alimenta os gráficos do estudo PVDAQ. Recomendo preservá-la como alternativa futura, mantendo o estudo já executado como caso comum do capítulo.
+A pasta Projeto_Energia_FV contém uma base alternativa do IFES: CSVs tratados de dezembro de 2024 a julho de 2025 e um XLS de uma semana de janeiro de 2024. Seu LEIA_ME identifica pendências temporais, de configuração e de representatividade da estação INMET. Essa base é independente do estudo PVDAQ e não alimenta seus gráficos.
 
 ## Divisão do trabalho e interfaces
 
@@ -76,47 +76,47 @@ A pasta Projeto_Energia_FV contém uma alternativa brasileira do IFES: CSVs trat
 
 Na seção 4, a proposta atual atribui 4.1 e 4.5 a Júlia Ribeiro, e 4.2, 4.3 e 4.4 a Lucas Simão. A distribuição interna das demais duplas deve ser registrada na reunião. Cada integrante precisa escrever sua parte sabendo quais entradas recebe e quais resultados entrega à seção seguinte. A redação das seções 1 e 2 deve contextualizar as variáveis sem repetir a modelagem completa da seção 3; a seção 4 interpreta as saídas e seus limites.
 
-Para cada subseção, entregar: pergunta e argumento central, fundamentos com equações e unidades, referência e página de cada afirmação técnica, figura ou tabela selecionada quando necessária, interpretação e limite da evidência. É melhor começar com 3 a 5 referências centrais por subseção e ampliar quando uma afirmação exigir outra fonte, em vez de exigir leitura integral de todos os PDFs.
+Cada subseção deve conter argumento central, fundamentos, equações com unidades, referências com páginas, materiais gráficos pertinentes, interpretação e limites da evidência. A leitura inicial pode se concentrar em 3 a 5 referências centrais, com ampliação conforme as afirmações desenvolvidas.
 
 ## Como ler os gráficos existentes
 
-Existem 30 figuras catalogadas: 25 gráficos, um fluxograma e quatro esquemas. As versões clara e escura, em PNG e PDF, são representações das mesmas 30 figuras, não 120 resultados independentes. O catálogo relaciona cada figura à sua subseção, legenda e natureza da evidência. Os 25 PNGs escuros foram localizados na pasta atual.
+O catálogo contém 30 ilustrações: 25 gráficos, um fluxograma e quatro esquemas. Cada item possui versões clara e escura em PNG e PDF, totalizando 120 arquivos. O catálogo identifica subseção, legenda e natureza da evidência.
 
 | Grupo | Pergunta respondida | Seção principal |
 | --- | --- | --- |
 | G01 e G02 | Como variam a geometria solar e o recurso medido | 1 |
-| G03, G04, G20 e G22 | Como ambiente e hipóteses alteram temperatura e aproveitamento | 2 e 3 |
+| G03, G20 e G22; G04 | Como ambiente e hipóteses alteram temperatura e aproveitamento | 2; G04 em 3.2 |
 | G05 a G07 | Como o modelo calcula curvas elétricas e a conversão no inversor | 3 |
-| G08 a G10 | Como potência e energia simuladas se comparam às medidas | 3 e 4 |
+| G08 a G10 | Como potência e energia simuladas se comparam às medidas | 3.6 |
 | G11, G12 e G21 | Como se organizam energia, perdas calculadas, produtividades e PR | 4 |
 | G13 a G19 | Quanto o modelo erra e como os erros se distribuem | 4 |
-| G23 | Como se reconstroem componentes de radiação a partir da POA | 1 e 3 |
+| G23 | Como se reconstroem componentes de radiação a partir da POA | 3.1 |
 | G24 e G25 | Como se comportam os cenários BIPV hipotéticos | 4.5 |
 
-G01 e G23 ilustram 17/05/2024; G08 compara 17/05 e 04/05/2024. Curvas elétricas e esquemas não representam um dia observado. Gráficos mensais usam abril, maio e junho; gráficos de validação usam a máscara pareada, salvo indicação específica. A coleção completa não precisa entrar no capítulo: proponho selecionar inicialmente de 2 a 4 figuras por seção e remeter diagnósticos extensos ao material suplementar, conforme espaço e orientação da professora.
+G01 e G23 ilustram 17/05/2024; G08 compara 17/05 e 04/05/2024. Curvas elétricas e esquemas representam relações calculadas. Os gráficos mensais abrangem abril, maio e junho; os de validação usam a máscara pareada, salvo indicação específica. A equipe seleciona as figuras do texto conforme sua função e o espaço disponível; diagnósticos extensos podem compor o material suplementar.
 
 ## Onde guardar cada material
 
 | Material | Local principal | Organização |
 | --- | --- | --- |
 | PDFs dos 91 documentos | Drive, nas pastas por seção | Links e metadados no GitHub |
-| Dados brutos e pacotes completos | Drive e fonte oficial | Manifesto com URL, tamanho e SHA-256 no GitHub |
-| Código, notebooks e configuração | GitHub | Uma versão compartilhada e notebooks sem saídas incorporadas |
-| Tabelas numéricas pequenas | GitHub após selecionar | CSV com período, unidades e máscara temporal |
-| Figuras para o capítulo | GitHub após selecionar | Um arquivo por figura; listas por seção apontam para ele |
-| 120 versões gráficas e DOCX completos | Drive | Guardar versões clara/escura e alta resolução |
+| Dados brutos e pacotes completos | GitHub, fonte oficial e Drive | Quatro CSVs e metadados; manifesto com URL, tamanho e SHA-256 |
+| Código, notebooks e configuração | GitHub | Cadeia comum e cópias de notebooks executados |
+| Tabelas numéricas | GitHub | CSVs com período, unidades e máscara temporal |
+| Figuras para o capítulo | Pasta da seção correspondente no GitHub | Um ID e uma subseção por ilustração |
+| 120 versões gráficas e documentos Word | GitHub e Drive | Temas claro/escuro e formatos PNG/PDF; documentos editáveis |
 | Texto em elaboração | GitHub, em texto.md de cada seção | Uma fonte de edição e revisão por propostas de alteração |
 
 
 O GitHub concentra o trabalho computacional e a redação. Cada seção desenvolve seu arquivo texto.md e abre propostas de alteração para revisão do grupo. Os documentos originais no Drive são fontes de consulta; a edição corrente do capítulo acontece no repositório.
 
-Os PDFs permanecem nas pastas atuais de Artigos, Livros, Dissertacoes, Teses e Relatorios_e_Manuais. No pacote preparado, cada seção tem listas desses materiais, com IDs e links para sua cópia no Drive. Isso atende à divisão por seção sem colocar as 160 cópias no histórico Git. As figuras selecionadas ficam em figuras/previas ou, depois da seleção final, em figuras/selecionadas; os índices por seção apontam para os mesmos arquivos. Dados brutos são recuperáveis pelas URLs oficiais e conferidos por hashes.
+Os PDFs bibliográficos estão organizados por seção e tipo: Artigos, Livros, Dissertacoes, Teses e Relatorios_e_Manuais. Os índices do GitHub identificam cada documento e sua cópia no Drive. As figuras e tabelas ficam nas pastas das respectivas seções, conforme o mapa editorial. Os dados brutos estão em data/raw, com URLs oficiais e hashes.
 
-Como referência técnica, o GitHub avisa sobre arquivos acima de 50 MiB e bloqueia arquivos acima de 100 MiB no Git comum; uploads pelo navegador têm limite de 25 MiB por arquivo. Não é necessário começar com Git LFS se mantivermos PDFs e grandes saídas no Drive. A recomendação aqui é de organização e tamanho; a disponibilidade de um PDF não comprova permissão para redistribuí-lo publicamente. Por isso o pacote inclui referências e links, sem cópias dos livros e artigos.
+O repositório contém os quatro CSVs brutos, os documentos Word e as 120 exportações gráficas. O CSV elétrico possui 63.287.121 bytes e o Word dos gráficos, 14.465.317 bytes. Os PDFs de terceiros são acessados pelos índices bibliográficos; sua disponibilidade para leitura não implica autorização para redistribuição pública.
 
-## Estrutura preparada para o GitHub
+## Estrutura do repositório
 
-O pacote reorganizado reaproveita o projeto computacional v1.2.2. Código científico e configurações foram preservados. Inclui dois notebooks sem saídas, bibliografia existente, inventário dos 91 documentos, listas por seção e tipo, índice das 30 figuras, seis prévias extraídas do notebook e modelos de tarefa e revisão. Não contém os 160 PDFs, grandes dados brutos ou resultados completos.
+O repositório reúne a cadeia computacional v1.2.2, dois notebooks de trabalho e suas cópias executadas, dados brutos e preparados, resultados, bibliografia, catálogo de 91 documentos, 30 ilustrações, documentos técnicos e modelos de tarefa e revisão. O ZIP contém todos os arquivos versionados; os PDFs de terceiros são acessados por links.
 
 | Caminho | Uso pela equipe |
 | --- | --- |
@@ -125,12 +125,12 @@ O pacote reorganizado reaproveita o projeto computacional v1.2.2. Código cient�
 | notebooks e src | Uma cadeia computacional compartilhada |
 | config | Instalação, período, modelos e hipóteses |
 | references e bibliografia | Citações, inventário e seleção de referências |
-| data/raw | Manifesto das fontes, orientação e hashes; dados obtidos separadamente |
-| figuras/previas | Seis ilustrações para escolha; alta resolução permanece no Drive |
+| data/raw | Quatro CSVs brutos, metadados e manifesto das fontes |
+| figuras e secoes | Catálogo e 120 arquivos PNG/PDF organizados por seção |
 | docs | Plano, matriz das 19 subseções e auditoria dos arquivos |
 | .github | Modelos para tarefas e revisões |
 
-O repositório público foi identificado em 18/10/2026 como samuelasroma-byte/SPGER0046_Energias_Renovaveis, ID 1421239398. A estrutura técnica foi integrada após a autorização de Samuel. O nome do repositório não altera o código da disciplina. O histórico desta versão passa a ser acompanhado no GitHub.
+Repositório da equipe: [samuelasroma-byte/SPGER0046_Energias_Renovaveis](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis). A disciplina é SPGER0046, PPGER/UFPB.
 
 ## Rotina de trabalho
 
@@ -141,7 +141,7 @@ O repositório público foi identificado em 18/10/2026 como samuelasroma-byte/SP
 5. Ao incorporar um cálculo, atualizar conjuntamente os resultados afetados, o catálogo das figuras, as legendas e as interpretações. Evitar que cada seção execute parâmetros ou períodos diferentes sem registro.
 6. A revisão cruzada confere as interfaces 1→2→3→4, elimina repetição e verifica correspondência entre afirmação, equação, citação e resultado. O integrador consolida o texto; a pessoa deve ser definida pela equipe.
 
-## Cronograma já previsto no projeto
+## Cronograma
 
 | Prazo | Responsáveis | Entrega |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ O repositório público foi identificado em 18/10/2026 como samuelasroma-byte/SP
 | 01/12/2026 | Equipe | Correções incorporadas, slides finais e entrega |
 
 
-O marco de 15/10 para estrutura e cronograma já consta da proposta como prazo anterior. Esta conferência não atesta o envio ou cumprimento das entregas. Recomendo usar a próxima reunião para confirmar responsáveis internos, texto oficial, figuras centrais e acesso da equipe às pastas.
+O marco de 15/10 corresponde à estrutura e ao cronograma. A equipe acompanha as entregas e define a distribuição interna das subseções, o integrador e os revisores.
 
 ## Critérios de conclusão
 
@@ -173,9 +173,9 @@ A validação observacional disponível é da saída CA nessa instalação e nes
 
 ## Códigos do projeto
 
-A identifica documentos disponíveis no acervo, B identifica as 39 referências sugeridas do levantamento inicial, N identifica norma complementar e R identifica referências metodológicas do pipeline. Os números são identificadores de catálogo, não ranking de qualidade. A090 e A091 continuam reservados aos materiais retirados e não foram reutilizados. A092 e A093 são os dois relatórios completos acrescentados como apoio.
+A identifica documentos do acervo; B, as 39 referências prioritárias; N, a norma complementar; R, as fontes metodológicas. Os códigos são identificadores, sem ranking de qualidade. A090 e A091 correspondem aos materiais parciais e outras edições fora do acervo ativo. A092 e A093 são relatórios de apoio.
 
 
-## Ambiente de trabalho definido em 19/10/2026
+## Ambiente de colaboração
 
 O GitHub é o ambiente central escolhido para a equipe. Desenvolver a redação em texto.md de cada seção e revisar por propostas de alteração. A proposta original no Drive continua como registro de escopo, responsáveis e cronograma. Os arquivos do Drive são abertos pelos [índices de acesso](ACESSO_E_COLABORACAO.md).

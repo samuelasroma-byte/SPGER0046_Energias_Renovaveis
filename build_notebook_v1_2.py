@@ -20,14 +20,14 @@ def description(s):md('<details>\n<summary>Descrição e método</summary>\n\n'+
 title('# SPGER0046 Recurso solar e modelagem fotovoltaica')
 description('**Versão 1.2.2.** Farm Solar Array PVDAQ 2107, Califórnia, abril a junho de 2024. '
     'Entradas: POA, temperatura do ar e vento locais. Saída: geração AC calculada, comparada com o medidor. '
-    'NASA POWER não é usado na cadeia principal. Cada subseção possui título, descrição separada e código/resultados. '
+    'NASA POWER não é usado na cadeia principal. As subseções relacionam fundamentos, dados, cálculos e resultados. '
     'As descrições usam HTML details fechado por padrão; a renderização e o recolhimento por título variam entre JupyterLab e Colab. '
-    'O relatório HTML exportado conserva os blocos recolhíveis. A execução local não simula a autenticação Google nem a interface Colab.')
+    'O relatório HTML exportado conserva os blocos recolhíveis. A exportação ao Drive requer autenticação pessoal no Colab.')
 md('**Como usar:** execute as células na ordem. As saídas ficam em outputs, separadas em tabelas, quadros, graficos, fluxogramas e figuras. '
    'Cada figura final possui PDF vetorial e PNG a 600 dpi nos temas claro e escuro em secoes. Quatro DOCX separados reúnem as tabelas e quadros de cada seção; as coleções consolidadas servem para consulta. '
    'A exportação pessoal ao Drive é opcional e exige autenticação no Colab. '
    '**Inserção editorial única:** cada figura, gráfico e tabela possui somente uma subseção responsável. Usar o mapa config/distribuicao_editorial.json e citar o ID em outras partes, sem reinserir o material. As quatro versões de uma ilustração são alternativas de formato e tema.\n\n'
-   '**Inventário para redação:** [Word geral e quadros de equações por seção](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/docs/equacoes/README.md). Cada relação possui ID, função e local de inserção; o inventário distingue o núcleo já escrito dos complementos do código.\n\n'
+   '**Inventário para redação:** [Word geral e quadros de equações por seção](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/main/docs/equacoes/README.md). Cada relação possui ID, função e local de inserção; o inventário distingue o relações do notebook dos complementos do código.\n\n'
    '**Sumário:** '+ ' · '.join('['+s['id']+'](#sec_'+s['id'].replace('.','_')+')' for s in SECTIONS))
 title('## 0 Preparação e sistema de referência')
 description('O modelo representa uma instalação real. Equipamentos: 2.880 módulos e 24 inversores. '
@@ -83,7 +83,7 @@ print("Versão",CFG["version"],"| NASA POWER fora da cadeia principal")
 display(pd.DataFrame([{"biblioteca":k,"versão":importlib.metadata.version(k)} for k in requirements]))
 '''.replace('__PACKED__',base64.b64encode(packed).decode()).replace('__HASH__',hashlib.sha256(packed).hexdigest()))
 title('### 0.1 Auditoria e cálculo da cadeia principal')
-description('O filtro diurno usa NOAA ≥10° para preservar o denominador da auditoria; SPA calcula a geometria no meio dos intervalos. '
+description('O filtro diurno utiliza elevação NOAA ≥10°; SPA calcula a geometria no meio dos intervalos. '
     'Carimbos são tratados como início de intervalos locais America/Los_Angeles, interpretando PST8PDT dos metadados. '
     'Posição representativa em +7,5 minutos para as médias de 15 minutos e +30 minutos para a inversão horária; convenção temporal documentada, sem otimização por defasagem da geração. '
     'As médias de 15 minutos dos canais de 5 minutos exigem três amostras. O fator empírico secundário usa somente abril.')
@@ -145,7 +145,7 @@ for r in REFERENCIAS:
 ''')
 title('# 6 Documentos e relatório')
 description('Quatro DOCX editoriais contêm apenas as tabelas e quadros atribuídos a cada seção. As seis coleções consolidadas e o dossiê servem como consulta da execução. Papel A4, margens superior/esquerda de 3 cm e inferior/direita de 2 cm; Times New Roman 12 no texto nativo, com títulos de tabelas e figuras centralizados. '
-    'O relatório HTML possui tema alternável e descrições recolhíveis. Conferência visual de Word requer renderizador disponível.')
+    'O relatório HTML possui tema alternável e descrições recolhíveis. Os documentos Word e PDF apresentam os mesmos resultados e convenções.')
 code('''if GERAR_DOCX:
     python_documentos=os.environ.get("CODEX_PRIMARY_RUNTIME_PYTHON",sys.executable)
     subprocess.run([python_documentos,str(ROOT/"scripts/gerar_documentos.py")],check=True)

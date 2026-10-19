@@ -25,10 +25,10 @@ Para incluir toda a coleção gráfica:
 python scripts/executar_projeto.py --graficos
 ```
 
-O notebook principal também preserva seu modo de execução original. A primeira célula contém um pacote de apoio para uso autônomo no Colab; sua atualização científica deve acompanhar src e config. Não executar cópias divergentes por seção.
+A primeira célula do notebook contém um pacote de apoio para execução no Colab. O pacote utiliza os mesmos arquivos de src e config do repositório; as quatro seções compartilham essa configuração.
 
 `scripts/distribuir_materiais_editoriais.py` atualiza a navegação e os caminhos sem alterar bytes gráficos ou valores numéricos. `scripts/gerar_tabulares_por_secao.py` extrai tabelas e quadros editáveis para quatro Word com atribuição exclusiva. Consulte o [mapa de inserção única](Distribuicao_Editorial.md).
 
 ## Publicação e tamanho
 
-O GitHub contém dez Word originais, 120 exportações finais de 30 ilustrações, tabelas completas do caso principal, relatórios, metadados, parâmetros e quatro CSVs brutos completos. Os seis PNG de prévia foram preservados como registro anterior. PDFs bibliográficos de terceiros mantêm links individuais enquanto a redistribuição pública não estiver verificada. As famílias numéricas têm índices e unidades explícitos. Nenhuma chave de API é necessária para o caso físico local; a bibliografia usa chaves pessoais opcionais para outras bases, fora do repositório. Consulte a [auditoria final](AUDITORIA_FINAL_PUBLICACAO.md) e a [rotina de reprodução](REPRODUTIBILIDADE.md).
+O GitHub contém dez Word originais, 120 exportações finais de 30 ilustrações, tabelas completas do caso principal, relatórios, metadados, parâmetros e quatro CSVs brutos completos. Há seis PNG de prévia para consulta. PDFs bibliográficos de terceiros mantêm links individuais enquanto a redistribuição pública não estiver verificada. As famílias numéricas têm índices e unidades explícitos. Nenhuma chave de API é necessária para o caso físico local; a bibliografia usa chaves pessoais opcionais para outras bases, fora do repositório. Consulte a [auditoria final](AUDITORIA_FINAL_PUBLICACAO.md) e a [rotina de reprodução](REPRODUTIBILIDADE.md).

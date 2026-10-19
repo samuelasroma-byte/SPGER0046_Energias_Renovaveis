@@ -1,14 +1,14 @@
-# Referências revisadas por subseção
+# Referências por subseção
 
-Revisão de **19 de outubro de 2026**. Mantém as **39 obras B01–B39**, os quatro quadros e as 19 subseções do documento original. B24 recebeu autoria, título e ano oficiais. B27 continua identificando a documentação de acesso; os códigos existentes foram preservados.
+As **39 referências B01–B39** estão organizadas em quatro quadros e pelas 19 subseções. B24 identifica o conjunto PVDAQ/OEDI; B27, a documentação de acesso.
 
 | Uso | Acesso |
 | --- | --- |
 | Ler as 11 páginas no celular | [PDF no Drive](https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk) |
 | Editar o documento | [Word no Drive, mesmo link compartilhado](https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) |
-| Consultar pelo GitHub | [PDF revisado](Referencias_por_Subsecao_Atualizadas.pdf) |
-| Baixar para um editor de Word | [DOCX revisado](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.docx) |
-| Importar no gerenciador bibliográfico | [BibTeX revisado](referencias_fundamentacao.bib) · [RIS revisado](referencias_fundamentacao.ris) |
+| Consultar pelo GitHub | [PDF](Referencias_por_Subsecao_Atualizadas.pdf) |
+| Baixar para um editor de Word | [DOCX](https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.docx) |
+| Importar no gerenciador bibliográfico | [BibTeX](referencias_fundamentacao.bib) · [RIS](referencias_fundamentacao.ris) |
 | Consultar códigos e distribuição | [Índice das 39 referências](../principal/README.md) |
 
 ## Identificação da coleta e do recorte
@@ -26,8 +26,8 @@ Revisão de **19 de outubro de 2026**. Mantém as **39 obras B01–B39**, os qua
 | Caminho na fonte | `pvdaq/2023-solar-data-prize/2107_OEDI/`; 2023 identifica o acervo do concurso, e 2024 os arquivos utilizados |
 | Rastreabilidade dos cinco originais | [URLs, tamanhos e SHA-256](../../data/raw/fontes_pvdaq.json) |
 | Equipamentos, tratamento e hipóteses | [Guia técnico resumido](../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx) · [dados originais](../../data/raw/README.md) |
-| Metadados oficiais usados nesta revisão | [Registro estruturado](../../references/pvdaq_dataset_citacao.json) |
+| Metadados da fonte | [Registro estruturado](../../references/pvdaq_dataset_citacao.json) |
 
-O [Word original](../outputs/Referencias_por_Subsecao.docx) e seus [BibTeX](../outputs/referencias_fundamentacao.bib) e [RIS](../outputs/referencias_fundamentacao.ris) foram mantidos como registro histórico. Para redigir, usar os arquivos revisados acima. As outras 38 referências e as associações por subseção foram preservadas.
+[Documentos de origem](../outputs/Referencias_por_Subsecao.docx): [BibTeX](../outputs/referencias_fundamentacao.bib) e [RIS](../outputs/referencias_fundamentacao.ris). Os códigos B identificam a mesma obra nos quadros, índices e referências cruzadas.
 
 [Verificação da publicação no Drive](../../docs/auditoria/Publicacao_Referencias_PVDAQ.json) · [Entrega completa em ZIP](../../docs/ENTREGA_ZIP.md)

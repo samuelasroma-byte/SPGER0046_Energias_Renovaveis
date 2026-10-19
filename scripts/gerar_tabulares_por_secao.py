@@ -64,7 +64,7 @@ def build(root=ROOT):
             run.font.color.rgb = RGBColor(0,0,0); run.bold = True
         doc.add_paragraph(section['title'])
         doc.add_paragraph('Responsáveis pela seção: ' + section['responsible'] + '.')
-        doc.add_paragraph('Inserir cada ID somente na subseção indicada; em outras partes, citar sem reproduzir. Numeração original preservada.')
+        doc.add_paragraph('Cada item está associado à subseção indicada. Referências em outras partes do capítulo usam o mesmo ID.')
         if number == '4':
             doc.add_paragraph('A Tabela 16 é um único item com quatro partes de continuação.')
         items = [dict(r,kind='T') for r in policy['word_tables']] + [dict(r,kind='Q') for r in policy['frames']]

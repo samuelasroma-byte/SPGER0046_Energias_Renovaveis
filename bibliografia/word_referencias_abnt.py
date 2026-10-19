@@ -89,5 +89,5 @@ def write(survey):
         if legacy:p.add_run(' Código nos resultados: '+', '.join(legacy)+'.')
     doc.core_properties.author='Equipe SPGER0046 UFPB'
     doc.core_properties.title='Referências para a fundamentação do capítulo fotovoltaico'
-    doc.core_properties.subject='Referências por subseção com apresentação ABNT e recuo francês solicitado'
+    doc.core_properties.subject='Referências por subseção com apresentação ABNT e recuo francês'
     return abnt.save_document(doc,survey.out/'Referencias_por_Subsecao.docx')

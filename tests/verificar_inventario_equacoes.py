@@ -128,6 +128,10 @@ protected=['src/projeto_fv.py','src/refinamento_fv.py','config','data',
            'outputs/tabelas/csv','outputs/series','outputs/avaliacao',
            'notebooks/originais_executados','bibliografia/outputs']
 changes=subprocess.check_output(['git','-C',str(ROOT),'diff',data['source_commit'],'--name-only','--',*protected],text=True).splitlines()
+import sys
+sys.path.insert(0,str(ROOT/'scripts'))
+from integridade_documental import unregistered_changes
+changes=unregistered_changes(changes)
 assert not changes,changes
 result=dict(status='passed',subsections=19,notebook_relation_occurrences=38,
             unique_notebook_relations=37,code_support_relations=24,total_relations=61,

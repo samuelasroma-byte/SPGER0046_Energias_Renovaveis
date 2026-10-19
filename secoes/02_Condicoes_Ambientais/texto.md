@@ -1,6 +1,6 @@
 # Roteiro da seção 2
 
-Responsáveis: Vannessa e Thais. Texto a desenvolver pela equipe no documento oficial escolhido.
+Responsáveis: Vannessa e Thais. Redação da seção neste arquivo, com revisão pela equipe.
 
 ## 2.1 Condições térmicas
 

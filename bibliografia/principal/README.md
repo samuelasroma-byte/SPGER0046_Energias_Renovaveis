@@ -2,9 +2,9 @@
 
 As 39 obras abaixo constituem a fundamentação prioritária das 19 subseções. Foram selecionadas entre 829 obras únicas, com 295 associações temáticas e 102 associações prioritárias registradas no levantamento. A seleção bibliográfica e a disponibilidade de PDF não equivalem a leitura integral ou revisão sistemática concluída.
 
-[Ler PDF revisado no Drive](https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk) · [Abrir Word revisado no Drive](https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Arquivos revisados e histórico](../atualizada/README.md) · [Correspondência B → A em CSV](Correspondencia_B_A.csv) · [BibTeX](../atualizada/referencias_fundamentacao.bib) · [RIS](../atualizada/referencias_fundamentacao.ris)
+[Ler PDF no Drive](https://drive.google.com/file/d/1wgmuafBxWy5Tbx21uknvP6DpiI3wt73E/view?usp=drivesdk) · [Abrir Word no Drive](https://docs.google.com/document/d/1IuPCrWo7aHTRlq7tNw5i8i7VROZQhxWY/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) · [Documentos e fontes](../atualizada/README.md) · [Correspondência B → A em CSV](Correspondencia_B_A.csv) · [BibTeX](../atualizada/referencias_fundamentacao.bib) · [RIS](../atualizada/referencias_fundamentacao.ris)
 
-**Origem dos dados:** B24 é o conjunto **PVDAQ/OEDI de Deline e colaboradores (2021)**, DOI [10.25984/1846021](https://doi.org/10.25984/1846021); B27 é a documentação de acesso. A revisão de 19/10/2026 completa a B24 e mantém os 39 códigos. O caso usa o sistema 2107, com observações entre abril e junho de 2024. URLs dos cinco arquivos, tamanhos e hashes constam em [fontes_pvdaq.json](../../data/raw/fontes_pvdaq.json).
+**Origem dos dados:** B24 é o conjunto **PVDAQ/OEDI de Deline e colaboradores (2021)**, DOI [10.25984/1846021](https://doi.org/10.25984/1846021); B27 é a documentação de acesso. O estudo usa o sistema 2107 entre abril e junho de 2024. Os cinco arquivos, suas URLs, tamanhos e hashes constam em [fontes_pvdaq.json](../../data/raw/fontes_pvdaq.json).
 
 ## Pendências de edição e de acesso
 
@@ -33,7 +33,7 @@ Acesso: [A068 — PDF](https://drive.google.com/file/d/1wZ672wUUn4pjxEQO_L4469NZ
 
 Subseções: [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A071 — PDF](https://drive.google.com/file/d/1haKsY0NO2A4YJwVo9L-TZLSYX-tkGsCZ/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A071 — PDF](https://drive.google.com/file/d/1haKsY0NO2A4YJwVo9L-TZLSYX-tkGsCZ/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B03
 
@@ -41,7 +41,7 @@ Acesso: [A071 — PDF](https://drive.google.com/file/d/1haKsY0NO2A4YJwVo9L-TZLSY
 
 Subseções: [2.2](../../secoes/02_Condicoes_Ambientais/subsecoes/2_2/README.md).
 
-Acesso: [A072 — PDF](https://drive.google.com/file/d/1NkS35bxY9Yolo1t7sIg9dYe3CXvtTieM/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A072 — PDF](https://drive.google.com/file/d/1NkS35bxY9Yolo1t7sIg9dYe3CXvtTieM/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B04
 
@@ -49,7 +49,7 @@ Acesso: [A072 — PDF](https://drive.google.com/file/d/1NkS35bxY9Yolo1t7sIg9dYe3
 
 Subseções: [2.3](../../secoes/02_Condicoes_Ambientais/subsecoes/2_3/README.md), [3.4](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md).
 
-Acesso: [A073 — PDF](https://drive.google.com/file/d/1naylazsLo6-XnxIAo2WGf7BB22ATIava/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A073 — PDF](https://drive.google.com/file/d/1naylazsLo6-XnxIAo2WGf7BB22ATIava/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B05
 
@@ -57,7 +57,7 @@ Acesso: [A073 — PDF](https://drive.google.com/file/d/1naylazsLo6-XnxIAo2WGf7BB
 
 Subseções: [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A074 — PDF](https://drive.google.com/file/d/19_7zGwhQGzAqGoasrKZx4YHQ9tTYIlP3/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A074 — PDF](https://drive.google.com/file/d/19_7zGwhQGzAqGoasrKZx4YHQ9tTYIlP3/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B06
 
@@ -73,7 +73,7 @@ Acesso: [A086 — PDF](https://drive.google.com/file/d/1jB5u6-hVizTlQj0xKA0PKYAP
 
 Subseções: [4.4](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_4/README.md).
 
-Acesso: [A075 — PDF](https://drive.google.com/file/d/1sa701Mfu5c9f0dEdcvRChFAhaUbMA0YC/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A075 — PDF](https://drive.google.com/file/d/1sa701Mfu5c9f0dEdcvRChFAhaUbMA0YC/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B08
 
@@ -81,7 +81,7 @@ Acesso: [A075 — PDF](https://drive.google.com/file/d/1sa701Mfu5c9f0dEdcvRChFAh
 
 Subseções: [3.3](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_3/README.md), [3.4](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md), [4.1](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md).
 
-Acesso: [A076 — PDF](https://drive.google.com/file/d/14zVR8JRkL9ixP6pmdyhsCWg58ymL3M6v/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A076 — PDF](https://drive.google.com/file/d/14zVR8JRkL9ixP6pmdyhsCWg58ymL3M6v/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B09
 
@@ -105,7 +105,7 @@ Acesso: [A067 — PDF](https://drive.google.com/file/d/1ATm6277jw9kBI7Tl6FOruDMQ
 
 Subseções: [1.2](../../secoes/01_Recurso_Solar/subsecoes/1_2/README.md), [2.2](../../secoes/02_Condicoes_Ambientais/subsecoes/2_2/README.md), [3.1](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_1/README.md), [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A089 — PDF](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk). PDF completo recebido e conferido em 18/10/2026: versão final da editora, 12 páginas, licença CC BY 4.0. Disponível como A089 nas quatro seções; original preservado.
+Acesso: [A089 — PDF](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk). A089: versão final da editora, 12 páginas, licença CC BY 4.0. Disponível nas quatro seções.
 
 ## B12
 
@@ -137,7 +137,7 @@ Acesso: [A018 — PDF](https://drive.google.com/file/d/1FBMDvA4xpAW7-8zq2Tre5AGU
 
 Subseções: [2.4](../../secoes/02_Condicoes_Ambientais/subsecoes/2_4/README.md).
 
-Acesso: [A077 — PDF](https://drive.google.com/file/d/1zCaoOVTMtTmiJd0klVpiMZVWaqIaBdJl/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A077 — PDF](https://drive.google.com/file/d/1zCaoOVTMtTmiJd0klVpiMZVWaqIaBdJl/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B16
 
@@ -145,7 +145,7 @@ Acesso: [A077 — PDF](https://drive.google.com/file/d/1zCaoOVTMtTmiJd0klVpiMZVW
 
 Subseções: [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A078 — PDF](https://drive.google.com/file/d/1RCCSrKPfRIHu4k2PqKeiEe9AtkJPY0gK/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A078 — PDF](https://drive.google.com/file/d/1RCCSrKPfRIHu4k2PqKeiEe9AtkJPY0gK/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B17
 
@@ -153,7 +153,7 @@ Acesso: [A078 — PDF](https://drive.google.com/file/d/1RCCSrKPfRIHu4k2PqKeiEe9A
 
 Subseções: [4.1](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md).
 
-Acesso: [A079 — PDF](https://drive.google.com/file/d/1l516rsEeUdlDEVSNYoThD0_WJeQbd22_/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A079 — PDF](https://drive.google.com/file/d/1l516rsEeUdlDEVSNYoThD0_WJeQbd22_/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B18
 
@@ -161,7 +161,7 @@ Acesso: [A079 — PDF](https://drive.google.com/file/d/1l516rsEeUdlDEVSNYoThD0_W
 
 Subseções: [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A080 — PDF](https://drive.google.com/file/d/1F6au87oPtnyrllsdkI676tiGFqmNTvL3/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A080 — PDF](https://drive.google.com/file/d/1F6au87oPtnyrllsdkI676tiGFqmNTvL3/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B19
 
@@ -177,7 +177,7 @@ Acesso: PDF não localizado. A 2ª edição de Kalogirou (2014) continua pendent
 
 Subseções: [1.2](../../secoes/01_Recurso_Solar/subsecoes/1_2/README.md), [2.1](../../secoes/02_Condicoes_Ambientais/subsecoes/2_1/README.md), [2.3](../../secoes/02_Condicoes_Ambientais/subsecoes/2_3/README.md), [3.2](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_2/README.md), [3.3](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_3/README.md), [3.4](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md), [3.5](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_5/README.md), [3.6](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_6/README.md), [4.1](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md), [4.2](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_2/README.md), [4.3](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_3/README.md), [4.5](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md).
 
-Acesso: [A034 — outra edição](https://drive.google.com/file/d/1gHLYXkymfLiRuyNfYDDRuJ0KsKJByVdh/view?usp=drivesdk). A 2ª edição de 2011 continua pendente; a consulta específica à Wiley exige continuação manual. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.
+Acesso: [A034 — outra edição](https://drive.google.com/file/d/1gHLYXkymfLiRuyNfYDDRuJ0KsKJByVdh/view?usp=drivesdk). A 2ª edição de 2011 está pendente; a disponibilidade depende de consulta à Wiley. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.
 
 ## B21
 
@@ -185,7 +185,7 @@ Acesso: [A034 — outra edição](https://drive.google.com/file/d/1gHLYXkymfLiRu
 
 Subseções: [2.3](../../secoes/02_Condicoes_Ambientais/subsecoes/2_3/README.md), [4.1](../../secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md).
 
-Acesso: [A081 — PDF](https://drive.google.com/file/d/1DDy6MPhAxwJqT25dWSO_LaSSCIM9Hbrc/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A081 — PDF](https://drive.google.com/file/d/1DDy6MPhAxwJqT25dWSO_LaSSCIM9Hbrc/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B22
 
@@ -201,7 +201,7 @@ Acesso: [A066 — PDF](https://drive.google.com/file/d/1MPTgWBkbLYYRfkAIcvqC7_Jw
 
 Subseções: [1.1](../../secoes/01_Recurso_Solar/subsecoes/1_1/README.md).
 
-Acesso: [A082 — PDF](https://drive.google.com/file/d/1L8p-uBexCRZ1N9b-JCVqyiaygdKQH7Ot/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A082 — PDF](https://drive.google.com/file/d/1L8p-uBexCRZ1N9b-JCVqyiaygdKQH7Ot/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B24
 
@@ -217,7 +217,7 @@ Acesso: Fonte online / sem PDF catalogado. Dados originais já no projeto; consu
 
 Subseções: [2.2](../../secoes/02_Condicoes_Ambientais/subsecoes/2_2/README.md), [3.1](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_1/README.md).
 
-Acesso: [A083 — PDF](https://drive.google.com/file/d/1xd-WUiyIaAO8bse1xZNRd8zi7z48McF_/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A083 — PDF](https://drive.google.com/file/d/1xd-WUiyIaAO8bse1xZNRd8zi7z48McF_/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B26
 
@@ -265,7 +265,7 @@ Acesso: Fonte online / sem PDF catalogado. Consultar a documentação online; PD
 
 Subseções: [1.1](../../secoes/01_Recurso_Solar/subsecoes/1_1/README.md).
 
-Acesso: [A084 — PDF](https://drive.google.com/file/d/1Al8R_ZriNBDixLTfsBcDVRxxAm38sPto/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A084 — PDF](https://drive.google.com/file/d/1Al8R_ZriNBDixLTfsBcDVRxxAm38sPto/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B32
 
@@ -321,7 +321,7 @@ Acesso: [A024 — PDF](https://drive.google.com/file/d/1F1kNAs41Buzt_p_R7WcxxQ_2
 
 Subseções: [3.3](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_3/README.md), [3.4](../../secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md).
 
-Acesso: [A085 — PDF](https://drive.google.com/file/d/1Ct3ezT5aQQ0gVbWTB2zBDGn2VEg0hZ4b/view?usp=drivesdk). Consultar a cópia na seção; PDF recebido e conferido em 18/10/2026
+Acesso: [A085 — PDF](https://drive.google.com/file/d/1Ct3ezT5aQQ0gVbWTB2zBDGn2VEg0hZ4b/view?usp=drivesdk). PDF disponível no índice da seção
 
 ## B39
 

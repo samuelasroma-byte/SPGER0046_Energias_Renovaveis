@@ -1,6 +1,6 @@
 # Roteiro da seção 1
 
-Responsáveis: Samuel. Texto a desenvolver pela equipe no documento oficial escolhido.
+Responsáveis: Samuel. Redação da seção neste arquivo, com revisão pela equipe.
 
 ## 1.1 Geometria solar e irradiância extraterrestre
 

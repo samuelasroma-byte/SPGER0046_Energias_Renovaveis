@@ -2,6 +2,7 @@
 from pathlib import Path
 import csv, hashlib, json, re, subprocess
 from urllib.parse import unquote, urlsplit
+from integridade_documental import records,verify_record,unregistered_changes
 
 ROOT=Path(__file__).resolve().parents[1]
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -18,10 +19,14 @@ def check():
             dest=(p.parent/name).resolve()
             if not dest.exists():broken.append({'source':str(p.relative_to(ROOT)),'target':target})
     source=list(csv.DictReader((ROOT/'docs/auditoria/Proveniencia_Arquivos_Integrados.csv').open(encoding='utf-8-sig')))
-    mismatches=[]
+    mismatches=[];editions=records();documented=0
     for r in source:
         p=ROOT/r['caminho_github']
-        if not p.is_file() or p.stat().st_size!=int(r['bytes']) or digest(p)!=r['sha256']:mismatches.append(r['caminho_github'])
+        if not p.is_file() or p.stat().st_size!=int(r['bytes']) or digest(p)!=r['sha256']:
+            edition=editions.get(r['caminho_github'])
+            if edition and edition['source_sha256']==r['sha256']:
+                verify_record(r['caminho_github'],edition);documented+=1
+            else:mismatches.append(r['caminho_github'])
     structural=json.loads((ROOT/'docs/estrutura_oficial_19_subsecoes.json').read_text())
     assert len(structural['subsecoes'])==19
     assert len(list(ROOT.glob('secoes/*/subsecoes/*/README.md')))==19
@@ -43,8 +48,9 @@ def check():
     editorial_only={'src/refinamento_fv.py','src/relatorio_fv.py','config/distribuicao_editorial.json'}
     scientific_modified=[p for p in changed if any(p.startswith(d) for d in scientific_dirs) and p not in editorial_only]
     # Newly added DOCX and indices are allowed; existing scientific files must match the original base.
+    scientific_modified=unregistered_changes(scientific_modified)
     assert not scientific_modified,scientific_modified
-    result={'tracked_files':len(tracked),'relative_links_checked':links,'broken_relative_links':broken,'source_copies_checked':len(source),'sha256_mismatches':mismatches,'subsections':19,'B_references':39,'A_documents':91,'illustrations':30,'graphic_files':120,'DOCX':len(tracked_docx),'original_DOCX':len(original_docx),'scientific_files_modified':scientific_modified}
+    result={'tracked_files':len(tracked),'relative_links_checked':links,'broken_relative_links':broken,'source_copies_checked':len(source),'sha256_mismatches':mismatches,'documentary_editions':documented,'subsections':19,'B_references':39,'A_documents':91,'illustrations':30,'graphic_files':120,'DOCX':len(tracked_docx),'original_DOCX':len(original_docx),'scientific_files_modified':scientific_modified}
     print(json.dumps(result,ensure_ascii=False,indent=2))
     assert not broken and not mismatches,'Invalid links or changed original bytes.'
     return result

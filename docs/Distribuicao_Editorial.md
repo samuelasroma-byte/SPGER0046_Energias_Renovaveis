@@ -1,6 +1,6 @@
 # Distribuição editorial sem repetição
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 Usar os IDs estáveis na redação, por exemplo «Figura G04» ou «Tabela T10». A numeração sequencial final será aplicada na consolidação do capítulo. Um mesmo CSV pode alimentar cálculos diversos, mas sua inclusão editorial pertence apenas à subseção indicada.
 
@@ -106,6 +106,6 @@ Usar os IDs estáveis na redação, por exemplo «Figura G04» ou «Tabela T10»
 
 ## Fontes e preservação
 
-A atribuição segue a proposta oficial de quatro seções e 19 subseções, as células do notebook e a natureza de cada resultado. As 30 ilustrações conservam seus 120 arquivos originais. Os 24 CSVs conservam valores e bytes. Há 16 tabelas lógicas no Word original, distribuídas em 19 blocos porque a T16 continua em quatro partes, e seis quadros. Os documentos por seção preservam as tabelas editáveis e identificam seu único local de inserção.
+A atribuição segue a proposta oficial de quatro seções e 19 subseções, as células do notebook e a natureza de cada resultado. Há 30 ilustrações em 120 arquivos PNG/PDF e 24 CSVs de resultados tabulares. Há 16 tabelas lógicas no Word original, distribuídas em 19 blocos porque a T16 continua em quatro partes, e seis quadros. Os documentos por seção preservam as tabelas editáveis e identificam seu único local de inserção.
 
-Os notebooks executados e as coleções originais preservam o histórico. Suas pertinências múltiplas anteriores não autorizam inserir o mesmo item em duas seções. A referência atual para redação é [distribuicao_editorial.json](../config/distribuicao_editorial.json).
+Os índices e os documentos por seção seguem a distribuição definida em [distribuicao_editorial.json](../config/distribuicao_editorial.json).

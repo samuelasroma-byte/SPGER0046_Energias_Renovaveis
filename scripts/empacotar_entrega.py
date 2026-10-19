@@ -141,7 +141,7 @@ def package(repo, ref, output):
         json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     notes = (
         'Projeto completo no commit `' + commit + '`.\n\n'
-        'Inclui bibliografia revisada em Word e PDF, identificação da fonte PVDAQ/OEDI, '
+        'Inclui bibliografia em Word e PDF, identificação da fonte PVDAQ/OEDI, '
         'guia técnico, inventário geral e quatro quadros de equações em Word e PDF, '
         'notebooks, dados versionados, figuras, tabelas e índices das 19 subseções.\n\n'
         'O ZIP reúne ' + str(len(entries)) + ' arquivos versionados. '

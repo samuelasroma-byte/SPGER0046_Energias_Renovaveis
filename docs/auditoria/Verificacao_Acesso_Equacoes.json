@@ -12,31 +12,31 @@
       "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf",
       "pages": 23,
       "equations": 61,
-      "sha256": "ffe718b735de13d0a778655f57fdbb990990dcd3c4897ac31e883e7af28ca1f7"
+      "sha256": "1613d0aa7fe2954f762febbd72d5509c921b065bea20524037aaff1457b8268a"
     },
     {
       "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.pdf",
       "pages": 4,
       "equations": 6,
-      "sha256": "4cb3b28d78a6ecbc9f1914dc51f578643d555e17d8c8cd6ab17238add25a8ff5"
+      "sha256": "075edb208f5e548a9773757a500a7bc6ae3dcddf92365c7ea18439941d3300bb"
     },
     {
       "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.pdf",
       "pages": 4,
       "equations": 7,
-      "sha256": "79c542bb0d00bb66324f7b84ea21402a74077ef5ba19c51b5d00b7a3e59112ba"
+      "sha256": "cbe527b3c9a6a91264ba6d3f30798b3dce07a9fa4ac8ac9a6301af05902d94df"
     },
     {
       "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf",
       "pages": 8,
       "equations": 18,
-      "sha256": "51652f17b95fd6755071ba1b80ba8905affcba4a5791478a0ad232a83f94a6d9"
+      "sha256": "1a95594d453c934246a412b5325dbc5fcea762738d288bdfb9cd00d09fbca417"
     },
     {
       "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf",
       "pages": 12,
       "equations": 30,
-      "sha256": "44de60665099cb071cc4a8cb22e6c282710550a5083b71f7d31f63fe0649a6c3"
+      "sha256": "f648888e3449c60abb73cebebe9e2987b04d0c11bc8ae12479df8c229f8dec6b"
     }
   ]
 }

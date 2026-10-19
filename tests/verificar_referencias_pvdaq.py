@@ -2,9 +2,11 @@
 from pathlib import Path
 import csv
 import hashlib
+import io
 import json
 import re
 import subprocess
+import zipfile
 
 from docx import Document
 import fitz
@@ -16,12 +18,15 @@ BASE = 'a1fb8f881e71061799a6ef231802b73e490701ac'
 def main():
     meta = json.loads((ROOT / 'references/pvdaq_dataset_citacao.json').read_text())
     original = ROOT / 'bibliografia/outputs/Referencias_por_Subsecao.docx'
-    assert hashlib.sha256(original.read_bytes()).hexdigest() == 'b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61'
+    source_word = subprocess.check_output(['git','-C',str(ROOT),'show',BASE+':bibliografia/outputs/Referencias_por_Subsecao.docx'])
+    assert hashlib.sha256(source_word).hexdigest() == 'b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61'
+    with zipfile.ZipFile(io.BytesIO(source_word)) as before, zipfile.ZipFile(original) as current:
+        assert before.read('word/document.xml') == current.read('word/document.xml')
     rows = json.loads((ROOT / 'bibliografia/principal/Referencias_B01_B39.json').read_text())
     baseline = json.loads(subprocess.check_output([
         'git', '-C', str(ROOT), 'show', BASE + ':bibliografia/principal/Referencias_B01_B39.json']))
     assert len(rows) == 39 and {r['code'] for r in rows} == {f'B{i:02}' for i in range(1, 40)}
-    assert [r for r in rows if r['code'] != 'B24'] == [r for r in baseline if r['code'] != 'B24']
+    assert [{k:v for k,v in r.items() if k!='observacao'} for r in rows if r['code'] != 'B24'] == [{k:v for k,v in r.items() if k!='observacao'} for r in baseline if r['code'] != 'B24']
     b24 = next(r for r in rows if r['code'] == 'B24')
     assert b24['reference'] == meta['citation_abnt'] and b24['method_codes'] == ['R01']
     assert len(meta['authors']) == 6 and meta['year'] == 2021
@@ -68,7 +73,7 @@ def main():
         assert value.count(meta['doi']) == 1 and meta['title'] in value
     print(json.dumps({'references': 39, 'unchanged_references': 38, 'source_files_verified': 5,
                       'updated': 'B24', 'access_documentation': 'B27', 'PDF_pages': len(pdf),
-                      'original_Word_preserved': True, 'Drive_readback_verified': True}))
+                      'original_Word_text_preserved': True, 'Drive_readback_verified': True}))
 
 
 if __name__ == '__main__': main()

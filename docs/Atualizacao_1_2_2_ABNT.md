@@ -1,16 +1,16 @@
-# Atualização de apresentação 1.2.2
+# Apresentação dos documentos e referências
 
-Os sete documentos Word foram padronizados em Times New Roman 12 no texto nativo, títulos, legendas, fontes, notas, cabeçalhos e conteúdo das tabelas e quadros. Os documentos usam A4 e margens superior/esquerda de 3 cm e inferior/direita de 2 cm. O texto corrido usa entrelinhas de 1,5 e recuo inicial de 1,25 cm; notas, fontes, células e referências usam espaço simples. Os títulos de tabelas, quadros e figuras permanecem centralizados e em negrito.
+Os documentos Word usam Times New Roman 12 no texto, títulos, legendas, fontes, notas, cabeçalhos, tabelas e quadros. As equações nativas utilizam fonte matemática. O papel é A4, com margens superior/esquerda de 3 cm e inferior/direita de 2 cm. O texto corrido tem entrelinhas de 1,5 e recuo inicial de 1,25 cm; notas, fontes, células e referências usam espaço simples. Os títulos de tabelas, quadros e figuras são centralizados e em negrito.
 
-As tabelas numéricas preservam três traços horizontais grossos e dispensam linhas internas e verticais; os quadros preservam a grade completa. Tabelas longas têm identificação de continuação e cabeçalhos repetidos. As fontes e notas ficam junto ao respectivo bloco. Uma ilustração foi ligeiramente redimensionada no Word para que sua referência metodológica permanecesse na mesma página.
+As tabelas numéricas usam três linhas horizontais, sem linhas internas ou verticais; os quadros, grade completa. Tabelas longas apresentam continuação e cabeçalhos repetidos. Fontes e notas acompanham o respectivo bloco. A espessura das linhas é uma convenção gráfica do projeto.
 
-O guia bibliográfico passou a ter quatro quadros com os 19 tópicos do plano e os responsáveis, seguidos de 39 referências completas em ordem alfabética. Os códigos B01 a B39 são links internos; cada referência informa suas subseções de aplicação e, quando existe, o código R usado nos resultados. As referências usam espaço simples e separação de 12 pontos. O recuo francês de 1,25 cm é uma personalização solicitada pela equipe; não é apresentado como exigência da NBR 6023. A autoria, os destaques e os elementos bibliográficos foram reorganizados segundo o tipo de obra, com DOI e acesso quando disponíveis. Dados editoriais ausentes permanecem indicados, sem inventar local ou ano de publicação.
+O guia bibliográfico reúne quatro quadros com os 19 tópicos e seus responsáveis, seguidos de 39 referências em ordem alfabética. B01–B39 são códigos de referências cruzadas. Cada obra identifica as subseções de aplicação e, quando pertinente, o código metodológico R. As referências usam espaço simples, separação de 12 pontos e recuo francês de 1,25 cm. O recuo é uma convenção do projeto, não uma exigência geral da NBR 6023.
 
-A apresentação foi conferida com orientações institucionais que tratam da NBR 6023:2025 e da NBR 14724:2024:
+As referências identificam autoria, título, tipo de obra, edição, DOI e acesso, conforme a disponibilidade dos metadados. Campos editoriais ausentes são assinalados sem atribuir local ou ano não verificados.
 
-- UNICAMP: https://www3.eco.unicamp.br/biblioteca/images/arquivos/NBR60232025Referencias.pdf
-- USP: https://sddarquivos.webhostusp.sti.usp.br/arquivos/Guia_TCC_convencional_FOB-USP.html
+## Orientações consultadas
 
-Os geradores e as cópias incorporadas nos dois notebooks foram atualizados para preservar a apresentação nas próximas execuções. O levantamento reaproveitou as respostas bibliográficas já obtidas; não houve nova consulta a Scopus, Web of Science ou IEEE Xplore. Os parâmetros físicos, as 39 obras selecionadas, os dados observacionais e os arquivos gráficos avulsos foram preservados.
+- NBR 6023:2025: https://www3.eco.unicamp.br/biblioteca/images/arquivos/NBR60232025Referencias.pdf
+- Apresentação acadêmica e NBR 14724:2024: https://sddarquivos.webhostusp.sti.usp.br/arquivos/Guia_TCC_convencional_FOB-USP.html
 
-A conferência estrutural está em outputs/relatorios/Verificacao_Documentos_ABNT.json. A conferência visual de todas as páginas está em outputs/relatorios/Conferencia_Visual.json.
+Os geradores locais e os pacotes de apoio dos notebooks utilizam a mesma configuração de apresentação. A coleta bibliográfica registrada usa Crossref e OpenAlex; Scopus, Web of Science e IEEE Xplore dependem de credenciais. Os registros estruturais estão em outputs/relatorios/originais/Verificacao_Documentos_ABNT.json, e os de inspeção visual em outputs/relatorios/originais/Conferencia_Visual.json.

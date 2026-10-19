@@ -1,0 +1,695 @@
+{
+  "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+  "files": [
+    {
+      "path": "README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "d8a2c159ce64c0e17888aa3fbaaa1ba22667ed5090a04ceba609600220df43a6",
+      "sha256": "7d73ba4454c03124257750c726f87853f518e82d8cfe52bb599eec2bcc35fe9e"
+    },
+    {
+      "path": "bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "7fbebfa2a7fdfbe7c454d17c1f2b0153623cda5f820a15757d5d13eb1e35b698",
+      "sha256": "377d8b3fb0744c1e5484cbc9d75c0b172cb9ac20988cf7ec96b76ab5a66168b6"
+    },
+    {
+      "path": "bibliografia/LEIA_ME.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "0668e5ac5e10cf5d003cf8d9047f28719d42ab57cbd968f987281a7426c03fb8",
+      "sha256": "62c26896fa2a907b944ac74284d931737215d30369a0d7f2a40590de7e54754f"
+    },
+    {
+      "path": "bibliografia/atualizada/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "49ff2a6fd5318eff44b04fd642fa47f120edfcadaba43b4df9c2dd0ae8e0c750",
+      "sha256": "03dde348125a5427b18ebcaba40d31334ee0be31a030eda3a4a1109bec0f4ae3"
+    },
+    {
+      "path": "bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "ecfd9128ca36878eea8a77362642b99743abaf1af5a753c6e7c81a9d27ba4b2d",
+      "sha256": "0f63342d14898b404dc1cfd5a19e4e786707dd9686f6fc866d54643b7b9b5460"
+    },
+    {
+      "path": "bibliografia/atualizada/Referencias_por_Subsecao_Atualizadas.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "f792dac1e3ff074d6aed0eda4374554600d0084a83f8355abca3818843c41731",
+      "sha256": "beb1c328e679f8b3b44622224683c0b99652d78ee3f4330c0937fdd778bce8c3"
+    },
+    {
+      "path": "bibliografia/originais_executados/02_Fundamentacao_Teorica_por_Subsecao.ipynb",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a3c4fa61029a6e06f1d406dc46c7039748b3f8663bf1f144cf6765c6589ae5bc",
+      "sha256": "a5ef0f072733c55a4cf5a328bb00c6d2c23162687152a8362b00ce2377b27abe"
+    },
+    {
+      "path": "bibliografia/outputs/Referencias_por_Subsecao.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b4382b53d4e75b711fb95fe3ad3d8e8bfd801015e5c24841c33c8ed752c00b61",
+      "sha256": "dffc768f1125cc70aeff053b22d1867b08ccfe43af384094f70b71c6c8183252"
+    },
+    {
+      "path": "bibliografia/outputs/logs/estado_bases.csv",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "871e3902c2e065f84d7d44acc9bce7fcff826e065c96ae8769f0e12400560303",
+      "sha256": "2e7b180bed2e7954f8e815c4983eacf2b6719036b143c9cdf5e86f1858d40c3e"
+    },
+    {
+      "path": "bibliografia/outputs/resumo_levantamento.json",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a711ee97ee863ed73206320f1d0227cbf5aa71f4bd8e04a7720591570ab48c69",
+      "sha256": "521397549815b76fca135fc8b632ecaeffa537941f21b94b2b482539a52f02c0"
+    },
+    {
+      "path": "bibliografia/principal/Correspondencia_B_A.csv",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "72faff4f927dbe139218c4b415e11d9d0a3cf5a812a621f902ac838f47254e97",
+      "sha256": "c87665edd70302c7b1a7d3abe3e0d9f13663c2a1bd2db03e2add67836e510423"
+    },
+    {
+      "path": "bibliografia/principal/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "dd236398f46c777713f2426814cb9a10ca285f951d401eb910e03a87593b77a4",
+      "sha256": "feb4b6143a5370f985d983c6ae4e23c5dafa08c37503d903da098da1556afc65"
+    },
+    {
+      "path": "bibliografia/principal/Referencias_B01_B39.json",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "0f2c558c2070f2aa44285207d98fe11df520597195246a3d8ee6db6049fd984a",
+      "sha256": "39e4fb3b5eaa2c320c13bf14426c08666dbdb6e6ef7df325017507d95dc2b5f7"
+    },
+    {
+      "path": "docs/ACESSO_E_COLABORACAO.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "631952c1f8d7b9590a94a8a0e21cf92a92317fb6416fc8af5d640a17b0dea432",
+      "sha256": "f251c68049c7304886d7b6a4ef2581bf58c2782ce1454f1776b45d3a0d3541f0"
+    },
+    {
+      "path": "docs/ARQUITETURA_TECNICA.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "470ee8d739ddc3c06ff32c35ec0bbb3cced1478a0bdd6b6251f29180ef42db88",
+      "sha256": "768aafd1ba446d0f9539a40cc10628e7e3442b13b7934912a77bb7d8b5e52df8"
+    },
+    {
+      "path": "docs/AUDITORIA_FINAL_PUBLICACAO.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "628e2fe7955b19f7d9afac0a48893ec48ef3aca45ab899167d29fa87d8f99021",
+      "sha256": "8b905d08e1ea3c916a91fc3c7a87cbc846987ffa92f45c9cf09c78109a8987f9"
+    },
+    {
+      "path": "docs/Atualizacao_1_2_1.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "9a70bf72546b1c384e33f3e5eb592ab4e3d8452ddfa5d8258e01dd2f13774336",
+      "sha256": "ba58605e0e795d115ce954db49153cdff7f05772814eb5f7b505d6d3e109ffe5"
+    },
+    {
+      "path": "docs/Atualizacao_1_2_2_ABNT.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a285a8b07e4698093625144d933c5e82d232e18b0e71fb86f0d65be78756ee72",
+      "sha256": "e6fe4516f23b8a83eb11a2e3ceeeba919ce7dc05cf34980627bb963242ab61aa"
+    },
+    {
+      "path": "docs/Distribuicao_Editorial.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "7860852c7fc0f4417477cc2c68c56da1b0fad5bf66caa8a0b77c48d11734e120",
+      "sha256": "594f1a88ec24826db5f688030d3e29dcddcdde9130871a69af51f9f3939c83a7"
+    },
+    {
+      "path": "docs/ENTREGA_ZIP.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "c1650d8d0a0bcfdbdf91047978c9e1166013e4f5f867b08351580aacad24361a",
+      "sha256": "ed26ceb8755c7b57fb6ac4a5342ffe2da2281174abb73b2a62e86615e4a09393"
+    },
+    {
+      "path": "docs/Metodos_e_Fontes_Conferidos.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "445141835b273674e2aa3340563a1beff32be0e3b3a74283602c67e49af6346e",
+      "sha256": "016fe9623c237abd0f88d4a5d1df7c3180a5c540fe3fa8a41a9c342de7dbf128"
+    },
+    {
+      "path": "docs/Plano_Equipe_SPGER0046.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "934ef0d2afe1edd59e1b263b4c5fca005c2bae757db7dc14935e5e12cab6b146",
+      "sha256": "ec08d932f24131c3efefbc2675ff38a10d0db26df98ba2ca355e45bea8ddadf3"
+    },
+    {
+      "path": "docs/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "76771113a12f425a9383bddc6815c861bc3a4cc3752e7ac236f7f7e8c255dba3",
+      "sha256": "1c3a3f670e1191b6c6db4fbb54554451db009d0415b5159a38a7e3bb77104e69"
+    },
+    {
+      "path": "docs/REPRODUTIBILIDADE.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "f3e2cf2f65172e2ec868ce110fa2b8a7cade9e789466a470512eb7ecc7fbeff9",
+      "sha256": "552ce9e3ddb4eac529b988e20335510ccd7722f0d9e27f423a0e0c64f75f8314"
+    },
+    {
+      "path": "docs/Registro_de_Decisoes.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a7d7bfb82806d10f5d6cb28994d4e7bec3983f12f6104665c224598d2f776d16",
+      "sha256": "c7901526f2033178b44774f9adc5ee2125edc3ca009b649ac724a5e5cffaaded"
+    },
+    {
+      "path": "docs/Registro_de_Decisoes_v1_2.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "12fcf2fd6a10098e37a97e460f84921ccb44c006b5ecfe796d504eeb930273d5",
+      "sha256": "cb898daddfde2d9449eb481f3d7ba22d27ffd7741c86992fd558524672f724e1"
+    },
+    {
+      "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
+      "sha256": "538b102901db19e00adf1c9ff2f99a96c4178585e4e746eae371d661f1c8dc8d"
+    },
+    {
+      "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "ffe718b735de13d0a778655f57fdbb990990dcd3c4897ac31e883e7af28ca1f7",
+      "sha256": "1613d0aa7fe2954f762febbd72d5509c921b065bea20524037aaff1457b8268a"
+    },
+    {
+      "path": "docs/equacoes/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "784feb213f7b147cbef0067c3bedf1480e24371f4a8fc1649b40293f597cd34a",
+      "sha256": "675f4bf111384183e8b4ab18b0ee48fe10acb1601af1e4f81e788f930a71d697"
+    },
+    {
+      "path": "docs/planejamento/Plano_Equipe_SPGER0046.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "87d647f7d4b7801566154e8982b0bb810de9380dfd31611b9c87474196b6b57d",
+      "sha256": "cd64867ee6ff93173c7b9f8aeea41d0d0edcd6d65fe29de2f356e734cc5eeaf9"
+    },
+    {
+      "path": "docs/planejamento/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "989a33ec9a3c3a0e8001effc60ceb7d9ab9d631c1006d82cbc7ca254b0327898",
+      "sha256": "56ed10b56314eca4283c5cddc67f848ceee0e50667ba79a4a7ec06e9e35ff405"
+    },
+    {
+      "path": "figuras/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b3b64efd0a8527f1a0c526f8c2fe6c05a72f52da55916b25c4ee12f8000c959c",
+      "sha256": "7361dbe9d5f622a25e2c370a7cc15fcfeb35f75bccfa12bcc4fc21cc33a90533"
+    },
+    {
+      "path": "figuras/selecionadas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "0797cb91c13aca5c6b55b7e8fd5e8cb3c43be6121a730b0c8d0a8886f89fc014",
+      "sha256": "352c586439947327c2b07965f05139d55963683a01065c783638b5712c41e723"
+    },
+    {
+      "path": "methods/Metodos_e_Fontes.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "445141835b273674e2aa3340563a1beff32be0e3b3a74283602c67e49af6346e",
+      "sha256": "016fe9623c237abd0f88d4a5d1df7c3180a5c540fe3fa8a41a9c342de7dbf128"
+    },
+    {
+      "path": "notebooks/01_Projeto_FV_Quatro_Secoes.ipynb",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "2fe261fcd9a685107b91141d8a66d5c012bbb49de4c6e70912e5cbadbf70d9bd",
+      "sha256": "ecb3910ffc5ebcaad00b65c99935a5271e22cd113b88a0e3a8be6e513642a9e7"
+    },
+    {
+      "path": "notebooks/originais_executados/01_Projeto_FV_Quatro_Secoes.ipynb",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "bd312fcca2583fc6ab0f9586c44cb99c9131e675a27bf6cea7f47547c7c5a8c1",
+      "sha256": "511f7e915eeca1021b23da576976948f0a08dc80bd609555b6d2aec813fa46f7"
+    },
+    {
+      "path": "outputs/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "46b02265dfeb9e30b3bd6ea6427f76b4ff7a49bef81ca2994752f1258b3a2d5c",
+      "sha256": "34088d7bb5c3acefcd21101b58c211f348ddf48b2e0feb324dc309f1f08006e6"
+    },
+    {
+      "path": "outputs/relatorios/originais/Metodos_e_Fontes.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "445141835b273674e2aa3340563a1beff32be0e3b3a74283602c67e49af6346e",
+      "sha256": "016fe9623c237abd0f88d4a5d1df7c3180a5c540fe3fa8a41a9c342de7dbf128"
+    },
+    {
+      "path": "outputs/relatorios/originais/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b5854e4ba06312c48347ce11ce712aa94ea8ecabc42fb7b9a24e0e0546609170",
+      "sha256": "8b67743d7ee102c74b89d763611b885de2d166386b497bb8cb9851d54d884178"
+    },
+    {
+      "path": "outputs/relatorios/originais/Registro_de_Decisoes_v1_2.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "12fcf2fd6a10098e37a97e460f84921ccb44c006b5ecfe796d504eeb930273d5",
+      "sha256": "cb898daddfde2d9449eb481f3d7ba22d27ffd7741c86992fd558524672f724e1"
+    },
+    {
+      "path": "outputs/tabelas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "7d0fdfd2dcd0d50a6e1df6040b331da1be1979d99732770241eee5cc8cafc2b4",
+      "sha256": "868b61a3e0e03adcea3ad9665b8e0de0112f95d3d5d57b8bac76c237de3037fd"
+    },
+    {
+      "path": "references/Alternativas_e_Acesso.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "39580efc6fbd99c4c3cfcace7bac34a71d3981ed9074eb102fe21a170067ef19",
+      "sha256": "b402626a15310ea6853c5af62d34996bbe9980eb5a69f7810597129078dce160"
+    },
+    {
+      "path": "references/Correcoes_e_Duplicatas.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "9cead488b2e04967d7a26fd84a5074f2dba49f8c1a2de6ae51f8d706f94190c3",
+      "sha256": "9de084b6b99f40aa8692c52c2bd63e566a83031a7c11268eef1874de710609b3"
+    },
+    {
+      "path": "references/Manifesto_Acervo_SPGER0046.json",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "024f25c00daff64188373273316eb5423181aa873ee4d2ec1de47ffb2fdc76d3",
+      "sha256": "9fc631fea480cff08a560d1e46393637dfb5414377fb435d269e07c3df9a7236"
+    },
+    {
+      "path": "references/Referencias_Pendentes_ABNT.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "fecb2f7060009eb33b6e0c3a4aee900cc2c7ca853b9edac4e662e391d2314ab9",
+      "sha256": "0c2a3659397232d5c9abdc137945712c276148efe5d7380a92d9e2f37fda85e6"
+    },
+    {
+      "path": "references/Referencias_do_Projeto.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "5fbea30116a648809701d41b04c0f8a48ee47b2220902503019ec23e1d554192",
+      "sha256": "ff7561e5bc4a8172610797eede6f31708922f8050c8ff2b8a2d4996daa0a204d"
+    },
+    {
+      "path": "references/acervo_disponivel.csv",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "bf62ffa89380c37e662d7ee5822f61ea837332b239cb6457af9c74b3505f6571",
+      "sha256": "50a8777cd993845e36f899f35ef8be631e05cdd0314b597665e496ae90882815"
+    },
+    {
+      "path": "references/referencias_sugeridas_e_disponibilidade.csv",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "85babd9b365ca7b7584159f4056bdae69c635948a721ed8c4f0b1a3ef85bbada",
+      "sha256": "860c377a04d618b04ef4c05d9423ca007c97e921eb1534a40d01e50a09f063c7"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "9e5939fb55cead3fe5455a990177b97915c7bf09616402e25497056a6c4bbe98",
+      "sha256": "0e132b4db3041ea5c9f0f796fe873f2b4f995fa170373e7f64d4dd6e7ca94833"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
+      "sha256": "61fa497aea8f16d8177133c1b8d8dec10635f70cbdce6fcc318e78021285ebb3"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "4cb3b28d78a6ecbc9f1914dc51f578643d555e17d8c8cd6ab17238add25a8ff5",
+      "sha256": "075edb208f5e548a9773757a500a7bc6ae3dcddf92365c7ea18439941d3300bb"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/equacoes/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "23b5e7c7ac00f19a4decdaae3e74154a318bb8af6cb0082c567a068d413e425d",
+      "sha256": "2695fce4105c9ae01d99f9c4ac3a0871563cc119cbc9a25f5eba3d2514dabd81"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/figuras/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b3e2f57ec4ac3c72af54c8efb0615a5f3c52813de6eec1e96f0b504d3c51d587",
+      "sha256": "44eb9359b17d29fd2e20c62aea9205356e6c53e1d9790d232956e90bb2ded43c"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/graficos/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "958275048bdddfaf4f1ed81f54c9881bc88d2b0b49ec63863bda0b8beaec9093",
+      "sha256": "b1d2187b098f1dd958d6c3af509f8e3abbd1e050841b97e1a29c15603e361785"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/quadros/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "671cecbdf52d1d2f67ea7667c9623afaf4afd5a8411c28cb236d7d2ee66fb524",
+      "sha256": "20d94ca7d6324514f37b12f1d98285cb8da92dd64ba832ae0fb661944ea65f19"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/referencias/LEIA_ME.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "53c8bbc26685ab66911a07aabb764260f8a99aab8f6648d98c0710551a6c9169",
+      "sha256": "55b8b235d78e6265e98efe9bff2f33b81ca4aad3e270a1b1081fa8255e907cfc"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/referencias/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "6c2d91a521d72083c16402cb18b7954139707c83575abe39e8041dfdd9690ad8",
+      "sha256": "3371969841d912a730e88659cdf1033af5071d5bfb26c993d91a6c6b5226a81a"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/subsecoes/1_1/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "c6d5501ac67d0901329d635046839745e6526f36b90bb02e066318f2e90ea0d2",
+      "sha256": "b491babfc848ef1c4cdf568a5d5af549f76fea449dc5b22efd34163c19262c79"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/subsecoes/1_2/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "0c0e8f8afe341f555381a70fc081ed458abee130b621af2b7b1d11a17bbb41f6",
+      "sha256": "d8f8b2dc71f91b7e4bd2b5f16276cbed5391669f00c4265518f0d9ff6a955c2a"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/subsecoes/1_3/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "35a6e539850bf870ba15101bb3c18a6e53a71527e403c67fcde581a8278f4631",
+      "sha256": "095f9f369c5ca233c70c09d807a49520a51ec87d4bc4536302032693f6b856a0"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/subsecoes/1_4/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "ee9a461b201944b18aa7dd582a88371606f58904bb743f54ae888251ac110748",
+      "sha256": "8b9aaca0cf5d7a49ec5be3124452a417bd04761ed09b74d552c037ba214a6cd2"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/tabelas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "1867e97046f39a7fb7a3b07f003c392716472210e3692e9e12f1ee658acc9ace",
+      "sha256": "efb111005687a3b6e51bb694fedc9ab38a07b44514617103c61b76e21e469920"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/tabelas/docx/Materiais_Tabulares_Secao_01.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "862bb3b707dd769e8b5a377f90300cd9ec3fe11a5345181b0da3a0a56c88ef3e",
+      "sha256": "2e344cf8af8d3ee9ef2144b4c9a300671b1f8220f2884bf133e39041a219703c"
+    },
+    {
+      "path": "secoes/01_Recurso_Solar/texto.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "3755be77ff6a538cbf95935a0c4f82d14a520b4686290100a6fa06b332f69a0a",
+      "sha256": "c4196321843c5176fc7d17e0a3b15e7a18f51edb231043640cffebf5be03fad6"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "2c44e2ebb5a371ac4b242445af8d0e542572cfb3f9a56d4aaf6c32efe166f13c",
+      "sha256": "b4d179e809f6217bbfdba87607bd90c69dda36933cf3d5aacc892cec0d17220b"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
+      "sha256": "aea46f73156977b51d262351eda26fe249f81771ddf6d0acdd760096eeb5f8a7"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "79c542bb0d00bb66324f7b84ea21402a74077ef5ba19c51b5d00b7a3e59112ba",
+      "sha256": "cbe527b3c9a6a91264ba6d3f30798b3dce07a9fa4ac8ac9a6301af05902d94df"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/equacoes/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "740dd5c2e61ae6bd8a9bb1e5b78f0dcc648da0ca28a0ffc4a6ed15b28871a7f5",
+      "sha256": "5a9b07287eddac233fb25ef299f05c4b5095919253b0c7a0a795d4b6b4167490"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/figuras/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "15d3453d32a9dcdc02e357a1378f1c2964c71da6778480d9f6e734fa5dad1081",
+      "sha256": "34e5fe981df22779d1b1ae5c6486d84321060a4cb3fe1e69b4c8e04f0d9f75f1"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/graficos/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "5b8b1b994fe13b78f1530c976e0873380e147bcd0b774ed72c93bb6938a36036",
+      "sha256": "63b30eaee047c693b900d497fd2251331fb4ed2059109a10890927b7c37e38f3"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/quadros/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "3ec424fcf52dd372cd0a808d30f453e2f463ccd7cabe08e884867a38e982afef",
+      "sha256": "b49c9c514001c301564bbaa0962632390ed7a807bfeb53ecaf54ba6c0952922b"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/referencias/LEIA_ME.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "df5ef5ebd2577ec557c2e683ed4defb0dd9d9b735e3898342a4a83aa0f96ca6c",
+      "sha256": "ce06f2273393116babdc558f901b9b260765fd6ec69fc108949e220eae6ed2de"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/referencias/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "f889fe3e426ab44a06da18b734d3ba98e648e9b09d808a5d7f3231a6f78bdbe7",
+      "sha256": "c17aeea600c0466b4d226bbfd22751fb321e77ac479462ded82f4460ad0781ad"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/subsecoes/2_1/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "d31f526f7112923a59a885dd91e849bb21bfb63462cc3aceb480041fd762629e",
+      "sha256": "8be7798a2d6c96689c6ece43e9fe863a9d9bf8f54140e25fb6ed03652598639e"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/subsecoes/2_2/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "95ac0ce2a5e4184bdb747e22f66007f48caa0b33ca63e453672e96b99c81be6e",
+      "sha256": "d2f9bd40411df1c94f70ced66277cc0dc2f8a2a6055180b0b3b0fe1c67df6976"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/subsecoes/2_3/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "645c83d4f23a8d5eb570fb91d6a946ad29a67e4b5835eea35ed44bde00626873",
+      "sha256": "bd3c889a21401d181e9b66e2be4c5c7fd750441fb544ce7261a464a02415c684"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/subsecoes/2_4/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "bc1788e8920ea5e410c09f201773dd09054c2b92848d7c25100ac4f2855e23d6",
+      "sha256": "55dda9e251819a5b89e54add8bc1ac2195d84e95bf2b6ed866221705a191c2c9"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/tabelas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "17bd4d1146a95b9fd73bb173f70b941c1ff0e8185eb925372310a05cb020e492",
+      "sha256": "e0e2e7a1ce10741aaa2f1b704057a6ca4a2026659c462c184d16b1ee40d5e4c2"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/tabelas/docx/Materiais_Tabulares_Secao_02.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "768962e9a18ccaae1e13be8530c81e47db6e9638f31d1fb58cd3cfc8f1ac49d3",
+      "sha256": "4d6a60396dec4182d68afa8d111e3ffdbd4e18857050b3228dee429fdd116099"
+    },
+    {
+      "path": "secoes/02_Condicoes_Ambientais/texto.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "fea65c09ac3569e55bce3ddf7e5769563c54481f68fbf87fd7686cb4c345bd5c",
+      "sha256": "7bdc507534beb14423872e6a760b5f546aa4da2a2b7c741fac1569eb215bcf86"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "0bb1d2b55c0cd14c06237e9e9ffb4041871df08ff15611c3918321747aeb226d",
+      "sha256": "ac78276e4720523e69533fe5f2fc9a1e0dca57b98604f555ff0eef991d057fed"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
+      "sha256": "88317fbc66a8bbbd2abff9ebd1289359755fcf6736f96be879a6be193435de63"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "51652f17b95fd6755071ba1b80ba8905affcba4a5791478a0ad232a83f94a6d9",
+      "sha256": "1a95594d453c934246a412b5325dbc5fcea762738d288bdfb9cd00d09fbca417"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b505aa12613f0f58f7db3617545b130f8da4f3744927fcadf78d0b5163d64f3a",
+      "sha256": "e3aacb58f773c39d56ab6a26487f0bc22b723c830b70093193374c6415889a22"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/figuras/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "58008d5f66b740144c94457de67441080a3f38047d0634576cf427a717cfc9a1",
+      "sha256": "e9cca571631e66c3f29233433bde2f74e7e15456f874cf4ffc596218125bd1b6"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/graficos/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "b85250b8858ec205a14ef5fdd33a4b3c841ba8d9b7148cd10d8af467e3d379fb",
+      "sha256": "cd2c945fe6a0e784edb19fd765b808066642c88e0312295742f78452fd02754c"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/quadros/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "d110250094f68f1422e5ce2df276a374ecb8cdb2e89ba574d1a0b254e0503ff6",
+      "sha256": "dfa334525a965d69a9efa0639af6687e4a72aebe52b466bab6fa6ab995154dc5"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/referencias/LEIA_ME.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "df878854c73a85789ba12145fa44277dedccb518a8eaa57f806210cc3866f34a",
+      "sha256": "02315b078f0c0f136efecc98ba3f88d917ffe04de2f0f7d6c0764eab6b5c7756"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/referencias/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "15b74942361dc916dfe2712cb488339e6a06d03d2edfbca25febc47fd3481928",
+      "sha256": "931a8efa7e0d52afd367912237ca035701e0604e82fd389d997903fba501d37f"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_1/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "e30daa0f26e6cefa0f10d08f6b25764fc26e308fefbea776901958a81258689c",
+      "sha256": "cb9bf531944695dbea0f02bf2d5e54de98712a528fdc3e5b58131e03f585520e"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_2/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "cf2e11d71a351aee956e93541e1845b6c437def4dbcf328b92b89afe612f2014",
+      "sha256": "84fc5c4b3d5550864e157b94211c3909ed49f0fe6389d8d50dd2fe66f383c232"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_3/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "92b5ca18d8905b827adec332ec41edfd7955175cca4b22a9c9f6be1be68ffe69",
+      "sha256": "4d4cb98d89fd5e6284128ceb7fd7fbb3d1ec94fc487f9f60cafb99fbb46c8a97"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_4/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "4da6c8dc06571fa81daf0fc2150ccdbe671ab1b255849d447b14e91b82b7523a",
+      "sha256": "766bb7c058cfb91483f4ee84289a88689c04c791ae46ed867b5150fb23d40283"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_5/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "2f6d085c243ba097c14cf678a5179f3a972e504c53c9b1e2947791906cbb341e",
+      "sha256": "ca6baf415c877603c86f1bb294b18b0123758584fb060d12a1d0fd89eec7e3f3"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/subsecoes/3_6/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "9a05dab58dd01096f797ecfcd6fb765935237f87b20bac8fa8023681d058c07a",
+      "sha256": "30e4e0afcf567e33cd4fdb30cb7eb05ed467d3696f7867b6cd618b9c0e5236e9"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/tabelas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "aac2fbafabdeb599685cec93ffd8d4311a34f32d15ed82513e2b43a0503eb3e0",
+      "sha256": "17741419c4483a9d8974b8a1b6e1e1e479c31e7d83a2e70a59b942910dcf8d08"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/tabelas/docx/Materiais_Tabulares_Secao_03.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "21b7a8319af0a899c35c541169f2c399aa8505b7c6064e399baff20be75553dc",
+      "sha256": "1e5a10e2e0b28236f7a9a5bbe4ca8ea2e9a4948777ef923ab0e9dde9052fb846"
+    },
+    {
+      "path": "secoes/03_Modelagem_Fotovoltaica/texto.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "c07c64cd395c97b14692d168db4a46eb1b99cd3683c84245f3eb696cf4ee051b",
+      "sha256": "ee520a80858eae9c55dd8abfd9cec634e2dda5748fa0da49de2503ce7b811409"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "06dedd66324d0ab712e406434c20c107b04b331b2d8254496e74c05c261c62c1",
+      "sha256": "35b4184ab5a1c789aef73e4d169fcd0cbf03f7240317e66cd0e6ed10fa993c1f"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
+      "sha256": "33acdb973e7af019923de8d71e5ca45f11091fd2e728339caadfb9b7d666789c"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.pdf",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "44de60665099cb071cc4a8cb22e6c282710550a5083b71f7d31f63fe0649a6c3",
+      "sha256": "f648888e3449c60abb73cebebe9e2987b04d0c11bc8ae12479df8c229f8dec6b"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "4dfecdd6ab6d03e71d7bf72aee7791a5c8140e41a0ebd14b915efdb796264e15",
+      "sha256": "d70232cb318dfbc3fee5f6626b6330625d4123e890de985d93f4309d72b88c48"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/figuras/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "d8bbe9ca60287609c375de4f95aaf1cde3449291485ff8028a27258e90a169d5",
+      "sha256": "9ecb76414972b0709d62c35ab527107cde71fff30e83ba6e4586a4b68ccd4049"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/graficos/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a259ccf31c3e7ef9454bf8a0295bc1e39da6d1052db9fa2abacde5f357da1f93",
+      "sha256": "4802fa1d7d6188cb85e3818b51296a11e46dc4a41a78ce06fa7e96940f4643ed"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/quadros/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "37daa0cfb4ca0cab7933d70ac37f6a8229e784fc20601f8364ce6d83c3f4d0bf",
+      "sha256": "e4e404a4e242a2e07c23e2f3541c9e08a79b79037722d34cbe860a739a21abc8"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/referencias/LEIA_ME.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "cddd4b3bc3571666800dd1374dd3f627c4e4f6a7abc32d53f34c7dcef9a30e3b",
+      "sha256": "d3530009bf00adabd64e67d04fdd3f2e9c779cfec20f086e84b2084c9be9db56"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/referencias/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "342bcd61be62fb5006590520ec4ca0f16dec814e565af09dc95b31b056201bbe",
+      "sha256": "5b31cfef05cdb4f6e9cddb6fe7f62b6cba4e8f555926d5f2c3f81bb5e86521e6"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_1/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "6e9cc5062d0d1cbdf51f24fe49466b997140880a6654f2e588f9ed83f4e2463a",
+      "sha256": "5ccdfb83a4b71317b6c959cbbbddd7e5ad6e3353089638fb8505416c70b5ff56"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_2/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "cd71ccaf12fe2aec7ddc5a6e97e05c9b00d79ac12d621af9814c19a9cbeb64a9",
+      "sha256": "1c1c9b03fb70a018a9b9eb6da8a4eb4c4d6b460c4af44b315a7f3dfc25a90b21"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_3/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "a00c1c06d77b251fecb540d5f69721338890faad7e93aa509972cff7897e82cd",
+      "sha256": "51c4d2b6f7a515747d59f9ae4013a6f472425167e9535e2f0d8fb31b03e7c8ee"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_4/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "4ead116d3dbd3d291333b0e8041fd320489b3b77fa6a695aaf07d41a8036b73d",
+      "sha256": "70453dd639c47fc7c3f6e31753f92fa91ef3c4cafeba609352a569a91bba8383"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/subsecoes/4_5/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "84582c6d6846e53bb4eb2cbfe16099af1eeaf802b7f78a146b06f446b56ddf46",
+      "sha256": "8a8b33338482e05c0c185b98252267b1b68229dd58494e2c84729b67bc537882"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/tabelas/README.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "75f07faccdb9389bf2ac750e060c67ff2bd6e8a2cf2248265b4f4491c5da27bc",
+      "sha256": "1febda80ef528ad45fdc5bba5c7d0485651b66709b0c92adbdc25294e0d3b618"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/tabelas/docx/Materiais_Tabulares_Secao_04.docx",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "37122e9d8a4876d048c17ad809283e804b643e330876dccaeacac46ea9aef7f5",
+      "sha256": "d33ced5d47085a80c682071dd134d3a326968876dd81178e66c41be7bb712666"
+    },
+    {
+      "path": "secoes/04_Desempenho_Perdas_Validacao/texto.md",
+      "source_commit": "85390a506c95a45436c0bfdaab1e2715d255cb9f",
+      "source_sha256": "6f247cd398afbf98084fc3dd7cca80af1c1f80aaec561bf3d41d3be418e15b40",
+      "sha256": "e43dd2a4242a141ff52c761f48d3271aa1798a583e6fc83682fe4363f120a56c"
+    }
+  ]
+}

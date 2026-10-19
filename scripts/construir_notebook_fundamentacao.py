@@ -19,7 +19,7 @@ description('SPGER0046 UFPB. Levantamento de livros, artigos, relatórios e font
  'As saídas identificam DOI, autoria, ano, periódico ou editora, acesso, tópico e citações separadas por base e data. '
  'Livros e artigos não são classificados como se tivessem cobertura bibliométrica idêntica.')
 md('## 0 Preparação e local de trabalho')
-description('O código pode executar em Jupyter ou Colab. Credenciais são lidas de variáveis de ambiente ou dos mesmos Secrets usados no WCNPS: '
+description('O código pode executar em Jupyter ou Colab. Credenciais são lidas de variáveis de ambiente ou dos Secrets do Colab: '
  'OPENALEX_API_KEY, SCOPUS_API_KEY, WOS_API_KEY e IEEE_API_KEY. Nenhuma chave é exibida ou gravada. '
  'Sem as chaves institucionais, o levantamento continua com Crossref e OpenAlex e registra as bases não executadas. '
  'O notebook executado já permite consultar os resultados. NOVA_COLETA=False reutiliza o retrato documentado; True cria outra pasta de respostas e consulta novamente.')
@@ -96,7 +96,7 @@ for number in range(1,5):
 '''.replace('__TOPIC__',topic['id']))
 md('# 5 Documentos exportações e execução')
 description('Word por subseção; Markdown e CSV por seção; catálogo consolidado e relações por tópico; BibTeX e RIS para gerenciadores de referências. '
- 'Os formatos bibliográficos não importam automaticamente no Zotero nem publicam no GitHub. O grupo pode versionar o código e os resultados depois.')
+ 'Os arquivos BibTeX e RIS permitem importar as referências em gerenciadores bibliográficos. Os índices por seção orientam a consulta.')
 code('''print("Word:",SURVEY.out/"Referencias_por_Subsecao.docx")
 print("BibTeX:",SURVEY.out/"referencias_fundamentacao.bib")
 print("RIS:",SURVEY.out/"referencias_fundamentacao.ris")

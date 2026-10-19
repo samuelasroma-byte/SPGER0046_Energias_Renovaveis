@@ -1,6 +1,6 @@
 # Referências ainda pendentes
 
-Atualização: 18/10/2026. Restam três itens das 22 pendências iniciais.
+Pendências: B19, B20 e N01, nas edições integrais identificadas abaixo.
 
 A090 (Kalogirou, 1ª edição de 2009 sem folhas iniciais) e A091 (trecho parcial de Luque e Hegedus, 2ª edição de 2011) foram retirados do acervo ativo. Os dois originais e as sete cópias estão preservados fora do projeto. **B19, B20 e N01 continuam pendentes nas versões integrais indicadas.**
 
@@ -24,7 +24,7 @@ LUQUE, A.; HEGEDUS, S. (ed.). Handbook of photovoltaic science and engineering. 
 
 **Seções:** 1, 2, 3, 4.
 
-**Situação e como obter:** A 2ª edição de 2011 continua pendente; a consulta específica à Wiley exige continuação manual. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.
+**Situação e como obter:** A 2ª edição de 2011 está pendente; a disponibilidade depende de consulta à Wiley. Usar A003 e A092 como alternativas de trabalho. A034 é a 1ª edição de 2003, mantida como apoio. Ver Alternativas_e_Acesso.md.
 
 [Página de acesso](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470974704).
 
@@ -36,7 +36,7 @@ INTERNATIONAL ELECTROTECHNICAL COMMISSION. IEC 61724-1:2021: photovoltaic system
 
 **Seções:** 4.
 
-**Situação e como obter:** IEC 61724-1:2021 continua pendente. Login SIGAA confirmado; a página da Target e a licença da norma não foram confirmadas. A093 apoia monitoramento e indicadores, mas não substitui a norma. Ver Alternativas_e_Acesso.md.
+**Situação e como obter:** IEC 61724-1:2021 continua pendente. A licença da norma na Target não está confirmada. A093 apoia monitoramento e indicadores, mas não substitui a norma. Ver Alternativas_e_Acesso.md.
 
 [Página de acesso](https://webstore.iec.ch/en/publication/65561).
 

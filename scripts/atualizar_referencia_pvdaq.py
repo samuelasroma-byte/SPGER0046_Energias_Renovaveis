@@ -37,14 +37,14 @@ def main():
     for element in block:anchor.addnext(element);anchor=element
     anchor=next(p for p in doc.paragraphs if p.text.startswith('Quadro 1'))
     p=anchor.insert_paragraph_before(
-        'Revisão de 19 de outubro de 2026. B24 identifica o conjunto PVDAQ/OEDI de Deline e colaboradores (2021); '
+        'B24 identifica o conjunto PVDAQ/OEDI de Deline e colaboradores (2021); '
         'B27 documenta o acesso. O estudo utiliza o sistema 2107 entre abril e junho de 2024. '
         'O ano da referência é o de publicação do conjunto, enquanto 2024 identifica as observações analisadas. '
         'Os cinco arquivos originais, suas URLs e seus hashes estão em data/raw/fontes_pvdaq.json.')
     p.paragraph_format.first_line_indent=Cm(0)
     p.paragraph_format.space_after=Pt(12)
     for run in p.runs:run.font.name='Times New Roman';run.font.size=Pt(12)
-    doc.core_properties.subject='39 referências por subseção com origem PVDAQ identificada e revisão B24 de 19/10/2026'
+    doc.core_properties.subject='39 referências por subseção e origem dos dados PVDAQ OEDI'
     doc.save(DEST/'Referencias_por_Subsecao_Atualizadas.docx')
 
     path=ROOT/'bibliografia/principal/Referencias_B01_B39.json'
@@ -85,7 +85,7 @@ def main():
     assert found==1
     (DEST/'referencias_fundamentacao.ris').write_text('ER  - '.join(blocks))
     assert len(rows)==39
-    print('B24 e Word revisados; B01–B39 e o Word original foram preservados.')
+    print('Referências B01–B39 e identificação da fonte PVDAQ.')
 
 
 if __name__=='__main__':main()

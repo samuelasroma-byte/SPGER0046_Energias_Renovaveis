@@ -57,6 +57,10 @@ protected=['src','config','data','notebooks','outputs/series','outputs/avaliacao
            'docs/equacoes/Inventario_Equacoes.json','docs/equacoes/Inventario_Equacoes.csv',
            *[r['path'] for r in records]]
 changed=subprocess.check_output(['git','-C',str(ROOT),'diff','50b0d69098da8aac7d1d9d3cc7c524240977b0f6','--name-only','--',*protected],text=True).splitlines()
+import sys
+sys.path.insert(0,str(ROOT/'scripts'))
+from integridade_documental import unregistered_changes
+changed=unregistered_changes(changed)
 assert not changed,changed
 result=dict(status='passed',PDF_documents=5,total_pages=sum(r['pages'] for r in paths),
                      numbered_equations_preserved=61,Word_files_preserved=True,

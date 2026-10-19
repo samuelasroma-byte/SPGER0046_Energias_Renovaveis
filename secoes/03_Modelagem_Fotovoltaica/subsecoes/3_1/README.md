@@ -36,13 +36,13 @@ $$G_{\mathrm{POA}}=DNI\max(\cos\theta_i,0)+G_{\mathrm{céu}}+G_{\mathrm{solo}}.$
 | A001 | [Abrir Solar Engineering of Thermal Processes, Photovoltaics and Wind](https://drive.google.com/file/d/1FRN89M_tXpON-3OFe5K06p9xt3nqfl7u/view?usp=drivesdk) | 5ª edição confirmada no PDF, com 919 páginas digitais e índice até a página impressa 905. Alternativa de trabalho adotada para B19, em conjunto com A003. Citar Duffie, Beckman e Blair (2020) ao usar este arquivo. |
 | A083 | [Abrir Modeling daylight availability and irradiance components from direct and global irradiance](https://drive.google.com/file/d/1xd-WUiyIaAO8bse1xZNRd8zi7z48McF_/view?usp=drivesdk) | Versão publicada; páginas 271–289. |
 | A088 | [Abrir Best practices handbook for the collection and use of solar resource data for solar energy applications: third edition (formato IEA PVPS)](https://drive.google.com/file/d/1dty_mkSk-clgscx1BxxMdMcliI42ewjd/view?usp=drivesdk) | Terceira edição obtida no formato IEA-PVPS T16-04:2021, 331 páginas, ISBN 978-3-907281-19-2. A página oficial informa dois formatos da mesma edição (NREL e IEA PVPS). O DOI 10.2172/1778700 identifica o formato NREL, não este arquivo IEA PVPS. Citar o formato efetivamente consultado; a 4ª edição de 2024 A045 permanece disponível. |
-| A089 | [Abrir A continuous form of the Perez diffuse sky model for forward and reverse transposition](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk) | Versão final da editora, completa, com 12 páginas e licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online antecipada em 2/12/2023. Original recebido preservado. Cópias de consulta nas quatro seções. |
+| A089 | [Abrir A continuous form of the Perez diffuse sky model for forward and reverse transposition](https://drive.google.com/file/d/1woLwuNHB_hbHuY0GPOKyq_KvZ_heXRtb/view?usp=drivesdk) | Versão final da editora, 12 páginas, licença CC BY 4.0. Volume 267 (2024), artigo 112093; publicação online em 2/12/2023. Cópias nas quatro seções. |
 
 [Outros documentos A da seção, com pertinência específica ainda a conferir](../../referencias/README.md)
 
 ## Ilustrações de inserção exclusiva
 
-Cada ID tem um único local de inserção no capítulo. As versões claro/escuro e PNG/PDF são alternativas do mesmo item; escolher apenas uma para a redação. Ao discutir um item de outra seção, fazer referência ao ID já inserido, sem reproduzi-lo.
+A coluna de subseção indica o local de cada material no capítulo. Claro/escuro e PNG/PDF são opções do mesmo item. Referências em outras seções usam o ID correspondente.
 
 | ID e título | Inserir em | PNG claro e escuro | PDF claro e escuro |
 | --- | --- | --- | --- |
