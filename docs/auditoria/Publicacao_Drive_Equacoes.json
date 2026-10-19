@@ -6,41 +6,48 @@
       "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx",
       "drive_id": "1-bVvipVMSC2k52emNXU9kxv7DSXMtuYM",
       "drive_url": "https://docs.google.com/document/d/1-bVvipVMSC2k52emNXU9kxv7DSXMtuYM/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
-      "bytes": 50931,
-      "sha256": "fc22efd790a6bdda6f43ca47eff9cddf22fd43727880446b7ce2e109900c7a01",
-      "download_verified": true
+      "bytes": 54136,
+      "sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
+      "download_verified": true,
+      "modified_time": "2026-10-19T15:55:03.586Z"
     },
     {
       "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx",
       "drive_id": "1bIZ8ZOMqBQhrTb6CRDVrnrUUz7UZ2VRR",
       "drive_url": "https://docs.google.com/document/d/1bIZ8ZOMqBQhrTb6CRDVrnrUUz7UZ2VRR/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
-      "bytes": 40998,
-      "sha256": "65d89c69462cf3d49386403843cc6aad9dbec40c0fe1ebcd9bfbd40a3f1c3320",
-      "download_verified": true
+      "bytes": 41622,
+      "sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
+      "download_verified": true,
+      "modified_time": "2026-10-19T15:55:07.710Z"
     },
     {
       "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx",
       "drive_id": "1Hn2jR4PKiHPeHNW9FITxfUgh0-NXv2Bn",
       "drive_url": "https://docs.google.com/document/d/1Hn2jR4PKiHPeHNW9FITxfUgh0-NXv2Bn/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
-      "bytes": 41286,
-      "sha256": "e9d75abde2c6a81655e6b6121eba9fd2a0cbc14335b5767a2166d1d3701d7f55",
-      "download_verified": true
+      "bytes": 42047,
+      "sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
+      "download_verified": true,
+      "modified_time": "2026-10-19T15:55:10.933Z"
     },
     {
       "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx",
       "drive_id": "1FE88o9jvBFHI-djYGl7JE6SseTRtw6qG",
       "drive_url": "https://docs.google.com/document/d/1FE88o9jvBFHI-djYGl7JE6SseTRtw6qG/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
-      "bytes": 43158,
-      "sha256": "da98f99a066b7015fb96a391a34840f1ea03e824e157975ea6228d9584842531",
-      "download_verified": true
+      "bytes": 44491,
+      "sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
+      "download_verified": true,
+      "modified_time": "2026-10-19T15:55:14.406Z"
     },
     {
       "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx",
       "drive_id": "1rqUk5XrYMZaWp0AX_r74SsxVPXyum423",
       "drive_url": "https://docs.google.com/document/d/1rqUk5XrYMZaWp0AX_r74SsxVPXyum423/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true",
-      "bytes": 44301,
-      "sha256": "c3a9e94fde45fa5e831595be81c10fdb3c985b1782d506770e3bcd15f04f403f",
-      "download_verified": true
+      "bytes": 45606,
+      "sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
+      "download_verified": true,
+      "modified_time": "2026-10-19T15:55:18.325Z"
     }
-  ]
+  ],
+  "inventory_version": "2026-10-19.2",
+  "updated_in_place": true
 }

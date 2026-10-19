@@ -14,39 +14,54 @@
   ],
   "duplicate_insertion_IDs": 0,
   "native_editable_Word_math": true,
+  "original_inventory_formulas_and_locations_preserved": true,
+  "equations_with_complete_symbol_descriptions_and_units": 61,
+  "symbol_definitions_across_equations": 241,
+  "application_counts": {
+    "Fundamentação ou exemplo geométrico": 3,
+    "Geometria calculada e seleção de intervalos": 2,
+    "Integração ou estatística dos dados": 7,
+    "Transposição exploratória e cenários": 3,
+    "Conversão física principal": 11,
+    "Curvas ou associação elétrica ilustrativa": 4,
+    "Comparação CC auxiliar": 1,
+    "Indicadores e avaliação do modelo": 17,
+    "Ajuste empírico separado": 2,
+    "Balanço BIPV hipotético": 11
+  },
   "Word_documents": 5,
   "source_commit": "17ffe0eeb7d70876eabf222ec30fb828ee28d3c8",
   "physical_sources_data_and_results_unchanged": true,
   "files": [
     {
       "path": "docs/equacoes/Inventario_Geral_Equacoes_SPGER0046.docx",
-      "bytes": 50931,
-      "sha256": "fc22efd790a6bdda6f43ca47eff9cddf22fd43727880446b7ce2e109900c7a01",
-      "md5": "a35b20e02b0a6e56028d3681539472cc"
+      "bytes": 54136,
+      "sha256": "904986a6806963af40d6944c97122620bf288468d96a799493c1b81ef433a94c",
+      "md5": "c8124a4b44233e501915c14dd56587eb"
     },
     {
       "path": "secoes/01_Recurso_Solar/equacoes/Quadro_Equacoes_Secao_01.docx",
-      "bytes": 40998,
-      "sha256": "65d89c69462cf3d49386403843cc6aad9dbec40c0fe1ebcd9bfbd40a3f1c3320",
-      "md5": "e4f480daa8295ddb56ba69746effac01"
+      "bytes": 41622,
+      "sha256": "fb691dc7cd0d70c0fdc17712e56d250b97adb293218ac131c46ac2c1fc37855f",
+      "md5": "aa6f4961011c70a4a630f3532e066285"
     },
     {
       "path": "secoes/02_Condicoes_Ambientais/equacoes/Quadro_Equacoes_Secao_02.docx",
-      "bytes": 41286,
-      "sha256": "e9d75abde2c6a81655e6b6121eba9fd2a0cbc14335b5767a2166d1d3701d7f55",
-      "md5": "e12adb46a4f583d24ac45befe50b1d77"
+      "bytes": 42047,
+      "sha256": "95e31db22385ae095b2a0f22ac2562d000366d3d8761e2434b25988729907a39",
+      "md5": "f01348a05a0fa968150d2056a9fe2e1b"
     },
     {
       "path": "secoes/03_Modelagem_Fotovoltaica/equacoes/Quadro_Equacoes_Secao_03.docx",
-      "bytes": 43158,
-      "sha256": "da98f99a066b7015fb96a391a34840f1ea03e824e157975ea6228d9584842531",
-      "md5": "6904b593948770562bb7dad07d9e2a98"
+      "bytes": 44491,
+      "sha256": "8eac1881d24b310d70baee2384d6507907e7b8dc6a98af5c0f3e61fa562a7d8b",
+      "md5": "8a0e7aeffe743ad6eaf3dbd3bca0ef40"
     },
     {
       "path": "secoes/04_Desempenho_Perdas_Validacao/equacoes/Quadro_Equacoes_Secao_04.docx",
-      "bytes": 44301,
-      "sha256": "c3a9e94fde45fa5e831595be81c10fdb3c985b1782d506770e3bcd15f04f403f",
-      "md5": "a0973a1382139d4d57ba0a4920b8a71c"
+      "bytes": 45606,
+      "sha256": "ad020412c94cd95a5d4cc4e85d2be402b091eec5887a4add07a3128bed71042a",
+      "md5": "606c5a9622b7d9ace26a8797d8e8ee6b"
     }
   ]
 }
