@@ -1,0 +1,8 @@
+Item,Situação,Consequência para o estudo
+"Latitude, longitude, altitude, inclinação e azimute",Disponíveis nos metadados,Permitem calcular a geometria solar; não é preciso medir o zenital
+"POA, temperatura do ar, vento e potência AC",Medições locais disponíveis,Permitem comparação elétrica agregada modelo–medidor
+"GHI, DNI e DHI locais",Sem séries medidas nos arquivos obtidos,Não impedem o modelo direto com POA; impedem validação independente das componentes
+Temperatura medida de módulo/célula,Ausente,Temperatura operacional estimada; etapa térmica sem validação própria
+"Strings, associação aos MPPTs e limite AC efetivo",Documentação incompleta,Modelo agregado possível; reconstrução detalhada não comprovada
+"Albedo, limpeza, sombras e altura do anemômetro",Não documentados suficientemente,Hipóteses e sensibilidades; causas de perdas não identificadas só pelo resíduo
+Fachada e propriedades de produto BIPV,Sem medições,Extensão simulada; sem validação de fachada

@@ -1,0 +1,379 @@
+TY  - BOOK
+TI  - Solar Engineering of Thermal Processes, Photovoltaics and Wind
+AU  - John A. Duffie
+AU  - William A. Beckman
+AU  - Nathan Blair
+ET  - 1
+PY  - 2020
+DO  - 10.1002/9781119540328
+UR  - https://doi.org/10.1002/9781119540328
+ER  - 
+
+TY  - JOUR
+TI  - Solar position algorithm for solar radiation applications
+AU  - Ibrahim Reda
+AU  - Afshin Andreas
+PY  - 2004
+DO  - 10.1016/j.solener.2003.12.003
+UR  - https://doi.org/10.1016/j.solener.2003.12.003
+ER  - 
+
+TY  - JOUR
+TI  - Solar Position Algorithm for Solar Radiation Applications — NREL/TP-560-34302
+AU  - Reda, I. and Andreas, A.
+PY  - 2008
+DO  - 
+UR  - https://docs.nlr.gov/docs/fy08osti/34302.pdf
+ER  - 
+
+TY  - JOUR
+TI  - General Solar Position Calculations
+AU  - NOAA Global Monitoring Laboratory
+PY  - 
+DO  - 
+UR  - https://gml.noaa.gov/grad/solcalc/solareqns.PDF
+ER  - 
+
+TY  - JOUR
+TI  - get_extra_radiation — Spencer method; pvlib 0.16.1
+AU  - pvlib contributors
+PY  - 2026
+DO  - 
+UR  - https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.get_extra_radiation.html
+ER  - 
+
+TY  - BOOK
+TI  - Solar Energy Engineering: Processes and Systems
+AU  - Soteris A. Kalogirou
+ET  - 2
+PY  - 2014
+DO  - 10.1016/c2011-0-07038-2
+UR  - https://doi.org/10.1016/c2011-0-07038-2
+ER  - 
+
+TY  - BOOK
+TI  - Handbook of Photovoltaic Science and Engineering
+A2  - Antonio Luque
+A2  - Steven Hegedus
+ET  - 2
+PY  - 2011
+DO  - 10.1002/9780470974704
+UR  - https://doi.org/10.1002/9780470974704
+ER  - 
+
+TY  - RPRT
+TI  - Best Practices Handbook for the Collection and Use of Solar Resource Data for Solar Energy Applications: Third Edition
+AU  - Manajit Sengupta
+AU  - Aron Habte
+AU  - Stefan Wilbert
+AU  - Christian Gueymard
+AU  - Jan Remund
+PY  - 2021
+DO  - 10.2172/1778700
+UR  - https://doi.org/10.2172/1778700
+ER  - 
+
+TY  - JOUR
+TI  - A continuous form of the Perez diffuse sky model for forward and reverse transposition
+AU  - Anton Driesse
+AU  - Adam R. Jensen
+AU  - Richard Perez
+PY  - 2024
+DO  - 10.1016/j.solener.2023.112093
+UR  - https://doi.org/10.1016/j.solener.2023.112093
+ER  - 
+
+TY  - JOUR
+TI  - PVDAQ public photovoltaic performance data — OEDI
+AU  - OEDI / PVDAQ
+PY  - 
+DO  - 10.25984/1846021
+UR  - https://data.openei.org/submissions/4568
+ER  - 
+
+TY  - JOUR
+TI  - Solar Data Tools demo — Farm Solar Array
+AU  - PV Analytics Webinar
+PY  - 2024
+DO  - 
+UR  - https://pv-tutorials.github.io/2024_Analytics_Webinar/solar-data-tools-demo.html
+ER  - 
+
+TY  - JOUR
+TI  - PVDAQ access tools and openEDI documentation
+AU  - PVDAQ / openEDI
+PY  - 
+DO  - 
+UR  - https://github.com/NatLabRockies/pvdaq_access
+ER  - 
+
+TY  - JOUR
+TI  - On the temperature dependence of photovoltaic module electrical performance: A review of efficiency/power correlations
+AU  - E. Skoplaki
+AU  - J.A. Palyvos
+PY  - 2009
+DO  - 10.1016/j.solener.2008.10.008
+UR  - https://doi.org/10.1016/j.solener.2008.10.008
+ER  - 
+
+TY  - JOUR
+TI  - Assessing the outdoor operating temperature of photovoltaic modules
+AU  - David Faiman
+PY  - 2008
+DO  - 10.1002/pip.813
+UR  - https://doi.org/10.1002/pip.813
+ER  - 
+
+TY  - JOUR
+TI  - The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance
+AU  - Rob W. Andrews
+AU  - Joshua M. Pearce
+PY  - 2013
+DO  - 10.1016/j.solener.2013.01.030
+UR  - https://doi.org/10.1016/j.solener.2013.01.030
+ER  - 
+
+TY  - JOUR
+TI  - Modeling daylight availability and irradiance components from direct and global irradiance
+AU  - Richard Perez
+AU  - Pierre Ineichen
+AU  - Robert Seals
+AU  - Joseph Michalsky
+AU  - Ronald Stewart
+PY  - 1990
+DO  - 10.1016/0038-092x(90)90055-h
+UR  - https://doi.org/10.1016/0038-092x(90)90055-h
+ER  - 
+
+TY  - JOUR
+TI  - Plane of Array (POA) Irradiance
+AU  - Sandia National Laboratories / PVPMC
+PY  - 
+DO  - 
+UR  - https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/plane-of-array-poa-irradiance/
+ER  - 
+
+TY  - JOUR
+TI  - Impact of dust on solar photovoltaic (PV) performance: Research status, challenges and recommendations
+AU  - Monto Mani
+AU  - Rohit Pillai
+PY  - 2010
+DO  - 10.1016/j.rser.2010.07.065
+UR  - https://doi.org/10.1016/j.rser.2010.07.065
+ER  - 
+
+TY  - JOUR
+TI  - Computer simulation of the effects of electrical mismatches in photovoltaic cell interconnection circuits
+AU  - J.W. Bishop
+PY  - 1988
+DO  - 10.1016/0379-6787(88)90059-2
+UR  - https://doi.org/10.1016/0379-6787(88)90059-2
+ER  - 
+
+TY  - JOUR
+TI  - Soiling Losses
+AU  - Sandia National Laboratories / PVPMC
+PY  - 
+DO  - 
+UR  - https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/shading-soiling-and-reflection-losses/soiling-losses/
+ER  - 
+
+TY  - JOUR
+TI  - World estimates of PV optimal tilt angles and ratios of sunlight incident upon tilted and tracked PV panels relative to horizontal panels
+AU  - Mark Z. Jacobson
+AU  - Vijaysinh Jadhav
+PY  - 2018
+DO  - 10.1016/j.solener.2018.04.030
+UR  - https://doi.org/10.1016/j.solener.2018.04.030
+ER  - 
+
+TY  - JOUR
+TI  - pvlib python: a python package for modeling solar energy systems
+AU  - William F. Holmgren
+AU  - Clifford W. Hansen
+AU  - Mark A. Mikofski
+PY  - 2018
+DO  - 10.21105/joss.00884
+UR  - https://doi.org/10.21105/joss.00884
+ER  - 
+
+TY  - JOUR
+TI  - ghi_from_poa_driesse_2024 — pvlib 0.16.1
+AU  - pvlib contributors
+PY  - 2026
+DO  - 
+UR  - https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.ghi_from_poa_driesse_2024.html
+ER  - 
+
+TY  - JOUR
+TI  - Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays
+AU  - M.G. Villalva
+AU  - J.R. Gazoli
+AU  - E.R. Filho
+PY  - 2009
+DO  - 10.1109/tpel.2009.2013862
+UR  - https://doi.org/10.1109/tpel.2009.2013862
+ER  - 
+
+TY  - JOUR
+TI  - Improvement and validation of a model for photovoltaic array performance
+AU  - W. De Soto
+AU  - S.A. Klein
+AU  - W.A. Beckman
+PY  - 2006
+DO  - 10.1016/j.solener.2005.06.010
+UR  - https://doi.org/10.1016/j.solener.2005.06.010
+ER  - 
+
+TY  - JOUR
+TI  - calcparams_cec and retrieve_sam — pvlib 0.16.1
+AU  - pvlib contributors
+PY  - 2026
+DO  - 
+UR  - https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.pvsystem.calcparams_cec.html
+ER  - 
+
+TY  - RPRT
+TI  - Performance model for grid-connected photovoltaic inverters.
+AU  - William Boyson
+AU  - Gary Galbraith
+AU  - David King
+AU  - Sigifredo Gonzalez
+PY  - 2007
+DO  - 10.2172/920449
+UR  - https://doi.org/10.2172/920449
+ER  - 
+
+TY  - JOUR
+TI  - PVWatts Version 5 Manual — NREL/TP-6A20-62641
+AU  - Dobos, A. P.
+PY  - 2014
+DO  - 
+UR  - https://docs.nlr.gov/docs/fy14osti/62641.pdf
+ER  - 
+
+TY  - JOUR
+TI  - TRIO-20.0/27.6-TL-US — Product Manual
+AU  - ABB
+PY  - 
+DO  - 
+UR  - https://library.e.abb.com/public/9ddffa465aa146bfa43bd0854abbcc81/TRIO-20.0-27.6-TL-US_Product_Manual.pdf
+ER  - 
+
+TY  - CPAPER
+TI  - Performance parameters for grid-connected PV systems
+AU  - B. Marion
+AU  - J. Adelstein
+AU  - K. Boyle
+AU  - H. Hayden
+AU  - B. Hammond
+AU  - T. Fletcher
+AU  - B. Canada
+AU  - D. Narang
+AU  - A. Kimber
+AU  - L. Mitchell
+AU  - G. Rich
+AU  - T. Townsend
+PY  - 2005
+DO  - 10.1109/pvsc.2005.1488451
+UR  - https://doi.org/10.1109/pvsc.2005.1488451
+ER  - 
+
+TY  - JOUR
+TI  - Photovoltaic Degradation Rates—an Analytical Review
+AU  - D. C. Jordan
+AU  - S. R. Kurtz
+PY  - 2013
+DO  - 10.1002/pip.1182
+UR  - https://doi.org/10.1002/pip.1182
+ER  - 
+
+TY  - JOUR
+TI  - Performance Ratio
+AU  - Sandia National Laboratories / PVPMC
+PY  - 
+DO  - 
+UR  - https://pvpmc.sandia.gov/modeling-guide/5-ac-system-output/pv-performance-metrics/performance-ratio/
+ER  - 
+
+TY  - RPRT
+TI  - Weather-Corrected Performance Ratio
+AU  - Timothy Dierauf
+AU  - Aaron Growitz
+AU  - Sarah Kurtz
+AU  - Jose Cruz
+AU  - Evan Riley
+AU  - Clifford Hansen
+PY  - 2013
+DO  - 10.2172/1078057
+UR  - https://doi.org/10.2172/1078057
+ER  - 
+
+TY  - JOUR
+TI  - Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance
+AU  - CJ Willmott
+AU  - K Matsuura
+PY  - 2005
+DO  - 10.3354/cr030079
+UR  - https://doi.org/10.3354/cr030079
+ER  - 
+
+TY  - JOUR
+TI  - Root mean square error (RMSE) or mean absolute error (MAE)? – Arguments against avoiding RMSE in the literature
+AU  - T. Chai
+AU  - R. R. Draxler
+PY  - 2014
+DO  - 10.5194/gmd-7-1247-2014
+UR  - https://doi.org/10.5194/gmd-7-1247-2014
+ER  - 
+
+TY  - JOUR
+TI  - Semi-Transparent Building Integrated Photovoltaic Solar Glazing: Investigations of Electrical and Optical Performances for Window Applications in Tropical Region
+AU  - Benedicto Joseph
+AU  - Baraka Kichonge
+AU  - Tatiana Pogrebnaya
+PY  - 2019
+DO  - 10.1155/2019/6096481
+UR  - https://doi.org/10.1155/2019/6096481
+ER  - 
+
+TY  - JOUR
+TI  - Building integrated photovoltaic products: A state-of-the-art review and future research opportunities
+AU  - Bjørn Petter Jelle
+AU  - Christer Breivik
+AU  - Hilde Drolsum Røkenes
+PY  - 2012
+DO  - 10.1016/j.solmat.2011.12.016
+UR  - https://doi.org/10.1016/j.solmat.2011.12.016
+ER  - 
+
+TY  - JOUR
+TI  - A key review of building integrated photovoltaic (BIPV) systems
+AU  - Emrah Biyik
+AU  - Mustafa Araz
+AU  - Arif Hepbasli
+AU  - Mehdi Shahrestani
+AU  - Runming Yao
+AU  - Li Shao
+AU  - Emmanuel Essah
+AU  - Armando C. Oliveira
+AU  - Teodosio del Caño
+AU  - Elena Rico
+AU  - Juan Luis Lechón
+AU  - Luisa Andrade
+AU  - Adélio Mendes
+AU  - Yusuf Baver Atlı
+PY  - 2017
+DO  - 10.1016/j.jestch.2017.01.009
+UR  - https://doi.org/10.1016/j.jestch.2017.01.009
+ER  - 
+
+TY  - JOUR
+TI  - Experimental investigation of the temperature distribution in a BIPV façade
+AU  - Nanna L. Andersen
+AU  - Markus Babin
+AU  - Sune Thorsteinsson
+PY  - 2024
+DO  - 10.1051/epjpv/2024032
+UR  - https://doi.org/10.1051/epjpv/2024032
+ER  - 

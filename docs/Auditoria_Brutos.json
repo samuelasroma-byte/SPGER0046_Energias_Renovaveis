@@ -1,0 +1,46 @@
+[
+  {
+    "file": "2107_meter_15m_data_2024.csv",
+    "rows": 32155,
+    "min": "2024-01-01 00:15:00",
+    "max": "2024-11-30 23:45:00",
+    "quarter_rows": 8736,
+    "quarter_min": "2024-04-01 00:00:00",
+    "quarter_max": "2024-06-30 23:45:00",
+    "quarter_duplicate_timestamps": 0,
+    "columns": 2
+  },
+  {
+    "file": "2107_electrical_data_2024.csv",
+    "rows": 88115,
+    "min": "2024-01-01 00:05:00",
+    "max": "2024-11-01 23:55:00",
+    "quarter_rows": 26208,
+    "quarter_min": "2024-04-01 00:00:00",
+    "quarter_max": "2024-06-30 23:55:00",
+    "quarter_duplicate_timestamps": 0,
+    "columns": 121
+  },
+  {
+    "file": "2107_irradiance_data_2024.csv",
+    "rows": 73077,
+    "min": "2024-01-01 00:10:00",
+    "max": "2024-11-01 23:55:00",
+    "quarter_rows": 22424,
+    "quarter_min": "2024-04-01 00:10:00",
+    "quarter_max": "2024-06-30 23:55:00",
+    "quarter_duplicate_timestamps": 0,
+    "columns": 2
+  },
+  {
+    "file": "2107_environment_data_2024.csv",
+    "rows": 32132,
+    "min": "2024-01-01 00:15:00",
+    "max": "2024-11-30 23:00:00",
+    "quarter_rows": 8732,
+    "quarter_min": "2024-04-01 00:00:00",
+    "quarter_max": "2024-06-30 23:45:00",
+    "quarter_duplicate_timestamps": 0,
+    "columns": 4
+  }
+]

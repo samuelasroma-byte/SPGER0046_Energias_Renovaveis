@@ -1,0 +1,8 @@
+component,energy_kWh,status
+incident_W,28199.06542330486,hypothetical solar-only balance
+reflected_W,3383.887850796583,hypothetical solar-only balance
+transmitted_W,7049.766355826215,hypothetical solar-only balance
+electrical_DC_W,2620.3815120848717,hypothetical solar-only balance
+absorbed_heat_inward_W,7572.514852298595,hypothetical solar-only balance
+absorbed_heat_outward_W,7572.514852298595,hypothetical solar-only balance
+solar_heat_gain_W,14622.281208124808,hypothetical solar-only balance

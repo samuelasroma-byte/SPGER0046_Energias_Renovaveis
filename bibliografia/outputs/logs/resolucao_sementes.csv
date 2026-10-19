@@ -1,0 +1,46 @@
+seed_id,title,doi,status
+R01,PVDAQ public photovoltaic performance data — OEDI,10.25984/1846021,DOI da fonte original preservado; índice indisponível
+R02,PVDAQ access tools and openEDI documentation,,fonte técnica indicada; sem contagem bibliométrica
+R03,Solar Position Algorithm for Solar Radiation Applications — NREL/TP-560-34302,,fonte técnica indicada; sem contagem bibliométrica
+R04,General Solar Position Calculations,,fonte técnica indicada; sem contagem bibliométrica
+R05,get_extra_radiation — Spencer method; pvlib 0.16.1,,fonte técnica indicada; sem contagem bibliométrica
+R06,Modeling daylight availability and irradiance components from direct and global irradiance,10.1016/0038-092x(90)90055-h,DOI e título conferidos em índice bibliográfico
+R07,Assessing the outdoor operating temperature of photovoltaic modules,10.1002/pip.813,DOI e título conferidos em índice bibliográfico
+R08,Improvement and validation of a model for photovoltaic array performance,10.1016/j.solener.2005.06.010,DOI e título conferidos em índice bibliográfico
+R09,pvlib python: a python package for modeling solar energy systems,10.21105/joss.00884,DOI e título conferidos em índice bibliográfico
+R10,calcparams_cec and retrieve_sam — pvlib 0.16.1,,fonte técnica indicada; sem contagem bibliométrica
+R11,PVWatts Version 5 Manual — NREL/TP-6A20-62641,,fonte técnica indicada; sem contagem bibliométrica
+R12,Performance parameters for grid-connected PV systems,10.1109/pvsc.2005.1488451,DOI e título conferidos em índice bibliográfico
+R13,TRIO-20.0/27.6-TL-US — Product Manual,,fonte técnica indicada; sem contagem bibliométrica
+R14,A continuous form of the Perez diffuse sky model for forward and reverse transposition,10.1016/j.solener.2023.112093,DOI e título conferidos em índice bibliográfico
+R15,ghi_from_poa_driesse_2024 — pvlib 0.16.1,,fonte técnica indicada; sem contagem bibliométrica
+R16,Reverse transposition limitations — pvlib 0.16.1,,fonte técnica indicada; sem contagem bibliométrica
+R18,erbs_driesse — pvlib 0.16.1,,fonte técnica indicada; sem contagem bibliométrica
+R19,Expanding Solar Energy Opportunities: From Rooftops to Building Integration,,fonte técnica indicada; sem contagem bibliométrica
+R20,"Energy Performance Ratings for Windows, Doors, and Skylights",,fonte técnica indicada; sem contagem bibliométrica
+R25,Solar Data Tools demo — Farm Solar Array,,fonte técnica indicada; sem contagem bibliométrica
+R26,openEDI PVDAQ dataset documentation,,fonte técnica indicada; sem contagem bibliométrica
+R27,Root mean square error (RMSE) or mean absolute error (MAE)? – Arguments against avoiding RMSE in the literature,10.5194/gmd-7-1247-2014,DOI e título conferidos em índice bibliográfico
+R28,Soiling Losses,,fonte técnica indicada; sem contagem bibliométrica
+R29,Plane of Array (POA) Irradiance,,fonte técnica indicada; sem contagem bibliométrica
+R30,Performance Ratio,,fonte técnica indicada; sem contagem bibliométrica
+S01,"Solar Engineering of Thermal Processes, Photovoltaics and Wind",10.1002/9781119540328,DOI e título conferidos em índice bibliográfico
+S02,Handbook of Photovoltaic Science and Engineering,10.1002/9780470974704,DOI e título conferidos em índice bibliográfico
+S03,Solar Energy Engineering: Processes and Systems,10.1016/c2011-0-07038-2,DOI e título conferidos em índice bibliográfico
+S04,Solar position algorithm for solar radiation applications,10.1016/j.solener.2003.12.003,DOI e título conferidos em índice bibliográfico
+S05,On the temperature dependence of photovoltaic module electrical performance: A review of efficiency/power correlations,10.1016/j.solener.2008.10.008,título e DOI localizados no Crossref
+S06,The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance,10.1016/j.solener.2013.01.030,título e DOI localizados no Crossref
+S07,"Impact of dust on solar photovoltaic (PV) performance: Research status, challenges and recommendations",10.1016/j.rser.2010.07.065,título e DOI localizados no Crossref
+S08,World estimates of PV optimal tilt angles and ratios of sunlight incident upon tilted and tracked PV panels relative to horizontal panels,10.1016/j.solener.2018.04.030,título e DOI localizados no Crossref
+S09,Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays,10.1109/tpel.2009.2013862,DOI e título conferidos em índice bibliográfico
+S10,Computer simulation of the effects of electrical mismatches in photovoltaic cell interconnection circuits,10.1016/0379-6787(88)90059-2,DOI e título conferidos em índice bibliográfico
+S11,Performance model for grid-connected photovoltaic inverters.,10.2172/920449,DOI e título conferidos em índice bibliográfico
+S12,Photovoltaic Degradation Rates—an Analytical Review,10.1002/pip.1182,DOI e título conferidos em índice bibliográfico
+S13,Performance parameters for grid-connected PV systems,10.1109/pvsc.2005.1488451,DOI e título conferidos em índice bibliográfico
+S14,Weather-Corrected Performance Ratio,10.2172/1078057,DOI e título conferidos em índice bibliográfico
+S15,Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance,10.3354/cr030079,DOI e título conferidos em índice bibliográfico
+S16,Building integrated photovoltaic products: A state-of-the-art review and future research opportunities,10.1016/j.solmat.2011.12.016,DOI e título conferidos em índice bibliográfico
+S17,A key review of building integrated photovoltaic (BIPV) systems,10.1016/j.jestch.2017.01.009,DOI e título conferidos em índice bibliográfico
+S18,Best Practices Handbook for the Collection and Use of Solar Resource Data for Solar Energy Applications: Third Edition,10.2172/1778700,DOI e título conferidos em índice bibliográfico
+S19,Experimental investigation of the temperature distribution in a BIPV façade,10.1051/epjpv/2024032,DOI e título conferidos em índice bibliográfico
+S20,Semi-Transparent Building Integrated Photovoltaic Solar Glazing: Investigations of Electrical and Optical Performances for Window Applications in Tropical Region,10.1155/2019/6096481,DOI e título conferidos em índice bibliográfico

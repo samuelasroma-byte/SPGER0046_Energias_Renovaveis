@@ -1,0 +1,96 @@
+{
+  "generated_at_UTC": "2026-10-18T22:57:44.922929+00:00",
+  "project_version": "1.2.2",
+  "git_revision": null,
+  "source_code_and_configuration_sha256": {
+    "src/relatorio_fv.py": "ac9470ce5e2adc8d86151b5ab59ebf450c894ba926878ecbf658d1121a1767b7",
+    "src/projeto_fv.py": "1f9781e799d31a5f00a4b6cd36387e77cf10a898db3addbe9d7668e61e40a313",
+    "src/refinamento_fv.py": "3fef2cc95496ac20f5ca9e898222f303cddc65fa0cbe65d42b4569c2fc183430",
+    "config/ambiente_executado.json": "e68968de3199d2d1a7d5fc432731e53b90fa6403aaffafbc8e6659fb9d18a460",
+    "config/proveniencia_parametros.csv": "296cbf8438c8d3dd2f56c0b79d44abf9b0dc82bec3e5269478957580a302a9b0",
+    "config/inversor_cec.json": "7ca8db022660fc6940cee13a825c5ccd4882c7963032948380b45954268a1e7b",
+    "config/modulo_cec.json": "2e4b6778e2f85c1f6a3b6b794b753826928bedc4ab8c346d535a906e559090e6",
+    "config/README.md": "8b92e8d4474270fbe1ca5d21fbfbd5ddcfe5134d5099a105f51b529fc90ada22",
+    "config/projeto.json": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  "period": {
+    "start_local": "2024-04-01",
+    "end_exclusive_local": "2024-07-01",
+    "daylight_elevation_deg": 10,
+    "aggregation_minutes": 15
+  },
+  "site_timezone": "America/Los_Angeles",
+  "export_timezone": "UTC",
+  "original_sources": [
+    {
+      "file": "2107_system_metadata.json",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/metadata/2107_system_metadata.json",
+      "bytes": 64652,
+      "etag": "ce3659dc8784c6fb46f65f9c63d970c2",
+      "sha256": "17e4f7f448fcb2bec43f7610b40c1f7f4fc794ccc185e41dcde0514afba73ae5",
+      "seconds": 6.76
+    },
+    {
+      "file": "2107_environment_data_2024.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/data/2107_environment_data_2024.csv",
+      "bytes": 1179362,
+      "etag": "af7053661b435c472b6364dbee785975",
+      "sha256": "6e66f9a75ad879d7f0444ba108b352920a7e6458c6a6b9dcb74e6828c47977bd",
+      "seconds": 6.91
+    },
+    {
+      "file": "2107_irradiance_data_2024.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/data/2107_irradiance_data_2024.csv",
+      "bytes": 1933523,
+      "etag": "dfc6ece108987440b828d866d4723d39",
+      "sha256": "fd5acea27608b348b98d0e57d6e8a16f75031cfd6813f7a23caf15211caaec29",
+      "seconds": 6.84
+    },
+    {
+      "file": "2107_meter_15m_data_2024.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/data/2107_meter_15m_data_2024.csv",
+      "bytes": 849109,
+      "etag": "50a01441dbc9bb67107cb49e843c5420",
+      "sha256": "bdef5026a5715f5a2b114580dd767a02bf35c4986bbffe496c4b89e85789eb98",
+      "seconds": 6.85
+    },
+    {
+      "file": "2107_electrical_data_2024.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/2023-solar-data-prize/2107_OEDI/data/2107_electrical_data_2024.csv",
+      "bytes": 63287121,
+      "etag": "d07dfc416e0ce05c98b7c31344e65272-8",
+      "sha256": "bb2e9f7495e471503daa2c4b4ae9aa053ca4c779d63665afb1c2270daaa243a5",
+      "seconds": 8.82
+    }
+  ],
+  "audit": {
+    "expected_daylight_15m": 4421,
+    "available_daylight_15m": 4401,
+    "paired_daylight_after_bounds": 4401,
+    "quarter_days": 91,
+    "meter_records": 8736,
+    "NASA_used": false
+  },
+  "primary_metrics": {
+    "comparison": "A: POA e meteorologia locais → medidor AC [kW]",
+    "n": 4401,
+    "MBE": 31.7680037445102,
+    "MAE": 50.30085312432071,
+    "RMSE": 61.586226719199935,
+    "nMBE_percent": 7.732870112649224,
+    "nRMSE_percent": 14.991130565767405,
+    "r": 0.9774168043098248,
+    "R2": 0.919979751178081,
+    "normalization": "mean of paired observations"
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "pvlib": "0.16.1"
+  },
+  "observed_generation_role": "validation reference; not an input to the physical prediction",
+  "interpolation": false,
+  "missing_metadata": "See docs/metodos/README.md and config/proveniencia_parametros.csv"
+}

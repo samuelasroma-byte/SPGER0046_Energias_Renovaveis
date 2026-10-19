@@ -1,0 +1,44 @@
+{
+  "file": "NASA_POWER_FV_20240401_20240701_UTC_ORIGINAL.json",
+  "url": "https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=ALLSKY_SFC_SW_DWN%2CALLSKY_SFC_SW_DNI%2CALLSKY_SFC_SW_DIFF%2CT2M%2CWS10M&community=RE&latitude=38.996306&longitude=-122.134111&start=20240401&end=20240701&format=JSON&time-standard=UTC",
+  "bytes": 204545,
+  "sha256": "9448af1a93f1f39ff0814370c2c3144776612473d93f83e2c1327bb6adf30753",
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Hourly Data",
+    "api": {
+      "version": "v2.10.2",
+      "name": "POWER Hourly API"
+    },
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "UTC",
+    "start": "20240401",
+    "end": "20240701"
+  },
+  "parameters": {
+    "ALLSKY_SFC_SW_DWN": {
+      "units": "Wh/m^2",
+      "longname": "All Sky Surface Shortwave Downward Irradiance"
+    },
+    "ALLSKY_SFC_SW_DNI": {
+      "units": "Wh/m^2",
+      "longname": "All Sky Surface Shortwave Downward Direct Normal Irradiance"
+    },
+    "ALLSKY_SFC_SW_DIFF": {
+      "units": "Wh/m^2",
+      "longname": "All Sky Surface Shortwave Diffuse Irradiance"
+    },
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "WS10M": {
+      "units": "m/s",
+      "longname": "Wind Speed at 10 Meters"
+    }
+  }
+}

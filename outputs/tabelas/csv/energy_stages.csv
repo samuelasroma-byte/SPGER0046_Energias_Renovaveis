@@ -1,0 +1,9 @@
+stage,energy_kWh,change_to_next_kWh
+Referência linear STC,570569.5652166667,-3397.1804368777666
+Resposta SDM a 25 °C,573966.7456535444,0.0
+Após hipótese óptica,573966.7456535444,47538.62117119436
+Após temperatura modelada,526428.1244823501,23374.461583265394
+Após perdas CC assumidas,503053.6628990847,10298.619778724096
+"Após conversão, antes do clipping",492755.0431203606,5800.057072463271
+Após clipping,486954.9860478973,0.0
+Após perdas CA assumidas,486954.9860478973,

@@ -1,0 +1,523 @@
+[
+  {
+    "id": "1.1",
+    "title": "Geometria solar e irradiância extraterrestre",
+    "owner": "Samuel",
+    "inputs": "Latitude, longitude, altitude e horário dos intervalos.",
+    "method": "Calcular a posição solar com SPA e a irradiância extraterrestre com Spencer. O azimute é contado a partir do norte no sentido horário.",
+    "equation": "$$\\cos\\theta_z=\\sin\\varphi\\sin\\delta+\\cos\\varphi\\cos\\delta\\cos\\omega,\\qquad G_{0h}=G_{0n}\\max(\\cos\\theta_z,0).$$",
+    "evidence": "Cálculo físico com coordenadas documentadas",
+    "limitation": "Não há observação independente de ângulo solar; a geometria pode ser calculada.",
+    "refs": [
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "figures": [
+      "G01_recurso_geometria",
+      "F01_plano_angulos"
+    ],
+    "outputs": "Geometria solar e quadro de convenções.",
+    "query": "solar position algorithm irradiance",
+    "relevance_terms": [
+      "solar position",
+      "solar geometry",
+      "zenith",
+      "extraterrestrial"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "1.2",
+    "title": "Grandezas radiométricas e componentes da radiação",
+    "owner": "Samuel",
+    "inputs": "POA local medida; componentes reconstruídas quando a inversão estiver ativa.",
+    "method": "Irradiância é potência por área; irradiação é sua integral no tempo. GHI é horizontal, DNI é normal aos raios solares e DHI é difusa horizontal. POA se refere ao plano do arranjo.",
+    "equation": "$$GHI=DNI\\max(\\cos\\theta_z,0)+DHI,\\qquad H=\\sum_i G_i\\Delta t_i.$$",
+    "evidence": "Medição POA e estimativa exploratória das componentes",
+    "limitation": "Sem GHI/DNI/DHI locais medidos; reconstrução não equivale a observação.",
+    "refs": [
+      "R01",
+      "R14",
+      "R18",
+      "R29"
+    ],
+    "figures": [
+      "F02_componentes_POA",
+      "G23_componentes_estimadas"
+    ],
+    "outputs": "Quadro das grandezas e componentes estimadas.",
+    "query": "solar irradiance components direct diffuse global",
+    "relevance_terms": [
+      "irradiance",
+      "diffuse",
+      "direct",
+      "global horizontal"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "1.3",
+    "title": "Modulação atmosférica e variabilidade espaço temporal",
+    "owner": "Samuel",
+    "inputs": "Série de POA, intervalo de integração e critérios de cobertura.",
+    "method": "Nuvens, aerossóis e vapor d’água modificam o recurso solar. A série permite descrever a variabilidade intradiária e entre dias; a seleção dos dias ilustrativos usa apenas POA e cobertura.",
+    "equation": "$$V_{\\Delta G}=\\frac{\\operatorname{média}(|G_i-G_{i-1}|)}{\\operatorname{média}(G_i)}.$$",
+    "evidence": "Descrição observacional de variabilidade",
+    "limitation": "Não se atribuem causas atmosféricas isoladas nem climatologia anual a um trimestre.",
+    "refs": [
+      "R01",
+      "R25"
+    ],
+    "figures": [
+      "G02_variabilidade_recurso"
+    ],
+    "outputs": "Critério dos dias ilustrativos e irradiação pareada.",
+    "query": "solar irradiance atmospheric variability",
+    "relevance_terms": [
+      "variability",
+      "atmospheric",
+      "aerosol",
+      "cloud"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "1.4",
+    "title": "Medição e estimativa do recurso solar",
+    "owner": "Samuel",
+    "inputs": "Arquivos PVDAQ, metadados, canais medidos e resoluções de 5/15 minutos.",
+    "method": "Inspecionar integridade, unidades, lacunas, simultaneidade e limites físicos. Medições de superfície, satélites, reanálises e atlas têm representatividades diferentes; os produtos em grade são contextualizados, sem uso na cadeia principal.",
+    "equation": "$$C=100\\,N_{\\mathrm{pares}}/N_{\\mathrm{esperados}}.$$",
+    "evidence": "Auditoria de disponibilidade e documentação",
+    "limitation": "Disponibilidade elevada não certifica sensores. Altura do anemômetro e alguns metadados permanecem incompletos.",
+    "refs": [
+      "R01",
+      "R02",
+      "R21",
+      "R22",
+      "R23",
+      "R25",
+      "R26"
+    ],
+    "figures": [
+      "FL01_fluxo_projeto",
+      "G19_consistencia_medicoes"
+    ],
+    "outputs": "Situação dos dados, proveniência e cobertura.",
+    "query": "solar radiation measurement uncertainty",
+    "relevance_terms": [
+      "measurement",
+      "uncertainty",
+      "pyranometer",
+      "solar resource"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "2.1",
+    "title": "Condições térmicas",
+    "owner": "Vannessa e Thais",
+    "inputs": "Temperatura do ar e vento locais; POA medida.",
+    "method": "Temperatura ambiente, vento e trocas de calor condicionam a operação do módulo. As distribuições observadas e o cenário de menor ventilação ilustram a passagem do ambiente à modelagem térmica da seção 3.2.",
+    "equation": "$$T_{\\mathrm{op}}=T_a+\\frac{G_{\\mathrm{ef}}}{U_0+U_1v}.$$",
+    "evidence": "Medições ambientais e temperatura estimada",
+    "limitation": "U₀ e U₁ genéricos; T operacional é aproximação de célula, sem validação térmica independente.",
+    "refs": [
+      "R07"
+    ],
+    "figures": [
+      "G03_condicoes_ambientais",
+      "G04_temperatura_estimada"
+    ],
+    "outputs": "Estatística ambiental e sensibilidade de ventilação.",
+    "query": "photovoltaic temperature efficiency",
+    "relevance_terms": [
+      "temperature",
+      "thermal",
+      "efficiency"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "2.2",
+    "title": "Albedo e ambiente radiativo da superfície",
+    "owner": "Vannessa e Thais",
+    "inputs": "Albedo assumido e componentes estimadas da inversão.",
+    "method": "O albedo expressa refletância do entorno. No exercício de transposição, varia-se 0,10/0,20/0,40 mantendo as componentes reconstruídas na referência 0,20. O arranjo real é monofacial; bifacialidade exige caracterização traseira adicional.",
+    "equation": "$$G_{\\mathrm{solo}}=\\rho_g\\,GHI\\,\\frac{1-\\cos\\beta}{2}.$$",
+    "evidence": "Cenário de sensibilidade",
+    "limitation": "Expressão isotrópica para reflexão do solo. Não há albedo medido; a leitura POA principal não recebe uma segunda contribuição refletida.",
+    "refs": [
+      "R06",
+      "R14",
+      "R29"
+    ],
+    "figures": [
+      "G22_albedo",
+      "F02_componentes_POA"
+    ],
+    "outputs": "Sensibilidade de albedo e quadro de hipóteses.",
+    "query": "photovoltaic albedo ground reflectance",
+    "relevance_terms": [
+      "albedo",
+      "reflectance",
+      "ground reflected"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "2.3",
+    "title": "Sombreamento sujidade e obstruções locais",
+    "owner": "Vannessa e Thais",
+    "inputs": "Cenários de atenuação adicional de 0%, 2% e 5%; alertas operacionais.",
+    "method": "A sujeira pode atenuar a luz incidente e diferir entre módulos e sensor POA. Os cenários são hipóteses de atenuação adicional à leitura. Sombreamento parcial pode envolver mismatch e diodos de bypass, que um redutor uniforme não reproduz.",
+    "equation": "$$G_{\\mathrm{ef}}=(1-s)G_{\\mathrm{POA}}.$$",
+    "evidence": "Sensibilidade hipotética e fundamentos",
+    "limitation": "Sem histórico de limpeza e mapa de sombras; o resíduo não identifica a perda real de sujidade ou sombra.",
+    "refs": [
+      "R28",
+      "R25"
+    ],
+    "figures": [
+      "G20_sujidade_ventilacao"
+    ],
+    "outputs": "Sensibilidade e alertas sem atribuição causal automática.",
+    "query": "photovoltaic soiling shading losses",
+    "relevance_terms": [
+      "soiling",
+      "shading",
+      "dust",
+      "partial shade"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "2.4",
+    "title": "Geometria de instalação e exposição do arranjo fotovoltaico",
+    "owner": "Vannessa e Thais",
+    "inputs": "Inclinação de 25° e azimute de 180° documentados; fachadas hipotéticas.",
+    "method": "A instalação define exposição e incidência. A inclinação é medida em relação à horizontal. Espaçamento entre fileiras e exposição traseira precisam de geometria adicional; em um exemplo de sombra coplanar, uma altura h gera projeção horizontal h/tan(altura solar).",
+    "equation": "$$\\cos\\theta_i=\\cos\\theta_z\\cos\\beta+\\sin\\theta_z\\sin\\beta\\cos(\\gamma_s-\\gamma_a),\\quad \\ell=h/\\tan\\alpha_s.$$",
+    "evidence": "Geometria documentada e extensão didática",
+    "limitation": "A expressão de projeção é um exemplo plano sem dimensão de fileira real; não calcula o sombreamento específico da usina.",
+    "refs": [
+      "R03",
+      "R09",
+      "R29"
+    ],
+    "figures": [
+      "F01_plano_angulos",
+      "F04_geometrias_BIPV"
+    ],
+    "outputs": "Convenções geométricas e limite de dados de espaçamento.",
+    "query": "photovoltaic optimum tilt orientation azimuth",
+    "relevance_terms": [
+      "tilt",
+      "orientation",
+      "azimuth",
+      "inclination"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.1",
+    "title": "Transposição para o plano do arranjo",
+    "owner": "Gabriela e Giulia",
+    "inputs": "Componentes reconstruídas, posição solar e geometria.",
+    "method": "A cadeia usual transpõe GHI/DNI/DHI para POA. Como a instalação já mede POA, o modelo principal começa dessa observação. A inversão opcional usa Driesse 2024, Erbs–Driesse e Perez–Driesse para exercícios de orientação/albedo.",
+    "equation": "$$G_{\\mathrm{POA}}=DNI\\max(\\cos\\theta_i,0)+G_{\\mathrm{céu}}+G_{\\mathrm{solo}}.$$",
+    "evidence": "Medição direta e inversão exploratória",
+    "limitation": "Há possibilidade de soluções não únicas; o fechamento de POA é teste numérico, sem validação independente das componentes.",
+    "refs": [
+      "R06",
+      "R14",
+      "R15",
+      "R16",
+      "R18"
+    ],
+    "figures": [
+      "G23_componentes_estimadas"
+    ],
+    "outputs": "Diagnóstico horário da inversão e critérios de exclusão.",
+    "query": "solar irradiance transposition tilted plane",
+    "relevance_terms": [
+      "transposition",
+      "tilted",
+      "plane of array",
+      "perez"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.2",
+    "title": "Modelagem da temperatura operacional",
+    "owner": "Gabriela e Giulia",
+    "inputs": "POA, temperatura do ar, vento e coeficientes Faiman.",
+    "method": "A temperatura estimada entra no modelo elétrico. U₀=25 W/(m² K) e U₁=6,84 W s/(m³ K) são parâmetros genéricos de referência; a sensibilidade de ventilação usa 15 e 3, respectivamente.",
+    "equation": "$$T_{\\mathrm{op}}=T_a+G_{\\mathrm{ef}}/(U_0+U_1v).$$",
+    "evidence": "Modelo térmico",
+    "limitation": "Ausência de temperatura de módulo/célula e altura de vento suficientemente documentada.",
+    "refs": [
+      "R07"
+    ],
+    "figures": [
+      "G04_temperatura_estimada"
+    ],
+    "outputs": "Temperatura estimada e registro dos coeficientes.",
+    "query": "photovoltaic module operating temperature model",
+    "relevance_terms": [
+      "module temperature",
+      "operating temperature",
+      "faiman",
+      "thermal model"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.3",
+    "title": "Modelagem elétrica do módulo fotovoltaico",
+    "owner": "Gabriela e Giulia",
+    "inputs": "Parâmetros CEC, irradiância efetiva e temperatura estimada.",
+    "method": "O modelo de diodo único fornece curvas I–V, P–V e o ponto de máxima potência. Compare irradiâncias a 25 °C e temperaturas a 1.000 W/m². Registre divergências de classificação e parâmetros entre CEC e metadados.",
+    "equation": "$$I=I_L-I_0[\\exp((V+IR_s)/a)-1]-(V+IR_s)/R_{sh},\\quad P=VI.$$",
+    "evidence": "Modelo elétrico e curvas calculadas",
+    "limitation": "Sem varreduras I–V experimentais da instalação; as curvas não constituem validação do módulo.",
+    "refs": [
+      "R08",
+      "R09",
+      "R10"
+    ],
+    "figures": [
+      "G05_curvas_irradiancia",
+      "G06_curvas_temperatura"
+    ],
+    "outputs": "Curvas calculadas e identificação de MPP.",
+    "query": "photovoltaic single diode model parameters",
+    "relevance_terms": [
+      "single diode",
+      "single-diode",
+      "diode model",
+      "equivalent circuit"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.4",
+    "title": "Modelagem do arranjo fotovoltaico em corrente contínua",
+    "owner": "Gabriela e Giulia",
+    "inputs": "MPP do módulo, 2.880 módulos, 24 grupos/inversores e perdas DC assumidas.",
+    "method": "Em uma associação ideal, as tensões somam em série e as correntes em paralelo. O exemplo 20 módulos × 6 strings por grupo corresponde a 120 módulos, mas não confirma o cabeamento real ou a ligação aos MPPTs.",
+    "equation": "$$V_a=N_sV_m,\\quad I_a=N_pI_m,\\quad P_a=N_sN_pP_m,\\quad P_{\\mathrm{DC}}=P_a\\prod_j(1-\\ell_j).$$",
+    "evidence": "Modelo agregado e equivalente didático",
+    "limitation": "Strings/MPPTs reais incompletos; V×I disponível não foi adotado como potência DC observada certificada.",
+    "refs": [
+      "R08",
+      "R10",
+      "R13"
+    ],
+    "figures": [
+      "F03_arranjo_eletrico"
+    ],
+    "outputs": "Tensão, corrente e potência do equivalente em CSV.",
+    "query": "photovoltaic array mismatch series parallel",
+    "relevance_terms": [
+      "mismatch",
+      "interconnection",
+      "series",
+      "parallel"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.5",
+    "title": "Conversão de CC para CA e modelagem do inversor",
+    "owner": "Gabriela e Giulia",
+    "inputs": "Potência DC calculada, eficiência e limites assumidos do inversor.",
+    "method": "A curva PVWatts estima conversão e clipping. O limite de referência é 30 kW por inversor; 27,6 kW permanece como sensibilidade documentada. Verificar a faixa real de MPPT exige topologia e configuração de campo adicionais.",
+    "equation": "$$P_{\\mathrm{AC}}=\\min[\\eta(P_{\\mathrm{DC}})P_{\\mathrm{DC}},P_{\\mathrm{AC,max}}],\\quad P_{\\mathrm{dc0,inv}}=P_{\\mathrm{AC,max}}/\\eta_{\\mathrm{nom}}.$$",
+    "evidence": "Modelo de conversão e sensibilidade",
+    "limitation": "A simulação agregada não verifica todas as restrições reais de tensão/MPPT nem confirma o limite instalado.",
+    "refs": [
+      "R11",
+      "R13"
+    ],
+    "figures": [
+      "G07_inversor"
+    ],
+    "outputs": "Curva de eficiência, clipping calculado e sensibilidade AC.",
+    "query": "photovoltaic inverter efficiency model",
+    "relevance_terms": [
+      "inverter",
+      "clipping",
+      "conversion efficiency"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "3.6",
+    "title": "Integração temporal e estimativa de energia",
+    "owner": "Gabriela e Giulia",
+    "inputs": "Potência média em intervalos de 15 minutos e máscaras temporais.",
+    "method": "Integre potência média por duração de cada intervalo. Compare séries e energias nas mesmas janelas. Apresente energia mensal e trimestral observada completa separadamente dos intervalos diurnos pareados.",
+    "equation": "$$E=\\sum_i P_i\\Delta t_i,\\qquad \\Delta t=0,25\\ \\mathrm{h}.$$",
+    "evidence": "Integração calculada e geração observada",
+    "limitation": "O recorte é trimestral, não uma medição anual; energia pareada não equivale ao total integral do dia.",
+    "refs": [
+      "R12"
+    ],
+    "figures": [
+      "G08_series_potencia",
+      "G09_energia_diaria",
+      "G10_energia_mensal"
+    ],
+    "outputs": "Energia diária/mensal, cobertura e totais integrais separados.",
+    "query": "photovoltaic energy yield prediction model",
+    "relevance_terms": [
+      "energy yield",
+      "energy prediction",
+      "performance model"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "4.1",
+    "title": "Balanço energético e cadeia de perdas",
+    "owner": "Júlia Ribeiro",
+    "inputs": "Estágios do modelo e alertas de potência sob irradiância elevada.",
+    "method": "Integre a cadeia óptica, térmica, elétrica DC, conversão e limite AC. A diferença entre estágios pertence ao modelo; um desvio do medidor pode envolver fenômenos e incertezas não identificados.",
+    "equation": "$$\\Delta E_j=E_j-E_{j+1},\\qquad \\sum_j\\Delta E_j=E_1-E_{\\mathrm{final}}.$$",
+    "evidence": "Decomposição calculada",
+    "limitation": "Não se identificam perdas ópticas/operacionais reais isoladas sem medições adicionais; ganhos sob frio podem ocorrer.",
+    "refs": [
+      "R08",
+      "R11",
+      "R12",
+      "R25"
+    ],
+    "figures": [
+      "G11_cadeia_energetica"
+    ],
+    "outputs": "Energia por estágio e alertas operacionais.",
+    "query": "photovoltaic energy losses degradation",
+    "relevance_terms": [
+      "losses",
+      "degradation",
+      "loss factor"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "4.2",
+    "title": "Produtividades de referência do arranjo e final",
+    "owner": "Lucas Simão",
+    "inputs": "Irradiação POA, energia DC/AC e potência declarada de 893 kWp.",
+    "method": "Yr é o recurso em horas equivalentes; Ya representa a energia DC por capacidade; Yf representa energia AC por capacidade. HSP/PSH corresponde ao mesmo conceito de recurso quando plano e janela são os mesmos.",
+    "equation": "$$Y_r=H_{\\mathrm{POA}}/G_{\\mathrm{ref}},\\quad Y_a=E_{\\mathrm{DC}}/P_0,\\quad Y_f=E_{\\mathrm{AC}}/P_0,\\quad G_{\\mathrm{ref}}=1\\ \\mathrm{kW/m^2}.$$",
+    "evidence": "Indicadores sobre observações e modelo",
+    "limitation": "Ya é modelada; HSP da janela pareada não é duração de brilho solar nem total integral diário.",
+    "refs": [
+      "R12",
+      "R30"
+    ],
+    "figures": [
+      "G12_produtividades_PR",
+      "G21_HSP_POA_pareada"
+    ],
+    "outputs": "Yr, Ya, Yf e HSP na janela definida.",
+    "query": "photovoltaic specific yield performance parameters",
+    "relevance_terms": [
+      "specific yield",
+      "final yield",
+      "reference yield",
+      "performance parameters"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "4.3",
+    "title": "Razão de desempenho e decomposição normalizada das perdas",
+    "owner": "Lucas Simão",
+    "inputs": "Produtividades calculadas na mesma máscara temporal.",
+    "method": "Compare PR observado e modelado com irradiação e energia da mesma janela. Lc e Ls decompõem o modelo em perdas de captura e sistema. Informe a normalização e o papel da potência declarada.",
+    "equation": "$$PR=Y_f/Y_r,\\quad L_c=Y_r-Y_a,\\quad L_s=Y_a-Y_f.$$",
+    "evidence": "PR observado pareado e perdas calculadas",
+    "limitation": "Não combinar energia integral do trimestre com POA parcial; perdas calculadas não são identificação experimental de cada causa.",
+    "refs": [
+      "R12",
+      "R30"
+    ],
+    "figures": [
+      "G12_produtividades_PR"
+    ],
+    "outputs": "PR, Lc, Ls e janela de integração.",
+    "query": "photovoltaic performance ratio weather corrected",
+    "relevance_terms": [
+      "performance ratio",
+      "weather corrected",
+      "performance metrics"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "4.4",
+    "title": "Validação de modelos de geração fotovoltaica",
+    "owner": "Lucas Simão",
+    "inputs": "Mesmos pares de potência AC medida e simulada.",
+    "method": "Avalie viés, magnitude do erro, correlação e determinação. Erro=simulado−observado. MBE, MAE e RMSE são em kW; nMBE/nRMSE são divididos pela média observada dos respectivos pares. O modelo físico é separado do fator empírico ajustado somente em abril.",
+    "equation": "$$MBE=\\bar e,\\quad MAE=\\overline{|e|},\\quad RMSE=\\sqrt{\\overline{e^2}},\\quad R^2=1-\\frac{\\sum e_i^2}{\\sum(y_i-\\bar y)^2}.$$",
+    "evidence": "Comparação observacional da saída AC",
+    "limitation": "Junho é teste temporal separado, não instalação independente. Correlação elevada não prova exatidão; nenhum limiar universal de aceitação foi adotado.",
+    "refs": [
+      "R27",
+      "R25"
+    ],
+    "figures": [
+      "G13_validacao",
+      "G14_residuos_temporais",
+      "G15_residuos_potencia",
+      "G16_distribuicao_residuos",
+      "G17_metricas_mensais",
+      "G18_vies_horario",
+      "G19_consistencia_medicoes"
+    ],
+    "outputs": "Métricas gerais, por mês/hora/POA, resíduos e consistência de medidores.",
+    "query": "photovoltaic model validation error metrics",
+    "relevance_terms": [
+      "validation",
+      "rmse",
+      "mean absolute error",
+      "model comparison"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  },
+  {
+    "id": "4.5",
+    "title": "Avaliação de desempenho de sistemas integrados à edificação",
+    "owner": "Júlia Ribeiro",
+    "inputs": "Componentes reconstruídas, meteorologia local e coeficientes BIPV assumidos.",
+    "method": "Explore fachadas sul/leste/oeste e menor ventilação. O exemplo separado de 100 m² semitransparentes usa transmissão solar 0,25, reflexão 0,12, absorção 0,63 e transmissão visível 0,35. As propriedades não caracterizam o módulo real.",
+    "equation": "$$P_e=\\eta GA,\\quad Q_{\\mathrm{abs}}=(\\alpha-\\eta)GA,\\quad Q_{\\mathrm{in}}=\\tau_sGA+f_{\\mathrm{in}}Q_{\\mathrm{abs}},\\quad SHGC_{\\mathrm{eq}}=\\tau_s+f_{\\mathrm{in}}(\\alpha-\\eta).$$",
+    "evidence": "Cenário geométrico e balanço hipotético",
+    "limitation": "Somente horas elegíveis da inversão; sem fachada medida, SHGC certificado, cálculo de lux ou balanço térmico completo do edifício.",
+    "refs": [
+      "R14",
+      "R19",
+      "R20"
+    ],
+    "figures": [
+      "G24_BIPV_orientacoes",
+      "G25_BIPV_balanco",
+      "F04_geometrias_BIPV"
+    ],
+    "outputs": "Produtividade/PR de cenários e conservação da partição solar.",
+    "query": "building integrated photovoltaics semitransparent thermal optical",
+    "relevance_terms": [
+      "building integrated",
+      "building-integrated",
+      "bipv",
+      "semitransparent"
+    ],
+    "purpose": "Fundamentação teórica e indicação de leituras por tópico"
+  }
+]

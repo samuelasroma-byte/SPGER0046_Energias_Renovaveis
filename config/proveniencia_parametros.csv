@@ -1,0 +1,53 @@
+﻿campo,valor,natureza,fonte_executavel,observacao
+site.system_id,2107,metadado da instalação,config/projeto.json,
+site.name,"""Farm Solar Array""",metadado da instalação,config/projeto.json,
+site.city,"""Arbuckle, California, USA""",metadado da instalação,config/projeto.json,
+site.latitude,38.996306,metadado da instalação,config/projeto.json,
+site.longitude,-122.134111,metadado da instalação,config/projeto.json,
+site.altitude_m,10,metadado da instalação,config/projeto.json,
+site.timezone,"""America/Los_Angeles""",metadado da instalação,config/projeto.json,
+site.tilt_deg,25,metadado da instalação,config/projeto.json,
+site.azimuth_deg,180,metadado da instalação,config/projeto.json,
+period.start_local,"""2024-04-01""",protocolo de análise,config/projeto.json,
+period.end_exclusive_local,"""2024-07-01""",protocolo de análise,config/projeto.json,
+period.daylight_elevation_deg,10,protocolo de análise,config/projeto.json,
+period.aggregation_minutes,15,protocolo de análise,config/projeto.json,
+system.n_modules,2880,metadado ou referência selecionada,config/projeto.json,
+system.n_inverters,24,metadado ou referência selecionada,config/projeto.json,
+system.modules_per_group,120,metadado ou referência selecionada,config/projeto.json,
+system.metadata_p0_kw,893,metadado ou referência selecionada,config/projeto.json,
+system.label_module_power_w,310,metadado ou referência selecionada,config/projeto.json,
+system.module_cec_key,"""Hyundai_Heavy_Industries_Green_Energy_Co__HiS_M310TI""",registro CEC selecionado,config/projeto.json,Conferir divergências e variante instalada no dossiê.
+system.inverter_cec_key,"""ABB__TRIO_27_6_TL_OUTD_S1B_US_480__480V_""",registro CEC selecionado,config/projeto.json,Conferir divergências e variante instalada no dossiê.
+system.inverter_nominal_ac_w,27600,metadado ou referência selecionada,config/projeto.json,"Limite configurado da usina não comprovado; há sensibilidade de 27,6 e 30 kW por inversor."
+system.inverter_max_ac_w,30000,metadado ou referência selecionada,config/projeto.json,"Limite configurado da usina não comprovado; há sensibilidade de 27,6 e 30 kW por inversor."
+assumptions.faiman_u0,25.0,hipótese de modelagem,config/projeto.json,
+assumptions.faiman_u1,6.84,hipótese de modelagem,config/projeto.json,
+assumptions.faiman_temperature_used_as_cell_proxy,true,hipótese de modelagem,config/projeto.json,
+assumptions.albedo,0.2,hipótese de modelagem,config/projeto.json,
+assumptions.soiling_fraction,0.0,hipótese de modelagem,config/projeto.json,
+assumptions.dc_wiring_fraction,0.02,hipótese de modelagem,config/projeto.json,
+assumptions.dc_mismatch_fraction,0.02,hipótese de modelagem,config/projeto.json,
+assumptions.dc_connections_fraction,0.005,hipótese de modelagem,config/projeto.json,
+assumptions.ac_wiring_fraction,0.0,hipótese de modelagem,config/projeto.json,
+assumptions.inverter_eta_nom,0.98,hipótese de modelagem,config/projeto.json,
+assumptions.inverter_eta_ref,0.9637,hipótese de modelagem,config/projeto.json,
+assumptions.inverter_capacity_baseline_w_each,30000,hipótese de modelagem,config/projeto.json,"Limite configurado da usina não comprovado; há sensibilidade de 27,6 e 30 kW por inversor."
+assumptions.nasa_hour_label_offset_hours,0,hipótese de modelagem,config/projeto.json,Inativo na cadeia principal; NASA POWER não é entrada atual.
+assumptions.illustrative_modules_in_series,20,hipótese de modelagem,config/projeto.json,Equivalente didático; topologia real de strings/MPPTs não comprovada.
+assumptions.illustrative_parallel_strings,6,hipótese de modelagem,config/projeto.json,Equivalente didático; topologia real de strings/MPPTs não comprovada.
+bipv.area_m2,100,cenário hipotético,config/projeto.json,
+bipv.reference_efficiency,0.1,cenário hipotético,config/projeto.json,
+bipv.gamma_pdc_per_C,-0.0044,cenário hipotético,config/projeto.json,
+bipv.rho_solar,0.12,cenário hipotético,config/projeto.json,
+bipv.tau_solar,0.25,cenário hipotético,config/projeto.json,
+bipv.tau_visible,0.35,cenário hipotético,config/projeto.json,
+bipv.inward_heat_fraction,0.5,cenário hipotético,config/projeto.json,
+bipv.faiman_u0,15,cenário hipotético,config/projeto.json,
+bipv.faiman_u1,3,cenário hipotético,config/projeto.json,
+bipv.tilt_deg,90,cenário hipotético,config/projeto.json,
+bipv.azimuth_deg,180,cenário hipotético,config/projeto.json,
+bipv.status,"""hypothetical scenario; optical and thermal coefficients not measured or certified""",cenário hipotético,config/projeto.json,
+workflow.primary,"""measured_POA_local_meteorology_to_measured_AC""",protocolo de análise,config/projeto.json,
+workflow.use_nasa_by_default,false,protocolo de análise,config/projeto.json,
+workflow.reverse_POA,"""exploratory estimates only; no independent component validation""",protocolo de análise,config/projeto.json,

@@ -1,0 +1,5 @@
+scenario,H_POA_estimated_kWh_m2,E_AC_for_1kWp_kWh,PR_modeled,n_input_hours,scope,resource_origin,status
+Inclinado de referência,634.8174944467481,543.9798429411605,0.8569074540317232,1037,selected complete daytime hours; not full-quarter energy,reverse_POA,hypothetical; no facade observations
+Fachada sul,281.99065423304853,246.4300745280609,0.8738944742629701,1037,selected complete daytime hours; not full-quarter energy,reverse_POA,hypothetical; no facade observations
+Fachada leste,269.9764489975427,234.2804721374394,0.8677811453826915,1037,selected complete daytime hours; not full-quarter energy,reverse_POA,hypothetical; no facade observations
+Fachada oeste,339.6738929776735,284.80428937881715,0.8384638774624257,1037,selected complete daytime hours; not full-quarter energy,reverse_POA,hypothetical; no facade observations

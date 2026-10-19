@@ -1,0 +1,748 @@
+[
+  {
+    "seed_id": "R01",
+    "title": "PVDAQ public photovoltaic performance data — OEDI",
+    "doi": "10.25984/1846021",
+    "authors": "OEDI / PVDAQ",
+    "year": null,
+    "url": "https://data.openei.org/submissions/4568",
+    "topics": [
+      "1.2",
+      "1.3",
+      "1.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Dados medidos e documentação da instalação; licença CC BY 4.0",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R02",
+    "title": "PVDAQ access tools and openEDI documentation",
+    "doi": "",
+    "authors": "PVDAQ / openEDI",
+    "year": null,
+    "url": "https://github.com/NatLabRockies/pvdaq_access",
+    "topics": [
+      "1.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Documentação de acesso, formatos e proveniência",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R03",
+    "title": "Solar Position Algorithm for Solar Radiation Applications — NREL/TP-560-34302",
+    "doi": "",
+    "authors": "Reda, I. and Andreas, A.",
+    "year": 2008,
+    "url": "https://docs.nlr.gov/docs/fy08osti/34302.pdf",
+    "topics": [
+      "1.1",
+      "2.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Posição solar e cálculo do ângulo zenital; revisão do relatório",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R04",
+    "title": "General Solar Position Calculations",
+    "doi": "",
+    "authors": "NOAA Global Monitoring Laboratory",
+    "year": null,
+    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "topics": [
+      "1.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Aproximação usada somente para reproduzir o critério de disponibilidade diurna",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R05",
+    "title": "get_extra_radiation — Spencer method; pvlib 0.16.1",
+    "doi": "",
+    "authors": "pvlib contributors",
+    "year": 2026,
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.get_extra_radiation.html",
+    "topics": [
+      "1.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Irradiância extraterrestre; constante de referência 1366,1 W/m² do software",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R06",
+    "title": "Modeling daylight availability and irradiance components from direct and global irradiance",
+    "doi": "10.1016/0038-092X(90)90055-H",
+    "authors": "Perez, R. and Ineichen, P. and Seals, R. and Michalsky, J. and Stewart, R.",
+    "year": 1990,
+    "url": "https://doi.org/10.1016/0038-092X(90)90055-H",
+    "topics": [
+      "2.2",
+      "3.1"
+    ],
+    "kind": "artigo",
+    "role": "Modelo de transposição difusa; fonte original",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R07",
+    "title": "Assessing the outdoor operating temperature of photovoltaic modules",
+    "doi": "10.1002/pip.813",
+    "authors": "Faiman, D.",
+    "year": 2008,
+    "url": "https://doi.org/10.1002/pip.813",
+    "topics": [
+      "2.1",
+      "3.2"
+    ],
+    "kind": "artigo",
+    "role": "Modelo térmico e interpretação de seus coeficientes",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R08",
+    "title": "Improvement and validation of a model for photovoltaic array performance",
+    "doi": "10.1016/j.solener.2005.06.010",
+    "authors": "De Soto, W. and Klein, S. A. and Beckman, W. A.",
+    "year": 2006,
+    "url": "https://doi.org/10.1016/j.solener.2005.06.010",
+    "topics": [
+      "3.3",
+      "3.4",
+      "4.1"
+    ],
+    "kind": "artigo",
+    "role": "Base física da parametrização do diodo único; implementação CEC identificada separadamente",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R09",
+    "title": "pvlib python: a python package for modeling solar energy systems",
+    "doi": "10.21105/joss.00884",
+    "authors": "Holmgren, W. F. and Hansen, C. W. and Mikofski, M. A.",
+    "year": 2018,
+    "url": "https://joss.theoj.org/papers/10.21105/joss.00884",
+    "topics": [
+      "2.4",
+      "3.3"
+    ],
+    "kind": "artigo",
+    "role": "Referência do software; versão efetivamente usada 0.16.1",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R10",
+    "title": "calcparams_cec and retrieve_sam — pvlib 0.16.1",
+    "doi": "",
+    "authors": "pvlib contributors",
+    "year": 2026,
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.pvsystem.calcparams_cec.html",
+    "topics": [
+      "3.3",
+      "3.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Implementação CEC e origem dos parâmetros SAM preservados em JSON",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R11",
+    "title": "PVWatts Version 5 Manual — NREL/TP-6A20-62641",
+    "doi": "",
+    "authors": "Dobos, A. P.",
+    "year": 2014,
+    "url": "https://docs.nlr.gov/docs/fy14osti/62641.pdf",
+    "topics": [
+      "3.5",
+      "4.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Conversão CC–CA e comparação CC por coeficiente térmico",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R12",
+    "title": "Performance Parameters for Grid-Connected PV Systems — NREL/CP-520-37358",
+    "doi": "10.1109/PVSC.2005.1488451",
+    "authors": "Marion, B. and others",
+    "year": 2005,
+    "url": "https://docs.nlr.gov/docs/fy05osti/37358.pdf",
+    "topics": [
+      "3.6",
+      "4.1",
+      "4.2",
+      "4.3"
+    ],
+    "kind": "documentação técnica",
+    "role": "Produtividades, PR e perdas normalizadas",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R13",
+    "title": "TRIO-20.0/27.6-TL-US — Product Manual",
+    "doi": "",
+    "authors": "ABB",
+    "year": null,
+    "url": "https://library.e.abb.com/public/9ddffa465aa146bfa43bd0854abbcc81/TRIO-20.0-27.6-TL-US_Product_Manual.pdf",
+    "topics": [
+      "3.4",
+      "3.5"
+    ],
+    "kind": "documentação técnica",
+    "role": "Limites e configurações do inversor; configuração efetiva da usina não comprovada",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R14",
+    "title": "A continuous form of the Perez diffuse sky model for forward and reverse transposition",
+    "doi": "10.1016/j.solener.2023.112093",
+    "authors": "Driesse, A. and Jensen, A. R. and Perez, R.",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.solener.2023.112093",
+    "topics": [
+      "1.2",
+      "2.2",
+      "3.1",
+      "4.5"
+    ],
+    "kind": "artigo",
+    "role": "Transposição inversa exploratória; Erbs-Driesse e Perez-Driesse",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R15",
+    "title": "ghi_from_poa_driesse_2024 — pvlib 0.16.1",
+    "doi": "",
+    "authors": "pvlib contributors",
+    "year": 2026,
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.ghi_from_poa_driesse_2024.html",
+    "topics": [
+      "3.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Implementação e critérios numéricos da inversão POA→GHI",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R16",
+    "title": "Reverse transposition limitations — pvlib 0.16.1",
+    "doi": "",
+    "authors": "Driesse, A.",
+    "year": 2026,
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/gallery/irradiance-transposition/plot_rtranpose_limitations.html",
+    "topics": [
+      "3.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Demonstra a possibilidade de soluções não únicas; fechamento não é validação independente",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R18",
+    "title": "erbs_driesse — pvlib 0.16.1",
+    "doi": "",
+    "authors": "pvlib contributors",
+    "year": 2026,
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.erbs_driesse.html",
+    "topics": [
+      "1.2",
+      "3.1"
+    ],
+    "kind": "documentação técnica",
+    "role": "Decomposição estimada de GHI em DNI e DHI, baseada em relação empírica",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R19",
+    "title": "Expanding Solar Energy Opportunities: From Rooftops to Building Integration",
+    "doi": "",
+    "authors": "U.S. Department of Energy",
+    "year": null,
+    "url": "https://www.energy.gov/cmei/systems/articles/expanding-solar-energy-opportunities-rooftops-building-integration",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "documentação técnica",
+    "role": "Contexto introdutório de BIPV; não fornece validação da fachada hipotética",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R20",
+    "title": "Energy Performance Ratings for Windows, Doors, and Skylights",
+    "doi": "",
+    "authors": "U.S. Department of Energy",
+    "year": null,
+    "url": "https://www.energy.gov/energysaver/energy-performance-ratings-windows-doors-and-skylights",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "documentação técnica",
+    "role": "Definição de SHGC e transmissão visível; o SHGC do cenário não é certificado",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R25",
+    "title": "Solar Data Tools demo — Farm Solar Array",
+    "doi": "",
+    "authors": "PV Analytics Webinar",
+    "year": 2024,
+    "url": "https://pv-tutorials.github.io/2024_Analytics_Webinar/solar-data-tools-demo.html",
+    "topics": [
+      "1.3",
+      "1.4",
+      "2.3",
+      "4.1",
+      "4.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Contexto complementar de qualidade e operação; não usado para remover erros altos",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R26",
+    "title": "openEDI PVDAQ dataset documentation",
+    "doi": "",
+    "authors": "openEDI",
+    "year": null,
+    "url": "https://github.com/openEDI/documentation/blob/main/pvdaq.md",
+    "topics": [
+      "1.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Estrutura e documentação geral dos dados abertos",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R27",
+    "title": "Root mean square error (RMSE) or mean absolute error (MAE)? Arguments against avoiding RMSE in the literature",
+    "doi": "10.5194/gmd-7-1247-2014",
+    "authors": "Chai, T. and Draxler, R. R.",
+    "year": 2014,
+    "url": "https://gmd.copernicus.org/articles/7/1247/2014/",
+    "topics": [
+      "4.4"
+    ],
+    "kind": "artigo",
+    "role": "Métricas complementares para avaliação, com definição explícita de sinal e normalização neste projeto",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R28",
+    "title": "Soiling Losses",
+    "doi": "",
+    "authors": "Sandia National Laboratories / PVPMC",
+    "year": null,
+    "url": "https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/shading-soiling-and-reflection-losses/soiling-losses/",
+    "topics": [
+      "2.3"
+    ],
+    "kind": "documentação técnica",
+    "role": "Mecanismo de atenuação por sujidade e interpretação de hipóteses",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R29",
+    "title": "Plane of Array (POA) Irradiance",
+    "doi": "",
+    "authors": "Sandia National Laboratories / PVPMC",
+    "year": null,
+    "url": "https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/plane-of-array-poa-irradiance/",
+    "topics": [
+      "1.2",
+      "2.2",
+      "2.4"
+    ],
+    "kind": "documentação técnica",
+    "role": "Componentes da POA e cuidado com correções já incorporadas à medição",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "R30",
+    "title": "Performance Ratio",
+    "doi": "",
+    "authors": "Sandia National Laboratories / PVPMC",
+    "year": null,
+    "url": "https://pvpmc.sandia.gov/modeling-guide/5-ac-system-output/pv-performance-metrics/performance-ratio/",
+    "topics": [
+      "4.2",
+      "4.3"
+    ],
+    "kind": "documentação técnica",
+    "role": "Definição de Yr e PR; especificação da referência de irradiância",
+    "priority": 2,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S01",
+    "title": "Solar Engineering of Thermal Processes Photovoltaics and Wind",
+    "doi": "10.1002/9781119540328",
+    "authors": "",
+    "year": 2020,
+    "url": "",
+    "topics": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6",
+      "4.1",
+      "4.2",
+      "4.3"
+    ],
+    "kind": "livro",
+    "role": "Geometria, radiação, transferência de calor e sistemas fotovoltaicos",
+    "priority": 3,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S02",
+    "title": "Handbook of Photovoltaic Science and Engineering",
+    "doi": "10.1002/9780470974704",
+    "authors": "",
+    "year": 2011,
+    "url": "",
+    "topics": [
+      "1.2",
+      "2.1",
+      "2.3",
+      "3.2",
+      "3.3",
+      "3.4",
+      "3.5",
+      "3.6",
+      "4.1",
+      "4.2",
+      "4.3",
+      "4.5"
+    ],
+    "kind": "livro",
+    "role": "Fundamentos físicos, dispositivos, arranjos e integração",
+    "priority": 3,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S03",
+    "title": "Solar Energy Engineering Processes and Systems",
+    "doi": "10.1016/C2011-0-07038-2",
+    "authors": "Soteris A. Kalogirou",
+    "year": 2014,
+    "url": "",
+    "topics": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "2.1",
+      "2.2",
+      "2.4",
+      "3.1",
+      "3.2",
+      "3.6"
+    ],
+    "kind": "livro",
+    "role": "Recurso solar, geometria e modelagem de sistemas",
+    "priority": 3,
+    "verify_by_title": false,
+    "authorship_source": "https://shop.elsevier.com/subjects/books/physical-sciences-and-engineering/engineering-and-technology/general-engineering/engineering-general?page=15"
+  },
+  {
+    "seed_id": "S04",
+    "title": "Solar position algorithm for solar radiation applications",
+    "doi": "10.1016/j.solener.2003.12.003",
+    "authors": "",
+    "year": 2004,
+    "url": "",
+    "topics": [
+      "1.1"
+    ],
+    "kind": "artigo",
+    "role": "Artigo do algoritmo SPA usado no cálculo geométrico",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S05",
+    "title": "On the temperature dependence of photovoltaic module electrical performance A review of efficiency power correlations",
+    "doi": "",
+    "authors": "",
+    "year": 2009,
+    "url": "",
+    "topics": [
+      "2.1",
+      "3.2"
+    ],
+    "kind": "artigo de revisão",
+    "role": "Relacionar temperatura e desempenho elétrico",
+    "priority": 4,
+    "verify_by_title": true
+  },
+  {
+    "seed_id": "S06",
+    "title": "The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance",
+    "doi": "",
+    "authors": "",
+    "year": 2013,
+    "url": "",
+    "topics": [
+      "2.2"
+    ],
+    "kind": "artigo",
+    "role": "Refletância do entorno e resposta espectral dos dispositivos",
+    "priority": 4,
+    "verify_by_title": true
+  },
+  {
+    "seed_id": "S07",
+    "title": "Impact of dust on solar photovoltaic performance Research status challenges and recommendations",
+    "doi": "",
+    "authors": "",
+    "year": 2010,
+    "url": "",
+    "topics": [
+      "2.3",
+      "4.1"
+    ],
+    "kind": "artigo de revisão",
+    "role": "Fundamentos e limites da avaliação de sujidade",
+    "priority": 4,
+    "verify_by_title": true
+  },
+  {
+    "seed_id": "S08",
+    "title": "Worldwide optimum tilt angles and ratios of sunlight incident upon tilted and tracked solar panels relative to horizontal panels",
+    "doi": "",
+    "authors": "",
+    "year": 2018,
+    "url": "",
+    "topics": [
+      "2.4"
+    ],
+    "kind": "artigo",
+    "role": "Inclinação e orientação na captação do recurso",
+    "priority": 4,
+    "verify_by_title": true
+  },
+  {
+    "seed_id": "S09",
+    "title": "Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays",
+    "doi": "10.1109/TPEL.2009.2013862",
+    "authors": "",
+    "year": 2009,
+    "url": "",
+    "topics": [
+      "3.3",
+      "3.4"
+    ],
+    "kind": "artigo",
+    "role": "Modelagem elétrica de módulos e arranjos",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S10",
+    "title": "Computer simulation of the effects of electrical mismatches in photovoltaic cell interconnection circuits",
+    "doi": "10.1016/0379-6787(88)90059-2",
+    "authors": "",
+    "year": 1988,
+    "url": "",
+    "topics": [
+      "2.3",
+      "3.4"
+    ],
+    "kind": "artigo",
+    "role": "Mismatch e interconexão elétrica",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S11",
+    "title": "Performance Model for Grid Connected Photovoltaic Inverters",
+    "doi": "10.2172/920449",
+    "authors": "",
+    "year": 2007,
+    "url": "",
+    "topics": [
+      "3.5"
+    ],
+    "kind": "relatório",
+    "role": "Modelo e caracterização de inversores conectados à rede",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S12",
+    "title": "Photovoltaic Degradation Rates An Analytical Review",
+    "doi": "10.1002/pip.1182",
+    "authors": "",
+    "year": 2013,
+    "url": "",
+    "topics": [
+      "4.1"
+    ],
+    "kind": "artigo de revisão",
+    "role": "Perdas e degradação não se confundem com resíduos de um trimestre",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S13",
+    "title": "Performance Parameters for Grid Connected PV Systems",
+    "doi": "10.1109/PVSC.2005.1488451",
+    "authors": "",
+    "year": 2005,
+    "url": "",
+    "topics": [
+      "3.6",
+      "4.2",
+      "4.3"
+    ],
+    "kind": "artigo",
+    "role": "Produtividades, PR e parâmetros de desempenho",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S14",
+    "title": "Weather Corrected Performance Ratio",
+    "doi": "10.2172/1078057",
+    "authors": "",
+    "year": 2013,
+    "url": "",
+    "topics": [
+      "4.3"
+    ],
+    "kind": "relatório",
+    "role": "Efeito meteorológico no PR",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S15",
+    "title": "Advantages of the mean absolute error MAE over the root mean square error RMSE in assessing average model performance",
+    "doi": "10.3354/cr030079",
+    "authors": "",
+    "year": 2005,
+    "url": "",
+    "topics": [
+      "4.4"
+    ],
+    "kind": "artigo",
+    "role": "Interpretação complementar de MAE, RMSE e viés",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S16",
+    "title": "Building integrated photovoltaic products A state-of-the-art review and future research opportunities",
+    "doi": "10.1016/j.solmat.2011.12.016",
+    "authors": "",
+    "year": 2012,
+    "url": "",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "artigo de revisão",
+    "role": "Materiais, funções construtivas e desempenho BIPV",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S17",
+    "title": "A key review of building integrated photovoltaic BIPV systems",
+    "doi": "10.1016/j.jestch.2017.01.009",
+    "authors": "",
+    "year": 2017,
+    "url": "",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "artigo de revisão",
+    "role": "Integração arquitetônica, elétrica e térmica",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S18",
+    "title": "Best Practices Handbook for the Collection and Use of Solar Resource Data for Solar Energy Applications Third Edition",
+    "doi": "10.2172/1778700",
+    "authors": "",
+    "year": 2021,
+    "url": "",
+    "topics": [
+      "1.2",
+      "1.3",
+      "1.4",
+      "3.1"
+    ],
+    "kind": "relatório",
+    "role": "Medição, qualidade e representatividade dos dados solares",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S19",
+    "title": "Experimental investigation of the temperature distribution in a BIPV façade",
+    "doi": "10.1051/epjpv/2024032",
+    "authors": "",
+    "year": 2024,
+    "url": "",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "artigo",
+    "role": "Exemplo experimental recente de temperatura em fachada BIPV",
+    "priority": 4,
+    "verify_by_title": false
+  },
+  {
+    "seed_id": "S20",
+    "title": "Semi-Transparent Building Integrated Photovoltaic Solar Glazing Investigations of Electrical and Optical Performances for Window Applications in Tropical Region",
+    "doi": "10.1155/2019/6096481",
+    "authors": "",
+    "year": 2019,
+    "url": "",
+    "topics": [
+      "4.5"
+    ],
+    "kind": "artigo",
+    "role": "Desempenho elétrico e óptico de vidros fotovoltaicos semitransparentes",
+    "priority": 6,
+    "verify_by_title": false
+  }
+]

@@ -1,0 +1,53 @@
+section,metadata_path,value,value_type
+site,site.system_id,2107,int
+site,site.name,Farm Solar Array,str
+site,site.city,"Arbuckle, California, USA",str
+site,site.latitude,38.996306,float
+site,site.longitude,-122.134111,float
+site,site.altitude_m,10,int
+site,site.timezone,America/Los_Angeles,str
+site,site.tilt_deg,25,int
+site,site.azimuth_deg,180,int
+period,period.start_local,2024-04-01,str
+period,period.end_exclusive_local,2024-07-01,str
+period,period.daylight_elevation_deg,10,int
+period,period.aggregation_minutes,15,int
+system,system.n_modules,2880,int
+system,system.n_inverters,24,int
+system,system.modules_per_group,120,int
+system,system.metadata_p0_kw,893,int
+system,system.label_module_power_w,310,int
+system,system.module_cec_key,Hyundai_Heavy_Industries_Green_Energy_Co__HiS_M310TI,str
+system,system.inverter_cec_key,ABB__TRIO_27_6_TL_OUTD_S1B_US_480__480V_,str
+system,system.inverter_nominal_ac_w,27600,int
+system,system.inverter_max_ac_w,30000,int
+assumptions,assumptions.faiman_u0,25.0,float
+assumptions,assumptions.faiman_u1,6.84,float
+assumptions,assumptions.faiman_temperature_used_as_cell_proxy,True,bool
+assumptions,assumptions.albedo,0.2,float
+assumptions,assumptions.soiling_fraction,0.0,float
+assumptions,assumptions.dc_wiring_fraction,0.02,float
+assumptions,assumptions.dc_mismatch_fraction,0.02,float
+assumptions,assumptions.dc_connections_fraction,0.005,float
+assumptions,assumptions.ac_wiring_fraction,0.0,float
+assumptions,assumptions.inverter_eta_nom,0.98,float
+assumptions,assumptions.inverter_eta_ref,0.9637,float
+assumptions,assumptions.inverter_capacity_baseline_w_each,30000,int
+assumptions,assumptions.nasa_hour_label_offset_hours,0,int
+assumptions,assumptions.illustrative_modules_in_series,20,int
+assumptions,assumptions.illustrative_parallel_strings,6,int
+bipv,bipv.area_m2,100,int
+bipv,bipv.reference_efficiency,0.1,float
+bipv,bipv.gamma_pdc_per_C,-0.0044,float
+bipv,bipv.rho_solar,0.12,float
+bipv,bipv.tau_solar,0.25,float
+bipv,bipv.tau_visible,0.35,float
+bipv,bipv.inward_heat_fraction,0.5,float
+bipv,bipv.faiman_u0,15,int
+bipv,bipv.faiman_u1,3,int
+bipv,bipv.tilt_deg,90,int
+bipv,bipv.azimuth_deg,180,int
+bipv,bipv.status,hypothetical scenario; optical and thermal coefficients not measured or certified,str
+workflow,workflow.primary,measured_POA_local_meteorology_to_measured_AC,str
+workflow,workflow.use_nasa_by_default,False,bool
+workflow,workflow.reverse_POA,exploratory estimates only; no independent component validation,str

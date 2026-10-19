@@ -45,7 +45,7 @@ python -m pip install -r requirements.txt
 python scripts/executar_projeto.py
 ```
 
-Para regenerar todas as figuras, acrescentar --graficos. O notebook principal fica em [notebooks/01_Projeto_FV_Quatro_Secoes.ipynb](notebooks/01_Projeto_FV_Quatro_Secoes.ipynb); o de literatura fica em [bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb](bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb). Os notebooks versionados estão sem saídas, enquanto os resultados numéricos pequenos já estão organizados em outputs. O [notebook executado no Drive](https://drive.google.com/file/d/1EYHPdkAeotZTRryg73DTotHkOZH691Zk/view) preserva a consulta anterior.
+Para regenerar todas as figuras, acrescentar --graficos. O notebook principal fica em [notebooks/01_Projeto_FV_Quatro_Secoes.ipynb](notebooks/01_Projeto_FV_Quatro_Secoes.ipynb); o de literatura fica em [bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb](bibliografia/02_Fundamentacao_Teorica_por_Subsecao.ipynb). Os notebooks versionados estão sem saídas, enquanto os resultados numéricos pequenos já estão organizados em outputs. O notebook executado no Drive (consulta no acervo da equipe) preserva a consulta anterior.
 
 ## Conferências e limites
 
@@ -57,3 +57,7 @@ python tests/verificar_organizacao.py
 ```
 
 O grupo redige no documento oficial compartilhado escolhido e usa versões consolidadas no GitHub. Mudanças de cálculo devem passar por uma branch curta e revisão por outro integrante. Não colocar PDFs bibliográficos ou credenciais no repositório. A norma IEC pendente não foi tratada como obtida nem substituída por um relatório.
+
+## Consulta ao acervo da equipe
+
+Esta versão pública contém referências bibliográficas, DOIs, código e dados científicos públicos. O mapa de links e identificadores do Google Drive fica no pacote de consulta da equipe. Solicite esse pacote ao responsável pelo capítulo. Os marcadores ACERVO_RESTRITO_DA_EQUIPE e ID_RESTRITO_DA_EQUIPE indicam referências de acesso reservado.

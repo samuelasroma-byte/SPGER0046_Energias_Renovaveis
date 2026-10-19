@@ -1,0 +1,2225 @@
+metadata_path,value,value_type
+System.system_id,2107,int
+System.public_name,Farm Solar Array,str
+System.power(kW DC),893.0,float
+System.started_on,2017-01-01 00:00:00,str
+System.comments,Actual timezone is US/Pacific but needed to use special PST8PDT. System is a participant in the DOE Solar Data Prize 2023,str
+System.data_prize,t,str
+System.timezone_code,PST8PDT,str
+System.us_region,West,str
+System.agripv,f,str
+System.first_timestamp,2018-12-15 00:15:00,str
+System.last_timestamp,2023-11-15 12:21:50,str
+System.years_of_data,4.9205,float
+System.data_time_resolution,5-15 min,str
+System.number_data_channels,125,int
+System.data_size,445 MB,str
+Site.site_id,7211,int
+Site.public_name,FSA_1,str
+Site.location,"Arbuckle, CA",str
+Site.us_region,West,str
+Site.latitude,38.996306,float
+Site.longitude,-122.134111,float
+Site.elevation(m),10.0,float
+Site.climate_type,Csa,str
+Mount.Mount 0.mount_id,17263,int
+Mount.Mount 0.name,mnt_fss_1,str
+Mount.Mount 0.manufacturer,Schletter,str
+Mount.Mount 0.model,,str
+Mount.Mount 0.tracking,f,str
+Mount.Mount 0.type,ground,str
+Mount.Mount 0.azimuth,180.0,float
+Mount.Mount 0.tilt,25.0,float
+Inverters.Inverter 0.inverter_id,29943,int
+Inverters.Inverter 0.name,inv_fss_1,str
+Inverters.Inverter 0.manufacturer,ABB,str
+Inverters.Inverter 0.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 0.type,string,str
+Inverters.Inverter 0.quantity,1,int
+Inverters.Inverter 0.serial_num,,str
+Inverters.Inverter 0.comments,,str
+Inverters.Inverter 0.time_interval,L,str
+Inverters.Inverter 0.modules_per_string,,str
+Inverters.Inverter 0.num_strings,,str
+Inverters.Inverter 1.inverter_id,29944,int
+Inverters.Inverter 1.name,inv_fss_2,str
+Inverters.Inverter 1.manufacturer,ABB,str
+Inverters.Inverter 1.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 1.type,string,str
+Inverters.Inverter 1.quantity,1,int
+Inverters.Inverter 1.serial_num,,str
+Inverters.Inverter 1.comments,,str
+Inverters.Inverter 1.time_interval,L,str
+Inverters.Inverter 1.modules_per_string,,str
+Inverters.Inverter 1.num_strings,,str
+Inverters.Inverter 2.inverter_id,29945,int
+Inverters.Inverter 2.name,inv_fss_3,str
+Inverters.Inverter 2.manufacturer,ABB,str
+Inverters.Inverter 2.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 2.type,string,str
+Inverters.Inverter 2.quantity,1,int
+Inverters.Inverter 2.serial_num,,str
+Inverters.Inverter 2.comments,,str
+Inverters.Inverter 2.time_interval,L,str
+Inverters.Inverter 2.modules_per_string,,str
+Inverters.Inverter 2.num_strings,,str
+Inverters.Inverter 3.inverter_id,29946,int
+Inverters.Inverter 3.name,inv_fss_4,str
+Inverters.Inverter 3.manufacturer,ABB,str
+Inverters.Inverter 3.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 3.type,string,str
+Inverters.Inverter 3.quantity,1,int
+Inverters.Inverter 3.serial_num,,str
+Inverters.Inverter 3.comments,,str
+Inverters.Inverter 3.time_interval,L,str
+Inverters.Inverter 3.modules_per_string,,str
+Inverters.Inverter 3.num_strings,,str
+Inverters.Inverter 4.inverter_id,29947,int
+Inverters.Inverter 4.name,inv_fss_5,str
+Inverters.Inverter 4.manufacturer,ABB,str
+Inverters.Inverter 4.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 4.type,string,str
+Inverters.Inverter 4.quantity,1,int
+Inverters.Inverter 4.serial_num,,str
+Inverters.Inverter 4.comments,,str
+Inverters.Inverter 4.time_interval,L,str
+Inverters.Inverter 4.modules_per_string,,str
+Inverters.Inverter 4.num_strings,,str
+Inverters.Inverter 5.inverter_id,29948,int
+Inverters.Inverter 5.name,inv_fss_6,str
+Inverters.Inverter 5.manufacturer,ABB,str
+Inverters.Inverter 5.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 5.type,string,str
+Inverters.Inverter 5.quantity,1,int
+Inverters.Inverter 5.serial_num,,str
+Inverters.Inverter 5.comments,,str
+Inverters.Inverter 5.time_interval,L,str
+Inverters.Inverter 5.modules_per_string,,str
+Inverters.Inverter 5.num_strings,,str
+Inverters.Inverter 6.inverter_id,29949,int
+Inverters.Inverter 6.name,inv_fss_7,str
+Inverters.Inverter 6.manufacturer,ABB,str
+Inverters.Inverter 6.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 6.type,string,str
+Inverters.Inverter 6.quantity,1,int
+Inverters.Inverter 6.serial_num,,str
+Inverters.Inverter 6.comments,,str
+Inverters.Inverter 6.time_interval,L,str
+Inverters.Inverter 6.modules_per_string,,str
+Inverters.Inverter 6.num_strings,,str
+Inverters.Inverter 7.inverter_id,29950,int
+Inverters.Inverter 7.name,inv_fss_8,str
+Inverters.Inverter 7.manufacturer,ABB,str
+Inverters.Inverter 7.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 7.type,string,str
+Inverters.Inverter 7.quantity,1,int
+Inverters.Inverter 7.serial_num,,str
+Inverters.Inverter 7.comments,,str
+Inverters.Inverter 7.time_interval,L,str
+Inverters.Inverter 7.modules_per_string,,str
+Inverters.Inverter 7.num_strings,,str
+Inverters.Inverter 8.inverter_id,29951,int
+Inverters.Inverter 8.name,inv_fss_9,str
+Inverters.Inverter 8.manufacturer,ABB,str
+Inverters.Inverter 8.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 8.type,string,str
+Inverters.Inverter 8.quantity,1,int
+Inverters.Inverter 8.serial_num,,str
+Inverters.Inverter 8.comments,,str
+Inverters.Inverter 8.time_interval,L,str
+Inverters.Inverter 8.modules_per_string,,str
+Inverters.Inverter 8.num_strings,,str
+Inverters.Inverter 9.inverter_id,29952,int
+Inverters.Inverter 9.name,inv_fss_10,str
+Inverters.Inverter 9.manufacturer,ABB,str
+Inverters.Inverter 9.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 9.type,string,str
+Inverters.Inverter 9.quantity,1,int
+Inverters.Inverter 9.serial_num,,str
+Inverters.Inverter 9.comments,,str
+Inverters.Inverter 9.time_interval,L,str
+Inverters.Inverter 9.modules_per_string,,str
+Inverters.Inverter 9.num_strings,,str
+Inverters.Inverter 10.inverter_id,29953,int
+Inverters.Inverter 10.name,inv_fss_11,str
+Inverters.Inverter 10.manufacturer,ABB,str
+Inverters.Inverter 10.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 10.type,string,str
+Inverters.Inverter 10.quantity,1,int
+Inverters.Inverter 10.serial_num,,str
+Inverters.Inverter 10.comments,,str
+Inverters.Inverter 10.time_interval,L,str
+Inverters.Inverter 10.modules_per_string,,str
+Inverters.Inverter 10.num_strings,,str
+Inverters.Inverter 11.inverter_id,29954,int
+Inverters.Inverter 11.name,inv_fss_12,str
+Inverters.Inverter 11.manufacturer,ABB,str
+Inverters.Inverter 11.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 11.type,string,str
+Inverters.Inverter 11.quantity,1,int
+Inverters.Inverter 11.serial_num,,str
+Inverters.Inverter 11.comments,,str
+Inverters.Inverter 11.time_interval,L,str
+Inverters.Inverter 11.modules_per_string,,str
+Inverters.Inverter 11.num_strings,,str
+Inverters.Inverter 12.inverter_id,29955,int
+Inverters.Inverter 12.name,inv_fss_13,str
+Inverters.Inverter 12.manufacturer,ABB,str
+Inverters.Inverter 12.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 12.type,string,str
+Inverters.Inverter 12.quantity,1,int
+Inverters.Inverter 12.serial_num,,str
+Inverters.Inverter 12.comments,,str
+Inverters.Inverter 12.time_interval,L,str
+Inverters.Inverter 12.modules_per_string,,str
+Inverters.Inverter 12.num_strings,,str
+Inverters.Inverter 13.inverter_id,29956,int
+Inverters.Inverter 13.name,inv_fss_14,str
+Inverters.Inverter 13.manufacturer,ABB,str
+Inverters.Inverter 13.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 13.type,string,str
+Inverters.Inverter 13.quantity,1,int
+Inverters.Inverter 13.serial_num,,str
+Inverters.Inverter 13.comments,,str
+Inverters.Inverter 13.time_interval,L,str
+Inverters.Inverter 13.modules_per_string,,str
+Inverters.Inverter 13.num_strings,,str
+Inverters.Inverter 14.inverter_id,29957,int
+Inverters.Inverter 14.name,inv_fss_15,str
+Inverters.Inverter 14.manufacturer,ABB,str
+Inverters.Inverter 14.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 14.type,string,str
+Inverters.Inverter 14.quantity,1,int
+Inverters.Inverter 14.serial_num,,str
+Inverters.Inverter 14.comments,,str
+Inverters.Inverter 14.time_interval,L,str
+Inverters.Inverter 14.modules_per_string,,str
+Inverters.Inverter 14.num_strings,,str
+Inverters.Inverter 15.inverter_id,29958,int
+Inverters.Inverter 15.name,inv_fss_16,str
+Inverters.Inverter 15.manufacturer,ABB,str
+Inverters.Inverter 15.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 15.type,string,str
+Inverters.Inverter 15.quantity,1,int
+Inverters.Inverter 15.serial_num,,str
+Inverters.Inverter 15.comments,,str
+Inverters.Inverter 15.time_interval,L,str
+Inverters.Inverter 15.modules_per_string,,str
+Inverters.Inverter 15.num_strings,,str
+Inverters.Inverter 16.inverter_id,29959,int
+Inverters.Inverter 16.name,inv_fss_17,str
+Inverters.Inverter 16.manufacturer,ABB,str
+Inverters.Inverter 16.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 16.type,string,str
+Inverters.Inverter 16.quantity,1,int
+Inverters.Inverter 16.serial_num,,str
+Inverters.Inverter 16.comments,,str
+Inverters.Inverter 16.time_interval,L,str
+Inverters.Inverter 16.modules_per_string,,str
+Inverters.Inverter 16.num_strings,,str
+Inverters.Inverter 17.inverter_id,29960,int
+Inverters.Inverter 17.name,inv_fss_18,str
+Inverters.Inverter 17.manufacturer,ABB,str
+Inverters.Inverter 17.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 17.type,string,str
+Inverters.Inverter 17.quantity,1,int
+Inverters.Inverter 17.serial_num,,str
+Inverters.Inverter 17.comments,,str
+Inverters.Inverter 17.time_interval,L,str
+Inverters.Inverter 17.modules_per_string,,str
+Inverters.Inverter 17.num_strings,,str
+Inverters.Inverter 18.inverter_id,29961,int
+Inverters.Inverter 18.name,inv_fss_19,str
+Inverters.Inverter 18.manufacturer,ABB,str
+Inverters.Inverter 18.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 18.type,string,str
+Inverters.Inverter 18.quantity,1,int
+Inverters.Inverter 18.serial_num,,str
+Inverters.Inverter 18.comments,,str
+Inverters.Inverter 18.time_interval,L,str
+Inverters.Inverter 18.modules_per_string,,str
+Inverters.Inverter 18.num_strings,,str
+Inverters.Inverter 19.inverter_id,29962,int
+Inverters.Inverter 19.name,inv_fss_20,str
+Inverters.Inverter 19.manufacturer,ABB,str
+Inverters.Inverter 19.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 19.type,string,str
+Inverters.Inverter 19.quantity,1,int
+Inverters.Inverter 19.serial_num,,str
+Inverters.Inverter 19.comments,,str
+Inverters.Inverter 19.time_interval,L,str
+Inverters.Inverter 19.modules_per_string,,str
+Inverters.Inverter 19.num_strings,,str
+Inverters.Inverter 20.inverter_id,29963,int
+Inverters.Inverter 20.name,inv_fss_21,str
+Inverters.Inverter 20.manufacturer,ABB,str
+Inverters.Inverter 20.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 20.type,string,str
+Inverters.Inverter 20.quantity,1,int
+Inverters.Inverter 20.serial_num,,str
+Inverters.Inverter 20.comments,,str
+Inverters.Inverter 20.time_interval,L,str
+Inverters.Inverter 20.modules_per_string,,str
+Inverters.Inverter 20.num_strings,,str
+Inverters.Inverter 21.inverter_id,29964,int
+Inverters.Inverter 21.name,inv_fss_22,str
+Inverters.Inverter 21.manufacturer,ABB,str
+Inverters.Inverter 21.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 21.type,string,str
+Inverters.Inverter 21.quantity,1,int
+Inverters.Inverter 21.serial_num,,str
+Inverters.Inverter 21.comments,,str
+Inverters.Inverter 21.time_interval,L,str
+Inverters.Inverter 21.modules_per_string,,str
+Inverters.Inverter 21.num_strings,,str
+Inverters.Inverter 22.inverter_id,29965,int
+Inverters.Inverter 22.name,inv_fss_23,str
+Inverters.Inverter 22.manufacturer,ABB,str
+Inverters.Inverter 22.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 22.type,string,str
+Inverters.Inverter 22.quantity,1,int
+Inverters.Inverter 22.serial_num,,str
+Inverters.Inverter 22.comments,,str
+Inverters.Inverter 22.time_interval,L,str
+Inverters.Inverter 22.modules_per_string,,str
+Inverters.Inverter 22.num_strings,,str
+Inverters.Inverter 23.inverter_id,29966,int
+Inverters.Inverter 23.name,inv_fss_24,str
+Inverters.Inverter 23.manufacturer,ABB,str
+Inverters.Inverter 23.model,TRIO-27.6-TL-OUTD-S1B,str
+Inverters.Inverter 23.type,string,str
+Inverters.Inverter 23.quantity,1,int
+Inverters.Inverter 23.serial_num,,str
+Inverters.Inverter 23.comments,,str
+Inverters.Inverter 23.time_interval,L,str
+Inverters.Inverter 23.modules_per_string,,str
+Inverters.Inverter 23.num_strings,,str
+Modules.Module 0.module_id,55773,int
+Modules.Module 0.inverter_id,None,str
+Modules.Module 0.name,mod_fss_1,str
+Modules.Module 0.manufacturer,Hyundai,str
+Modules.Module 0.model,HiS-M310TI,str
+Modules.Module 0.type,mono-Si,str
+Modules.Module 0.quantity,120,int
+Modules.Module 0.start_on,2017-11-01 00:00:00,str
+Modules.Module 0.end_on,,str
+Modules.Module 0.serial_num,,str
+Modules.Module 0.reference_module,False,str
+Modules.Module 0.comments,,str
+Modules.Module 1.module_id,55774,int
+Modules.Module 1.inverter_id,None,str
+Modules.Module 1.name,mod_fss_2,str
+Modules.Module 1.manufacturer,Hyundai,str
+Modules.Module 1.model,HiS-M310TI,str
+Modules.Module 1.type,mono-Si,str
+Modules.Module 1.quantity,120,int
+Modules.Module 1.start_on,2017-11-01 00:00:00,str
+Modules.Module 1.end_on,,str
+Modules.Module 1.serial_num,,str
+Modules.Module 1.reference_module,False,str
+Modules.Module 1.comments,,str
+Modules.Module 2.module_id,55775,int
+Modules.Module 2.inverter_id,None,str
+Modules.Module 2.name,mod_fss_3,str
+Modules.Module 2.manufacturer,Hyundai,str
+Modules.Module 2.model,HiS-M310TI,str
+Modules.Module 2.type,mono-Si,str
+Modules.Module 2.quantity,120,int
+Modules.Module 2.start_on,2017-11-01 00:00:00,str
+Modules.Module 2.end_on,,str
+Modules.Module 2.serial_num,,str
+Modules.Module 2.reference_module,False,str
+Modules.Module 2.comments,,str
+Modules.Module 3.module_id,55776,int
+Modules.Module 3.inverter_id,None,str
+Modules.Module 3.name,mod_fss_4,str
+Modules.Module 3.manufacturer,Hyundai,str
+Modules.Module 3.model,HiS-M310TI,str
+Modules.Module 3.type,mono-Si,str
+Modules.Module 3.quantity,120,int
+Modules.Module 3.start_on,2017-11-01 00:00:00,str
+Modules.Module 3.end_on,,str
+Modules.Module 3.serial_num,,str
+Modules.Module 3.reference_module,False,str
+Modules.Module 3.comments,,str
+Modules.Module 4.module_id,55777,int
+Modules.Module 4.inverter_id,None,str
+Modules.Module 4.name,mod_fss_5,str
+Modules.Module 4.manufacturer,Hyundai,str
+Modules.Module 4.model,HiS-M310TI,str
+Modules.Module 4.type,mono-Si,str
+Modules.Module 4.quantity,120,int
+Modules.Module 4.start_on,2017-11-01 00:00:00,str
+Modules.Module 4.end_on,,str
+Modules.Module 4.serial_num,,str
+Modules.Module 4.reference_module,False,str
+Modules.Module 4.comments,,str
+Modules.Module 5.module_id,55778,int
+Modules.Module 5.inverter_id,None,str
+Modules.Module 5.name,mod_fss_6,str
+Modules.Module 5.manufacturer,Hyundai,str
+Modules.Module 5.model,HiS-M310TI,str
+Modules.Module 5.type,mono-Si,str
+Modules.Module 5.quantity,120,int
+Modules.Module 5.start_on,2017-11-01 00:00:00,str
+Modules.Module 5.end_on,,str
+Modules.Module 5.serial_num,,str
+Modules.Module 5.reference_module,False,str
+Modules.Module 5.comments,,str
+Modules.Module 6.module_id,55779,int
+Modules.Module 6.inverter_id,None,str
+Modules.Module 6.name,mod_fss_7,str
+Modules.Module 6.manufacturer,Hyundai,str
+Modules.Module 6.model,HiS-M310TI,str
+Modules.Module 6.type,mono-Si,str
+Modules.Module 6.quantity,120,int
+Modules.Module 6.start_on,2017-11-01 00:00:00,str
+Modules.Module 6.end_on,,str
+Modules.Module 6.serial_num,,str
+Modules.Module 6.reference_module,False,str
+Modules.Module 6.comments,,str
+Modules.Module 7.module_id,55780,int
+Modules.Module 7.inverter_id,None,str
+Modules.Module 7.name,mod_fss_8,str
+Modules.Module 7.manufacturer,Hyundai,str
+Modules.Module 7.model,HiS-M310TI,str
+Modules.Module 7.type,mono-Si,str
+Modules.Module 7.quantity,120,int
+Modules.Module 7.start_on,2017-11-01 00:00:00,str
+Modules.Module 7.end_on,,str
+Modules.Module 7.serial_num,,str
+Modules.Module 7.reference_module,False,str
+Modules.Module 7.comments,,str
+Modules.Module 8.module_id,55781,int
+Modules.Module 8.inverter_id,None,str
+Modules.Module 8.name,mod_fss_9,str
+Modules.Module 8.manufacturer,Hyundai,str
+Modules.Module 8.model,HiS-M310TI,str
+Modules.Module 8.type,mono-Si,str
+Modules.Module 8.quantity,120,int
+Modules.Module 8.start_on,2017-11-01 00:00:00,str
+Modules.Module 8.end_on,,str
+Modules.Module 8.serial_num,,str
+Modules.Module 8.reference_module,False,str
+Modules.Module 8.comments,,str
+Modules.Module 9.module_id,55782,int
+Modules.Module 9.inverter_id,None,str
+Modules.Module 9.name,mod_fss_10,str
+Modules.Module 9.manufacturer,Hyundai,str
+Modules.Module 9.model,HiS-M310TI,str
+Modules.Module 9.type,mono-Si,str
+Modules.Module 9.quantity,120,int
+Modules.Module 9.start_on,2017-11-01 00:00:00,str
+Modules.Module 9.end_on,,str
+Modules.Module 9.serial_num,,str
+Modules.Module 9.reference_module,False,str
+Modules.Module 9.comments,,str
+Modules.Module 10.module_id,55783,int
+Modules.Module 10.inverter_id,None,str
+Modules.Module 10.name,mod_fss_11,str
+Modules.Module 10.manufacturer,Hyundai,str
+Modules.Module 10.model,HiS-M310TI,str
+Modules.Module 10.type,mono-Si,str
+Modules.Module 10.quantity,120,int
+Modules.Module 10.start_on,2017-11-01 00:00:00,str
+Modules.Module 10.end_on,,str
+Modules.Module 10.serial_num,,str
+Modules.Module 10.reference_module,False,str
+Modules.Module 10.comments,,str
+Modules.Module 11.module_id,55784,int
+Modules.Module 11.inverter_id,None,str
+Modules.Module 11.name,mod_fss_12,str
+Modules.Module 11.manufacturer,Hyundai,str
+Modules.Module 11.model,HiS-M310TI,str
+Modules.Module 11.type,mono-Si,str
+Modules.Module 11.quantity,120,int
+Modules.Module 11.start_on,2017-11-01 00:00:00,str
+Modules.Module 11.end_on,,str
+Modules.Module 11.serial_num,,str
+Modules.Module 11.reference_module,False,str
+Modules.Module 11.comments,,str
+Modules.Module 12.module_id,55785,int
+Modules.Module 12.inverter_id,None,str
+Modules.Module 12.name,mod_fss_13,str
+Modules.Module 12.manufacturer,Hyundai,str
+Modules.Module 12.model,HiS-M310TI,str
+Modules.Module 12.type,mono-Si,str
+Modules.Module 12.quantity,120,int
+Modules.Module 12.start_on,2017-11-01 00:00:00,str
+Modules.Module 12.end_on,,str
+Modules.Module 12.serial_num,,str
+Modules.Module 12.reference_module,False,str
+Modules.Module 12.comments,,str
+Modules.Module 13.module_id,55786,int
+Modules.Module 13.inverter_id,None,str
+Modules.Module 13.name,mod_fss_14,str
+Modules.Module 13.manufacturer,Hyundai,str
+Modules.Module 13.model,HiS-M310TI,str
+Modules.Module 13.type,mono-Si,str
+Modules.Module 13.quantity,120,int
+Modules.Module 13.start_on,2017-11-01 00:00:00,str
+Modules.Module 13.end_on,,str
+Modules.Module 13.serial_num,,str
+Modules.Module 13.reference_module,False,str
+Modules.Module 13.comments,,str
+Modules.Module 14.module_id,55787,int
+Modules.Module 14.inverter_id,None,str
+Modules.Module 14.name,mod_fss_15,str
+Modules.Module 14.manufacturer,Hyundai,str
+Modules.Module 14.model,HiS-M310TI,str
+Modules.Module 14.type,mono-Si,str
+Modules.Module 14.quantity,120,int
+Modules.Module 14.start_on,2017-11-01 00:00:00,str
+Modules.Module 14.end_on,,str
+Modules.Module 14.serial_num,,str
+Modules.Module 14.reference_module,False,str
+Modules.Module 14.comments,,str
+Modules.Module 15.module_id,55788,int
+Modules.Module 15.inverter_id,None,str
+Modules.Module 15.name,mod_fss_16,str
+Modules.Module 15.manufacturer,Hyundai,str
+Modules.Module 15.model,HiS-M310TI,str
+Modules.Module 15.type,mono-Si,str
+Modules.Module 15.quantity,120,int
+Modules.Module 15.start_on,2017-11-01 00:00:00,str
+Modules.Module 15.end_on,,str
+Modules.Module 15.serial_num,,str
+Modules.Module 15.reference_module,False,str
+Modules.Module 15.comments,,str
+Modules.Module 16.module_id,55789,int
+Modules.Module 16.inverter_id,None,str
+Modules.Module 16.name,mod_fss_17,str
+Modules.Module 16.manufacturer,Hyundai,str
+Modules.Module 16.model,HiS-M310TI,str
+Modules.Module 16.type,mono-Si,str
+Modules.Module 16.quantity,120,int
+Modules.Module 16.start_on,2017-11-01 00:00:00,str
+Modules.Module 16.end_on,,str
+Modules.Module 16.serial_num,,str
+Modules.Module 16.reference_module,False,str
+Modules.Module 16.comments,,str
+Modules.Module 17.module_id,55790,int
+Modules.Module 17.inverter_id,None,str
+Modules.Module 17.name,mod_fss_18,str
+Modules.Module 17.manufacturer,Hyundai,str
+Modules.Module 17.model,HiS-M310TI,str
+Modules.Module 17.type,mono-Si,str
+Modules.Module 17.quantity,120,int
+Modules.Module 17.start_on,2017-11-01 00:00:00,str
+Modules.Module 17.end_on,,str
+Modules.Module 17.serial_num,,str
+Modules.Module 17.reference_module,False,str
+Modules.Module 17.comments,,str
+Modules.Module 18.module_id,55791,int
+Modules.Module 18.inverter_id,None,str
+Modules.Module 18.name,mod_fss_19,str
+Modules.Module 18.manufacturer,Hyundai,str
+Modules.Module 18.model,HiS-M310TI,str
+Modules.Module 18.type,mono-Si,str
+Modules.Module 18.quantity,120,int
+Modules.Module 18.start_on,2017-11-01 00:00:00,str
+Modules.Module 18.end_on,,str
+Modules.Module 18.serial_num,,str
+Modules.Module 18.reference_module,False,str
+Modules.Module 18.comments,,str
+Modules.Module 19.module_id,55792,int
+Modules.Module 19.inverter_id,None,str
+Modules.Module 19.name,mod_fss_20,str
+Modules.Module 19.manufacturer,Hyundai,str
+Modules.Module 19.model,HiS-M310TI,str
+Modules.Module 19.type,mono-Si,str
+Modules.Module 19.quantity,160,int
+Modules.Module 19.start_on,2017-11-01 00:00:00,str
+Modules.Module 19.end_on,,str
+Modules.Module 19.serial_num,,str
+Modules.Module 19.reference_module,False,str
+Modules.Module 19.comments,,str
+Modules.Module 20.module_id,55793,int
+Modules.Module 20.inverter_id,None,str
+Modules.Module 20.name,mod_fss_21,str
+Modules.Module 20.manufacturer,Hyundai,str
+Modules.Module 20.model,HiS-M310TI,str
+Modules.Module 20.type,mono-Si,str
+Modules.Module 20.quantity,200,int
+Modules.Module 20.start_on,2017-11-01 00:00:00,str
+Modules.Module 20.end_on,,str
+Modules.Module 20.serial_num,,str
+Modules.Module 20.reference_module,False,str
+Modules.Module 20.comments,,str
+Modules.Module 21.module_id,55794,int
+Modules.Module 21.inverter_id,None,str
+Modules.Module 21.name,mod_fss_22,str
+Modules.Module 21.manufacturer,Hyundai,str
+Modules.Module 21.model,HiS-M310TI,str
+Modules.Module 21.type,mono-Si,str
+Modules.Module 21.quantity,80,int
+Modules.Module 21.start_on,2017-11-01 00:00:00,str
+Modules.Module 21.end_on,,str
+Modules.Module 21.serial_num,,str
+Modules.Module 21.reference_module,False,str
+Modules.Module 21.comments,,str
+Modules.Module 22.module_id,55795,int
+Modules.Module 22.inverter_id,None,str
+Modules.Module 22.name,mod_fss_23,str
+Modules.Module 22.manufacturer,Hyundai,str
+Modules.Module 22.model,HiS-M310TI,str
+Modules.Module 22.type,mono-Si,str
+Modules.Module 22.quantity,80,int
+Modules.Module 22.start_on,2017-11-01 00:00:00,str
+Modules.Module 22.end_on,,str
+Modules.Module 22.serial_num,,str
+Modules.Module 22.reference_module,False,str
+Modules.Module 22.comments,,str
+Modules.Module 23.module_id,55796,int
+Modules.Module 23.inverter_id,None,str
+Modules.Module 23.name,mod_fss_24,str
+Modules.Module 23.manufacturer,Hyundai,str
+Modules.Module 23.model,HiS-M310TI,str
+Modules.Module 23.type,mono-Si,str
+Modules.Module 23.quantity,80,int
+Modules.Module 23.start_on,2017-11-01 00:00:00,str
+Modules.Module 23.end_on,,str
+Modules.Module 23.serial_num,,str
+Modules.Module 23.reference_module,False,str
+Modules.Module 23.comments,,str
+Meters.Meter 0.meter_id,3133,int
+Meters.Meter 0.name,meter_fss_1,str
+Meters.Meter 0.manufacturer,Unknown,str
+Meters.Meter 0.model,,str
+Meters.Meter 0.type,revenue grade,str
+Meters.Meter 0.serial_num,,str
+Meters.Meter 0.comments,,str
+Meters.Meter 0.time_interval,L,str
+Other Instruments.Other Instrument 0.instrument_id,5294,int
+Other Instruments.Other Instrument 0.name,ws_fss_1,str
+Other Instruments.Other Instrument 0.manufacturer,Unknown,str
+Other Instruments.Other Instrument 0.model,,str
+Other Instruments.Other Instrument 0.type,weather station,str
+Other Instruments.Other Instrument 0.serial_num,,str
+Other Instruments.Other Instrument 0.comments,,str
+Other Instruments.Other Instrument 0.time_interval,L,str
+Metrics.ambient_temperature_o_149575.metric_id,149575,int
+Metrics.ambient_temperature_o_149575.sensor_name,ambient_temperature (F),str
+Metrics.ambient_temperature_o_149575.common_name,Temperature ambient,str
+Metrics.ambient_temperature_o_149575.raw_units,F,str
+Metrics.ambient_temperature_o_149575.units,F,str
+Metrics.ambient_temperature_o_149575.calc_scale,1.0,float
+Metrics.ambient_temperature_o_149575.calc_offset,0.0,float
+Metrics.ambient_temperature_o_149575.calc_details,,NoneType
+Metrics.ambient_temperature_o_149575.aggregation_type,sample,str
+Metrics.ambient_temperature_o_149575.source_type,OTHER,str
+Metrics.ambient_temperature_o_149575.source_id,,NoneType
+Metrics.ambient_temperature_o_149575.comments,,str
+Metrics.ambient_temperature_o_149575.offline,False,bool
+Metrics.inv_01_ac_current_inv_149581.metric_id,149581,int
+Metrics.inv_01_ac_current_inv_149581.sensor_name,inv_01_ac_current (A),str
+Metrics.inv_01_ac_current_inv_149581.common_name,AC current,str
+Metrics.inv_01_ac_current_inv_149581.raw_units,A,str
+Metrics.inv_01_ac_current_inv_149581.units,A,str
+Metrics.inv_01_ac_current_inv_149581.calc_scale,1.0,float
+Metrics.inv_01_ac_current_inv_149581.calc_offset,0.0,float
+Metrics.inv_01_ac_current_inv_149581.calc_details,,NoneType
+Metrics.inv_01_ac_current_inv_149581.aggregation_type,avg,str
+Metrics.inv_01_ac_current_inv_149581.source_type,INVERTER,str
+Metrics.inv_01_ac_current_inv_149581.source_id,,NoneType
+Metrics.inv_01_ac_current_inv_149581.comments,,str
+Metrics.inv_01_ac_current_inv_149581.offline,False,bool
+Metrics.inv_01_ac_power_inv_149583.metric_id,149583,int
+Metrics.inv_01_ac_power_inv_149583.sensor_name,inv_01_ac_power (kW),str
+Metrics.inv_01_ac_power_inv_149583.common_name,AC power,str
+Metrics.inv_01_ac_power_inv_149583.raw_units,kw,str
+Metrics.inv_01_ac_power_inv_149583.units,kw,str
+Metrics.inv_01_ac_power_inv_149583.calc_scale,1.0,float
+Metrics.inv_01_ac_power_inv_149583.calc_offset,0.0,float
+Metrics.inv_01_ac_power_inv_149583.calc_details,,NoneType
+Metrics.inv_01_ac_power_inv_149583.aggregation_type,avg,str
+Metrics.inv_01_ac_power_inv_149583.source_type,INVERTER,str
+Metrics.inv_01_ac_power_inv_149583.source_id,,NoneType
+Metrics.inv_01_ac_power_inv_149583.comments,,str
+Metrics.inv_01_ac_power_inv_149583.offline,False,bool
+Metrics.inv_01_ac_voltage_inv_149582.metric_id,149582,int
+Metrics.inv_01_ac_voltage_inv_149582.sensor_name,inv_01_ac_voltage (V),str
+Metrics.inv_01_ac_voltage_inv_149582.common_name,AC voltage,str
+Metrics.inv_01_ac_voltage_inv_149582.raw_units,V,str
+Metrics.inv_01_ac_voltage_inv_149582.units,V,str
+Metrics.inv_01_ac_voltage_inv_149582.calc_scale,1.0,float
+Metrics.inv_01_ac_voltage_inv_149582.calc_offset,0.0,float
+Metrics.inv_01_ac_voltage_inv_149582.calc_details,,NoneType
+Metrics.inv_01_ac_voltage_inv_149582.aggregation_type,avg,str
+Metrics.inv_01_ac_voltage_inv_149582.source_type,INVERTER,str
+Metrics.inv_01_ac_voltage_inv_149582.source_id,,NoneType
+Metrics.inv_01_ac_voltage_inv_149582.comments,,str
+Metrics.inv_01_ac_voltage_inv_149582.offline,False,bool
+Metrics.inv_01_dc_current_inv_149579.metric_id,149579,int
+Metrics.inv_01_dc_current_inv_149579.sensor_name,inv_01_dc_current (A),str
+Metrics.inv_01_dc_current_inv_149579.common_name,DC current,str
+Metrics.inv_01_dc_current_inv_149579.raw_units,A,str
+Metrics.inv_01_dc_current_inv_149579.units,A,str
+Metrics.inv_01_dc_current_inv_149579.calc_scale,1.0,float
+Metrics.inv_01_dc_current_inv_149579.calc_offset,0.0,float
+Metrics.inv_01_dc_current_inv_149579.calc_details,,NoneType
+Metrics.inv_01_dc_current_inv_149579.aggregation_type,avg,str
+Metrics.inv_01_dc_current_inv_149579.source_type,INVERTER,str
+Metrics.inv_01_dc_current_inv_149579.source_id,,NoneType
+Metrics.inv_01_dc_current_inv_149579.comments,,str
+Metrics.inv_01_dc_current_inv_149579.offline,False,bool
+Metrics.inv_01_dc_voltage_inv_149580.metric_id,149580,int
+Metrics.inv_01_dc_voltage_inv_149580.sensor_name,inv_01_dc_voltage (V),str
+Metrics.inv_01_dc_voltage_inv_149580.common_name,DC voltage,str
+Metrics.inv_01_dc_voltage_inv_149580.raw_units,V,str
+Metrics.inv_01_dc_voltage_inv_149580.units,V,str
+Metrics.inv_01_dc_voltage_inv_149580.calc_scale,1.0,float
+Metrics.inv_01_dc_voltage_inv_149580.calc_offset,0.0,float
+Metrics.inv_01_dc_voltage_inv_149580.calc_details,,NoneType
+Metrics.inv_01_dc_voltage_inv_149580.aggregation_type,avg,str
+Metrics.inv_01_dc_voltage_inv_149580.source_type,INVERTER,str
+Metrics.inv_01_dc_voltage_inv_149580.source_id,,NoneType
+Metrics.inv_01_dc_voltage_inv_149580.comments,,str
+Metrics.inv_01_dc_voltage_inv_149580.offline,False,bool
+Metrics.inv_02_ac_current_inv_149586.metric_id,149586,int
+Metrics.inv_02_ac_current_inv_149586.sensor_name,inv_02_ac_current (A),str
+Metrics.inv_02_ac_current_inv_149586.common_name,AC current,str
+Metrics.inv_02_ac_current_inv_149586.raw_units,A,str
+Metrics.inv_02_ac_current_inv_149586.units,A,str
+Metrics.inv_02_ac_current_inv_149586.calc_scale,1.0,float
+Metrics.inv_02_ac_current_inv_149586.calc_offset,0.0,float
+Metrics.inv_02_ac_current_inv_149586.calc_details,,NoneType
+Metrics.inv_02_ac_current_inv_149586.aggregation_type,avg,str
+Metrics.inv_02_ac_current_inv_149586.source_type,INVERTER,str
+Metrics.inv_02_ac_current_inv_149586.source_id,,NoneType
+Metrics.inv_02_ac_current_inv_149586.comments,,str
+Metrics.inv_02_ac_current_inv_149586.offline,False,bool
+Metrics.inv_02_ac_power_inv_149588.metric_id,149588,int
+Metrics.inv_02_ac_power_inv_149588.sensor_name,inv_02_ac_power (kW),str
+Metrics.inv_02_ac_power_inv_149588.common_name,AC power,str
+Metrics.inv_02_ac_power_inv_149588.raw_units,kw,str
+Metrics.inv_02_ac_power_inv_149588.units,kw,str
+Metrics.inv_02_ac_power_inv_149588.calc_scale,1.0,float
+Metrics.inv_02_ac_power_inv_149588.calc_offset,0.0,float
+Metrics.inv_02_ac_power_inv_149588.calc_details,,NoneType
+Metrics.inv_02_ac_power_inv_149588.aggregation_type,avg,str
+Metrics.inv_02_ac_power_inv_149588.source_type,INVERTER,str
+Metrics.inv_02_ac_power_inv_149588.source_id,,NoneType
+Metrics.inv_02_ac_power_inv_149588.comments,,str
+Metrics.inv_02_ac_power_inv_149588.offline,False,bool
+Metrics.inv_02_ac_voltage_inv_149587.metric_id,149587,int
+Metrics.inv_02_ac_voltage_inv_149587.sensor_name,inv_02_ac_voltage (V),str
+Metrics.inv_02_ac_voltage_inv_149587.common_name,AC voltage,str
+Metrics.inv_02_ac_voltage_inv_149587.raw_units,V,str
+Metrics.inv_02_ac_voltage_inv_149587.units,V,str
+Metrics.inv_02_ac_voltage_inv_149587.calc_scale,1.0,float
+Metrics.inv_02_ac_voltage_inv_149587.calc_offset,0.0,float
+Metrics.inv_02_ac_voltage_inv_149587.calc_details,,NoneType
+Metrics.inv_02_ac_voltage_inv_149587.aggregation_type,avg,str
+Metrics.inv_02_ac_voltage_inv_149587.source_type,INVERTER,str
+Metrics.inv_02_ac_voltage_inv_149587.source_id,,NoneType
+Metrics.inv_02_ac_voltage_inv_149587.comments,,str
+Metrics.inv_02_ac_voltage_inv_149587.offline,False,bool
+Metrics.inv_02_dc_current_inv_149584.metric_id,149584,int
+Metrics.inv_02_dc_current_inv_149584.sensor_name,inv_02_dc_current (A),str
+Metrics.inv_02_dc_current_inv_149584.common_name,DC current,str
+Metrics.inv_02_dc_current_inv_149584.raw_units,A,str
+Metrics.inv_02_dc_current_inv_149584.units,A,str
+Metrics.inv_02_dc_current_inv_149584.calc_scale,1.0,float
+Metrics.inv_02_dc_current_inv_149584.calc_offset,0.0,float
+Metrics.inv_02_dc_current_inv_149584.calc_details,,NoneType
+Metrics.inv_02_dc_current_inv_149584.aggregation_type,avg,str
+Metrics.inv_02_dc_current_inv_149584.source_type,INVERTER,str
+Metrics.inv_02_dc_current_inv_149584.source_id,,NoneType
+Metrics.inv_02_dc_current_inv_149584.comments,,str
+Metrics.inv_02_dc_current_inv_149584.offline,False,bool
+Metrics.inv_02_dc_voltage_inv_149585.metric_id,149585,int
+Metrics.inv_02_dc_voltage_inv_149585.sensor_name,inv_02_dc_voltage (V),str
+Metrics.inv_02_dc_voltage_inv_149585.common_name,DC voltage,str
+Metrics.inv_02_dc_voltage_inv_149585.raw_units,V,str
+Metrics.inv_02_dc_voltage_inv_149585.units,V,str
+Metrics.inv_02_dc_voltage_inv_149585.calc_scale,1.0,float
+Metrics.inv_02_dc_voltage_inv_149585.calc_offset,0.0,float
+Metrics.inv_02_dc_voltage_inv_149585.calc_details,,NoneType
+Metrics.inv_02_dc_voltage_inv_149585.aggregation_type,avg,str
+Metrics.inv_02_dc_voltage_inv_149585.source_type,INVERTER,str
+Metrics.inv_02_dc_voltage_inv_149585.source_id,,NoneType
+Metrics.inv_02_dc_voltage_inv_149585.comments,,str
+Metrics.inv_02_dc_voltage_inv_149585.offline,False,bool
+Metrics.inv_03_ac_current_inv_149591.metric_id,149591,int
+Metrics.inv_03_ac_current_inv_149591.sensor_name,inv_03_ac_current (A),str
+Metrics.inv_03_ac_current_inv_149591.common_name,AC current,str
+Metrics.inv_03_ac_current_inv_149591.raw_units,A,str
+Metrics.inv_03_ac_current_inv_149591.units,A,str
+Metrics.inv_03_ac_current_inv_149591.calc_scale,1.0,float
+Metrics.inv_03_ac_current_inv_149591.calc_offset,0.0,float
+Metrics.inv_03_ac_current_inv_149591.calc_details,,NoneType
+Metrics.inv_03_ac_current_inv_149591.aggregation_type,avg,str
+Metrics.inv_03_ac_current_inv_149591.source_type,INVERTER,str
+Metrics.inv_03_ac_current_inv_149591.source_id,,NoneType
+Metrics.inv_03_ac_current_inv_149591.comments,,str
+Metrics.inv_03_ac_current_inv_149591.offline,False,bool
+Metrics.inv_03_ac_power_inv_149593.metric_id,149593,int
+Metrics.inv_03_ac_power_inv_149593.sensor_name,inv_03_ac_power (kW),str
+Metrics.inv_03_ac_power_inv_149593.common_name,AC power,str
+Metrics.inv_03_ac_power_inv_149593.raw_units,kw,str
+Metrics.inv_03_ac_power_inv_149593.units,kw,str
+Metrics.inv_03_ac_power_inv_149593.calc_scale,1.0,float
+Metrics.inv_03_ac_power_inv_149593.calc_offset,0.0,float
+Metrics.inv_03_ac_power_inv_149593.calc_details,,NoneType
+Metrics.inv_03_ac_power_inv_149593.aggregation_type,avg,str
+Metrics.inv_03_ac_power_inv_149593.source_type,INVERTER,str
+Metrics.inv_03_ac_power_inv_149593.source_id,,NoneType
+Metrics.inv_03_ac_power_inv_149593.comments,,str
+Metrics.inv_03_ac_power_inv_149593.offline,False,bool
+Metrics.inv_03_ac_voltage_inv_149592.metric_id,149592,int
+Metrics.inv_03_ac_voltage_inv_149592.sensor_name,inv_03_ac_voltage (V),str
+Metrics.inv_03_ac_voltage_inv_149592.common_name,AC voltage,str
+Metrics.inv_03_ac_voltage_inv_149592.raw_units,V,str
+Metrics.inv_03_ac_voltage_inv_149592.units,V,str
+Metrics.inv_03_ac_voltage_inv_149592.calc_scale,1.0,float
+Metrics.inv_03_ac_voltage_inv_149592.calc_offset,0.0,float
+Metrics.inv_03_ac_voltage_inv_149592.calc_details,,NoneType
+Metrics.inv_03_ac_voltage_inv_149592.aggregation_type,avg,str
+Metrics.inv_03_ac_voltage_inv_149592.source_type,INVERTER,str
+Metrics.inv_03_ac_voltage_inv_149592.source_id,,NoneType
+Metrics.inv_03_ac_voltage_inv_149592.comments,,str
+Metrics.inv_03_ac_voltage_inv_149592.offline,False,bool
+Metrics.inv_03_dc_current_inv_149589.metric_id,149589,int
+Metrics.inv_03_dc_current_inv_149589.sensor_name,inv_03_dc_current (A),str
+Metrics.inv_03_dc_current_inv_149589.common_name,DC current,str
+Metrics.inv_03_dc_current_inv_149589.raw_units,A,str
+Metrics.inv_03_dc_current_inv_149589.units,A,str
+Metrics.inv_03_dc_current_inv_149589.calc_scale,1.0,float
+Metrics.inv_03_dc_current_inv_149589.calc_offset,0.0,float
+Metrics.inv_03_dc_current_inv_149589.calc_details,,NoneType
+Metrics.inv_03_dc_current_inv_149589.aggregation_type,avg,str
+Metrics.inv_03_dc_current_inv_149589.source_type,INVERTER,str
+Metrics.inv_03_dc_current_inv_149589.source_id,,NoneType
+Metrics.inv_03_dc_current_inv_149589.comments,,str
+Metrics.inv_03_dc_current_inv_149589.offline,False,bool
+Metrics.inv_03_dc_voltage_inv_149590.metric_id,149590,int
+Metrics.inv_03_dc_voltage_inv_149590.sensor_name,inv_03_dc_voltage (V),str
+Metrics.inv_03_dc_voltage_inv_149590.common_name,DC voltage,str
+Metrics.inv_03_dc_voltage_inv_149590.raw_units,V,str
+Metrics.inv_03_dc_voltage_inv_149590.units,V,str
+Metrics.inv_03_dc_voltage_inv_149590.calc_scale,1.0,float
+Metrics.inv_03_dc_voltage_inv_149590.calc_offset,0.0,float
+Metrics.inv_03_dc_voltage_inv_149590.calc_details,,NoneType
+Metrics.inv_03_dc_voltage_inv_149590.aggregation_type,avg,str
+Metrics.inv_03_dc_voltage_inv_149590.source_type,INVERTER,str
+Metrics.inv_03_dc_voltage_inv_149590.source_id,,NoneType
+Metrics.inv_03_dc_voltage_inv_149590.comments,,str
+Metrics.inv_03_dc_voltage_inv_149590.offline,False,bool
+Metrics.inv_04_ac_current_inv_149596.metric_id,149596,int
+Metrics.inv_04_ac_current_inv_149596.sensor_name,inv_04_ac_current (A),str
+Metrics.inv_04_ac_current_inv_149596.common_name,AC current,str
+Metrics.inv_04_ac_current_inv_149596.raw_units,A,str
+Metrics.inv_04_ac_current_inv_149596.units,A,str
+Metrics.inv_04_ac_current_inv_149596.calc_scale,1.0,float
+Metrics.inv_04_ac_current_inv_149596.calc_offset,0.0,float
+Metrics.inv_04_ac_current_inv_149596.calc_details,,NoneType
+Metrics.inv_04_ac_current_inv_149596.aggregation_type,avg,str
+Metrics.inv_04_ac_current_inv_149596.source_type,INVERTER,str
+Metrics.inv_04_ac_current_inv_149596.source_id,,NoneType
+Metrics.inv_04_ac_current_inv_149596.comments,,str
+Metrics.inv_04_ac_current_inv_149596.offline,False,bool
+Metrics.inv_04_ac_power_inv_149598.metric_id,149598,int
+Metrics.inv_04_ac_power_inv_149598.sensor_name,inv_04_ac_power (kW),str
+Metrics.inv_04_ac_power_inv_149598.common_name,AC power,str
+Metrics.inv_04_ac_power_inv_149598.raw_units,kw,str
+Metrics.inv_04_ac_power_inv_149598.units,kw,str
+Metrics.inv_04_ac_power_inv_149598.calc_scale,1.0,float
+Metrics.inv_04_ac_power_inv_149598.calc_offset,0.0,float
+Metrics.inv_04_ac_power_inv_149598.calc_details,,NoneType
+Metrics.inv_04_ac_power_inv_149598.aggregation_type,avg,str
+Metrics.inv_04_ac_power_inv_149598.source_type,INVERTER,str
+Metrics.inv_04_ac_power_inv_149598.source_id,,NoneType
+Metrics.inv_04_ac_power_inv_149598.comments,,str
+Metrics.inv_04_ac_power_inv_149598.offline,False,bool
+Metrics.inv_04_ac_voltage_inv_149597.metric_id,149597,int
+Metrics.inv_04_ac_voltage_inv_149597.sensor_name,inv_04_ac_voltage (V),str
+Metrics.inv_04_ac_voltage_inv_149597.common_name,AC voltage,str
+Metrics.inv_04_ac_voltage_inv_149597.raw_units,V,str
+Metrics.inv_04_ac_voltage_inv_149597.units,V,str
+Metrics.inv_04_ac_voltage_inv_149597.calc_scale,1.0,float
+Metrics.inv_04_ac_voltage_inv_149597.calc_offset,0.0,float
+Metrics.inv_04_ac_voltage_inv_149597.calc_details,,NoneType
+Metrics.inv_04_ac_voltage_inv_149597.aggregation_type,avg,str
+Metrics.inv_04_ac_voltage_inv_149597.source_type,INVERTER,str
+Metrics.inv_04_ac_voltage_inv_149597.source_id,,NoneType
+Metrics.inv_04_ac_voltage_inv_149597.comments,,str
+Metrics.inv_04_ac_voltage_inv_149597.offline,False,bool
+Metrics.inv_04_dc_current_inv_149594.metric_id,149594,int
+Metrics.inv_04_dc_current_inv_149594.sensor_name,inv_04_dc_current (A),str
+Metrics.inv_04_dc_current_inv_149594.common_name,DC current,str
+Metrics.inv_04_dc_current_inv_149594.raw_units,A,str
+Metrics.inv_04_dc_current_inv_149594.units,A,str
+Metrics.inv_04_dc_current_inv_149594.calc_scale,1.0,float
+Metrics.inv_04_dc_current_inv_149594.calc_offset,0.0,float
+Metrics.inv_04_dc_current_inv_149594.calc_details,,NoneType
+Metrics.inv_04_dc_current_inv_149594.aggregation_type,avg,str
+Metrics.inv_04_dc_current_inv_149594.source_type,INVERTER,str
+Metrics.inv_04_dc_current_inv_149594.source_id,,NoneType
+Metrics.inv_04_dc_current_inv_149594.comments,,str
+Metrics.inv_04_dc_current_inv_149594.offline,False,bool
+Metrics.inv_04_dc_voltage_inv_149595.metric_id,149595,int
+Metrics.inv_04_dc_voltage_inv_149595.sensor_name,inv_04_dc_voltage (V),str
+Metrics.inv_04_dc_voltage_inv_149595.common_name,DC voltage,str
+Metrics.inv_04_dc_voltage_inv_149595.raw_units,V,str
+Metrics.inv_04_dc_voltage_inv_149595.units,V,str
+Metrics.inv_04_dc_voltage_inv_149595.calc_scale,1.0,float
+Metrics.inv_04_dc_voltage_inv_149595.calc_offset,0.0,float
+Metrics.inv_04_dc_voltage_inv_149595.calc_details,,NoneType
+Metrics.inv_04_dc_voltage_inv_149595.aggregation_type,avg,str
+Metrics.inv_04_dc_voltage_inv_149595.source_type,INVERTER,str
+Metrics.inv_04_dc_voltage_inv_149595.source_id,,NoneType
+Metrics.inv_04_dc_voltage_inv_149595.comments,,str
+Metrics.inv_04_dc_voltage_inv_149595.offline,False,bool
+Metrics.inv_05_ac_current_inv_149601.metric_id,149601,int
+Metrics.inv_05_ac_current_inv_149601.sensor_name,inv_05_ac_current (A),str
+Metrics.inv_05_ac_current_inv_149601.common_name,AC current,str
+Metrics.inv_05_ac_current_inv_149601.raw_units,A,str
+Metrics.inv_05_ac_current_inv_149601.units,A,str
+Metrics.inv_05_ac_current_inv_149601.calc_scale,1.0,float
+Metrics.inv_05_ac_current_inv_149601.calc_offset,0.0,float
+Metrics.inv_05_ac_current_inv_149601.calc_details,,NoneType
+Metrics.inv_05_ac_current_inv_149601.aggregation_type,avg,str
+Metrics.inv_05_ac_current_inv_149601.source_type,INVERTER,str
+Metrics.inv_05_ac_current_inv_149601.source_id,,NoneType
+Metrics.inv_05_ac_current_inv_149601.comments,,str
+Metrics.inv_05_ac_current_inv_149601.offline,False,bool
+Metrics.inv_05_ac_power_inv_149603.metric_id,149603,int
+Metrics.inv_05_ac_power_inv_149603.sensor_name,inv_05_ac_power (kW),str
+Metrics.inv_05_ac_power_inv_149603.common_name,AC power,str
+Metrics.inv_05_ac_power_inv_149603.raw_units,kw,str
+Metrics.inv_05_ac_power_inv_149603.units,kw,str
+Metrics.inv_05_ac_power_inv_149603.calc_scale,1.0,float
+Metrics.inv_05_ac_power_inv_149603.calc_offset,0.0,float
+Metrics.inv_05_ac_power_inv_149603.calc_details,,NoneType
+Metrics.inv_05_ac_power_inv_149603.aggregation_type,avg,str
+Metrics.inv_05_ac_power_inv_149603.source_type,INVERTER,str
+Metrics.inv_05_ac_power_inv_149603.source_id,,NoneType
+Metrics.inv_05_ac_power_inv_149603.comments,,str
+Metrics.inv_05_ac_power_inv_149603.offline,False,bool
+Metrics.inv_05_ac_voltage_inv_149602.metric_id,149602,int
+Metrics.inv_05_ac_voltage_inv_149602.sensor_name,inv_05_ac_voltage (V),str
+Metrics.inv_05_ac_voltage_inv_149602.common_name,AC voltage,str
+Metrics.inv_05_ac_voltage_inv_149602.raw_units,V,str
+Metrics.inv_05_ac_voltage_inv_149602.units,V,str
+Metrics.inv_05_ac_voltage_inv_149602.calc_scale,1.0,float
+Metrics.inv_05_ac_voltage_inv_149602.calc_offset,0.0,float
+Metrics.inv_05_ac_voltage_inv_149602.calc_details,,NoneType
+Metrics.inv_05_ac_voltage_inv_149602.aggregation_type,avg,str
+Metrics.inv_05_ac_voltage_inv_149602.source_type,INVERTER,str
+Metrics.inv_05_ac_voltage_inv_149602.source_id,,NoneType
+Metrics.inv_05_ac_voltage_inv_149602.comments,,str
+Metrics.inv_05_ac_voltage_inv_149602.offline,False,bool
+Metrics.inv_05_dc_current_inv_149599.metric_id,149599,int
+Metrics.inv_05_dc_current_inv_149599.sensor_name,inv_05_dc_current (A),str
+Metrics.inv_05_dc_current_inv_149599.common_name,DC current,str
+Metrics.inv_05_dc_current_inv_149599.raw_units,A,str
+Metrics.inv_05_dc_current_inv_149599.units,A,str
+Metrics.inv_05_dc_current_inv_149599.calc_scale,1.0,float
+Metrics.inv_05_dc_current_inv_149599.calc_offset,0.0,float
+Metrics.inv_05_dc_current_inv_149599.calc_details,,NoneType
+Metrics.inv_05_dc_current_inv_149599.aggregation_type,avg,str
+Metrics.inv_05_dc_current_inv_149599.source_type,INVERTER,str
+Metrics.inv_05_dc_current_inv_149599.source_id,,NoneType
+Metrics.inv_05_dc_current_inv_149599.comments,,str
+Metrics.inv_05_dc_current_inv_149599.offline,False,bool
+Metrics.inv_05_dc_voltage_inv_149600.metric_id,149600,int
+Metrics.inv_05_dc_voltage_inv_149600.sensor_name,inv_05_dc_voltage (V),str
+Metrics.inv_05_dc_voltage_inv_149600.common_name,DC voltage,str
+Metrics.inv_05_dc_voltage_inv_149600.raw_units,V,str
+Metrics.inv_05_dc_voltage_inv_149600.units,V,str
+Metrics.inv_05_dc_voltage_inv_149600.calc_scale,1.0,float
+Metrics.inv_05_dc_voltage_inv_149600.calc_offset,0.0,float
+Metrics.inv_05_dc_voltage_inv_149600.calc_details,,NoneType
+Metrics.inv_05_dc_voltage_inv_149600.aggregation_type,avg,str
+Metrics.inv_05_dc_voltage_inv_149600.source_type,INVERTER,str
+Metrics.inv_05_dc_voltage_inv_149600.source_id,,NoneType
+Metrics.inv_05_dc_voltage_inv_149600.comments,,str
+Metrics.inv_05_dc_voltage_inv_149600.offline,False,bool
+Metrics.inv_06_ac_current_inv_149606.metric_id,149606,int
+Metrics.inv_06_ac_current_inv_149606.sensor_name,inv_06_ac_current (A),str
+Metrics.inv_06_ac_current_inv_149606.common_name,AC current,str
+Metrics.inv_06_ac_current_inv_149606.raw_units,A,str
+Metrics.inv_06_ac_current_inv_149606.units,A,str
+Metrics.inv_06_ac_current_inv_149606.calc_scale,1.0,float
+Metrics.inv_06_ac_current_inv_149606.calc_offset,0.0,float
+Metrics.inv_06_ac_current_inv_149606.calc_details,,NoneType
+Metrics.inv_06_ac_current_inv_149606.aggregation_type,avg,str
+Metrics.inv_06_ac_current_inv_149606.source_type,INVERTER,str
+Metrics.inv_06_ac_current_inv_149606.source_id,,NoneType
+Metrics.inv_06_ac_current_inv_149606.comments,,str
+Metrics.inv_06_ac_current_inv_149606.offline,False,bool
+Metrics.inv_06_ac_power_inv_149608.metric_id,149608,int
+Metrics.inv_06_ac_power_inv_149608.sensor_name,inv_06_ac_power (kW),str
+Metrics.inv_06_ac_power_inv_149608.common_name,AC power,str
+Metrics.inv_06_ac_power_inv_149608.raw_units,kw,str
+Metrics.inv_06_ac_power_inv_149608.units,kw,str
+Metrics.inv_06_ac_power_inv_149608.calc_scale,1.0,float
+Metrics.inv_06_ac_power_inv_149608.calc_offset,0.0,float
+Metrics.inv_06_ac_power_inv_149608.calc_details,,NoneType
+Metrics.inv_06_ac_power_inv_149608.aggregation_type,avg,str
+Metrics.inv_06_ac_power_inv_149608.source_type,INVERTER,str
+Metrics.inv_06_ac_power_inv_149608.source_id,,NoneType
+Metrics.inv_06_ac_power_inv_149608.comments,,str
+Metrics.inv_06_ac_power_inv_149608.offline,False,bool
+Metrics.inv_06_ac_voltage_inv_149607.metric_id,149607,int
+Metrics.inv_06_ac_voltage_inv_149607.sensor_name,inv_06_ac_voltage (V),str
+Metrics.inv_06_ac_voltage_inv_149607.common_name,AC voltage,str
+Metrics.inv_06_ac_voltage_inv_149607.raw_units,V,str
+Metrics.inv_06_ac_voltage_inv_149607.units,V,str
+Metrics.inv_06_ac_voltage_inv_149607.calc_scale,1.0,float
+Metrics.inv_06_ac_voltage_inv_149607.calc_offset,0.0,float
+Metrics.inv_06_ac_voltage_inv_149607.calc_details,,NoneType
+Metrics.inv_06_ac_voltage_inv_149607.aggregation_type,avg,str
+Metrics.inv_06_ac_voltage_inv_149607.source_type,INVERTER,str
+Metrics.inv_06_ac_voltage_inv_149607.source_id,,NoneType
+Metrics.inv_06_ac_voltage_inv_149607.comments,,str
+Metrics.inv_06_ac_voltage_inv_149607.offline,False,bool
+Metrics.inv_06_dc_current_inv_149604.metric_id,149604,int
+Metrics.inv_06_dc_current_inv_149604.sensor_name,inv_06_dc_current (A),str
+Metrics.inv_06_dc_current_inv_149604.common_name,DC current,str
+Metrics.inv_06_dc_current_inv_149604.raw_units,A,str
+Metrics.inv_06_dc_current_inv_149604.units,A,str
+Metrics.inv_06_dc_current_inv_149604.calc_scale,1.0,float
+Metrics.inv_06_dc_current_inv_149604.calc_offset,0.0,float
+Metrics.inv_06_dc_current_inv_149604.calc_details,,NoneType
+Metrics.inv_06_dc_current_inv_149604.aggregation_type,avg,str
+Metrics.inv_06_dc_current_inv_149604.source_type,INVERTER,str
+Metrics.inv_06_dc_current_inv_149604.source_id,,NoneType
+Metrics.inv_06_dc_current_inv_149604.comments,,str
+Metrics.inv_06_dc_current_inv_149604.offline,False,bool
+Metrics.inv_06_dc_voltage_inv_149605.metric_id,149605,int
+Metrics.inv_06_dc_voltage_inv_149605.sensor_name,inv_06_dc_voltage (V),str
+Metrics.inv_06_dc_voltage_inv_149605.common_name,DC voltage,str
+Metrics.inv_06_dc_voltage_inv_149605.raw_units,V,str
+Metrics.inv_06_dc_voltage_inv_149605.units,V,str
+Metrics.inv_06_dc_voltage_inv_149605.calc_scale,1.0,float
+Metrics.inv_06_dc_voltage_inv_149605.calc_offset,0.0,float
+Metrics.inv_06_dc_voltage_inv_149605.calc_details,,NoneType
+Metrics.inv_06_dc_voltage_inv_149605.aggregation_type,avg,str
+Metrics.inv_06_dc_voltage_inv_149605.source_type,INVERTER,str
+Metrics.inv_06_dc_voltage_inv_149605.source_id,,NoneType
+Metrics.inv_06_dc_voltage_inv_149605.comments,,str
+Metrics.inv_06_dc_voltage_inv_149605.offline,False,bool
+Metrics.inv_07_ac_current_inv_149611.metric_id,149611,int
+Metrics.inv_07_ac_current_inv_149611.sensor_name,inv_07_ac_current (A),str
+Metrics.inv_07_ac_current_inv_149611.common_name,AC current,str
+Metrics.inv_07_ac_current_inv_149611.raw_units,A,str
+Metrics.inv_07_ac_current_inv_149611.units,A,str
+Metrics.inv_07_ac_current_inv_149611.calc_scale,1.0,float
+Metrics.inv_07_ac_current_inv_149611.calc_offset,0.0,float
+Metrics.inv_07_ac_current_inv_149611.calc_details,,NoneType
+Metrics.inv_07_ac_current_inv_149611.aggregation_type,avg,str
+Metrics.inv_07_ac_current_inv_149611.source_type,INVERTER,str
+Metrics.inv_07_ac_current_inv_149611.source_id,,NoneType
+Metrics.inv_07_ac_current_inv_149611.comments,,str
+Metrics.inv_07_ac_current_inv_149611.offline,False,bool
+Metrics.inv_07_ac_power_inv_149613.metric_id,149613,int
+Metrics.inv_07_ac_power_inv_149613.sensor_name,inv_07_ac_power (kW),str
+Metrics.inv_07_ac_power_inv_149613.common_name,AC power,str
+Metrics.inv_07_ac_power_inv_149613.raw_units,kw,str
+Metrics.inv_07_ac_power_inv_149613.units,kw,str
+Metrics.inv_07_ac_power_inv_149613.calc_scale,1.0,float
+Metrics.inv_07_ac_power_inv_149613.calc_offset,0.0,float
+Metrics.inv_07_ac_power_inv_149613.calc_details,,NoneType
+Metrics.inv_07_ac_power_inv_149613.aggregation_type,avg,str
+Metrics.inv_07_ac_power_inv_149613.source_type,INVERTER,str
+Metrics.inv_07_ac_power_inv_149613.source_id,,NoneType
+Metrics.inv_07_ac_power_inv_149613.comments,,str
+Metrics.inv_07_ac_power_inv_149613.offline,False,bool
+Metrics.inv_07_ac_voltage_inv_149612.metric_id,149612,int
+Metrics.inv_07_ac_voltage_inv_149612.sensor_name,inv_07_ac_voltage (V),str
+Metrics.inv_07_ac_voltage_inv_149612.common_name,AC voltage,str
+Metrics.inv_07_ac_voltage_inv_149612.raw_units,V,str
+Metrics.inv_07_ac_voltage_inv_149612.units,V,str
+Metrics.inv_07_ac_voltage_inv_149612.calc_scale,1.0,float
+Metrics.inv_07_ac_voltage_inv_149612.calc_offset,0.0,float
+Metrics.inv_07_ac_voltage_inv_149612.calc_details,,NoneType
+Metrics.inv_07_ac_voltage_inv_149612.aggregation_type,avg,str
+Metrics.inv_07_ac_voltage_inv_149612.source_type,INVERTER,str
+Metrics.inv_07_ac_voltage_inv_149612.source_id,,NoneType
+Metrics.inv_07_ac_voltage_inv_149612.comments,,str
+Metrics.inv_07_ac_voltage_inv_149612.offline,False,bool
+Metrics.inv_07_dc_current_inv_149609.metric_id,149609,int
+Metrics.inv_07_dc_current_inv_149609.sensor_name,inv_07_dc_current (A),str
+Metrics.inv_07_dc_current_inv_149609.common_name,DC current,str
+Metrics.inv_07_dc_current_inv_149609.raw_units,A,str
+Metrics.inv_07_dc_current_inv_149609.units,A,str
+Metrics.inv_07_dc_current_inv_149609.calc_scale,1.0,float
+Metrics.inv_07_dc_current_inv_149609.calc_offset,0.0,float
+Metrics.inv_07_dc_current_inv_149609.calc_details,,NoneType
+Metrics.inv_07_dc_current_inv_149609.aggregation_type,avg,str
+Metrics.inv_07_dc_current_inv_149609.source_type,INVERTER,str
+Metrics.inv_07_dc_current_inv_149609.source_id,,NoneType
+Metrics.inv_07_dc_current_inv_149609.comments,,str
+Metrics.inv_07_dc_current_inv_149609.offline,False,bool
+Metrics.inv_07_dc_voltage_inv_149610.metric_id,149610,int
+Metrics.inv_07_dc_voltage_inv_149610.sensor_name,inv_07_dc_voltage (V),str
+Metrics.inv_07_dc_voltage_inv_149610.common_name,DC voltage,str
+Metrics.inv_07_dc_voltage_inv_149610.raw_units,V,str
+Metrics.inv_07_dc_voltage_inv_149610.units,V,str
+Metrics.inv_07_dc_voltage_inv_149610.calc_scale,1.0,float
+Metrics.inv_07_dc_voltage_inv_149610.calc_offset,0.0,float
+Metrics.inv_07_dc_voltage_inv_149610.calc_details,,NoneType
+Metrics.inv_07_dc_voltage_inv_149610.aggregation_type,avg,str
+Metrics.inv_07_dc_voltage_inv_149610.source_type,INVERTER,str
+Metrics.inv_07_dc_voltage_inv_149610.source_id,,NoneType
+Metrics.inv_07_dc_voltage_inv_149610.comments,,str
+Metrics.inv_07_dc_voltage_inv_149610.offline,False,bool
+Metrics.inv_08_ac_current_inv_149616.metric_id,149616,int
+Metrics.inv_08_ac_current_inv_149616.sensor_name,inv_08_ac_current (A),str
+Metrics.inv_08_ac_current_inv_149616.common_name,AC current,str
+Metrics.inv_08_ac_current_inv_149616.raw_units,A,str
+Metrics.inv_08_ac_current_inv_149616.units,A,str
+Metrics.inv_08_ac_current_inv_149616.calc_scale,1.0,float
+Metrics.inv_08_ac_current_inv_149616.calc_offset,0.0,float
+Metrics.inv_08_ac_current_inv_149616.calc_details,,NoneType
+Metrics.inv_08_ac_current_inv_149616.aggregation_type,avg,str
+Metrics.inv_08_ac_current_inv_149616.source_type,INVERTER,str
+Metrics.inv_08_ac_current_inv_149616.source_id,,NoneType
+Metrics.inv_08_ac_current_inv_149616.comments,,str
+Metrics.inv_08_ac_current_inv_149616.offline,False,bool
+Metrics.inv_08_ac_power_inv_149618.metric_id,149618,int
+Metrics.inv_08_ac_power_inv_149618.sensor_name,inv_08_ac_power (kW),str
+Metrics.inv_08_ac_power_inv_149618.common_name,AC power,str
+Metrics.inv_08_ac_power_inv_149618.raw_units,kw,str
+Metrics.inv_08_ac_power_inv_149618.units,kw,str
+Metrics.inv_08_ac_power_inv_149618.calc_scale,1.0,float
+Metrics.inv_08_ac_power_inv_149618.calc_offset,0.0,float
+Metrics.inv_08_ac_power_inv_149618.calc_details,,NoneType
+Metrics.inv_08_ac_power_inv_149618.aggregation_type,avg,str
+Metrics.inv_08_ac_power_inv_149618.source_type,INVERTER,str
+Metrics.inv_08_ac_power_inv_149618.source_id,,NoneType
+Metrics.inv_08_ac_power_inv_149618.comments,,str
+Metrics.inv_08_ac_power_inv_149618.offline,False,bool
+Metrics.inv_08_ac_voltage_inv_149617.metric_id,149617,int
+Metrics.inv_08_ac_voltage_inv_149617.sensor_name,inv_08_ac_voltage (V),str
+Metrics.inv_08_ac_voltage_inv_149617.common_name,AC voltage,str
+Metrics.inv_08_ac_voltage_inv_149617.raw_units,V,str
+Metrics.inv_08_ac_voltage_inv_149617.units,V,str
+Metrics.inv_08_ac_voltage_inv_149617.calc_scale,1.0,float
+Metrics.inv_08_ac_voltage_inv_149617.calc_offset,0.0,float
+Metrics.inv_08_ac_voltage_inv_149617.calc_details,,NoneType
+Metrics.inv_08_ac_voltage_inv_149617.aggregation_type,avg,str
+Metrics.inv_08_ac_voltage_inv_149617.source_type,INVERTER,str
+Metrics.inv_08_ac_voltage_inv_149617.source_id,,NoneType
+Metrics.inv_08_ac_voltage_inv_149617.comments,,str
+Metrics.inv_08_ac_voltage_inv_149617.offline,False,bool
+Metrics.inv_08_dc_current_inv_149614.metric_id,149614,int
+Metrics.inv_08_dc_current_inv_149614.sensor_name,inv_08_dc_current (A),str
+Metrics.inv_08_dc_current_inv_149614.common_name,DC current,str
+Metrics.inv_08_dc_current_inv_149614.raw_units,A,str
+Metrics.inv_08_dc_current_inv_149614.units,A,str
+Metrics.inv_08_dc_current_inv_149614.calc_scale,1.0,float
+Metrics.inv_08_dc_current_inv_149614.calc_offset,0.0,float
+Metrics.inv_08_dc_current_inv_149614.calc_details,,NoneType
+Metrics.inv_08_dc_current_inv_149614.aggregation_type,avg,str
+Metrics.inv_08_dc_current_inv_149614.source_type,INVERTER,str
+Metrics.inv_08_dc_current_inv_149614.source_id,,NoneType
+Metrics.inv_08_dc_current_inv_149614.comments,,str
+Metrics.inv_08_dc_current_inv_149614.offline,False,bool
+Metrics.inv_08_dc_voltage_inv_149615.metric_id,149615,int
+Metrics.inv_08_dc_voltage_inv_149615.sensor_name,inv_08_dc_voltage (V),str
+Metrics.inv_08_dc_voltage_inv_149615.common_name,DC voltage,str
+Metrics.inv_08_dc_voltage_inv_149615.raw_units,V,str
+Metrics.inv_08_dc_voltage_inv_149615.units,V,str
+Metrics.inv_08_dc_voltage_inv_149615.calc_scale,1.0,float
+Metrics.inv_08_dc_voltage_inv_149615.calc_offset,0.0,float
+Metrics.inv_08_dc_voltage_inv_149615.calc_details,,NoneType
+Metrics.inv_08_dc_voltage_inv_149615.aggregation_type,avg,str
+Metrics.inv_08_dc_voltage_inv_149615.source_type,INVERTER,str
+Metrics.inv_08_dc_voltage_inv_149615.source_id,,NoneType
+Metrics.inv_08_dc_voltage_inv_149615.comments,,str
+Metrics.inv_08_dc_voltage_inv_149615.offline,False,bool
+Metrics.inv_09_ac_current_inv_149621.metric_id,149621,int
+Metrics.inv_09_ac_current_inv_149621.sensor_name,inv_09_ac_current (A),str
+Metrics.inv_09_ac_current_inv_149621.common_name,AC current,str
+Metrics.inv_09_ac_current_inv_149621.raw_units,A,str
+Metrics.inv_09_ac_current_inv_149621.units,A,str
+Metrics.inv_09_ac_current_inv_149621.calc_scale,1.0,float
+Metrics.inv_09_ac_current_inv_149621.calc_offset,0.0,float
+Metrics.inv_09_ac_current_inv_149621.calc_details,,NoneType
+Metrics.inv_09_ac_current_inv_149621.aggregation_type,avg,str
+Metrics.inv_09_ac_current_inv_149621.source_type,INVERTER,str
+Metrics.inv_09_ac_current_inv_149621.source_id,,NoneType
+Metrics.inv_09_ac_current_inv_149621.comments,,str
+Metrics.inv_09_ac_current_inv_149621.offline,False,bool
+Metrics.inv_09_ac_power_inv_149623.metric_id,149623,int
+Metrics.inv_09_ac_power_inv_149623.sensor_name,inv_09_ac_power (kW),str
+Metrics.inv_09_ac_power_inv_149623.common_name,AC power,str
+Metrics.inv_09_ac_power_inv_149623.raw_units,kw,str
+Metrics.inv_09_ac_power_inv_149623.units,kw,str
+Metrics.inv_09_ac_power_inv_149623.calc_scale,1.0,float
+Metrics.inv_09_ac_power_inv_149623.calc_offset,0.0,float
+Metrics.inv_09_ac_power_inv_149623.calc_details,,NoneType
+Metrics.inv_09_ac_power_inv_149623.aggregation_type,avg,str
+Metrics.inv_09_ac_power_inv_149623.source_type,INVERTER,str
+Metrics.inv_09_ac_power_inv_149623.source_id,,NoneType
+Metrics.inv_09_ac_power_inv_149623.comments,,str
+Metrics.inv_09_ac_power_inv_149623.offline,False,bool
+Metrics.inv_09_ac_voltage_inv_149622.metric_id,149622,int
+Metrics.inv_09_ac_voltage_inv_149622.sensor_name,inv_09_ac_voltage (V),str
+Metrics.inv_09_ac_voltage_inv_149622.common_name,AC voltage,str
+Metrics.inv_09_ac_voltage_inv_149622.raw_units,V,str
+Metrics.inv_09_ac_voltage_inv_149622.units,V,str
+Metrics.inv_09_ac_voltage_inv_149622.calc_scale,1.0,float
+Metrics.inv_09_ac_voltage_inv_149622.calc_offset,0.0,float
+Metrics.inv_09_ac_voltage_inv_149622.calc_details,,NoneType
+Metrics.inv_09_ac_voltage_inv_149622.aggregation_type,avg,str
+Metrics.inv_09_ac_voltage_inv_149622.source_type,INVERTER,str
+Metrics.inv_09_ac_voltage_inv_149622.source_id,,NoneType
+Metrics.inv_09_ac_voltage_inv_149622.comments,,str
+Metrics.inv_09_ac_voltage_inv_149622.offline,False,bool
+Metrics.inv_09_dc_current_inv_149619.metric_id,149619,int
+Metrics.inv_09_dc_current_inv_149619.sensor_name,inv_09_dc_current (A),str
+Metrics.inv_09_dc_current_inv_149619.common_name,DC current,str
+Metrics.inv_09_dc_current_inv_149619.raw_units,A,str
+Metrics.inv_09_dc_current_inv_149619.units,A,str
+Metrics.inv_09_dc_current_inv_149619.calc_scale,1.0,float
+Metrics.inv_09_dc_current_inv_149619.calc_offset,0.0,float
+Metrics.inv_09_dc_current_inv_149619.calc_details,,NoneType
+Metrics.inv_09_dc_current_inv_149619.aggregation_type,avg,str
+Metrics.inv_09_dc_current_inv_149619.source_type,INVERTER,str
+Metrics.inv_09_dc_current_inv_149619.source_id,,NoneType
+Metrics.inv_09_dc_current_inv_149619.comments,,str
+Metrics.inv_09_dc_current_inv_149619.offline,False,bool
+Metrics.inv_09_dc_voltage_inv_149620.metric_id,149620,int
+Metrics.inv_09_dc_voltage_inv_149620.sensor_name,inv_09_dc_voltage (V),str
+Metrics.inv_09_dc_voltage_inv_149620.common_name,DC voltage,str
+Metrics.inv_09_dc_voltage_inv_149620.raw_units,V,str
+Metrics.inv_09_dc_voltage_inv_149620.units,V,str
+Metrics.inv_09_dc_voltage_inv_149620.calc_scale,1.0,float
+Metrics.inv_09_dc_voltage_inv_149620.calc_offset,0.0,float
+Metrics.inv_09_dc_voltage_inv_149620.calc_details,,NoneType
+Metrics.inv_09_dc_voltage_inv_149620.aggregation_type,avg,str
+Metrics.inv_09_dc_voltage_inv_149620.source_type,INVERTER,str
+Metrics.inv_09_dc_voltage_inv_149620.source_id,,NoneType
+Metrics.inv_09_dc_voltage_inv_149620.comments,,str
+Metrics.inv_09_dc_voltage_inv_149620.offline,False,bool
+Metrics.inv_10_ac_current_inv_149626.metric_id,149626,int
+Metrics.inv_10_ac_current_inv_149626.sensor_name,inv_10_ac_current (A),str
+Metrics.inv_10_ac_current_inv_149626.common_name,AC current,str
+Metrics.inv_10_ac_current_inv_149626.raw_units,A,str
+Metrics.inv_10_ac_current_inv_149626.units,A,str
+Metrics.inv_10_ac_current_inv_149626.calc_scale,1.0,float
+Metrics.inv_10_ac_current_inv_149626.calc_offset,0.0,float
+Metrics.inv_10_ac_current_inv_149626.calc_details,,NoneType
+Metrics.inv_10_ac_current_inv_149626.aggregation_type,avg,str
+Metrics.inv_10_ac_current_inv_149626.source_type,INVERTER,str
+Metrics.inv_10_ac_current_inv_149626.source_id,,NoneType
+Metrics.inv_10_ac_current_inv_149626.comments,,str
+Metrics.inv_10_ac_current_inv_149626.offline,False,bool
+Metrics.inv_10_ac_power_inv_149628.metric_id,149628,int
+Metrics.inv_10_ac_power_inv_149628.sensor_name,inv_10_ac_power (kW),str
+Metrics.inv_10_ac_power_inv_149628.common_name,AC power,str
+Metrics.inv_10_ac_power_inv_149628.raw_units,kw,str
+Metrics.inv_10_ac_power_inv_149628.units,kw,str
+Metrics.inv_10_ac_power_inv_149628.calc_scale,1.0,float
+Metrics.inv_10_ac_power_inv_149628.calc_offset,0.0,float
+Metrics.inv_10_ac_power_inv_149628.calc_details,,NoneType
+Metrics.inv_10_ac_power_inv_149628.aggregation_type,avg,str
+Metrics.inv_10_ac_power_inv_149628.source_type,INVERTER,str
+Metrics.inv_10_ac_power_inv_149628.source_id,,NoneType
+Metrics.inv_10_ac_power_inv_149628.comments,,str
+Metrics.inv_10_ac_power_inv_149628.offline,False,bool
+Metrics.inv_10_ac_voltage_inv_149627.metric_id,149627,int
+Metrics.inv_10_ac_voltage_inv_149627.sensor_name,inv_10_ac_voltage (V),str
+Metrics.inv_10_ac_voltage_inv_149627.common_name,AC voltage,str
+Metrics.inv_10_ac_voltage_inv_149627.raw_units,V,str
+Metrics.inv_10_ac_voltage_inv_149627.units,V,str
+Metrics.inv_10_ac_voltage_inv_149627.calc_scale,1.0,float
+Metrics.inv_10_ac_voltage_inv_149627.calc_offset,0.0,float
+Metrics.inv_10_ac_voltage_inv_149627.calc_details,,NoneType
+Metrics.inv_10_ac_voltage_inv_149627.aggregation_type,avg,str
+Metrics.inv_10_ac_voltage_inv_149627.source_type,INVERTER,str
+Metrics.inv_10_ac_voltage_inv_149627.source_id,,NoneType
+Metrics.inv_10_ac_voltage_inv_149627.comments,,str
+Metrics.inv_10_ac_voltage_inv_149627.offline,False,bool
+Metrics.inv_10_dc_current_inv_149624.metric_id,149624,int
+Metrics.inv_10_dc_current_inv_149624.sensor_name,inv_10_dc_current (A),str
+Metrics.inv_10_dc_current_inv_149624.common_name,DC current,str
+Metrics.inv_10_dc_current_inv_149624.raw_units,A,str
+Metrics.inv_10_dc_current_inv_149624.units,A,str
+Metrics.inv_10_dc_current_inv_149624.calc_scale,1.0,float
+Metrics.inv_10_dc_current_inv_149624.calc_offset,0.0,float
+Metrics.inv_10_dc_current_inv_149624.calc_details,,NoneType
+Metrics.inv_10_dc_current_inv_149624.aggregation_type,avg,str
+Metrics.inv_10_dc_current_inv_149624.source_type,INVERTER,str
+Metrics.inv_10_dc_current_inv_149624.source_id,,NoneType
+Metrics.inv_10_dc_current_inv_149624.comments,,str
+Metrics.inv_10_dc_current_inv_149624.offline,False,bool
+Metrics.inv_10_dc_voltage_inv_149625.metric_id,149625,int
+Metrics.inv_10_dc_voltage_inv_149625.sensor_name,inv_10_dc_voltage (V),str
+Metrics.inv_10_dc_voltage_inv_149625.common_name,DC voltage,str
+Metrics.inv_10_dc_voltage_inv_149625.raw_units,V,str
+Metrics.inv_10_dc_voltage_inv_149625.units,V,str
+Metrics.inv_10_dc_voltage_inv_149625.calc_scale,1.0,float
+Metrics.inv_10_dc_voltage_inv_149625.calc_offset,0.0,float
+Metrics.inv_10_dc_voltage_inv_149625.calc_details,,NoneType
+Metrics.inv_10_dc_voltage_inv_149625.aggregation_type,avg,str
+Metrics.inv_10_dc_voltage_inv_149625.source_type,INVERTER,str
+Metrics.inv_10_dc_voltage_inv_149625.source_id,,NoneType
+Metrics.inv_10_dc_voltage_inv_149625.comments,,str
+Metrics.inv_10_dc_voltage_inv_149625.offline,False,bool
+Metrics.inv_11_ac_current_inv_149631.metric_id,149631,int
+Metrics.inv_11_ac_current_inv_149631.sensor_name,inv_11_ac_current (A),str
+Metrics.inv_11_ac_current_inv_149631.common_name,AC current,str
+Metrics.inv_11_ac_current_inv_149631.raw_units,A,str
+Metrics.inv_11_ac_current_inv_149631.units,A,str
+Metrics.inv_11_ac_current_inv_149631.calc_scale,1.0,float
+Metrics.inv_11_ac_current_inv_149631.calc_offset,0.0,float
+Metrics.inv_11_ac_current_inv_149631.calc_details,,NoneType
+Metrics.inv_11_ac_current_inv_149631.aggregation_type,avg,str
+Metrics.inv_11_ac_current_inv_149631.source_type,INVERTER,str
+Metrics.inv_11_ac_current_inv_149631.source_id,,NoneType
+Metrics.inv_11_ac_current_inv_149631.comments,,str
+Metrics.inv_11_ac_current_inv_149631.offline,False,bool
+Metrics.inv_11_ac_power_inv_149633.metric_id,149633,int
+Metrics.inv_11_ac_power_inv_149633.sensor_name,inv_11_ac_power (kW),str
+Metrics.inv_11_ac_power_inv_149633.common_name,AC power,str
+Metrics.inv_11_ac_power_inv_149633.raw_units,kw,str
+Metrics.inv_11_ac_power_inv_149633.units,kw,str
+Metrics.inv_11_ac_power_inv_149633.calc_scale,1.0,float
+Metrics.inv_11_ac_power_inv_149633.calc_offset,0.0,float
+Metrics.inv_11_ac_power_inv_149633.calc_details,,NoneType
+Metrics.inv_11_ac_power_inv_149633.aggregation_type,avg,str
+Metrics.inv_11_ac_power_inv_149633.source_type,INVERTER,str
+Metrics.inv_11_ac_power_inv_149633.source_id,,NoneType
+Metrics.inv_11_ac_power_inv_149633.comments,,str
+Metrics.inv_11_ac_power_inv_149633.offline,False,bool
+Metrics.inv_11_ac_voltage_inv_149632.metric_id,149632,int
+Metrics.inv_11_ac_voltage_inv_149632.sensor_name,inv_11_ac_voltage (V),str
+Metrics.inv_11_ac_voltage_inv_149632.common_name,AC voltage,str
+Metrics.inv_11_ac_voltage_inv_149632.raw_units,V,str
+Metrics.inv_11_ac_voltage_inv_149632.units,V,str
+Metrics.inv_11_ac_voltage_inv_149632.calc_scale,1.0,float
+Metrics.inv_11_ac_voltage_inv_149632.calc_offset,0.0,float
+Metrics.inv_11_ac_voltage_inv_149632.calc_details,,NoneType
+Metrics.inv_11_ac_voltage_inv_149632.aggregation_type,avg,str
+Metrics.inv_11_ac_voltage_inv_149632.source_type,INVERTER,str
+Metrics.inv_11_ac_voltage_inv_149632.source_id,,NoneType
+Metrics.inv_11_ac_voltage_inv_149632.comments,,str
+Metrics.inv_11_ac_voltage_inv_149632.offline,False,bool
+Metrics.inv_11_dc_current_inv_149629.metric_id,149629,int
+Metrics.inv_11_dc_current_inv_149629.sensor_name,inv_11_dc_current (A),str
+Metrics.inv_11_dc_current_inv_149629.common_name,DC current,str
+Metrics.inv_11_dc_current_inv_149629.raw_units,A,str
+Metrics.inv_11_dc_current_inv_149629.units,A,str
+Metrics.inv_11_dc_current_inv_149629.calc_scale,1.0,float
+Metrics.inv_11_dc_current_inv_149629.calc_offset,0.0,float
+Metrics.inv_11_dc_current_inv_149629.calc_details,,NoneType
+Metrics.inv_11_dc_current_inv_149629.aggregation_type,avg,str
+Metrics.inv_11_dc_current_inv_149629.source_type,INVERTER,str
+Metrics.inv_11_dc_current_inv_149629.source_id,,NoneType
+Metrics.inv_11_dc_current_inv_149629.comments,,str
+Metrics.inv_11_dc_current_inv_149629.offline,False,bool
+Metrics.inv_11_dc_voltage_inv_149630.metric_id,149630,int
+Metrics.inv_11_dc_voltage_inv_149630.sensor_name,inv_11_dc_voltage (V),str
+Metrics.inv_11_dc_voltage_inv_149630.common_name,DC voltage,str
+Metrics.inv_11_dc_voltage_inv_149630.raw_units,V,str
+Metrics.inv_11_dc_voltage_inv_149630.units,V,str
+Metrics.inv_11_dc_voltage_inv_149630.calc_scale,1.0,float
+Metrics.inv_11_dc_voltage_inv_149630.calc_offset,0.0,float
+Metrics.inv_11_dc_voltage_inv_149630.calc_details,,NoneType
+Metrics.inv_11_dc_voltage_inv_149630.aggregation_type,avg,str
+Metrics.inv_11_dc_voltage_inv_149630.source_type,INVERTER,str
+Metrics.inv_11_dc_voltage_inv_149630.source_id,,NoneType
+Metrics.inv_11_dc_voltage_inv_149630.comments,,str
+Metrics.inv_11_dc_voltage_inv_149630.offline,False,bool
+Metrics.inv_12_ac_current_inv_149636.metric_id,149636,int
+Metrics.inv_12_ac_current_inv_149636.sensor_name,inv_12_ac_current (A),str
+Metrics.inv_12_ac_current_inv_149636.common_name,AC current,str
+Metrics.inv_12_ac_current_inv_149636.raw_units,A,str
+Metrics.inv_12_ac_current_inv_149636.units,A,str
+Metrics.inv_12_ac_current_inv_149636.calc_scale,1.0,float
+Metrics.inv_12_ac_current_inv_149636.calc_offset,0.0,float
+Metrics.inv_12_ac_current_inv_149636.calc_details,,NoneType
+Metrics.inv_12_ac_current_inv_149636.aggregation_type,avg,str
+Metrics.inv_12_ac_current_inv_149636.source_type,INVERTER,str
+Metrics.inv_12_ac_current_inv_149636.source_id,,NoneType
+Metrics.inv_12_ac_current_inv_149636.comments,,str
+Metrics.inv_12_ac_current_inv_149636.offline,False,bool
+Metrics.inv_12_ac_power_inv_149638.metric_id,149638,int
+Metrics.inv_12_ac_power_inv_149638.sensor_name,inv_12_ac_power (kW),str
+Metrics.inv_12_ac_power_inv_149638.common_name,AC power,str
+Metrics.inv_12_ac_power_inv_149638.raw_units,kw,str
+Metrics.inv_12_ac_power_inv_149638.units,kw,str
+Metrics.inv_12_ac_power_inv_149638.calc_scale,1.0,float
+Metrics.inv_12_ac_power_inv_149638.calc_offset,0.0,float
+Metrics.inv_12_ac_power_inv_149638.calc_details,,NoneType
+Metrics.inv_12_ac_power_inv_149638.aggregation_type,avg,str
+Metrics.inv_12_ac_power_inv_149638.source_type,INVERTER,str
+Metrics.inv_12_ac_power_inv_149638.source_id,,NoneType
+Metrics.inv_12_ac_power_inv_149638.comments,,str
+Metrics.inv_12_ac_power_inv_149638.offline,False,bool
+Metrics.inv_12_ac_voltage_inv_149637.metric_id,149637,int
+Metrics.inv_12_ac_voltage_inv_149637.sensor_name,inv_12_ac_voltage (V),str
+Metrics.inv_12_ac_voltage_inv_149637.common_name,AC voltage,str
+Metrics.inv_12_ac_voltage_inv_149637.raw_units,V,str
+Metrics.inv_12_ac_voltage_inv_149637.units,V,str
+Metrics.inv_12_ac_voltage_inv_149637.calc_scale,1.0,float
+Metrics.inv_12_ac_voltage_inv_149637.calc_offset,0.0,float
+Metrics.inv_12_ac_voltage_inv_149637.calc_details,,NoneType
+Metrics.inv_12_ac_voltage_inv_149637.aggregation_type,avg,str
+Metrics.inv_12_ac_voltage_inv_149637.source_type,INVERTER,str
+Metrics.inv_12_ac_voltage_inv_149637.source_id,,NoneType
+Metrics.inv_12_ac_voltage_inv_149637.comments,,str
+Metrics.inv_12_ac_voltage_inv_149637.offline,False,bool
+Metrics.inv_12_dc_current_inv_149634.metric_id,149634,int
+Metrics.inv_12_dc_current_inv_149634.sensor_name,inv_12_dc_current (A),str
+Metrics.inv_12_dc_current_inv_149634.common_name,DC current,str
+Metrics.inv_12_dc_current_inv_149634.raw_units,A,str
+Metrics.inv_12_dc_current_inv_149634.units,A,str
+Metrics.inv_12_dc_current_inv_149634.calc_scale,1.0,float
+Metrics.inv_12_dc_current_inv_149634.calc_offset,0.0,float
+Metrics.inv_12_dc_current_inv_149634.calc_details,,NoneType
+Metrics.inv_12_dc_current_inv_149634.aggregation_type,avg,str
+Metrics.inv_12_dc_current_inv_149634.source_type,INVERTER,str
+Metrics.inv_12_dc_current_inv_149634.source_id,,NoneType
+Metrics.inv_12_dc_current_inv_149634.comments,,str
+Metrics.inv_12_dc_current_inv_149634.offline,False,bool
+Metrics.inv_12_dc_voltage_inv_149635.metric_id,149635,int
+Metrics.inv_12_dc_voltage_inv_149635.sensor_name,inv_12_dc_voltage (V),str
+Metrics.inv_12_dc_voltage_inv_149635.common_name,DC voltage,str
+Metrics.inv_12_dc_voltage_inv_149635.raw_units,V,str
+Metrics.inv_12_dc_voltage_inv_149635.units,V,str
+Metrics.inv_12_dc_voltage_inv_149635.calc_scale,1.0,float
+Metrics.inv_12_dc_voltage_inv_149635.calc_offset,0.0,float
+Metrics.inv_12_dc_voltage_inv_149635.calc_details,,NoneType
+Metrics.inv_12_dc_voltage_inv_149635.aggregation_type,avg,str
+Metrics.inv_12_dc_voltage_inv_149635.source_type,INVERTER,str
+Metrics.inv_12_dc_voltage_inv_149635.source_id,,NoneType
+Metrics.inv_12_dc_voltage_inv_149635.comments,,str
+Metrics.inv_12_dc_voltage_inv_149635.offline,False,bool
+Metrics.inv_13_ac_current_inv_149641.metric_id,149641,int
+Metrics.inv_13_ac_current_inv_149641.sensor_name,inv_13_ac_current (A),str
+Metrics.inv_13_ac_current_inv_149641.common_name,AC current,str
+Metrics.inv_13_ac_current_inv_149641.raw_units,A,str
+Metrics.inv_13_ac_current_inv_149641.units,A,str
+Metrics.inv_13_ac_current_inv_149641.calc_scale,1.0,float
+Metrics.inv_13_ac_current_inv_149641.calc_offset,0.0,float
+Metrics.inv_13_ac_current_inv_149641.calc_details,,NoneType
+Metrics.inv_13_ac_current_inv_149641.aggregation_type,avg,str
+Metrics.inv_13_ac_current_inv_149641.source_type,INVERTER,str
+Metrics.inv_13_ac_current_inv_149641.source_id,,NoneType
+Metrics.inv_13_ac_current_inv_149641.comments,,str
+Metrics.inv_13_ac_current_inv_149641.offline,False,bool
+Metrics.inv_13_ac_power_inv_149643.metric_id,149643,int
+Metrics.inv_13_ac_power_inv_149643.sensor_name,inv_13_ac_power (kW),str
+Metrics.inv_13_ac_power_inv_149643.common_name,AC power,str
+Metrics.inv_13_ac_power_inv_149643.raw_units,kw,str
+Metrics.inv_13_ac_power_inv_149643.units,kw,str
+Metrics.inv_13_ac_power_inv_149643.calc_scale,1.0,float
+Metrics.inv_13_ac_power_inv_149643.calc_offset,0.0,float
+Metrics.inv_13_ac_power_inv_149643.calc_details,,NoneType
+Metrics.inv_13_ac_power_inv_149643.aggregation_type,avg,str
+Metrics.inv_13_ac_power_inv_149643.source_type,INVERTER,str
+Metrics.inv_13_ac_power_inv_149643.source_id,,NoneType
+Metrics.inv_13_ac_power_inv_149643.comments,,str
+Metrics.inv_13_ac_power_inv_149643.offline,False,bool
+Metrics.inv_13_ac_voltage_inv_149642.metric_id,149642,int
+Metrics.inv_13_ac_voltage_inv_149642.sensor_name,inv_13_ac_voltage (V),str
+Metrics.inv_13_ac_voltage_inv_149642.common_name,AC voltage,str
+Metrics.inv_13_ac_voltage_inv_149642.raw_units,V,str
+Metrics.inv_13_ac_voltage_inv_149642.units,V,str
+Metrics.inv_13_ac_voltage_inv_149642.calc_scale,1.0,float
+Metrics.inv_13_ac_voltage_inv_149642.calc_offset,0.0,float
+Metrics.inv_13_ac_voltage_inv_149642.calc_details,,NoneType
+Metrics.inv_13_ac_voltage_inv_149642.aggregation_type,avg,str
+Metrics.inv_13_ac_voltage_inv_149642.source_type,INVERTER,str
+Metrics.inv_13_ac_voltage_inv_149642.source_id,,NoneType
+Metrics.inv_13_ac_voltage_inv_149642.comments,,str
+Metrics.inv_13_ac_voltage_inv_149642.offline,False,bool
+Metrics.inv_13_dc_current_inv_149639.metric_id,149639,int
+Metrics.inv_13_dc_current_inv_149639.sensor_name,inv_13_dc_current (A),str
+Metrics.inv_13_dc_current_inv_149639.common_name,DC current,str
+Metrics.inv_13_dc_current_inv_149639.raw_units,A,str
+Metrics.inv_13_dc_current_inv_149639.units,A,str
+Metrics.inv_13_dc_current_inv_149639.calc_scale,1.0,float
+Metrics.inv_13_dc_current_inv_149639.calc_offset,0.0,float
+Metrics.inv_13_dc_current_inv_149639.calc_details,,NoneType
+Metrics.inv_13_dc_current_inv_149639.aggregation_type,avg,str
+Metrics.inv_13_dc_current_inv_149639.source_type,INVERTER,str
+Metrics.inv_13_dc_current_inv_149639.source_id,,NoneType
+Metrics.inv_13_dc_current_inv_149639.comments,,str
+Metrics.inv_13_dc_current_inv_149639.offline,False,bool
+Metrics.inv_13_dc_voltage_inv_149640.metric_id,149640,int
+Metrics.inv_13_dc_voltage_inv_149640.sensor_name,inv_13_dc_voltage (V),str
+Metrics.inv_13_dc_voltage_inv_149640.common_name,DC voltage,str
+Metrics.inv_13_dc_voltage_inv_149640.raw_units,V,str
+Metrics.inv_13_dc_voltage_inv_149640.units,V,str
+Metrics.inv_13_dc_voltage_inv_149640.calc_scale,1.0,float
+Metrics.inv_13_dc_voltage_inv_149640.calc_offset,0.0,float
+Metrics.inv_13_dc_voltage_inv_149640.calc_details,,NoneType
+Metrics.inv_13_dc_voltage_inv_149640.aggregation_type,avg,str
+Metrics.inv_13_dc_voltage_inv_149640.source_type,INVERTER,str
+Metrics.inv_13_dc_voltage_inv_149640.source_id,,NoneType
+Metrics.inv_13_dc_voltage_inv_149640.comments,,str
+Metrics.inv_13_dc_voltage_inv_149640.offline,False,bool
+Metrics.inv_14_ac_current_inv_149646.metric_id,149646,int
+Metrics.inv_14_ac_current_inv_149646.sensor_name,inv_14_ac_current (A),str
+Metrics.inv_14_ac_current_inv_149646.common_name,AC current,str
+Metrics.inv_14_ac_current_inv_149646.raw_units,A,str
+Metrics.inv_14_ac_current_inv_149646.units,A,str
+Metrics.inv_14_ac_current_inv_149646.calc_scale,1.0,float
+Metrics.inv_14_ac_current_inv_149646.calc_offset,0.0,float
+Metrics.inv_14_ac_current_inv_149646.calc_details,,NoneType
+Metrics.inv_14_ac_current_inv_149646.aggregation_type,avg,str
+Metrics.inv_14_ac_current_inv_149646.source_type,INVERTER,str
+Metrics.inv_14_ac_current_inv_149646.source_id,,NoneType
+Metrics.inv_14_ac_current_inv_149646.comments,,str
+Metrics.inv_14_ac_current_inv_149646.offline,False,bool
+Metrics.inv_14_ac_power_inv_149648.metric_id,149648,int
+Metrics.inv_14_ac_power_inv_149648.sensor_name,inv_14_ac_power (kW),str
+Metrics.inv_14_ac_power_inv_149648.common_name,AC power,str
+Metrics.inv_14_ac_power_inv_149648.raw_units,kw,str
+Metrics.inv_14_ac_power_inv_149648.units,kw,str
+Metrics.inv_14_ac_power_inv_149648.calc_scale,1.0,float
+Metrics.inv_14_ac_power_inv_149648.calc_offset,0.0,float
+Metrics.inv_14_ac_power_inv_149648.calc_details,,NoneType
+Metrics.inv_14_ac_power_inv_149648.aggregation_type,avg,str
+Metrics.inv_14_ac_power_inv_149648.source_type,INVERTER,str
+Metrics.inv_14_ac_power_inv_149648.source_id,,NoneType
+Metrics.inv_14_ac_power_inv_149648.comments,,str
+Metrics.inv_14_ac_power_inv_149648.offline,False,bool
+Metrics.inv_14_ac_voltage_inv_149647.metric_id,149647,int
+Metrics.inv_14_ac_voltage_inv_149647.sensor_name,inv_14_ac_voltage (V),str
+Metrics.inv_14_ac_voltage_inv_149647.common_name,AC voltage,str
+Metrics.inv_14_ac_voltage_inv_149647.raw_units,V,str
+Metrics.inv_14_ac_voltage_inv_149647.units,V,str
+Metrics.inv_14_ac_voltage_inv_149647.calc_scale,1.0,float
+Metrics.inv_14_ac_voltage_inv_149647.calc_offset,0.0,float
+Metrics.inv_14_ac_voltage_inv_149647.calc_details,,NoneType
+Metrics.inv_14_ac_voltage_inv_149647.aggregation_type,avg,str
+Metrics.inv_14_ac_voltage_inv_149647.source_type,INVERTER,str
+Metrics.inv_14_ac_voltage_inv_149647.source_id,,NoneType
+Metrics.inv_14_ac_voltage_inv_149647.comments,,str
+Metrics.inv_14_ac_voltage_inv_149647.offline,False,bool
+Metrics.inv_14_dc_current_inv_149644.metric_id,149644,int
+Metrics.inv_14_dc_current_inv_149644.sensor_name,inv_14_dc_current (A),str
+Metrics.inv_14_dc_current_inv_149644.common_name,DC current,str
+Metrics.inv_14_dc_current_inv_149644.raw_units,A,str
+Metrics.inv_14_dc_current_inv_149644.units,A,str
+Metrics.inv_14_dc_current_inv_149644.calc_scale,1.0,float
+Metrics.inv_14_dc_current_inv_149644.calc_offset,0.0,float
+Metrics.inv_14_dc_current_inv_149644.calc_details,,NoneType
+Metrics.inv_14_dc_current_inv_149644.aggregation_type,avg,str
+Metrics.inv_14_dc_current_inv_149644.source_type,INVERTER,str
+Metrics.inv_14_dc_current_inv_149644.source_id,,NoneType
+Metrics.inv_14_dc_current_inv_149644.comments,,str
+Metrics.inv_14_dc_current_inv_149644.offline,False,bool
+Metrics.inv_14_dc_voltage_inv_149645.metric_id,149645,int
+Metrics.inv_14_dc_voltage_inv_149645.sensor_name,inv_14_dc_voltage (V),str
+Metrics.inv_14_dc_voltage_inv_149645.common_name,DC voltage,str
+Metrics.inv_14_dc_voltage_inv_149645.raw_units,V,str
+Metrics.inv_14_dc_voltage_inv_149645.units,V,str
+Metrics.inv_14_dc_voltage_inv_149645.calc_scale,1.0,float
+Metrics.inv_14_dc_voltage_inv_149645.calc_offset,0.0,float
+Metrics.inv_14_dc_voltage_inv_149645.calc_details,,NoneType
+Metrics.inv_14_dc_voltage_inv_149645.aggregation_type,avg,str
+Metrics.inv_14_dc_voltage_inv_149645.source_type,INVERTER,str
+Metrics.inv_14_dc_voltage_inv_149645.source_id,,NoneType
+Metrics.inv_14_dc_voltage_inv_149645.comments,,str
+Metrics.inv_14_dc_voltage_inv_149645.offline,False,bool
+Metrics.inv_15_ac_current_inv_149651.metric_id,149651,int
+Metrics.inv_15_ac_current_inv_149651.sensor_name,inv_15_ac_current (A),str
+Metrics.inv_15_ac_current_inv_149651.common_name,AC current,str
+Metrics.inv_15_ac_current_inv_149651.raw_units,A,str
+Metrics.inv_15_ac_current_inv_149651.units,A,str
+Metrics.inv_15_ac_current_inv_149651.calc_scale,1.0,float
+Metrics.inv_15_ac_current_inv_149651.calc_offset,0.0,float
+Metrics.inv_15_ac_current_inv_149651.calc_details,,NoneType
+Metrics.inv_15_ac_current_inv_149651.aggregation_type,avg,str
+Metrics.inv_15_ac_current_inv_149651.source_type,INVERTER,str
+Metrics.inv_15_ac_current_inv_149651.source_id,,NoneType
+Metrics.inv_15_ac_current_inv_149651.comments,,str
+Metrics.inv_15_ac_current_inv_149651.offline,False,bool
+Metrics.inv_15_ac_power_iinv_149653.metric_id,149653,int
+Metrics.inv_15_ac_power_iinv_149653.sensor_name,inv_15_ac_power (kW),str
+Metrics.inv_15_ac_power_iinv_149653.common_name,AC power,str
+Metrics.inv_15_ac_power_iinv_149653.raw_units,kw,str
+Metrics.inv_15_ac_power_iinv_149653.units,kw,str
+Metrics.inv_15_ac_power_iinv_149653.calc_scale,1.0,float
+Metrics.inv_15_ac_power_iinv_149653.calc_offset,0.0,float
+Metrics.inv_15_ac_power_iinv_149653.calc_details,,NoneType
+Metrics.inv_15_ac_power_iinv_149653.aggregation_type,avg,str
+Metrics.inv_15_ac_power_iinv_149653.source_type,INVERTER,str
+Metrics.inv_15_ac_power_iinv_149653.source_id,,NoneType
+Metrics.inv_15_ac_power_iinv_149653.comments,,str
+Metrics.inv_15_ac_power_iinv_149653.offline,False,bool
+Metrics.inv_15_ac_voltage_inv_149652.metric_id,149652,int
+Metrics.inv_15_ac_voltage_inv_149652.sensor_name,inv_15_ac_voltage (V),str
+Metrics.inv_15_ac_voltage_inv_149652.common_name,AC voltage,str
+Metrics.inv_15_ac_voltage_inv_149652.raw_units,V,str
+Metrics.inv_15_ac_voltage_inv_149652.units,V,str
+Metrics.inv_15_ac_voltage_inv_149652.calc_scale,1.0,float
+Metrics.inv_15_ac_voltage_inv_149652.calc_offset,0.0,float
+Metrics.inv_15_ac_voltage_inv_149652.calc_details,,NoneType
+Metrics.inv_15_ac_voltage_inv_149652.aggregation_type,avg,str
+Metrics.inv_15_ac_voltage_inv_149652.source_type,INVERTER,str
+Metrics.inv_15_ac_voltage_inv_149652.source_id,,NoneType
+Metrics.inv_15_ac_voltage_inv_149652.comments,,str
+Metrics.inv_15_ac_voltage_inv_149652.offline,False,bool
+Metrics.inv_15_dc_current_inv_149649.metric_id,149649,int
+Metrics.inv_15_dc_current_inv_149649.sensor_name,inv_15_dc_current (A),str
+Metrics.inv_15_dc_current_inv_149649.common_name,DC current,str
+Metrics.inv_15_dc_current_inv_149649.raw_units,A,str
+Metrics.inv_15_dc_current_inv_149649.units,A,str
+Metrics.inv_15_dc_current_inv_149649.calc_scale,1.0,float
+Metrics.inv_15_dc_current_inv_149649.calc_offset,0.0,float
+Metrics.inv_15_dc_current_inv_149649.calc_details,,NoneType
+Metrics.inv_15_dc_current_inv_149649.aggregation_type,avg,str
+Metrics.inv_15_dc_current_inv_149649.source_type,INVERTER,str
+Metrics.inv_15_dc_current_inv_149649.source_id,,NoneType
+Metrics.inv_15_dc_current_inv_149649.comments,,str
+Metrics.inv_15_dc_current_inv_149649.offline,False,bool
+Metrics.inv_15_dc_voltage_inv_149650.metric_id,149650,int
+Metrics.inv_15_dc_voltage_inv_149650.sensor_name,inv_15_dc_voltage (V),str
+Metrics.inv_15_dc_voltage_inv_149650.common_name,DC voltage,str
+Metrics.inv_15_dc_voltage_inv_149650.raw_units,V,str
+Metrics.inv_15_dc_voltage_inv_149650.units,V,str
+Metrics.inv_15_dc_voltage_inv_149650.calc_scale,1.0,float
+Metrics.inv_15_dc_voltage_inv_149650.calc_offset,0.0,float
+Metrics.inv_15_dc_voltage_inv_149650.calc_details,,NoneType
+Metrics.inv_15_dc_voltage_inv_149650.aggregation_type,avg,str
+Metrics.inv_15_dc_voltage_inv_149650.source_type,INVERTER,str
+Metrics.inv_15_dc_voltage_inv_149650.source_id,,NoneType
+Metrics.inv_15_dc_voltage_inv_149650.comments,,str
+Metrics.inv_15_dc_voltage_inv_149650.offline,False,bool
+Metrics.inv_16_ac_current_inv_149656.metric_id,149656,int
+Metrics.inv_16_ac_current_inv_149656.sensor_name,inv_16_ac_current (A),str
+Metrics.inv_16_ac_current_inv_149656.common_name,AC current,str
+Metrics.inv_16_ac_current_inv_149656.raw_units,A,str
+Metrics.inv_16_ac_current_inv_149656.units,A,str
+Metrics.inv_16_ac_current_inv_149656.calc_scale,1.0,float
+Metrics.inv_16_ac_current_inv_149656.calc_offset,0.0,float
+Metrics.inv_16_ac_current_inv_149656.calc_details,,NoneType
+Metrics.inv_16_ac_current_inv_149656.aggregation_type,avg,str
+Metrics.inv_16_ac_current_inv_149656.source_type,INVERTER,str
+Metrics.inv_16_ac_current_inv_149656.source_id,,NoneType
+Metrics.inv_16_ac_current_inv_149656.comments,,str
+Metrics.inv_16_ac_current_inv_149656.offline,False,bool
+Metrics.inv_16_ac_power_inv_149658.metric_id,149658,int
+Metrics.inv_16_ac_power_inv_149658.sensor_name,inv_16_ac_power (kW),str
+Metrics.inv_16_ac_power_inv_149658.common_name,AC power,str
+Metrics.inv_16_ac_power_inv_149658.raw_units,kw,str
+Metrics.inv_16_ac_power_inv_149658.units,kw,str
+Metrics.inv_16_ac_power_inv_149658.calc_scale,1.0,float
+Metrics.inv_16_ac_power_inv_149658.calc_offset,0.0,float
+Metrics.inv_16_ac_power_inv_149658.calc_details,,NoneType
+Metrics.inv_16_ac_power_inv_149658.aggregation_type,avg,str
+Metrics.inv_16_ac_power_inv_149658.source_type,INVERTER,str
+Metrics.inv_16_ac_power_inv_149658.source_id,,NoneType
+Metrics.inv_16_ac_power_inv_149658.comments,,str
+Metrics.inv_16_ac_power_inv_149658.offline,False,bool
+Metrics.inv_16_ac_voltage_inv_149657.metric_id,149657,int
+Metrics.inv_16_ac_voltage_inv_149657.sensor_name,inv_16_ac_voltage (V),str
+Metrics.inv_16_ac_voltage_inv_149657.common_name,AC voltage,str
+Metrics.inv_16_ac_voltage_inv_149657.raw_units,V,str
+Metrics.inv_16_ac_voltage_inv_149657.units,V,str
+Metrics.inv_16_ac_voltage_inv_149657.calc_scale,1.0,float
+Metrics.inv_16_ac_voltage_inv_149657.calc_offset,0.0,float
+Metrics.inv_16_ac_voltage_inv_149657.calc_details,,NoneType
+Metrics.inv_16_ac_voltage_inv_149657.aggregation_type,avg,str
+Metrics.inv_16_ac_voltage_inv_149657.source_type,INVERTER,str
+Metrics.inv_16_ac_voltage_inv_149657.source_id,,NoneType
+Metrics.inv_16_ac_voltage_inv_149657.comments,,str
+Metrics.inv_16_ac_voltage_inv_149657.offline,False,bool
+Metrics.inv_16_dc_current_inv_149654.metric_id,149654,int
+Metrics.inv_16_dc_current_inv_149654.sensor_name,inv_16_dc_current (A),str
+Metrics.inv_16_dc_current_inv_149654.common_name,DC current,str
+Metrics.inv_16_dc_current_inv_149654.raw_units,A,str
+Metrics.inv_16_dc_current_inv_149654.units,A,str
+Metrics.inv_16_dc_current_inv_149654.calc_scale,1.0,float
+Metrics.inv_16_dc_current_inv_149654.calc_offset,0.0,float
+Metrics.inv_16_dc_current_inv_149654.calc_details,,NoneType
+Metrics.inv_16_dc_current_inv_149654.aggregation_type,avg,str
+Metrics.inv_16_dc_current_inv_149654.source_type,INVERTER,str
+Metrics.inv_16_dc_current_inv_149654.source_id,,NoneType
+Metrics.inv_16_dc_current_inv_149654.comments,,str
+Metrics.inv_16_dc_current_inv_149654.offline,False,bool
+Metrics.inv_16_dc_voltage_inv_149655.metric_id,149655,int
+Metrics.inv_16_dc_voltage_inv_149655.sensor_name,inv_16_dc_voltage (V),str
+Metrics.inv_16_dc_voltage_inv_149655.common_name,DC voltage,str
+Metrics.inv_16_dc_voltage_inv_149655.raw_units,V,str
+Metrics.inv_16_dc_voltage_inv_149655.units,V,str
+Metrics.inv_16_dc_voltage_inv_149655.calc_scale,1.0,float
+Metrics.inv_16_dc_voltage_inv_149655.calc_offset,0.0,float
+Metrics.inv_16_dc_voltage_inv_149655.calc_details,,NoneType
+Metrics.inv_16_dc_voltage_inv_149655.aggregation_type,avg,str
+Metrics.inv_16_dc_voltage_inv_149655.source_type,INVERTER,str
+Metrics.inv_16_dc_voltage_inv_149655.source_id,,NoneType
+Metrics.inv_16_dc_voltage_inv_149655.comments,,str
+Metrics.inv_16_dc_voltage_inv_149655.offline,False,bool
+Metrics.inv_17_ac_current_inv_149661.metric_id,149661,int
+Metrics.inv_17_ac_current_inv_149661.sensor_name,inv_17_ac_current (A),str
+Metrics.inv_17_ac_current_inv_149661.common_name,AC current,str
+Metrics.inv_17_ac_current_inv_149661.raw_units,A,str
+Metrics.inv_17_ac_current_inv_149661.units,A,str
+Metrics.inv_17_ac_current_inv_149661.calc_scale,1.0,float
+Metrics.inv_17_ac_current_inv_149661.calc_offset,0.0,float
+Metrics.inv_17_ac_current_inv_149661.calc_details,,NoneType
+Metrics.inv_17_ac_current_inv_149661.aggregation_type,avg,str
+Metrics.inv_17_ac_current_inv_149661.source_type,INVERTER,str
+Metrics.inv_17_ac_current_inv_149661.source_id,,NoneType
+Metrics.inv_17_ac_current_inv_149661.comments,,str
+Metrics.inv_17_ac_current_inv_149661.offline,False,bool
+Metrics.inv_17_ac_power_inv_149663.metric_id,149663,int
+Metrics.inv_17_ac_power_inv_149663.sensor_name,inv_17_ac_power (kW),str
+Metrics.inv_17_ac_power_inv_149663.common_name,AC power,str
+Metrics.inv_17_ac_power_inv_149663.raw_units,kw,str
+Metrics.inv_17_ac_power_inv_149663.units,kw,str
+Metrics.inv_17_ac_power_inv_149663.calc_scale,1.0,float
+Metrics.inv_17_ac_power_inv_149663.calc_offset,0.0,float
+Metrics.inv_17_ac_power_inv_149663.calc_details,,NoneType
+Metrics.inv_17_ac_power_inv_149663.aggregation_type,avg,str
+Metrics.inv_17_ac_power_inv_149663.source_type,INVERTER,str
+Metrics.inv_17_ac_power_inv_149663.source_id,,NoneType
+Metrics.inv_17_ac_power_inv_149663.comments,,str
+Metrics.inv_17_ac_power_inv_149663.offline,False,bool
+Metrics.inv_17_ac_voltage_inv_149662.metric_id,149662,int
+Metrics.inv_17_ac_voltage_inv_149662.sensor_name,inv_17_ac_voltage (V),str
+Metrics.inv_17_ac_voltage_inv_149662.common_name,AC voltage,str
+Metrics.inv_17_ac_voltage_inv_149662.raw_units,V,str
+Metrics.inv_17_ac_voltage_inv_149662.units,V,str
+Metrics.inv_17_ac_voltage_inv_149662.calc_scale,1.0,float
+Metrics.inv_17_ac_voltage_inv_149662.calc_offset,0.0,float
+Metrics.inv_17_ac_voltage_inv_149662.calc_details,,NoneType
+Metrics.inv_17_ac_voltage_inv_149662.aggregation_type,avg,str
+Metrics.inv_17_ac_voltage_inv_149662.source_type,INVERTER,str
+Metrics.inv_17_ac_voltage_inv_149662.source_id,,NoneType
+Metrics.inv_17_ac_voltage_inv_149662.comments,,str
+Metrics.inv_17_ac_voltage_inv_149662.offline,False,bool
+Metrics.inv_17_dc_current_inv_149659.metric_id,149659,int
+Metrics.inv_17_dc_current_inv_149659.sensor_name,inv_17_dc_current (A),str
+Metrics.inv_17_dc_current_inv_149659.common_name,DC current,str
+Metrics.inv_17_dc_current_inv_149659.raw_units,A,str
+Metrics.inv_17_dc_current_inv_149659.units,A,str
+Metrics.inv_17_dc_current_inv_149659.calc_scale,1.0,float
+Metrics.inv_17_dc_current_inv_149659.calc_offset,0.0,float
+Metrics.inv_17_dc_current_inv_149659.calc_details,,NoneType
+Metrics.inv_17_dc_current_inv_149659.aggregation_type,avg,str
+Metrics.inv_17_dc_current_inv_149659.source_type,INVERTER,str
+Metrics.inv_17_dc_current_inv_149659.source_id,,NoneType
+Metrics.inv_17_dc_current_inv_149659.comments,,str
+Metrics.inv_17_dc_current_inv_149659.offline,False,bool
+Metrics.inv_17_dc_voltage_inv_149660.metric_id,149660,int
+Metrics.inv_17_dc_voltage_inv_149660.sensor_name,inv_17_dc_voltage (V),str
+Metrics.inv_17_dc_voltage_inv_149660.common_name,DC voltage,str
+Metrics.inv_17_dc_voltage_inv_149660.raw_units,V,str
+Metrics.inv_17_dc_voltage_inv_149660.units,V,str
+Metrics.inv_17_dc_voltage_inv_149660.calc_scale,1.0,float
+Metrics.inv_17_dc_voltage_inv_149660.calc_offset,0.0,float
+Metrics.inv_17_dc_voltage_inv_149660.calc_details,,NoneType
+Metrics.inv_17_dc_voltage_inv_149660.aggregation_type,avg,str
+Metrics.inv_17_dc_voltage_inv_149660.source_type,INVERTER,str
+Metrics.inv_17_dc_voltage_inv_149660.source_id,,NoneType
+Metrics.inv_17_dc_voltage_inv_149660.comments,,str
+Metrics.inv_17_dc_voltage_inv_149660.offline,False,bool
+Metrics.inv_18_ac_current_inv_149666.metric_id,149666,int
+Metrics.inv_18_ac_current_inv_149666.sensor_name,inv_18_ac_current (A),str
+Metrics.inv_18_ac_current_inv_149666.common_name,AC current,str
+Metrics.inv_18_ac_current_inv_149666.raw_units,A,str
+Metrics.inv_18_ac_current_inv_149666.units,A,str
+Metrics.inv_18_ac_current_inv_149666.calc_scale,1.0,float
+Metrics.inv_18_ac_current_inv_149666.calc_offset,0.0,float
+Metrics.inv_18_ac_current_inv_149666.calc_details,,NoneType
+Metrics.inv_18_ac_current_inv_149666.aggregation_type,avg,str
+Metrics.inv_18_ac_current_inv_149666.source_type,INVERTER,str
+Metrics.inv_18_ac_current_inv_149666.source_id,,NoneType
+Metrics.inv_18_ac_current_inv_149666.comments,,str
+Metrics.inv_18_ac_current_inv_149666.offline,False,bool
+Metrics.inv_18_ac_power_inv_149668.metric_id,149668,int
+Metrics.inv_18_ac_power_inv_149668.sensor_name,inv_18_ac_power (kW),str
+Metrics.inv_18_ac_power_inv_149668.common_name,AC power,str
+Metrics.inv_18_ac_power_inv_149668.raw_units,kw,str
+Metrics.inv_18_ac_power_inv_149668.units,kw,str
+Metrics.inv_18_ac_power_inv_149668.calc_scale,1.0,float
+Metrics.inv_18_ac_power_inv_149668.calc_offset,0.0,float
+Metrics.inv_18_ac_power_inv_149668.calc_details,,NoneType
+Metrics.inv_18_ac_power_inv_149668.aggregation_type,avg,str
+Metrics.inv_18_ac_power_inv_149668.source_type,INVERTER,str
+Metrics.inv_18_ac_power_inv_149668.source_id,,NoneType
+Metrics.inv_18_ac_power_inv_149668.comments,,str
+Metrics.inv_18_ac_power_inv_149668.offline,False,bool
+Metrics.inv_18_ac_voltage_inv_149667.metric_id,149667,int
+Metrics.inv_18_ac_voltage_inv_149667.sensor_name,inv_18_ac_voltage (V),str
+Metrics.inv_18_ac_voltage_inv_149667.common_name,AC voltage,str
+Metrics.inv_18_ac_voltage_inv_149667.raw_units,V,str
+Metrics.inv_18_ac_voltage_inv_149667.units,V,str
+Metrics.inv_18_ac_voltage_inv_149667.calc_scale,1.0,float
+Metrics.inv_18_ac_voltage_inv_149667.calc_offset,0.0,float
+Metrics.inv_18_ac_voltage_inv_149667.calc_details,,NoneType
+Metrics.inv_18_ac_voltage_inv_149667.aggregation_type,avg,str
+Metrics.inv_18_ac_voltage_inv_149667.source_type,INVERTER,str
+Metrics.inv_18_ac_voltage_inv_149667.source_id,,NoneType
+Metrics.inv_18_ac_voltage_inv_149667.comments,,str
+Metrics.inv_18_ac_voltage_inv_149667.offline,False,bool
+Metrics.inv_18_dc_current_inv_149664.metric_id,149664,int
+Metrics.inv_18_dc_current_inv_149664.sensor_name,inv_18_dc_current (A),str
+Metrics.inv_18_dc_current_inv_149664.common_name,DC current,str
+Metrics.inv_18_dc_current_inv_149664.raw_units,A,str
+Metrics.inv_18_dc_current_inv_149664.units,A,str
+Metrics.inv_18_dc_current_inv_149664.calc_scale,1.0,float
+Metrics.inv_18_dc_current_inv_149664.calc_offset,0.0,float
+Metrics.inv_18_dc_current_inv_149664.calc_details,,NoneType
+Metrics.inv_18_dc_current_inv_149664.aggregation_type,avg,str
+Metrics.inv_18_dc_current_inv_149664.source_type,INVERTER,str
+Metrics.inv_18_dc_current_inv_149664.source_id,,NoneType
+Metrics.inv_18_dc_current_inv_149664.comments,,str
+Metrics.inv_18_dc_current_inv_149664.offline,False,bool
+Metrics.inv_18_dc_voltage_inv_149665.metric_id,149665,int
+Metrics.inv_18_dc_voltage_inv_149665.sensor_name,inv_18_dc_voltage (V),str
+Metrics.inv_18_dc_voltage_inv_149665.common_name,DC voltage,str
+Metrics.inv_18_dc_voltage_inv_149665.raw_units,V,str
+Metrics.inv_18_dc_voltage_inv_149665.units,V,str
+Metrics.inv_18_dc_voltage_inv_149665.calc_scale,1.0,float
+Metrics.inv_18_dc_voltage_inv_149665.calc_offset,0.0,float
+Metrics.inv_18_dc_voltage_inv_149665.calc_details,,NoneType
+Metrics.inv_18_dc_voltage_inv_149665.aggregation_type,avg,str
+Metrics.inv_18_dc_voltage_inv_149665.source_type,INVERTER,str
+Metrics.inv_18_dc_voltage_inv_149665.source_id,,NoneType
+Metrics.inv_18_dc_voltage_inv_149665.comments,,str
+Metrics.inv_18_dc_voltage_inv_149665.offline,False,bool
+Metrics.inv_19_ac_current_inv_149671.metric_id,149671,int
+Metrics.inv_19_ac_current_inv_149671.sensor_name,inv_19_ac_current (A),str
+Metrics.inv_19_ac_current_inv_149671.common_name,AC current,str
+Metrics.inv_19_ac_current_inv_149671.raw_units,A,str
+Metrics.inv_19_ac_current_inv_149671.units,A,str
+Metrics.inv_19_ac_current_inv_149671.calc_scale,1.0,float
+Metrics.inv_19_ac_current_inv_149671.calc_offset,0.0,float
+Metrics.inv_19_ac_current_inv_149671.calc_details,,NoneType
+Metrics.inv_19_ac_current_inv_149671.aggregation_type,avg,str
+Metrics.inv_19_ac_current_inv_149671.source_type,INVERTER,str
+Metrics.inv_19_ac_current_inv_149671.source_id,,NoneType
+Metrics.inv_19_ac_current_inv_149671.comments,,str
+Metrics.inv_19_ac_current_inv_149671.offline,False,bool
+Metrics.inv_19_ac_power_inv_149673.metric_id,149673,int
+Metrics.inv_19_ac_power_inv_149673.sensor_name,inv_19_ac_power (kW),str
+Metrics.inv_19_ac_power_inv_149673.common_name,AC power,str
+Metrics.inv_19_ac_power_inv_149673.raw_units,kw,str
+Metrics.inv_19_ac_power_inv_149673.units,kw,str
+Metrics.inv_19_ac_power_inv_149673.calc_scale,1.0,float
+Metrics.inv_19_ac_power_inv_149673.calc_offset,0.0,float
+Metrics.inv_19_ac_power_inv_149673.calc_details,,NoneType
+Metrics.inv_19_ac_power_inv_149673.aggregation_type,avg,str
+Metrics.inv_19_ac_power_inv_149673.source_type,INVERTER,str
+Metrics.inv_19_ac_power_inv_149673.source_id,,NoneType
+Metrics.inv_19_ac_power_inv_149673.comments,,str
+Metrics.inv_19_ac_power_inv_149673.offline,False,bool
+Metrics.inv_19_ac_voltage_inv_149672.metric_id,149672,int
+Metrics.inv_19_ac_voltage_inv_149672.sensor_name,inv_19_ac_voltage (V),str
+Metrics.inv_19_ac_voltage_inv_149672.common_name,AC voltage,str
+Metrics.inv_19_ac_voltage_inv_149672.raw_units,V,str
+Metrics.inv_19_ac_voltage_inv_149672.units,V,str
+Metrics.inv_19_ac_voltage_inv_149672.calc_scale,1.0,float
+Metrics.inv_19_ac_voltage_inv_149672.calc_offset,0.0,float
+Metrics.inv_19_ac_voltage_inv_149672.calc_details,,NoneType
+Metrics.inv_19_ac_voltage_inv_149672.aggregation_type,avg,str
+Metrics.inv_19_ac_voltage_inv_149672.source_type,INVERTER,str
+Metrics.inv_19_ac_voltage_inv_149672.source_id,,NoneType
+Metrics.inv_19_ac_voltage_inv_149672.comments,,str
+Metrics.inv_19_ac_voltage_inv_149672.offline,False,bool
+Metrics.inv_19_dc_current_inv_149669.metric_id,149669,int
+Metrics.inv_19_dc_current_inv_149669.sensor_name,inv_19_dc_current (A),str
+Metrics.inv_19_dc_current_inv_149669.common_name,DC current,str
+Metrics.inv_19_dc_current_inv_149669.raw_units,A,str
+Metrics.inv_19_dc_current_inv_149669.units,A,str
+Metrics.inv_19_dc_current_inv_149669.calc_scale,1.0,float
+Metrics.inv_19_dc_current_inv_149669.calc_offset,0.0,float
+Metrics.inv_19_dc_current_inv_149669.calc_details,,NoneType
+Metrics.inv_19_dc_current_inv_149669.aggregation_type,avg,str
+Metrics.inv_19_dc_current_inv_149669.source_type,INVERTER,str
+Metrics.inv_19_dc_current_inv_149669.source_id,,NoneType
+Metrics.inv_19_dc_current_inv_149669.comments,,str
+Metrics.inv_19_dc_current_inv_149669.offline,False,bool
+Metrics.inv_19_dc_voltage_inv_149670.metric_id,149670,int
+Metrics.inv_19_dc_voltage_inv_149670.sensor_name,inv_19_dc_voltage (V),str
+Metrics.inv_19_dc_voltage_inv_149670.common_name,DC voltage,str
+Metrics.inv_19_dc_voltage_inv_149670.raw_units,V,str
+Metrics.inv_19_dc_voltage_inv_149670.units,V,str
+Metrics.inv_19_dc_voltage_inv_149670.calc_scale,1.0,float
+Metrics.inv_19_dc_voltage_inv_149670.calc_offset,0.0,float
+Metrics.inv_19_dc_voltage_inv_149670.calc_details,,NoneType
+Metrics.inv_19_dc_voltage_inv_149670.aggregation_type,avg,str
+Metrics.inv_19_dc_voltage_inv_149670.source_type,INVERTER,str
+Metrics.inv_19_dc_voltage_inv_149670.source_id,,NoneType
+Metrics.inv_19_dc_voltage_inv_149670.comments,,str
+Metrics.inv_19_dc_voltage_inv_149670.offline,False,bool
+Metrics.inv_20_ac_current_inv_149676.metric_id,149676,int
+Metrics.inv_20_ac_current_inv_149676.sensor_name,inv_20_ac_current (A),str
+Metrics.inv_20_ac_current_inv_149676.common_name,AC current,str
+Metrics.inv_20_ac_current_inv_149676.raw_units,A,str
+Metrics.inv_20_ac_current_inv_149676.units,A,str
+Metrics.inv_20_ac_current_inv_149676.calc_scale,1.0,float
+Metrics.inv_20_ac_current_inv_149676.calc_offset,0.0,float
+Metrics.inv_20_ac_current_inv_149676.calc_details,,NoneType
+Metrics.inv_20_ac_current_inv_149676.aggregation_type,avg,str
+Metrics.inv_20_ac_current_inv_149676.source_type,INVERTER,str
+Metrics.inv_20_ac_current_inv_149676.source_id,,NoneType
+Metrics.inv_20_ac_current_inv_149676.comments,,str
+Metrics.inv_20_ac_current_inv_149676.offline,False,bool
+Metrics.inv_20_ac_power_inv_149678.metric_id,149678,int
+Metrics.inv_20_ac_power_inv_149678.sensor_name,inv_20_ac_power (kW),str
+Metrics.inv_20_ac_power_inv_149678.common_name,AC power,str
+Metrics.inv_20_ac_power_inv_149678.raw_units,kw,str
+Metrics.inv_20_ac_power_inv_149678.units,kw,str
+Metrics.inv_20_ac_power_inv_149678.calc_scale,1.0,float
+Metrics.inv_20_ac_power_inv_149678.calc_offset,0.0,float
+Metrics.inv_20_ac_power_inv_149678.calc_details,,NoneType
+Metrics.inv_20_ac_power_inv_149678.aggregation_type,avg,str
+Metrics.inv_20_ac_power_inv_149678.source_type,INVERTER,str
+Metrics.inv_20_ac_power_inv_149678.source_id,,NoneType
+Metrics.inv_20_ac_power_inv_149678.comments,,str
+Metrics.inv_20_ac_power_inv_149678.offline,False,bool
+Metrics.inv_20_ac_voltage_inv_149677.metric_id,149677,int
+Metrics.inv_20_ac_voltage_inv_149677.sensor_name,inv_20_ac_voltage (V),str
+Metrics.inv_20_ac_voltage_inv_149677.common_name,AC voltage,str
+Metrics.inv_20_ac_voltage_inv_149677.raw_units,V,str
+Metrics.inv_20_ac_voltage_inv_149677.units,V,str
+Metrics.inv_20_ac_voltage_inv_149677.calc_scale,1.0,float
+Metrics.inv_20_ac_voltage_inv_149677.calc_offset,0.0,float
+Metrics.inv_20_ac_voltage_inv_149677.calc_details,,NoneType
+Metrics.inv_20_ac_voltage_inv_149677.aggregation_type,avg,str
+Metrics.inv_20_ac_voltage_inv_149677.source_type,INVERTER,str
+Metrics.inv_20_ac_voltage_inv_149677.source_id,,NoneType
+Metrics.inv_20_ac_voltage_inv_149677.comments,,str
+Metrics.inv_20_ac_voltage_inv_149677.offline,False,bool
+Metrics.inv_20_dc_current_inv_149674.metric_id,149674,int
+Metrics.inv_20_dc_current_inv_149674.sensor_name,inv_20_dc_current (A),str
+Metrics.inv_20_dc_current_inv_149674.common_name,DC current,str
+Metrics.inv_20_dc_current_inv_149674.raw_units,A,str
+Metrics.inv_20_dc_current_inv_149674.units,A,str
+Metrics.inv_20_dc_current_inv_149674.calc_scale,1.0,float
+Metrics.inv_20_dc_current_inv_149674.calc_offset,0.0,float
+Metrics.inv_20_dc_current_inv_149674.calc_details,,NoneType
+Metrics.inv_20_dc_current_inv_149674.aggregation_type,avg,str
+Metrics.inv_20_dc_current_inv_149674.source_type,INVERTER,str
+Metrics.inv_20_dc_current_inv_149674.source_id,,NoneType
+Metrics.inv_20_dc_current_inv_149674.comments,,str
+Metrics.inv_20_dc_current_inv_149674.offline,False,bool
+Metrics.inv_20_dc_voltage_inv_149675.metric_id,149675,int
+Metrics.inv_20_dc_voltage_inv_149675.sensor_name,inv_20_dc_voltage (V),str
+Metrics.inv_20_dc_voltage_inv_149675.common_name,DC voltage,str
+Metrics.inv_20_dc_voltage_inv_149675.raw_units,V,str
+Metrics.inv_20_dc_voltage_inv_149675.units,V,str
+Metrics.inv_20_dc_voltage_inv_149675.calc_scale,1.0,float
+Metrics.inv_20_dc_voltage_inv_149675.calc_offset,0.0,float
+Metrics.inv_20_dc_voltage_inv_149675.calc_details,,NoneType
+Metrics.inv_20_dc_voltage_inv_149675.aggregation_type,avg,str
+Metrics.inv_20_dc_voltage_inv_149675.source_type,INVERTER,str
+Metrics.inv_20_dc_voltage_inv_149675.source_id,,NoneType
+Metrics.inv_20_dc_voltage_inv_149675.comments,,str
+Metrics.inv_20_dc_voltage_inv_149675.offline,False,bool
+Metrics.inv_21_ac_current_inv_149681.metric_id,149681,int
+Metrics.inv_21_ac_current_inv_149681.sensor_name,inv_21_ac_current (A),str
+Metrics.inv_21_ac_current_inv_149681.common_name,AC current,str
+Metrics.inv_21_ac_current_inv_149681.raw_units,A,str
+Metrics.inv_21_ac_current_inv_149681.units,A,str
+Metrics.inv_21_ac_current_inv_149681.calc_scale,1.0,float
+Metrics.inv_21_ac_current_inv_149681.calc_offset,0.0,float
+Metrics.inv_21_ac_current_inv_149681.calc_details,,NoneType
+Metrics.inv_21_ac_current_inv_149681.aggregation_type,avg,str
+Metrics.inv_21_ac_current_inv_149681.source_type,INVERTER,str
+Metrics.inv_21_ac_current_inv_149681.source_id,,NoneType
+Metrics.inv_21_ac_current_inv_149681.comments,,str
+Metrics.inv_21_ac_current_inv_149681.offline,False,bool
+Metrics.inv_21_ac_power_inv_149683.metric_id,149683,int
+Metrics.inv_21_ac_power_inv_149683.sensor_name,inv_21_ac_power (kW),str
+Metrics.inv_21_ac_power_inv_149683.common_name,AC power,str
+Metrics.inv_21_ac_power_inv_149683.raw_units,kw,str
+Metrics.inv_21_ac_power_inv_149683.units,kw,str
+Metrics.inv_21_ac_power_inv_149683.calc_scale,1.0,float
+Metrics.inv_21_ac_power_inv_149683.calc_offset,0.0,float
+Metrics.inv_21_ac_power_inv_149683.calc_details,,NoneType
+Metrics.inv_21_ac_power_inv_149683.aggregation_type,avg,str
+Metrics.inv_21_ac_power_inv_149683.source_type,INVERTER,str
+Metrics.inv_21_ac_power_inv_149683.source_id,,NoneType
+Metrics.inv_21_ac_power_inv_149683.comments,,str
+Metrics.inv_21_ac_power_inv_149683.offline,False,bool
+Metrics.inv_21_ac_voltage_inv_149682.metric_id,149682,int
+Metrics.inv_21_ac_voltage_inv_149682.sensor_name,inv_21_ac_voltage (V),str
+Metrics.inv_21_ac_voltage_inv_149682.common_name,AC voltage,str
+Metrics.inv_21_ac_voltage_inv_149682.raw_units,V,str
+Metrics.inv_21_ac_voltage_inv_149682.units,V,str
+Metrics.inv_21_ac_voltage_inv_149682.calc_scale,1.0,float
+Metrics.inv_21_ac_voltage_inv_149682.calc_offset,0.0,float
+Metrics.inv_21_ac_voltage_inv_149682.calc_details,,NoneType
+Metrics.inv_21_ac_voltage_inv_149682.aggregation_type,avg,str
+Metrics.inv_21_ac_voltage_inv_149682.source_type,INVERTER,str
+Metrics.inv_21_ac_voltage_inv_149682.source_id,,NoneType
+Metrics.inv_21_ac_voltage_inv_149682.comments,,str
+Metrics.inv_21_ac_voltage_inv_149682.offline,False,bool
+Metrics.inv_21_dc_current_inv_149679.metric_id,149679,int
+Metrics.inv_21_dc_current_inv_149679.sensor_name,inv_21_dc_current (A),str
+Metrics.inv_21_dc_current_inv_149679.common_name,DC current,str
+Metrics.inv_21_dc_current_inv_149679.raw_units,A,str
+Metrics.inv_21_dc_current_inv_149679.units,A,str
+Metrics.inv_21_dc_current_inv_149679.calc_scale,1.0,float
+Metrics.inv_21_dc_current_inv_149679.calc_offset,0.0,float
+Metrics.inv_21_dc_current_inv_149679.calc_details,,NoneType
+Metrics.inv_21_dc_current_inv_149679.aggregation_type,avg,str
+Metrics.inv_21_dc_current_inv_149679.source_type,INVERTER,str
+Metrics.inv_21_dc_current_inv_149679.source_id,,NoneType
+Metrics.inv_21_dc_current_inv_149679.comments,,str
+Metrics.inv_21_dc_current_inv_149679.offline,False,bool
+Metrics.inv_21_dc_voltage_inv_149680.metric_id,149680,int
+Metrics.inv_21_dc_voltage_inv_149680.sensor_name,inv_21_dc_voltage (V),str
+Metrics.inv_21_dc_voltage_inv_149680.common_name,DC voltage,str
+Metrics.inv_21_dc_voltage_inv_149680.raw_units,V,str
+Metrics.inv_21_dc_voltage_inv_149680.units,V,str
+Metrics.inv_21_dc_voltage_inv_149680.calc_scale,1.0,float
+Metrics.inv_21_dc_voltage_inv_149680.calc_offset,0.0,float
+Metrics.inv_21_dc_voltage_inv_149680.calc_details,,NoneType
+Metrics.inv_21_dc_voltage_inv_149680.aggregation_type,avg,str
+Metrics.inv_21_dc_voltage_inv_149680.source_type,INVERTER,str
+Metrics.inv_21_dc_voltage_inv_149680.source_id,,NoneType
+Metrics.inv_21_dc_voltage_inv_149680.comments,,str
+Metrics.inv_21_dc_voltage_inv_149680.offline,False,bool
+Metrics.inv_22_ac_current_inv_149686.metric_id,149686,int
+Metrics.inv_22_ac_current_inv_149686.sensor_name,inv_22_ac_current (A),str
+Metrics.inv_22_ac_current_inv_149686.common_name,AC current,str
+Metrics.inv_22_ac_current_inv_149686.raw_units,A,str
+Metrics.inv_22_ac_current_inv_149686.units,A,str
+Metrics.inv_22_ac_current_inv_149686.calc_scale,1.0,float
+Metrics.inv_22_ac_current_inv_149686.calc_offset,0.0,float
+Metrics.inv_22_ac_current_inv_149686.calc_details,,NoneType
+Metrics.inv_22_ac_current_inv_149686.aggregation_type,avg,str
+Metrics.inv_22_ac_current_inv_149686.source_type,INVERTER,str
+Metrics.inv_22_ac_current_inv_149686.source_id,,NoneType
+Metrics.inv_22_ac_current_inv_149686.comments,,str
+Metrics.inv_22_ac_current_inv_149686.offline,False,bool
+Metrics.inv_22_ac_power_inv_149688.metric_id,149688,int
+Metrics.inv_22_ac_power_inv_149688.sensor_name,inv_22_ac_power (kW),str
+Metrics.inv_22_ac_power_inv_149688.common_name,AC power,str
+Metrics.inv_22_ac_power_inv_149688.raw_units,kw,str
+Metrics.inv_22_ac_power_inv_149688.units,kw,str
+Metrics.inv_22_ac_power_inv_149688.calc_scale,1.0,float
+Metrics.inv_22_ac_power_inv_149688.calc_offset,0.0,float
+Metrics.inv_22_ac_power_inv_149688.calc_details,,NoneType
+Metrics.inv_22_ac_power_inv_149688.aggregation_type,avg,str
+Metrics.inv_22_ac_power_inv_149688.source_type,INVERTER,str
+Metrics.inv_22_ac_power_inv_149688.source_id,,NoneType
+Metrics.inv_22_ac_power_inv_149688.comments,,str
+Metrics.inv_22_ac_power_inv_149688.offline,False,bool
+Metrics.inv_22_ac_voltage_inv_149687.metric_id,149687,int
+Metrics.inv_22_ac_voltage_inv_149687.sensor_name,inv_22_ac_voltage (V),str
+Metrics.inv_22_ac_voltage_inv_149687.common_name,AC voltage,str
+Metrics.inv_22_ac_voltage_inv_149687.raw_units,V,str
+Metrics.inv_22_ac_voltage_inv_149687.units,V,str
+Metrics.inv_22_ac_voltage_inv_149687.calc_scale,1.0,float
+Metrics.inv_22_ac_voltage_inv_149687.calc_offset,0.0,float
+Metrics.inv_22_ac_voltage_inv_149687.calc_details,,NoneType
+Metrics.inv_22_ac_voltage_inv_149687.aggregation_type,avg,str
+Metrics.inv_22_ac_voltage_inv_149687.source_type,INVERTER,str
+Metrics.inv_22_ac_voltage_inv_149687.source_id,,NoneType
+Metrics.inv_22_ac_voltage_inv_149687.comments,,str
+Metrics.inv_22_ac_voltage_inv_149687.offline,False,bool
+Metrics.inv_22_dc_current_inv_149684.metric_id,149684,int
+Metrics.inv_22_dc_current_inv_149684.sensor_name,inv_22_dc_current (A),str
+Metrics.inv_22_dc_current_inv_149684.common_name,DC current,str
+Metrics.inv_22_dc_current_inv_149684.raw_units,A,str
+Metrics.inv_22_dc_current_inv_149684.units,A,str
+Metrics.inv_22_dc_current_inv_149684.calc_scale,1.0,float
+Metrics.inv_22_dc_current_inv_149684.calc_offset,0.0,float
+Metrics.inv_22_dc_current_inv_149684.calc_details,,NoneType
+Metrics.inv_22_dc_current_inv_149684.aggregation_type,avg,str
+Metrics.inv_22_dc_current_inv_149684.source_type,INVERTER,str
+Metrics.inv_22_dc_current_inv_149684.source_id,,NoneType
+Metrics.inv_22_dc_current_inv_149684.comments,,str
+Metrics.inv_22_dc_current_inv_149684.offline,False,bool
+Metrics.inv_22_dc_voltage_inv_149685.metric_id,149685,int
+Metrics.inv_22_dc_voltage_inv_149685.sensor_name,inv_22_dc_voltage (V),str
+Metrics.inv_22_dc_voltage_inv_149685.common_name,DC voltage,str
+Metrics.inv_22_dc_voltage_inv_149685.raw_units,V,str
+Metrics.inv_22_dc_voltage_inv_149685.units,V,str
+Metrics.inv_22_dc_voltage_inv_149685.calc_scale,1.0,float
+Metrics.inv_22_dc_voltage_inv_149685.calc_offset,0.0,float
+Metrics.inv_22_dc_voltage_inv_149685.calc_details,,NoneType
+Metrics.inv_22_dc_voltage_inv_149685.aggregation_type,avg,str
+Metrics.inv_22_dc_voltage_inv_149685.source_type,INVERTER,str
+Metrics.inv_22_dc_voltage_inv_149685.source_id,,NoneType
+Metrics.inv_22_dc_voltage_inv_149685.comments,,str
+Metrics.inv_22_dc_voltage_inv_149685.offline,False,bool
+Metrics.inv_23_ac_current_inv_149691.metric_id,149691,int
+Metrics.inv_23_ac_current_inv_149691.sensor_name,inv_23_ac_current (A),str
+Metrics.inv_23_ac_current_inv_149691.common_name,AC current,str
+Metrics.inv_23_ac_current_inv_149691.raw_units,A,str
+Metrics.inv_23_ac_current_inv_149691.units,A,str
+Metrics.inv_23_ac_current_inv_149691.calc_scale,1.0,float
+Metrics.inv_23_ac_current_inv_149691.calc_offset,0.0,float
+Metrics.inv_23_ac_current_inv_149691.calc_details,,NoneType
+Metrics.inv_23_ac_current_inv_149691.aggregation_type,avg,str
+Metrics.inv_23_ac_current_inv_149691.source_type,INVERTER,str
+Metrics.inv_23_ac_current_inv_149691.source_id,,NoneType
+Metrics.inv_23_ac_current_inv_149691.comments,,str
+Metrics.inv_23_ac_current_inv_149691.offline,False,bool
+Metrics.inv_23_ac_power_inv_149693.metric_id,149693,int
+Metrics.inv_23_ac_power_inv_149693.sensor_name,inv_23_ac_power (kW),str
+Metrics.inv_23_ac_power_inv_149693.common_name,AC power,str
+Metrics.inv_23_ac_power_inv_149693.raw_units,kw,str
+Metrics.inv_23_ac_power_inv_149693.units,kw,str
+Metrics.inv_23_ac_power_inv_149693.calc_scale,1.0,float
+Metrics.inv_23_ac_power_inv_149693.calc_offset,0.0,float
+Metrics.inv_23_ac_power_inv_149693.calc_details,,NoneType
+Metrics.inv_23_ac_power_inv_149693.aggregation_type,avg,str
+Metrics.inv_23_ac_power_inv_149693.source_type,INVERTER,str
+Metrics.inv_23_ac_power_inv_149693.source_id,,NoneType
+Metrics.inv_23_ac_power_inv_149693.comments,,str
+Metrics.inv_23_ac_power_inv_149693.offline,False,bool
+Metrics.inv_23_ac_voltage_inv_149692.metric_id,149692,int
+Metrics.inv_23_ac_voltage_inv_149692.sensor_name,inv_23_ac_voltage (V),str
+Metrics.inv_23_ac_voltage_inv_149692.common_name,AC voltage,str
+Metrics.inv_23_ac_voltage_inv_149692.raw_units,V,str
+Metrics.inv_23_ac_voltage_inv_149692.units,V,str
+Metrics.inv_23_ac_voltage_inv_149692.calc_scale,1.0,float
+Metrics.inv_23_ac_voltage_inv_149692.calc_offset,0.0,float
+Metrics.inv_23_ac_voltage_inv_149692.calc_details,,NoneType
+Metrics.inv_23_ac_voltage_inv_149692.aggregation_type,avg,str
+Metrics.inv_23_ac_voltage_inv_149692.source_type,INVERTER,str
+Metrics.inv_23_ac_voltage_inv_149692.source_id,,NoneType
+Metrics.inv_23_ac_voltage_inv_149692.comments,,str
+Metrics.inv_23_ac_voltage_inv_149692.offline,False,bool
+Metrics.inv_23_dc_current_inv_149689.metric_id,149689,int
+Metrics.inv_23_dc_current_inv_149689.sensor_name,inv_23_dc_current (A),str
+Metrics.inv_23_dc_current_inv_149689.common_name,DC current,str
+Metrics.inv_23_dc_current_inv_149689.raw_units,A,str
+Metrics.inv_23_dc_current_inv_149689.units,A,str
+Metrics.inv_23_dc_current_inv_149689.calc_scale,1.0,float
+Metrics.inv_23_dc_current_inv_149689.calc_offset,0.0,float
+Metrics.inv_23_dc_current_inv_149689.calc_details,,NoneType
+Metrics.inv_23_dc_current_inv_149689.aggregation_type,avg,str
+Metrics.inv_23_dc_current_inv_149689.source_type,INVERTER,str
+Metrics.inv_23_dc_current_inv_149689.source_id,,NoneType
+Metrics.inv_23_dc_current_inv_149689.comments,,str
+Metrics.inv_23_dc_current_inv_149689.offline,False,bool
+Metrics.inv_23_dc_voltage_inv_149690.metric_id,149690,int
+Metrics.inv_23_dc_voltage_inv_149690.sensor_name,inv_23_dc_voltage (V),str
+Metrics.inv_23_dc_voltage_inv_149690.common_name,DC voltage,str
+Metrics.inv_23_dc_voltage_inv_149690.raw_units,V,str
+Metrics.inv_23_dc_voltage_inv_149690.units,V,str
+Metrics.inv_23_dc_voltage_inv_149690.calc_scale,1.0,float
+Metrics.inv_23_dc_voltage_inv_149690.calc_offset,0.0,float
+Metrics.inv_23_dc_voltage_inv_149690.calc_details,,NoneType
+Metrics.inv_23_dc_voltage_inv_149690.aggregation_type,avg,str
+Metrics.inv_23_dc_voltage_inv_149690.source_type,INVERTER,str
+Metrics.inv_23_dc_voltage_inv_149690.source_id,,NoneType
+Metrics.inv_23_dc_voltage_inv_149690.comments,,str
+Metrics.inv_23_dc_voltage_inv_149690.offline,False,bool
+Metrics.inv_24_ac_current_inv_149696.metric_id,149696,int
+Metrics.inv_24_ac_current_inv_149696.sensor_name,inv_24_ac_current (A),str
+Metrics.inv_24_ac_current_inv_149696.common_name,AC current,str
+Metrics.inv_24_ac_current_inv_149696.raw_units,A,str
+Metrics.inv_24_ac_current_inv_149696.units,A,str
+Metrics.inv_24_ac_current_inv_149696.calc_scale,1.0,float
+Metrics.inv_24_ac_current_inv_149696.calc_offset,0.0,float
+Metrics.inv_24_ac_current_inv_149696.calc_details,,NoneType
+Metrics.inv_24_ac_current_inv_149696.aggregation_type,avg,str
+Metrics.inv_24_ac_current_inv_149696.source_type,INVERTER,str
+Metrics.inv_24_ac_current_inv_149696.source_id,,NoneType
+Metrics.inv_24_ac_current_inv_149696.comments,,str
+Metrics.inv_24_ac_current_inv_149696.offline,False,bool
+Metrics.inv_24_ac_power_inv_149698.metric_id,149698,int
+Metrics.inv_24_ac_power_inv_149698.sensor_name,inv_24_ac_power (kW),str
+Metrics.inv_24_ac_power_inv_149698.common_name,AC power,str
+Metrics.inv_24_ac_power_inv_149698.raw_units,kw,str
+Metrics.inv_24_ac_power_inv_149698.units,kw,str
+Metrics.inv_24_ac_power_inv_149698.calc_scale,1.0,float
+Metrics.inv_24_ac_power_inv_149698.calc_offset,0.0,float
+Metrics.inv_24_ac_power_inv_149698.calc_details,,NoneType
+Metrics.inv_24_ac_power_inv_149698.aggregation_type,avg,str
+Metrics.inv_24_ac_power_inv_149698.source_type,INVERTER,str
+Metrics.inv_24_ac_power_inv_149698.source_id,,NoneType
+Metrics.inv_24_ac_power_inv_149698.comments,,str
+Metrics.inv_24_ac_power_inv_149698.offline,False,bool
+Metrics.inv_24_ac_voltage_inv_149697.metric_id,149697,int
+Metrics.inv_24_ac_voltage_inv_149697.sensor_name,inv_24_ac_voltage (V),str
+Metrics.inv_24_ac_voltage_inv_149697.common_name,AC voltage,str
+Metrics.inv_24_ac_voltage_inv_149697.raw_units,V,str
+Metrics.inv_24_ac_voltage_inv_149697.units,V,str
+Metrics.inv_24_ac_voltage_inv_149697.calc_scale,1.0,float
+Metrics.inv_24_ac_voltage_inv_149697.calc_offset,0.0,float
+Metrics.inv_24_ac_voltage_inv_149697.calc_details,,NoneType
+Metrics.inv_24_ac_voltage_inv_149697.aggregation_type,avg,str
+Metrics.inv_24_ac_voltage_inv_149697.source_type,INVERTER,str
+Metrics.inv_24_ac_voltage_inv_149697.source_id,,NoneType
+Metrics.inv_24_ac_voltage_inv_149697.comments,,str
+Metrics.inv_24_ac_voltage_inv_149697.offline,False,bool
+Metrics.inv_24_dc_current_inv_149694.metric_id,149694,int
+Metrics.inv_24_dc_current_inv_149694.sensor_name,inv_24_dc_current (A),str
+Metrics.inv_24_dc_current_inv_149694.common_name,DC current,str
+Metrics.inv_24_dc_current_inv_149694.raw_units,A,str
+Metrics.inv_24_dc_current_inv_149694.units,A,str
+Metrics.inv_24_dc_current_inv_149694.calc_scale,1.0,float
+Metrics.inv_24_dc_current_inv_149694.calc_offset,0.0,float
+Metrics.inv_24_dc_current_inv_149694.calc_details,,NoneType
+Metrics.inv_24_dc_current_inv_149694.aggregation_type,avg,str
+Metrics.inv_24_dc_current_inv_149694.source_type,INVERTER,str
+Metrics.inv_24_dc_current_inv_149694.source_id,,NoneType
+Metrics.inv_24_dc_current_inv_149694.comments,,str
+Metrics.inv_24_dc_current_inv_149694.offline,False,bool
+Metrics.inv_24_dc_voltage_inv_149695.metric_id,149695,int
+Metrics.inv_24_dc_voltage_inv_149695.sensor_name,inv_24_dc_voltage (V),str
+Metrics.inv_24_dc_voltage_inv_149695.common_name,DC voltage,str
+Metrics.inv_24_dc_voltage_inv_149695.raw_units,V,str
+Metrics.inv_24_dc_voltage_inv_149695.units,V,str
+Metrics.inv_24_dc_voltage_inv_149695.calc_scale,1.0,float
+Metrics.inv_24_dc_voltage_inv_149695.calc_offset,0.0,float
+Metrics.inv_24_dc_voltage_inv_149695.calc_details,,NoneType
+Metrics.inv_24_dc_voltage_inv_149695.aggregation_type,avg,str
+Metrics.inv_24_dc_voltage_inv_149695.source_type,INVERTER,str
+Metrics.inv_24_dc_voltage_inv_149695.source_id,,NoneType
+Metrics.inv_24_dc_voltage_inv_149695.comments,,str
+Metrics.inv_24_dc_voltage_inv_149695.offline,False,bool
+Metrics.meter_revenue_grade_ac_output_meter_149578.metric_id,149578,int
+Metrics.meter_revenue_grade_ac_output_meter_149578.sensor_name,meter_revenue_grade_ac_output (kW),str
+Metrics.meter_revenue_grade_ac_output_meter_149578.common_name,AC power,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.raw_units,kw,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.units,kw,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.calc_scale,1.0,float
+Metrics.meter_revenue_grade_ac_output_meter_149578.calc_offset,0.0,float
+Metrics.meter_revenue_grade_ac_output_meter_149578.calc_details,,NoneType
+Metrics.meter_revenue_grade_ac_output_meter_149578.aggregation_type,avg,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.source_type,METER,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.source_id,,NoneType
+Metrics.meter_revenue_grade_ac_output_meter_149578.comments,,str
+Metrics.meter_revenue_grade_ac_output_meter_149578.offline,False,bool
+Metrics.poa_irradiance_o_149574.metric_id,149574,int
+Metrics.poa_irradiance_o_149574.sensor_name,poa_irradiance (W/m^2),str
+Metrics.poa_irradiance_o_149574.common_name,Irradiance POA,str
+Metrics.poa_irradiance_o_149574.raw_units,W/m^2,str
+Metrics.poa_irradiance_o_149574.units,W/m^2,str
+Metrics.poa_irradiance_o_149574.calc_scale,1.0,float
+Metrics.poa_irradiance_o_149574.calc_offset,0.0,float
+Metrics.poa_irradiance_o_149574.calc_details,,NoneType
+Metrics.poa_irradiance_o_149574.aggregation_type,avg,str
+Metrics.poa_irradiance_o_149574.source_type,OTHER,str
+Metrics.poa_irradiance_o_149574.source_id,,NoneType
+Metrics.poa_irradiance_o_149574.comments,,str
+Metrics.poa_irradiance_o_149574.offline,False,bool
+Metrics.wind_direction_o_149577.metric_id,149577,int
+Metrics.wind_direction_o_149577.sensor_name,wind_direction (degree),str
+Metrics.wind_direction_o_149577.common_name,Wind direction,str
+Metrics.wind_direction_o_149577.raw_units,degree,str
+Metrics.wind_direction_o_149577.units,degree,str
+Metrics.wind_direction_o_149577.calc_scale,1.0,float
+Metrics.wind_direction_o_149577.calc_offset,0.0,float
+Metrics.wind_direction_o_149577.calc_details,,NoneType
+Metrics.wind_direction_o_149577.aggregation_type,sample,str
+Metrics.wind_direction_o_149577.source_type,OTHER,str
+Metrics.wind_direction_o_149577.source_id,,NoneType
+Metrics.wind_direction_o_149577.comments,,str
+Metrics.wind_direction_o_149577.offline,False,bool
+Metrics.wind_speed_o_149576.metric_id,149576,int
+Metrics.wind_speed_o_149576.sensor_name,wind_speed (mph),str
+Metrics.wind_speed_o_149576.common_name,Wind speed,str
+Metrics.wind_speed_o_149576.raw_units,mph,str
+Metrics.wind_speed_o_149576.units,mph,str
+Metrics.wind_speed_o_149576.calc_scale,1.0,float
+Metrics.wind_speed_o_149576.calc_offset,0.0,float
+Metrics.wind_speed_o_149576.calc_details,,NoneType
+Metrics.wind_speed_o_149576.aggregation_type,sample,str
+Metrics.wind_speed_o_149576.source_type,OTHER,str
+Metrics.wind_speed_o_149576.source_id,,NoneType
+Metrics.wind_speed_o_149576.comments,,str
+Metrics.wind_speed_o_149576.offline,False,bool

@@ -1,0 +1,9 @@
+scenario,H_POA_kWh_m2
+Albedo 0.1 (hipótese),631.9527947536029
+Albedo 0.2 (hipótese),634.8174944467481
+Albedo 0.4 (hipótese),640.5468938330389
+Horizontal,611.5128680471868
+"Arranjo real: 25°, sul",634.8174944467481
+Fachada sul,281.99065423304853
+Fachada leste,269.9764489975427
+Fachada oeste,339.6738929776735

@@ -1,0 +1,12 @@
+pvlib==0.16.1
+numpy>=2.0,<3
+pandas>=2.2,<3
+scipy>=1.13,<2
+matplotlib>=3.9,<4
+nbformat>=5.10,<6
+ipython>=8,<10
+packaging>=23
+python-docx>=1.1,<2
+Pillow>=10,<13
+PyMuPDF>=1.24,<2
+requests>=2.32,<3

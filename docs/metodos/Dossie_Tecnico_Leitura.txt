@@ -1,0 +1,1225 @@
+Dossiê técnico dos dados e da instalação fotovoltaica
+Base para a redação compartilhada do capítulo Recurso solar e modelagem da conversão fotovoltaica, SPGER0046 da UFPB. O documento reúne a instalação Farm Solar Array, os arquivos do PVDAQ 2107, as variáveis de entrada, as referências elétricas e os parâmetros do cálculo, organizados pelas quatro seções. O ano 2026 na fonte indica a elaboração desta compilação; as séries analisadas são de 2024.
+Há 125 canais medidos nos quatro CSV originais, além do JSON de metadados. Os apêndices digitais preservam todos os campos de metadados e as estatísticas de cada canal. As tabelas deste dossiê descrevem os dados; as séries completas permanecem nos arquivos originais.
+1 Recurso solar localização e séries observacionais
+Quadro 1 — Identificação e localização da instalação
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: As datas cadastradas de início são diferentes; o período de estudo depende dos CSV de 2024.
+Tabela 1 — Coordenadas e janela de análise
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: De 01/04/2024 00:00 local até 01/07/2024 00:00 local, com fim exclusivo.
+Tabela 2 — Arquivos observacionais e extensão efetivamente disponível
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Números do arquivo inteiro. O passo modal não garante regularidade ou ausência de lacunas. Limites temporais completos, duplicatas e amostras do trimestre constam do CSV inventario_arquivos.
+Quadro 2 — Limites locais das séries originais
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: O JSON do cadastro termina em 2023; esse campo histórico não descreve a extensão dos CSV de 2024.
+Quadro 3 — Irradiância e geometria disponíveis para a seção 1
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Subseções 1.1 a 1.4; referências de método R03–R06 e R14–R18. A inversão não resolve de modo único e independente três componentes a partir de uma medição.
+2 Meteorologia ambiente e montagem
+Tabela 3 — Canais meteorológicos e conversões
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: T°C=(T°F−32)×5/9; vento em m/s=vento em mph×0,44704. Direção está disponível, mas não entra no modelo principal.
+Quadro 4 — Instrumentação meteorológica e representatividade
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Tabela 4 — Descrição das condições na mesma janela diurna pareada
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: 4.401 pares de 15 min; a temperatura operacional é calculada, não medida. As estatísticas completas e quartis estão no documento de tabelas.
+Quadro 5 — Montagem e entorno
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Subseções 2.1 a 2.4. A inclinação é uma entrada do bloco de transposição, não uma nova medição solar.
+3 Equipamentos e parâmetros da conversão fotovoltaica
+Quadro 6 — Módulos inversores e associação elétrica
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Tabela 5 — Capacidades e relação entre DC e AC
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: O limite configurado da instalação não foi comprovado; 30 kW e 27,6 kW são hipóteses comparadas. Para Yf e PR usa-se P₀=893 kWp.
+Tabela 6 — Todos os parâmetros numéricos do módulo CEC selecionado
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Arquivo config/modulo_cec.json. STC=309,6 W; I_mp×V_mp=8,6×36 V. N_s=60 é o valor do registro CEC, sem verificação do número físico de células. O diodo único usa alpha_sc, a_ref, I_L_ref, I_o_ref, R_s, R_sh_ref e Adjust.
+Quadro 7 — Campos descritivos restantes do módulo CEC
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Os campos Technology e BIPV são classificações do registro; Date e Version são da base CEC/SAM, não datas de medição ou fabricação deste sistema.
+Tabela 7 — Todos os parâmetros numéricos do inversor CEC selecionado
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Inventário do registro CEC. O modelo principal do inversor usa a equação PVWatts, eficiência assumida e limite AC; não usa todos os coeficientes Sandia C0–C3. Não confundir Pdco deste registro com a potência STC do arranjo.
+Quadro 8 — Campos descritivos restantes do inversor CEC
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Vac=480 é atributo do registro selecionado. Fabricante e modelo físicos provêm do PVDAQ; a variante elétrica instalada permanece por conferir.
+Tabela 8 — Parâmetros assumidos na cadeia principal
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Hipóteses de modelagem, não medições independentes. As perdas DC são multiplicativas. A temperatura Faiman é usada como aproximação de célula. O deslocamento NASA de configuração é inativo porque NASA não entra na cadeia.
+Quadro 9 — Conversão e grandezas elétricas disponíveis
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Subseções 3.1 a 3.6. Unidades dos canais elétricos: A, V e kW. Potências convertidas para W no cálculo.
+Quadro 10 — Inventário completo das 24 unidades inversoras
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Todas têm fabricante ABB, modelo TRIO-27.6-TL-OUTD-S1B e quantidade 1. O CSV inversores contém também os campos vazios e o código temporal L, cuja semântica não foi inferida.
+4 Avaliação qualidade e limites de validação
+Tabela 9 — Disponibilidade e janelas de comparação
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: A cobertura mede disponibilidade, não certifica exatidão de cada sensor. Não houve preenchimento de lacunas ou exclusão por resíduo alto.
+Quadro 11 — Referências elétricas observadas
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Tabela 10 — Resultados da comparação elétrica principal
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Erro=simulado−medido. nMBE e nRMSE usam a média observada dos mesmos pares. R²=1−SSE/SST, calculado separadamente de r.
+Tabela 11 — Energia e desempenho com denominadores compatíveis
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Não combinar energia integral com POA parcial. HSP/PSH da janela=H_POA/(1 kW/m²); não é duração medida de brilho solar.
+Quadro 12 — Escopo da inversão e do BIPV
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Subseção 4.5 é uma extensão didática da cadeia, não uma segunda usina observada.
+Tabela 12 — Todos os parâmetros numéricos do exemplo BIPV
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Propriedades hipotéticas. Absortância=1−ρ−τsolar=0,63; a transmitância visível não é a transmitância solar. A eficiência elétrica depende da temperatura no exemplo.
+Apêndice Dicionário completo dos 125 canais
+Cada linha identifica uma coluna original. A coluna measured_on é o carimbo temporal comum de cada CSV e não integra a contagem de 125 canais. O apêndice CSV inclui também escala, offset, agregação, amostras válidas e faltantes, mínimos, médias, máximos e zeros de cada canal no arquivo e no trimestre.
+No canal de potência AC do inversor 15, o cadastro usa inv_15_ac_power_iinv_149653 e o CSV usa inv_15_ac_power_inv_149653. A correspondência foi conferida pelo ID único 149653; ambos os nomes originais são preservados no dicionário, sem renomear o CSV.
+Quadro 13 — Todos os canais originais e suas unidades (continua)
+Quadro 13 — Todos os canais originais e suas unidades (continuação)
+Quadro 13 — Todos os canais originais e suas unidades (continuação)
+Quadro 13 — Todos os canais originais e suas unidades (continuação)
+Quadro 13 — Todos os canais originais e suas unidades (continuação)
+Quadro 13 — Todos os canais originais e suas unidades (conclusão)
+Fonte: elaboração da equipe a partir de dados do PVDAQ, sistema 2107 (2026).
+Nota: Unidades e nomes são preservados do cadastro, inclusive kw. N/D indica campo não localizado no cadastro. O arquivo dicionario_completo_125_canais.csv contém as definições sem abreviar as famílias.
+Apêndices digitais e referências de método
+Na pasta outputs/dossie_tecnico estão o JSON integral original, todos os campos de metadados em CSV, os inventários de arquivos, inversores, grupos de módulos, montagem, medidor e estação, o dicionário dos 125 canais e todos os campos da configuração do modelo. Os cinco arquivos originais continuam disponíveis em data/raw/pvdaq_2107_2024_originais.zip, conferidos por SHA-256.
+2107_system_metadata.json
+SHA-256: 17e4f7f448fcb2bec43f7610b40c1f7f4fc794ccc185e41dcde0514afba73ae5
+2107_environment_data_2024.csv
+SHA-256: 6e66f9a75ad879d7f0444ba108b352920a7e6458c6a6b9dcb74e6828c47977bd
+2107_irradiance_data_2024.csv
+SHA-256: fd5acea27608b348b98d0e57d6e8a16f75031cfd6813f7a23caf15211caaec29
+2107_meter_15m_data_2024.csv
+SHA-256: bdef5026a5715f5a2b114580dd767a02bf35c4986bbffe496c4b89e85789eb98
+2107_electrical_data_2024.csv
+SHA-256: bb2e9f7495e471503daa2c4b4ae9aa053ca4c779d63665afb1c2270daaa243a5
+As referências do projeto estão em references/ e o levantamento teórico por subseção está em bibliografia/outputs/. Os métodos centrais são SPA/NOAA, transposição Perez e Driesse, temperatura Faiman, diodo único CEC e inversor PVWatts. A matriz de cobertura relaciona cada método à subseção e ao responsável.
+Campo
+Informação
+Nome público
+Farm Solar Array
+Sistema e sítio PVDAQ
+2107; site_id 7211, FSA_1
+Localidade
+Arbuckle, Califórnia, Estados Unidos
+Clima no cadastro
+Csa
+Fuso no cadastro
+PST8PDT
+Fuso interpretado no cálculo
+America/Los_Angeles
+Origem
+PVDAQ / OEDI, dados públicos do Departamento de Energia dos EUA
+Conteúdo dos arquivos
+2024; as datas efetivas constam do inventário
+Data de início no cadastro do sistema
+01/01/2017
+Data inicial nos grupos de módulos
+01/11/2017
+Grandeza
+Valor
+Unidade
+Latitude
+38,996306
+° N
+Longitude
+-122,134111
+° E, negativa a oeste
+Altitude
+10
+m
+Dias do trimestre
+91
+dias
+Passo comum
+15
+min
+Intervalos totais esperados
+8736
+intervalos
+Elevação solar mínima do filtro
+10
+°
+Arquivo
+Registros
+Canais
+Passo modal (min)
+2107_environment_data_2024.csv
+32132
+3
+15
+2107_irradiance_data_2024.csv
+73077
+1
+5
+2107_meter_15m_data_2024.csv
+32155
+1
+15
+2107_electrical_data_2024.csv
+88115
+120
+5
+Grupo
+Primeiro carimbo
+Último carimbo
+environment
+2024-01-01 00:15:00
+2024-11-30 23:00:00
+irradiance
+2024-01-01 00:10:00
+2024-11-01 23:55:00
+meter_15m
+2024-01-01 00:15:00
+2024-11-30 23:45:00
+electrical
+2024-01-01 00:05:00
+2024-11-01 23:55:00
+Elemento
+Registro e utilização
+POA medida
+Canal poa_irradiance_o_149574; metric_id 149574; W/m²; agregação original avg.
+Geometria do sensor
+POA se refere ao plano do arranjo. Não há cadastro independente de marca, modelo, calibração ou incerteza do sensor.
+GHI, DNI e DHI medidas
+Não disponíveis neste conjunto. As componentes reconstruídas são estimativas exploratórias.
+Ângulos solares
+SPA para zênite, elevação e azimute; calculados pelas coordenadas e instantes, não sensores angulares.
+Irradiância extraterrestre
+Método Spencer implementado no pvlib; calculada.
+Carimbo temporal
+Tratado como início do intervalo; instante geométrico em +7,5 min nas médias de 15 min e +30 min nas médias horárias. A convenção de início é uma hipótese do tratamento, sem confirmação instrumental independente.
+Agregação
+POA de 5 min em médias de 15 min, exigindo três amostras; não preencher lacunas.
+Variável
+ID
+Unidade original
+Unidade no modelo
+Temperatura do ar
+149575
+°F
+°C
+Velocidade do vento
+149576
+mph
+m/s
+Direção do vento
+149577
+grau
+grau
+Campo
+Informação
+Estação no cadastro
+ws_fss_1; instrument_id 5294; tipo weather station.
+Fabricante e modelo
+Fabricante Unknown; modelo vazio.
+Altura dos sensores e anemômetro
+Não informada. Não se assumiu medição a 10 m.
+Calibração e incerteza
+Não fornecidas no cadastro.
+Tipo de agregação declarado
+Temperatura, velocidade e direção: sample. A coincidência temporal não torna esses registros médias de todo o intervalo.
+Localização espacial
+Meteorologia associada ao sistema PVDAQ; não foi utilizada a estação INMET a 12 km nem uma estação da Paraíba.
+Dados adicionais ausentes
+Temperatura medida da célula, albedo medido, sujidade, cronograma de limpeza, perfil de horizonte e geometria detalhada das fileiras.
+Variável
+Média
+Mínimo
+Máximo
+Unidade
+POA medida
+580,72
+7,00
+1298,00
+W/m²
+Temperatura do ar
+24,54
+4,83
+38,83
+°C
+Velocidade do vento
+2,96
+0,45
+8,76
+m/s
+Temperatura operacional estimada
+37,82
+6,32
+64,41
+°C
+Campo
+Informação
+Montagem
+Fixa sobre solo; Schletter; mount_id 17263; sem rastreamento.
+Orientação
+Inclinação 25°; azimute 180° contado a partir do norte no sentido horário, voltado ao sul.
+Dimensões entre fileiras
+Não informadas; não calcular sombreamento real sem esse dado.
+Albedo
+0,20 assumido; sensibilidades 0,10 e 0,40 na transposição exploratória. A POA medida não recebe reflexão novamente.
+Sujidade
+Base 0%; cenários 2% e 5% de atenuação adicional do módulo relativamente à leitura POA. Não são perdas medidas.
+Ventilação
+Faiman genérico U₀=25 e U₁=6,84; sensibilidade de menor ventilação U₀=15 e U₁=3.
+Elemento
+Especificação e origem
+Módulo no PVDAQ
+Hyundai HiS-M310TI; 24 grupos de 120 módulos; 2.880 no total. Tipo no cadastro: mono-Si.
+Registro CEC selecionado
+Hyundai_Heavy_Industries_Green_Energy_Co__HiS_M310TI. Tecnologia do registro: Multi-c-Si.
+Divergência de tecnologia
+PVDAQ informa mono-Si e CEC informa Multi-c-Si. Preservam-se ambos os registros; a tecnologia instalada requer conferência com documentação do fabricante.
+Inversor no PVDAQ
+ABB TRIO-27.6-TL-OUTD-S1B; tipo string; 24 unidades.
+Registro CEC de inversor
+ABB__TRIO_27_6_TL_OUTD_S1B_US_480__480V_. A variante US 480 V selecionada não comprova a tensão ou a variante instalada.
+Topologia real de strings
+modules_per_string e num_strings estão vazios. O inverter_id dos grupos de módulos está None. A associação completa não foi documentada.
+Equivalente didático
+20 módulos em série × 6 strings em paralelo =120 módulos por grupo. Não é diagrama verificado da usina.
+Grandeza
+Valor
+Unidade
+Capacidade declarada no cadastro
+893
+kWp
+Soma de placa 2.880×310 W
+892.8
+kWp
+Soma STC CEC 2.880×309,6 W
+891.648
+kWp
+Limite AC adotado 24×30 kW
+720
+kW
+Nominal de comparação 24×27,6 kW
+662.4
+kW
+Relação DC/AC adotada 893/720
+1,24028
+1
+Parâmetro CEC
+Valor
+Unidade
+Bifacial
+0
+indicador
+STC
+309,6
+W
+PTC
+279,6
+W
+A_c
+1,956
+m²
+Length
+1,96
+m
+Width
+0,998
+m
+N_s
+60
+células
+I_sc_ref
+8,9
+A
+V_oc_ref
+45,3
+V
+I_mp_ref
+8,6
+A
+V_mp_ref
+36
+V
+alpha_sc
+0,004332
+A/K
+beta_oc
+-0,141685
+V/K
+T_NOCT
+46,5
+°C
+a_ref
+1,839007
+V
+I_L_ref
+9,179136
+A
+I_o_ref
+1,819781e-10
+A
+R_s
+0,456736
+Ω
+R_sh_ref
+442,825531
+Ω
+Adjust
+10,340744
+%
+gamma_r
+-0,440234
+%/K
+Campo
+Valor
+Technology
+Multi-c-Si
+BIPV
+N
+Version
+SAM 2018.11.11 r2
+Date
+1/3/2019
+Parâmetro CEC
+Valor
+Unidade
+Pso
+92,134544
+W
+Paco
+27600
+W
+Pdco
+28199,173828
+W
+Vdco
+715
+V
+C0
+-2,513804e-07
+1/W
+C1
+-3,1e-05
+1/V
+C2
+-0,001336
+1/V
+C3
+-0,001753
+1/V
+Pnt
+8,28
+W
+Vdcmax
+800
+V
+Idcmax
+39,439404
+A
+Mppt_low
+520
+V
+Mppt_high
+800
+V
+Campo
+Valor
+Vac
+480
+CEC_Date
+Não informado
+CEC_Type
+Utility Interactive
+Parâmetro
+Valor
+Unidade
+Coeficiente térmico U₀
+25
+W/(m² K)
+Coeficiente térmico U₁
+6,84
+W s/(m³ K)
+Albedo
+0,2
+1
+Sujidade adicional de referência
+0
+fração
+Perda na fiação DC
+0,02
+fração
+Perda por mismatch DC
+0,02
+fração
+Perda nas conexões DC
+0,005
+fração
+Perda na fiação AC
+0
+fração
+Eficiência nominal assumida do inversor
+0,98
+fração
+Eficiência de referência da equação PVWatts
+0,9637
+fração
+Limite AC assumido por inversor
+30000
+W
+Módulos em série no equivalente didático
+20
+módulos
+Strings paralelas no equivalente didático
+6
+strings
+Etapa ou variável
+Utilização
+POA e temperatura
+POA efetiva e temperatura operacional alimentam calcparams_cec e o diodo único.
+Ponto de máxima potência
+Tensão, corrente e potência do módulo são calculadas; não são ensaios I–V medidos.
+Potência DC
+Soma ideal de 2.880 módulos, seguida das perdas assumidas.
+Potência AC
+Conversão por PVWatts, com saturação no limite assumido.
+Canais dos inversores
+Para cada uma das 24 unidades há corrente DC, tensão DC, corrente AC, tensão AC e potência AC.
+Potência DC por V×I
+Diagnóstico derivado de canais observados; agregações e significado de cada canal limitam a comparação direta com DC simulada.
+Energia
+Integral discreta das potências médias; Δt=0,25 h no passo comum.
+Índice no cadastro
+ID PVDAQ
+Nome
+0
+29943
+inv_fss_1
+1
+29944
+inv_fss_2
+2
+29945
+inv_fss_3
+3
+29946
+inv_fss_4
+4
+29947
+inv_fss_5
+5
+29948
+inv_fss_6
+6
+29949
+inv_fss_7
+7
+29950
+inv_fss_8
+8
+29951
+inv_fss_9
+9
+29952
+inv_fss_10
+10
+29953
+inv_fss_11
+11
+29954
+inv_fss_12
+12
+29955
+inv_fss_13
+13
+29956
+inv_fss_14
+14
+29957
+inv_fss_15
+15
+29958
+inv_fss_16
+16
+29959
+inv_fss_17
+17
+29960
+inv_fss_18
+18
+29961
+inv_fss_19
+19
+29962
+inv_fss_20
+20
+29963
+inv_fss_21
+21
+29964
+inv_fss_22
+22
+29965
+inv_fss_23
+23
+29966
+inv_fss_24
+Indicador
+Valor
+Unidade
+Intervalos totais do trimestre
+8736
+15 min
+Medidor com dados
+8736
+15 min
+Intervalos diurnos esperados
+4421
+15 min
+Pares diurnos disponíveis
+4401
+15 min
+Pares após limites físicos
+4401
+15 min
+Disponibilidade conjunta
+99,5476
+%
+Intervalos diurnos sem par
+20
+15 min
+Registro
+Definição
+Medidor AC
+meter_revenue_grade_ac_output_meter_149578; cadastrado como revenue grade; fabricante Unknown; modelo e serial vazios.
+Soma dos inversores
+Soma das potências AC das 24 unidades. É uma segunda referência local, com divergências próprias em relação ao medidor.
+Independência de entradas e saída
+A geração medida não alimenta a linha física principal; serve para avaliar a saída AC calculada.
+Ajuste empírico separado
+Fator 0,926672736825 ajustado somente em abril. Maio e junho são avaliações temporais posteriores; não são uma instalação independente.
+Indicador
+Valor
+Unidade
+n
+4401
+pares
+MBE
+31,7680037445
+kW
+MAE
+50,3008531243
+kW
+RMSE
+61,5862267192
+kW
+nMBE_percent
+7,73287011265
+%
+nRMSE_percent
+14,9911305658
+%
+r
+0,97741680431
+1
+R2
+0,919979751178
+1
+Grandeza
+Valor
+Unidade
+Energia observada integral do trimestre
+454284,960
+kWh
+Energia observada na janela pareada
+452002,240
+kWh
+Energia AC simulada na janela pareada
+486954,986
+kWh
+Irradiação POA na janela pareada
+638,936
+kWh/m²
+Yf observado pareado
+506,162
+kWh/kWp
+PR observado pareado
+79,219
+%
+PR simulado pareado
+85,345
+%
+Elemento
+Dado e alcance
+Total do trimestre
+2184 horas.
+Recorte elegível da inversão
+1037 horas; mesmos 1037 resultados convergentes.
+Métodos
+Driesse 2024, Erbs–Driesse e Perez–Driesse; albedo de referência 0,20.
+Fechamento numérico
+Resíduo máximo 0,0117993890284 W/m²; não comprova a exatidão das componentes.
+Geometrias comparadas
+Horizontal; arranjo de referência a 25°/180°; fachadas sul, leste e oeste a 90°.
+Balanço semitransparente
+Exemplo separado de 100 m²: energia refletida, transmitida, elétrica DC e calor para interior/exterior.
+Validação de fachada
+Não há fachada medida, ensaio óptico ou SHGC certificado. Não se calculam iluminância nem demanda térmica de edifício.
+Parâmetro
+Valor
+Unidade
+Área do exemplo semitransparente
+100
+m²
+Eficiência elétrica de referência
+0,1
+fração
+Coeficiente de potência
+-0,0044
+1/°C
+Refletância solar
+0,12
+fração
+Transmitância solar
+0,25
+fração
+Transmitância visível
+0,35
+fração
+Fração do calor absorvido dirigida ao interior
+0,5
+fração
+Coeficiente térmico U₀
+15
+W/(m² K)
+Coeficiente térmico U₁
+3
+W s/(m³ K)
+Inclinação
+90
+°
+Azimute
+180
+°
+ID
+Família
+Unidade
+Coluna do CSV
+149575
+T ar
+F
+ambient_temperature_o_149575
+149576
+Vento
+mph
+wind_speed_o_149576
+149577
+Direção
+degree
+wind_direction_o_149577
+149574
+POA
+W/m^2
+poa_irradiance_o_149574
+149578
+AC med.
+kw
+meter_revenue_grade_ac_output_meter_149578
+149579
+DC I 01
+A
+inv_01_dc_current_inv_149579
+149580
+DC V 01
+V
+inv_01_dc_voltage_inv_149580
+149581
+AC I 01
+A
+inv_01_ac_current_inv_149581
+149582
+AC V 01
+V
+inv_01_ac_voltage_inv_149582
+149583
+AC P 01
+kw
+inv_01_ac_power_inv_149583
+149584
+DC I 02
+A
+inv_02_dc_current_inv_149584
+149585
+DC V 02
+V
+inv_02_dc_voltage_inv_149585
+149586
+AC I 02
+A
+inv_02_ac_current_inv_149586
+149587
+AC V 02
+V
+inv_02_ac_voltage_inv_149587
+149588
+AC P 02
+kw
+inv_02_ac_power_inv_149588
+149589
+DC I 03
+A
+inv_03_dc_current_inv_149589
+149590
+DC V 03
+V
+inv_03_dc_voltage_inv_149590
+149591
+AC I 03
+A
+inv_03_ac_current_inv_149591
+149592
+AC V 03
+V
+inv_03_ac_voltage_inv_149592
+149593
+AC P 03
+kw
+inv_03_ac_power_inv_149593
+149594
+DC I 04
+A
+inv_04_dc_current_inv_149594
+149595
+DC V 04
+V
+inv_04_dc_voltage_inv_149595
+149596
+AC I 04
+A
+inv_04_ac_current_inv_149596
+ID
+Família
+Unidade
+Coluna do CSV
+149597
+AC V 04
+V
+inv_04_ac_voltage_inv_149597
+149598
+AC P 04
+kw
+inv_04_ac_power_inv_149598
+149599
+DC I 05
+A
+inv_05_dc_current_inv_149599
+149600
+DC V 05
+V
+inv_05_dc_voltage_inv_149600
+149601
+AC I 05
+A
+inv_05_ac_current_inv_149601
+149602
+AC V 05
+V
+inv_05_ac_voltage_inv_149602
+149603
+AC P 05
+kw
+inv_05_ac_power_inv_149603
+149604
+DC I 06
+A
+inv_06_dc_current_inv_149604
+149605
+DC V 06
+V
+inv_06_dc_voltage_inv_149605
+149606
+AC I 06
+A
+inv_06_ac_current_inv_149606
+149607
+AC V 06
+V
+inv_06_ac_voltage_inv_149607
+149608
+AC P 06
+kw
+inv_06_ac_power_inv_149608
+149609
+DC I 07
+A
+inv_07_dc_current_inv_149609
+149610
+DC V 07
+V
+inv_07_dc_voltage_inv_149610
+149611
+AC I 07
+A
+inv_07_ac_current_inv_149611
+149612
+AC V 07
+V
+inv_07_ac_voltage_inv_149612
+149613
+AC P 07
+kw
+inv_07_ac_power_inv_149613
+149614
+DC I 08
+A
+inv_08_dc_current_inv_149614
+149615
+DC V 08
+V
+inv_08_dc_voltage_inv_149615
+149616
+AC I 08
+A
+inv_08_ac_current_inv_149616
+149617
+AC V 08
+V
+inv_08_ac_voltage_inv_149617
+149618
+AC P 08
+kw
+inv_08_ac_power_inv_149618
+149619
+DC I 09
+A
+inv_09_dc_current_inv_149619
+ID
+Família
+Unidade
+Coluna do CSV
+149620
+DC V 09
+V
+inv_09_dc_voltage_inv_149620
+149621
+AC I 09
+A
+inv_09_ac_current_inv_149621
+149622
+AC V 09
+V
+inv_09_ac_voltage_inv_149622
+149623
+AC P 09
+kw
+inv_09_ac_power_inv_149623
+149624
+DC I 10
+A
+inv_10_dc_current_inv_149624
+149625
+DC V 10
+V
+inv_10_dc_voltage_inv_149625
+149626
+AC I 10
+A
+inv_10_ac_current_inv_149626
+149627
+AC V 10
+V
+inv_10_ac_voltage_inv_149627
+149628
+AC P 10
+kw
+inv_10_ac_power_inv_149628
+149629
+DC I 11
+A
+inv_11_dc_current_inv_149629
+149630
+DC V 11
+V
+inv_11_dc_voltage_inv_149630
+149631
+AC I 11
+A
+inv_11_ac_current_inv_149631
+149632
+AC V 11
+V
+inv_11_ac_voltage_inv_149632
+149633
+AC P 11
+kw
+inv_11_ac_power_inv_149633
+149634
+DC I 12
+A
+inv_12_dc_current_inv_149634
+149635
+DC V 12
+V
+inv_12_dc_voltage_inv_149635
+149636
+AC I 12
+A
+inv_12_ac_current_inv_149636
+149637
+AC V 12
+V
+inv_12_ac_voltage_inv_149637
+149638
+AC P 12
+kw
+inv_12_ac_power_inv_149638
+149639
+DC I 13
+A
+inv_13_dc_current_inv_149639
+149640
+DC V 13
+V
+inv_13_dc_voltage_inv_149640
+149641
+AC I 13
+A
+inv_13_ac_current_inv_149641
+149642
+AC V 13
+V
+inv_13_ac_voltage_inv_149642
+ID
+Família
+Unidade
+Coluna do CSV
+149643
+AC P 13
+kw
+inv_13_ac_power_inv_149643
+149644
+DC I 14
+A
+inv_14_dc_current_inv_149644
+149645
+DC V 14
+V
+inv_14_dc_voltage_inv_149645
+149646
+AC I 14
+A
+inv_14_ac_current_inv_149646
+149647
+AC V 14
+V
+inv_14_ac_voltage_inv_149647
+149648
+AC P 14
+kw
+inv_14_ac_power_inv_149648
+149649
+DC I 15
+A
+inv_15_dc_current_inv_149649
+149650
+DC V 15
+V
+inv_15_dc_voltage_inv_149650
+149651
+AC I 15
+A
+inv_15_ac_current_inv_149651
+149652
+AC V 15
+V
+inv_15_ac_voltage_inv_149652
+149653
+AC P 15
+kw
+inv_15_ac_power_inv_149653
+149654
+DC I 16
+A
+inv_16_dc_current_inv_149654
+149655
+DC V 16
+V
+inv_16_dc_voltage_inv_149655
+149656
+AC I 16
+A
+inv_16_ac_current_inv_149656
+149657
+AC V 16
+V
+inv_16_ac_voltage_inv_149657
+149658
+AC P 16
+kw
+inv_16_ac_power_inv_149658
+149659
+DC I 17
+A
+inv_17_dc_current_inv_149659
+149660
+DC V 17
+V
+inv_17_dc_voltage_inv_149660
+149661
+AC I 17
+A
+inv_17_ac_current_inv_149661
+149662
+AC V 17
+V
+inv_17_ac_voltage_inv_149662
+149663
+AC P 17
+kw
+inv_17_ac_power_inv_149663
+149664
+DC I 18
+A
+inv_18_dc_current_inv_149664
+149665
+DC V 18
+V
+inv_18_dc_voltage_inv_149665
+ID
+Família
+Unidade
+Coluna do CSV
+149666
+AC I 18
+A
+inv_18_ac_current_inv_149666
+149667
+AC V 18
+V
+inv_18_ac_voltage_inv_149667
+149668
+AC P 18
+kw
+inv_18_ac_power_inv_149668
+149669
+DC I 19
+A
+inv_19_dc_current_inv_149669
+149670
+DC V 19
+V
+inv_19_dc_voltage_inv_149670
+149671
+AC I 19
+A
+inv_19_ac_current_inv_149671
+149672
+AC V 19
+V
+inv_19_ac_voltage_inv_149672
+149673
+AC P 19
+kw
+inv_19_ac_power_inv_149673
+149674
+DC I 20
+A
+inv_20_dc_current_inv_149674
+149675
+DC V 20
+V
+inv_20_dc_voltage_inv_149675
+149676
+AC I 20
+A
+inv_20_ac_current_inv_149676
+149677
+AC V 20
+V
+inv_20_ac_voltage_inv_149677
+149678
+AC P 20
+kw
+inv_20_ac_power_inv_149678
+149679
+DC I 21
+A
+inv_21_dc_current_inv_149679
+149680
+DC V 21
+V
+inv_21_dc_voltage_inv_149680
+149681
+AC I 21
+A
+inv_21_ac_current_inv_149681
+149682
+AC V 21
+V
+inv_21_ac_voltage_inv_149682
+149683
+AC P 21
+kw
+inv_21_ac_power_inv_149683
+149684
+DC I 22
+A
+inv_22_dc_current_inv_149684
+149685
+DC V 22
+V
+inv_22_dc_voltage_inv_149685
+149686
+AC I 22
+A
+inv_22_ac_current_inv_149686
+149687
+AC V 22
+V
+inv_22_ac_voltage_inv_149687
+149688
+AC P 22
+kw
+inv_22_ac_power_inv_149688
+ID
+Família
+Unidade
+Coluna do CSV
+149689
+DC I 23
+A
+inv_23_dc_current_inv_149689
+149690
+DC V 23
+V
+inv_23_dc_voltage_inv_149690
+149691
+AC I 23
+A
+inv_23_ac_current_inv_149691
+149692
+AC V 23
+V
+inv_23_ac_voltage_inv_149692
+149693
+AC P 23
+kw
+inv_23_ac_power_inv_149693
+149694
+DC I 24
+A
+inv_24_dc_current_inv_149694
+149695
+DC V 24
+V
+inv_24_dc_voltage_inv_149695
+149696
+AC I 24
+A
+inv_24_ac_current_inv_149696
+149697
+AC V 24
+V
+inv_24_ac_voltage_inv_149697
+149698
+AC P 24
+kw
+inv_24_ac_power_inv_149698

@@ -1,0 +1,56 @@
+PROPOSTA DE ESTRUTURA DO CAPÍTULO
+Recurso solar e modelagem da conversão fotovoltaica
+Link para o documento:  Recurso solar e modelagem da conversão fotovoltaica
+Disciplina: SPGER0046 - ENERGIAS RENOVÁVEIS
+Professora: Dra. Camila Seibel Gehrke
+Integrantes: Samuel Constantino Teixeira; Gabriela Tourinho M. Ricardino; Vannessa Laryssa M. Gonçalves; Júlia de Sousa Ribeiro; Giulia Peregrino; Thais Taba da Silva; Lucas Soares Simão
+Organização proposta: 
+Pergunta geral: Como o recurso solar e as condições ambientais e de instalação são caracterizados e incorporados à modelagem para estimar a geração de energia elétrica e avaliar o desempenho de sistemas fotovoltaicos?
+1 FUNDAMENTOS E CARACTERIZAÇÃO DO RECURSO SOLAR (Samuel)
+Pergunta orientadora: Como o recurso solar disponível para a conversão fotovoltaica é caracterizado, quantificado e representado?
+1.1 Geometria solar e irradiância extraterrestre — Posição Sol–Terra, ângulos solares e referência física da radiação.
+1.2 Grandezas radiométricas e componentes da radiação — Irradiância, irradiação, irradiância global horizontal (GHI), irradiância direta normal (DNI) e irradiância difusa horizontal (DHI).
+1.3 Modulação atmosférica e variabilidade espaço-temporal — Nuvens, aerossóis, vapor d’água e variações horárias, sazonais e espaciais.
+1.4 Medição e estimativa do recurso solar — Medições de superfície, estimativas por satélite, reanálises e atlas solarimétricos; resolução, representatividade e incerteza.
+2 CONDIÇÕES AMBIENTAIS E DE ENTORNO DA CONVERSÃO FOTOVOLTAICA (Vannessa e Thais)
+Pergunta orientadora: Quais condições ambientais e de instalação modificam a irradiância incidente no arranjo fotovoltaico e a temperatura de operação dos módulos?
+2.1 Condições térmicas — Temperatura ambiente, vento, trocas de calor e temperatura operacional do módulo.
+2.2 Albedo e ambiente radiativo da superfície — Refletância do solo e contribuição da irradiância refletida, inclusive em aplicações bifaciais.
+2.3 Sombreamento, sujidade e obstruções locais — Fatores que reduzem a irradiância efetivamente recebida.
+2.4 Geometria de instalação e exposição do arranjo fotovoltaico — Inclinação, azimute, espaçamento entre fileiras e exposição frontal e, quando aplicável, traseira dos módulos.
+3 MODELAGEM DA CONVERSÃO FOTOVOLTAICA (Gabriela e Giulia)
+Pergunta orientadora: Como essas entradas são incorporadas aos modelos para estimar a potência e a energia produzidas pelo sistema fotovoltaico?
+3.1 Transposição para o plano do arranjo — Conversão de GHI, DNI e DHI em irradiância no plano do arranjo (plane of array — POA).
+3.2 Modelagem da temperatura operacional — Estimativa da temperatura da célula ou do módulo a partir da irradiância, temperatura ambiente e vento.
+3.3 Modelagem elétrica do módulo fotovoltaico — Curvas corrente–tensão (I–V) e potência–tensão (P–V), ponto de máxima potência (maximum power point — MPP) e resposta do módulo à irradiância e à temperatura.
+3.4 Modelagem do arranjo fotovoltaico em corrente contínua (CC) — Associação dos módulos em série e em paralelo e determinação da tensão, da corrente e da potência do arranjo.
+3.5 Conversão de CC para corrente alternada (CA) e modelagem do inversor — Eficiência, faixa de operação, relação de potência CC/CA, limitação de potência e clipping.
+3.6 Integração temporal e estimativa de energia — Integração da potência ao longo do tempo para estimar energia horária, diária, mensal ou anual.
+4 AVALIAÇÃO DE DESEMPENHO, PERDAS E VALIDAÇÃO DA MODELAGEM (Júlia Ribeiro e Lucas Simão)
+Pergunta orientadora: Como o desempenho de um sistema fotovoltaico é quantificado, como suas perdas são decompostas e quão bem o modelo reproduz o comportamento observado?
+4.1 Balanço energético e cadeia de perdas — Perdas ópticas, térmicas e elétricas em CC, no inversor e em CA; indisponibilidade operacional em sistemas monitorados. (Julia)
+4.2 Produtividades de referência, do arranjo e final — Produtividade de referência (Yr), produtividade do arranjo (Ya) e produtividade final (Yf); produtividade específica em quilowatt-hora por quilowatt-pico (kWh/kWp). (Lucas)
+4.3 Razão de desempenho (Performance Ratio — PR) e decomposição normalizada das perdas — Perdas de captura (Lc) e perdas de sistema (Ls). (Lucas)
+4.4 Validação de modelos de geração fotovoltaica — Comparação modelo–observação por erro médio de viés (MBE), erro absoluto médio (MAE), raiz do erro quadrático médio (RMSE), raiz do erro quadrático médio normalizada (nRMSE), coeficiente de correlação de Pearson (r) e coeficiente de determinação (R²). (Lucas)
+4.5 Avaliação de desempenho de sistemas fotovoltaicos integrados à edificação (BIPV) - Efeito da orientação vertical e da integração arquitetônica sobre produtividade e PR; comparação com sistemas convencionais; módulos semitransparentes como elementos de envoltória; partição da energia solar absorvida entre geração elétrica e ganho de calor; coeficiente de ganho de calor solar (SHGC) e transmissão luminosa como indicadores complementares de desempenho. (Julia)
+CRONOGRAMA DE ATIVIDADES – CAPÍTULO “RECURSO SOLAR E MODELAGEM DA CONVERSÃO FOTOVOLTAICA”
+SPGER0046 – Energias Renováveis  |  Profa. Dra. Camila Seibel Gehrke  |  PPGER / UFPB
+Data
+Entrega do grupo
+15/10
+Entrega do cronograma e da estrutura detalhada.
+22/10
+Roteiro e referências-base de cada subseção; documento compartilhado e início da escrita por cada integrante; 
+27/10
+Slides da apresentação preliminar fechados.
+Apresentação preliminar: roteiro fechado e 1 subseção redigida por integrante.(apresentar para a turma)
+05/11
+2ª subseção de cada integrante redigida.
+19/11
+Texto completo de todas as seções.
+Resultado preliminar: capítulo completo e integrado, com Introdução e Considerações finais.Apresentação para a professora.
+26/11 a 01/12
+Revisão cruzada entre as seções e correções.
+01/12
+Correções incorporadas; capítulo formatado e com alinhamento entre as seções; slides da apresentação final fechados.
+Apresentação final e entrega do capítulo.(apresentar para a turma)

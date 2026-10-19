@@ -1,0 +1,68 @@
+{
+  "project": "SPGER0046 — Recurso solar e modelagem da conversão fotovoltaica",
+  "version": "1.2.2",
+  "site": {
+    "system_id": 2107,
+    "name": "Farm Solar Array",
+    "city": "Arbuckle, California, USA",
+    "latitude": 38.996306,
+    "longitude": -122.134111,
+    "altitude_m": 10,
+    "timezone": "America/Los_Angeles",
+    "tilt_deg": 25,
+    "azimuth_deg": 180
+  },
+  "period": {
+    "start_local": "2024-04-01",
+    "end_exclusive_local": "2024-07-01",
+    "daylight_elevation_deg": 10,
+    "aggregation_minutes": 15
+  },
+  "system": {
+    "n_modules": 2880,
+    "n_inverters": 24,
+    "modules_per_group": 120,
+    "metadata_p0_kw": 893,
+    "label_module_power_w": 310,
+    "module_cec_key": "Hyundai_Heavy_Industries_Green_Energy_Co__HiS_M310TI",
+    "inverter_cec_key": "ABB__TRIO_27_6_TL_OUTD_S1B_US_480__480V_",
+    "inverter_nominal_ac_w": 27600,
+    "inverter_max_ac_w": 30000
+  },
+  "assumptions": {
+    "faiman_u0": 25.0,
+    "faiman_u1": 6.84,
+    "faiman_temperature_used_as_cell_proxy": true,
+    "albedo": 0.2,
+    "soiling_fraction": 0.0,
+    "dc_wiring_fraction": 0.02,
+    "dc_mismatch_fraction": 0.02,
+    "dc_connections_fraction": 0.005,
+    "ac_wiring_fraction": 0.0,
+    "inverter_eta_nom": 0.98,
+    "inverter_eta_ref": 0.9637,
+    "inverter_capacity_baseline_w_each": 30000,
+    "nasa_hour_label_offset_hours": 0,
+    "illustrative_modules_in_series": 20,
+    "illustrative_parallel_strings": 6
+  },
+  "bipv": {
+    "area_m2": 100,
+    "reference_efficiency": 0.1,
+    "gamma_pdc_per_C": -0.0044,
+    "rho_solar": 0.12,
+    "tau_solar": 0.25,
+    "tau_visible": 0.35,
+    "inward_heat_fraction": 0.5,
+    "faiman_u0": 15,
+    "faiman_u1": 3,
+    "tilt_deg": 90,
+    "azimuth_deg": 180,
+    "status": "hypothetical scenario; optical and thermal coefficients not measured or certified"
+  },
+  "workflow": {
+    "primary": "measured_POA_local_meteorology_to_measured_AC",
+    "use_nasa_by_default": false,
+    "reverse_POA": "exploratory estimates only; no independent component validation"
+  }
+}

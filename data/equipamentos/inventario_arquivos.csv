@@ -1,0 +1,5 @@
+file,rows,channels,raw_local_first,raw_local_last,most_frequent_step_minutes,invalid_timestamps,repeated_local_timestamps,quarter_rows,convention
+2107_environment_data_2024.csv,32132,3,2024-01-01 00:15:00,2024-11-30 23:00:00,15.0,0,0,8732,horário local declarado PST8PDT; interpretação America/Los_Angeles
+2107_irradiance_data_2024.csv,73077,1,2024-01-01 00:10:00,2024-11-01 23:55:00,5.0,0,0,22424,horário local declarado PST8PDT; interpretação America/Los_Angeles
+2107_meter_15m_data_2024.csv,32155,1,2024-01-01 00:15:00,2024-11-30 23:45:00,15.0,0,0,8736,horário local declarado PST8PDT; interpretação America/Los_Angeles
+2107_electrical_data_2024.csv,88115,120,2024-01-01 00:05:00,2024-11-01 23:55:00,5.0,0,0,26208,horário local declarado PST8PDT; interpretação America/Los_Angeles

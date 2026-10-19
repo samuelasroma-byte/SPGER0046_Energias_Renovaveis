@@ -1,0 +1,79 @@
+[
+  {
+    "file": "inversores.csv",
+    "sha256": "da664831cbac357bb78307e07425c6ebc4b1ce5a3c5526c8f3ceaa92833bbd89",
+    "bytes": 1791,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "medidores.csv",
+    "sha256": "b23d43c1837cd24c5d883a8347ac8710bd2ce07400e8f4c4d8d09b275c4cb7a6",
+    "bytes": 139,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "metadados_todos_os_campos.csv",
+    "sha256": "b3f333c17a03c822ef3d329845fa406e81cd299b44b458ba33ac39a2065951ce",
+    "bytes": 118470,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "grupos_de_modulos.csv",
+    "sha256": "e9e74c820af31733aff8003ff62fc910d05e7ed4a46875f1b50cadd202ca92eb",
+    "bytes": 2314,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "inventario_do_dossie.json",
+    "sha256": "2dc0e02641299de3b2672740ad1182757ee4b970123d26a1c49793b7ac4ecc90",
+    "bytes": 859,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "instrumentos.csv",
+    "sha256": "233ca6b91c06cdca2131dd897c65ae5b507d206b233471d9aa26cf09dcf3196e",
+    "bytes": 154,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "dicionario_completo_125_canais.csv",
+    "sha256": "2d6a89694fe74e90654a8163eea0e33d3245dd85a02ddeb3c24dbe8d15be1f67",
+    "bytes": 37903,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "configuracao_completa_modelo.csv",
+    "sha256": "e69391fa95e76ba3100ddf6e759b319f1bb3c8fe85a8a5dab6051ab4bf98ed8f",
+    "bytes": 2472,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "montagem.csv",
+    "sha256": "a9623d8b7e4fc41e519ba60e98d3dc1a5d3eedeb754c11d83d00d57f32e0d5ab",
+    "bytes": 130,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "inventario_arquivos.csv",
+    "sha256": "f8652c477d2d69b538d58b9f2454a99af4b4cf46559013f5a14d585a7f50ac08",
+    "bytes": 796,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  },
+  {
+    "file": "metadados_originais_integrais.json",
+    "sha256": "916c3649208d3506212a236c689a75750bdb954b49afabdc957b0622f61d4acb",
+    "bytes": 69607,
+    "source_folder": "ACERVO_RESTRITO_DA_EQUIPE",
+    "checked_on": "2026-10-18"
+  }
+]

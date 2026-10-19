@@ -1,0 +1,23 @@
+{
+  "original_files_verified": 5,
+  "measured_channels": 125,
+  "metadata_leaf_fields": 2224,
+  "module_parameter_fields": 25,
+  "inverter_parameter_fields": 16,
+  "matched_metric_ids": 125,
+  "metadata_name_aliases": 1,
+  "chapter_sections": 4,
+  "numeric_tables": 12,
+  "text_frames": 13,
+  "source_year": 2026,
+  "observation_year": 2024,
+  "status": "gerado",
+  "document": "outputs/dossie_tecnico/Dossie_Tecnico_por_Secao.docx",
+  "known_discrepancies": [
+    "PVDAQ mono-Si versus CEC Multi-c-Si",
+    "datas de início do sistema e dos grupos de módulos diferentes",
+    "metadados históricos terminam em 2023 mas CSV disponíveis em 2024",
+    "variante e limite AC do inversor sem comprovação; topologia de strings não informada",
+    "nome do canal de potência AC do inversor 15 difere no cadastro; correspondência por ID único 149653"
+  ]
+}

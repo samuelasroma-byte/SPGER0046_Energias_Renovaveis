@@ -1,0 +1,62 @@
+[
+  {
+    "file": "PVWatts_v5_Dobos_2014.pdf",
+    "url": "https://docs.nlr.gov/docs/fy14osti/62641.pdf",
+    "bytes": 730688,
+    "sha256": "e0cfe867e06bb7364951de7b283563cf3e8612189eb873348a97ae5b99a63fee",
+    "downloaded": true
+  },
+  {
+    "file": "SPA_Reda_Andreas_2008.pdf",
+    "url": "https://docs.nlr.gov/docs/fy08osti/34302.pdf",
+    "bytes": 1272380,
+    "sha256": "1b9e2b6131d89ebc17fe4c047e64a0168143c949bfe6fafe06d856d651555cc2",
+    "downloaded": true
+  },
+  {
+    "file": "Performance_Parameters_Marion_2005.pdf",
+    "url": "https://docs.nlr.gov/docs/fy05osti/37358.pdf",
+    "bytes": 714060,
+    "sha256": "dadabcc13e907b958046c9cf28175892c3454aacdc408d17c8581d61d02c3de0",
+    "downloaded": true
+  },
+  {
+    "file": "ABB_TRIO_20_27_US_Manual.pdf",
+    "url": "https://library.e.abb.com/public/9ddffa465aa146bfa43bd0854abbcc81/TRIO-20.0-27.6-TL-US_Product_Manual.pdf",
+    "bytes": 14310436,
+    "sha256": "03f794598e750c38bc0027fe63f777714c5dd8f0ed1534bbabd98c7c96def086",
+    "downloaded": true
+  },
+  {
+    "file": "pvlib_faiman.html",
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.temperature.faiman.html",
+    "downloaded": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "pvlib_desoto.html",
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.pvsystem.calcparams_desoto.html",
+    "downloaded": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "pvlib_perez.html",
+    "url": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.perez.html",
+    "downloaded": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "NASA_POWER_Hourly_API.html",
+    "url": "https://power.larc.nasa.gov/docs/services/api/temporal/hourly/",
+    "bytes": 32713,
+    "sha256": "4e8d9ea3fd82436ecaa531081dc176f7b360e94afea38c63ef38b1f14c4c6536",
+    "downloaded": true
+  },
+  {
+    "file": "NASA_POWER_SYN1deg.html",
+    "url": "https://power.larc.nasa.gov/docs/methodology/energy-fluxes/syn1deg/",
+    "bytes": 29206,
+    "sha256": "7a7ef75cf968b8043fcfdf661e231634ccf06b6b6d6d74fc1142ddda4d037587",
+    "downloaded": true
+  }
+]
