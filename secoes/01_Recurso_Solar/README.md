@@ -1,5 +1,7 @@
 # 1 Fundamentos e caracterização do recurso solar
 
+[Guia técnico comum do estudo de caso em Word](../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx): origem dos dados, período, equipamentos, entradas e hipóteses para as quatro seções.
+
 Responsáveis: **Samuel**.
 
 Como o recurso solar disponível para a conversão fotovoltaica é caracterizado, quantificado e representado?

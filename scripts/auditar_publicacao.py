@@ -35,13 +35,15 @@ def check():
         assert set(f['files'])=={'claro_png','escuro_png','claro_pdf','escuro_pdf'}
         assert all((ROOT/p).is_file() for p in f['files'].values())
         assert all(all(abs(d-600)<.1 for d in v['dpi']) for v in f['resolution'].values())
-    assert len([p for p in tracked if p.suffix=='.docx'])==10
+    original_docx={r['caminho_github'] for r in source if r['caminho_github'].endswith('.docx')}
+    tracked_docx={str(p.relative_to(ROOT)) for p in tracked if p.suffix=='.docx'}
+    assert len(original_docx)==10 and original_docx <= tracked_docx
     scientific_dirs=['src/','config/','data/processed/','bibliografia/outputs/']
     changed=subprocess.check_output(['git','-C',str(ROOT),'diff','--cached','--name-only','--diff-filter=M'],text=True).splitlines()
     scientific_modified=[p for p in changed if any(p.startswith(d) for d in scientific_dirs)]
     # Newly added DOCX and indices are allowed; existing scientific files must match the original base.
     assert not scientific_modified,scientific_modified
-    result={'tracked_files':len(tracked),'relative_links_checked':links,'broken_relative_links':broken,'source_copies_checked':len(source),'sha256_mismatches':mismatches,'subsections':19,'B_references':39,'A_documents':91,'illustrations':30,'graphic_files':120,'DOCX':10,'scientific_files_modified':scientific_modified}
+    result={'tracked_files':len(tracked),'relative_links_checked':links,'broken_relative_links':broken,'source_copies_checked':len(source),'sha256_mismatches':mismatches,'subsections':19,'B_references':39,'A_documents':91,'illustrations':30,'graphic_files':120,'DOCX':len(tracked_docx),'original_DOCX':len(original_docx),'scientific_files_modified':scientific_modified}
     print(json.dumps(result,ensure_ascii=False,indent=2))
     assert not broken and not mismatches,'Invalid links or changed original bytes.'
     return result

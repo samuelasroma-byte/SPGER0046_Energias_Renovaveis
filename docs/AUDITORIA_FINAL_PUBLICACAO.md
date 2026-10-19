@@ -68,3 +68,7 @@ Os testes `verificar_organizacao.py`, `verificar_ciencia.py` e `verificar_refina
 - [PR de integração da entrega à main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/pull/1).
 
 O [índice de documentos](README.md) oferece download direto dos dez Word. O projeto completo pode ser obtido em [ZIP da main](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/archive/refs/heads/main.zip). Leitura e download dos arquivos publicados são públicos. As pendências de edições bibliográficas, da norma N01 e dos convites de edição estão identificadas acima e não são apresentadas como resolvidas.
+
+## Guia técnico de orientação da equipe
+
+Em 19/10/2026 foi acrescentado o [guia técnico resumido do PVDAQ 2107 em Word](metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx), com três páginas e links para os dados, equipamentos, configuração e dossiê completo. É uma síntese nova para as quatro seções; as dez cópias DOCX originais e os 156 arquivos de origem permanecem intactos. A revisão conferiu a distribuição real dos grupos no JSON original: 19×120, 1×160, 1×200 e 3×80, totalizando 2.880 módulos. A orientação e o esclarecimento sobre a simplificação do dossiê original estão no [índice de métodos](metodos/README.md). O [registro de verificação do guia](auditoria/Guia_Tecnico_Resumido_Verificacao.json) contém tamanho, SHA-256, fontes e revisão visual das três páginas.

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "document": "docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx",
+  "version": "1.0",
+  "pages": 3,
+  "sha256": "43d150e0ad54a0b14e51811953a45bfb7cb4b2ad6156304410e435a97f721c06",
+  "bytes": 42195,
+  "source_snapshot": "a12212397e2ecfdac198bffa445aee4a69a244d4",
+  "source_module_groups": {
+    "80": 3,
+    "120": 19,
+    "160": 1,
+    "200": 1
+  },
+  "total_modules": 2880,
+  "visual_review_all_pages": "passed",
+  "hyperlinks": [
+    "https://doi.org/10.25984/1846021",
+    "https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/a12212397e2ecfdac198bffa445aee4a69a244d4/data/raw/README.md",
+    "https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/a12212397e2ecfdac198bffa445aee4a69a244d4/data/equipamentos/README.md",
+    "https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/tree/a12212397e2ecfdac198bffa445aee4a69a244d4/config",
+    "https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/a12212397e2ecfdac198bffa445aee4a69a244d4/docs/metodos/Dossie_Tecnico_por_Secao.docx",
+    "https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/blob/a12212397e2ecfdac198bffa445aee4a69a244d4/docs/Metodos_e_Fontes_Conferidos.md",
+    "https://library.e.abb.com/public/9ddffa465aa146bfa43bd0854abbcc81/TRIO-20.0-27.6-TL-US_Product_Manual.pdf"
+  ],
+  "original_Drive_copies_modified": false
+}

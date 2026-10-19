@@ -1,5 +1,7 @@
 # 2 Condições ambientais e de entorno da conversão fotovoltaica
 
+[Guia técnico comum do estudo de caso em Word](../../docs/metodos/Guia_Tecnico_Resumido_PVDAQ_2107.docx): origem dos dados, período, equipamentos, entradas e hipóteses para as quatro seções.
+
 Responsáveis: **Vannessa e Thais**.
 
 Quais condições ambientais e de instalação modificam a irradiância incidente no arranjo fotovoltaico e a temperatura de operação dos módulos?
