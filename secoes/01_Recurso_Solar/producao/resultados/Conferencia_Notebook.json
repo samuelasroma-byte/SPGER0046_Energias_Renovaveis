@@ -1,6 +1,9 @@
 {
   "execucao": "concluída",
-  "evidencias_localizadas": 39,
+  "evidencias_confrontadas_registradas": 39,
+  "verificacoes_fisicas": 6,
+  "DOCX_exportados": 7,
+  "PDF_texto_exportados": 7,
   "busca_bibliometrica_reexecutada": false,
   "revisao_integral_ProKnowC": false,
   "figura": "G01",

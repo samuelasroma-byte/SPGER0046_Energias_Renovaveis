@@ -1,0 +1,33 @@
+[
+  {
+    "codigo": "B11",
+    "identidade": "Driesse; Jensen; Perez. Solar Energy 267 (2024), 112093. DOI 10.1016/j.solener.2023.112093",
+    "conteudo_conferido": "PDF pp. 1 e 9–11; alvos de GTI modelados para testar a inversão; distinguir correção numérica de validação com medidas independentes."
+  },
+  {
+    "codigo": "B24",
+    "identidade": "Deline; Perry; Deceglie; Muller; Sekulic; Jordan. Photovoltaic Data Acquisition (PVDAQ) Public Datasets. 21 dez. 2021. DOI 10.25984/1846021",
+    "fonte_de_conferencia": "Golnas; Gentry; White. Open-Source Tools & Open-Access Solar Data. DOE/NREL, 2024, PDF p. 25.",
+    "url_conferida": "https://www.energy.gov/sites/default/files/2024-05/Data_Tools_Webina..._Comms_Final.pdf",
+    "limite": "Citação recuperada em fonte institucional; a página de destino DOI não foi acessível. Não constitui verificação de todos os canais brutos."
+  },
+  {
+    "codigo": "B27",
+    "identidade": "NatLabRockies/pvdaq_access, README oficial",
+    "url_conferida": "https://github.com/NatLabRockies/pvdaq_access",
+    "conteudo_conferido": "README integral: separação do acervo público e Solar Data Bounty Prize, identificadores, formatos e metadados; não leitura de todos os datasets."
+  },
+  {
+    "codigo": "A045",
+    "identidade": "Handbook 4ª ed., 2024, NREL/TP-5D00-88300; DOI 10.2172/2448063",
+    "url_conferida": "https://research-hub.nlr.gov/en/publications/best-practices-handbook-for-the-collection-and-use-of-solar-resou-4/"
+  },
+  {
+    "codigo": "B36",
+    "decisao": "Arquivo da 3ª edição inspecionado; texto e figuras com recursos ausentes/sobrepostos. Não selecionado como prova. A045 é a 4ª edição efetivamente lida, com identidade própria."
+  },
+  {
+    "codigo": "B19/B20",
+    "decisao": "Não selecionadas como prova nesta versão porque as edições exatas não estavam no recorte inspecionado; não substituídas por livros de outros autores/edições."
+  }
+]

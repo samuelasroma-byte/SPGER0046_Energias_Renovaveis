@@ -47,13 +47,17 @@ Não foram produzidos números novos de citações, índices de reconhecimento c
 |:--|:--|
 | B19 — Kalogirou, edição de 2014 | Edição exata não localizada; sem uso como evidência direta |
 | B20 — Luque/Hegedus, edição de 2011 | Edição exata não localizada; sem citações de páginas presumidas |
-| B11 — Driesse/Jensen/Perez, 2024 | PDF disponível; leitura pendente; aprofundamento de transposição pertence a 3.1 |
-| B36 — handbook de 2021 | PDF disponível nas pastas 1.2–1.4; não declarar leitura da terceira edição a partir da quarta |
-| B27 — documentação de acesso | Catalogada; leitura técnica detalhada pendente |
-| B24 — registro do conjunto de dados | Metadados herdados do projeto; recuperação web do DOI falhou; dados preparados e configuração foram conferidos |
+| B11 — Driesse/Jensen/Perez, 2024 | PDF pp. 1 e 9–11 conferidas; apoio aos limites da validação inversa; detalhamento de transposição pertence a 3.1 |
+| B36 — handbook de 2021 | Arquivo inspecionado com defeitos de fontes e recursos gráficos; excluído como prova. A quarta edição foi lida separadamente |
+| B27 — documentação de acesso | README oficial lido integralmente; não equivale à leitura dos datasets completos |
+| B24 — registro do conjunto de dados | Citação DOI confirmada na p. 25 de material institucional DOE/NREL de 2024; o destino DOI estava inacessível; dados preparados conferidos separadamente |
 | Revisão humana cruzada | A conferência assistida por IA e os testes computacionais não substituem a revisão acadêmica da autoria e da equipe |
 
 As pendências de leitura não invalidam automaticamente as definições já fundamentadas em fontes conferidas. Elas delimitam o alcance do portfólio atual e orientam complementações reais, sem declarar concluída uma revisão bibliográfica apenas pela existência de fichas, códigos ou modelos de documentos.
+
+## Confronto das afirmações e aplicação editorial
+
+Cada uma das 39 afirmações recebeu classificação, justificativa e consequência editorial em `Confronto_Cientifico_39_Evidencias.json`: 16 diretas, 18 diretas com restrições, uma com derivação e quatro com inferência. O confronto inclui domínio de validade, convenções, condições de fechamento, independência entre observações e reconstruções e escalas de representatividade. A leitura adicional de B11 sustenta a distinção entre teste numérico da inversão e validação observacional. A ferramenta verifica integridade, relações físicas e rastreabilidade; a classificação resulta da leitura registrada e não de aprovação automática. As evidências são afirmações, frequentemente da mesma coletânea, e não estudos independentes.
 
 
 ## Registro anterior preservado

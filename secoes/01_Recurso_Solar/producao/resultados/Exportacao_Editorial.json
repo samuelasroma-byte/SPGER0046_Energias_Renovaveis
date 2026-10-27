@@ -1,0 +1,29 @@
+{
+  "docx": [
+    "manuscritos/1_1_Geometria_Solar.docx",
+    "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "manuscritos/1_3_Modulacao_Atmosferica.docx",
+    "manuscritos/1_4_Medicao_e_Estimativa.docx",
+    "manuscritos/Secao_01_Integrada.docx",
+    "apresentacao/Roteiro_Oral_6_Slides.docx",
+    "documentacao/Conferencia_Cientifica_39_Evidencias.docx"
+  ],
+  "pdf": [
+    "manuscritos/1_1_Geometria_Solar.pdf",
+    "manuscritos/1_2_Grandezas_Radiometricas.pdf",
+    "manuscritos/1_3_Modulacao_Atmosferica.pdf",
+    "manuscritos/1_4_Medicao_e_Estimativa.pdf",
+    "manuscritos/Secao_01_Integrada.pdf",
+    "apresentacao/Roteiro_Oral_6_Slides.pdf",
+    "documentacao/Conferencia_Cientifica_39_Evidencias.pdf"
+  ],
+  "slides_pdf": "apresentacao/Subsecao_1_1_Beamer.pdf",
+  "cadeia": {
+    "1.1_DOCX": "python-docx sobre manuscrito existente; equações OMML e novas equações via Pandoc",
+    "1.2_a_1.4_DOCX": "Markdown e LaTeX → Pandoc → Word com equações nativas",
+    "PDF_manuscritos": "LibreOffice a partir dos DOCX",
+    "PDF_slides": "Beamer → XeLaTeX"
+  },
+  "publicacao_remota_executada": false,
+  "necessita_conferencia_visual_apos_edicao": true
+}

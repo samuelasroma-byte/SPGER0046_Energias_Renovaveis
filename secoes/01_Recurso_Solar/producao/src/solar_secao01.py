@@ -9,7 +9,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
-BG, FG, YELLOW, CYAN, ORANGE = '#0b1015', '#eef2f6', '#ffd45c', '#70dcf5', '#ffb66f'
+BG, FG, YELLOW, CYAN, ORANGE = '#000000', '#ffffff', '#ffd45c', '#70dcf5', '#ffb66f'
 
 def sha256(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -50,7 +50,7 @@ def run(root=ROOT):
     test = pvlib.solarposition.spa_python(ref,39.742476,-105.1786,altitude=1830.14,pressure=82000,temperature=11,delta_t=67)
     actual = float(test.apparent_zenith.iloc[0])
     azi = float(test.azimuth.iloc[0])
-    assert abs(actual-50.11162)<5e-5 and abs(azi-194.34024)<5e-5
+    assert abs(actual-50.11162)<5e-6 and abs(azi-194.34024)<5e-6
     use = d.instant_mid_local.dt.strftime('%Y-%m-%d').eq('2024-05-17')
     day = d.loc[use].copy()
     assert len(day)==96
@@ -94,7 +94,7 @@ def run(root=ROOT):
       'min_geometric_zenith_deg':float(day.zenith.min()),
       'G0n_Wm2_day':float(day.G0n_Wm2.iloc[0]),
       'reference_SPA_apparent_zenith_deg':actual,'reference_SPA_azimuth_deg':azi,
-      'reference_tolerance_deg':5e-5,'reference_source':'Reda & Andreas 2008, Table A5.1, printed A-15–A-16 / PDF 37–38',
+      'reference_tolerance_deg':5e-6,'reference_source':'Reda & Andreas 2008, Table A5.1, printed A-15–A-16 / PDF 37–38',
       'input_sha256':sha256(inp),'config_sha256':sha256(root/'config/projeto.json'),
       'checks_passed':['regular cadence','91 days','no duplicate timestamps','Spencer independent expression','elevation+zenith','azimuth convention','night clipping','SPA published example'],
       'limitations':['POA is an interval mean, not an instantaneous value','No local independent GHI/DNI/DHI measurements','No cloud attribution from the curve','Display window 05-21 local; full day retained in CSV','Refraction uses default temperature and altitude-derived pressure','Apparent zenith used for AOI; geometric zenith used for extraterrestrial projection, as in the project']

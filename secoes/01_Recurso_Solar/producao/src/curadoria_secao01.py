@@ -12,9 +12,9 @@ EVIDENCIAS=[
  ('1.1','B12',31,'13','Zenital é contado desde a vertical; elevação é seu complemento.','E1.01; D01','graus','Esquema geométrico; sem refração.','1.1.2; slide 5'),
  ('1.1','B12',33,'15','A relação esférica liga latitude, declinação e ângulo horário ao zenital.','E1.01','graus/radianos','A equação elementar não substitui todos os termos do SPA.','1.1.2; slide 6'),
  ('1.1','B12',31,'13','O livro adota origem azimutal no sul, com sinais distintos da convenção SPA.','Convenções','graus','Conversão de origem explicitada; não transcrever convenções como equivalentes.','1.1.2; D01'),
- ('1.1','B12',27,'9','A aproximação secante da massa de ar é apresentada para zenitais até cerca de 70°.','Massa de ar','adimensional','Não extrapolar ao horizonte.','1.1.4'),
+ ('1.1','B12',27,'9','Ao nível do mar, a aproximação secante da massa de ar é apresentada para zenitais até cerca de 70°.','Massa de ar','adimensional','Domínio de atmosfera plana; não extrapolar ao horizonte.','1.1.4'),
  ('1.1','B23',1,'1','O tempo solar verdadeiro depende de longitude, fuso e equação do tempo.','Tempo e ângulo horário','min; h; graus','Algoritmo aproximado; não é a implementação SPA utilizada.','1.1.2; roteiro oral'),
- ('1.1','B23',2,'2','A formulação de nascer e pôr do Sol acrescenta uma correção aproximada ao horizonte.','Horizonte','graus','Critério de horizonte aparente difere do recorte geométrico de G0h.','1.1.3'),
+ ('1.1','B23',2,'2','O critério de nascer e pôr do Sol em 90,833° inclui aproximações de refração e tamanho angular do disco solar.','Horizonte','graus','Critério de horizonte aparente difere do recorte geométrico de G0h.','1.1.3'),
  ('1.1','B31',1,'577','O artigo SPA explicita azimute desde o norte e longitude positiva para leste.','SPA e orientação','graus','Convenção utilizada no capítulo.','1.1.2; slides 5 e 8'),
  ('1.1','B31',2,'578','A precisão angular atribuída ao SPA se refere ao cálculo de posição solar.','Escopo do algoritmo','graus','Não representa a incerteza de um sensor de irradiância.','1.1.2; 1.1.7'),
  ('1.1','B32',16,'10','O tratamento topocêntrico distingue elevação sem e com refração.','Zenital geométrico/aparente','graus','Refração depende de pressão e temperatura; continuação na p. 11/PDF17.','1.1.2; 1.1.7'),
@@ -23,7 +23,7 @@ EVIDENCIAS=[
  ('1.1','A045',34,'cap. 2-5','A referência extraterrestre varia com o inverso do quadrado da distância.','G0n','W/m²','Não equivale à irradiância de superfície.','1.1.3; slide 7'),
  ('1.1','A045',37,'cap. 2-8','A orientação solar local inclui elevação e azimute horário a partir do norte.','D01','graus','Azimute indefinido no zênite é uma consequência geométrica.','1.1.2; slide 5'),
  ('1.2','B12',28,'10','Irradiação é obtida pela integração temporal da irradiância.','E1.03 e E1.04','W/m²; J/m²','A soma utiliza a duração e o significado dos registros.','1.2.1'),
- ('1.2','A045',38,'cap. 2-9','DNI, DHI e GHI diferem pelo campo angular e pelo plano de recepção.','Componentes','W/m²','Grandezas do campo radiativo descendente.','1.2.2'),
+ ('1.2','A045',38,'cap. 2-9','DNI, DHI e GHI diferem pelo campo angular e pelo plano de recepção.','Componentes','W/m²','Grandezas do campo solar descendente de ondas curtas.','1.2.2'),
  ('1.2','A045',39,'cap. 2-10','A equação de fechamento soma direta projetada e difusa horizontal.','E1.05','W/m²','Medições precisam ser compatíveis em banda, campo angular e tempo.','1.2.2'),
  ('1.2','A045',39,'cap. 2-10','DNI e DHI estimadas a partir de GHI dependem de modelos de separação.','Decomposição','W/m²','Não constituem medições adicionais independentes.','1.2.2'),
  ('1.2','A045',30,'cap. 2-1','Superfícies fotovoltaicas podem receber contribuições descendentes e refletidas.','POA','W/m²','Modelos de transposição pertencem à subseção 3.1.','1.2.3'),
@@ -34,9 +34,9 @@ EVIDENCIAS=[
  ('1.3','A045',244,'cap. 6-1','A variabilidade deve ser definida em relação ao intervalo temporal e à área.','Variabilidade','tempo e espaço declarados','Não generalizar um dia para climatologia.','1.3.4'),
  ('1.3','A045',245,'cap. 6-2','A variabilidade depende da componente de irradiância e da escala de análise.','DNI/GHI/GTI','W/m² e escalas','Agregação espacial pode suavizar oscilações rápidas.','1.3.4'),
  ('1.3','A045',260,'cap. 6-17','Nuvens, relevo e fatores locais limitam extrapolações espaciais do recurso.','Representatividade','domínio espacial','Pixel menor não garante, sozinho, maior exatidão.','1.3.4; 1.4.3'),
- ('1.3','A045',267,'cap. 6-24','A resolução temporal afeta a variabilidade que pode ser representada na série.','Agregação temporal','s; min; h','Interpolação não recupera variabilidade não observada.','1.3.2; 1.4.3'),
+ ('1.3','A045',267,'cap. 6-24','A resolução temporal afeta a variabilidade que pode ser representada na série.','Agregação temporal','s; min; h','Interpolação, por si só, não demonstra recuperação exata de oscilações desconhecidas sem hipóteses adicionais.','1.3.2; 1.4.3'),
  ('1.4','A045',58,'cap. 3-3','Medições locais apoiam avaliação do recurso e conferência de modelos.','Observações de superfície','mensurando declarado','Existem custos de instalação, operação e manutenção.','1.4.1'),
- ('1.4','A045',60,'cap. 3-5','A montagem e o campo de visão distinguem medidas GHI, DHI, DNI e POA.','Instrumentação','W/m²; plano de montagem','Um sensor não mede todas as componentes simultaneamente.','1.4.1'),
+ ('1.4','A045',60,'cap. 3-5','A montagem e o campo de visão distinguem medidas GHI, DHI, DNI e POA.','Instrumentação','W/m²; plano de montagem','Uma montagem fixa não fornece todos os canais independentes; sistemas de sombra rotativa alternam medições e calculam DNI.','1.4.1'),
  ('1.4','A045',61,'cap. 3-6','Termopilhas e sensores fotoelétricos têm respostas espectrais e temporais diferentes.','Resposta de sensores','s e banda espectral','A especificação nominal não encerra a incerteza de campo.','1.4.1'),
  ('1.4','A045',62,'cap. 3-7','Pireliômetros requerem alinhamento com o Sol e possuem campo de visão limitado.','Medição DNI','ângulo/campo de visão','Inclui uma região circumsolar conforme o instrumento.','1.2.2; 1.4.1'),
  ('1.4','A045',161,'cap. 4-1','Avaliação e controle de qualidade tratam dados suspeitos e realimentam a operação.','Qualidade','flags e registros','Completude não é sinônimo de exatidão.','1.4.4'),
@@ -98,15 +98,15 @@ def run(root=ROOT,source_root=None):
     selected={'B12','B23','B29','B31','B32'}
     for code,item in portfolio['refs'].items():
         if code in selected:decision='prioritária; leitura localizada' if code!='B23' else 'complementar; leitura integral de 2 páginas'
-        elif code in {'B19','B20'}:decision='pendente; edição exata ausente'
-        elif code=='B24':decision='dados preparados conferidos; metadados DOI herdados'
+        elif code in {'B19','B20'}:decision='não selecionada como prova desta versão; edição exata ausente no recorte inspecionado'
+        elif code=='B24':decision='dados preparados conferidos; citação DOI confirmada em material DOE/NREL, p. 25'
         elif code=='B26':decision='contexto online conferido; fora da fundamentação principal'
-        elif code=='B27':decision='documentação catalogada; leitura pendente'
-        elif code=='B11':decision='complementar; foco em transposição da subseção 3.1; leitura pendente'
-        else:decision='PDF da 3ª edição disponível; leitura pendente; não confundir com A045/2024'
+        elif code=='B27':decision='README oficial conferido; proveniência e acesso; sem presumir leitura de todo o acervo'
+        elif code=='B11':decision='complementar selecionada; pp. 1 e 9–11 conferidas; limites da validação inversa'
+        else:decision='não selecionada como prova; PDF disponível com fontes e recursos gráficos danificados; 4ª edição lida separadamente'
         decisions.append({'codigo':code,'autor_ano':item['author_year'],'edicao':item['edition'],'selecao':decision,
           'integral_disponivel':item['access_status'],'paginas_verificadas':','.join(map(str,byid.get(code,{}).get('paginas_verificadas',[]))),
-          'papel':'fundamento de afirmações verificadas' if code in selected else 'complemento/contexto/pendência',
+          'papel':'fundamento de afirmações verificadas' if code in selected|{'B11'} else 'proveniência/contexto/decisão de exclusão',
           'limite':item.get('note',''),'fonte':item.get('source_url','')})
     decisions.append({'codigo':'A045','autor_ano':'Sengupta et al. (ed.), 2024','edicao':'4ª edição; NREL/TP-5D00-88300',
       'selecao':'prioritária complementar; leitura localizada','integral_disponivel':'PDF disponível e conferido localmente',
@@ -121,8 +121,10 @@ def run(root=ROOT,source_root=None):
       'PDFs_com_leitura_localizada_ou_integral':sum(bool(x['paginas_verificadas']) for x in inventory),
       'evidencias_bibliograficas_conferidas':len(rows),'referencias_complementares_adicionadas':['A045','A003'],
       'criterios':['pertinência à pergunta da subseção','conteúdo acessível para conferência','identidade e edição corretas','método e limites explícitos','fonte primária para algoritmo ou implementação'],
-      'pendencias':['B19 e B20: edições exatas ausentes','B11 e B36/2021: leitura ainda pendente','B27: documentação não lida','verificação do registro DOI B24 bloqueada pela recuperação web; dados preparados conferidos','protocolo de busca completo anterior e contagens de reconhecimento científico não reexecutados ou inferidos'],
-      'parecer':'Fundamentação localizada suficiente para a redação atual; não representa conclusão integral das etapas ProKnow-C.'}
+      'decisoes_de_exclusao':['B19 e B20: edições exatas ausentes no recorte; não utilizadas como prova','B36/2021: PDF conferido visualmente com defeitos; não utilizado como prova'],
+      'pendencias_do_metodo_amplo':['protocolo de busca completo anterior e contagens de reconhecimento científico não reexecutados ou inferidos'],
+      'confronto_cientifico':{'registros':39,'arquivo':'Confronto_Cientifico_39_Evidencias.json','assistido_por_IA':True,'revisao_por_pares':False},
+      'parecer':'39 afirmações confrontadas com páginas e limites documentados; redação ajustada. Não equivale ao ProKnow-C integral nem à leitura integral das obras.'}
     (out/'Status_Revisao.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
     return rows,decisions,summary
 if __name__=='__main__':

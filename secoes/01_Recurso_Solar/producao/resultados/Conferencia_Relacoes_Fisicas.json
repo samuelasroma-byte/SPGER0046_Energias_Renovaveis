@@ -1,0 +1,19 @@
+{
+  "verificacoes": [
+    "Conversão azimutal sul→norte e quatro direções cardeais",
+    "Relação esférica em equador, horizonte geométrico e passagem zenital",
+    "Spencer confrontado com expressão independente nos dias 1–366; denominador 365",
+    "Projeção extraterrestre: normal, 60° e recorte abaixo do horizonte",
+    "Integral discreta de médias de intervalo: Wh/m² ↔ J/m²",
+    "Subdeterminação do fechamento: dois pares DNI/DHI construídos com mesma GHI"
+  ],
+  "total": 6,
+  "falhas": 0,
+  "exemplos_construidos": "Integração e fechamento são testes didáticos, não medições nem reconstruções PVDAQ.",
+  "dominios": "Zenital geométrico; graus convertidos para radianos; massa de ar secante não testada no horizonte.",
+  "nao_demonstrado": [
+    "incerteza do sensor",
+    "validação observacional de componentes reconstruídas",
+    "condição de céu claro"
+  ]
+}

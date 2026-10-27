@@ -1,0 +1,18 @@
+{
+  "evidencias_analisadas": 39,
+  "por_classificacao": {
+    "DIRETA": 16,
+    "DIRETA_COM_RESTRICAO": 18,
+    "DIRETA_COM_DERIVACAO": 1,
+    "DIRETA_COM_INFERENCIA": 4
+  },
+  "sem_suporte_documental_detectado": 0,
+  "alteracoes": "Qualificações de domínio, origem de inferências, conversão azimutal e limite de validação da inversão.",
+  "metodo": "Leitura de páginas e confronto com afirmações, equações e hipóteses; integridade automatizada não substitui o julgamento registrado.",
+  "nao_implica": [
+    "leitura integral de todos os livros",
+    "revisão por pares",
+    "ProKnow-C integral",
+    "calibração do sensor PVDAQ"
+  ]
+}

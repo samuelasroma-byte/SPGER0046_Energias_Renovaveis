@@ -1,8 +1,12 @@
-# LOCALIZAÇÕES DAS ENTREGAS — SEÇÃO 1
+# Localizações da entrega corrigida
 
-Samuel Constantino Teixeira — 27/10/2026. Os arquivos existentes foram atualizados preservando os IDs. Novos produtos integrados foram salvos na pasta da Seção 1.
+27/10/2026 — Samuel Constantino Teixeira — somente Seção 1.
 
-| Entrega | Arquivo no Drive |
+Pasta de produção: https://drive.google.com/drive/folders/1K57-tHmLmrftMcUFEtipu_hrXoyy9XZm
+
+Word da 1.1: `1.1_Geometria_Solar_e_Irradiancia_Extraterrestre / 01_Manuscrito_DOCX`. Slides individuais: mesma subseção, `03_Slides`. Arquivos anteriores foram preservados em `Historico_Anterior_20261027`. O PPTX coletivo continua na pasta de apresentação preliminar do grupo.
+
+| Produto | Link preservado ou confirmado |
 |---|---|
 | PPTX coletivo — slides físicos 5–10 | [SPGER0046_Apresentacao_Grupo_29_10_2026_MODELO_COLABORATIVO_v2_CAPA_INSTITUCIONAL.pptx](https://docs.google.com/presentation/d/1U3Btzt1RiKhBIgUeus2DfkFz5d6Uf8rd/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) |
 | PDF/Beamer de seis quadros | [1_1_Slides_alto_contraste_20261026.pdf](https://drive.google.com/file/d/1MfCdlFsIRfGWkd6KHpxEZREQgTgD9T7V/view?usp=drivesdk) |
@@ -27,9 +31,15 @@ Samuel Constantino Teixeira — 27/10/2026. Os arquivos existentes foram atualiz
 | G01 — tema claro | [G01_recurso_geometria_normal.pdf](https://drive.google.com/file/d/1ybterY0wZPhia9Sfs5-ObeLjKf1QPZ6L/view?usp=drivesdk) |
 | Materiais da apresentação final — 12 quadros da Seção 1 | [Materiais_Apresentacao_Secao_01.pdf](https://drive.google.com/file/d/18BCeuuWWC2AiB0EU4_Bz9alQl01ccQHl/view?usp=drivesdk) |
 | Relatório de conferência | [Relatorio_Conferencia_Secao_01.md](https://drive.google.com/file/d/1cc_DgEnYFB8i_QIkcmhmCXQi15p4CSyz/view?usp=drivesdk) |
-| Pacote com fontes, vetores, dados, notebooks e manuscritos | [SPGER0046_Secao_01_Entrega_20261027.zip](https://drive.google.com/file/d/1xttpC4DbIVPmSj6mHmNR96o84bHLfxyR/view) |
+| Subsecao_1_1_Alto_Contraste.pptx | [1_1_Slides_alto_contraste_20261026.pptx](https://docs.google.com/presentation/d/17gsttYcEfs1-jMDsDrElrYEbACJdcX_n/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) |
+| D01_geometria.png | [esquema_geometria_escuro.png](https://drive.google.com/file/d/1WIFkxBQAQ_JEGPzfv-TgWpBJqNa5ox8z/view?usp=drivesdk) |
+| Conferencia_Cientifica_39_Evidencias.docx | [Conferencia_Cientifica_39_Evidencias.docx](https://docs.google.com/document/d/1IIP9WMZd17ZU4r5n41Zgt7xaXoZAGMRA/edit?usp=drivesdk&ouid=101890280904514634292&rtpof=true&sd=true) |
+| Conferencia_Cientifica_39_Evidencias.pdf | [Conferencia_Cientifica_39_Evidencias.pdf](https://drive.google.com/file/d/1TjyWDd9Ig8YTYi-UhKNlOTjv6S9XWFlM/view?usp=drivesdk) |
+| Confronto_Cientifico_39_Evidencias.csv | [Confronto_Cientifico_39_Evidencias.csv](https://drive.google.com/file/d/18ZWL9BUbGE8BFILd9uXCfaiCHIubMzdn/view?usp=drivesdk) |
+| Confronto_Cientifico_39_Evidencias.json | [Confronto_Cientifico_39_Evidencias.json](https://drive.google.com/file/d/1nL3YhQjnNQg0A9q6b7ta6_bMMXqHnzhf/view?usp=drivesdk) |
 
-Os fontes, figuras e matrizes também estão organizados em [produção da Seção 1 no GitHub](https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/tree/main/secoes/01_Recurso_Solar/producao). O recibo de publicação do pacote registra o commit efetivo.
+GitHub: https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/tree/main/secoes/01_Recurso_Solar/producao
 
-As 39 evidências conferidas, as 27 fichas associativas e as 12 obras B são unidades distintas. A revisão permanece inspirada no ProKnow-C, com leitura localizada e pendências explícitas; não constitui aplicação integral concluída do método.
+Pacote completo: https://drive.google.com/file/d/1xttpC4DbIVPmSj6mHmNR96o84bHLfxyR/view
 
+Histórico de slides: https://drive.google.com/drive/folders/1m17EpjoDmpFhoAEnxcBFUB7Bjy71efo6

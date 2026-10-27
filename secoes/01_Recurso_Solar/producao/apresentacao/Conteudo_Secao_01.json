@@ -15,7 +15,7 @@
       },
       {
         "kind": "text",
-        "text": "Zenital θz",
+        "text": "Ângulo zenital",
         "x": 800,
         "y": 220,
         "w": 410,
@@ -32,12 +32,12 @@
         "w": 410,
         "h": 80,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
         "kind": "text",
-        "text": "Elevação αs",
+        "text": "Elevação solar",
         "x": 800,
         "y": 365,
         "w": 410,
@@ -54,7 +54,7 @@
         "w": 410,
         "h": 80,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -78,7 +78,7 @@
       }
     ],
     "source": "Fontes: Duffie, Beckman e Blair (2020), p. 13; Sengupta et al. (2024), cap. 2, p. 8.",
-    "notes": "Definir a direção solar sem confundir direção com fluxo medido. O esquema é didático e não representa uma observação. θz é contado da vertical e αs da horizontal. A vista em planta define o azimute horário desde o norte. O livro Duffie usa outra origem azimutal; a convenção adotada aqui é a do SPA, também descrita no handbook. No zênite o azimute é indefinido. Fontes verificadas: B12 p. 13/PDF31; A045 cap. 2-8/PDF37."
+    "notes": "Definir a direção solar sem confundir direção com fluxo medido. O esquema é didático e não representa uma observação. θz é contado da vertical e αs da horizontal. A vista em planta define A_s, azimute horário desde o norte. No livro Duffie, γ_s parte do sul, negativo para leste e positivo para oeste: A_s=(γ_s+180°) mod 360°. No zênite o azimute é indefinido. Fontes verificadas: B12 p. 13/PDF31; A045 cap. 2-8/PDF37."
   },
   {
     "number": 2,
@@ -113,7 +113,7 @@
         "w": 335,
         "h": 85,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -135,7 +135,7 @@
         "w": 335,
         "h": 85,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -157,16 +157,16 @@
         "w": 360,
         "h": 85,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
         "kind": "asset",
         "name": "EQ_horario",
-        "x": 240.3721952594122,
-        "y": 525.0,
-        "w": 184.25560948117564,
-        "h": 60.0
+        "x": 221.80829288911826,
+        "y": 510.0,
+        "w": 276.3834142217635,
+        "h": 90.0
       },
       {
         "kind": "text",
@@ -176,7 +176,7 @@
         "w": 475,
         "h": 85,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -216,7 +216,7 @@
         "w": 390,
         "h": 85,
         "size": 28,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -294,7 +294,7 @@
         "w": 1140,
         "h": 36,
         "size": 28,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       }
     ],
@@ -334,7 +334,7 @@
         "w": 335,
         "h": 83,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -356,7 +356,7 @@
         "w": 335,
         "h": 83,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -367,7 +367,7 @@
         "w": 335,
         "h": 85,
         "size": 30,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       }
     ],
@@ -399,7 +399,7 @@
         "w": 1130,
         "h": 50,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -421,7 +421,7 @@
         "w": 1130,
         "h": 50,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -443,7 +443,7 @@
         "w": 1130,
         "h": 50,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -494,7 +494,7 @@
         "w": 510,
         "h": 100,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -516,7 +516,7 @@
         "w": 510,
         "h": 100,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -567,7 +567,7 @@
         "w": 850,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -589,7 +589,7 @@
         "w": 850,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -611,7 +611,7 @@
         "w": 850,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -633,7 +633,7 @@
         "w": 850,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       }
     ],
@@ -665,7 +665,7 @@
         "w": 340,
         "h": 210,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -687,7 +687,7 @@
         "w": 340,
         "h": 210,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -709,7 +709,7 @@
         "w": 350,
         "h": 210,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -752,7 +752,7 @@
         "w": 1120,
         "h": 65,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -774,7 +774,7 @@
         "w": 1120,
         "h": 65,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -796,7 +796,7 @@
         "w": 1120,
         "h": 65,
         "size": 31,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       }
     ],
@@ -828,7 +828,7 @@
         "w": 800,
         "h": 60,
         "size": 31,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -850,7 +850,7 @@
         "w": 800,
         "h": 60,
         "size": 31,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -872,7 +872,7 @@
         "w": 800,
         "h": 60,
         "size": 31,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -894,7 +894,7 @@
         "w": 800,
         "h": 60,
         "size": 31,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -937,7 +937,7 @@
         "w": 1120,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -959,7 +959,7 @@
         "w": 1120,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       },
       {
@@ -981,7 +981,7 @@
         "w": 1120,
         "h": 55,
         "size": 32,
-        "color": "EEF2F6",
+        "color": "FFFFFF",
         "bold": false
       }
     ],

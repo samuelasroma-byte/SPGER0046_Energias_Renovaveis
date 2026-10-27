@@ -16,7 +16,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A p. 9 vincula a variação orbital à irradiância normal. A equação 1.4.1b do exemplar imprime 0,00719; o código pvlib 0.16.1 imprime 0,000719. Há divergência documental real, conferida também na imagem da página.",
+    "consequencia_editorial": "Manter 0,000719 para reproduzir a implementação e registrar a divergência; não reproduzir o coeficiente do livro como se fosse o executado.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV002",
@@ -35,7 +39,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "As definições de zenital e elevação são explícitas na p. 13. A elevação complementa o zenital no mesmo referencial geométrico.",
+    "consequencia_editorial": "Identificar zenital geométrico no esquema; não confundir com o ângulo de incidência em superfície inclinada.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV003",
@@ -54,7 +62,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A equação 1.6.5, p. 15, resulta de inclinação zero e coincide com a relação apresentada. O SPA acrescenta correções astronômicas/topocêntricas.",
+    "consequencia_editorial": "Manter a equação esférica como fundamento; não apresentá-la como descrição integral do SPA.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV004",
@@ -73,7 +85,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "Duffie usa origem no sul. Reda/Andreas usa norte e sentido horário; as convenções não são intercambiáveis sem conversão.",
+    "consequencia_editorial": "Usar A_s para o azimute adotado e explicitar A_s=(gamma_s+180 graus) mod 360 graus; no zênite a projeção horizontal e o azimute são indefinidos.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV005",
@@ -81,10 +97,10 @@
     "fonte": "B12",
     "pagina_pdf": 27,
     "pagina_impressa": "9",
-    "afirmacao_parafraseada": "A aproximação secante da massa de ar é apresentada para zenitais até cerca de 70°.",
+    "afirmacao_parafraseada": "Ao nível do mar, a aproximação secante da massa de ar é apresentada para zenitais até cerca de 70°.",
     "equacao_figura_conceito": "Massa de ar",
     "unidades_convencoes": "adimensional",
-    "limites": "Não extrapolar ao horizonte.",
+    "limites": "Domínio de atmosfera plana; não extrapolar ao horizonte.",
     "destino": "1.1.4",
     "arquivo_sha256": "db6ac445398a88a7670cbee02db18c426732e8104ee56e4cfb81fa86be85f4da",
     "pagina_texto_sha256": "dd58eae18e88641d0cb36166491ac419dd4102d7b5423658288547689bba56b0",
@@ -92,7 +108,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 9 limita explicitamente a aproximação secante a 0–70 graus e ao nível do mar; a p. 10 discute a curvatura terrestre para zenitais maiores.",
+    "consequencia_editorial": "Acrescentar nível do mar ao domínio didático. Distinguir massa relativa e correção de pressão; não extrapolar a secante ao horizonte.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV006",
@@ -111,7 +131,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": true,
-    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "NOAA relaciona tempo solar verdadeiro, equação do tempo, longitude e fuso. É uma aproximação diferente do SPA e usa 366 no ano bissexto.",
+    "consequencia_editorial": "Usar NOAA apenas como explicação do tempo solar; manter o denominador 365 do Spencer executado e não fundir os dois procedimentos.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV007",
@@ -119,7 +143,7 @@
     "fonte": "B23",
     "pagina_pdf": 2,
     "pagina_impressa": "2",
-    "afirmacao_parafraseada": "A formulação de nascer e pôr do Sol acrescenta uma correção aproximada ao horizonte.",
+    "afirmacao_parafraseada": "O critério de nascer e pôr do Sol em 90,833° inclui aproximações de refração e tamanho angular do disco solar.",
     "equacao_figura_conceito": "Horizonte",
     "unidades_convencoes": "graus",
     "limites": "Critério de horizonte aparente difere do recorte geométrico de G0h.",
@@ -130,7 +154,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": true,
-    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "NOAA fixa 90,833 graus para nascer/pôr, combinando refração e tamanho do disco. Esse limiar não é o horizonte geométrico do centro solar.",
+    "consequencia_editorial": "Explicitar disco solar e refração; manter max(0,cos zenital) como convenção geométrica do cálculo extraterrestre.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV008",
@@ -149,7 +177,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1016/j.solener.2003.12.003"
+    "url": "https://doi.org/10.1016/j.solener.2003.12.003",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "O resumo do artigo informa a mudança de origem azimutal e longitude positiva para leste.",
+    "consequencia_editorial": "Conservar norte 0 graus e sentido horário em figuras, código, configurações e texto.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV009",
@@ -168,7 +200,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1016/j.solener.2003.12.003"
+    "url": "https://doi.org/10.1016/j.solener.2003.12.003",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 578 atribui incerteza angular ao SPA e explicita sensibilidade às escalas de tempo e DUT1. Não é uma avaliação do sensor PVDAQ.",
+    "consequencia_editorial": "Não transferir a incerteza publicada do algoritmo ao sensor, à irradiância nem ao caso com entradas padrão.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV010",
@@ -187,7 +223,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.2172/15003974"
+    "url": "https://doi.org/10.2172/15003974",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "As equações 41–44, pp. 10–11, separam elevação sem refração, correção dependente de pressão/temperatura e elevação corrigida.",
+    "consequencia_editorial": "Manter zenital geométrico na projeção extraterrestre e declarar zenital aparente no cálculo de incidência adotado no projeto.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV011",
@@ -206,7 +246,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.2172/15003974"
+    "url": "https://doi.org/10.2172/15003974",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "O exemplo A.5, p. A-15, fornece todos os parâmetros usados no teste, incluindo fuso fixo -7, pressão 820 mbar e deltaT 67 s.",
+    "consequencia_editorial": "Reproduzir o exemplo com 82000 Pa e o deslocamento UTC fixo publicado; não substituir pelo fuso civil atual de Denver.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV012",
@@ -225,7 +269,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.2172/15003974"
+    "url": "https://doi.org/10.2172/15003974",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A Tabela A5.1, p. A-16, imprime zenital 50,11162 e azimute 194,34024 graus. Os resultados calculados coincidem ao arredondar a cinco casas.",
+    "consequencia_editorial": "Usar tolerância de 0,000005 grau, correspondente a meia unidade da última casa impressa; isso verifica implementação e arredondamento, não calibração.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV013",
@@ -244,7 +292,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A equação 2-1 do handbook contém explicitamente o fator (r0/r)^2. O parâmetro solar do projeto é fixado para reprodutibilidade.",
+    "consequencia_editorial": "Manter Gsc=1366,1 W/m2 como parâmetro do software, sem denominá-lo uma determinação metrológica atual da constante solar.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV014",
@@ -263,7 +315,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A seção 2.4.1 confirma elevação e azimute topocêntricos e a convenção norte/leste. A indeterminação no zênite é consequência geométrica da projeção nula.",
+    "consequencia_editorial": "Distinguir definição documentada de consequência matemática; uniformizar A_s nas figuras.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV015",
@@ -282,7 +338,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://doi.org/10.1002/9781119540328"
+    "url": "https://doi.org/10.1002/9781119540328",
+    "classificacao_cientifica": "DIRETA_COM_DERIVACAO",
+    "parecer_analitico": "Duffie define a integral temporal. A soma de médias por duração é derivação matemática sob a hipótese de que o registro representa média do intervalo.",
+    "consequencia_editorial": "Identificar E1.04 como forma discreta derivada; somar apenas intervalos válidos e não apresentar energia parcial como energia de toda a janela.",
+    "confronto": "Duffie pp. 9–15, NOAA p. 1–2 e SPA pp. 10–11: comparar fórmulas, convenções e hipóteses; não são medições PVDAQ."
   },
   {
     "id": "EV016",
@@ -293,7 +353,7 @@
     "afirmacao_parafraseada": "DNI, DHI e GHI diferem pelo campo angular e pelo plano de recepção.",
     "equacao_figura_conceito": "Componentes",
     "unidades_convencoes": "W/m²",
-    "limites": "Grandezas do campo radiativo descendente.",
+    "limites": "Grandezas do campo solar descendente de ondas curtas.",
     "destino": "1.2.2",
     "arquivo_sha256": "cfe5e510b7a2a05a18e8660af346454a5e7c9a704b5b5a02533a67e04a2de26a",
     "pagina_texto_sha256": "ee304b8b71c286a4f57d4acd8cf30753583cf2ea8f1e337b31a65e52413457bc",
@@ -301,7 +361,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A seção 2.5 define DNI, DHI e GHI no espectro solar de onda curta e pelos respectivos campos angulares.",
+    "consequencia_editorial": "Acrescentar solar/onda curta quando o texto disser irradiância descendente total; distinguir a componente direta ideal da região angular do instrumento.",
+    "confronto": "Duffie p. 10; handbook cap. 2-9–2-11; Driesse et al. pp. 9–11 para o limite de validação da inversão."
   },
   {
     "id": "EV017",
@@ -320,7 +384,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A equação 2-2 contém a soma direta projetada mais difusa. A compatibilidade de banda, plano e suporte temporal é condição de aplicação às medidas.",
+    "consequencia_editorial": "Manter fechamento para o Sol acima do horizonte; um resíduo de medidas exige diagnóstico instrumental e temporal, sem atribuição automática.",
+    "confronto": "Duffie p. 10; handbook cap. 2-9–2-11; Driesse et al. pp. 9–11 para o limite de validação da inversão."
   },
   {
     "id": "EV018",
@@ -339,7 +407,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_INFERENCIA",
+    "parecer_analitico": "A p. 2-10 trata a separação de componentes como modelagem empírica. Driesse et al., pp. 9–11, distinguem o teste de inversão com GTI modelada do confronto com medidas.",
+    "consequencia_editorial": "Citar Driesse et al. no limite de identificação: reconvergência ao valor de entrada verifica consistência do procedimento, não valida componentes com observações independentes.",
+    "confronto": "Duffie p. 10; handbook cap. 2-9–2-11; Driesse et al. pp. 9–11 para o limite de validação da inversão."
   },
   {
     "id": "EV019",
@@ -358,7 +430,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A introdução do capítulo 2 inclui a contribuição refletida quando está no campo de visão do coletor; a seção 2.5.1 detalha a recepção no plano inclinado.",
+    "consequencia_editorial": "Conservar a decomposição conceitual da POA e reservar os modelos de transposição e albedo às seções responsáveis.",
+    "confronto": "Duffie p. 10; handbook cap. 2-9–2-11; Driesse et al. pp. 9–11 para o limite de validação da inversão."
   },
   {
     "id": "EV020",
@@ -377,7 +453,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A seção 2.4 relaciona percurso óptico e posição solar; a secante é uma aproximação para zenitais baixos.",
+    "consequencia_editorial": "Vincular ao domínio especificado em Duffie e separar caminho óptico, transmitância e irradiância.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV021",
@@ -396,7 +476,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A p. 2-7 distingue captura/absorção e redistribuição angular por espalhamento, inclusive retorno ao espaço.",
+    "consequencia_editorial": "Manter a distinção física; não interpretar espalhamento exclusivamente como energia perdida do sistema terrestre.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV022",
@@ -415,7 +499,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A seção 6.2.1 descreve rampas e intensificação local por geometria de nuvens, inclusive valores superiores à referência extraterrestre horizontal.",
+    "consequencia_editorial": "Não usar G0h como teto universal de observações de curta duração nem diagnosticar céu claro pela forma da G01.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV023",
@@ -434,7 +522,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_INFERENCIA",
+    "parecer_analitico": "A seção 5.6 define AOD espectral e água precipitável integrada na coluna. A não equivalência com umidade relativa superficial decorre de mensurandos e dimensões diferentes.",
+    "consequencia_editorial": "Marcar essa não equivalência como inferência física da definição; não alegar medição de AOD/PW no PVDAQ a partir de POA.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV024",
@@ -453,7 +545,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A introdução do capítulo 6 exige definir período e área antes de quantificar variabilidade.",
+    "consequencia_editorial": "Não generalizar o dia mostrado nem o trimestre para distribuição climatológica ou tendência de longo prazo.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV025",
@@ -472,7 +568,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 6-2 diferencia variabilidade entre componentes e descreve suavização espacial de rampas em áreas maiores.",
+    "consequencia_editorial": "Informar grandeza e escala; não transferir resultados de DNI instantânea a médias mensais de GHI.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV026",
@@ -491,7 +591,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_INFERENCIA",
+    "parecer_analitico": "A seção 6.3 documenta heterogeneidade por nuvens, relevo e propriedades atmosféricas. A ausência de garantia de exatidão por pixel menor é inferência sobre os fatores do modelo.",
+    "consequencia_editorial": "Separar resolução nominal de exatidão e exigir comparação local; não apresentar uma relação monotônica universal resolução/erro.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV027",
@@ -502,7 +606,7 @@
     "afirmacao_parafraseada": "A resolução temporal afeta a variabilidade que pode ser representada na série.",
     "equacao_figura_conceito": "Agregação temporal",
     "unidades_convencoes": "s; min; h",
-    "limites": "Interpolação não recupera variabilidade não observada.",
+    "limites": "Interpolação, por si só, não demonstra recuperação exata de oscilações desconhecidas sem hipóteses adicionais.",
     "destino": "1.3.2; 1.4.3",
     "arquivo_sha256": "cfe5e510b7a2a05a18e8660af346454a5e7c9a704b5b5a02533a67e04a2de26a",
     "pagina_texto_sha256": "0d1cfb9706e46e63228dd11bf1c499bdfac5aede4d1b72c290fe918ff6e6950b",
@@ -510,7 +614,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_INFERENCIA",
+    "parecer_analitico": "A seção 6.5 associa variabilidade representada à resolução. A interpolação simples não identifica, por si só, oscilações subintervalo desconhecidas.",
+    "consequencia_editorial": "Qualificar a frase sobre interpolação: ela não demonstra recuperação exata da variabilidade ausente sem hipóteses/informação adicionais.",
+    "confronto": "Comparação entre definições do cap. 2, propriedades do cap. 5 e escalas do cap. 6 do mesmo handbook; não contabilizar como estudos independentes."
   },
   {
     "id": "EV028",
@@ -529,7 +637,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A seção 3.1 apresenta as medições locais como referência para modelos e enumera instalação, operação e manutenção.",
+    "consequencia_editorial": "Manter o papel das observações, sem presumir que todo registro local esteja calibrado ou isento de erros.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV029",
@@ -540,7 +652,7 @@
     "afirmacao_parafraseada": "A montagem e o campo de visão distinguem medidas GHI, DHI, DNI e POA.",
     "equacao_figura_conceito": "Instrumentação",
     "unidades_convencoes": "W/m²; plano de montagem",
-    "limites": "Um sensor não mede todas as componentes simultaneamente.",
+    "limites": "Uma montagem fixa não fornece todos os canais independentes; sistemas de sombra rotativa alternam medições e calculam DNI.",
     "destino": "1.4.1",
     "arquivo_sha256": "cfe5e510b7a2a05a18e8660af346454a5e7c9a704b5b5a02533a67e04a2de26a",
     "pagina_texto_sha256": "ce435002a47688cded151f5f4fd3967faeaf60a0fe4bd7c713a1fb1e91ffdfde",
@@ -548,7 +660,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A Tabela 3-1 distingue GHI, DHI, DNI e POA por montagem e campo de visão. Sistemas com sombra rotativa alternam observações e calculam DNI; não são três canais simultâneos independentes.",
+    "consequencia_editorial": "Restringir a afirmação a um sensor em uma montagem fixa; não excluir a existência de sistemas de medição alternada.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV030",
@@ -567,7 +683,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A p. 3-6 contrasta termopilhas e sensores fotoelétricos em resposta temporal e espectral.",
+    "consequencia_editorial": "Distinguir tecnologia de sensor de exatidão de campo; não atribuir ao sensor PVDAQ uma tecnologia não conferida em metadados.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV031",
@@ -586,7 +706,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A seção 3.2.1.1 explicita rastreamento, colimação e contribuição circumsolar no campo de visão finito.",
+    "consequencia_editorial": "Não equiparar sem ressalva DNI instrumental a um feixe matemático de ângulo sólido nulo.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV032",
@@ -605,7 +729,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "O capítulo 4 distingue avaliação posterior dos dados e realimentação do controle operacional.",
+    "consequencia_editorial": "Registrar lacunas e flags; disponibilidade de uma média e completude das amostras são indicadores diferentes.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV033",
@@ -624,7 +752,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 4-15 relata dificuldades de QC de GTI/POA de campo, sobretudo com um radiômetro. É uma limitação, não impossibilidade de todo teste.",
+    "consequencia_editorial": "Escrever que a POA isolada restringe testes que exigem componentes independentes; preservar os controles de cadência e disponibilidade que continuam possíveis.",
+    "confronto": "Comparação entre definições radiométricas, Tabela 3-1, resposta do instrumento e limitações de QC do cap. 4; mesma coletânea."
   },
   {
     "id": "EV034",
@@ -643,7 +775,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "O capítulo 7 resume satélites e adaptação usando observações locais de curto prazo para ajustar séries longas.",
+    "consequencia_editorial": "Não pressupor que essa adaptação foi executada no estudo; descrevê-la como método disponível.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   },
   {
     "id": "EV035",
@@ -662,7 +798,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A p. 7-2 identifica ERA5/MERRA-2 como reanálises de modelos atmosféricos. A irradiância superficial é estimada, não uma estação em cada célula.",
+    "consequencia_editorial": "Manter distinção de origem; qualquer resolução ou desempenho numérico requer produto, versão e avaliação próprios.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   },
   {
     "id": "EV036",
@@ -681,7 +821,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA",
+    "parecer_analitico": "A p. 7-8 descreve duas etapas: propriedades de nuvens a partir de radiâncias e cálculo superficial por transferência radiativa.",
+    "consequencia_editorial": "Distinguir radiância orbital observada de irradiância superficial estimada.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   },
   {
     "id": "EV037",
@@ -700,7 +844,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 8-4 descreve concatenação de meses típicos e exclui o uso para um período histórico específico ou condições extremas de projeto.",
+    "consequencia_editorial": "Não chamar TMY de ano observado integral nem usá-lo para reconstituir abril–junho de 2024.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   },
   {
     "id": "EV038",
@@ -719,7 +867,11 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A seção 10.2 exige mensurando, unidade e incerteza, enumerando contribuições de instrumento, aquisição, ambiente e calibração.",
+    "consequencia_editorial": "Não usar completude, correlação ou uma métrica de erro como estimativa completa da incerteza; nenhuma incerteza do sensor foi calculada nesta seção.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   },
   {
     "id": "EV039",
@@ -738,6 +890,10 @@
     "natureza": "síntese bibliográfica",
     "revisao": "cotejo assistido por IA em 27/10/2026",
     "leitura_integral": false,
-    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+    "url": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "classificacao_cientifica": "DIRETA_COM_RESTRICAO",
+    "parecer_analitico": "A p. 10-6 enumera modelo, entradas, propagação, referência, variabilidade interanual e tendências. A quantificação depende de lugar e período.",
+    "consequencia_editorial": "Manter discussão conceitual e encaminhar a quantificação de desempenho à Seção 4, sem criar valores de incerteza não executados.",
+    "confronto": "Comparação entre métodos do cap. 7, representatividade/TMY do cap. 8 e fontes de incerteza do cap. 10; mesma coletânea."
   }
 ]

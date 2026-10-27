@@ -19,11 +19,15 @@ A localização geográfica e o instante de observação são fundamentais. Para
 
 Sejam $\phi$ a latitude geográfica \[graus\], $\delta$ a declinação solar \[graus\], $\omega$ o ângulo horário solar \[graus\] e $\theta_{z}$ o ângulo zenital geométrico, sem correção de refração atmosférica \[graus\]. A relação geométrica esférica elementar é (E1.01):
 
-$$\cos\theta_{z} = \sin\phi\sin\delta + \cos\phi\cos\delta\cos\omega.$$
+$$\cos\theta_{z} = \sin\phi\sin\delta + \cos\phi\cos\delta\cos\omega.\ \ \ (E1.01)$$
 
 O ângulo $\theta_{z}$ é medido entre a direção do Sol e a vertical local. A elevação solar $\alpha_{s}$ corresponde ao ângulo entre a direção solar e o plano horizontal, de modo que $\alpha_{s} = 90^{\circ} - \theta_{z}$. Nessa formulação, $\omega = 0^{\circ}$ no meio-dia solar e, na aproximação usual de tempo solar verdadeiro, sua taxa é aproximadamente $15^{\circ}$ por hora, com valores negativos antes e positivos após o meio-dia solar. A declinação solar varia sazonalmente em função da posição orbital da Terra e da obliquidade do eixo terrestre (DUFFIE; BECKMAN; BLAIR, 2020, p. 13--15).
 
 O **azimute solar** descreve a direção da projeção horizontal do vetor solar. Neste estudo, adota-se a convenção do norte geográfico como $0^{\circ}$, sentido horário: leste $90^{\circ}$, sul $180^{\circ}$ e oeste $270^{\circ}$, compatível com a configuração do caso PVDAQ e com Reda e Andreas (2004). Quando o Sol está exatamente no zênite, a direção azimutal é matematicamente indefinida, porque sua projeção horizontal se anula. Portanto, a condição $\theta_{z} = 0^{\circ}$ **não** implica azimute igual a zero.
+
+Denota-se por Aₛ o azimute adotado no capítulo. Duffie, Beckman e Blair (2020, p. 13) utilizam γₛ contado do sul, negativo a leste e positivo a oeste. A conversão para a convenção norte e sentido horário do SPA é:
+
+$$A_{s} = \left( \gamma_{s} + 180^{\circ} \right)\mspace{6mu} mod\mspace{6mu} 360^{\circ}.$$
 
 ![](../figuras/Manuscrito_1_1/rId21.png){width="5.511809930008749in" height="3.7952909011373577in"}
 
@@ -48,9 +52,11 @@ E_{0} = 1.000110 + 0.034221\cos B + 0.001280\sin B \\
 
 A projeção da irradiância normal sobre um plano horizontal produz a irradiância extraterrestre horizontal $G_{0h}$ \[W $m^{- 2}$\] (E1.02):
 
-$$G_{0h} = G_{0n}\max\left( 0,\cos\theta_{z} \right).$$
+$$G_{0h} = G_{0n}\max\left( 0,\cos\theta_{z} \right).\ \ \ (E1.02)$$
 
 O operador $\max$ explicita a ausência de contribuição solar direta quando o Sol está abaixo do horizonte geométrico. Durante o dia, a equação se reduz a $G_{0h} = G_{0n}\cos\theta_{z}$. A dependência em cosseno é puramente geométrica: para o mesmo fluxo normal extraterrestre, a projeção na horizontal diminui à medida que o ângulo zenital aumenta. Isso **não** significa que $G_{0h}$ seja a GHI observada, pois esta última sofre os efeitos de absorção, espalhamento, nuvens, aerossóis e das demais condições atmosféricas.
+
+A projeção extraterrestre usa o horizonte geométrico e é anulada quando o centro solar fica abaixo dele. O critério aproximado de 90,833° utilizado pela NOAA para nascer e pôr do Sol inclui refração atmosférica e tamanho angular do disco solar; responde a outra definição de evento e não deve ser aplicado como substituição automática desse recorte (NOAA GLOBAL MONITORING LABORATORY, \[s. d.\], p. 2).
 
 Uma consequência importante é a impossibilidade de inferir a irradiância real de superfície apenas com posição solar e uma irradiância extraterrestre calculada. A decomposição entre a contribuição direta projetada e a radiação difusa no plano horizontal exige grandezas e hipóteses adicionais que pertencem à subseção 1.2.
 
@@ -58,7 +64,7 @@ Uma consequência importante é a impossibilidade de inferir a irradiância real
 
 A massa de ar relativa ($AM$) é um indicador do caminho óptico atravessado pela radiação direta em relação a uma direção vertical de referência. Em atmosfera plana e para ângulos zenitais moderados, uma aproximação geométrica é $AM \approx 1/\cos\theta_{z}$. Sua interpretação física é útil: próximo ao horizonte, o trajeto atmosférico é, em geral, mais extenso, o que amplia as oportunidades de absorção e espalhamento. Entretanto, a aproximação secante perde validade para grandes ângulos zenitais. Para aplicações quantitativas, deve-se empregar uma parametrização de massa de ar apropriada, distinguindo a massa de ar relativa da absoluta e informando eventuais correções de pressão (DUFFIE; BECKMAN; BLAIR, 2020, p. 9--10; SENGUPTA et al., 2024, cap. 2, p. 6--8).
 
-A aproximação secante é utilizada como interpretação geométrica para zenitais moderados, aproximadamente até 70° no tratamento de Duffie, Beckman e Blair (2020, p. 9--10). Não deve ser extrapolada ao horizonte. A massa de ar relativa e sua correção de pressão para massa de ar absoluta precisam ser distinguidas em aplicações quantitativas.
+A aproximação secante é utilizada como interpretação geométrica de atmosfera plana ao nível do mar, para zenitais aproximadamente até 70°, no tratamento de Duffie, Beckman e Blair (2020, p. 9--10). Não deve ser extrapolada ao horizonte. A massa de ar relativa e sua correção de pressão para massa de ar absoluta precisam ser distinguidas em aplicações quantitativas.
 
 ### **1.1.5 ARTICULAÇÃO COM O CASO REAL PVDAQ 2107**
 
@@ -68,7 +74,7 @@ O estudo coletivo adota o sistema **Farm Solar Array --- PVDAQ 2107**, localizad
 
 Figura G01 --- POA observada e ângulos calculados no PVDAQ 2107, em 17/05/2024. POA: média de 15 minutos; posição solar no ponto médio. Fonte: dados preparados e configuração do projeto; cálculo de Samuel Constantino Teixeira, 2026. Zenital geométrico; incidência com zenital aparente, conforme a cadeia vigente.
 
-O gráfico reúne naturezas distintas de informação. A POA provém da medição local agregada, enquanto zenital e incidência são calculados. Para 17/05, há 96 posições temporais, 94 médias POA não ausentes e 68 intervalos com três amostras na agregação. A figura exibe 05 h a 21 h locais, sem interpolação. A proximidade temporal entre o máximo de POA e a maior altura solar não constitui validação independente do SPA, nem permite identificar isoladamente condições de nuvens, aerossóis ou vapor de água. Trata-se de um exemplo diário, e não de uma distribuição climatológica.
+O gráfico reúne naturezas distintas de informação. A POA provém da medição local agregada, enquanto zenital e incidência são calculados. Os dados integram o acervo PVDAQ (DELINE et al., 2021); o processamento e a seleção são documentados no projeto (TEIXEIRA et al., 2026). Para 17/05, há 96 posições temporais, 94 médias POA não ausentes e 68 intervalos com três amostras na agregação. A figura exibe 05 h a 21 h locais, sem interpolação. A proximidade temporal entre o máximo de POA e a maior altura solar não constitui validação independente do SPA, nem permite identificar isoladamente condições de nuvens, aerossóis ou vapor de água. Trata-se de um exemplo diário, e não de uma distribuição climatológica.
 
 O sistema PVDAQ disponibiliza irradiância POA, mas **não disponibiliza, neste conjunto selecionado, séries locais medidas e independentes de GHI, DNI e DHI**. Essas componentes não devem ser apresentadas como medições observadas; eventuais reconstruções por transposição inversa constituem análises exploratórias, discutidas separadamente. A orientação fixa do arranjo é de $25^{\circ}$ de inclinação e azimute $180^{\circ}$ (norte $0^{\circ}$, sentido horário), mas o detalhamento da montagem e a transposição para a POA pertencem às seções 2.4 e 3.1, respectivamente.
 
@@ -84,10 +90,10 @@ O caso PVDAQ 2107 utiliza 38,996306° N, 122,134111° O e altitude de 10 m na co
 
 A conferência bibliográfica foi localizada por páginas, com distinção entre obras catalogadas e evidências efetivamente verificadas. O livro de Duffie, Beckman e Blair (2020, p. 9) apresenta 0,00719 no termo em cos(2B) de sua equação 1.4.1b. O código conferido do pvlib 0.16.1 utiliza 0,000719. Para reproduzir os cálculos do projeto, adota-se este último coeficiente, mantendo registrada a divergência entre as fontes; a comparação não constitui uma investigação de erratas do editor.
 
-### **QUADRO DE CONCEITOS E CONVENÇÕES**
+## **QUADRO DE CONCEITOS E CONVENÇÕES**
 
   --------------------------------------------------------------------------------------------------
-  Símbolo                 Grandeza                                Unidade / convenção
+  **Símbolo**             **Grandeza**                            **Unidade / convenção**
   ----------------------- --------------------------------------- ----------------------------------
   $\phi$                  Latitude geográfica                     graus; norte positivo
 
@@ -106,7 +112,7 @@ A conferência bibliográfica foi localizada por páginas, com distinção entre
   POA                     Irradiância no plano dos módulos        W/m²; observada no PVDAQ
   --------------------------------------------------------------------------------------------------
 
-**Critérios de validade e transição para 1.2**
+## **CRITÉRIOS DE VALIDADE E TRANSIÇÃO PARA 1.2**
 
 A irradiância extraterrestre horizontal G₀h \[W m⁻²\] é calculada pela projeção da irradiância normal G₀n \[W m⁻²\] no plano horizontal, para o Sol acima do horizonte. GHI \[W m⁻²\] é outra grandeza: a irradiância global horizontal na superfície, modificada por absorção, espalhamento e nuvens. POA \[W m⁻²\] representa um plano inclinado e, no PVDAQ 2107, é a medição que alimenta a cadeia principal. Essas distinções fundamentam a subseção 1.2 e evitam substituir observações por cálculos.
 
@@ -126,11 +132,11 @@ Com $G$ em W/m² e o tempo em segundos, $H$ é obtida em J/m². Quando o tempo �
 
 $$H=\sum_{i\in\mathcal{V}}\overline{G}_i\,\Delta t_i,\tag{E1.04}$$
 
-em que $\overline{G}_i$ é a irradiância média do intervalo, $\Delta t_i$ é sua duração e $\mathcal{V}$ é o conjunto de intervalos válidos. Essa soma representa a energia dos intervalos efetivamente incluídos; não reconstitui a energia dos intervalos ausentes. Se o registro for uma amostra instantânea, a integração por soma ou por outra quadratura constitui uma aproximação adicional. Portanto, a resolução nominal de um arquivo não informa, por si só, se seus valores são instantâneos, médios ou acumulados. A interpretação deve ser obtida nos metadados de aquisição e processamento (DUFFIE; BECKMAN; BLAIR, 2020, p. 10; SENGUPTA et al., 2024, cap. 6, p. 24–25).
+em que $\overline{G}_i$ é a irradiância média do intervalo, $\Delta t_i$ é sua duração e $\mathcal{V}$ é o conjunto de intervalos válidos. A forma discreta é aqui derivada da definição integral sob a hipótese de médias de intervalo. Essa soma representa a energia dos intervalos efetivamente incluídos; não reconstitui a energia dos intervalos ausentes. Se o registro for uma amostra instantânea, a integração por soma ou por outra quadratura constitui uma aproximação adicional. Portanto, a resolução nominal de um arquivo não informa, por si só, se seus valores são instantâneos, médios ou acumulados. A interpretação deve ser obtida nos metadados de aquisição e processamento (DUFFIE; BECKMAN; BLAIR, 2020, p. 10; SENGUPTA et al., 2024, cap. 6, p. 24–25).
 
 ### 1.2.2 Componentes direta, difusa e global horizontal
 
-A interação da radiação solar com a atmosfera produz um campo radiativo com contribuições direcionais distintas. A irradiância direta normal, DNI, é referida a uma superfície perpendicular à direção solar e à radiação proveniente de uma pequena região angular centrada no Sol. A irradiância difusa horizontal, DHI, é a contribuição do céu recebida por uma superfície horizontal, excluída a região angular atribuída à componente direta. A irradiância global horizontal, GHI, representa a irradiância descendente total recebida no plano horizontal. As três grandezas são expressas em W/m²; suas diferenças decorrem da direção de recepção e do campo angular integrado, e não da unidade (SENGUPTA et al., 2024, cap. 2, p. 9–10).
+A interação da radiação solar com a atmosfera produz um campo radiativo com contribuições direcionais distintas. A irradiância direta normal, DNI, é referida a uma superfície perpendicular à direção solar e à radiação proveniente de uma pequena região angular centrada no Sol. A irradiância difusa horizontal, DHI, é a contribuição do céu recebida por uma superfície horizontal, excluída a região angular atribuída à componente direta. A irradiância global horizontal, GHI, representa a irradiância solar descendente total de ondas curtas recebida no plano horizontal. As três grandezas são expressas em W/m²; suas diferenças decorrem da direção de recepção e do campo angular integrado, e não da unidade (SENGUPTA et al., 2024, cap. 2, p. 9–10).
 
 Para o Sol acima do horizonte e para definições radiométricas compatíveis, o balanço geométrico ideal é
 
@@ -162,7 +168,7 @@ Fonte: elaboração de Samuel Constantino Teixeira a partir de Duffie, Beckman e
 
 No conjunto utilizado pelo capítulo, a POA observada constitui a entrada radiométrica local da cadeia principal. O arquivo preparado preserva o início de cada intervalo em UTC e um indicador da presença das três amostras previstas na agregação de 15 minutos. A posição solar é calculada no ponto médio, enquanto a POA conserva a natureza de média do intervalo. A Figura G01, discutida em 1.1, apresenta essas informações com suas diferentes origens explicitadas. Esse procedimento permite relacionar geometria e observação sem transformar o sensor POA em um sensor horizontal.
 
-As componentes GHI, DNI e DHI eventualmente reconstruídas a partir da POA permanecem estimativas dependentes de modelos e hipóteses. A reprodução da POA de entrada por uma transposição inversa seguida da transposição direta não constitui validação independente dessas componentes. Essa conclusão resulta da dependência entre entradas e saídas do procedimento, e não de uma comparação realizada com sensores locais adicionais. A verificação das componentes exigiria referências observacionais ou estimativas externas com incerteza e independência documentadas.
+As componentes GHI, DNI e DHI eventualmente reconstruídas a partir da POA permanecem estimativas dependentes de modelos e hipóteses. A reprodução da POA de entrada por uma transposição inversa seguida da transposição direta não constitui validação independente dessas componentes. Essa conclusão resulta da dependência entre entradas e saídas do procedimento, e não de uma comparação realizada com sensores locais adicionais. Driesse, Jensen e Perez (2024, p. 9–11) distinguem a avaliação do algoritmo inverso com alvos de irradiância inclinada modelados da avaliação com medições reais; também discutem soluções matemáticas múltiplas. A verificação das componentes do PVDAQ exigiria referências observacionais ou estimativas externas com incerteza e independência documentadas.
 
 A distinção entre potência radiativa, energia integrada e planos de recepção prepara a análise da modulação atmosférica em 1.3. Ela também define o requisito de comparabilidade para 1.4: duas séries somente podem ser confrontadas após compatibilizar a grandeza, o plano, o tempo de integração e o domínio de observação.
 
@@ -185,7 +191,7 @@ A resolução temporal condiciona a representação desses eventos. Uma média d
 
 Mesmo na ausência de nuvens, a atmosfera apresenta constituintes que absorvem e espalham radiação. A caracterização de aerossóis utiliza propriedades como profundidade óptica, albedo de espalhamento simples e distribuição angular do espalhamento. Essas propriedades dependem do comprimento de onda e não são substituídas por um único indicador visual de transparência do céu. A profundidade óptica de aerossóis, AOD, é uma entrada relevante para modelos de irradiância, especialmente para a componente direta normal sob céu sem nuvens (SENGUPTA et al., 2024, cap. 5, p. 10; cap. 6, p. 17).
 
-O vapor de água participa da absorção espectral e é frequentemente descrito pela quantidade integrada na coluna atmosférica, denominada água precipitável ou vapor de água integrado. Essa grandeza não equivale à umidade relativa medida próximo à superfície, pois se refere à distribuição vertical do vapor ao longo da coluna. Uma modelagem que adote informações climatológicas de aerossóis e água precipitável produz resultados condicionados a essas entradas, mesmo quando calcula a posição solar com elevada precisão (SENGUPTA et al., 2024, cap. 5, p. 10–11; cap. 7, p. 3).
+O vapor de água participa da absorção espectral e é frequentemente descrito pela quantidade integrada na coluna atmosférica, denominada água precipitável ou vapor de água integrado. Dessa definição infere-se que a grandeza não equivale à umidade relativa medida próximo à superfície, pois se refere à distribuição vertical do vapor ao longo da coluna. Uma modelagem que adote informações climatológicas de aerossóis e água precipitável produz resultados condicionados a essas entradas, mesmo quando calcula a posição solar com elevada precisão (SENGUPTA et al., 2024, cap. 5, p. 10–11; cap. 7, p. 3).
 
 Não se deve converter essa fundamentação geral em atribuição causal específica sem informações adicionais. Uma diferença entre POA observada e uma curva de referência pode envolver mudanças atmosféricas, efeitos do entorno, geometria de recepção ou limitações da instrumentação. Identificar o mecanismo dominante exige observações ou variáveis que permitam discriminar essas possibilidades. No recorte do capítulo, essa ressalva impede inferir uma carga de aerossóis, uma quantidade de vapor ou uma condição de nebulosidade exclusivamente a partir de uma curva POA.
 
@@ -193,7 +199,7 @@ Não se deve converter essa fundamentação geral em atribuição causal especí
 
 A variabilidade do recurso inclui a alternância diária imposta pela rotação terrestre, a sazonalidade associada à geometria orbital e mudanças meteorológicas em diversas escalas. A interpretação deve explicitar qual componente é analisada, em qual intervalo e em qual domínio espacial. A variabilidade de DNI em segundos não representa o mesmo objeto que a variabilidade de médias mensais de GHI. Além disso, a agregação de observações distribuídas espacialmente pode reduzir parte das flutuações rápidas que aparecem em um ponto individual (SENGUPTA et al., 2024, cap. 6, p. 1–2).
 
-Em escala espacial, nuvens, relevo e padrões locais de circulação podem produzir diferenças entre localidades próximas. Essas diferenças limitam a extrapolação de uma estação para o entorno e a interpretação pontual de produtos em grade. A representatividade depende do regime de variabilidade, da resolução dos dados e da aplicação. Uma grade mais detalhada pode representar melhor algumas heterogeneidades, mas a redução do tamanho do pixel não assegura, por si só, menor erro na estimativa radiativa (SENGUPTA et al., 2024, cap. 6, p. 17).
+Em escala espacial, nuvens, relevo e padrões locais de circulação podem produzir diferenças entre localidades próximas. Essas diferenças limitam a extrapolação de uma estação para o entorno e a interpretação pontual de produtos em grade. A representatividade depende do regime de variabilidade, da resolução dos dados e da aplicação. Dessa dependência infere-se que uma grade mais detalhada pode representar melhor algumas heterogeneidades, mas a redução do tamanho do pixel não assegura, por si só, menor erro na estimativa radiativa (SENGUPTA et al., 2024, cap. 6, p. 17).
 
 Uma campanha curta também não estabelece automaticamente a distribuição climatológica do recurso. O histórico observado precisa ser interpretado à luz da sazonalidade, da variabilidade interanual e da duração do registro. Dados sintetizados como ano meteorológico típico apresentam outra finalidade: representam condições estatísticas selecionadas de um histórico e não reconstituem o tempo efetivamente ocorrido em um trimestre particular. Confundir essas escalas compromete tanto a interpretação física quanto a comparação entre medições e estimativas (SENGUPTA et al., 2024, cap. 6, p. 24; cap. 8, p. 4).
 
@@ -208,7 +214,7 @@ Assim, o exemplo é empregado como evidência da distinção entre geometria cal
 
 ### 1.4.1 Medições radiométricas de superfície
 
-A caracterização do recurso solar combina observações de superfície e estimativas que ampliam a cobertura temporal ou espacial. A medição local fornece uma referência próxima às condições de operação do sistema, mas sua utilidade depende da grandeza medida, da instalação, da manutenção e da rastreabilidade da calibração. Um instrumento não representa indistintamente todas as componentes da radiação, e a existência de um arquivo numérico não substitui a avaliação de sua qualidade (SENGUPTA et al., 2024, cap. 3, p. 3–7; cap. 4, p. 1).
+A caracterização do recurso solar combina observações de superfície e estimativas que ampliam a cobertura temporal ou espacial. A medição local fornece uma referência próxima às condições de operação do sistema, mas sua utilidade depende da grandeza medida, da instalação, da manutenção e da rastreabilidade da calibração. Um sensor em uma montagem fixa não fornece indistintamente todas as componentes como canais independentes. Há sistemas de sombra rotativa que alternam a observação global e difusa e calculam a componente direta normal; essa alternância não constitui três medições simultâneas independentes. A existência de um arquivo numérico também não substitui a avaliação de sua qualidade (SENGUPTA et al., 2024, cap. 3, p. 3–7; cap. 4, p. 1).
 
 Piranômetros instalados horizontalmente são empregados na medição de GHI; com o bloqueio adequado da contribuição direta, permitem medir DHI. Pireliômetros acompanham a direção solar e medem DNI em um campo de visão restrito. Sensores posicionados no plano dos módulos medem a irradiância correspondente à orientação dessa superfície. Portanto, o plano de montagem é parte da definição do mensurando, e não um detalhe dispensável dos metadados (SENGUPTA et al., 2024, cap. 3, p. 5–7).
 
@@ -226,7 +232,7 @@ Atlas solarimétricos sintetizam a distribuição espacial de indicadores do rec
 
 A resolução espacial informa o suporte ou detalhamento nominal do produto, enquanto a resolução temporal descreve sua frequência ou agregação. Representatividade é a capacidade de esses dados descreverem o domínio e o fenômeno de interesse. Uma estação caracteriza a recepção radiativa no local e no plano de seu sensor; um produto em grade representa uma estimativa associada a uma área e a um procedimento espacial. Os dois suportes podem responder de modo diferente a heterogeneidades de nebulosidade e relevo, mesmo com carimbos temporais coincidentes (SENGUPTA et al., 2024, cap. 6, p. 17).
 
-No tempo, coincidência de rótulos não assegura equivalência de integração. Um valor instantâneo às 12 h, uma média entre 12 h e 12 h 15 min e uma energia acumulada desde o início da hora representam objetos diferentes. Antes do confronto, é necessário verificar o fuso, a posição do rótulo no intervalo, a duração da integração e o tratamento do horário de verão. A harmonização deve preservar a energia quando converte entre irradiância média e irradiação. Aumentar artificialmente a frequência de uma série por interpolação não recupera as flutuações que não foram observadas (DUFFIE; BECKMAN; BLAIR, 2020, p. 10–11; SENGUPTA et al., 2024, cap. 6, p. 24–25).
+No tempo, coincidência de rótulos não assegura equivalência de integração. Um valor instantâneo às 12 h, uma média entre 12 h e 12 h 15 min e uma energia acumulada desde o início da hora representam objetos diferentes. Antes do confronto, é necessário verificar o fuso, a posição do rótulo no intervalo, a duração da integração e o tratamento do horário de verão. A harmonização deve preservar a energia quando converte entre irradiância média e irradiação. Por si só, aumentar a frequência por interpolação não demonstra recuperação exata de oscilações subintervalo desconhecidas sem informação ou hipóteses adicionais. Essa ressalva é uma inferência metodológica da diferença entre observação e reconstrução (DUFFIE; BECKMAN; BLAIR, 2020, p. 10–11; SENGUPTA et al., 2024, cap. 6, p. 24–25).
 
 ### 1.4.4 Qualidade, completude e incerteza
 
@@ -247,6 +253,10 @@ Não foram disponibilizadas, na seleção utilizada pelo capítulo, medições l
 
 # Referências
 
+DELINE, Chris; PERRY, Kirsten; DECEGLIE, Michael; MULLER, Matthew; SEKULIC, William; JORDAN, Dirk. **Photovoltaic Data Acquisition (PVDAQ) Public Datasets**. United States, 21 dez. 2021. Conjunto de dados. DOI: https://doi.org/10.25984/1846021.
+
+DRIESSE, Anton; JENSEN, Adam R.; PEREZ, Richard. A continuous form of the Perez diffuse sky model for forward and reverse transposition. **Solar Energy**, v. 267, art. 112093, 2024. DOI: https://doi.org/10.1016/j.solener.2023.112093.
+
 DUFFIE, John A.; BECKMAN, William A.; BLAIR, Nathan. **Solar engineering of thermal processes, photovoltaics and wind**. 5. ed. Hoboken: Wiley, 2020. ISBN 9781119540311. DOI: https://doi.org/10.1002/9781119540328.
 
 NOAA GLOBAL MONITORING LABORATORY. **General solar position calculations**. [S. l.]: NOAA, [s. d.]. 2 p. Disponível em: https://gml.noaa.gov/grad/solcalc/solareqns.PDF. Acesso em: 27 out. 2026.
@@ -257,6 +267,6 @@ REDA, Ibrahim; ANDREAS, Afshin. Solar position algorithm for solar radiation app
 
 REDA, Ibrahim; ANDREAS, Afshin. **Solar position algorithm for solar radiation applications**. Revised January 2008. Golden: National Renewable Energy Laboratory, 2008. Relatório NREL/TP-560-34302. DOI: https://doi.org/10.2172/15003974.
 
-SENGUPTA, Manajit et al. (ed.). **Best practices handbook for the collection and use of solar resource data for solar energy applications**. 4. ed. Golden: National Renewable Energy Laboratory, 2024. Relatório NREL/TP-5D00-88300. Disponível em: https://docs.nrel.gov/docs/fy24osti/88300.pdf. Acesso em: 27 out. 2026.
+SENGUPTA, Manajit et al. (ed.). **Best practices handbook for the collection and use of solar resource data for solar energy applications**. 4. ed. Golden: National Renewable Energy Laboratory, 2024. Relatório NREL/TP-5D00-88300. DOI: https://doi.org/10.2172/2448063. Disponível em: https://docs.nrel.gov/docs/fy24osti/88300.pdf. Acesso em: 27 out. 2026.
 
 TEIXEIRA, Samuel Constantino et al. **SPGER0046 Energias Renováveis: configuração e dados preparados do estudo PVDAQ 2107**. 2026. Repositório de trabalho. Dados utilizados: abril a junho de 2024. Disponível em: https://github.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis. Acesso em: 27 out. 2026.

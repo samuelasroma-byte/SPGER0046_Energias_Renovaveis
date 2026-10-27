@@ -37,7 +37,7 @@
   "G0n_Wm2_day": 1334.255291556098,
   "reference_SPA_apparent_zenith_deg": 50.11162202403697,
   "reference_SPA_azimuth_deg": 194.34024051024002,
-  "reference_tolerance_deg": 5e-05,
+  "reference_tolerance_deg": 5e-06,
   "reference_source": "Reda & Andreas 2008, Table A5.1, printed A-15–A-16 / PDF 37–38",
   "input_sha256": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
   "config_sha256": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a",

@@ -104,5 +104,37 @@
     "status_leitura": "não lida",
     "fonte": "ISBN/edição do arquivo disponível; não usada como evidência",
     "uso": "complementar não utilizado"
+  },
+  {
+    "codigo": "B11",
+    "arquivo": "B11_Driesse_Jensen_Perez_2024.pdf",
+    "sha256": "a8bde0af23f201355684e86c2bfb9bfe223ee73c8262303380f6e21b98f6f139",
+    "paginas_pdf": 12,
+    "paginas_verificadas": [
+      1,
+      9,
+      10,
+      11
+    ],
+    "leitura_integral": false,
+    "status_leitura": "localizada; metodologia e conclusões da inversão confrontadas",
+    "fonte": "https://doi.org/10.1016/j.solener.2023.112093",
+    "uso": "limites da validação de inversão"
+  },
+  {
+    "codigo": "B36",
+    "arquivo": "B36_Sengupta_2021_3ed.pdf",
+    "sha256": "bb81a3f1b57939fb25d33d13d24318e5b07f7007a4ea711a1f67c41c9a3b4a34",
+    "paginas_pdf": 331,
+    "paginas_verificadas": [
+      26,
+      28,
+      29,
+      55
+    ],
+    "leitura_integral": false,
+    "status_leitura": "inspeção visual e textual; arquivo com defeitos; excluído como prova",
+    "fonte": "https://elib.dlr.de/143117/",
+    "uso": "não utilizado como fundamento direto"
   }
 ]

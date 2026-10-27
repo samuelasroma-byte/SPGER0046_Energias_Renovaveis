@@ -29,7 +29,8 @@ def merge(base,authored,output,report):
     def cp(old):
         if old in copied:return copied[old]
         if old.startswith('ppt/slides/slide') and old.endswith('.xml'):return old
-        new=posixpath.join(posixpath.dirname(old),'s01_'+posixpath.basename(old));copied[old]=new
+        new=posixpath.join(posixpath.dirname(old),'s01r2_'+posixpath.basename(old));copied[old]=new
+        assert new not in data,'Colisão de parte existente: '+new
         data[new]=a.read(old);addtype(old,new)
         rp=relpath(old)
         if rp in a.namelist():
@@ -55,7 +56,8 @@ def merge(base,authored,output,report):
         if lst is None:
             lst=E.Element('{'+P+'}notesMasterIdLst');pos=1 if pres.find('{'+P+'}sldMasterIdLst') is not None else 0;pres.insert(pos,lst)
         for j,m in enumerate(masters):
-            rid='rIdSecao01Notes'+str(j)
+            rid='rIdSecao01ConfrontoNotes'+str(j)
+            assert not any(e.get('Id')==rid for e in rels)
             e=E.SubElement(rels,'{'+R+'}Relationship',Id=rid,Type=DR+'/notesMaster',Target=posixpath.relpath(m,'ppt'))
             n=E.SubElement(lst,'{'+P+'}notesMasterId');n.set('{'+DR+'}id',rid)
         data['ppt/presentation.xml']=dump(pres);data['ppt/_rels/presentation.xml.rels']=dump(rels)

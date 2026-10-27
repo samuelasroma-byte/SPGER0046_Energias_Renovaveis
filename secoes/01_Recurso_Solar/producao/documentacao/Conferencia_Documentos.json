@@ -1,45 +1,51 @@
 [
   {
     "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
-    "sha256_docx": "8de66dd814822f540bb0b6d5e428a28c970f55ef8a82e0ddd594055d37164d44",
+    "sha256_docx": "e7a96171563651a0fa631ff865c910b7b3fd6824120a4998423a0f312c89d961",
     "paginas": 9,
-    "render_identico_ao_ja_inspecionado": true,
+    "render_identico_ao_ja_inspecionado": false,
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/Secao_01_Integrada.docx",
-    "sha256_docx": "1b1e7a5049f2d7234a685ff90bc6652c4e29393267006a53f9b603ca8320b915",
+    "sha256_docx": "324e8b380ebbffbec7562226b704f46c3a06a8050f54f1de5dc85627996a72c5",
     "paginas": 21,
-    "render_identico_ao_ja_inspecionado": true,
+    "render_identico_ao_ja_inspecionado": false,
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
-    "sha256_docx": "5033628583dc3556f44aed7e55373373c0e2e27b5f33781a8a30d3fb9b18e8f9",
+    "sha256_docx": "413f9614fc7ecefd75575a34757fd63a062f0861c458072771ed6ba76a21ab44",
     "paginas": 5,
     "render_identico_ao_ja_inspecionado": false,
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
-    "sha256_docx": "2fc4ab2197b89168b780ff76ea54e0fb5e4c42edc7c91ba3e908192448e5ce90",
+    "sha256_docx": "4176a332cd9f341c3340a5066c95f3bfd50bd421bbf643008c4cfba19d295164",
     "paginas": 5,
     "render_identico_ao_ja_inspecionado": true,
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
-    "sha256_docx": "8819c496fa86ea3f3ad777c38e2a0300ee80ad04cbc8fc2104645058b0e57ead",
+    "sha256_docx": "3fb4721036e8773c271585de79b20a3c33518b7c36bdd8c9d413de267ff75462",
     "paginas": 5,
     "render_identico_ao_ja_inspecionado": true,
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "apresentacao/Roteiro_Oral_6_Slides.docx",
-    "sha256_docx": "d47e549db3e42fdd00c1ee4b1511bde2a76224661cad41085a42aba35ccb4af7",
-    "paginas": 4,
+    "sha256_docx": "a565607373054f672db07eb64a78ec76ed53d457a7d282fe3548b419f909d914",
+    "paginas": 5,
     "render_identico_ao_ja_inspecionado": true,
-    "glifos_substitutos_detectados": false,
-    "ajuste_final": "Retirada a referência B24 não conferida das notas do estudo de caso."
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "documentacao/Conferencia_Cientifica_39_Evidencias.docx",
+    "sha256_docx": "1aa0b84075016421bf91da643cd34644564d55ece8919b5556fd614df2f5a62e",
+    "paginas": 3,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false
   }
 ]

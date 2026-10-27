@@ -6,21 +6,21 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT=Path(__file__).resolve().parents[1]
 A=ROOT/'apresentacao';F=ROOT/'figuras'
-BG='0B1015';FG='EEF2F6';Y='FFD45C';C='70DCF5'
+BG='000000';FG='FFFFFF';Y='FFD45C';C='70DCF5'
 
 def latex_asset(stem,body,preamble=''):
     tex=r'''\documentclass[border=3pt]{standalone}
 \usepackage{amsmath,amssymb,xcolor,fontspec,tikz}
 \usetikzlibrary{arrows.meta,angles,quotes,positioning}
 \setmainfont{NimbusRoman-Regular.otf}[Path=/usr/share/fonts/opentype/urw-base35/,BoldFont=NimbusRoman-Bold.otf,ItalicFont=NimbusRoman-Italic.otf,BoldItalicFont=NimbusRoman-BoldItalic.otf]
-\definecolor{fg}{HTML}{EEF2F6}\definecolor{bg}{HTML}{0B1015}
+\definecolor{fg}{HTML}{FFFFFF}\definecolor{bg}{HTML}{000000}
 \definecolor{yel}{HTML}{FFD45C}\definecolor{cya}{HTML}{70DCF5}
-'''+preamble+'\n\\begin{document}\n\\color{fg}\n'+body+'\n\\end{document}\n'
+'''+preamble+'\n\\begin{document}\n\\pagecolor{bg}\\color{fg}\n'+body+'\n\\end{document}\n'
     (F/(stem+'.tex')).write_text(tex)
     p=subprocess.run(['xelatex','-interaction=nonstopmode','-halt-on-error','-output-directory',str(F),str(F/(stem+'.tex'))],capture_output=True,text=True)
     if p.returncode:raise RuntimeError(p.stdout[-2300:])
     subprocess.run(['pdftocairo','-svg',str(F/(stem+'.pdf')),str(F/(stem+'.svg'))],check=True,capture_output=True)
-    subprocess.run(['pdftocairo','-png','-singlefile','-transp','-r','240',str(F/(stem+'.pdf')),str(F/stem)],check=True,capture_output=True)
+    subprocess.run(['pdftocairo','-png','-singlefile','-r','300',str(F/(stem+'.pdf')),str(F/stem)],check=True,capture_output=True)
 
 def assets():
     F.mkdir(exist_ok=True)
@@ -38,7 +38,7 @@ def assets():
 \path[fill=bg](-.9,-1.35)rectangle(10.7,4.7);
 \node[fg,font=\bfseries\large] at (2,4.35){CORTE VERTICAL};
 \draw[fg,->,thick](-.45,0)--(4.4,0)node[below left]{horizontal};
-\draw[fg,->,thick](0,-.2)--(0,3.8)node[above right]{zênite};
+\draw[fg,->,thick](0,-.2)--(0,3.8)node[right]{zênite};
 \draw[yel,->,very thick](0,0)--(2.35,3.55)node[above right]{Sol};
 \draw[yel,thick](.8,0)arc[start angle=0,end angle=56.5,radius=.8];
 \node[yel] at (1.1,.43){$\alpha_s$};
@@ -52,7 +52,7 @@ def assets():
 \node[fg,below]at(0,-1.65){S};\node[fg,left]at(-1.8,0){O};
 \draw[yel,->,very thick](0,0)--(1.6,-.95);
 \draw[yel,->,thick](0,.95)arc[start angle=90,end angle=-30,radius=.95];
-\node[yel]at(1.25,.65){$\gamma_s$};
+\node[yel]at(1.25,.65){$A_s$};
 \end{scope}
 \node[fg] at (7.9,-1.0){azimute desde N, horário};
 \end{tikzpicture}'''
@@ -61,7 +61,7 @@ def assets():
  box/.style={draw=fg,thick,text=fg,align=center,minimum height=1.9cm,text width=3.35cm,inner sep=8pt}]
 \path[fill=bg](-.35,-1.45)rectangle(14.8,4.35);
 \node[box,minimum height=4.2cm] (in) at(1.8,1.35){\textcolor{yel}{\textbf{LOCAL E TEMPO}}\\[9pt]38,996306° N\\122,134111° O\\altitude: 10 m\\[6pt]data, hora e fuso};
-\node[box] (spa) at(7.1,2.65){\textcolor{yel}{\textbf{SPA}}\\[5pt]$\theta_z$, $\alpha_s$, $\gamma_s$};
+\node[box] (spa) at(7.1,2.65){\textcolor{yel}{\textbf{SPA}}\\[5pt]$\theta_z$, $\alpha_s$, $A_s$};
 \node[box] (sp) at(7.1,0){\textcolor{yel}{\textbf{SPENCER}}\\[5pt]$G_{0n}(n)$};
 \node[box,minimum height=2.7cm] (out) at(12.6,1.35){\textcolor{yel}{\textbf{PROJEÇÃO}}\\[9pt]$G_{0h}=$\\$G_{0n}\max(0,\cos\theta_z)$};
 \draw[cya,->,very thick](in.east)--++(.55,0)|-(spa.west);
@@ -82,18 +82,18 @@ def manifest():
         i=len(slides);slides.append(dict(number=i+4,physical=i+5,title=title,subtitle=subtitle,elements=els,source=source,notes=note))
     add('1.1 · GEOMETRIA SOLAR','A direção do Sol organiza a projeção do feixe direto.',[
       a('D01_geometria',55,215,710,365),
-      t('Zenital θz',800,220,410,45,33,Y,True),t('Da vertical até a direção do Sol.',800,265,410,80),
-      t('Elevação αs',800,365,410,45,33,Y,True),t('Da horizontal até a direção do Sol.',800,410,410,80),
+      t('Ângulo zenital',800,220,410,45,33,Y,True),t('Da vertical até a direção do Sol.',800,265,410,80),
+      t('Elevação solar',800,365,410,45,33,Y,True),t('Da horizontal até a direção do Sol.',800,410,410,80),
       a('EQ_elevacao',810,505,365,52),
       t('Norte 0° · Leste 90° · Sul 180° · Oeste 270°',65,595,1150,40,28,Y)
     ],'Fontes: Duffie, Beckman e Blair (2020), p. 13; Sengupta et al. (2024), cap. 2, p. 8.',
-    'Definir a direção solar sem confundir direção com fluxo medido. O esquema é didático e não representa uma observação. θz é contado da vertical e αs da horizontal. A vista em planta define o azimute horário desde o norte. O livro Duffie usa outra origem azimutal; a convenção adotada aqui é a do SPA, também descrita no handbook. No zênite o azimute é indefinido. Fontes verificadas: B12 p. 13/PDF31; A045 cap. 2-8/PDF37.')
+    'Definir a direção solar sem confundir direção com fluxo medido. O esquema é didático e não representa uma observação. θz é contado da vertical e αs da horizontal. A vista em planta define A_s, azimute horário desde o norte. No livro Duffie, γ_s parte do sul, negativo para leste e positivo para oeste: A_s=(γ_s+180°) mod 360°. No zênite o azimute é indefinido. Fontes verificadas: B12 p. 13/PDF31; A045 cap. 2-8/PDF37.')
     add('1.1 · RELAÇÃO DO ÂNGULO ZENITAL','Relação esférica para a direção solar geométrica.',[
       a('EQ_zenital',80,220,1120,80),
       t('φ — latitude',75,350,335,45,34,Y,True),t('Posição do observador;\nnorte positivo.',75,405,335,85),
       t('δ — declinação',460,350,335,45,34,Y,True),t('Posição solar em relação\nao equador celeste.',460,405,335,85),
       t('ω — ângulo horário',850,350,360,45,34,Y,True),t('Rotação em relação\nao meio-dia solar.',850,405,360,85),
-      a('EQ_horario',75,525,515,60),
+      a('EQ_horario',75,510,570,90),
       t('Manhã: ω < 0°\nTarde: ω > 0°',695,520,475,85,30),
       t('Ângulos em graus na exposição; conversão para radianos no código.',75,610,1130,35,26,Y)
     ],'Fontes: Duffie, Beckman e Blair (2020), p. 13–15; Reda e Andreas (2008), p. 10–11.',
@@ -147,7 +147,7 @@ def beamer(slides,stem='Subsecao_1_1_Beamer'):
 \setmainfont{NimbusRoman-Regular.otf}[Path=/usr/share/fonts/opentype/urw-base35/,BoldFont=NimbusRoman-Bold.otf,ItalicFont=NimbusRoman-Italic.otf,BoldItalicFont=NimbusRoman-BoldItalic.otf]
 \setsansfont{NimbusRoman-Regular.otf}[Path=/usr/share/fonts/opentype/urw-base35/,BoldFont=NimbusRoman-Bold.otf,ItalicFont=NimbusRoman-Italic.otf,BoldItalicFont=NimbusRoman-BoldItalic.otf]
 \setbeamertemplate{navigation symbols}{}
-\definecolor{bg}{HTML}{0B1015}\definecolor{ink}{HTML}{EEF2F6}\definecolor{yel}{HTML}{FFD45C}
+\definecolor{bg}{HTML}{000000}\definecolor{ink}{HTML}{FFFFFF}\definecolor{yel}{HTML}{FFD45C}
 \setbeamercolor{background canvas}{bg=bg}
 \setbeamercolor{normal text}{fg=ink,bg=bg}
 \setbeamersize{text margin left=0pt,text margin right=0pt}

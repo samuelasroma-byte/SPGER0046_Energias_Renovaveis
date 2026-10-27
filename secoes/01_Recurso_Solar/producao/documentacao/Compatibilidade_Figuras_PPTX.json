@@ -1,0 +1,92 @@
+[
+  {
+    "slide": 5,
+    "figura": "D01_geometria",
+    "fallback_px": [
+      1395,
+      740
+    ],
+    "png_bytes": 73002,
+    "svg_preservado": true
+  },
+  {
+    "slide": 5,
+    "figura": "EQ_elevacao",
+    "fallback_px": [
+      275,
+      62
+    ],
+    "png_bytes": 4112,
+    "svg_preservado": true
+  },
+  {
+    "slide": 6,
+    "figura": "EQ_zenital",
+    "fallback_px": [
+      688,
+      62
+    ],
+    "png_bytes": 8143,
+    "svg_preservado": true
+  },
+  {
+    "slide": 6,
+    "figura": "EQ_horario",
+    "fallback_px": [
+      383,
+      125
+    ],
+    "png_bytes": 7179,
+    "svg_preservado": true
+  },
+  {
+    "slide": 7,
+    "figura": "EQ_distancia",
+    "fallback_px": [
+      497,
+      110
+    ],
+    "png_bytes": 8907,
+    "svg_preservado": true
+  },
+  {
+    "slide": 7,
+    "figura": "EQ_spencer",
+    "fallback_px": [
+      901,
+      137
+    ],
+    "png_bytes": 25272,
+    "svg_preservado": true
+  },
+  {
+    "slide": 7,
+    "figura": "EQ_projecao",
+    "fallback_px": [
+      481,
+      67
+    ],
+    "png_bytes": 8435,
+    "svg_preservado": true
+  },
+  {
+    "slide": 8,
+    "figura": "D02_fluxo_geometria",
+    "fallback_px": [
+      1815,
+      710
+    ],
+    "png_bytes": 81475,
+    "svg_preservado": true
+  },
+  {
+    "slide": 9,
+    "figura": "G01_recurso_geometria_escuro",
+    "fallback_px": [
+      2520,
+      1410
+    ],
+    "png_bytes": 177860,
+    "svg_preservado": true
+  }
+]

@@ -22,7 +22,12 @@ def build():
       'bibliografia/Manifesto_Corpus_Secao_01.json','bibliografia/Protocolo_Analise_Sistemica.json',
       'bibliografia/Inventario_Fontes_Conferidas.json','bibliografia/Matriz_Evidencias.json',
       'bibliografia/Selecao_Critica.json','bibliografia/Status_Revisao.json','bibliografia/Protocolo_Bibliometrico_Herdado.json',
-      'bibliografia/Obras_Prioritarias_Herdadas.csv']
+      'bibliografia/Obras_Prioritarias_Herdadas.csv',
+      'src/confrontar_evidencias.py','src/finalizar_confronto.py','src/verificar_relacoes_fisicas.py','src/exportar_editorial.py',
+      'src/editar_manuscritos.py','src/preparar_slides.py','bibliografia/Confronto_Cientifico_39_Evidencias.json',
+      'bibliografia/Referencias_Verificadas.md','insumos/Base_Manuscrito_1_1.docx','apresentacao/Conteudo_6_Slides.json',
+      'documentacao/Conferencia_Cientifica_39_Evidencias.md',
+      'manuscritos/1_2_Grandezas_Radiometricas.md','manuscritos/1_3_Modulacao_Atmosferica.md','manuscritos/1_4_Medicao_e_Estimativa.md']
     hashes={p:sha(ROOT/p) for p in dependencies}
     c=[]
     c.append(md('# SPGER0046 — REVISÃO CIENTÍFICA ACESSÍVEL DA SEÇÃO 1\n\n**Samuel Constantino Teixeira — 1.1 a 1.4.** Continuidade do notebook v2 de 26/10/2026, consolidada em 27/10/2026. Reaproveita o portfólio, as sete lentes, a recuperação de passagens e a rastreabilidade. A bibliometria anterior não é repetida.\n\nAbra este arquivo dentro do pacote da Seção 1. Fora do pacote, a primeira célula recupera somente os arquivos públicos indispensáveis do repositório e confere seus hashes. PDFs de terceiros permanecem no acervo privado. As evidências já conferidas não são reclassificadas como nova leitura por uma reexecução.'))
@@ -32,6 +37,8 @@ import sys, json, hashlib, urllib.request, importlib.util, subprocess
 ROOTS = [Path.cwd(), Path.cwd().parent, Path.cwd()/"SPGER0046_Secao_01"]
 BASE = next((p for p in ROOTS if (p/"src/solar_secao01.py").is_file()), Path.cwd()/"SPGER0046_Secao_01")
 BASE.mkdir(parents=True, exist_ok=True)
+for folder in ["manuscritos","figuras","apresentacao","documentacao","resultados"]:
+    (BASE/folder).mkdir(exist_ok=True)
 URL = "https://raw.githubusercontent.com/samuelasroma-byte/SPGER0046_Energias_Renovaveis/main/secoes/01_Recurso_Solar/producao/"
 HASHES = '''+repr(hashes)+'''
 for rel, expected in HASHES.items():
@@ -42,7 +49,7 @@ for rel, expected in HASHES.items():
         assert hashlib.sha256(data).hexdigest()==expected, "Conteúdo remoto mudou: "+rel
         p.write_bytes(data)
     assert hashlib.sha256(p.read_bytes()).hexdigest()==expected, "Arquivo diferente do insumo conferido: "+rel
-for mod, package in [("numpy","numpy>=2,<3"),("pandas","pandas>=2.2,<3"),("matplotlib","matplotlib>=3.9,<4"),("pvlib","pvlib==0.16.1"),("fitz","PyMuPDF>=1.24,<2")]:
+for mod, package in [("numpy","numpy>=2,<3"),("pandas","pandas>=2.2,<3"),("matplotlib","matplotlib>=3.9,<4"),("pvlib","pvlib==0.16.1"),("fitz","PyMuPDF>=1.24,<2"),("docx","python-docx>=1.1,<2")]:
     if importlib.util.find_spec(mod) is None:
         subprocess.run([sys.executable,"-m","pip","install","--quiet",package],check=True)
 import pvlib
@@ -67,11 +74,18 @@ print("As contagens descrevem arquivos recuperados; não constituem uma nova bus
     c+=[md('## 3 — FONTES E ESTADOS DE LEITURA\n\nDisponibilidade, extração e leitura são estados diferentes. A lista registra arquivos e páginas conferidas. A reexecução valida a presença da matriz, mas não simula uma nova conferência intelectual.'),code('''inventario=json.loads((BASE/"bibliografia/Inventario_Fontes_Conferidas.json").read_text())
 for f in inventario:
     print(f["codigo"],"|",f["status_leitura"],"| páginas PDF:",f["paginas_verificadas"])
-assert sum(bool(f["paginas_verificadas"]) for f in inventario)==5
+assert sum(bool(f["paginas_verificadas"]) for f in inventario)==7
 assert next(f for f in inventario if f["codigo"]=="B23")["leitura_integral"] is True
 ''')]
-    c+=[md('## 4 — MATRIZ E SELEÇÃO CRÍTICA\n\nA rotina preserva 39 evidências bibliográficas localizadas, suas páginas e hashes. O campo “CONFERIDA_LOCALIZADA” não significa leitura integral de toda a obra. As decisões mantêm explícitas as edições ausentes e as fontes ainda não lidas.'),code('''from curadoria_secao01 import run as revisar_portfolio
-evidencias,selecao,status=revisar_portfolio(root=BASE)
+    c+=[md('## 4 — MATRIZ E SELEÇÃO CRÍTICA\n\nA rotina preserva 39 evidências bibliográficas localizadas, suas páginas e hashes. O campo “CONFERIDA_LOCALIZADA” não significa leitura integral de toda a obra. As decisões mantêm explícitas as edições ausentes e as fontes ainda não lidas.'),code('''from finalizar_confronto import run as revisar_portfolio
+evidencias,selecao,status,resumo_confronto=revisar_portfolio(root=BASE)
+from confrontar_evidencias import validar_registros
+print(validar_registros(root=BASE))
+print("Confronto registrado:",resumo_confronto["por_classificacao"])
+from verificar_relacoes_fisicas import run as verificar_fisica
+relacoes=verificar_fisica(root=BASE)
+assert relacoes["falhas"]==0
+print("Relações físicas verificadas:",relacoes["total"])
 assert len(evidencias)==39 and len(selecao)==14
 assert all(e["arquivo_sha256"] and e["pagina_texto_sha256"] and e["pagina_pdf"] for e in evidencias)
 print("Evidências por subseção:",dict(pd.Series([e["subsecao"] for e in evidencias]).value_counts().sort_index()))
@@ -117,7 +131,7 @@ def candidatas_locais(pasta,subsecao,limite=8):
 print("Recuperação opcional definida; nenhuma nova busca ou extração foi acionada.")
 ''')]
     c+=[md('## 8 — PAINEL ACESSÍVEL DE ESTUDO\n\nTexto grande, fundo escuro e navegação por subseção. O painel usa as evidências já conferidas; é uma forma de leitura da matriz e não uma etapa adicional de aprovação.'),code('''import html
-parts=["<!doctype html><html lang='pt-BR'><meta charset='utf-8'><title>Seção 1 — estudo</title><style>body{background:#0b1015;color:#eef2f6;font:26px 'Times New Roman',serif;max-width:1050px;margin:35px auto;padding:20px;line-height:1.5}h1,h2,a{color:#ffd45c}article{margin-bottom:35px}:focus{outline:4px solid #ffd45c}</style><h1>SEÇÃO 1 — EVIDÊNCIAS PARA ESTUDO</h1>"]
+parts=["<!doctype html><html lang='pt-BR'><meta charset='utf-8'><title>Seção 1 — estudo</title><style>body{background:#000000;color:#ffffff;font:26px 'Times New Roman',serif;max-width:1050px;margin:35px auto;padding:20px;line-height:1.5}h1,h2,a{color:#ffd45c}article{margin-bottom:35px}:focus{outline:4px solid #ffd45c}</style><h1>SEÇÃO 1 — EVIDÊNCIAS PARA ESTUDO</h1>"]
 parts.append("<nav>"+" · ".join("<a href='#s"+s+"'>"+s+"</a>" for s in ["1.1","1.2","1.3","1.4"])+"</nav>")
 for sec in ["1.1","1.2","1.3","1.4"]:
     parts.append("<h2 id='s"+sec+"'>SUBSEÇÃO "+sec+"</h2>")
@@ -135,6 +149,17 @@ final={"execucao":"concluída","evidencias_localizadas":len(evidencias),"busca_b
 (BASE/"resultados/Conferencia_Notebook.json").write_text(json.dumps(final,ensure_ascii=False,indent=2))
 print(json.dumps(final,ensure_ascii=False,indent=2))
 ''')]
+    c.insert(-2,md('## 9 — MANUSCRITOS EDITÁVEIS E PDF\n\nEsta célula gera os Word da 1.1 a 1.4, o integrado e o roteiro. A 1.1 preserva o manuscrito anterior. Pandoc produz equações nativas; LibreOffice exporta os PDFs de texto. Beamer/XeLaTeX compila os slides. Instale Pandoc, LibreOffice, XeLaTeX, Poppler e fontes URW antes de executar. Em Debian/Colab: `apt-get install pandoc libreoffice-writer texlive-xetex texlive-latex-extra fonts-urw-base35 poppler-utils`. A execução local não publica no Drive nem substitui o PPTX coletivo.'))
+    c.insert(-2,code('''from exportar_editorial import exportar
+editorial=exportar(root=BASE,gerar_pdf=True,gerar_beamer=True)
+for arquivo in editorial["docx"]:
+    assert (BASE/arquivo).is_file()
+    print("Word editável:",arquivo)
+print("Cadeia de exportação:",editorial["cadeia"])
+'''))
+    c[-2]=md('## 10 — CONFERÊNCIA DA EXECUÇÃO\n\nEsta execução reproduz cálculos, registros do confronto, figuras, Word e PDF. Reexecutar não constitui nova leitura intelectual nem aprovação científica. Após qualquer edição, confira visualmente os arquivos. PDF e PPTX não possuem sincronização bidirecional.')
+    final_source=''.join(c[-1]['source']).replace('"evidencias_localizadas":len(evidencias)', '"evidencias_confrontadas_registradas":len(evidencias),"verificacoes_fisicas":relacoes["total"],"DOCX_exportados":len(editorial["docx"]),"PDF_texto_exportados":len(editorial["pdf"])')
+    c[-1]=code(final_source)
     # As funções atuais substituem os geradores de esqueleto e a dupla extração; o histórico fica no Drive.
     source['cells']=c;source['metadata']['secao01_continuidade']={'data':'2026-10-27','origem_sha256':sha(WORK/'fontes/nb0.ipynb'),'preserva_portfolio':True,'slides_11':6,'bibliometria_reexecutada':False}
     source['metadata']['kernelspec']={'display_name':'Python 3','language':'python','name':'python3'}
@@ -143,18 +168,27 @@ print(json.dumps(final,ensure_ascii=False,indent=2))
     return out
 
 def execute(p):
-    nb=json.loads(Path(p).read_text());ns={'__name__':'__main__'};i=0;errors=[]
-    current=Path.cwd();os.chdir(ROOT)
+    import nbformat
+    from IPython.core.interactiveshell import InteractiveShell
+    from IPython.utils.capture import capture_output
+    nb=nbformat.read(p,as_version=4)
+    shell=InteractiveShell.instance();current=Path.cwd();os.chdir(ROOT);count=0
     try:
-        for cell in nb['cells']:
-            if cell['cell_type']!='code':continue
-            i+=1;buf=io.StringIO();cell['execution_count']=i
-            try:
-                with contextlib.redirect_stdout(buf),contextlib.redirect_stderr(buf):exec(compile(''.join(cell['source']),f'cell_{i}','exec'),ns)
-                cell['outputs']=[{'output_type':'stream','name':'stdout','text':buf.getvalue().splitlines(True)}]
-            except Exception as e:
-                errors.append(type(e).__name__+': '+str(e));cell['outputs']=[{'output_type':'error','ename':type(e).__name__,'evalue':str(e),'traceback':traceback.format_exc().splitlines()}];raise
-    finally:
-        os.chdir(current);Path(p).write_text(json.dumps(nb,ensure_ascii=False,indent=1))
-    print(json.dumps({'celulas_codigo_executadas':i,'erros':errors,'notebook':str(p)},ensure_ascii=False))
+        for cell in nb.cells:
+            if cell.cell_type!='code':continue
+            count+=1;cell.execution_count=count
+            with capture_output() as captured:result=shell.run_cell(cell.source,store_history=True)
+            cell.outputs=[]
+            if captured.stdout:cell.outputs.append(nbformat.v4.new_output('stream',name='stdout',text=captured.stdout))
+            if captured.stderr:cell.outputs.append(nbformat.v4.new_output('stream',name='stderr',text=captured.stderr))
+            for output in captured.outputs:cell.outputs.append(nbformat.v4.new_output('display_data',data=output.data,metadata=output.metadata))
+            error=result.error_before_exec or result.error_in_exec
+            if error:
+                cell.outputs.append(nbformat.v4.new_output('error',ename=type(error).__name__,evalue=str(error),traceback=[]));raise error
+        nb.metadata['secao01_continuidade']['executor']='IPython em processo local; mesmas células e saídas registradas; kernel externo indisponível neste ambiente'
+    finally:os.chdir(current);nbformat.write(nb,p)
+    nbformat.validate(nb)
+    cells=[c for c in nb.cells if c.cell_type=='code'];errors=[o for c in cells for o in c.outputs if o.output_type=='error']
+    assert all(c.execution_count is not None for c in cells) and not errors
+    print(json.dumps({'executor':'IPython local, sem sockets','celulas_codigo_executadas':len(cells),'erros':len(errors),'notebook':str(p)},ensure_ascii=False))
 if __name__=='__main__':execute(build())

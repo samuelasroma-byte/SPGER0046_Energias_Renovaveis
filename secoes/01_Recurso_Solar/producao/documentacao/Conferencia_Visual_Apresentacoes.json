@@ -1,0 +1,30 @@
+{
+  "coletivo_slides": 18,
+  "parte_individual_slides": 6,
+  "alterados": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "colegas_preservados_XML_e_pixels": [
+    1,
+    2,
+    3,
+    4,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "individual_identico_ao_trecho_coletivo": true,
+  "renderizadores": "LibreOffice com SVG e cópia forçada a PNG; conferência visual adicional",
+  "fallback_PNG_valido": true,
+  "sha256_pptx": "a0f302f51ca4894d4f7a551682f9c9e3fa51e6b640df28e8171f9c5dfd345815"
+}
