@@ -1,0 +1,81 @@
+{
+  "projeto": "SPGER0046",
+  "etapa": "protocolo_pre_curadoria",
+  "tipo": "revisao_estruturada_com_analise_sistemica_inspirada_no_ProKnow_C",
+  "nao_afirmar": "revisao_sistematica_completa",
+  "lentes": [
+    {
+      "id": "L01",
+      "nome": "Fundamentos e definições",
+      "pergunta": "As grandezas, conceitos e hipóteses são explicitamente definidos pelo autor?"
+    },
+    {
+      "id": "L02",
+      "nome": "Equações, símbolos e unidades",
+      "pergunta": "As equações são verificáveis e fisicamente/dimensionalmente coerentes, com convenções indicadas?"
+    },
+    {
+      "id": "L03",
+      "nome": "Métodos e proveniência",
+      "pergunta": "Que instrumentos, modelos, métodos ou fontes de dados sustentam a afirmação?"
+    },
+    {
+      "id": "L04",
+      "nome": "Confronto e convergências",
+      "pergunta": "O que está de acordo ou conflita entre diferentes autores, normas e gerações de modelos?"
+    },
+    {
+      "id": "L05",
+      "nome": "Limites e incerteza",
+      "pergunta": "Qual escala espacial/temporal, hipótese, domínio de validade e incerteza são explicitados?"
+    },
+    {
+      "id": "L06",
+      "nome": "Aplicação PVDAQ 2107",
+      "pergunta": "O resultado é aplicável a POA observada entre abril e junho de 2024 sem inventar GHI/DNI/DHI medidos?"
+    },
+    {
+      "id": "L07",
+      "nome": "Rastreabilidade e coerência editorial",
+      "pergunta": "Página digital/impressa, arquivo/edição e interpretação estão confirmados e cabem no escopo da subseção?"
+    }
+  ],
+  "registro_minimo": [
+    "codigo_B",
+    "id_subsecao",
+    "arquivo_sha256",
+    "pagina_pdf",
+    "pagina_impressa_se_disponivel",
+    "afirmacao_sintese",
+    "trecho_curto_verificado",
+    "limites",
+    "revisor",
+    "data_revisao",
+    "status"
+  ],
+  "regras": [
+    "Nenhuma sugestão automática corresponde a parecer aprovado.",
+    "Não substituir silenciosamente versões de livros.",
+    "Distinguir GHI DNI DHI e POA observada.",
+    "Separar original protegido de manuscrito público.",
+    "Reter fontes oficiais e registros da bibliometria, sem repetir busca."
+  ],
+  "perguntas_por_subsecao": {
+    "1.1": [
+      "Quais grandezas definem a geometria solar e qual convenção angular?",
+      "Como calcular irradiância extraterrestre e quais aproximações têm domínio limitado?"
+    ],
+    "1.2": [
+      "Como distinguir irradiância e irradiação e as componentes GHI DNI DHI?",
+      "Como interpretar POA medida sem fingir disponibilidade de componentes horizontais locais?"
+    ],
+    "1.3": [
+      "Como atmosfera e nuvens modulam o recurso solar?",
+      "Que variabilidade pode ser inferida de 91 dias sem fazer climatologia ou atribuição causal não identificada?"
+    ],
+    "1.4": [
+      "Quais sensores e metodologias quantificam o recurso e suas incertezas?",
+      "Como distinguir observações de satélites, reanálises e dados de superfície e auditar PVDAQ?"
+    ]
+  }
+}

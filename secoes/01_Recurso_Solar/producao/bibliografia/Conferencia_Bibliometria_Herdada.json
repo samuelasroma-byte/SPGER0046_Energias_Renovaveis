@@ -1,0 +1,36 @@
+{
+  "catalogo_recuperado": 829,
+  "associacoes_prioritarias_coletivas": 102,
+  "obras_prioritarias_distintas_coletivas": 39,
+  "associacoes_secao01": 23,
+  "obras_secao01": 12,
+  "protocolo": {
+    "version": "1.0.0",
+    "scope": "fundamentação teórica; sem busca de lacuna ou alegação de revisão sistemática",
+    "from_year": 1950,
+    "through_date": "2026-10-16",
+    "recent_from_year": 2021,
+    "openalex_per_query": 25,
+    "openalex_recent_per_query": 12,
+    "crossref_per_query": 20,
+    "institutional_per_query": 25,
+    "request_timeout_seconds": 25,
+    "maximum_attempts": 2,
+    "credentials": [
+      "OPENALEX_API_KEY",
+      "SCOPUS_API_KEY",
+      "WOS_API_KEY",
+      "IEEE_API_KEY"
+    ],
+    "model_notebook_drive_id": "1YzOxXV7bQofqQ6GI94nH1L1rO-HLX242",
+    "model_notebook_modified_time": "2026-09-12T04:01:14.298Z",
+    "ranking": "Relevância temática, obras de método, livros de base, citações separadas por base e complemento recente",
+    "interpretation": "Mais citados significa entre resultados recuperados e filtrados, na base e data indicadas; não ranking mundial exaustivo."
+  },
+  "busca_reexecutada": false,
+  "fontes_sha256": {
+    "protocolo.json": "c74381019bc03ff5a6586c7fb52de86ec281c6b3b1f503bb8cac8a2667764aaf",
+    "obras_prioritarias.csv": "0d9a98d327cc40d654afbc1e25b6158e77027c6c1ae92d65e4014b4f606c1249",
+    "catalogo_consolidado.csv": "08a21dfcce330fbcca6c98f8e440b3cafebe1e5cef9282c9b6c79b6caf312697"
+  }
+}

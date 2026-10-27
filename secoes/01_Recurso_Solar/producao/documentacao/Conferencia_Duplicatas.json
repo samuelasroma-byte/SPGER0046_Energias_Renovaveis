@@ -1,0 +1,55 @@
+{
+  "escopo": "12 referências B herdadas; seis PDFs locais inventariados; sem nova busca",
+  "associacoes": 23,
+  "obras_B_distintas": 12,
+  "repeticoes_entre_subsecoes": 11,
+  "associacoes_por_codigo": {
+    "B12": 4,
+    "B19": 4,
+    "B23": 1,
+    "B29": 1,
+    "B31": 1,
+    "B32": 1,
+    "B11": 1,
+    "B20": 1,
+    "B24": 3,
+    "B36": 3,
+    "B26": 2,
+    "B27": 1
+  },
+  "duplicatas_por_DOI_normalizado": [],
+  "candidatos_por_titulo_normalizado": [
+    [
+      "B31",
+      "B32"
+    ]
+  ],
+  "duplicatas_binarias_SHA256": [],
+  "decisoes": [
+    {
+      "codigos": [
+        "B31",
+        "B32"
+      ],
+      "acao": "manter distintos",
+      "motivo": "Artigo de 2004 e relatório revisado em 2008; mesmo título não implica mesma versão."
+    },
+    {
+      "codigos": [
+        "B19",
+        "A003"
+      ],
+      "acao": "manter distintos",
+      "motivo": "Obras/edições diferentes; A003 não substitui a edição B19 ausente."
+    },
+    {
+      "codigos": [
+        "B36",
+        "A045"
+      ],
+      "acao": "manter distintos",
+      "motivo": "Terceira edição de 2021 e quarta edição de 2024; leitura não transferível."
+    }
+  ],
+  "limites": "DOIs são metadados herdados, sem validar automaticamente conteúdo ou acesso. Repetições entre subseções são associações legítimas, não documentos adicionais."
+}

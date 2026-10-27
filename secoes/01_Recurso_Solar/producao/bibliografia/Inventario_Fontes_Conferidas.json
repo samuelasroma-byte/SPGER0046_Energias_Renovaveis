@@ -1,0 +1,108 @@
+[
+  {
+    "codigo": "B12",
+    "arquivo": "B12_A001_Duffie_Beckman_Blair_2020_5ed.pdf",
+    "sha256": "db6ac445398a88a7670cbee02db18c426732e8104ee56e4cfb81fa86be85f4da",
+    "paginas_pdf": 919,
+    "paginas_verificadas": [
+      27,
+      28,
+      31,
+      33
+    ],
+    "leitura_integral": false,
+    "status_leitura": "localizada",
+    "fonte": "https://doi.org/10.1002/9781119540328",
+    "uso": "evidência localizada"
+  },
+  {
+    "codigo": "B23",
+    "arquivo": "B23_A082_NOAA_Calculo_Posicao_Solar.pdf",
+    "sha256": "7fa1fdb5f6b5c05ab1ec3ffde92e6fb2d5df98bf1a87055075ae2c3c1240a627",
+    "paginas_pdf": 2,
+    "paginas_verificadas": [
+      1,
+      2
+    ],
+    "leitura_integral": true,
+    "status_leitura": "integral",
+    "fonte": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "uso": "evidência localizada"
+  },
+  {
+    "codigo": "B31",
+    "arquivo": "B31_Reda_Andreas_2004_SPA.pdf",
+    "sha256": "e1a6603e2a5fa169b77b7e4f9468323d73e67af7175e3e043d58b79b25087105",
+    "paginas_pdf": 13,
+    "paginas_verificadas": [
+      1,
+      2
+    ],
+    "leitura_integral": false,
+    "status_leitura": "localizada",
+    "fonte": "https://doi.org/10.1016/j.solener.2003.12.003",
+    "uso": "evidência localizada"
+  },
+  {
+    "codigo": "B32",
+    "arquivo": "SPA_Reda_Andreas_2008.pdf",
+    "sha256": "1b9e2b6131d89ebc17fe4c047e64a0168143c949bfe6fafe06d856d651555cc2",
+    "paginas_pdf": 40,
+    "paginas_verificadas": [
+      16,
+      37,
+      38
+    ],
+    "leitura_integral": false,
+    "status_leitura": "localizada",
+    "fonte": "https://doi.org/10.2172/15003974",
+    "uso": "evidência localizada"
+  },
+  {
+    "codigo": "A045",
+    "arquivo": "A045_Sengupta_2024_4ed_Apoio_A.pdf",
+    "sha256": "cfe5e510b7a2a05a18e8660af346454a5e7c9a704b5b5a02533a67e04a2de26a",
+    "paginas_pdf": 570,
+    "paginas_verificadas": [
+      30,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      58,
+      60,
+      61,
+      62,
+      161,
+      175,
+      202,
+      244,
+      245,
+      260,
+      267,
+      285,
+      286,
+      292,
+      325,
+      444,
+      445
+    ],
+    "leitura_integral": false,
+    "status_leitura": "localizada",
+    "fonte": "https://docs.nrel.gov/docs/fy24osti/88300.pdf",
+    "uso": "evidência localizada"
+  },
+  {
+    "codigo": "A003",
+    "arquivo": "A003_Jager_2014_Fundamentos_Solares_obra_distinta_B19.pdf",
+    "sha256": "43d68fc533c5a50ddb8423b2a6e8e6d501d57b9aaf365f5c725b964531bafc17",
+    "paginas_pdf": 420,
+    "paginas_verificadas": [],
+    "leitura_integral": false,
+    "status_leitura": "não lida",
+    "fonte": "ISBN/edição do arquivo disponível; não usada como evidência",
+    "uso": "complementar não utilizado"
+  }
+]

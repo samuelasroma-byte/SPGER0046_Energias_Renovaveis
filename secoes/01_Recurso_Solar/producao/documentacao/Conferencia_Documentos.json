@@ -1,0 +1,45 @@
+[
+  {
+    "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
+    "sha256_docx": "8de66dd814822f540bb0b6d5e428a28c970f55ef8a82e0ddd594055d37164d44",
+    "paginas": 9,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "manuscritos/Secao_01_Integrada.docx",
+    "sha256_docx": "1b1e7a5049f2d7234a685ff90bc6652c4e29393267006a53f9b603ca8320b915",
+    "paginas": 21,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "sha256_docx": "5033628583dc3556f44aed7e55373373c0e2e27b5f33781a8a30d3fb9b18e8f9",
+    "paginas": 5,
+    "render_identico_ao_ja_inspecionado": false,
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
+    "sha256_docx": "2fc4ab2197b89168b780ff76ea54e0fb5e4c42edc7c91ba3e908192448e5ce90",
+    "paginas": 5,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
+    "sha256_docx": "8819c496fa86ea3f3ad777c38e2a0300ee80ad04cbc8fc2104645058b0e57ead",
+    "paginas": 5,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false
+  },
+  {
+    "arquivo": "apresentacao/Roteiro_Oral_6_Slides.docx",
+    "sha256_docx": "d47e549db3e42fdd00c1ee4b1511bde2a76224661cad41085a42aba35ccb4af7",
+    "paginas": 4,
+    "render_identico_ao_ja_inspecionado": true,
+    "glifos_substitutos_detectados": false,
+    "ajuste_final": "Retirada a referência B24 não conferida das notas do estudo de caso."
+  }
+]

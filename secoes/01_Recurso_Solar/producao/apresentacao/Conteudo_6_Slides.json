@@ -1,0 +1,468 @@
+{
+  "width": 1279.967979,
+  "height": 720,
+  "slides": [
+    {
+      "number": 4,
+      "physical": 5,
+      "title": "1.1 · GEOMETRIA SOLAR",
+      "subtitle": "A direção do Sol organiza a projeção do feixe direto.",
+      "elements": [
+        {
+          "kind": "asset",
+          "name": "D01_geometria",
+          "x": 65.71083928584017,
+          "y": 215.0,
+          "w": 688.5783214283197,
+          "h": 365.0
+        },
+        {
+          "kind": "text",
+          "text": "Zenital θz",
+          "x": 800,
+          "y": 220,
+          "w": 410,
+          "h": 45,
+          "size": 33,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Da vertical até a direção do Sol.",
+          "x": 800,
+          "y": 265,
+          "w": 410,
+          "h": 80,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Elevação αs",
+          "x": 800,
+          "y": 365,
+          "w": 410,
+          "h": 45,
+          "size": 33,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Da horizontal até a direção do Sol.",
+          "x": 800,
+          "y": 410,
+          "w": 410,
+          "h": 80,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "asset",
+          "name": "EQ_elevacao",
+          "x": 876.9989927578628,
+          "y": 505.0,
+          "w": 231.0020144842744,
+          "h": 52.0
+        },
+        {
+          "kind": "text",
+          "text": "Norte 0° · Leste 90° · Sul 180° · Oeste 270°",
+          "x": 65,
+          "y": 595,
+          "w": 1150,
+          "h": 40,
+          "size": 28,
+          "color": "FFD45C",
+          "bold": false
+        }
+      ],
+      "source": "Fontes: Duffie, Beckman e Blair (2020), p. 13; Sengupta et al. (2024), cap. 2, p. 8.",
+      "notes": "Definir a direção solar sem confundir direção com fluxo medido. O esquema é didático e não representa uma observação. θz é contado da vertical e αs da horizontal. A vista em planta define o azimute horário desde o norte. O livro Duffie usa outra origem azimutal; a convenção adotada aqui é a do SPA, também descrita no handbook. No zênite o azimute é indefinido. Fontes verificadas: B12 p. 13/PDF31; A045 cap. 2-8/PDF37."
+    },
+    {
+      "number": 5,
+      "physical": 6,
+      "title": "1.1 · RELAÇÃO DO ÂNGULO ZENITAL",
+      "subtitle": "Relação esférica para a direção solar geométrica.",
+      "elements": [
+        {
+          "kind": "asset",
+          "name": "EQ_zenital",
+          "x": 194.84829633124127,
+          "y": 220.0,
+          "w": 890.3034073375175,
+          "h": 80.0
+        },
+        {
+          "kind": "text",
+          "text": "φ — latitude",
+          "x": 75,
+          "y": 350,
+          "w": 335,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Posição do observador;\nnorte positivo.",
+          "x": 75,
+          "y": 405,
+          "w": 335,
+          "h": 85,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "δ — declinação",
+          "x": 460,
+          "y": 350,
+          "w": 335,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Posição solar em relação\nao equador celeste.",
+          "x": 460,
+          "y": 405,
+          "w": 335,
+          "h": 85,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "ω — ângulo horário",
+          "x": 850,
+          "y": 350,
+          "w": 360,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Rotação em relação\nao meio-dia solar.",
+          "x": 850,
+          "y": 405,
+          "w": 360,
+          "h": 85,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "asset",
+          "name": "EQ_horario",
+          "x": 240.3721952594122,
+          "y": 525.0,
+          "w": 184.25560948117564,
+          "h": 60.0
+        },
+        {
+          "kind": "text",
+          "text": "Manhã: ω < 0°\nTarde: ω > 0°",
+          "x": 695,
+          "y": 520,
+          "w": 475,
+          "h": 85,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Ângulos em graus na exposição; conversão para radianos no código.",
+          "x": 75,
+          "y": 610,
+          "w": 1130,
+          "h": 35,
+          "size": 26,
+          "color": "FFD45C",
+          "bold": false
+        }
+      ],
+      "source": "Fontes: Duffie, Beckman e Blair (2020), p. 13–15; Reda e Andreas (2008), p. 10–11.",
+      "notes": "A equação relaciona latitude, declinação e ângulo horário e expressa a trigonometria esférica. ω=0 no meio-dia solar, que não coincide necessariamente com 12h civis. A notação t_sol está em horas de tempo solar verdadeiro; ω=15°(t_sol/1h−12). Não misturar graus e radianos em sin/cos. Esta equação elementar não inclui refração; no SPA zenith e apparent_zenith são saídas distintas. Fontes: B12 pp.13–15/PDF31–33; B32 pp.10–11/PDF16–17."
+    },
+    {
+      "number": 6,
+      "physical": 7,
+      "title": "1.1 · IRRADIÂNCIA EXTRATERRESTRE",
+      "subtitle": "Referência radiativa anterior à interação com a atmosfera.",
+      "elements": [
+        {
+          "kind": "asset",
+          "name": "EQ_distancia",
+          "x": 244.95246350400697,
+          "y": 195.0,
+          "w": 340.09507299198606,
+          "h": 75.0
+        },
+        {
+          "kind": "text",
+          "text": "Gsc = 1 366,1 W m⁻²\nValor fixado no pvlib do projeto.",
+          "x": 820,
+          "y": 190,
+          "w": 390,
+          "h": 85,
+          "size": 28,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "asset",
+          "name": "EQ_spencer",
+          "x": 278.6694248195473,
+          "y": 300.0,
+          "w": 722.6611503609054,
+          "h": 109.99999999999999
+        },
+        {
+          "kind": "text",
+          "text": "B = 2π(n − 1)/365; n = dia do ano; B em radianos.",
+          "x": 100,
+          "y": 430,
+          "w": 1090,
+          "h": 38,
+          "size": 28,
+          "color": "FFD45C",
+          "bold": false
+        },
+        {
+          "kind": "asset",
+          "name": "EQ_projecao",
+          "x": 404.9152949919952,
+          "y": 500.0,
+          "w": 470.16941001600964,
+          "h": 65.0
+        },
+        {
+          "kind": "text",
+          "text": "G₀h é referência extraterrestre; GHI é irradiância na superfície.",
+          "x": 70,
+          "y": 600,
+          "w": 1140,
+          "h": 40,
+          "size": 29,
+          "color": "FFD45C",
+          "bold": false
+        }
+      ],
+      "source": "Fontes: Duffie, Beckman e Blair (2020), p. 9; pvlib 0.16.1, get_extra_radiation.",
+      "notes": "O inverso do quadrado relaciona a irradiância normal à distância Terra–Sol. Spencer aproxima o fator orbital E0; não calcula nuvens, absorção nem radiação difusa. Aqui Gsc=1366,1 W/m² é uma constante de compatibilidade da implementação, não uma nova determinação metrológica da constante solar. O coeficiente de cos(2B) é 0,000719 conforme código conferido do pvlib 0.16.1; o exemplar B12 apresenta 0,00719 na equação 1.4.1b, divergência registrada na conferência. A projeção usa o zenital geométrico e é anulada com o Sol abaixo do horizonte. O ano 2024 é bissexto, mas o denominador 365 é mantido para reproduzir o método do projeto."
+    },
+    {
+      "number": 7,
+      "physical": 8,
+      "title": "1.1 · IMPLEMENTAÇÃO COMPUTACIONAL",
+      "subtitle": "SPA e Spencer recebem entradas temporais e cumprem funções distintas.",
+      "elements": [
+        {
+          "kind": "asset",
+          "name": "D02_fluxo_geometria",
+          "x": 167.23429230839355,
+          "y": 200.0,
+          "w": 945.5314153832129,
+          "h": 370.0
+        },
+        {
+          "kind": "text",
+          "text": "Rótulo = início · Δt = 15 min · cálculo em t + 7 min 30 s",
+          "x": 80,
+          "y": 575,
+          "w": 1140,
+          "h": 40,
+          "size": 29,
+          "color": "FFD45C",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Em 17/05/2024: America/Los_Angeles = UTC−7.",
+          "x": 80,
+          "y": 620,
+          "w": 1140,
+          "h": 36,
+          "size": 28,
+          "color": "EEF2F6",
+          "bold": false
+        }
+      ],
+      "source": "Fontes: configuração do projeto PVDAQ 2107; Reda e Andreas (2008); pvlib 0.16.1.",
+      "notes": "Mostrar as duas ramificações: localização e instante alimentam o SPA; o dia do ano alimenta Spencer; zenital e G0n entram na projeção. Não há dependência conceitual de Spencer em relação ao SPA. POA representa médias de 15 minutos, rotuladas pelo início; os ângulos são calculados 7min30s depois. A pressão é estimada da altitude de 10 m; temperatura de refração 12°C e ΔT=67s são padrões de compatibilidade mantidos do projeto. São parâmetros do cálculo, não medições atmosféricas. A comparação com o exemplo publicado do SPA verifica a implementação, e não valida os sensores do PVDAQ."
+    },
+    {
+      "number": 8,
+      "physical": 9,
+      "title": "1.1 · PVDAQ 2107 EM 17/05/2024",
+      "subtitle": "Arbuckle, Califórnia · 38,996306° N; 122,134111° O · 10 m",
+      "elements": [
+        {
+          "kind": "asset",
+          "name": "G01_recurso_geometria_escuro",
+          "x": 50.0,
+          "y": 195.0892852367277,
+          "w": 795,
+          "h": 444.8214295265446
+        },
+        {
+          "kind": "text",
+          "text": "POA medida",
+          "x": 885,
+          "y": 225,
+          "w": 335,
+          "h": 42,
+          "size": 33,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Média em intervalos\nde 15 minutos.",
+          "x": 885,
+          "y": 275,
+          "w": 335,
+          "h": 83,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Ângulos calculados",
+          "x": 885,
+          "y": 385,
+          "w": 335,
+          "h": 45,
+          "size": 33,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "SPA e orientação\ndo arranjo.",
+          "x": 885,
+          "y": 435,
+          "w": 335,
+          "h": 83,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Inclinação: 25°\nAzimute: 180°",
+          "x": 885,
+          "y": 545,
+          "w": 335,
+          "h": 85,
+          "size": 30,
+          "color": "EEF2F6",
+          "bold": false
+        }
+      ],
+      "source": "G01 — Fonte: POA/PVDAQ 2107 e cálculos SPA da equipe. Curvas no ponto médio; sem interpolação.",
+      "notes": "A POA é observacional; os ângulos são calculados. A janela do gráfico é 05h–21h locais; o CSV preserva as 96 posições do dia. Há 94 médias POA não ausentes e 68 intervalos com três amostras originais. Não preencher lacunas. A incidência utiliza zenital aparente e orientação 25°/180°, conforme a configuração coletiva, enquanto a projeção extraterrestre usa zenital geométrico. Não interpretar o máximo próximo do meio-dia como validação independente do SPA nem declarar céu claro apenas pela forma da curva. Os dados são um exemplo diário de abril–junho/2024; não estabelecem climatologia ou efeito atmosférico causal. GHI/DNI/DHI locais independentes não estão disponíveis nesta seleção. Fontes: CSV observado preparado, configuração vigente, B32."
+    },
+    {
+      "number": 9,
+      "physical": 10,
+      "title": "1.1 · SÍNTESE E LIMITES",
+      "subtitle": "A geometria estabelece o referencial para caracterizar o recurso solar.",
+      "elements": [
+        {
+          "kind": "text",
+          "text": "A GEOMETRIA FORNECE",
+          "x": 75,
+          "y": 210,
+          "w": 1130,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Direção solar, duração do dia e fator de projeção do feixe.",
+          "x": 75,
+          "y": 265,
+          "w": 1130,
+          "h": 50,
+          "size": 32,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "A ATMOSFERA MODIFICA",
+          "x": 75,
+          "y": 350,
+          "w": 1130,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Transmissão, absorção e espalhamento da radiação.",
+          "x": 75,
+          "y": 405,
+          "w": 1130,
+          "h": 50,
+          "size": 32,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "A OBSERVAÇÃO PERMITE CONFRONTAR",
+          "x": 75,
+          "y": 490,
+          "w": 1130,
+          "h": 45,
+          "size": 34,
+          "color": "FFD45C",
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Irradiância no plano do sensor e evolução temporal medida.",
+          "x": 75,
+          "y": 545,
+          "w": 1130,
+          "h": 50,
+          "size": 32,
+          "color": "EEF2F6",
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "1.2 — Irradiância e irradiação; componentes GHI, DNI, DHI e POA.",
+          "x": 75,
+          "y": 615,
+          "w": 1130,
+          "h": 35,
+          "size": 27,
+          "color": "FFD45C",
+          "bold": false
+        }
+      ],
+      "source": "Fontes: Duffie, Beckman e Blair (2020), p. 9–15; Sengupta et al. (2024), cap. 2, p. 5–10.",
+      "notes": "Retomar a distinção entre referência geométrica e irradiância efetiva. A geometria fornece o referencial; a atmosfera modifica o campo radiativo. Os sensores permitem confrontar grandezas compatíveis, mas um sensor POA não constitui uma medição independente de cada componente horizontal. Massa de ar relativa é uma ligação com a atmosfera: secante do zenital apenas em domínio moderado, sem validade no horizonte; parametrizações devem distinguir pressão e refração. A próxima subseção formaliza irradiância, irradiação e componentes. Não antecipar modelos térmicos, elétricos nem de desempenho dos colegas."
+    }
+  ]
+}

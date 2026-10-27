@@ -1,0 +1,60 @@
+[
+  {
+    "codigo": "B12",
+    "arquivo": "B12_A001_Duffie_Beckman_Blair_2020_5ed.pdf",
+    "sha256": "db6ac445398a88a7670cbee02db18c426732e8104ee56e4cfb81fa86be85f4da",
+    "paginas_pdf_contextuais_lidas": [
+      29,
+      30,
+      32
+    ],
+    "paginas_texto_sha256": {
+      "29": "86032272ce133101ac431e846f8f69863df892e3d8348812de5744ea2ca010aa",
+      "30": "982fcf212f6e9003163f49fd153cb5b6b2c89596328f07afc652eab5f058a35a",
+      "32": "e03225a34e97161ad824df0e346aca034349746e17572491b265fb580da61c02"
+    },
+    "uso": "Cotejo contextual de citações amplas; não adiciona evidências à matriz de 39 linhas."
+  },
+  {
+    "codigo": "A045",
+    "arquivo": "A045_Sengupta_2024_4ed_Apoio_A.pdf",
+    "sha256": "cfe5e510b7a2a05a18e8660af346454a5e7c9a704b5b5a02533a67e04a2de26a",
+    "paginas_pdf_contextuais_lidas": [
+      40,
+      59,
+      203,
+      287,
+      291
+    ],
+    "paginas_texto_sha256": {
+      "40": "8bb3a07294149e5bbc0c4e49fa0602afbb536982cbc23183a70baead302eadca",
+      "59": "4e1fa2d2d7faa1c493fc46add930b1395d787072e918592a098df1fc58d1911b",
+      "203": "f06b9ba3e5378e67e3f103924f096f9463186b4ba79ca40904159b7e33d16ac7",
+      "287": "566c70de93c4bd883e2832449921c3c3c4189e80f75937dd98cea6a4b0d1c796",
+      "291": "2dbbd4fb001a078078032586abc6cb09cbf74fd6b80b7b605d704346cae47fc6"
+    },
+    "uso": "Cotejo contextual de citações amplas; não adiciona evidências à matriz de 39 linhas."
+  },
+  {
+    "codigo": "CONTEXTO_METODOLOGICO",
+    "arquivo": "proknow.pdf",
+    "sha256": "cd3fb600cffc5f32468fa805279307f8869ac14df5e30ca825c8b21b837027bd",
+    "paginas_pdf_contextuais_lidas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "paginas_texto_sha256": {
+      "1": "6a92d1391fa71fb42619c87be53b829b0bf235ebf6047034c0c3865f3e7a5a24",
+      "2": "e4a7c00e86805a4bbc30225ddccf4da8e531f731cde9bde0b954484117e55042",
+      "3": "69fb50a100d48987a6d4d94688209dd4d9721a20df5c2b8093e45e939cc1c628",
+      "4": "fa43d94d67e1f1420568ab2e97ee38d34b74b5dc8b4cf7301d1d14c552fbb300",
+      "5": "d1f98364bd3f12d23d12afd82611173983a5c60ed30d2ccf2896b76ad7e5e505",
+      "6": "79ab79242855655a2942e896d7b8137aca3412b449be696107c16a6a40f6eacc"
+    },
+    "uso": "Ementa introdutória, não manual integral do ProKnow-C."
+  }
+]

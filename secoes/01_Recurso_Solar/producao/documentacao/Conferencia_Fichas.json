@@ -1,0 +1,15 @@
+{
+  "fichas_B_herdadas": 23,
+  "novas_associacoes_A045": 4,
+  "total_fichas_associativas": 27,
+  "evidencias_localizadas_na_matriz": 39,
+  "estados": {
+    "CONFERIDA_LOCALIZADA": 9,
+    "PENDENTE_LEITURA": 10,
+    "CONFERIDA_DIGITAL": 1,
+    "METADADOS_HERDADOS_PENDENTES": 3,
+    "LEITURA_LOCALIZADA_COMPARTILHADA": 2,
+    "CONTEXTO_ONLINE_CONFERIDO": 2
+  },
+  "nota": "Uma ficha por associação; uma evidência por afirmação localizada. Os números não são intercambiáveis."
+}

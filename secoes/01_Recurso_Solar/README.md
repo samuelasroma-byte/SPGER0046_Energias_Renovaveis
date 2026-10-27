@@ -13,6 +13,11 @@ Como o recurso solar disponível para a conversão fotovoltaica é caracterizado
 | [1.3 Modulação atmosférica e variabilidade espaço-temporal](subsecoes/1_3/README.md) | Samuel | [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B24](../../bibliografia/principal/README.md#b24), [B26](../../bibliografia/principal/README.md#b26), [B36](../../bibliografia/principal/README.md#b36) |
 | [1.4 Medição e estimativa do recurso solar](subsecoes/1_4/README.md) | Samuel | [B12](../../bibliografia/principal/README.md#b12), [B19](../../bibliografia/principal/README.md#b19), [B24](../../bibliografia/principal/README.md#b24), [B26](../../bibliografia/principal/README.md#b26), [B27](../../bibliografia/principal/README.md#b27), [B36](../../bibliografia/principal/README.md#b36) |
 
+
+## Produção científica de 27/10/2026
+
+[Manuscritos, seis slides de 1.1, notebook executado, figuras vetoriais e curadoria localizada](producao/README.md). O [PPTX coletivo](https://docs.google.com/presentation/d/1U3Btzt1RiKhBIgUeus2DfkFz5d6Uf8rd/edit) foi atualizado somente nos slides físicos 5–10. A revisão reúne 39 evidências localizadas e mantém explícitas as etapas ainda pendentes do ProKnow-C.
+
 ## Materiais da seção
 
 | Coleção | Acesso |

@@ -1,0 +1,156 @@
+[
+  {
+    "codigo": "B11",
+    "autor_ano": "Driesse; Jensen; Perez, 2024",
+    "edicao": "2024",
+    "selecao": "complementar; foco em transposição da subseção 3.1; leitura pendente",
+    "integral_disponivel": "PDF disponível",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "Modelo de céu e componentes para transposição.",
+    "fonte": "https://doi.org/10.1016/j.solener.2023.112093"
+  },
+  {
+    "codigo": "B12",
+    "autor_ano": "Duffie; Beckman; Blair, 2020",
+    "edicao": "5ª edição, 2020",
+    "selecao": "prioritária; leitura localizada",
+    "integral_disponivel": "PDF comum disponível",
+    "paginas_verificadas": "27,28,31,33",
+    "papel": "fundamento de afirmações verificadas",
+    "limite": "Base física e definições para toda a seção.",
+    "fonte": "https://doi.org/10.1002/9781119540328"
+  },
+  {
+    "codigo": "B19",
+    "autor_ano": "Kalogirou, 2014",
+    "edicao": "2ª edição, 2014",
+    "selecao": "pendente; edição exata ausente",
+    "integral_disponivel": "PDF da edição exata NÃO localizado",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "Não substituir silenciosamente por A003.",
+    "fonte": "https://doi.org/10.1016/c2011-0-07038-2"
+  },
+  {
+    "codigo": "B20",
+    "autor_ano": "Luque; Hegedus, 2011",
+    "edicao": "2ª edição, 2011",
+    "selecao": "pendente; edição exata ausente",
+    "integral_disponivel": "PDF da 2ª edição NÃO localizado",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "A034 é a 1ª edição de 2003, apenas apoio.",
+    "fonte": "https://doi.org/10.1002/9780470974704"
+  },
+  {
+    "codigo": "B23",
+    "autor_ano": "NOAA GML, s.d.",
+    "edicao": "Edição consultada a verificar",
+    "selecao": "complementar; leitura integral de 2 páginas",
+    "integral_disponivel": "PDF disponível",
+    "paginas_verificadas": "1,2",
+    "papel": "fundamento de afirmações verificadas",
+    "limite": "Geometria solar e fórmulas práticas.",
+    "fonte": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+  },
+  {
+    "codigo": "B24",
+    "autor_ano": "Deline et al., 2021",
+    "edicao": "Conjunto publicado em 2021; observações de 2024",
+    "selecao": "dados preparados conferidos; metadados DOI herdados",
+    "integral_disponivel": "Conjunto de dados online",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "Dados de campo POA/geração; sem GHI/DNI/DHI locais medidos.",
+    "fonte": "https://doi.org/10.25984/1846021"
+  },
+  {
+    "codigo": "B26",
+    "autor_ano": "PV Analytics Webinar, 2024",
+    "edicao": "2024",
+    "selecao": "contexto online conferido; fora da fundamentação principal",
+    "integral_disponivel": "Material online",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "Contextualização do Farm Solar Array e do tratamento de dados.",
+    "fonte": "https://pv-tutorials.github.io/2024_Analytics_Webinar/solar-data-tools-demo.html"
+  },
+  {
+    "codigo": "B27",
+    "autor_ano": "PVDAQ/OpenEDI, s.d.",
+    "edicao": "Versão online",
+    "selecao": "documentação catalogada; leitura pendente",
+    "integral_disponivel": "Repositório/documentação online",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "Acesso e proveniência técnica do conjunto de dados.",
+    "fonte": "https://github.com/NatLabRockies/pvdaq_access"
+  },
+  {
+    "codigo": "B29",
+    "autor_ano": "pvlib contributors, 2026",
+    "edicao": "pvlib 0.16.1",
+    "selecao": "prioritária; leitura localizada",
+    "integral_disponivel": "Documentação online",
+    "paginas_verificadas": "",
+    "papel": "fundamento de afirmações verificadas",
+    "limite": "Cálculo da irradiância extraterrestre normal.",
+    "fonte": "https://pvlib-python.readthedocs.io/en/v0.16.1/reference/generated/pvlib.irradiance.get_extra_radiation.html"
+  },
+  {
+    "codigo": "B31",
+    "autor_ano": "Reda; Andreas, 2004",
+    "edicao": "2004",
+    "selecao": "prioritária; leitura localizada",
+    "integral_disponivel": "PDF disponível",
+    "paginas_verificadas": "1,2",
+    "papel": "fundamento de afirmações verificadas",
+    "limite": "Posição solar, azimute e zênite.",
+    "fonte": "https://doi.org/10.1016/j.solener.2003.12.003"
+  },
+  {
+    "codigo": "B32",
+    "autor_ano": "Reda; Andreas, 2008",
+    "edicao": "NREL/TP-560-34302, 2008",
+    "selecao": "prioritária; leitura localizada",
+    "integral_disponivel": "PDF disponível",
+    "paginas_verificadas": "16,37,38",
+    "papel": "fundamento de afirmações verificadas",
+    "limite": "Procedimento SPA e convenções angulares.",
+    "fonte": "https://docs.nlr.gov/docs/fy08osti/34302.pdf"
+  },
+  {
+    "codigo": "B36",
+    "autor_ano": "Sengupta et al., 2021",
+    "edicao": "IEA PVPS T16-04:2021",
+    "selecao": "PDF da 3ª edição disponível; leitura pendente; não confundir com A045/2024",
+    "integral_disponivel": "PDF disponível nas pastas 1.2–1.4",
+    "paginas_verificadas": "",
+    "papel": "complemento/contexto/pendência",
+    "limite": "PDF consultado é o formato IEA PVPS; DOI aponta para o formato NREL.",
+    "fonte": "https://doi.org/10.2172/1778700"
+  },
+  {
+    "codigo": "A045",
+    "autor_ano": "Sengupta et al. (ed.), 2024",
+    "edicao": "4ª edição; NREL/TP-5D00-88300",
+    "selecao": "prioritária complementar; leitura localizada",
+    "integral_disponivel": "PDF disponível e conferido localmente",
+    "paginas_verificadas": "30,34,35,36,37,38,39,58,60,61,62,161,175,202,244,245,260,267,285,286,292,325,444,445",
+    "papel": "atmosfera, componentes, medição e incertezas",
+    "limite": "não substitui silenciosamente a referência B36/2021",
+    "fonte": "https://docs.nrel.gov/docs/fy24osti/88300.pdf"
+  },
+  {
+    "codigo": "A003",
+    "autor_ano": "Jäger et al., 2014",
+    "edicao": "obra distinta de B19 e B20",
+    "selecao": "disponível; não lida; não utilizada como prova",
+    "integral_disponivel": "PDF disponível",
+    "paginas_verificadas": "",
+    "papel": "complemento potencial",
+    "limite": "não resolve falta das edições B19/B20",
+    "fonte": ""
+  }
+]

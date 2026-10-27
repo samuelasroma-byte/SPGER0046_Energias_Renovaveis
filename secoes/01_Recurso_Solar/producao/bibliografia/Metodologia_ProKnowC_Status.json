@@ -1,0 +1,88 @@
+{
+  "metodo": "revisão estruturada inspirada no ProKnow-C, com síntese crítica integrativa",
+  "revisao_sistematica_integral_concluida": false,
+  "buscas_bibliometricas_reexecutadas": false,
+  "carteira_B_herdada": 12,
+  "associacoes_B_subsecoes_herdadas": 23,
+  "fontes_documentais_PDF_inventariadas": 6,
+  "PDFs_com_leitura_localizada_ou_integral": 5,
+  "evidencias_bibliograficas_conferidas": 39,
+  "referencias_complementares_adicionadas": [
+    "A045",
+    "A003"
+  ],
+  "criterios": [
+    "pertinência à pergunta da subseção",
+    "conteúdo acessível para conferência",
+    "identidade e edição corretas",
+    "método e limites explícitos",
+    "fonte primária para algoritmo ou implementação"
+  ],
+  "pendencias": [
+    "B19 e B20: edições exatas ausentes",
+    "B11 e B36/2021: leitura ainda pendente",
+    "B27: documentação não lida",
+    "verificação do registro DOI B24 bloqueada pela recuperação web; dados preparados conferidos",
+    "protocolo de busca completo anterior e contagens de reconhecimento científico não reexecutados ou inferidos"
+  ],
+  "parecer": "Fundamentação localizada suficiente para a redação atual; não representa conclusão integral das etapas ProKnow-C.",
+  "data": "2026-10-27",
+  "registro_anterior_20261026": {
+    "metodo": "inspirado_no_ProKnow_C",
+    "data": "2026-10-26",
+    "fases": [
+      {
+        "etapa": "Seleção bibliográfica",
+        "status": "aproveitada da bibliometria preexistente",
+        "evidencia": "B01–B39, mapa por 19 subseções"
+      },
+      {
+        "etapa": "Análise bibliométrica",
+        "status": "preexistente; não reexecutada",
+        "evidencia": "829 obras únicas no acervo do projeto"
+      },
+      {
+        "etapa": "Extração rastreável de trechos",
+        "status": "automatizada quando PDF local disponível; validar páginas",
+        "evidencia": "saída Paginas_Extraidas"
+      },
+      {
+        "etapa": "Análise sistêmica / 7 lentes",
+        "status": "em revisão; não aprovada automaticamente",
+        "evidencia": "fichas de curadoria"
+      },
+      {
+        "etapa": "Síntese e agenda de pesquisa",
+        "status": "1.1 redigida para apresentação; demais em planejamento",
+        "evidencia": "DOCX/PPTX da 1.1"
+      }
+    ]
+  },
+  "fases": [
+    {
+      "etapa": "Seleção bibliográfica",
+      "status": "Portfólio herdado e seleção crítica localizada",
+      "evidencia": "12 obras B, 23 associações; A045 separada; 14 decisões"
+    },
+    {
+      "etapa": "Análise bibliométrica",
+      "status": "Preexistente; não reexecutada",
+      "evidencia": "829 registros no catálogo herdado; 102 associações prioritárias a 39 obras"
+    },
+    {
+      "etapa": "Extração e evidência",
+      "status": "39 evidências bibliográficas com páginas conferidas",
+      "evidencia": "Matriz_Evidencias.json/csv"
+    },
+    {
+      "etapa": "Análise sistêmica / sete lentes",
+      "status": "Aplicação dirigida; revisão integral pendente",
+      "evidencia": "Fichas e seleção crítica; sem aprovação automática"
+    },
+    {
+      "etapa": "Síntese e continuidade",
+      "status": "1.1 revisada; 1.2–1.4 redigidas e integradas; seis slides concluídos",
+      "evidencia": "DOCX da seção, PPTX coletivo e relatório de conferência"
+    }
+  ]
+}

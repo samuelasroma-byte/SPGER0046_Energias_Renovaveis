@@ -1,0 +1,72 @@
+[
+  {
+    "id": "CP01",
+    "natureza": "implementação conferida",
+    "afirmacao": "Coeficiente de cos(2B) = 0,000719 e Gsc=1366,1 W/m² no método Spencer da versão 0.16.1.",
+    "fonte": "pvlib.irradiance.get_extra_radiation; código da versão executada",
+    "limite": "Parâmetro de implementação; não é nova medição da constante solar.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "CP02",
+    "natureza": "resultado computacional",
+    "afirmacao": "Grade com 8736 intervalos em 91 dias locais.",
+    "fonte": "dados/poa_15min.csv",
+    "limite": "Quantidade da grade, sem implicar validade de todas as observações.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "CP03",
+    "natureza": "resultado computacional",
+    "afirmacao": "17/05: 96 posições, 94 médias POA não ausentes e 68 intervalos com três amostras.",
+    "fonte": "dados/poa_15min.csv; resultados/G01_dados_verificados.csv",
+    "limite": "Não preenche lacunas ou certifica o sensor.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "CP04",
+    "natureza": "teste de implementação",
+    "afirmacao": "Exemplo SPA: zenital aparente 50.111622024°; azimute 194.340240510°.",
+    "fonte": "Reda e Andreas 2008, Tabela A5.1; resultados/Conferencia_Calculos.json",
+    "limite": "Não valida dados radiométricos por essa comparação.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "HP01",
+    "natureza": "hipótese e padrão computacional",
+    "afirmacao": "Pressão derivada de altitude 10 m; temperatura para refração 12 °C; ΔT=67 s.",
+    "fonte": "config/projeto.json; src/solar_secao01.py",
+    "limite": "Não tratar como medição local ou atualização específica de efemérides.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "IF01",
+    "natureza": "inferência metodológica",
+    "afirmacao": "Componentes reconstruídas da POA não constituem referência observacional independente da mesma POA.",
+    "fonte": "dependência entre entradas e saídas; fluxo da configuração do projeto",
+    "limite": "Não se afirma validação ou erro quantitativo das componentes sem referência externa.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  },
+  {
+    "id": "IF02",
+    "natureza": "inferência de alcance",
+    "afirmacao": "Uma curva diária POA não identifica isoladamente nuvens, aerossóis ou vapor de água, nem estabelece climatologia.",
+    "fonte": "G01; contraposição com as escalas discutidas no handbook de 2024",
+    "limite": "Ausência de variáveis independentes para atribuição.",
+    "data_conferencia": "2026-10-27",
+    "sha256_dados": "6e5d4753c2ab9dfa0cc20c38c8c9c1646a9444ea2561534ee61f92c6b6d5f8b5",
+    "sha256_config": "ece0ff6818af2b7cafd0f66bdb1eedc8cf1914c6aa2692eb1a7f68300031601a"
+  }
+]

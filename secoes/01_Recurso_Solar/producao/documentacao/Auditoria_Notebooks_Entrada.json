@@ -1,0 +1,20 @@
+[
+  {
+    "arquivo": "nb0",
+    "sha256": "cf79f34b0cc040b103f12f9415492a3ac8d0f99f4d207782c0d2dc4fb4471c75",
+    "celulas": 28,
+    "celulas_codigo": 14,
+    "codigo_com_execucao_registrada": 8,
+    "erros_registrados": 0,
+    "limites": "O notebook 00 continha extração repetida, geração de estruturas e teste de sete slides; a extensão V2 não estava executada."
+  },
+  {
+    "arquivo": "nb2",
+    "sha256": "a3c4fa61029a6e06f1d406dc46c7039748b3f8663bf1f144cf6765c6589ae5bc",
+    "celulas": 82,
+    "celulas_codigo": 24,
+    "codigo_com_execucao_registrada": 24,
+    "erros_registrados": 0,
+    "limites": "Fundamentação coletiva anterior; não foi alterada nem reexecutada nesta continuidade."
+  }
+]

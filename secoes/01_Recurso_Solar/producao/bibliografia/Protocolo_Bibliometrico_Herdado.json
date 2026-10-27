@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "scope": "fundamentação teórica; sem busca de lacuna ou alegação de revisão sistemática",
+  "from_year": 1950,
+  "through_date": "2026-10-16",
+  "recent_from_year": 2021,
+  "openalex_per_query": 25,
+  "openalex_recent_per_query": 12,
+  "crossref_per_query": 20,
+  "institutional_per_query": 25,
+  "request_timeout_seconds": 25,
+  "maximum_attempts": 2,
+  "credentials": [
+    "OPENALEX_API_KEY",
+    "SCOPUS_API_KEY",
+    "WOS_API_KEY",
+    "IEEE_API_KEY"
+  ],
+  "model_notebook_drive_id": "1YzOxXV7bQofqQ6GI94nH1L1rO-HLX242",
+  "model_notebook_modified_time": "2026-09-12T04:01:14.298Z",
+  "ranking": "Relevância temática, obras de método, livros de base, citações separadas por base e complemento recente",
+  "interpretation": "Mais citados significa entre resultados recuperados e filtrados, na base e data indicadas; não ranking mundial exaustivo."
+}
