@@ -1,6 +1,6 @@
 # Localizações da entrega corrigida
 
-27/10/2026 — Samuel Constantino Teixeira — somente Seção 1.
+27/10/2026 — Samuel Constantino Teixeira — somente Seção 1. Manuscritos revisados: corpo 12, fontes 10, equações sequenciais à direita e figuras vetoriais; os links abaixo foram preservados.
 
 Pasta de produção: https://drive.google.com/drive/folders/1K57-tHmLmrftMcUFEtipu_hrXoyy9XZm
 

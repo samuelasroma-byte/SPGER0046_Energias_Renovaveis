@@ -1,0 +1,138 @@
+{
+  "1_1_Geometria_Solar.docx": [
+    {
+      "numero": 1,
+      "conceito": "zenital",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A relação geométrica esférica entre a posição do observador e a direção solar é apresentada na equação (1):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 2,
+      "conceito": "azimute",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A conversão entre a convenção azimutal de Duffie, Beckman e Blair (2020, p. 13) e a convenção do SPA é dada pela equação (2):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 3,
+      "conceito": "orbital",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A irradiância extraterrestre normal, aqui denotada  [W ], representa o fluxo radiante por unidade de área perpendicular aos raios solares antes da interação atmosférica. Seu valor varia durante o ano devido à mudança da distância Terra–Sol. Essa dependência é representada pela equação (3):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 4,
+      "conceito": "spencer",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "O fator orbital da aproximação de Spencer implementada no pvlib 0.16.1 é expresso pela equação (4) (PVLIB CONTRIBUTORS, 2026):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 5,
+      "conceito": "projecao",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A projeção da irradiância normal sobre um plano horizontal produz a irradiância extraterrestre horizontal  [W ] na equação (5):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    }
+  ],
+  "1_2_Grandezas_Radiometricas.docx": [
+    {
+      "numero": 1,
+      "conceito": "integral",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A irradiação recebida no plano e intervalo considerados é obtida pela integração temporal da irradiância, conforme a equação (1):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 2,
+      "conceito": "soma",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A equivalência  decorre da definição de watt e da conversão entre hora e segundo. Para registros que representam médias de intervalos, a forma discreta é expressa pela equação (2):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 3,
+      "conceito": "fechamento",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "Para o Sol acima do horizonte e para definições radiométricas compatíveis, o balanço geométrico ideal é expresso pela equação (3):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    }
+  ],
+  "1_3_Modulacao_Atmosferica.docx": [],
+  "1_4_Medicao_e_Estimativa.docx": [],
+  "Secao_01_Integrada.docx": [
+    {
+      "numero": 1,
+      "conceito": "zenital",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A relação geométrica esférica entre a posição do observador e a direção solar é apresentada na equação (1):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 2,
+      "conceito": "azimute",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A conversão entre a convenção azimutal de Duffie, Beckman e Blair (2020, p. 13) e a convenção do SPA é dada pela equação (2):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 3,
+      "conceito": "orbital",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A irradiância extraterrestre normal, aqui denotada  [W ], representa o fluxo radiante por unidade de área perpendicular aos raios solares antes da interação atmosférica. Seu valor varia durante o ano devido à mudança da distância Terra–Sol. Essa dependência é representada pela equação (3):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 4,
+      "conceito": "spencer",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "O fator orbital da aproximação de Spencer implementada no pvlib 0.16.1 é expresso pela equação (4) (PVLIB CONTRIBUTORS, 2026):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 5,
+      "conceito": "projecao",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A projeção da irradiância normal sobre um plano horizontal produz a irradiância extraterrestre horizontal  [W ] na equação (5):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 6,
+      "conceito": "integral",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A irradiação recebida no plano e intervalo considerados é obtida pela integração temporal da irradiância, conforme a equação (6):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 7,
+      "conceito": "soma",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "A equivalência  decorre da definição de watt e da conversão entre hora e segundo. Para registros que representam médias de intervalos, a forma discreta é expressa pela equação (7):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    },
+    {
+      "numero": 8,
+      "conceito": "fechamento",
+      "definicao_dos_termos": true,
+      "chamada_anterior": "Para o Sol acima do horizonte e para definições radiométricas compatíveis, o balanço geométrico ideal é expresso pela equação (8):",
+      "posicao_do_numero": "tabulação direita a 16 cm",
+      "representacao": "OMML editável + campo SEQ Equacao"
+    }
+  ]
+}

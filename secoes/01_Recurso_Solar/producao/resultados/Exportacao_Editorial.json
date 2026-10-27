@@ -17,7 +17,7 @@
     "apresentacao/Roteiro_Oral_6_Slides.pdf",
     "documentacao/Conferencia_Cientifica_39_Evidencias.pdf"
   ],
-  "slides_pdf": "apresentacao/Subsecao_1_1_Beamer.pdf",
+  "slides_pdf": null,
   "cadeia": {
     "1.1_DOCX": "python-docx sobre manuscrito existente; equações OMML e novas equações via Pandoc",
     "1.2_a_1.4_DOCX": "Markdown e LaTeX → Pandoc → Word com equações nativas",

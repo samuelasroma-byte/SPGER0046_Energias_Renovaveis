@@ -1,0 +1,283 @@
+[
+  {
+    "arquivo": "1_1_Geometria_Solar.docx",
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "equacoes": [
+      {
+        "numero": 1,
+        "conceito": "zenital",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A relação geométrica esférica entre a posição do observador e a direção solar é apresentada na equação (1):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 2,
+        "conceito": "azimute",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A conversão entre a convenção azimutal de Duffie, Beckman e Blair (2020, p. 13) e a convenção do SPA é dada pela equação (2):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 3,
+        "conceito": "orbital",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A irradiância extraterrestre normal, aqui denotada  [W ], representa o fluxo radiante por unidade de área perpendicular aos raios solares antes da interação atmosférica. Seu valor varia durante o ano devido à mudança da distância Terra–Sol. Essa dependência é representada pela equação (3):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 4,
+        "conceito": "spencer",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "O fator orbital da aproximação de Spencer implementada no pvlib 0.16.1 é expresso pela equação (4) (PVLIB CONTRIBUTORS, 2026):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 5,
+        "conceito": "projecao",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A projeção da irradiância normal sobre um plano horizontal produz a irradiância extraterrestre horizontal  [W ] na equação (5):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      }
+    ],
+    "figuras": [
+      {
+        "figura": 1,
+        "titulo": "Figura 1 – Geometria solar local e convenção azimutal",
+        "vetor": "Manuscrito_Figura01_Geometria.svg",
+        "png_px": [
+          3600,
+          1909
+        ],
+        "largura_inserida_cm": 15.2,
+        "dpi_efetivo_horizontal": 601.578947368421,
+        "svg_sha256": "80988c6459ad9048a73e9eb3f973f33fce65fee8287e2cc9abaa2e2bea33bf20"
+      },
+      {
+        "figura": 2,
+        "titulo": "Figura 2 – POA observada e ângulos solares no PVDAQ 2107",
+        "vetor": "Manuscrito_Figura02_PVDAQ.svg",
+        "png_px": [
+          3600,
+          2015
+        ],
+        "largura_inserida_cm": 15.2,
+        "dpi_efetivo_horizontal": 601.578947368421,
+        "svg_sha256": "24dab4462c09220076bf2e420e61f16929d0f3feff14586b40410e5dd9e4b56b"
+      }
+    ],
+    "quadros": [
+      {
+        "quadro": 1,
+        "titulo": "Símbolos, grandezas e convenções adotadas",
+        "largura_cm": 15.2,
+        "centralizado": true,
+        "colunas_centralizadas": [
+          1,
+          3
+        ],
+        "coluna_textual_alinhada_esquerda": 2,
+        "borda_pt": 1,
+        "fonte_pt": 10
+      }
+    ],
+    "sha256_docx": "36de168c306f6f018e0140078068dfe89055bf22947368bf79c4eacede1473ac"
+  },
+  {
+    "arquivo": "1_2_Grandezas_Radiometricas.docx",
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "equacoes": [
+      {
+        "numero": 1,
+        "conceito": "integral",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A irradiação recebida no plano e intervalo considerados é obtida pela integração temporal da irradiância, conforme a equação (1):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 2,
+        "conceito": "soma",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A equivalência  decorre da definição de watt e da conversão entre hora e segundo. Para registros que representam médias de intervalos, a forma discreta é expressa pela equação (2):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 3,
+        "conceito": "fechamento",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "Para o Sol acima do horizonte e para definições radiométricas compatíveis, o balanço geométrico ideal é expresso pela equação (3):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      }
+    ],
+    "figuras": [],
+    "quadros": [
+      {
+        "quadro": 1,
+        "titulo": "Grandezas radiométricas e planos de referência",
+        "largura_cm": 15.2,
+        "centralizado": true,
+        "colunas_centralizadas": [
+          1,
+          3
+        ],
+        "coluna_textual_alinhada_esquerda": 2,
+        "borda_pt": 1,
+        "fonte_pt": 10
+      }
+    ],
+    "sha256_docx": "9f4337335f03f0136b545f9e494b5cd8ab2c37206e076d676d81b3383752a1da"
+  },
+  {
+    "arquivo": "1_3_Modulacao_Atmosferica.docx",
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "equacoes": [],
+    "figuras": [],
+    "quadros": [],
+    "sha256_docx": "a0264c2a6f42be1487320a494a005dd0cb045441be1ab26446fdba1da60606b6"
+  },
+  {
+    "arquivo": "1_4_Medicao_e_Estimativa.docx",
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "equacoes": [],
+    "figuras": [],
+    "quadros": [],
+    "sha256_docx": "3eb981ffd073aa6997f693ee75cff70beae85e8d2ed1afc32d5905d348041c67"
+  },
+  {
+    "arquivo": "Secao_01_Integrada.docx",
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "equacoes": [
+      {
+        "numero": 1,
+        "conceito": "zenital",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A relação geométrica esférica entre a posição do observador e a direção solar é apresentada na equação (1):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 2,
+        "conceito": "azimute",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A conversão entre a convenção azimutal de Duffie, Beckman e Blair (2020, p. 13) e a convenção do SPA é dada pela equação (2):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 3,
+        "conceito": "orbital",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A irradiância extraterrestre normal, aqui denotada  [W ], representa o fluxo radiante por unidade de área perpendicular aos raios solares antes da interação atmosférica. Seu valor varia durante o ano devido à mudança da distância Terra–Sol. Essa dependência é representada pela equação (3):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 4,
+        "conceito": "spencer",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "O fator orbital da aproximação de Spencer implementada no pvlib 0.16.1 é expresso pela equação (4) (PVLIB CONTRIBUTORS, 2026):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 5,
+        "conceito": "projecao",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A projeção da irradiância normal sobre um plano horizontal produz a irradiância extraterrestre horizontal  [W ] na equação (5):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 6,
+        "conceito": "integral",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A irradiação recebida no plano e intervalo considerados é obtida pela integração temporal da irradiância, conforme a equação (6):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 7,
+        "conceito": "soma",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "A equivalência  decorre da definição de watt e da conversão entre hora e segundo. Para registros que representam médias de intervalos, a forma discreta é expressa pela equação (7):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      },
+      {
+        "numero": 8,
+        "conceito": "fechamento",
+        "definicao_dos_termos": true,
+        "chamada_anterior": "Para o Sol acima do horizonte e para definições radiométricas compatíveis, o balanço geométrico ideal é expresso pela equação (8):",
+        "posicao_do_numero": "tabulação direita a 16 cm",
+        "representacao": "OMML editável + campo SEQ Equacao"
+      }
+    ],
+    "figuras": [
+      {
+        "figura": 1,
+        "titulo": "Figura 1 – Geometria solar local e convenção azimutal",
+        "vetor": "Manuscrito_Figura01_Geometria.svg",
+        "png_px": [
+          3600,
+          1909
+        ],
+        "largura_inserida_cm": 15.2,
+        "dpi_efetivo_horizontal": 601.578947368421,
+        "svg_sha256": "80988c6459ad9048a73e9eb3f973f33fce65fee8287e2cc9abaa2e2bea33bf20"
+      },
+      {
+        "figura": 2,
+        "titulo": "Figura 2 – POA observada e ângulos solares no PVDAQ 2107",
+        "vetor": "Manuscrito_Figura02_PVDAQ.svg",
+        "png_px": [
+          3600,
+          2015
+        ],
+        "largura_inserida_cm": 15.2,
+        "dpi_efetivo_horizontal": 601.578947368421,
+        "svg_sha256": "24dab4462c09220076bf2e420e61f16929d0f3feff14586b40410e5dd9e4b56b"
+      }
+    ],
+    "quadros": [
+      {
+        "quadro": 1,
+        "titulo": "Símbolos, grandezas e convenções adotadas",
+        "largura_cm": 15.2,
+        "centralizado": true,
+        "colunas_centralizadas": [
+          1,
+          3
+        ],
+        "coluna_textual_alinhada_esquerda": 2,
+        "borda_pt": 1,
+        "fonte_pt": 10
+      },
+      {
+        "quadro": 2,
+        "titulo": "Grandezas radiométricas e planos de referência",
+        "largura_cm": 15.2,
+        "centralizado": true,
+        "colunas_centralizadas": [
+          1,
+          3
+        ],
+        "coluna_textual_alinhada_esquerda": 2,
+        "borda_pt": 1,
+        "fonte_pt": 10
+      }
+    ],
+    "sha256_docx": "a35daf81fa1e35a552c9e910a7567d7a223d0aa81614f4b6292dacfe9096f1a0"
+  }
+]

@@ -1,37 +1,189 @@
 [
   {
     "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
-    "sha256_docx": "e7a96171563651a0fa631ff865c910b7b3fd6824120a4998423a0f312c89d961",
+    "sha256_docx": "36de168c306f6f018e0140078068dfe89055bf22947368bf79c4eacede1473ac",
+    "sha256_pdf": "0c2a270d0741140d052203d5f662e54c6c38c297b72a6d3721fd1033ff1ebff3",
     "paginas": 9,
-    "render_identico_ao_ja_inspecionado": false,
+    "equacoes": 5,
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 3,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 4,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 5,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "figuras_compatibilidade": [
+      {
+        "arquivo": "word/media/image2.png",
+        "pixels": [
+          3600,
+          1909
+        ],
+        "dpi_efetivos": 601.578947368421
+      },
+      {
+        "arquivo": "word/media/image3.png",
+        "pixels": [
+          3600,
+          2015
+        ],
+        "dpi_efetivos": 601.578947368421
+      }
+    ],
+    "imagens_bitmap_pdf": 0,
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/Secao_01_Integrada.docx",
-    "sha256_docx": "324e8b380ebbffbec7562226b704f46c3a06a8050f54f1de5dc85627996a72c5",
-    "paginas": 21,
-    "render_identico_ao_ja_inspecionado": false,
+    "sha256_docx": "a35daf81fa1e35a552c9e910a7567d7a223d0aa81614f4b6292dacfe9096f1a0",
+    "sha256_pdf": "e91cfc90f4abb98ff7a5e2c0a77c975fa72e459d4eb025552f526f25fda0598d",
+    "paginas": 19,
+    "equacoes": 8,
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 3,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 4,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 5,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 6,
+        "pagina": 9,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 7,
+        "pagina": 9,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 8,
+        "pagina": 10,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "figuras_compatibilidade": [
+      {
+        "arquivo": "word/media/image1.png",
+        "pixels": [
+          3600,
+          1909
+        ],
+        "dpi_efetivos": 601.578947368421
+      },
+      {
+        "arquivo": "word/media/image2.png",
+        "pixels": [
+          3600,
+          2015
+        ],
+        "dpi_efetivos": 601.578947368421
+      }
+    ],
+    "imagens_bitmap_pdf": 0,
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
-    "sha256_docx": "413f9614fc7ecefd75575a34757fd63a062f0861c458072771ed6ba76a21ab44",
+    "sha256_docx": "9f4337335f03f0136b545f9e494b5cd8ab2c37206e076d676d81b3383752a1da",
+    "sha256_pdf": "f6c986a458ecc60b0efbe5c88d435fd93a49cb1cbd4cabc7a7692696fbd5f270",
     "paginas": 5,
-    "render_identico_ao_ja_inspecionado": false,
+    "equacoes": 3,
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "figuras_compatibilidade": [],
+    "imagens_bitmap_pdf": 0,
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
-    "sha256_docx": "4176a332cd9f341c3340a5066c95f3bfd50bd421bbf643008c4cfba19d295164",
-    "paginas": 5,
-    "render_identico_ao_ja_inspecionado": true,
+    "sha256_docx": "a0264c2a6f42be1487320a494a005dd0cb045441be1ab26446fdba1da60606b6",
+    "sha256_pdf": "c420858b58e8d37532e6299cc4ae09641982431072cd167a74e2cb11c3ba845e",
+    "paginas": 4,
+    "equacoes": 0,
+    "numeros_a_direita": [],
+    "figuras_compatibilidade": [],
+    "imagens_bitmap_pdf": 0,
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
     "glifos_substitutos_detectados": false
   },
   {
     "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
-    "sha256_docx": "3fb4721036e8773c271585de79b20a3c33518b7c36bdd8c9d413de267ff75462",
-    "paginas": 5,
-    "render_identico_ao_ja_inspecionado": true,
+    "sha256_docx": "3eb981ffd073aa6997f693ee75cff70beae85e8d2ed1afc32d5905d348041c67",
+    "sha256_pdf": "b3a9bea7303413fe6b0e65114efebfedc1668058b5fc2f94b022799ebe08c2b9",
+    "paginas": 4,
+    "equacoes": 0,
+    "numeros_a_direita": [],
+    "figuras_compatibilidade": [],
+    "imagens_bitmap_pdf": 0,
+    "corpo_pt": 12,
+    "fontes_ilustracoes_pt": 10,
+    "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
     "glifos_substitutos_detectados": false
   },
   {

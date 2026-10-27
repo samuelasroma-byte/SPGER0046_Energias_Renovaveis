@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def exportar(root=ROOT,gerar_pdf=True,gerar_beamer=True):
     root=Path(root)
-    required=['pandoc']+(['soffice'] if gerar_pdf else [])+(['xelatex','pdftocairo'] if gerar_beamer else [])
+    required=['pandoc','xelatex','pdftocairo']+(['soffice'] if gerar_pdf else [])
     missing=[p for p in required if not shutil.which(p)]
     if missing:raise RuntimeError('Instale os executáveis: '+', '.join(missing)+'. Em Debian/Colab: apt-get install pandoc libreoffice-writer texlive-xetex texlive-latex-extra fonts-urw-base35 poppler-utils')
     from editar_manuscritos import run as manuscritos

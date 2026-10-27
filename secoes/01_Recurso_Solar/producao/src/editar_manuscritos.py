@@ -230,6 +230,8 @@ def run():
     oral+=refs;(ROOT/'apresentacao/Roteiro_Oral_6_Slides.md').write_text(oral)
     pandoc_doc(ROOT/'apresentacao/Roteiro_Oral_6_Slides.md',ROOT/'apresentacao/Roteiro_Oral_6_Slides.docx',one)
     pandoc_doc(ROOT/'documentacao/Conferencia_Cientifica_39_Evidencias.md',ROOT/'documentacao/Conferencia_Cientifica_39_Evidencias.docx',one)
+    from padronizar_manuscritos import run as padronizar
+    padronizar(root=ROOT)
     return [one,*individual,M/'Secao_01_Integrada.docx',ROOT/'apresentacao/Roteiro_Oral_6_Slides.docx']
 if __name__=='__main__':
     print('\n'.join(str(p) for p in run()))

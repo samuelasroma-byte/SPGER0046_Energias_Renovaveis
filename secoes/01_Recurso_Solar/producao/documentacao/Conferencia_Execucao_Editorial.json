@@ -1,0 +1,26 @@
+{
+  "execucao": "editorial seletiva concluída",
+  "celulas": [
+    1,
+    9,
+    10
+  ],
+  "saidas_anteriores_preservadas": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "integridade_cientifica_e_slides": {
+    "resultados/G01_dados_verificados.csv": "14b097e2dec04d67822cdfc8010784702067ce32a7e37f0f9fe6d155d1691c0b",
+    "resultados/Conferencia_Calculos.json": "abb4150ff74bded3c5605d8131ed36f2d9abfe32ffbc843d9695e0d6014c518b",
+    "resultados/Conferencia_Relacoes_Fisicas.json": "b3553628f0c587edb87cba082284819307ad60c310e1eac5415edacf3536118a",
+    "bibliografia/Matriz_Evidencias.json": "41cdf631158dc247d8342e747c2c8c87dd26f56e79409a67afe1ed38aeb9fb2d",
+    "bibliografia/Matriz_Evidencias.csv": "dd72714eb701957841af1f3f60c652a345fd79fc13b7726b62b3c4ce2822c928",
+    "apresentacao/Subsecao_1_1_Alto_Contraste.pptx": "8fd33b55759538f79b9ad793d18ba36ed3b39915f322c23a204f0ac68713eb88",
+    "apresentacao/Apresentacao_Coletiva_29_10_2026.pptx": "a0f302f51ca4894d4f7a551682f9c9e3fa51e6b640df28e8171f9c5dfd345815"
+  }
+}
