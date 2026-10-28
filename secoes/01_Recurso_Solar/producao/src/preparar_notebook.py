@@ -24,7 +24,7 @@ def build():
       'bibliografia/Selecao_Critica.json','bibliografia/Status_Revisao.json','bibliografia/Protocolo_Bibliometrico_Herdado.json',
       'bibliografia/Obras_Prioritarias_Herdadas.csv',
       'src/confrontar_evidencias.py','src/finalizar_confronto.py','src/verificar_relacoes_fisicas.py','src/exportar_editorial.py',
-      'src/editar_manuscritos.py','src/padronizar_manuscritos.py','src/preparar_slides.py','bibliografia/Confronto_Cientifico_39_Evidencias.json',
+      'src/editar_manuscritos.py','src/padronizar_manuscritos.py','src/revisao_tipografica.py','src/preparar_slides.py','bibliografia/Confronto_Cientifico_39_Evidencias.json',
       'figuras/D01_geometria.tex','figuras/G01_recurso_geometria_claro.pdf',
       'bibliografia/Referencias_Verificadas.md','insumos/Base_Manuscrito_1_1.docx','apresentacao/Conteudo_6_Slides.json',
       'documentacao/Conferencia_Cientifica_39_Evidencias.md',

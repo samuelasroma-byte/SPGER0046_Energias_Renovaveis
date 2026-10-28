@@ -104,7 +104,7 @@ def assets():
 def substituir_por_vetor(doc,p,stem,title):
     p.clear();p.paragraph_format.first_line_indent=Cm(0);p.alignment=WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.line_spacing=1;p.paragraph_format.space_after=Pt(0);p.paragraph_format.keep_with_next=True
-    shape=p.add_run().add_picture(str(stem.with_suffix('.png')),width=Cm(15.2))
+    shape=p.add_run().add_picture(str(stem.with_suffix('.png')),width=Cm(13.5))
     shape._inline.docPr.set('descr',title);shape._inline.docPr.set('title',title)
     partname=doc.part.package.next_partname('/word/media/figura_vetorial%d.svg')
     svgpart=Part(partname,'image/svg+xml',stem.with_suffix('.svg').read_bytes(),doc.part.package)
@@ -133,7 +133,7 @@ def figures(doc,stems):
             body=title.insert_paragraph_before('A Figura 1 reúne o corte vertical e a vista em planta dessas convenções.')
             formatar_texto(body,12,WD_ALIGN_PARAGRAPH.JUSTIFY);body.paragraph_format.keep_with_next=True
         im=Image.open(stems[i].with_suffix('.png'))
-        result.append({'figura':i+1,'titulo':titles[i],'vetor':stems[i].with_suffix('.svg').name,'png_px':list(im.size),'largura_inserida_cm':15.2,'dpi_efetivo_horizontal':im.width/(15.2/2.54),'svg_sha256':digest(stems[i].with_suffix('.svg'))})
+        result.append({'figura':i+1,'titulo':titles[i],'vetor':stems[i].with_suffix('.svg').name,'png_px':list(im.size),'largura_inserida_cm':13.5,'dpi_efetivo_horizontal':im.width/(13.5/2.54),'svg_sha256':digest(stems[i].with_suffix('.svg'))})
     # Os detalhes metodológicos permanecem no corpo, não na linha de fonte.
     for p in doc.paragraphs:
         for node in p._p.xpath('.//w:t'):
@@ -261,11 +261,11 @@ def quadros(doc):
                 cell.width=Cm(widths[ci]);cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
                 tcpr=cell._tc.get_or_add_tcPr();margins=tcpr.find(qn('w:tcMar'))
                 if margins is None:margins=OxmlElement('w:tcMar');tcpr.append(margins)
-                for edge,val in [('top',70),('bottom',70),('left',100),('right',100)]:
+                for edge,val in [('top',40),('bottom',40),('left',100),('right',100)]:
                     node=OxmlElement('w:'+edge);node.set(qn('w:w'),str(val));node.set(qn('w:type'),'dxa');margins.append(node)
                 for p in cell.paragraphs:
                     formatar_texto(p,12,WD_ALIGN_PARAGRAPH.CENTER)
-                    p.paragraph_format.first_line_indent=Cm(0);p.paragraph_format.line_spacing=1;p.paragraph_format.space_after=Pt(0)
+                    p.paragraph_format.first_line_indent=Cm(0);p.paragraph_format.line_spacing=1;p.paragraph_format.space_before=Pt(0);p.paragraph_format.space_after=Pt(0)
                     p.paragraph_format.keep_with_next=True
                     for r in p.runs:r.bold=ri==0
             if ri==0 and pr.find(qn('w:tblHeader')) is None:pr.append(OxmlElement('w:tblHeader'))
@@ -288,6 +288,8 @@ def run(root=ROOT):
             if p.text.startswith(('DELINE,','DRIESSE,','DUFFIE,','NOAA GLOBAL','PVLIB CONTRIBUTORS','REDA,','SENGUPTA,','TEIXEIRA,')):
                 p.alignment=WD_ALIGN_PARAGRAPH.LEFT;p.paragraph_format.line_spacing=1;p.paragraph_format.first_line_indent=Cm(-.6)
         f=figures(doc,stems);eq=numbering(doc,slug);q=quadros(doc)
+        from revisao_tipografica import aplicar_revisao_documento
+        revisao=aplicar_revisao_documento(doc)
         for section in doc.sections:
             for p in section.header.paragraphs:
                 for r in p.runs:r.font.size=Pt(10)
@@ -298,7 +300,7 @@ def run(root=ROOT):
         for rid,rel in list(doc.part.rels.items()):
             if rel.reltype==RT.IMAGE and rid not in live:doc.part.drop_rel(rid)
         doc.save(path)
-        reports.append({'arquivo':path.name,'corpo_pt':12,'fontes_ilustracoes_pt':10,'equacoes':eq,'figuras':f,'quadros':q,'sha256_docx':digest(path)})
+        reports.append({'arquivo':path.name,'corpo_pt':12,'fontes_ilustracoes_pt':10,'equacoes':eq,'figuras':f,'quadros':q,'revisao_tipografica':revisao,'sha256_docx':digest(path)})
     (root/'documentacao/Padronizacao_Editorial_Manuscritos.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2))
     (root/'documentacao/Catalogo_Equacoes_Manuscrito.json').write_text(json.dumps({r['arquivo']:r['equacoes'] for r in reports},ensure_ascii=False,indent=2))
     return reports

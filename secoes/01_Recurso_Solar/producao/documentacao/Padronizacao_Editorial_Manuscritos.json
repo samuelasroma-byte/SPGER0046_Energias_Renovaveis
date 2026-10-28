@@ -54,8 +54,8 @@
           3600,
           1909
         ],
-        "largura_inserida_cm": 15.2,
-        "dpi_efetivo_horizontal": 601.578947368421,
+        "largura_inserida_cm": 13.5,
+        "dpi_efetivo_horizontal": 677.3333333333333,
         "svg_sha256": "80988c6459ad9048a73e9eb3f973f33fce65fee8287e2cc9abaa2e2bea33bf20"
       },
       {
@@ -66,8 +66,8 @@
           3600,
           2015
         ],
-        "largura_inserida_cm": 15.2,
-        "dpi_efetivo_horizontal": 601.578947368421,
+        "largura_inserida_cm": 13.5,
+        "dpi_efetivo_horizontal": 677.3333333333333,
         "svg_sha256": "24dab4462c09220076bf2e420e61f16929d0f3feff14586b40410e5dd9e4b56b"
       }
     ],
@@ -83,11 +83,16 @@
           3
         ],
         "borda_pt": 1,
-        "fonte_pt": 10
+        "fonte_pt": 10,
+        "entrelinhas": "simples",
+        "espaco_antes_pt": 0,
+        "espaco_depois_pt": 0,
+        "margem_vertical_celula_pt": 2
       }
     ],
-    "sha256_docx": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
-    "ultima_revisao_alinhamento": "2026-10-28"
+    "sha256_docx": "f70694968c9ccae1742ab9bb76ea69bb15eaad4fe4c7734abc58407aacc2bbc7",
+    "ultima_revisao_alinhamento": "2026-10-28",
+    "revisao_tipografica": "2026-10-28; ver Revisao_Tipografica_20261028.json"
   },
   {
     "arquivo": "1_2_Grandezas_Radiometricas.docx",
@@ -132,11 +137,16 @@
           3
         ],
         "borda_pt": 1,
-        "fonte_pt": 10
+        "fonte_pt": 10,
+        "entrelinhas": "simples",
+        "espaco_antes_pt": 0,
+        "espaco_depois_pt": 0,
+        "margem_vertical_celula_pt": 2
       }
     ],
-    "sha256_docx": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
-    "ultima_revisao_alinhamento": "2026-10-28"
+    "sha256_docx": "a2f2265ce7157e395a591719e6cc678fcd525dbffd17894a1f4967d1564fd1ed",
+    "ultima_revisao_alinhamento": "2026-10-28",
+    "revisao_tipografica": "2026-10-28; ver Revisao_Tipografica_20261028.json"
   },
   {
     "arquivo": "1_3_Modulacao_Atmosferica.docx",
@@ -145,7 +155,8 @@
     "equacoes": [],
     "figuras": [],
     "quadros": [],
-    "sha256_docx": "a0264c2a6f42be1487320a494a005dd0cb045441be1ab26446fdba1da60606b6"
+    "sha256_docx": "800867c35a2cf246b1eebcf0daa9c257c9350e63e669660194bf1d8bbed0c5ec",
+    "revisao_tipografica": "2026-10-28; ver Revisao_Tipografica_20261028.json"
   },
   {
     "arquivo": "1_4_Medicao_e_Estimativa.docx",
@@ -154,7 +165,8 @@
     "equacoes": [],
     "figuras": [],
     "quadros": [],
-    "sha256_docx": "3eb981ffd073aa6997f693ee75cff70beae85e8d2ed1afc32d5905d348041c67"
+    "sha256_docx": "35a7a492568cd8b62cbb87be30734d082b65e4e326cea066d17fa297a826ba8d",
+    "revisao_tipografica": "2026-10-28; ver Revisao_Tipografica_20261028.json"
   },
   {
     "arquivo": "Secao_01_Integrada.docx",
@@ -235,8 +247,8 @@
           3600,
           1909
         ],
-        "largura_inserida_cm": 15.2,
-        "dpi_efetivo_horizontal": 601.578947368421,
+        "largura_inserida_cm": 13.5,
+        "dpi_efetivo_horizontal": 677.3333333333333,
         "svg_sha256": "80988c6459ad9048a73e9eb3f973f33fce65fee8287e2cc9abaa2e2bea33bf20"
       },
       {
@@ -247,8 +259,8 @@
           3600,
           2015
         ],
-        "largura_inserida_cm": 15.2,
-        "dpi_efetivo_horizontal": 601.578947368421,
+        "largura_inserida_cm": 13.5,
+        "dpi_efetivo_horizontal": 677.3333333333333,
         "svg_sha256": "24dab4462c09220076bf2e420e61f16929d0f3feff14586b40410e5dd9e4b56b"
       }
     ],
@@ -264,7 +276,11 @@
           3
         ],
         "borda_pt": 1,
-        "fonte_pt": 10
+        "fonte_pt": 10,
+        "entrelinhas": "simples",
+        "espaco_antes_pt": 0,
+        "espaco_depois_pt": 0,
+        "margem_vertical_celula_pt": 2
       },
       {
         "quadro": 2,
@@ -277,10 +293,15 @@
           3
         ],
         "borda_pt": 1,
-        "fonte_pt": 10
+        "fonte_pt": 10,
+        "entrelinhas": "simples",
+        "espaco_antes_pt": 0,
+        "espaco_depois_pt": 0,
+        "margem_vertical_celula_pt": 2
       }
     ],
-    "sha256_docx": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
-    "ultima_revisao_alinhamento": "2026-10-28"
+    "sha256_docx": "46dd069bae00939270be86997b2741870776a3bdaedc37108b652a111086cd18",
+    "ultima_revisao_alinhamento": "2026-10-28",
+    "revisao_tipografica": "2026-10-28; ver Revisao_Tipografica_20261028.json"
   }
 ]

@@ -2,25 +2,46 @@
   {
     "id": "1596bz1FmcC3qc9YQnKjypAd2QY-vz384",
     "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
-    "bytes": 454888,
-    "sha256": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
+    "bytes": 455157,
+    "sha256": "f70694968c9ccae1742ab9bb76ea69bb15eaad4fe4c7734abc58407aacc2bbc7",
     "releitura_remota_identica": true,
-    "data": "2026-10-28"
+    "data": "2026-10-28",
+    "revisao": "tipografia, entrelinhas e figuras menores"
   },
   {
     "id": "1ch2mmmQIahSexHmIFmxOaVD4EhSflaR7",
     "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
-    "bytes": 17020,
-    "sha256": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
+    "bytes": 17172,
+    "sha256": "a2f2265ce7157e395a591719e6cc678fcd525dbffd17894a1f4967d1564fd1ed",
     "releitura_remota_identica": true,
-    "data": "2026-10-28"
+    "data": "2026-10-28",
+    "revisao": "tipografia, entrelinhas e figuras menores"
+  },
+  {
+    "id": "1nH5zaefOMEAU436TJjdnzzRRUTpBqBo1",
+    "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
+    "bytes": 14868,
+    "sha256": "800867c35a2cf246b1eebcf0daa9c257c9350e63e669660194bf1d8bbed0c5ec",
+    "releitura_remota_identica": true,
+    "data": "2026-10-28",
+    "revisao": "tipografia, entrelinhas e figuras menores"
+  },
+  {
+    "id": "1YbItmgm8orr_Qjpg88uUxyW9DExoSsys",
+    "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
+    "bytes": 15361,
+    "sha256": "35a7a492568cd8b62cbb87be30734d082b65e4e326cea066d17fa297a826ba8d",
+    "releitura_remota_identica": true,
+    "data": "2026-10-28",
+    "revisao": "tipografia, entrelinhas e figuras menores"
   },
   {
     "id": "10qwG_IAwjDNHj6yCGX763CRh7aIG3zy1",
     "arquivo": "manuscritos/Secao_01_Integrada.docx",
-    "bytes": 467343,
-    "sha256": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
+    "bytes": 468016,
+    "sha256": "46dd069bae00939270be86997b2741870776a3bdaedc37108b652a111086cd18",
     "releitura_remota_identica": true,
-    "data": "2026-10-28"
+    "data": "2026-10-28",
+    "revisao": "tipografia, entrelinhas e figuras menores"
   }
 ]

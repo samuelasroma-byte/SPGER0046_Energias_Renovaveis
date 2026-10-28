@@ -1,8 +1,8 @@
 [
   {
     "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
-    "sha256_docx": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
-    "sha256_pdf": "8636d11982f1bdcf86f12d78375339261dfdb97482028e264959546e6b3bb832",
+    "sha256_docx": "f70694968c9ccae1742ab9bb76ea69bb15eaad4fe4c7734abc58407aacc2bbc7",
+    "sha256_pdf": "83a2b48958005a796b945bba19abc0779357fde8886a1f8f2085fc22ba7ac23e",
     "paginas": 9,
     "equacoes": 5,
     "numeros_a_direita": [
@@ -60,12 +60,19 @@
       2,
       3
     ],
-    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros"
+    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros",
+    "ocorrencias_et_al_em_italico": 6,
+    "figuras_largura_cm": [
+      13.5,
+      13.5
+    ],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
   },
   {
     "arquivo": "manuscritos/Secao_01_Integrada.docx",
-    "sha256_docx": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
-    "sha256_pdf": "03494a3383a44a08d5980a6edf72f32cf024e762e7994ed19508f60a38ab29ef",
+    "sha256_docx": "46dd069bae00939270be86997b2741870776a3bdaedc37108b652a111086cd18",
+    "sha256_pdf": "a4be6c24633d9eabcd7bb36feabd2e2430ea9d505176171850596767c1b2339f",
     "paginas": 19,
     "equacoes": 8,
     "numeros_a_direita": [
@@ -138,12 +145,19 @@
       2,
       3
     ],
-    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros"
+    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros",
+    "ocorrencias_et_al_em_italico": 32,
+    "figuras_largura_cm": [
+      13.5,
+      13.5
+    ],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
   },
   {
     "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
-    "sha256_docx": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
-    "sha256_pdf": "6f33bbc7196bdfbb71e982ff3936e27ff54af2dbd1e3ff1fe73622a9b7766852",
+    "sha256_docx": "a2f2265ce7157e395a591719e6cc678fcd525dbffd17894a1f4967d1564fd1ed",
+    "sha256_pdf": "725f02f535448fc7b7baa3c416334ef41d3d4183ff5a3381f6a7a1fcff40a668",
     "paginas": 5,
     "equacoes": 3,
     "numeros_a_direita": [
@@ -174,12 +188,16 @@
       2,
       3
     ],
-    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros"
+    "conferencia_alinhamento": "2026-10-28; comparação de todas as páginas e inspeção das quatro páginas de quadros",
+    "ocorrencias_et_al_em_italico": 9,
+    "figuras_largura_cm": [],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
   },
   {
     "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
-    "sha256_docx": "a0264c2a6f42be1487320a494a005dd0cb045441be1ab26446fdba1da60606b6",
-    "sha256_pdf": "c420858b58e8d37532e6299cc4ae09641982431072cd167a74e2cb11c3ba845e",
+    "sha256_docx": "800867c35a2cf246b1eebcf0daa9c257c9350e63e669660194bf1d8bbed0c5ec",
+    "sha256_pdf": "a8302fc1c474fec22f06469ab3d0859d6d4f3cb8b97291f16c5a79daaec608bb",
     "paginas": 4,
     "equacoes": 0,
     "numeros_a_direita": [],
@@ -188,12 +206,16 @@
     "corpo_pt": 12,
     "fontes_ilustracoes_pt": 10,
     "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
-    "glifos_substitutos_detectados": false
+    "glifos_substitutos_detectados": false,
+    "ocorrencias_et_al_em_italico": 11,
+    "figuras_largura_cm": [],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
   },
   {
     "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
-    "sha256_docx": "3eb981ffd073aa6997f693ee75cff70beae85e8d2ed1afc32d5905d348041c67",
-    "sha256_pdf": "b3a9bea7303413fe6b0e65114efebfedc1668058b5fc2f94b022799ebe08c2b9",
+    "sha256_docx": "35a7a492568cd8b62cbb87be30734d082b65e4e326cea066d17fa297a826ba8d",
+    "sha256_pdf": "f184298741861a871ad0f7ddbc25c3bf2ada525329f7daf4a4c583d0246fadd3",
     "paginas": 4,
     "equacoes": 0,
     "numeros_a_direita": [],
@@ -202,7 +224,11 @@
     "corpo_pt": 12,
     "fontes_ilustracoes_pt": 10,
     "inspecao_visual": "todas as páginas; reinspeção dos elementos alterados após ajustes finais",
-    "glifos_substitutos_detectados": false
+    "glifos_substitutos_detectados": false,
+    "ocorrencias_et_al_em_italico": 12,
+    "figuras_largura_cm": [],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
   },
   {
     "arquivo": "apresentacao/Roteiro_Oral_6_Slides.docx",

@@ -1,0 +1,146 @@
+[
+  {
+    "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
+    "sha256_docx": "f70694968c9ccae1742ab9bb76ea69bb15eaad4fe4c7734abc58407aacc2bbc7",
+    "sha256_pdf": "83a2b48958005a796b945bba19abc0779357fde8886a1f8f2085fc22ba7ac23e",
+    "paginas": 9,
+    "ocorrencias_et_al_em_italico": 6,
+    "figuras_largura_cm": [
+      13.5,
+      13.5
+    ],
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 3,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 4,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 5,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
+  },
+  {
+    "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "sha256_docx": "a2f2265ce7157e395a591719e6cc678fcd525dbffd17894a1f4967d1564fd1ed",
+    "sha256_pdf": "725f02f535448fc7b7baa3c416334ef41d3d4183ff5a3381f6a7a1fcff40a668",
+    "paginas": 5,
+    "ocorrencias_et_al_em_italico": 9,
+    "figuras_largura_cm": [],
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 1,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
+  },
+  {
+    "arquivo": "manuscritos/1_3_Modulacao_Atmosferica.docx",
+    "sha256_docx": "800867c35a2cf246b1eebcf0daa9c257c9350e63e669660194bf1d8bbed0c5ec",
+    "sha256_pdf": "a8302fc1c474fec22f06469ab3d0859d6d4f3cb8b97291f16c5a79daaec608bb",
+    "paginas": 4,
+    "ocorrencias_et_al_em_italico": 11,
+    "figuras_largura_cm": [],
+    "numeros_a_direita": [],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
+  },
+  {
+    "arquivo": "manuscritos/1_4_Medicao_e_Estimativa.docx",
+    "sha256_docx": "35a7a492568cd8b62cbb87be30734d082b65e4e326cea066d17fa297a826ba8d",
+    "sha256_pdf": "f184298741861a871ad0f7ddbc25c3bf2ada525329f7daf4a4c583d0246fadd3",
+    "paginas": 4,
+    "ocorrencias_et_al_em_italico": 12,
+    "figuras_largura_cm": [],
+    "numeros_a_direita": [],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
+  },
+  {
+    "arquivo": "manuscritos/Secao_01_Integrada.docx",
+    "sha256_docx": "46dd069bae00939270be86997b2741870776a3bdaedc37108b652a111086cd18",
+    "sha256_pdf": "a4be6c24633d9eabcd7bb36feabd2e2430ea9d505176171850596767c1b2339f",
+    "paginas": 19,
+    "ocorrencias_et_al_em_italico": 32,
+    "figuras_largura_cm": [
+      13.5,
+      13.5
+    ],
+    "numeros_a_direita": [
+      {
+        "numero": 1,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 2,
+        "pagina": 2,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 3,
+        "pagina": 3,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 4,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 5,
+        "pagina": 4,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 6,
+        "pagina": 9,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 7,
+        "pagina": 9,
+        "x_direita_pt": 538.75
+      },
+      {
+        "numero": 8,
+        "pagina": 10,
+        "x_direita_pt": 538.75
+      }
+    ],
+    "entrelinhas_quadros": "simples; antes/depois zero; margens verticais de célula 2 pt",
+    "visual": "todas as páginas renderizadas e inspecionadas; sem sobreposição ou perda de legibilidade"
+  }
+]
