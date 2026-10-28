@@ -2,15 +2,25 @@
   {
     "id": "1596bz1FmcC3qc9YQnKjypAd2QY-vz384",
     "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
-    "bytes": 454900,
-    "sha256": "36de168c306f6f018e0140078068dfe89055bf22947368bf79c4eacede1473ac",
-    "releitura_remota_identica": true
+    "bytes": 454888,
+    "sha256": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
+    "releitura_remota_identica": true,
+    "data": "2026-10-28"
+  },
+  {
+    "id": "1ch2mmmQIahSexHmIFmxOaVD4EhSflaR7",
+    "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "bytes": 17020,
+    "sha256": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
+    "releitura_remota_identica": true,
+    "data": "2026-10-28"
   },
   {
     "id": "10qwG_IAwjDNHj6yCGX763CRh7aIG3zy1",
     "arquivo": "manuscritos/Secao_01_Integrada.docx",
-    "bytes": 467376,
-    "sha256": "a35daf81fa1e35a552c9e910a7567d7a223d0aa81614f4b6292dacfe9096f1a0",
-    "releitura_remota_identica": true
+    "bytes": 467343,
+    "sha256": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
+    "releitura_remota_identica": true,
+    "data": "2026-10-28"
   }
 ]

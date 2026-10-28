@@ -79,14 +79,15 @@
         "centralizado": true,
         "colunas_centralizadas": [
           1,
+          2,
           3
         ],
-        "coluna_textual_alinhada_esquerda": 2,
         "borda_pt": 1,
         "fonte_pt": 10
       }
     ],
-    "sha256_docx": "36de168c306f6f018e0140078068dfe89055bf22947368bf79c4eacede1473ac"
+    "sha256_docx": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
+    "ultima_revisao_alinhamento": "2026-10-28"
   },
   {
     "arquivo": "1_2_Grandezas_Radiometricas.docx",
@@ -127,14 +128,15 @@
         "centralizado": true,
         "colunas_centralizadas": [
           1,
+          2,
           3
         ],
-        "coluna_textual_alinhada_esquerda": 2,
         "borda_pt": 1,
         "fonte_pt": 10
       }
     ],
-    "sha256_docx": "9f4337335f03f0136b545f9e494b5cd8ab2c37206e076d676d81b3383752a1da"
+    "sha256_docx": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
+    "ultima_revisao_alinhamento": "2026-10-28"
   },
   {
     "arquivo": "1_3_Modulacao_Atmosferica.docx",
@@ -258,9 +260,9 @@
         "centralizado": true,
         "colunas_centralizadas": [
           1,
+          2,
           3
         ],
-        "coluna_textual_alinhada_esquerda": 2,
         "borda_pt": 1,
         "fonte_pt": 10
       },
@@ -271,13 +273,14 @@
         "centralizado": true,
         "colunas_centralizadas": [
           1,
+          2,
           3
         ],
-        "coluna_textual_alinhada_esquerda": 2,
         "borda_pt": 1,
         "fonte_pt": 10
       }
     ],
-    "sha256_docx": "a35daf81fa1e35a552c9e910a7567d7a223d0aa81614f4b6292dacfe9096f1a0"
+    "sha256_docx": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
+    "ultima_revisao_alinhamento": "2026-10-28"
   }
 ]

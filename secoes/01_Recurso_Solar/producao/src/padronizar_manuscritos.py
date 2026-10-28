@@ -264,12 +264,12 @@ def quadros(doc):
                 for edge,val in [('top',70),('bottom',70),('left',100),('right',100)]:
                     node=OxmlElement('w:'+edge);node.set(qn('w:w'),str(val));node.set(qn('w:type'),'dxa');margins.append(node)
                 for p in cell.paragraphs:
-                    formatar_texto(p,12,WD_ALIGN_PARAGRAPH.CENTER if ci in [0,2] else WD_ALIGN_PARAGRAPH.LEFT)
+                    formatar_texto(p,12,WD_ALIGN_PARAGRAPH.CENTER)
                     p.paragraph_format.first_line_indent=Cm(0);p.paragraph_format.line_spacing=1;p.paragraph_format.space_after=Pt(0)
                     p.paragraph_format.keep_with_next=True
                     for r in p.runs:r.bold=ri==0
             if ri==0 and pr.find(qn('w:tblHeader')) is None:pr.append(OxmlElement('w:tblHeader'))
-        results.append({'quadro':i,'titulo':title,'largura_cm':15.2,'centralizado':True,'colunas_centralizadas':[1,3],'coluna_textual_alinhada_esquerda':2,'borda_pt':1,'fonte_pt':10})
+        results.append({'quadro':i,'titulo':title,'largura_cm':15.2,'centralizado':True,'colunas_centralizadas':[1,2,3],'borda_pt':1,'fonte_pt':10})
     return results
 
 def run(root=ROOT):

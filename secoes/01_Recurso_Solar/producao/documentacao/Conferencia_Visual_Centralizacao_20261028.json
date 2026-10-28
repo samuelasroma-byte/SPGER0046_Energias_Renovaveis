@@ -1,0 +1,65 @@
+[
+  {
+    "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
+    "paginas": 9,
+    "paginas_identicas": 8,
+    "alteracoes_visuais": [
+      {
+        "pagina": 8,
+        "regiao_alterada_px": [
+          420,
+          286,
+          925,
+          844
+        ]
+      }
+    ],
+    "sha256_docx": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15",
+    "sha256_pdf": "8636d11982f1bdcf86f12d78375339261dfdb97482028e264959546e6b3bb832"
+  },
+  {
+    "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "paginas": 5,
+    "paginas_identicas": 4,
+    "alteracoes_visuais": [
+      {
+        "pagina": 4,
+        "regiao_alterada_px": [
+          465,
+          285,
+          1013,
+          771
+        ]
+      }
+    ],
+    "sha256_docx": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91",
+    "sha256_pdf": "6f33bbc7196bdfbb71e982ff3936e27ff54af2dbd1e3ff1fe73622a9b7766852"
+  },
+  {
+    "arquivo": "manuscritos/Secao_01_Integrada.docx",
+    "paginas": 19,
+    "paginas_identicas": 17,
+    "alteracoes_visuais": [
+      {
+        "pagina": 8,
+        "regiao_alterada_px": [
+          420,
+          286,
+          925,
+          844
+        ]
+      },
+      {
+        "pagina": 11,
+        "regiao_alterada_px": [
+          465,
+          978,
+          1013,
+          1464
+        ]
+      }
+    ],
+    "sha256_docx": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9",
+    "sha256_pdf": "03494a3383a44a08d5980a6edf72f32cf024e762e7994ed19508f60a38ab29ef"
+  }
+]

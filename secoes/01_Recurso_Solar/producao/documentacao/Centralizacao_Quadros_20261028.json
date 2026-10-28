@@ -1,0 +1,32 @@
+[
+  {
+    "arquivo": "manuscritos/1_1_Geometria_Solar.docx",
+    "quadros": 1,
+    "paragrafos_centralizados": 9,
+    "unica_alteracao": "alinhamento da segunda coluna dos quadros",
+    "partes_alteradas": [
+      "word/document.xml"
+    ],
+    "sha256_docx": "a9503ac606ccd2efff6a748bbfc0e121869ee9f4dc84dfdaf008ee29ffb16c15"
+  },
+  {
+    "arquivo": "manuscritos/1_2_Grandezas_Radiometricas.docx",
+    "quadros": 1,
+    "paragrafos_centralizados": 8,
+    "unica_alteracao": "alinhamento da segunda coluna dos quadros",
+    "partes_alteradas": [
+      "word/document.xml"
+    ],
+    "sha256_docx": "9a6d40476ddf14fe77cb4f03b36311b8f9e807d01c4f1bd6f111d19258efab91"
+  },
+  {
+    "arquivo": "manuscritos/Secao_01_Integrada.docx",
+    "quadros": 2,
+    "paragrafos_centralizados": 17,
+    "unica_alteracao": "alinhamento da segunda coluna dos quadros",
+    "partes_alteradas": [
+      "word/document.xml"
+    ],
+    "sha256_docx": "719e617e02bc68c5efcbb19d66ad19358ba76baaca71a08edd54349adef426f9"
+  }
+]
